@@ -23,22 +23,26 @@ A complex embedded BI platform requiring:
 
 ## Technical Reality Check
 
-### "AI" Capabilities - The Truth
+### "AI" Capabilities - The 2025 Truth
+
 **What they have**:
-- ARIMA/SARIMA forecasting (1970s statistics)
-- Basic clustering algorithms
-- Natural language to SQL conversion
-- Statistical trend lines
+- **Simply Ask**: Template-based NLP (being phased out)
+- **Analytics Assistant**: GenAI chat in beta (8-14 weeks to implement)
+- **Basic ML**: ARIMA forecasting, regression, outlier detection
+- **Dashboard Context Only**: Can't query across enterprise
 
-**What's missing**:
-- ❌ Investigation engine
-- ❌ Root cause analysis
-- ❌ Anomaly detection
-- ❌ Pattern discovery
-- ❌ Multi-hypothesis testing
-- ❌ Modern ML algorithms
+**What's critically missing**:
+- ❌ **Multi-probe investigation**: No hypothesis testing
+- ❌ **Conversation memory**: Each query independent
+- ❌ **Cross-dataset reasoning**: Dashboard silos only
+- ❌ **Interactive outputs**: Static visualizations
+- ❌ **Excel integration**: No spreadsheet interface
 
-**Telling Quote**: "AI-agnostic architecture" = We don't have AI, so bring your own
+**The AI Reality Check**:
+- **Sisense**: "Show me sales trend" → Chart
+- **Scoop**: "Why did sales drop?" → 5-probe investigation → Root cause → Excel model
+
+**Telling Quote**: "AI-agnostic architecture" = We don't have real AI, so bring your own
 
 ### Implementation Nightmare
 - **Timeline**: 14+ weeks typical (not "effortless")

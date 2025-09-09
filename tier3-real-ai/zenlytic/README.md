@@ -13,7 +13,7 @@ Zenlytic positions itself as "self-serve analytics for business teams" but is ac
 ### Bottom Line vs Scoop
 - **They Say They Are**: "Self-serve analytics for business teams without SQL"
 - **They Actually Are**: YAML/SQL platform requiring data engineers
-- **Scoop Wins Because**: True self-service without code, real ML, 95% lower cost
+- **Scoop Wins Because**: Agentic analytics with Excel integration, true self-service, 95% lower cost
 
 ## Company Overview
 
@@ -49,6 +49,8 @@ Zenlytic positions itself as "self-serve analytics for business teams" but is ac
 - **SQL Required**: Complex SQL embedded throughout
 - **Git Workflow**: Changes require version control
 - **Engineering Dependency**: Cannot function without data team
+- **No Investigation**: Single queries, can't explore "why"
+- **Static Output**: No interactive models or Excel integration
 
 ### The YAML Configuration Reality
 
@@ -170,7 +172,11 @@ Translation: Even founders can't hide that it requires technical configuration.
 
 ### Key Differentiators
 - **Zenlytic**: Requires data team to pre-answer every possible question
-- **Scoop**: Answers any question immediately without configuration
+- **Scoop**: Agentic AI investigates autonomously, creates Excel models
+
+### The Paradigm Shift
+**Zenlytic**: Business users still blocked by technical barriers (YAML/SQL)
+**Scoop**: AI uses Excel as the universal interface - no code required
 
 ## Sales Battle Card
 
@@ -189,7 +195,7 @@ Translation: Even founders can't hide that it requires technical configuration.
 - "The Git workflow is complex"
 
 ### Winning Positioning
-"Zenlytic requires your data team to pre-configure every possible question in YAML files with embedded SQL. That's not self-service - that's just a different way to depend on engineers. Scoop lets business users ask any question immediately in Slack with zero configuration."
+"Zenlytic requires your data team to pre-configure every possible question in YAML files with embedded SQL. That's not self-service - that's just a different way to depend on engineers. Scoop delivers true agentic analytics that investigates problems autonomously and creates interactive Excel models - no configuration, no code, just insights."
 
 ### Objection Handling
 
@@ -249,7 +255,9 @@ They tried to solve the "business users can't write SQL" problem by creating a l
   - Checks product mix impact
   - Identifies correlated metrics
 - **Pattern Discovery**: Finds insights you didn't ask for
-- **3-10 Probe Analysis**: Deep investigation, not just queries
+- **3-10 Probe Analysis**: Deep investigation with dependencies
+- **Excel Output**: Creates interactive models with =SCOOP() functions
+- **Living Analytics**: Models update with fresh data automatically
 
 ### Business User Experience Comparison
 
@@ -267,10 +275,11 @@ They tried to solve the "business users can't write SQL" problem by creating a l
 1. **Question**: "Why did revenue drop last month?"
 2. **Reality**:
    - Scoop investigates immediately
-   - Tests 8 hypotheses
+   - Tests 8 hypotheses with probe dependencies
    - Discovers: New cohort has lower AOV
    - Identifies: Specific product category issue
-   - Suggests: Follow-up investigations
+   - Creates: Excel model tracking cohort performance
+   - Enables: User adjusts assumptions, model recalculates
    - Time: 45 seconds
 
 ### Why Eventbrite Should Choose Scoop
@@ -299,4 +308,8 @@ For Eventbrite's business users who need immediate insights across multiple syst
 
 ## Conclusion
 
-Zenlytic exemplifies the Tier 3 trap: sophisticated technology marketed to business users but accessible only through technical intermediaries. Their YAML/SQL semantic layer requirement ensures business users remain dependent on data teams, defeating the entire purpose of self-service analytics. While they may serve companies with existing data engineering resources, they offer nothing for the vast majority of businesses seeking true self-service analytics. Scoop's advantage is clear: real self-service without code, configuration, or engineering dependencies.
+Zenlytic exemplifies the Tier 3 trap: sophisticated technology marketed to business users but accessible only through technical intermediaries. Their YAML/SQL semantic layer requirement ensures business users remain dependent on data teams, defeating the entire purpose of self-service analytics.
+
+Scoop's advantage is clear: agentic analytics that investigates problems like a human analyst, delivered through the Excel interface everyone already knows. No YAML, no SQL, no Git - just intelligent analysis and interactive models at 95% lower cost.
+
+**The Bottom Line**: Zenlytic makes engineers more productive. Scoop makes business users independent.

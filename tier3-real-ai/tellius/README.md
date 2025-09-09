@@ -4,6 +4,8 @@
 
 Tellius represents a genuine AI-powered analytics platform with legitimate machine learning capabilities, automated root cause analysis, and sophisticated decision intelligence. However, it perfectly illustrates why even "real AI" fails to democratize analytics for business users.
 
+**Key Insight**: They have the AI but lack the interface revolution - still dashboard-centric, no Excel integration.
+
 ## Research Summary
 
 ### Key Findings:
@@ -13,6 +15,8 @@ Tellius represents a genuine AI-powered analytics platform with legitimate machi
    - Real root cause analysis with statistical rigor
    - Multiple ML algorithms (clustering, classification, forecasting)
    - Adaptive algorithm selection
+   - **BUT**: Single-query paradigm, no conversation memory
+   - **MISSING**: Excel as AI canvas, interactive model building
 
 2. **Enterprise Pricing Reality**
    - Premium: $1,495/month for 10 users
@@ -63,6 +67,8 @@ Tellius proves that **having real AI doesn't guarantee accessibility**. The plat
 3. **Feature overwhelm** (too many options)
 4. **High costs** limiting access
 5. **Training burden** exceeding user commitment
+6. **Dashboard Prison**: Must build visualizations before analyzing
+7. **No Excel Integration**: Can't leverage existing spreadsheet skills
 
 ### Success Requirements:
 - Large enterprise with $500M+ revenue
@@ -86,8 +92,17 @@ Tellius proves that **having real AI doesn't guarantee accessibility**. The plat
 - **Result**: Limited to large enterprises
 - **Opportunity**: Massive underserved market
 
+### Scoop's Advantage Over Tellius:
+1. **Agentic vs Query-Based**: Multi-turn investigations vs single-shot analysis
+2. **Excel Integration**: AI builds interactive models vs static dashboards
+3. **Conversation Memory**: Full context across sessions vs independent queries
+4. **Accessibility**: $299/month vs $100K+ annually
+5. **Zero Training**: Slack-native vs weeks of onboarding
+
 ## Conclusion
 
 Tellius is not an "AI pretender"—it has legitimate, sophisticated AI capabilities. However, it exemplifies why even real AI fails to empower business users. The platform's complexity, cost, and implementation requirements create insurmountable barriers for organizations seeking true self-service analytics.
 
-**The Ultimate Lesson**: In the analytics market, **accessibility beats capability**. A solution that delivers 80% of the insights with 20% of the complexity will capture the vast market that Tellius's sophistication excludes.
+**The Ultimate Lesson**: In the analytics market, **accessibility beats capability**. But Scoop proves you can have both - sophisticated agentic analytics delivered through the familiar Excel interface at a price everyone can afford.
+
+**The Paradigm Shift**: Tellius gives you AI that generates dashboards. Scoop gives you AI that builds interactive Excel models you can actually work with.

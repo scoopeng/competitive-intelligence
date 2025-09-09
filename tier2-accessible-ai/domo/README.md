@@ -216,28 +216,41 @@ Even large enterprises with Domo already deployed choose Scoop for daily analyti
 - Domo: Executive dashboards (pretty but static)
 - Scoop: Daily investigation and analysis (dynamic and intelligent)
 
-### The Investigation Gap
+### The Investigation Gap - AI Architecture Comparison
 
 **Scenario**: "Revenue dropped 15% last week - why?"
 
-**Domo Process**:
-1. Check revenue dashboard (see the drop)
-2. Check customer dashboard (looks normal)
-3. Check product dashboard (also normal)
-4. Ask BI team to investigate
-5. Wait 2-3 days for new dashboard
-6. Still just seeing symptoms, not causes
+**Domo AI Chat Process** (Query Translation):
+1. User: "Why did revenue drop 15%?"
+2. AI Chat: Shows SQL and generates chart of revenue trend
+3. User: "Break it down by customer segment"
+4. AI Chat: New query, new chart
+5. User: "Show by product"
+6. AI Chat: Another separate query
+7. Result: User must connect dots manually
 
-**Scoop Process**:
-1. Ask the question in Slack
-2. Scoop investigates automatically:
-   - Tests day-of-week patterns
-   - Analyzes customer segments
-   - Checks product mix shifts
-   - Identifies geographic changes
-   - Correlates with marketing events
-   - Finds root cause: "New customer cohort has 40% lower AOV"
-3. Total time: 45 seconds
+**Key Limitations**:
+- Each query independent (no memory)
+- No hypothesis testing
+- Can't use previous results
+- Shows HOW to query, not WHY things happened
+
+**Scoop Agentic Process** (Autonomous Investigation):
+1. User: "Why did revenue drop 15%?"
+2. Scoop AI creates investigation plan:
+   ```
+   Probe 1: Segment analysis
+   Probe 2: Deep dive worst segment (dependency on Probe 1)
+   Probe 3: Cohort behavior analysis  
+   Probe 4: Product mix correlation
+   Probe 5: External factor testing
+   ```
+3. Discovers: "New customer cohort from TikTok campaign has 40% lower AOV"
+4. Creates: Interactive Excel model to track cohort improvement
+
+**The Fundamental Difference**:
+- **Domo**: Translates questions to SQL (transparent but limited)
+- **Scoop**: Reasons through problems like an analyst (investigates autonomously)
 
 ## Bottom Line for Positioning
 

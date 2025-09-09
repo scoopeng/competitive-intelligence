@@ -13,7 +13,7 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 ### Bottom Line vs Scoop
 - **They Say They Are**: "AI-powered self-service analytics with natural language processing"
 - **They Actually Are**: Rule-based query tool requiring IT support that fails on basic language variations
-- **Scoop Wins Because**: Real ML models, true natural language understanding, no IT dependency, 98% lower TCO
+- **Scoop Wins Because**: True agentic analytics with investigation engine, interactive Excel models, no IT dependency, 98% lower TCO
 
 ## Company Overview
 
@@ -60,6 +60,10 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 - **No Classification**: ❌ Cannot categorize
 - **No Pattern Discovery**: ❌ Can't find hidden trends
 - **No Root Cause**: ❌ No investigation capability
+
+#### The "AI" Reality Check (2025)
+- **Qlik**: "Show me sales trend" → Chart (if field names match exactly)
+- **Scoop**: "Why did sales drop?" → 5-probe investigation → Root cause → Excel model for tracking
 
 #### Natural Language Processing Failures
 1. **Typos Break It**: "slaes" won't find "sales"
@@ -156,6 +160,13 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 7. **Wrong Result**: Gets employee names (matched "performed")
 8. **Gives Up**: Emails analyst for Excel report
 
+### What Happens with Scoop Instead
+1. **Day 1**: Marketing person in Slack: "analyze campaign performance"
+2. **Scoop AI**: Creates investigation plan testing multiple hypotheses
+3. **Discovers**: "Instagram campaigns have 3x ROI but 50% lower volume"
+4. **Creates**: Interactive Excel model with =SCOOP() functions to optimize mix
+5. **Result**: Marketing adjusts strategy immediately, tracks results in spreadsheet
+
 ### Why Business Users Abandon It
 1. **Too Many Errors**: Constant failures discourage use
 2. **IT Dependency**: Can't get answers independently
@@ -169,25 +180,30 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 
 | Capability | Qlik Insight Advisor | Scoop Reality |
 |------------|---------------------|---------------|
-| ML Models | ❌ None (rules only) | ✅ 4 models (cluster, predict, classify, time) |
-| Natural Language | ❌ Breaks on typos/plurals | ✅ Understands variations |
-| Pattern Discovery | ❌ No | ✅ Automatic discovery |
-| Root Cause | ❌ No | ✅ Multi-hypothesis testing |
-| Works in Slack | ❌ Broken/discontinued | ✅ Native Slack |
-| Self-Service | ❌ Needs IT constantly | ✅ True self-service |
-| Setup Time | ❌ Weeks of configuration | ✅ 30 seconds |
-| Reliability | ❌ Frequent errors | ✅ Consistent results |
-| Business Insights | ❌ Charts only | ✅ Actionable insights |
-| Cost | ❌ $340K+/year | ✅ $3,588/year |
+| **AI Architecture** | ❌ Rule-based matching | ✅ Agentic analytics with reasoning |
+| **Investigation** | ❌ Single queries only | ✅ Multi-probe with dependencies |
+| **ML Models** | ❌ None (rules only) | ✅ ML_GROUP, ML_RELATIONSHIP native |
+| **Natural Language** | ❌ Breaks on typos/plurals | ✅ Understands variations |
+| **Pattern Discovery** | ❌ No | ✅ Automatic discovery |
+| **Root Cause** | ❌ No | ✅ Multi-hypothesis testing |
+| **Interactive Output** | ❌ Static charts | ✅ Living Excel models |
+| **Works in Slack** | ❌ Broken/discontinued | ✅ Native Slack |
+| **Self-Service** | ❌ Needs IT constantly | ✅ True self-service |
+| **Setup Time** | ❌ Weeks of configuration | ✅ 30 seconds |
+| **Reliability** | ❌ Frequent errors | ✅ Consistent results |
+| **Business Insights** | ❌ Charts only | ✅ Actionable insights |
+| **Cost** | ❌ $340K+/year | ✅ $3,588/year |
 
 ### Scoop's Clear Advantages
 
-1. **Real AI That Works**: Discovers patterns, investigates causes
-2. **Natural Language**: Handles how people actually communicate
-3. **Zero IT Dependency**: Connect data and start asking
-4. **Slack-Native**: Analytics where work happens
-5. **Reliable Results**: Accurate insights every time
-6. **99% Lower TCO**: $299/month vs $28K+/month
+1. **Agentic Analytics Engine**: Multi-turn conversations with investigation plans, not rule matching
+2. **Deep Reasoning System**: 3-10 SQL probes testing hypotheses, finding root causes
+3. **Excel as AI Canvas**: AI creates interactive models with 120+ Excel functions
+4. **Natural Language**: Handles how people actually communicate
+5. **Zero IT Dependency**: Connect data and start asking
+6. **Slack-Native**: Analytics where work happens
+7. **Reliable Results**: Accurate insights every time
+8. **99% Lower TCO**: $299/month vs $28K+/month
 
 ## Evidence & Sources
 
@@ -226,7 +242,28 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 - "We don't really use that feature"
 
 ### Winning Positioning
-"Insight Advisor requires your IT team to maintain complex business logic that breaks whenever data changes. It can't even handle typos or plurals - your team has to type questions exactly right or get errors. Scoop uses real AI that understands natural language, discovers insights automatically, and works directly in Slack with zero IT involvement. One customer told us they spent months trying to make Insight Advisor work before switching to Scoop and getting value in 30 seconds."
+"Insight Advisor requires your IT team to maintain complex business logic that breaks whenever data changes. It can't even handle typos or plurals - your team has to type questions exactly right or get errors. Scoop delivers true agentic analytics that investigates problems like a human analyst - testing hypotheses, finding root causes, and creating interactive Excel models you can work with. One customer told us they spent months trying to make Insight Advisor work before switching to Scoop and getting value in 30 seconds."
+
+### The Investigation Gap
+**Scenario**: "Revenue dropped 15% last quarter - why?"
+
+**Qlik Process**:
+- Type: "revenue last quarter" (hoping fields match)
+- Error: "Invalid business logic"
+- Retype: "total_revenue Q4 2024"
+- Get: Chart showing the drop
+- Manual: Try different field combinations
+- Give up: Ask BI team to investigate
+
+**Scoop Process**:
+- Ask: "Why did revenue drop 15% last quarter?"
+- AI investigates autonomously:
+  - Tests customer segments
+  - Analyzes product mix changes  
+  - Checks seasonal patterns
+  - Correlates with marketing spend
+- Discovers: "Enterprise segment down 40% after competitor launched"
+- Creates: Excel model tracking competitive win-back campaigns
 
 ### Proof Points
 - Demo: Show typo tolerance and natural language
@@ -239,7 +276,9 @@ Qlik Insight Advisor claims to be an "AI-powered natural language analytics" sol
 
 Qlik Insight Advisor represents a failed attempt at "AI-powered analytics" that exemplifies why traditional BI vendors struggle with self-service. Despite marketing claims, it's a rule-based system with such poor language processing that it fails on typos and plurals, requires constant IT maintenance of complex "business logic," and delivers such unreliable results that professional consultants can't find a single company successfully using it.
 
-For business users seeking true self-service analytics, Scoop provides everything Insight Advisor promises but fails to deliver: real AI that understands natural language, discovers insights automatically, and works in Slack with zero IT dependency - all at 99% less cost.
+For business users seeking true self-service analytics, Scoop provides everything Insight Advisor promises but fails to deliver: agentic analytics that investigates problems autonomously, creates interactive Excel models instead of static charts, and works in Slack with zero IT dependency - all at 99% less cost.
+
+**The Paradigm Difference**: Qlik matches rules to generate charts. Scoop deploys AI agents that think, investigate, and build living analytical models using the Excel skills business users already have.
 
 ## Research Notes
 
