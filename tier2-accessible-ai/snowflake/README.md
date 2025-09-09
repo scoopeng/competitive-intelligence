@@ -206,11 +206,19 @@ Even when IT has connected both Snowflake Cortex and Scoop:
 ### Why Eventbrite Evaluates Both
 
 They recognize that even with Snowflake:
-- Business users need investigation, not just queries
-- Slack integration matters for adoption
-- Multi-source analysis still required
-- PowerPoint automation saves hours
-- True self-service beyond IT setup
+- **Need Real AI Investigation**: Cortex can't answer "why" - just "what"
+- **Multi-Turn Context**: Cortex has no conversation memory or probe dependencies
+- **Cross-Source Analysis**: Must migrate ALL data to Snowflake first
+- **Excel Users Abandoned**: No spreadsheet interface for analysts
+- **Static Results**: No living models users can interact with
+
+**The AI Capability Gap**:
+- **Snowflake**: Text → SQL → Result (single shot)
+- **Scoop**: Question → Investigation Plan → Multiple Probes → Synthesis → Interactive Model
+
+Example: "Why did conversion drop?"
+- **Snowflake**: ERROR or shows conversion rate
+- **Scoop**: Tests 5-8 hypotheses, finds root cause, creates model to track
 
 ## Bottom Line for Positioning
 

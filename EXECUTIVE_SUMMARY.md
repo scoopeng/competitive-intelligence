@@ -52,12 +52,14 @@
 ### Scoop's Unique Market Position
 
 **Only solution with ALL of**:
-1. **Investigation Engine**: 3-tier intelligence system that investigates, not just queries
-2. **Multi-Source Native**: Analyze across 20+ sources without ETL
-3. **Built-in ML Suite**: Clustering, predictions, relationships, pattern discovery
-4. **Zero Prerequisites**: No semantic models, YAML configs, or dashboards required
-5. **True Self-Service**: Business users independent from first question
-6. **Digital Data Analyst**: Thinks and reasons like a human analyst
+1. **Complete Excel Engine In-Memory**: 120+ functions, perfect compatibility, scales to 1M cells
+2. **Investigation Engine**: 3-tier intelligence system that investigates, not just queries
+3. **AI as Analytical Agents**: Natural language operates spreadsheets for users
+4. **Multi-Source Native**: Analyze across 20+ sources without ETL
+5. **Canvas-First Architecture**: Spatial thinking vs rigid dashboards
+6. **Zero Prerequisites**: No SQL, semantic models, or dashboards required
+
+**The Paradigm Shift**: We don't replace Excel - we make it the universal analytics interface
 
 ### Product Differentiators (Not Price)
 

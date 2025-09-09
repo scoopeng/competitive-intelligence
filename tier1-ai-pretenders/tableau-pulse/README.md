@@ -163,11 +163,26 @@ Tableau Pulse is Salesforce's attempt to add "AI analytics" to Tableau, but our 
 | Cost | ❌ $165K+ year 1 | ✅ $3,588/year |
 
 ### Scoop's Clear Advantages
-1. **Real AI**: Actual ML models that discover insights
-2. **Investigation Engine**: Asks why and finds answers
-3. **No Prerequisites**: Connect data and start asking
-4. **Slack-Native**: Full analytics in Slack, not just alerts
-5. **95% Lower TCO**: $299/month vs $850+/user/month
+1. **Real AI & Deep Reasoning**: 3-tier intelligence with multi-hypothesis testing
+2. **Investigation Engine**: 3-10 SQL probes to answer "why" questions
+3. **Excel-Native Analytics**: =SCOOP("why did sales drop?") works in any cell
+4. **No Prerequisites**: Connect data and start asking (no dashboards required)
+5. **Slack-Native**: Full analytics in Slack, not just alerts
+6. **95% Lower TCO**: $299/month vs $850+/user/month
+
+### The Excel User Reality
+
+**Tableau's Approach**: 
+- "Graduate from Excel to real BI"
+- Forces new interface and concepts
+- Breaks existing Excel workflows
+- 6-week training programs
+
+**Scoop's Approach**:
+- Excel users keep working in Excel/Sheets
+- =SCOOP() function brings AI into spreadsheets
+- Existing models and formulas keep working
+- Zero training for basic use
 
 ## Evidence & Sources
 

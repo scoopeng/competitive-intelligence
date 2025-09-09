@@ -210,28 +210,46 @@ Even when companies have both platforms available, users gravitate to Scoop for 
 | "Predict next month" | No predictive capability | ML forecasting built-in |
 | "Work from phone" | Limited mobile portal | Full Slack mobile |
 
+### The AI Architecture Gap
+
+**DataGPT's "AI"**:
+- Single-shot query optimization
+- No conversation memory
+- No multi-step reasoning
+- Static results users can't modify
+
+**Scoop's Agentic Analytics**:
+- **Multi-turn conversations** with full context
+- **Probe dependencies**: Later probes use earlier results
+- **ML-native queries**: ML_GROUP, ML_RELATIONSHIP built-in
+- **Living outputs**: AI builds interactive Excel models
+
 ### The Investigation Gap Example
 
 **Question**: "Customer churn increased 20% - why?"
 
-**DataGPT Process**:
+**DataGPT Process** (Manual Investigation):
 1. Query: "Show churn by month" (0.1 seconds)
 2. See the increase confirmed
-3. Query: "Show churn by segment" (0.1 seconds)
+3. Query: "Show churn by segment" (0.1 seconds) 
 4. Query: "Show churn by product" (0.1 seconds)
 5. Manual correlation attempts
-6. Still don't know why
+6. User must connect dots themselves
 
-**Scoop Process**:
+**Scoop Process** (Autonomous Investigation):
 1. Ask: "Why did churn increase 20%?"
-2. Automatic investigation launches:
-   - Analyzes cohort behaviors
-   - Checks support ticket patterns
-   - Correlates with product changes
-   - Identifies pricing impacts
-   - Tests seasonal patterns
-   - Discovers: "New onboarding flow has 40% higher day-7 drop"
-3. Total time: 45 seconds with full explanation
+2. AI creates investigation plan with dependencies:
+   ```
+   Probe 1: Segment churn rates
+   Probe 2: Deep dive worst segment (uses Probe 1 result)
+   Probe 3: Correlate with support tickets
+   Probe 4: Test pricing hypothesis
+   Probe 5: Check onboarding metrics
+   ```
+3. Discovers: "New onboarding flow has 40% higher day-7 drop"
+4. Creates Excel model to track fix progress
+
+**The Key Difference**: DataGPT gives you fast data. Scoop gives you answers and tools to fix problems.
 
 ### Why DataGPT Users Add Scoop
 

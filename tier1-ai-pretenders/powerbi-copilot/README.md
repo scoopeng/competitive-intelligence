@@ -228,12 +228,33 @@ Power BI Copilot is Microsoft's attempt to add "AI" to Power BI, but it's fundam
 - "We get formulas we can use" (they can't)
 
 ### Winning Positioning
-"Power BI Copilot helps your BI team write DAX formulas faster. But your sales and marketing teams still can't get answers without going through IT. Scoop lets business users ask questions directly in Slack and get actual insights - not formulas - in seconds. No training, no portals, no IT tickets. Just answers."
+"Power BI Copilot helps your BI team write DAX formulas faster. But your sales and marketing teams still can't get answers without going through IT. Scoop delivers revolutionary AI-powered advantages:
+
+1. **Agentic Analytics Engine**: Multi-turn conversations with context memory, not one-shot queries
+2. **Deep Reasoning System**: Investigates with 3-10 SQL probes testing multiple hypotheses
+3. **ML-Powered Discovery**: Clustering, predictions, relationships, anomaly detection built-in
+4. **Excel Enhancement**: Our AI operates through familiar spreadsheets via =SCOOP() - no Python scripts or SQL needed
+
+We're not just querying data - we're running intelligent investigations that discover WHY things happen."
+
+### The Excel Migration Trap
+
+**Power BI's Problem**:
+- Forces users to abandon Excel
+- "Import your Excel" → Breaks all formulas
+- New interface, new concepts, new failures
+- Result: Shadow IT as users go back to Excel
+
+**Scoop's Solution**:
+- Keep your Excel models intact
+- =SCOOP() adds AI to existing spreadsheets
+- Google Sheets integration preserves everything
+- Result: 100% adoption because nothing changes
 
 ### Proof Points
-- Live demo: Question in Slack → Insight in 30 seconds
-- Show clustering/prediction that Copilot can't do
-- Demonstrate multi-turn conversation with context
+- Live demo: =SCOOP("why did revenue drop?") in Excel
+- Show investigation engine finding root causes
+- Demonstrate Excel user doing complex analysis
 - Calculate TCO savings (97% lower)
 - Reference: "Even Microsoft's docs say it's for 'report authors'"
 

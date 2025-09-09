@@ -95,16 +95,29 @@ Scoop: Users create prompt → Becomes interactive dashboard component
 
 **Competitive Moat**: Others force users to abandon Excel - we embrace and enhance it
 
-## 6. Email as Universal API
+## 6. In-Memory Excel Execution Engine
 
-**Overlooked Advantage**: Email attachment ingestion for data updates
+**The Hidden Revolution**: Full Excel computation engine running in-memory
 
-**Real-World Impact**:
-- Field sales updates dashboard via email attachment from phone
-- Weekly reports automatically update by forwarding email
-- No VPN, no special apps, no IT involvement
+**What This Really Means**:
+- Users work with spreadsheet skills, not SQL
+- Complex data transformations using familiar formulas
+- Google Sheets integration with live computation
+- Excel becomes the interface to big data
 
-**Why It Matters**: Lowest friction data update method ever created
+**Deep Competitive Moat**:
+- Others force SQL or proprietary languages
+- We let millions of Excel users become data engineers
+- VLOOKUP experts become analytics experts overnight
+- Formulas they know work on data at scale
+
+**Why Competitors Can't Match**:
+- They positioned Excel as the enemy
+- Their architecture assumes SQL transformations
+- Would cannibalize their "data modeling" tools
+- Excel compatibility means admitting BI isn't enough
+
+**Business Impact**: Every Excel user is now a potential Scoop power user
 
 ## 7. The Governance Paradox Solution
 
@@ -157,14 +170,81 @@ Scoop: Everything in one place, interconnected
 
 **Result**: 30-second start for beginners, infinite depth for experts
 
+## The Agentic Analytics Revolution - True AI Investigation
+
+**What Sets Scoop Apart**: We built the industry's first true agentic analytics system
+
+**Our AI Capabilities**:
+1. **Multi-Turn Conversations with Memory**: Not one-shot queries but ongoing investigations
+2. **Deep Reasoning Engine**: 3-10 SQL probes testing multiple hypotheses automatically
+3. **Dependency-Aware Execution**: Probes reference previous results dynamically
+4. **ML-Native Operations**: ML_RELATIONSHIP, ML_GROUP, ML_CLUSTER built into queries
+5. **Intelligent Plan Generation**: AI creates investigation strategies, not just SQL
+
+**The Investigation Example**:
+```
+User: "Why did churn increase?"
+Traditional AI: Single SQL query showing churn rate
+Scoop AI:
+  - Probe 1: Analyze churn by segment
+  - Probe 2: Deep dive into worst segment (using Probe 1 results)
+  - Probe 3: Correlate with product changes
+  - Probe 4: Test pricing hypothesis
+  - Probe 5: Identify at-risk customers
+  - Synthesis: "Churn increased 15% due to pricing changes affecting SMB segment"
+```
+
+**Why Competitors Can't Match This**:
+- Requires purpose-built reasoning engine, not LLM wrapper
+- Complex probe dependency management
+- Years of prompt engineering for investigation patterns
+- Must handle failed probes gracefully and adapt
+
+## The Memsheet Advantage - How AI Becomes More Powerful
+
+**The Key Insight**: Our Excel engine makes AI MORE capable, not less technical
+
+**Traditional AI Analytics Limitations**:
+```python
+# Competitor approach - random Python scripts
+df = pd.read_sql(query)
+df['calculated_field'] = df['revenue'] * 1.1
+# User can't interact, modify, or understand
+```
+
+**Scoop's Approach**:
+```excel
+=SCOOP("calculate revenue projections")
+# AI creates interactive formulas users can modify
+# Complex multi-step logic visible and editable
+# Results update live as data changes
+```
+
+**Why Memsheet + AI is Revolutionary**:
+1. **Transparency**: Users see HOW calculations work, not black box
+2. **Interactivity**: Modify AI-generated analysis without re-prompting
+3. **Persistence**: Formulas keep working after AI conversation ends
+4. **Familiarity**: Results in Excel/Sheets format everyone understands
+
+**The Competitive Moat**:
+- Others: AI generates static Python/SQL scripts users can't touch
+- Scoop: AI builds living spreadsheet models users can evolve
+- Result: 10x more powerful than both pure AI and pure Excel
+
 ## The Ultimate Competitive Truth
 
 After deep analysis, here's what truly separates Scoop:
 
 **We're not building a better BI tool. We're building a new category: The Analytical Operating System**
 
-- **BI Tools**: Show what happened
+- **BI Tools**: Force new interfaces and languages
+- **Scoop**: Enhances the interface 750 million people already know
+
+- **BI Tools**: Show what happened  
 - **Scoop**: Explore why it happened, what will happen, and what to do about it
+
+- **BI Tools**: Replace Excel
+- **Scoop**: Excel becomes the universal analytics interface
 
 ## Evidence This Works
 
