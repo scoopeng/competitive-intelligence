@@ -209,6 +209,94 @@ They tried to solve the "business users can't write SQL" problem by creating a l
 - **Reality**: Companies with data engineering teams
 - **Gap**: 90% of businesses without dedicated data engineers
 
+## Product-Focused Deep Dive
+
+### Core Product Architecture Comparison
+
+**Zenlytic's Technical Architecture**:
+```yaml
+# Business users must write this to answer basic questions:
+- name: customer_lifetime_value
+  type: number
+  sql: |
+    SUM(CASE 
+      WHEN ${order_status} = 'completed' 
+      AND ${customer_first_order} = ${order_date}
+      THEN ${revenue} * ${predicted_retention_rate}
+      ELSE 0 
+    END)
+```
+
+**Reality**: This is programming, not self-service analytics
+
+**Scoop's Approach**:
+- Business user asks: "What's our customer lifetime value?"
+- Scoop automatically understands schema, relationships, and calculations
+- No configuration, no SQL, no YAML
+
+### Investigation Capabilities - The Key Differentiator
+
+**Zenlytic's Limitations**:
+- **Single Query**: Each question = one SQL query
+- **No "Why"**: Can't investigate causation
+- **Pre-defined Only**: Limited to what's in YAML
+- **No Discovery**: Can't find unknown patterns
+
+**Scoop's Investigation Engine**:
+- **Multi-Hypothesis Testing**: "Why did CLV drop?"
+  - Tests seasonality
+  - Analyzes cohort changes
+  - Checks product mix impact
+  - Identifies correlated metrics
+- **Pattern Discovery**: Finds insights you didn't ask for
+- **3-10 Probe Analysis**: Deep investigation, not just queries
+
+### Business User Experience Comparison
+
+**Day in the Life: Zenlytic User**
+1. **Question**: "Why did revenue drop last month?"
+2. **Reality**: 
+   - Error: "revenue_last_month not defined"
+   - Wait for data engineer to add metric
+   - Engineer writes SQL in YAML
+   - Git commit, review, deploy
+   - 2-3 days later: Try again
+   - Still can't answer "why"
+
+**Day in the Life: Scoop User**
+1. **Question**: "Why did revenue drop last month?"
+2. **Reality**:
+   - Scoop investigates immediately
+   - Tests 8 hypotheses
+   - Discovers: New cohort has lower AOV
+   - Identifies: Specific product category issue
+   - Suggests: Follow-up investigations
+   - Time: 45 seconds
+
+### Why Eventbrite Should Choose Scoop
+
+**Technical Barriers with Zenlytic**:
+1. **YAML/SQL Expertise Required**: Not self-service
+2. **Git Workflow**: Business users can't use Git
+3. **Single Source Focus**: Can't analyze across systems
+4. **No Investigation**: Just queries, no insights
+5. **Static Definitions**: Can't explore freely
+
+**Scoop's Business Advantages**:
+1. **Immediate Value**: No setup or configuration
+2. **True Self-Service**: Business users independent
+3. **Cross-System Intelligence**: All data sources at once
+4. **Investigation Engine**: Answers "why" not just "what"
+5. **Continuous Learning**: Improves with usage
+
+### The Fundamental Difference
+
+**Zenlytic**: A technical platform that requires programming to answer business questions
+
+**Scoop**: An AI analyst that investigates your business and explains what's happening
+
+For Eventbrite's business users who need immediate insights across multiple systems without technical barriers, Scoop is the only viable choice.
+
 ## Conclusion
 
 Zenlytic exemplifies the Tier 3 trap: sophisticated technology marketed to business users but accessible only through technical intermediaries. Their YAML/SQL semantic layer requirement ensures business users remain dependent on data teams, defeating the entire purpose of self-service analytics. While they may serve companies with existing data engineering resources, they offer nothing for the vast majority of businesses seeking true self-service analytics. Scoop's advantage is clear: real self-service without code, configuration, or engineering dependencies.

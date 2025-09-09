@@ -1,7 +1,8 @@
-# Competitive Intelligence Research Guide
+# Competitive Intelligence Research Guide - Deep Methodology
 
-**Purpose**: Deep methodology and thinking for thorough competitive analysis  
-**Note**: START_HERE.md has the quick-start version. This is for when you need depth.
+**Purpose**: Detailed research methodology for thorough competitive analysis  
+**Relationship**: START_HERE.md = Quick start guide | This document = Deep methodology
+**When to use**: Reference this for comprehensive research approach and quality standards
 
 ## Core Philosophy
 
