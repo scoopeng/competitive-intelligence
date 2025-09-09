@@ -61,15 +61,21 @@
 
 **The Paradigm Shift**: We don't replace Excel - we make it the universal analytics interface
 
-### Product Differentiators (Not Price)
+### Product Differentiators (AI-First, Not Price)
 
-**Investigation vs Conversation**:
-- Competitors: Convert question → SQL → answer
-- Scoop: Break down → investigate → test hypotheses → synthesize insights
+**Agentic Analytics vs Simple Queries**:
+- Competitors: Single-shot text → SQL → static answer
+- Scoop: Multi-turn investigation → probe dependencies → living models
+
+**Our AI Architecture Advantages**:
+1. **Multi-Probe Reasoning**: 3-10 SQL investigations with dependencies
+2. **Conversation Memory**: Full context across sessions
+3. **ML-Native Queries**: ML_GROUP, ML_RELATIONSHIP built into language
+4. **Excel as AI Canvas**: AI creates interactive models, not static results
 
 **Example: "Why did sales drop?"**
-- **Them**: Error or single metric
-- **Us**: Test seasonality, segments, products, correlations, external factors
+- **Them**: Error or single metric (ThoughtSpot: 33.3% accuracy)
+- **Us**: Autonomous investigation testing 5-8 hypotheses, finds root cause, creates tracking model
 
 ### Competitive Advantages by Tier
 

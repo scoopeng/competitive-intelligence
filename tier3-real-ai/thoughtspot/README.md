@@ -35,22 +35,27 @@ ThoughtSpot represents legitimate Tier 3 competition with real AI/ML capabilitie
 
 ## Product Analysis
 
-### Real AI/ML Capabilities (SpotIQ)
+### Real AI/ML Capabilities
 
-#### Legitimate Machine Learning
+#### ThoughtSpot Sage & SpotIQ (2024-2025 Updates)
+- **ThoughtSpot Sage**: Natural language interface achieving 33.3% accuracy on benchmarks
+- **Spotter AI Analyst**: "Digital analyst" for multi-dimensional analysis
 - **K-means Clustering**: Automatic data segmentation
 - **Regression Analysis**: Trend prediction and forecasting
 - **Anomaly Detection**: Statistical outlier identification
-- **Time Series Decomposition**: Seasonal pattern analysis
-- **Correlation Analysis**: Multi-variable relationship discovery
-- **ML-based Forecasting**: Predictive analytics
+- **AI Narratives**: Auto-generated explanations in plain English
 
-#### How It Works
-1. Automatically analyzes datasets when loaded
-2. Applies multiple ML algorithms in parallel
-3. Generates "insights" based on statistical significance
-4. Surfaces unexpected patterns and anomalies
-5. Provides explanations with confidence scores
+#### Critical Limitations vs True Investigation
+1. **No Multi-Step Reasoning**: Can't chain insights or use probe dependencies
+2. **Limited Context**: Each query is independent, no conversation memory
+3. **Basic Root Cause**: Attempts analysis but can't test multiple hypotheses
+4. **Static Results**: No interactive models users can modify
+5. **Excel Integration**: Plugin exists but just for visualization, not computation
+
+#### The Benchmark Reality
+- ThoughtSpot: 33.3% accuracy on complex queries
+- Leading competitors: 95.2% accuracy
+- Why? Lacks true investigation engine - just pattern matching
 
 ### The Business User Problem
 
@@ -135,17 +140,42 @@ ThoughtSpot represents legitimate Tier 3 competition with real AI/ML capabilitie
 | Search Interface | Google-like search | Still requires training |
 
 ### Where Scoop Wins
-| Advantage | Scoop Reality | Impact |
-|-----------|---------------|---------|
-| Accessibility | Slack-native, zero training | Immediate adoption |
-| Time to Value | 30 seconds vs 2-4 weeks | 1000x faster |
-| Cost | $3,588/year vs $140,000 | 97% lower TCO |
-| Self-Service | Actually self-service | No IT dependency |
-| Support | Responsive and helpful | vs 6/10 ratings |
+
+| Advantage | Scoop Reality | ThoughtSpot Reality |
+|-----------|---------------|---------------------|
+| **AI Investigation** | Multi-probe reasoning with dependencies | Single-shot queries, 33.3% accuracy |
+| **Excel Integration** | Full computation engine, =SCOOP() | Visualization plugin only |
+| **Accessibility** | Slack-native, zero training | Complex UI, 2-5 days training |
+| **Time to Value** | 30 seconds | 2-4 weeks + data modeling |
+| **Cost** | $3,588/year | $140,000 average |
+| **Living Models** | AI creates interactive spreadsheets | Static dashboards |
+
+### The AI Capability Gap
+
+**Question**: "Why did sales drop in Northeast region?"
+
+**ThoughtSpot Process**:
+- User searches "northeast sales trend"
+- Gets visualization showing the drop
+- Searches "northeast sales by product"
+- Searches "northeast sales by customer"
+- Manual correlation attempts
+- Can't answer "why"
+
+**Scoop Process**:
+```
+Probe 1: Analyze regional performance
+Probe 2: Deep dive Northeast (worst region)
+Probe 3: Test seasonality hypothesis
+Probe 4: Check customer churn patterns
+Probe 5: Correlate with competitor activity
+Result: "3 major accounts switched to competitor after pricing change"
+Creates: Excel model tracking win-back progress
+```
 
 ### The Key Differentiator
-**ThoughtSpot**: Powerful AI locked behind complexity and cost
-**Scoop**: Equally intelligent AI delivered accessibly to everyone
+**ThoughtSpot**: ML algorithms locked behind complexity, cost, and limited reasoning
+**Scoop**: Superior AI investigation delivered through familiar Excel interface
 
 ## Sales Battle Card
 
