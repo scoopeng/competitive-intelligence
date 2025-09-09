@@ -2,6 +2,9 @@
 
 **Purpose**: Comprehensive competitive analysis proving Scoop is the only solution combining real AI with true business user accessibility at an affordable price.
 
+## 🤖 For AI Assistants
+**Start Here**: [`AI_NAVIGATION_INDEX.md`](AI_NAVIGATION_INDEX.md) - Enables intelligent navigation based on any question
+
 ## Quick Navigation
 
 ### 📋 Essential Documents
