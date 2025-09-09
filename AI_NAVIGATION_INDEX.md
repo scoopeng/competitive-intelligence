@@ -52,9 +52,12 @@
 - Each contains: Executive summary, product analysis, pricing, limitations, sales positioning
 - Source documentation in `tier*/[competitor-name]/sources/`
 
-**Our Advantages**: 
+**Our Advantages** (Multiple Levels):
 - `POST_SETUP_ADVANTAGES.md` - Why users choose us daily (user-focused)
 - `SCOOP_PRODUCT_DIFFERENTIATORS.md` - Technical architecture advantages
+- `DEEP_COMPETITIVE_ADVANTAGES.md` - Synthesis of UI/UX moats and workflow revolution
+- `COMPETITOR_BLIND_SPOTS.md` - Structural limitations competitors can't overcome
+- `CUSTOMER_JOURNEY_ADVANTAGES.md` - Specific workflow comparisons with time savings
 
 **Market Overview**:
 - `EXECUTIVE_SUMMARY.md` - Key findings, patterns, positioning
