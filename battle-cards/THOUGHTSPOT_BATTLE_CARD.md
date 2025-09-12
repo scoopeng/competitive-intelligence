@@ -1,0 +1,58 @@
+# Battle Card: ThoughtSpot
+
+**BUPAF Score**: 18/40 (Category C - Analyst Workbench)  
+**Market Position**: Real AI but inaccessible  
+**Key Weakness**: 33.3% accuracy, $140K/year average
+
+---
+
+## Quick Win Discovery Questions
+1. "What's your annual ThoughtSpot investment?"
+2. "What percentage of business users actively use it?"
+3. "How accurate are the AI-generated insights?"
+
+## Killer Facts
+- **33.3% accuracy** in Stanford HAI benchmark (vs 95.2% leaders)
+- **$140,000/year** average enterprise cost
+- **2-3 months** typical implementation
+- **No investigation** - Single-pass queries only
+- **No Excel integration** - Dashboard output only
+
+## Head-to-Head
+
+| Factor | ThoughtSpot | Scoop | Your Win |
+|--------|-------------|-------|----------|
+| Accuracy | 33.3% benchmark | 95%+ proven | "2 out of 3 answers wrong" |
+| Annual Cost | $140,000 average | $3,588 flat | "40x cost difference" |
+| Investigation | ❌ Single queries | ✅ Multi-hypothesis | "Can't find root causes" |
+| Business Users | ❌ Need training | ✅ Instant use | "Steep learning curve" |
+| Setup Time | 2-3 months | 30 seconds | "Quarter vs instant" |
+
+## Objection Handlers
+
+**"ThoughtSpot has real AI"**  
+"True, but with 33.3% accuracy in Stanford's benchmark. That means 2 out of 3 insights are wrong. Real AI that's wrong isn't useful."
+
+**"It's search-driven analytics"**  
+"Search that requires exact terminology and pre-built data models. Business users still need IT to set up 'search-able' content first."
+
+**"Gartner recognizes them"**  
+"For enterprise BI, where $140K/year is acceptable. But what percentage of your business users actually adopted it after that investment?"
+
+## The Winning Pitch
+"ThoughtSpot has real AI that scores 33.3% accuracy - meaning 2 out of 3 insights are wrong. At $140,000 per year with 2-3 month implementations, you're paying enterprise prices for coin-flip accuracy. ThoughtSpot requires IT to build data models before business users can 'search,' and even then, it can't investigate WHY things happen - just WHAT happened. Scoop delivers 95%+ accuracy with multi-hypothesis investigation at $3,588/year, setup in 30 seconds."
+
+## Proof Points
+- Reference Stanford HAI benchmark study
+- Calculate 40x cost difference
+- Show investigation vs search difference
+- Ask for business user references
+
+## Competitive Intelligence
+- Built for IT teams, marketed to business
+- Search paradigm requires exact matches
+- No schema evolution capability
+- Heavy services component to revenue
+
+---
+*Use when: Large enterprises, Accuracy matters, Cost-conscious, Failed BI projects*
