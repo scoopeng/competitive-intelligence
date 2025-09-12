@@ -12,37 +12,57 @@
 
 ---
 
-## 🛡️ The Five Moats - Your Weapons
+## 🛡️ The Seven Moats - Your Weapons (Enhanced)
 
 ### 1. Investigation Engine
-**What It Is**: Multi-pass reasoning that tests hypotheses  
-**Competitor Reality**: Single queries only  
-**Your Pitch**: "They answer WHAT happened. We discover WHY it happened."  
+**What It Is**: Multi-pass reasoning (3-10 queries) with full context retention  
+**Competitor Reality**: Single queries only, no memory between questions  
+**Your Pitch**: "They answer WHAT happened. We discover WHY and HOW TO FIX IT."  
 **Proof**: Demo multi-hypothesis testing on "Why did revenue drop?"
+**Time Impact**: 45 seconds to root cause vs 3-4 hours manual analysis
 
 ### 2. Schema Evolution  
-**What It Is**: Automatic handling of data structure changes  
-**Competitor Reality**: Universal failure - all break  
-**Your Pitch**: "Add a column, their queries break. Ours adapt automatically."  
+**What It Is**: Automatic handling without semantic models or YAML  
+**Competitor Reality**: Universal failure - all require IT maintenance  
+**Your Pitch**: "Add a column, they spend weeks updating YAML. We adapt instantly."  
 **Proof**: Show adding column live without breaking anything
+**Cost Impact**: Save 2 FTEs ($360K/year) on model maintenance
 
-### 3. Explainable ML
-**What It Is**: J48 decision trees with business rules  
-**Competitor Reality**: Black box or fake AI  
-**Your Pitch**: "Our AI shows its work. Theirs is a mystery or marketing."  
-**Proof**: Show decision tree with clear business logic
+### 3. Dynamic Explanatory ML Analysis (The Intelligence Gap)
+**What It Is**: ML_GROUP/ML_PERIOD multivariate analysis + J48 (C4.5) + M5 Rules  
+**Competitor Reality**: Zero ML (most) or black box prediction-only (few)  
+**Your Pitch**: "Not just 'what will happen' but 'why it happens and what hidden factors matter'"  
+**Proof**: Show ML_GROUP finding non-obvious correlations with explanations
+**Example**: "ML_GROUP found that customer churn correlates with support ticket response time AND product usage frequency AND billing errors - a three-way interaction no human would discover"
+**Capability Gap**: PhD-level multivariate analysis explained in plain English
 
-### 4. Native Integration
-**What It Is**: =SCOOP() in Excel, native Slack  
-**Competitor Reality**: Export-only, portal prisons  
-**Your Pitch**: "We work where you work. They make you come to them."  
-**Proof**: Demo Excel formulas and Slack conversation
+### 4. Native Integration (The Productivity Multiplier)
+**What It Is**: =SCOOP() formulas, 30-sec Slack, auto-PowerPoint  
+**Competitor Reality**: 3-4 hours manual work or 2-4 weeks custom dev  
+**Your Pitch**: "Board deck in 30 seconds vs 3 hours. Excel that refreshes itself."  
+**Proof**: Generate complete presentation live
+**Daily Time Savings**: 3+ hours per user
 
 ### 5. Domain Intelligence
-**What It Is**: Context-aware understanding  
-**Competitor Reality**: Generic tools  
-**Your Pitch**: "We understand your business. They understand databases."  
-**Proof**: Show smart defaults and contextual insights
+**What It Is**: Business context without configuration  
+**Competitor Reality**: Months building semantic models  
+**Your Pitch**: "We understand 'churn' means customer loss. They need YAML to define it."  
+**Proof**: Show contextual recommendations
+**Setup Difference**: Zero config vs 3-month semantic model project
+
+### 6. Time-to-Value Architecture (New)
+**What It Is**: 30-second setup, instant insights  
+**Competitor Reality**: 2-4 months minimum implementation  
+**Your Pitch**: "Insights during this call vs insights next quarter."  
+**Proof**: Connect and analyze live in demo
+**Speed Multiple**: 10,000x faster to value
+
+### 7. Cost Model Innovation (New)
+**What It Is**: $299/month flat rate, unlimited usage  
+**Competitor Reality**: Per-query charges + hidden costs = $200K-$1.6M  
+**Your Pitch**: "Explore freely vs counting every question's cost."  
+**Proof**: Calculate their Snowflake Cortex bill ($1.6M)
+**Annual Savings**: $200K-$1.5M (55x-443x less)
 
 ---
 
@@ -143,27 +163,62 @@
 
 ---
 
+## ⏰ The Daily Workflow Reality Check
+
+### Morning Report Comparison
+**With Competitors**:
+- 30 min: Query data in multiple tools
+- 45 min: Copy/paste to Excel
+- 60 min: Format and analyze
+- 90 min: Create PowerPoint
+- **Total**: 3.5 hours of manual work
+
+**With Scoop**:
+- 30 sec: "Create morning report"
+- **Done**: PowerPoint, Excel, and insights ready
+
+### Investigation Comparison
+**Question**: "Why did conversion drop?"
+
+**Competitor Response**:
+- Query 1: Show conversion rate (number only)
+- Query 2: Break down by source (more numbers)
+- Query 3: Look at time periods (still just numbers)
+- Result: 3 hours later, still guessing at cause
+
+**Scoop Response** (45 seconds):
+- Tests 8 hypotheses automatically
+- Finds mobile checkout failing
+- Identifies payment gateway issue
+- Calculates $430K revenue impact
+- Provides specific fix instructions
+
 ## 🎯 Discovery Question Framework
 
 ### The Schema Trap
 1. "What happens when you add a new column?"
-2. "Who handles schema changes?"
-3. "How often do things break?"
+2. "Who maintains your semantic models/YAML files?"
+3. "How many FTEs handle data model maintenance?"
 
 ### The Investigation Test
 1. "Can it find WHY metrics changed?"
 2. "How many hypotheses does it test?"
-3. "Show me root cause analysis"
+3. "Show me multi-step root cause analysis"
+
+### The Workflow Reality
+1. "How long to create your board deck?"
+2. "Can you use formulas in Excel or just export?"
+3. "How quickly can you get analytics in Slack?"
 
 ### The Adoption Reality
-1. "What percentage actively use it?"
-2. "How long before value?"
-3. "Who actually succeeds?"
+1. "What percentage actively use it daily?"
+2. "How long before first insight?"
+3. "Who actually succeeds without IT help?"
 
 ### The Cost Truth
 1. "What's the all-in annual cost?"
-2. "Including implementation and training?"
-3. "Any renewal surprises?"
+2. "Including hidden per-query charges?"
+3. "How many FTEs for maintenance?"
 
 ---
 

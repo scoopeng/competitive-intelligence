@@ -12,9 +12,9 @@
 | Domo | 5/10 | 4/10 | 4/10 | 5/10 | **18/40** | C |
 | ThoughtSpot | 4/10 | 7/10 | 2/10 | 5/10 | **18/40** | C |
 | Tellius | 3/10 | 7/10 | 2/10 | 4/10 | **16/40** | C |
-| Zenlytic | 3/10 | 3/10 | 2/10 | 7/10 | **15/40** | C |
+| Zenlytic | 3/10 | 6/10 | 2/10 | 4/10 | **15/40** | C |
 | Power BI Copilot | 3/10 | 3/10 | 3/10 | 4/10 | **13/40** | D |
-| Snowflake Cortex | 2/10 | 4/10 | 3/10 | 3/10 | **12/40** | D |
+| Snowflake Cortex | 2/10 | 4/10 | 2/10 | 3/10 | **11/40** | D |
 | Sisense | 2/10 | 2/10 | 2/10 | 4/10 | **10/40** | D |
 | Tableau Pulse | 2/10 | 2/10 | 1/10 | 4/10 | **9/40** | D |
 | Qlik | 2/10 | 2/10 | 2/10 | 3/10 | **9/40** | D |
@@ -36,22 +36,28 @@
 
 | Competitor | Score | Can Do | Cannot Do |
 |------------|-------|--------|-----------|
-| **Scoop** | 9/10 | Investigation, ML, prediction | Some optimization |
-| ThoughtSpot | 7/10 | ML, clustering | No investigation |
-| Tellius | 7/10 | Root cause | Complex for users |
-| Zenlytic | 6/10 | Some ML | YAML required |
-| DataGPT | 5/10 | Fast analysis | No deep investigation |
-| Others | 1-4/10 | Basic metrics | No "why" questions |
+| **Scoop** | 9/10 | ML_GROUP multivariate, ML_PERIOD causality, J48/M5 explanatory models | Some optimization |
+| ThoughtSpot | 7/10 | Basic ML, clustering | No explanatory analysis, no multivariate |
+| Tellius | 7/10 | Some root cause | No dynamic ML, too complex for users |
+| Zenlytic | 6/10 | Basic forecasting | No explanatory ML, YAML required |
+| DataGPT | 5/10 | Fast single metrics | No ML, no multivariate, no investigation |
+| Snowflake | 4/10 | SQL aggregations | No ML whatsoever, just queries |
+| Others | 1-3/10 | Basic metrics | No ML, no "why", no patterns |
 
 ### Dimension 3: Workflow Integration (How naturally does it fit?)
 
 | Competitor | Data Mgmt | Excel | PowerPoint | Collaboration | Automation |
 |------------|-----------|-------|------------|---------------|------------|
-| **Scoop** | ✅ Schema evolution | ✅ Formulas | ✅ Generate | ✅ Slack native | ✅ Full |
-| Domo | ❌ IT required | ⚠️ Export | ❌ Manual | ⚠️ Portal | ⚠️ Basic |
-| Tableau | ❌ No evolution | ❌ None | ❌ Manual | ⚠️ Alerts | ❌ Rigid |
-| PowerBI | ❌ IT required | ⚠️ Export | ❌ Manual | ⚠️ Portal | ⚠️ Basic |
-| Others | ❌ IT required | ❌ None | ❌ Manual | ❌ None | ❌ None |
+| **Scoop** | ✅ Auto schema evolution | ✅ =SCOOP() formulas | ✅ 30-sec generation | ✅ Slack in 30 sec | ✅ Full auto |
+| DataGPT | ❌ Schema rigid | ❌ Export only | ❌ Manual (3-4 hrs) | ⚠️ API available | ⚠️ Limited |
+| Domo | ❌ IT required | ⚠️ Export only | ❌ Manual (3-4 hrs) | ⚠️ Portal prison | ⚠️ Basic |
+| ThoughtSpot | ❌ Models break | ❌ Export only | ❌ Manual (3-4 hrs) | ⚠️ Limited | ❌ None |
+| Tellius | ❌ IT heavy | ❌ Export only | ❌ Manual (3-4 hrs) | ❌ None | ❌ None |
+| Zenlytic | ❌ YAML hell | ❌ Export only | ❌ Manual (3-4 hrs) | ⚠️ Limited | ❌ None |
+| Power BI | ❌ IT required | ⚠️ Export only | ❌ Manual (3-4 hrs) | ⚠️ Portal only | ⚠️ Basic |
+| Snowflake | ❌ Semantic models | ❌ None | ❌ Manual (3-4 hrs) | ❌ 2-4 week dev | ❌ Per-query $ |
+| Tableau | ❌ No evolution | ❌ None | ❌ Manual (3-4 hrs) | ⚠️ Alerts only | ❌ Rigid |
+| Others | ❌ IT required | ❌ None | ❌ Manual (3-4 hrs) | ❌ None | ❌ None |
 
 ### Dimension 4: Business Communication (How clear is output?)
 
@@ -86,7 +92,58 @@
 - **Qlik** (9/40) - Can't handle typos, zero adoption found
 - **DataChat** (5/40) - 7 years, zero reviews - possible vaporware
 
+## Hidden Costs & Time-to-Value Reality
+
+### Implementation Timeline
+| Competitor | Setup Time | Semantic Models | Custom Dev | Time to First Insight |
+|------------|------------|-----------------|------------|----------------------|
+| **Scoop** | 30 seconds | None needed | None | 30 seconds |
+| DataGPT | 2-4 weeks | Required | API integration | 2-4 weeks |
+| Domo | 8-12 weeks | Dashboard setup | Limited | 2-3 months |
+| ThoughtSpot | 12+ weeks | Data modeling | None | 3-4 months |
+| Snowflake | 3-4 months | YAML required | Slack bot (2-4 wks) | 3-4 months |
+| Power BI | 4-8 weeks | IT setup | None | 1-2 months |
+| Others | 8-16 weeks | Various | Various | 2-4 months |
+
+### True Annual Cost (200 users)
+| Competitor | License | Hidden Costs | Maintenance | Total Annual |
+|------------|---------|--------------|-------------|--------------|
+| **Scoop** | $3,588 | None | $0 | **$3,588** |
+| Snowflake Cortex | $50K | $880K compute + $300K setup | $360K (2 FTEs) | **$1,590,000** |
+| ThoughtSpot | $140K | Implementation | $180K (1 FTE) | **$320,000+** |
+| Domo | $134K avg | Consumption chaos | $180K (1 FTE) | **$314,000+** |
+| Power BI | $24K | E5 licenses + capacity | $180K (1 FTE) | **$204,000+** |
+| DataGPT | $60K+ | Data prep | $180K (1 FTE) | **$240,000+** |
+| Others | Varies | Significant | $180K+ | **$200,000+** |
+
+## The Machine Learning Sophistication Gap
+
+### What Scoop Has (Unique)
+| Capability | Scoop | Best Competitor | Others |
+|------------|-------|-----------------|--------|
+| **ML_GROUP** | ✅ Multivariate analysis with explanations | ❌ None | ❌ None |
+| **ML_PERIOD** | ✅ Temporal causality analysis | ❌ None | ❌ None |
+| **J48 (C4.5)** | ✅ Explainable decision trees | ⚠️ Black box only (ThoughtSpot) | ❌ None |
+| **M5 Rules** | ✅ Complex relationship networks | ❌ None | ❌ None |
+| **Explanatory Focus** | ✅ WHY patterns exist | ⚠️ Prediction only | ❌ No ML |
+| **Multivariate** | ✅ 47+ variables simultaneously | ⚠️ Basic correlation | ❌ Single metrics |
+| **Hidden Patterns** | ✅ Finds non-obvious interactions | ❌ None | ❌ None |
+| **Business Translation** | ✅ Plain English explanations | ⚠️ Technical output | ❌ Numbers only |
+
+### The Depth Difference
+**Scoop**: "ML_GROUP found churn correlates with support response time AND usage frequency AND billing errors - a three-way interaction. Fixing any two reduces risk by 71%."
+
+**Best Competitor**: "Churn rate is 15%. Here's a chart."
+
+**Most Competitors**: "SELECT churn_rate FROM customers"
+
 ## Key Insights
+
+### The ML Sophistication Gap
+- **Scoop**: PhD-level multivariate explanatory analysis
+- **Best competitor**: Basic prediction without explanation
+- **Most competitors**: Zero ML capabilities
+- **Impact**: Finding patterns humans would never discover
 
 ### The Independence Gap
 - **Scoop**: 9/10 on independence
@@ -98,6 +155,19 @@
 - **Scoop**: 9/10 on workflow integration
 - **Best competitor**: 4/10 (Domo)
 - **Average competitor**: 2.3/10
+- **Gap**: 5-7 points (50-70% advantage)
+
+### The Time-to-Value Chasm
+- **Scoop**: 30 seconds to first insight
+- **Fastest competitor**: 2-4 weeks (DataGPT)
+- **Average competitor**: 2-3 months
+- **Multiplier**: 5,000-10,000x faster
+
+### The Cost Reality
+- **Scoop**: $3,588/year all-in
+- **Cheapest competitor**: ~$200K/year (with hidden costs)
+- **Most expensive**: $1.59M/year (Snowflake Cortex)
+- **Savings**: 55x to 443x lower cost
 - **Gap**: 5-7 points (50-70% advantage)
 
 ### Universal Weaknesses Confirmed

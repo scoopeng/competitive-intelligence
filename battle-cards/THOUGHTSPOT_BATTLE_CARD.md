@@ -17,6 +17,8 @@
 - **2-3 months** typical implementation
 - **No investigation** - Single-pass queries only
 - **No Excel integration** - Dashboard output only
+- **Black box ML** - Can predict but can't explain WHY
+- **No multivariate** - Misses multi-factor interactions
 
 ## Head-to-Head
 
@@ -25,13 +27,14 @@
 | Accuracy | 33.3% benchmark | 95%+ proven | "2 out of 3 answers wrong" |
 | Annual Cost | $140,000 average | $3,588 flat | "40x cost difference" |
 | Investigation | ❌ Single queries | ✅ Multi-hypothesis | "Can't find root causes" |
+| ML Depth | ❌ Black box prediction | ✅ ML_GROUP/ML_PERIOD explanatory | "Can't explain WHY patterns exist" |
 | Business Users | ❌ Need training | ✅ Instant use | "Steep learning curve" |
 | Setup Time | 2-3 months | 30 seconds | "Quarter vs instant" |
 
 ## Objection Handlers
 
 **"ThoughtSpot has real AI"**  
-"True, but with 33.3% accuracy in Stanford's benchmark. That means 2 out of 3 insights are wrong. Real AI that's wrong isn't useful."
+"True, but it's prediction-only AI with 33.3% accuracy. They can't explain WHY patterns exist or find multi-factor interactions. Our ML_GROUP finds three-way interactions like 'churn happens when support is slow AND usage is low AND billing has errors.' ThoughtSpot would miss this completely."
 
 **"It's search-driven analytics"**  
 "Search that requires exact terminology and pre-built data models. Business users still need IT to set up 'search-able' content first."

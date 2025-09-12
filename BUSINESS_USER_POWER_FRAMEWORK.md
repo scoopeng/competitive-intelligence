@@ -75,21 +75,23 @@ This framework shifts focus from features to empowerment, from capabilities to i
   - Pattern recognition
   - Segmentation
   - Unknown unknowns
-  - Explainable ML models
+  - Basic ML models
   - What don't I know?
   
-- **9 points**: Prediction
+- **9 points**: Prediction + Basic Explanation
   - Forecasting
-  - ML models (black box or explainable)
+  - ML models with some explainability
   - Statistical significance
-  - What will happen?
+  - What will happen and maybe why?
   
-- **10 points**: Optimization + Explanation
-  - Recommendations with reasoning
-  - Strategy suggestions with evidence
-  - Explainable AI (J48, decision trees)
-  - Multi-hypothesis testing
-  - What should we do and why?
+- **10 points**: Dynamic Explanatory ML + Optimization
+  - ML_GROUP multivariate analysis with full explanations
+  - ML_PERIOD temporal pattern analysis with causality
+  - J48 (C4.5) decision trees showing exact logic paths
+  - M5 Rules networks revealing complex relationships
+  - Multi-hypothesis testing with evidence
+  - Recommendations with complete reasoning chains
+  - What should we do, why, and what hidden factors matter?
 
 #### Test Questions:
 1. Can they investigate why metrics changed (multi-pass)?
@@ -103,29 +105,29 @@ This framework shifts focus from features to empowerment, from capabilities to i
 
 #### Scoring Rubric (2 points each):
 - **Data Flexibility (0-2)**:
-  - 0: IT handles all data/schema changes
-  - 1: Basic upload, breaks on changes
+  - 0: IT handles all data/schema changes, semantic models required
+  - 1: Basic upload, breaks on changes, manual maintenance
   - 2: Full flexibility (schema evolution, auto-migration, history preservation)
   
 - **Excel Integration (0-2)**:
-  - 0: Export only
-  - 1: Basic import/export
-  - 2: Bidirectional with formulas
+  - 0: Export only (copy/paste workflow)
+  - 1: Basic import/export with formatting loss
+  - 2: Native formulas (=SCOOP()), live refresh, auto-workbook generation
   
 - **Presentation Generation (0-2)**:
-  - 0: Manual copy/paste
-  - 1: Basic export options
-  - 2: Automated PowerPoint/PDF
+  - 0: Manual copy/paste (3-4 hours per deck)
+  - 1: Basic export options, still requires assembly
+  - 2: Automated PowerPoint/PDF with insights and narratives (30 seconds)
   
 - **Collaboration (0-2)**:
-  - 0: No sharing capabilities
-  - 1: Basic sharing/comments
-  - 2: Real-time collaboration
+  - 0: No sharing, portal-only access
+  - 1: Basic sharing/comments, custom dev required for Slack/Teams
+  - 2: Native Slack/Teams, real-time collaboration, in-conversation analytics
   
 - **Automation (0-2)**:
-  - 0: Everything manual
-  - 1: Basic scheduling
-  - 2: Full automation/triggers
+  - 0: Everything manual, per-query costs discourage automation
+  - 1: Basic scheduling with limitations
+  - 2: Full automation/triggers, morning reports ready automatically
 
 #### Test Questions:
 1. Can they upload data and have schemas automatically maintained?
@@ -231,34 +233,53 @@ This framework shifts focus from features to empowerment, from capabilities to i
 
 #### 1. Investigation Engine
 - **Multi-Pass Reasoning**: 3-10 SQL queries to find root cause
-- **Hypothesis Testing**: Tests multiple theories
+- **Hypothesis Testing**: Tests multiple theories automatically
 - **Contextual Understanding**: Knows what to investigate
-- **Competitive Reality**: Others do single-pass queries only
+- **Conversation Depth**: 5-10 levels deep with full context retention
+- **Competitive Reality**: Others do single-pass queries only, no context
 
 #### 2. Schema Evolution & Data Management
 - **Automatic Schema Evolution**: Add/remove columns without breaking
 - **Historical Preservation**: All data maintained through changes
 - **Smart Migration**: Handles type changes automatically
 - **Version Control**: Query data as it existed at any point
-- **Competitive Reality**: Others require complete rebuild on changes
+- **Zero Semantic Models**: No YAML files, no maintenance burden
+- **Competitive Reality**: Others require semantic models that break on changes
 
-#### 3. Explainable ML & AI
-- **J48 Decision Trees**: See exactly why model predicts
-- **Rule-Based Models**: Business-understandable logic
-- **Not Black Box**: Every decision traceable
-- **Competitive Reality**: Others use opaque neural networks
+#### 3. Dynamic Explanatory ML Analysis
+- **ML_GROUP**: Multivariate analysis finding hidden relationships across dimensions
+- **ML_PERIOD**: Time-based pattern analysis with causal explanations
+- **J48 (C4.5) Decision Trees**: See exactly why model predicts
+- **M5 Rules Networks**: Complex relationship mapping with clear rules
+- **Beyond Prediction**: Explains WHY patterns exist, not just what they are
+- **Automatic Depth**: Analyzes interactions business users wouldn't think to explore
+- **Not Black Box**: Every decision traceable with business logic
+- **Competitive Reality**: Others have zero ML or opaque prediction-only models
 
 #### 4. Native Integration (Not Just Export)
-- **Excel Formulas**: =SCOOP() works in cells
-- **Slack Analytics**: Full analysis in chat
-- **PowerPoint Generation**: Automated presentations
-- **Competitive Reality**: Others only export/import
+- **Excel Formulas**: =SCOOP() works in cells with live refresh
+- **Slack Analytics**: Full investigation in conversation (30 seconds setup)
+- **PowerPoint Generation**: Complete decks with narratives in 30 seconds
+- **Auto-Workbook Creation**: Multi-tab Excel with formulas included
+- **Competitive Reality**: Others require 3-4 hours manual work or custom dev
 
 #### 5. Domain Intelligence
-- **Semantic Understanding**: Knows business context
+- **Semantic Understanding**: Knows business context without configuration
 - **Industry Patterns**: Learned from usage
-- **Smart Defaults**: Appropriate visualizations
-- **Competitive Reality**: Others are generic tools
+- **Smart Defaults**: Appropriate visualizations and metrics
+- **Competitive Reality**: Others are generic tools requiring setup
+
+#### 6. Time-to-Value Architecture
+- **30-Second Setup**: Connect and analyze immediately
+- **No Infrastructure**: No semantic models, no custom code
+- **Instant Deliverables**: Reports ready before meetings start
+- **Competitive Reality**: Others require 3-4 months implementation
+
+#### 7. Cost Model Innovation
+- **Flat Rate**: $299/month unlimited usage
+- **No Per-Query Charges**: Encourages exploration
+- **No Hidden Costs**: No compute, token, or maintenance fees
+- **Competitive Reality**: Others charge per query, discouraging use
 
 #### [More Moats Discovered Through Analysis]
 *This list expands as we discover new unique capabilities*
@@ -291,21 +312,68 @@ This framework shifts focus from features to empowerment, from capabilities to i
 "They make analysts faster. We make business users independent."
 ```
 
+## Deep User Experience Evaluation (Enhanced)
+
+### The Daily Workflow Test
+Evaluate each competitor through a business user's actual day:
+
+#### Morning Report Creation
+- **Time Required**: 30 seconds vs 3-4 hours?
+- **Steps Involved**: 1 click vs 20+ manual steps?
+- **Deliverables**: Ready-to-present vs raw data?
+- **Refresh Capability**: Automatic vs complete redo?
+
+#### Investigation Scenario
+- **Question Depth**: Surface level vs root cause?
+- **Context Retention**: Remembers conversation vs restarts each time?
+- **Answer Quality**: "Here's data" vs "Here's why and what to do"?
+- **Follow-up Capability**: Intelligent branching vs new queries?
+
+#### Excel Integration Reality
+- **Native Formulas**: =SCOOP() vs copy/paste?
+- **Live Updates**: Refresh on demand vs manual re-export?
+- **Workbook Generation**: Complete with tabs vs DIY?
+- **Time Savings**: 5 minutes vs 45 minutes per report?
+
+#### Slack/Teams Experience
+- **Setup Time**: 30 seconds vs 2-4 weeks custom dev?
+- **Conversation Quality**: Investigation vs single queries?
+- **Response Time**: Instant vs 30+ second delays?
+- **Value Delivered**: Insights with actions vs tables of numbers?
+
+### Hidden Cost Evaluation
+
+#### Per-Query Economics
+- **Pricing Model**: Flat rate vs per-query charges?
+- **Exploration Impact**: Encouraged vs discouraged?
+- **Budget Predictability**: Fixed vs variable surprise bills?
+- **True Annual Cost**: Transparent vs hidden multipliers?
+
+#### Implementation Reality
+- **Semantic Models**: Zero vs months of YAML?
+- **Custom Development**: None vs Slack bots, integrations?
+- **Maintenance Burden**: Zero vs 2 FTEs?
+- **Schema Change Impact**: Automatic vs breaks everything?
+
 ## How to Use This Framework
 
 ### For Competitive Analysis:
 - **Look Deeper**: Each competitor analysis should probe for ALL moats
 - **Document Everything**: Even small limitations compound
+- **Test Daily Workflows**: Not just features but actual usage
+- **Calculate True Costs**: Include hidden maintenance and per-query charges
 - **Test Claims**: Marketing vs reality gaps are common
 - **Find New Moats**: Framework evolves as we discover more
 
 ### Web Research Focus Areas:
 1. **Investigation Capability**: Multi-pass? Single query? None?
-2. **Schema/Data Handling**: What breaks when data changes?
-3. **ML Explainability**: Black box or interpretable?
-4. **Integration Depth**: Export only or native?
+2. **Schema/Data Handling**: What breaks when data changes? Semantic models?
+3. **ML Explainability**: Black box or interpretable? Any ML at all?
+4. **Integration Depth**: Export only or native? Setup time?
 5. **Hidden Limitations**: What do users complain about?
 6. **Architectural Constraints**: What can't they add?
+7. **True Time-to-Value**: 30 seconds or 3 months?
+8. **Actual User Experience**: Read user stories, not marketing
 
 ### For Sales:
 - Lead with the moat that resonates most

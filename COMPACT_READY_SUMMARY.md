@@ -49,12 +49,14 @@ DataChat       5 █████
 
 ## 🔑 Critical Discoveries
 
-### The Five Validated Moats
-1. **Investigation Engine** ✅ Only Scoop has multi-pass reasoning (3-10 queries)
-2. **Schema Evolution** ✅ Universal failure - every competitor breaks on changes
-3. **Explainable ML** ✅ J48 decision trees unique to Scoop
-4. **Native Integration** ✅ =SCOOP() in Excel, native Slack
-5. **Domain Intelligence** ✅ Context-aware vs generic tools
+### The Seven Validated Moats (Enhanced)
+1. **Investigation Engine** ✅ Multi-pass reasoning (3-10 queries) finding root causes
+2. **Schema Evolution** ✅ Universal failure - 100% of competitors break on changes
+3. **Dynamic Explanatory ML** ✅ ML_GROUP/ML_PERIOD with J48/M5 - finds AND explains patterns
+4. **Native Integration** ✅ =SCOOP() in Excel, 30-sec Slack, auto-PowerPoint
+5. **Domain Intelligence** ✅ Context-aware without configuration
+6. **Time-to-Value** ✅ 30 seconds vs 3-4 months implementation
+7. **Cost Model** ✅ $3,588 flat vs $200K-$1.6M with hidden charges
 
 ### Market Reality
 - **Category A (36-40)**: Scoop alone
@@ -62,12 +64,14 @@ DataChat       5 █████
 - **Category C (15-25)**: 5 analyst workbenches
 - **Category D (0-14)**: 6 marketing mirages
 
-### Shocking Findings
-- **DataChat**: 7 years in market, ZERO reviews anywhere (possible vaporware)
-- **Qlik**: Can't handle typos, consultants find zero daily users
+### Shocking Findings (Enhanced with Session 5)
+- **Snowflake Cortex**: 3-4 months setup, $1.6M/year, zero ML capabilities
+- **ML Reality**: No competitor has explanatory ML - only black box prediction or nothing
+- **Workflow Gap**: All require 3.5 hours for reports vs 30 seconds
+- **DataChat**: 7 years in market, ZERO reviews anywhere (likely vaporware)
 - **Tableau Pulse**: Not real AI - using embedding models from 2018
 - **Power BI**: Microsoft admits "nondeterministic behavior"
-- **Cost Reality**: 40-95x advantage validated ($3,588 vs $100K-340K)
+- **Cost Reality**: 55-443x advantage validated ($3,588 vs $200K-$1.6M)
 
 ## 📁 Repository State
 
@@ -124,13 +128,36 @@ The reorganization from technical tiers to business empowerment categories bette
 
 ---
 
+## Session 5 Enhancements Added
+
+### Snowflake Cortex Deep Dive (12,000+ words)
+- Technical architecture analysis
+- User experience workflow comparison
+- Sales playbook for Snowflake-heavy prospects
+- Executive summary with cost reality
+
+### ML Sophistication Clarified
+- **ML_GROUP**: Multivariate analysis finding hidden patterns
+- **ML_PERIOD**: Temporal causality with explanations
+- **J48 (C4.5)**: Explainable decision trees
+- **M5 Rules**: Relationship networks
+- **Key**: Not prediction but EXPLANATION of why patterns exist
+
+### Framework Enhanced
+- 7 moats (added Time-to-Value and Cost Model)
+- Dynamic Explanatory ML (not just "ML")
+- Daily workflow reality tests
+- Hidden cost calculations
+
 ## Session Context for Resume
 
-**If resuming after compact**:
-- All BUPAF analysis complete
-- Reorganization finished
-- Documentation ready
-- No pending tasks
+**Current State**:
+- All BUPAF analysis complete (11 competitors)
+- Reorganization finished (category structure)
+- Snowflake Cortex deep dive complete
+- ML sophistication enhanced across framework
+- All documentation updated
+- Ready for any competitive situation
 
 **Potential next steps** (not required):
 - Monitor for new competitors

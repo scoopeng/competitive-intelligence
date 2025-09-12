@@ -126,13 +126,22 @@ Power BI Copilot represents Microsoft's desperate attempt to add "AI" to their B
 - Confidence intervals
 - Model validation
 
-### 2.4 Machine Learning: ❌ BLACK BOX
+### 2.4 Machine Learning: ❌ BLACK BOX WITH NO DEPTH
 
 **Critical Issue**: "Nondeterministic behavior"
 - Can't explain why answers differ
 - No transparency into model decisions
-- No decision trees or rules
 - Black box Azure OpenAI usage
+- Can't reproduce results
+
+**Completely Missing vs Scoop**:
+- No ML_GROUP for multivariate discovery
+- No ML_PERIOD for temporal causality  
+- No J48 (C4.5) explainable trees
+- No M5 Rules relationship networks
+- Can't find multi-factor interactions
+- No explanatory analysis whatsoever
+- Just GPT prompts, not real ML
 
 **Microsoft Admission**: "Can't guarantee specific output every time"
 

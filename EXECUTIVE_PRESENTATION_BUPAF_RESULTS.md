@@ -20,7 +20,7 @@ After comprehensive analysis of 11 major competitors using our Business User Pow
 Scoop has **five validated moats** that competitors cannot replicate:
 1. **Investigation Engine** - Multi-pass reasoning vs single queries
 2. **Schema Evolution** - Automatic vs complete failure across all
-3. **Explainable ML** - J48 decision trees vs black box/fake AI
+3. **Dynamic Explanatory ML** - ML_GROUP/ML_PERIOD multivariate analysis with J48/M5 Rules
 4. **Native Integration** - Excel formulas & Slack vs exports only
 5. **Domain Intelligence** - Context-aware vs generic tools
 
@@ -78,7 +78,23 @@ CATEGORY D: Marketing Mirages (0-14)
 | Sisense | Elasticube rebuilds at $10K each |
 | **Scoop** | ✅ Automatic evolution with history preservation |
 
-### Moat 3: Cost Reality
+### Moat 3: Dynamic Explanatory ML Analysis
+
+**The Intelligence Gap**: Scoop provides PhD-level multivariate analysis that explains WHY
+
+| Feature | Scoop | Best Competitor | Most |
+|---------|-------|-----------------|------|
+| ML_GROUP | ✅ Multivariate analysis | ❌ None | ❌ None |
+| ML_PERIOD | ✅ Temporal causality | ❌ None | ❌ None |
+| J48 (C4.5) | ✅ Explainable trees | ⚠️ Black box | ❌ None |
+| M5 Rules | ✅ Relationship networks | ❌ None | ❌ None |
+
+**Real Example**: 
+- **Question**: "What drives customer churn?"
+- **Scoop**: "ML_GROUP found a three-way interaction: support response time AND usage frequency AND billing errors. Fixing any two reduces churn 71%"
+- **Competitor**: "Churn rate is 15%"
+
+### Moat 4: Cost Reality
 
 ```
 Annual Cost Comparison (200 users):

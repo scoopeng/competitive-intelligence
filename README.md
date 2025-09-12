@@ -38,19 +38,23 @@ competitive-intelligence/
 
 ## 🎯 Key Findings
 
-### The Five Moats (All Validated)
-1. **Investigation Engine** - Only Scoop has multi-pass reasoning
-2. **Schema Evolution** - Universal competitor failure
-3. **Explainable ML** - J48 unique to Scoop
-4. **Native Integration** - Excel formulas, native Slack
-5. **Domain Intelligence** - Context-aware vs generic
+### The Seven Moats (All Validated)
+1. **Investigation Engine** - Multi-pass reasoning (3-10 queries) vs single queries
+2. **Schema Evolution** - Automatic adaptation vs universal failure
+3. **Dynamic Explanatory ML** - ML_GROUP/ML_PERIOD multivariate analysis with J48/M5
+4. **Native Integration** - Excel formulas, 30-sec Slack vs manual work
+5. **Domain Intelligence** - Context-aware vs generic tools
+6. **Time-to-Value** - 30 seconds vs 3-4 months
+7. **Cost Model** - $3,588 flat vs $200K-$1.6M with hidden charges
 
 ### Critical Discoveries
-- 📍 **Zero competitors** handle schema evolution
-- 📍 **No competitor** has investigation engine
-- 📍 **40-95x cost advantage** validated
-- 📍 **DataChat**: 7 years, zero reviews
-- 📍 **Qlik**: Consultants find zero users
+- 📍 **Zero competitors** handle schema evolution (100% require IT)
+- 📍 **No competitor** has explanatory ML (prediction-only or none)
+- 📍 **No competitor** has investigation engine (single queries only)
+- 📍 **55-443x cost advantage** validated ($3,588 vs $200K-$1.6M)
+- 📍 **Snowflake Cortex**: 3-4 months setup, $1.6M/year, zero ML
+- 📍 **DataChat**: 7 years, zero reviews (likely vaporware)
+- 📍 **Daily workflow**: 3.5 hours manual vs 30 seconds automated
 We're the ONLY solution with ALL of:
 1. **Real AI**: Investigation engine, not just queries
 2. **True Self-Service**: No IT/engineering required

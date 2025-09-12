@@ -118,16 +118,24 @@ Tellius represents the paradox of modern AI analytics: genuine AI capabilities t
 
 **Evidence**: "ML algorithms (clustering, classification, forecasting)"
 
-### 2.4 Machine Learning: ✅ REAL
+### 2.4 Machine Learning: ⚠️ REAL BUT NOT EXPLANATORY
 
 **Legitimate ML**:
-- Decision trees
-- Neural networks
-- Ensemble methods
-- Statistical models
-- Algorithm optimization
+- Decision trees (but not explainable J48/C4.5)
+- Neural networks (black box)
+- Ensemble methods (opaque)
+- Statistical models (coefficients only)
+- Algorithm optimization (automated but hidden)
 
-**This is actual AI, not marketing**
+**Critical Gaps vs Scoop**:
+- No ML_GROUP for multivariate discovery
+- No ML_PERIOD for temporal causality
+- No M5 Rules for relationship mapping
+- Focuses on prediction, not explanation
+- Misses multi-factor interactions
+- Can't explain WHY patterns exist
+
+**This is actual AI, but prediction-focused not explanation-focused**
 
 ### 2.5 Statistical Analysis: ✅ ADVANCED
 

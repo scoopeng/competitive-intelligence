@@ -116,18 +116,27 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 - Time series analysis
 - Statistical modeling
 
-### 2.4 Machine Learning: ⚠️ PARTIAL TRANSPARENCY
+### 2.4 Machine Learning: ⚠️ PREDICTION WITHOUT EXPLANATION
 
 **Available Models**:
-- K-means clustering
-- Regression
-- Anomaly detection (statistical + ML)
-- Usage-based ranking with reinforcement learning
+- K-means clustering (black box)
+- Regression (coefficients only)
+- Anomaly detection (no causality)
+- Usage-based ranking (opaque)
+
+**Critical Gaps vs Scoop**:
+- No ML_GROUP multivariate analysis
+- No ML_PERIOD temporal causality
+- No J48 explainable decision trees
+- No M5 Rules relationship networks
+- Can predict but can't explain WHY
+- Single-factor analysis, misses interactions
 
 **Transparency**:
-- AI Highlights explain changes
-- Natural language summaries
-- BUT: Not full decision tree explainability
+- AI Highlights show WHAT changed
+- Natural language summaries of results
+- BUT: No explanatory power for WHY patterns exist
+- Cannot find multi-factor interactions
 
 ### 2.5 Root Cause Analysis: ⚠️ ATTEMPTED
 
