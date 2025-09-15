@@ -20,14 +20,33 @@ Scoop is not just another conversational analytics tool. We've built the industr
 - **Competitors**: Most stop here (Snowflake Cortex, DataGPT)
 
 #### Multi-Pass Analysis (1-3 seconds)
-- Statistics-based pre-flight checks for visualizations
-- Optimizes query approach before execution
-- Recommends best visualization types
-- **Competitors**: None have this intermediate layer
+- Statistics-based pre-flight checks using MultiPassAnalysisProcessor
+- **ProbeSelector**: Chooses probes based on keywords (trend, compare, anomaly)
+- **VisualizationRecommender**: Data-driven viz selection
+  - KPI: 1-3 values, single metrics
+  - Pie: 2-10 values for part-of-whole
+  - Bar: Up to 50 categories
+  - Line: Time series data
+  - Table: High cardinality or multiple metrics
+  - Heatmap: Two categorical dimensions
+- **RouteSelector**: Chooses analysis approach
+  - STANDARD: Default path
+  - TIME_SERIES: Temporal optimization
+  - MULTI_HYPOTHESIS: Multiple theories
+  - DATA_QUALITY_FIRST: Handle issues
+  - SPARSE_DATA: Limited data adaptation
+- **StatisticsBasedProbeExecutor**: No SQL execution, uses column metadata
+- **Competitors**: None have this intermediate intelligence layer
 
 #### Deep Reasoning Engine (10-60 seconds)
-- Multi-hypothesis investigation engine
-- Executes 3-10 SQL probes with dependencies
+- Multi-hypothesis investigation engine using ReasoningEngineRefactored
+- Executes 3-10 SQL probes with sophisticated dependency management:
+  - **extraction_rules**: Extract specific values from probe results as placeholders
+  - **use_previous_results**: Full context from earlier probes for AI analysis
+  - **depends_on**: Explicit dependency declaration for execution layers
+- Parallel execution: Probes without dependencies run concurrently
+- Parameter substitution: `${probe_id.row[0].column}` syntax for dynamic queries
+- ResultSynthesizer: Combines all findings into coherent business answer
 - Tests theories and synthesizes findings
 - Answers "why" questions competitors can't
 - **Competitors**: Zero have true investigation capabilities
@@ -76,7 +95,29 @@ Scoop is not just another conversational analytics tool. We've built the industr
 
 **Competitors**: Require external ML tools or data scientists
 
-### 5. True Business User Self-Service
+### 5. Natural Language Classification System
+
+**9 Classification Types (Not Just NL to SQL)**:
+1. **HELP**: System capabilities and how-to
+2. **ML_RELATIONSHIP**: Find predictive factors (J48/JRip decision trees)
+3. **ML_CLUSTER**: Natural grouping discovery (EM clustering)
+4. **ML_PERIOD**: Time period comparisons with ML
+5. **ML_GROUP**: Population differences analysis
+6. **VISUALIZATION**: Smart chart generation
+7. **DATASET**: Table/data retrieval
+8. **TEXT**: Explanations and clarifications
+9. **UNKNOWN**: Outside capabilities
+
+**Reasoning Confidence System**:
+- **0.9-1.0**: "Why" questions trigger deep investigation
+- **0.8-0.9**: "What's driving" triggers multi-factor analysis
+- **0.7-0.8**: Exploratory requests get guided investigation
+- **needs_reasoning**: Boolean flag for investigation engine
+- **reasoning_type**: exploratory|causal|comparative|diagnostic
+
+**Competitors**: Basic NL to SQL conversion only
+
+### 6. True Business User Self-Service
 
 **No Semantic Model Requirements**:
 - **Snowflake**: Requires YAML semantic models
