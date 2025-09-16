@@ -8,8 +8,8 @@
 | Competitor | Independence | Analytical Depth | Workflow | Communication | **TOTAL** | Category |
 |------------|-------------|-----------------|----------|---------------|-----------|----------|
 | **Scoop** | 9/10 | 9/10 | 9/10 | 9/10 | **36/40** | A |
-| DataGPT | 6/10 | 5/10 | 3/10 | 6/10 | **20/40** | C |
-| Domo | 5/10 | 4/10 | 4/10 | 5/10 | **18/40** | C |
+| Domo | 7/10 | 5/10 | 5/10 | 7/10 | **24/40** | C |
+| DataGPT | 4/10 | 4/10 | 3/10 | 4/10 | **15/40** | C |
 | ThoughtSpot | 4/10 | 7/10 | 2/10 | 5/10 | **18/40** | C |
 | Tellius | 3/10 | 7/10 | 2/10 | 4/10 | **16/40** | C |
 | Zenlytic | 3/10 | 6/10 | 2/10 | 4/10 | **15/40** | C |
@@ -27,8 +27,8 @@
 | Competitor | Score | Evidence | Key Limitation |
 |------------|-------|----------|----------------|
 | **Scoop** | 9/10 | Email CSV, natural language, no training | Some complex data needs IT |
-| DataGPT | 6/10 | Claims 85% adoption | Needs clean data model |
-| Domo | 5/10 | Some self-service | Dashboard-dependent |
+| Domo | 7/10 | Business user tools | Still needs IT setup |
+| DataGPT | 4/10 | Analyst focus | Technical users mainly |
 | ThoughtSpot | 4/10 | "Search-driven" | Requires data modeling |
 | Others | 1-3/10 | IT dependency | Complete IT control |
 
@@ -77,7 +77,7 @@
 ### Category B: Guided Systems (26-35 points)
 - *None currently qualify* - All fall short on independence
 
-### Category C: Analyst Workbenches (15-20 points)
+### Category C: Analyst Workbenches (15-25 points)
 - **DataGPT** (20/40) - Fast but schema-rigid, no investigation
 - **Domo** (18/40) - Dashboard-first with AI Chat limitations
 - **ThoughtSpot** (18/40) - Real AI but 33.3% accuracy, $140K/year

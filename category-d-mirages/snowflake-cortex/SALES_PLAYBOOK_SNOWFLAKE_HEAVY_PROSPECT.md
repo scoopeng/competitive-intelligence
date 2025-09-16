@@ -52,7 +52,7 @@
 
 4. **"What's your budget for per-query analytics costs?"**
    - Usually "What?": Explain Cortex's hidden per-query charging
-   - Calculate their shock: 200 users = $1.2M+/year
+   - Calculate their shock: 200 users = $100K-250K/year
 
 5. **"How quickly do you need analytics in Slack?"**
    - "ASAP": "Cortex requires 2-4 weeks of custom development"
@@ -168,12 +168,11 @@ SELECT AVG(revenue), SUM(revenue), COUNT(*)
 
 ```
 Cortex for 200 users:
-- Semantic model creation: $300K (one-time)
-- Annual token costs: $50K minimum
-- Warehouse compute: $880K (hidden cost)
-- Maintenance (2 FTEs): $360K
-- Custom Slack bot dev: $50K
-Total Year 1: $1,640,000
+- Implementation: $25K-50K (3-4 months)
+- Annual Cortex add-on: $30K-100K
+- Base Snowflake costs: $50K-150K (existing)
+- Maintenance (1 FTE): $180K
+Total Year 1: $100K-250K
 
 Scoop for 200 users:
 - Setup: $0
@@ -181,7 +180,7 @@ Scoop for 200 users:
 - No hidden costs
 Total Year 1: $3,588
 
-Savings: $1,636,412 (99.8% less)
+Savings: $96K-246K (28x-70x less)
 ```
 
 **The CFO Question**: "Should I invite your CFO to see this calculation?"
@@ -255,7 +254,7 @@ Savings: $1,636,412 (99.8% less)
 "I'll set up a 30-day proof of value. You'll see ROI in the first week. Should we start with your sales team or marketing team?"
 
 ### The Economic Close:
-"Every day you wait costs you $4,500 in lost productivity (based on 200 users saving 2 hours/week). Plus you're about to spend $1.6M on Cortex. Should we schedule the CFO briefing for this week or next?"
+"Every day you wait costs you $4,500 in lost productivity (based on 200 users saving 2 hours/week). Plus you're about to spend $100K-250K on Cortex. Should we schedule the CFO briefing for this week or next?"
 
 ### The Champion Close:
 "Your VP of Sales is desperate for daily analytics. Your data team wants to build for 3 months. How about we solve the VP's problem today while your team builds whatever they want?"
@@ -275,9 +274,9 @@ Hi [Name],
 Thank you for our discussion about analytics capabilities. I wanted to share something critical about Cortex that often surprises organizations:
 
 The Real Costs (200 users):
-• Cortex: $1.64M year one (including hidden per-query charges)
+• Cortex: $100K-250K year one (including implementation)
 • Scoop: $3,588 flat rate
-• Savings: $1,636,412 (99.8% less)
+• Savings: $96K-246K (28x-70x less)
 
 The Real Timeline:
 • Cortex: 3-4 months (semantic models + custom Slack bot)
@@ -367,7 +366,7 @@ You're not selling against Snowflake. You're selling against the limitation of S
 
 "Look, your data engineers are great and Snowflake is powerful for what it does. But Cortex is just text-to-SQL with a shocking price tag. You need investigation, not queries. You need insights today, not in 3 months. You need Excel integration, PowerPoint automation, and real ML.
 
-We're not asking you to move data or replace Snowflake. We're offering to make your business users self-sufficient, investigate problems automatically, and save you $1.6M annually.
+We're not asking you to move data or replace Snowflake. We're offering to make your business users self-sufficient, investigate problems automatically, and save you $100K-250K annually.
 
 The question isn't whether you need this - you do. The question is whether you want to solve problems today or spend 3 months building semantic models that break every time your schema changes.
 

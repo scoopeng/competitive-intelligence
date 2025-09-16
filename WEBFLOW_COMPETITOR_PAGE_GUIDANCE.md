@@ -246,8 +246,8 @@ These don't resonate with our target market and dilute stronger arguments.
 
 ### Snowflake Cortex
 **Core Message**: Platform lock-in with massive costs
-- 6-12 month migration required
-- $1.6M annual for 200 users
+- 3-4 month implementation required
+- $100K-250K annual for Cortex (200 users)
 - Requires complete data architecture change
 - Vendor lock-in strategy
 

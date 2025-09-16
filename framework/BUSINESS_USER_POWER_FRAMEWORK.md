@@ -1,4 +1,4 @@
-# Business User Power Analytics Framework (BUPAF)
+# AI Business User Empowerment Framework (BUPAF)
 
 **Version**: 2.0  
 **Created**: January 2025  

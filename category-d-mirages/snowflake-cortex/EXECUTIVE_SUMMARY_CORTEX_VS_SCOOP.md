@@ -100,19 +100,18 @@ Scoop Investigation:
 ### The Three Questions That Win:
 1. "Can Cortex tell you WHY metrics changed?"
 2. "Who maintains semantic models when schemas change?"
-3. "Should analytics cost $1.6M or $3,588?"
+3. "Should analytics cost $100K-250K or $3,588?"
 
 ---
 
 ## The Economic Reality
 
 ### Cortex Total Cost (200 users, Year 1):
-- Semantic model development: $300,000
-- Custom Slack bot development: $50,000
-- Annual token charges: $50,000
-- Warehouse compute costs: $880,000
-- Maintenance (2 FTEs): $360,000
-- **Total: $1,640,000**
+- Implementation (3-4 months): $25,000-50,000
+- Annual Cortex add-on: $30,000-100,000
+- Base Snowflake costs (existing): $50,000-150,000
+- Maintenance (1 FTE): $180,000
+- **Total: $100,000-250,000**
 
 ### Scoop Total Cost (200 users, Year 1):
 - Setup: $0
@@ -122,7 +121,7 @@ Scoop Investigation:
 - **Total: $3,588**
 
 ### ROI Comparison:
-- **Savings**: $1,636,412 (99.8% less)
+- **Savings**: $96,000-246,000 (28x-70x less)
 - **Time to value**: 30 seconds vs 3-4 months (10,000x faster)
 - **Productivity gain**: 3+ hours/user/day
 - **Annual productivity value**: $3.9M (200 users × 3 hrs × $50/hr × 250 days)
@@ -218,7 +217,7 @@ def scoop_investigation(question):
 
 "Your data engineers built great infrastructure with Snowflake. But infrastructure without investigation is just expensive storage. Cortex adds expensive querying. We add actual intelligence.
 
-You can spend 3-4 months and $1.6M to get text-to-SQL, or you can spend 30 seconds and $3,588 to get actual investigation capabilities that create PowerPoints, update Excel, and find root causes.
+You can spend 3-4 months and $100K-250K to get text-to-SQL, or you can spend 30 seconds and $3,588 to get actual investigation capabilities that create PowerPoints, update Excel, and find root causes.
 
 Your competitors are already using Scoop to find opportunities while you'd still be writing YAML files. 
 
@@ -231,7 +230,7 @@ What would you like to do?"
 ### Cortex Achilles Heels:
 1. No investigation capability (SQL only)
 2. 3-4 month implementation
-3. $1.6M annual cost
+3. $100K-250K annual cost
 4. Breaks on schema changes
 5. No Excel/PowerPoint integration
 6. Zero actual ML
@@ -240,14 +239,14 @@ What would you like to do?"
 ### Scoop Advantages:
 1. Investigation engine (unique)
 2. 30-second setup
-3. $3,588 annual cost (99.8% less)
+3. $3,588 annual cost (28x-70x less)
 4. Automatic schema adaptation
 5. Native Excel/PowerPoint
 6. Full ML suite
 7. 20+ data sources
 
 ### The Number That Matters:
-**$1,636,412** - Annual savings with Scoop vs Cortex
+**$96K-246K** - Annual savings with Scoop vs Cortex
 
 ---
 

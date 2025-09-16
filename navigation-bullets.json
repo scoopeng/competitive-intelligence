@@ -32,7 +32,7 @@
     },
     "Sisense": {
       "category": "Traditional Analytics",
-      "score": "10/40",
+      "score": "12/40",
       "bullets": [
         "Traditional BI platform with AI features",
         "Structured query approach",
@@ -52,7 +52,7 @@
     },
     "DataChat": {
       "category": "Traditional Analytics",
-      "score": "5/40",
+      "score": "10/40",
       "bullets": [
         "Emerging platform with growing adoption",
         "SQL-conversation hybrid approach",
@@ -62,7 +62,7 @@
     },
     "DataGPT": {
       "category": "Analyst Workbench",
-      "score": "20/40",
+      "score": "15/40",
       "bullets": [
         "Optimized for pre-defined metrics",
         "Fast answers to known questions",
@@ -72,7 +72,7 @@
     },
     "Domo": {
       "category": "Analyst Workbench",
-      "score": "18/40",
+      "score": "24/40",
       "bullets": [
         "Rich dashboard and app ecosystem",
         "Enterprise platform capabilities",

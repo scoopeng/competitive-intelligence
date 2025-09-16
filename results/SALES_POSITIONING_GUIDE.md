@@ -59,10 +59,10 @@
 
 ### 7. Cost Model Innovation (New)
 **What It Is**: $299/month flat rate, unlimited usage  
-**Competitor Reality**: Per-query charges + hidden costs = $200K-$1.6M  
+**Competitor Reality**: Per-query charges + hidden costs = $100K-250K  
 **Your Pitch**: "Explore freely vs counting every question's cost."  
-**Proof**: Calculate their Snowflake Cortex bill ($1.6M)
-**Annual Savings**: $200K-$1.5M (55x-443x less)
+**Proof**: Calculate their Snowflake Cortex costs ($100K-250K total annual)
+**Annual Savings**: $96K-246K (28x-70x less)
 
 ---
 

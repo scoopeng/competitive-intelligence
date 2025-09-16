@@ -1,4 +1,50 @@
 {
+  "Scoop Analytics": {
+    "meta": {
+      "vendor": "Scoop",
+      "category": "AI Business User Empowerment",
+      "score": "36/40",
+      "slug": "scoop-analytics"
+    },
+    "content": {
+      "executive_summary": "Scoop Analytics is the world's first Digital Data Analyst that thinks and investigates like a human. With multi-pass investigation (3-10 queries), automatic schema evolution, and dynamic explanatory ML (ML_GROUP/ML_PERIOD with J48/M5 Rules), Scoop empowers business users to answer complex 'why' questions independently in 30 seconds without any technical knowledge.",
+      "critical_advantage": "Only platform with true investigation capabilities and explanatory ML. Business users are fully independent.",
+      "bottom_line": "Complete business user empowerment with PhD-level analysis explained in plain English.",
+      "strengths": [
+        "Multi-pass investigation engine (3-10 queries) finding root causes",
+        "Automatic schema evolution without semantic models",
+        "Dynamic explanatory ML with J48 decision trees and M5 Rules",
+        "Native Excel formulas (=SCOOP()), 30-second Slack, auto-PowerPoint",
+        "30-second setup vs 3-4 month competitor implementations",
+        "$299/month flat rate vs $100K-250K competitor costs"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "✅ =SCOOP() live formulas in cells",
+      "investigation": "✅ Multi-pass 3-10 queries",
+      "slack": "✅ 30-second native setup",
+      "presentations": "✅ Auto-generation 30 seconds",
+      "save_queries": "✅ Full history and sharing",
+      "ml_analysis": "✅ ML_GROUP/ML_PERIOD explanatory",
+      "natural_language": "✅ True conversational AI",
+      "hypothesis": "✅ Multi-hypothesis testing"
+    },
+    "technical": {
+      "stack": "Cloud-native with automatic scaling",
+      "architecture": "No semantic layer required, automatic schema evolution",
+      "scalability": "Unlimited queries on flat rate pricing"
+    },
+    "commercial": {
+      "pricing": "$299/month flat rate",
+      "hidden_costs": ["None"],
+      "total_cost_200_users": "$3,588/year"
+    },
+    "timeline": {
+      "setup": "30 seconds",
+      "implementation": "Immediate",
+      "time_to_value": "First insight in 30 seconds"
+    }
+  },
   "Power BI Copilot": {
     "meta": {
       "vendor": "Microsoft",
@@ -267,7 +313,7 @@
     "meta": {
       "vendor": "DataGPT",
       "category": "Analyst Workbench",
-      "score": "20/40",
+      "score": "15/40",
       "slug": "datagpt"
     },
     "content": {
@@ -311,7 +357,7 @@
     "meta": {
       "vendor": "Domo",
       "category": "Analyst Workbench",
-      "score": "18/40",
+      "score": "24/40",
       "slug": "domo"
     },
     "content": {

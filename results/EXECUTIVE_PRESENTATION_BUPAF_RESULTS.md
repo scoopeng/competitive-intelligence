@@ -2,7 +2,7 @@
 
 **Date**: January 2025  
 **Analysis**: 11 Competitors Evaluated  
-**Framework**: Business User Power Analytics Framework (BUPAF) v2.0  
+**Framework**: AI Business User Empowerment Framework (BUPAF) v2.0  
 **Key Finding**: Scoop is the only true business user empowerment platform
 
 ---
@@ -10,7 +10,7 @@
 ## 1. Executive Summary
 
 ### The Market Reality
-After comprehensive analysis of 11 major competitors using our Business User Power Analytics Framework:
+After comprehensive analysis of 11 major competitors using our AI Business User Empowerment Framework:
 - **0 competitors** enable true business user independence
 - **0 competitors** have automatic schema evolution
 - **0 competitors** offer multi-hypothesis investigation
@@ -34,11 +34,11 @@ Scoop has **five validated moats** that competitors cannot replicate:
 CATEGORY A: Empowerment (36-40)
 ├── Scoop                 36/40  ████████████████████████████████████░░░░
 
-CATEGORY C: Analyst Tools (15-20)  
-├── DataGPT               20/40  ████████████████████░░░░░░░░░░░░░░░░░░░░
-├── Domo                  18/40  ██████████████████░░░░░░░░░░░░░░░░░░░░░░
+CATEGORY C: Analyst Tools (15-25)  
+├── Domo                  24/40  ████████████████████████░░░░░░░░░░░░░░░░
 ├── ThoughtSpot           18/40  ██████████████████░░░░░░░░░░░░░░░░░░░░░░
 ├── Tellius               16/40  ████████████████░░░░░░░░░░░░░░░░░░░░░░░░
+├── DataGPT               15/40  ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 └── Zenlytic              15/40  ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 
 CATEGORY D: Marketing Mirages (0-14)
