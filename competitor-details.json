@@ -60,7 +60,8 @@
         "Requires expensive F64 capacity units starting at $60K",
         "Microsoft documentation warns of potential inaccuracies",
         "DAX complexity remains a barrier for business users",
-        "Limited to Power BI ecosystem and data models"
+        "Limited to Power BI ecosystem and data models",
+        "No native Slack, limited Excel integration beyond export"
       ]
     },
     "capabilities": {
@@ -104,7 +105,8 @@
         "Limited to preset metrics and KPIs",
         "Cannot investigate root causes of changes",
         "Requires full Tableau platform investment",
-        "No natural language query capabilities"
+        "No natural language query capabilities",
+        "Screenshot-based PowerPoint workflow, no live Excel formulas"
       ]
     },
     "capabilities": {
@@ -148,7 +150,8 @@
         "Complete vendor lock-in to Snowflake platform",
         "Requires 6-12 month migration timeline",
         "No investigation beyond single queries",
-        "High total cost of ownership"
+        "High total cost of ownership",
+        "Requires separate BI tool for visualization, no native Office integration"
       ]
     },
     "capabilities": {
@@ -324,7 +327,8 @@
         "Schema changes are rare after initial setup",
         "No investigation or root cause capabilities",
         "Limited to predefined metrics",
-        "Cannot handle business changes dynamically"
+        "Cannot handle business changes dynamically",
+        "Metrics trapped in platform, manual export to Office tools"
       ]
     },
     "capabilities": {
@@ -368,7 +372,8 @@
         "Dashboard-first approach limits flexibility",
         "High renewal price increases reported",
         "Alert fatigue from metric overload",
-        "IT builds while business users only view"
+        "IT builds while business users only view",
+        "Portal prison - everything requires logging into Domo"
       ]
     },
     "capabilities": {
@@ -412,7 +417,8 @@
         "Accuracy challenges noted in benchmarks",
         "Requires specific phrasing for queries",
         "Enterprise deployment complexity",
-        "Significant implementation requirements"
+        "Significant implementation requirements",
+        "Search interface only, no native Office integration"
       ]
     },
     "capabilities": {
@@ -500,7 +506,8 @@
         "SQL-first approach excludes business users",
         "Requires technical knowledge throughout",
         "Analyst acceleration tool only",
-        "Not designed for business independence"
+        "Not designed for business independence",
+        "Portal-only interface, no Excel formulas or PowerPoint integration"
       ]
     },
     "capabilities": {

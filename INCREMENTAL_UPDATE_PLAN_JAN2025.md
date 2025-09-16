@@ -285,3 +285,21 @@ cat INCREMENTAL_UPDATE_PLAN_JAN2025.md
 - Prevents dilution of core "AI Data Analyst" identity
 - Provides specific talk tracks for each competitor
 - Mathematical proof points for ROI discussions
+
+### ✅ Update 4: Added Tool Integration Weaknesses to Competitor Profiles
+**Date**: January 2025  
+**File**: `competitor-details.json`  
+**Type**: Incremental additions to weaknesses arrays (no deletions)
+**Competitors Updated** (8 total):
+1. **Snowflake Cortex**: "Requires separate BI tool for visualization, no native Office integration"
+2. **Zenlytic**: "Portal-only interface, no Excel formulas or PowerPoint integration"
+3. **DataGPT**: "Metrics trapped in platform, manual export to Office tools"
+4. **Tableau Pulse**: "Screenshot-based PowerPoint workflow, no live Excel formulas"
+5. **Power BI Copilot**: "No native Slack, limited Excel integration beyond export"
+6. **ThoughtSpot**: "Search interface only, no native Office integration"
+7. **Domo**: "Portal prison - everything requires logging into Domo"
+
+**Strategic Impact**:
+- Each competitor now explicitly shows Office integration gaps
+- Reinforces "your tools" positioning for sales conversations
+- Specific pain points documented for each platform
