@@ -51,28 +51,28 @@ You are analyzing Scoop's competitive intelligence. Here's what you need to know
 
 ### Competitor Categories & Analyses
 
-#### Category A: Business User Empowerment (36-40 points)
+#### Category A: Business User Empowerment (45-50 points)
 **[category-a-empowerment/](./category-a-empowerment/)**
-- **Scoop Only** - 36/40 points
+- **Scoop Only** - 45/50 points
 - True self-service with investigation engine
 - No other vendor qualifies
 
-#### Category C: Analyst Workbenches (15-25 points)  
+#### Category C: Analyst Workbenches (19-32 points)  
 **[category-c-analyst/](./category-c-analyst/)**
-- **[DataGPT](./category-c-analyst/datagpt/)** - 20 points - Fast but single-source only
-- **[Domo](./category-c-analyst/domo/)** - 18 points - Dashboard prison, no investigation
-- **[ThoughtSpot](./category-c-analyst/thoughtspot/)** - 18 points - $140K+/year, 33.3% accuracy
-- **[Tellius](./category-c-analyst/tellius/)** - 16 points - Real ML but too complex
-- **[Zenlytic](./category-c-analyst/zenlytic/)** - 15 points - YAML hell, opposite of self-service
+- **[Domo](./category-c-analyst/domo/)** - 29 points - Dashboard prison, no investigation
+- **[ThoughtSpot](./category-c-analyst/thoughtspot/)** - 23 points - $140K+/year, 33.3% accuracy
+- **[Tellius](./category-c-analyst/tellius/)** - 20 points - Real ML but too complex
 
-#### Category D: Marketing Mirages (0-14 points)
+#### Category D: Marketing Mirages (0-18 points)
 **[category-d-mirages/](./category-d-mirages/)**
-- **[Power BI Copilot](./category-d-mirages/power-bi-copilot/)** - 13 points - "Nondeterministic behavior"
-- **[Snowflake Cortex](./category-d-mirages/snowflake-cortex/)** - 12 points - $100K-250K/year, no ML
-- **[Sisense](./category-d-mirages/sisense/)** - 10 points - 400% renewal increases
-- **[Tableau Pulse](./category-d-mirages/tableau-pulse/)** - 9 points - Not real AI
-- **[Qlik Insight](./category-d-mirages/qlik/)** - 9 points - Zero adoption after 5 years
-- **[DataChat](./category-d-mirages/datachat/)** - 5 points - 7 years, zero reviews
+- **[DataGPT](./category-d-mirages/datagpt/)** - 18 points - Fast but single-source only
+- **[Zenlytic](./category-d-mirages/zenlytic/)** - 18 points - YAML hell, opposite of self-service
+- **[Power BI Copilot](./category-d-mirages/power-bi-copilot/)** - 17 points - "Nondeterministic behavior"
+- **[Snowflake Cortex](./category-d-mirages/snowflake-cortex/)** - 13 points - $100K-250K/year, no ML
+- **[Sisense](./category-d-mirages/sisense/)** - 12 points - 400% renewal increases
+- **[Tableau Pulse](./category-d-mirages/tableau-pulse/)** - 11 points - Not real AI
+- **[Qlik Insight](./category-d-mirages/qlik/)** - 11 points - Zero adoption after 5 years
+- **[DataChat](./category-d-mirages/datachat/)** - 6 points - 7 years, zero reviews
 
 ### Special Focus Areas
 
