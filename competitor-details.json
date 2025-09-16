@@ -1,0 +1,486 @@
+{
+  "Power BI Copilot": {
+    "meta": {
+      "vendor": "Microsoft",
+      "category": "Limited Analytics",
+      "score": "13/40",
+      "slug": "power-bi-copilot"
+    },
+    "content": {
+      "executive_summary": "Power BI Copilot accelerates technical analysts in building dashboards but does not enable business user independence. With Microsoft's documented concerns about accuracy, expensive F64 capacity requirements starting at $60K, and significant DAX error rates, it maintains rather than eliminates the analyst bottleneck. Business users continue waiting for dashboards that may not address their specific questions.",
+      "critical_gap": "Accelerates analysts rather than empowering business users. Requires F64 capacity.",
+      "bottom_line": "Analyst acceleration tool with enterprise requirements.",
+      "weaknesses": [
+        "Requires expensive F64 capacity units starting at $60K",
+        "Microsoft documentation warns of potential inaccuracies",
+        "DAX complexity remains a barrier for business users",
+        "Limited to Power BI ecosystem and data models"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ Export only, no formula execution",
+      "investigation": "❌ Single queries only",
+      "slack": "❌ Teams integration only",
+      "presentations": "❌ Manual export required",
+      "save_queries": "❌ DAX formulas required",
+      "ml_analysis": "❌ External tools needed",
+      "natural_language": "❌ NL to DAX conversion",
+      "hypothesis": "❌ Manual exploration only"
+    },
+    "technical": {
+      "stack": "Azure-based with Power BI Service",
+      "architecture": "Cloud-native with semantic layer requirement",
+      "scalability": "Depends on capacity units purchased"
+    },
+    "commercial": {
+      "pricing": "F64 capacity starts at $60K/year",
+      "hidden_costs": ["Premium capacity", "Training", "DAX development"],
+      "total_cost_200_users": "$150K+"
+    },
+    "timeline": {
+      "setup": "2-4 weeks",
+      "implementation": "3-6 months",
+      "time_to_value": "1-2 months after semantic model"
+    }
+  },
+  "Tableau Pulse": {
+    "meta": {
+      "vendor": "Salesforce",
+      "category": "Limited Analytics",
+      "score": "9/40",
+      "slug": "tableau-pulse"
+    },
+    "content": {
+      "executive_summary": "Tableau Pulse provides metric monitoring and alerting capabilities on top of Tableau's platform. The solution focuses on descriptive analytics and notifications rather than investigative capabilities. It requires existing Tableau infrastructure and semantic layer configuration. As an alerting layer for the Tableau ecosystem, it serves organizations already invested in the platform.",
+      "critical_gap": "Notifications only - provides alerts about what happened but cannot investigate why. No root cause analysis capability.",
+      "bottom_line": "Notification system without investigation capabilities.",
+      "weaknesses": [
+        "Limited to preset metrics and KPIs",
+        "Cannot investigate root causes of changes",
+        "Requires full Tableau platform investment",
+        "No natural language query capabilities"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ Export only, no formulas",
+      "investigation": "❌ Single metric alerts only",
+      "slack": "❌ Portal required",
+      "presentations": "❌ Manual copy/paste",
+      "save_queries": "❌ Recreate each time",
+      "ml_analysis": "❌ No ML, just statistics",
+      "natural_language": "❌ Preset metrics only",
+      "hypothesis": "❌ Cannot answer WHY"
+    },
+    "technical": {
+      "stack": "Tableau Server/Cloud infrastructure",
+      "architecture": "Built on Tableau's semantic layer",
+      "scalability": "Limited by Tableau platform limits"
+    },
+    "commercial": {
+      "pricing": "Requires Tableau Creator licenses",
+      "hidden_costs": ["Tableau infrastructure", "Semantic layer development", "Training"],
+      "total_cost_200_users": "$150K+"
+    },
+    "timeline": {
+      "setup": "2-3 weeks",
+      "implementation": "2-3 months",
+      "time_to_value": "1 month after configuration"
+    }
+  },
+  "Snowflake Cortex": {
+    "meta": {
+      "vendor": "Snowflake",
+      "category": "Limited Analytics",
+      "score": "11/40",
+      "slug": "snowflake-cortex"
+    },
+    "content": {
+      "executive_summary": "Snowflake Cortex provides text-to-SQL capabilities within the Snowflake ecosystem. Business users cannot explore why questions, work in collaborative tools without custom development, generate presentations, or save queries without technical configuration. After significant investment in semantic models, users receive single SQL query results that answer what but never why.",
+      "critical_gap": "Limited to SQL queries without investigation capabilities. No collaboration or ML analysis.",
+      "bottom_line": "SQL-based analytics requiring significant infrastructure.",
+      "weaknesses": [
+        "Complete vendor lock-in to Snowflake platform",
+        "Requires 6-12 month migration timeline",
+        "No investigation beyond single queries",
+        "High total cost of ownership"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel support",
+      "investigation": "❌ Single SQL queries only",
+      "slack": "❌ 2-4 weeks custom dev required",
+      "presentations": "❌ Manual copy/paste only",
+      "save_queries": "❌ YAML semantic models",
+      "ml_analysis": "❌ Zero ML capabilities",
+      "natural_language": "⚠️ Text-to-SQL only, no WHY",
+      "hypothesis": "❌ Cannot test hypotheses"
+    },
+    "technical": {
+      "stack": "Snowflake Data Cloud platform",
+      "architecture": "Warehouse-centric with compute separation",
+      "scalability": "Scales with credit consumption"
+    },
+    "commercial": {
+      "pricing": "Credit-based consumption model",
+      "hidden_costs": ["Migration costs", "Compute credits", "Storage", "Professional services"],
+      "total_cost_200_users": "High total cost of ownership"
+    },
+    "timeline": {
+      "setup": "1-2 months",
+      "implementation": "6-12 months",
+      "time_to_value": "3-4 months minimum"
+    }
+  },
+  "Sisense": {
+    "meta": {
+      "vendor": "Sisense",
+      "category": "Limited Analytics",
+      "score": "10/40",
+      "slug": "sisense"
+    },
+    "content": {
+      "executive_summary": "Sisense is an established BI platform experiencing performance challenges with complex queries. Users report extended execution times for analytics that should complete quickly. The platform uses traditional statistical methods and requires Elasticube configuration. It provides traditional BI capabilities with modern interface updates but faces scalability concerns.",
+      "critical_gap": "Query performance significantly slower than direct database access.",
+      "bottom_line": "Traditional BI platform with performance limitations.",
+      "weaknesses": [
+        "Query execution times of 10-20 minutes reported",
+        "Limited natural language processing capabilities",
+        "Requires technical expertise for configuration",
+        "Scalability challenges in large deployments"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel execution",
+      "investigation": "❌ Single queries only",
+      "slack": "❌ No integration",
+      "presentations": "❌ Manual export only",
+      "save_queries": "❌ Complex setup required",
+      "ml_analysis": "❌ Statistical forecasting only",
+      "natural_language": "⚠️ Template-based NLP",
+      "hypothesis": "❌ No hypothesis testing"
+    },
+    "technical": {
+      "stack": "Elasticube in-memory technology",
+      "architecture": "In-memory analytics engine",
+      "scalability": "Performance degrades with scale"
+    },
+    "commercial": {
+      "pricing": "Per-user licensing model",
+      "hidden_costs": ["Implementation services", "Training", "Infrastructure"],
+      "total_cost_200_users": "$100K+"
+    },
+    "timeline": {
+      "setup": "3-4 weeks",
+      "implementation": "14+ weeks typical",
+      "time_to_value": "2-3 months"
+    }
+  },
+  "Qlik Insight Advisor": {
+    "meta": {
+      "vendor": "Qlik",
+      "category": "Limited Analytics",
+      "score": "9/40",
+      "slug": "qlik"
+    },
+    "content": {
+      "executive_summary": "Qlik Insight Advisor uses rule-based pattern matching rather than true AI capabilities. The system requires exact spelling and cannot handle variations in language, requiring IT teams to maintain business logic configurations. Consultants report minimal adoption in production environments. With limited natural language understanding and extended query times, it faces significant usability challenges.",
+      "critical_gap": "Cannot handle typos or variations - 'slaes' won't find 'sales'. Consultants report minimal adoption.",
+      "bottom_line": "Pattern-based search requiring exact syntax.",
+      "weaknesses": [
+        "Language processing fails on typos and variations",
+        "Requires IT staff for business logic maintenance",
+        "Limited adoption reported by consultants",
+        "Extended response times for queries"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel support",
+      "investigation": "❌ Single queries only",
+      "slack": "❌ Integration challenges reported",
+      "presentations": "❌ Manual export only",
+      "save_queries": "❌ Business logic config required",
+      "ml_analysis": "❌ Rules, not ML",
+      "natural_language": "❌ Typos break it",
+      "hypothesis": "❌ No why capability"
+    },
+    "technical": {
+      "stack": "Qlik Sense platform with associative model",
+      "architecture": "In-memory associative engine",
+      "scalability": "Limited by associative model complexity"
+    },
+    "commercial": {
+      "pricing": "User-based and capacity licensing",
+      "hidden_costs": ["Business logic maintenance", "Training", "IT support"],
+      "total_cost_200_users": "$340K+"
+    },
+    "timeline": {
+      "setup": "2-3 weeks",
+      "implementation": "3-4 months",
+      "time_to_value": "2-3 months"
+    }
+  },
+  "DataChat": {
+    "meta": {
+      "vendor": "DataChat",
+      "category": "Limited Analytics",
+      "score": "5/40",
+      "slug": "datachat"
+    },
+    "content": {
+      "executive_summary": "DataChat has secured significant funding and partnerships with major cloud providers. The platform focuses on natural language to SQL conversion for data warehouses. Limited public documentation and case studies make it difficult to assess specific capabilities. The solution appears targeted at technical users working with warehouse data.",
+      "critical_gap": "Limited documentation and case studies available despite significant funding.",
+      "bottom_line": "Natural language to SQL interface with limited adoption evidence.",
+      "weaknesses": [
+        "Limited market presence despite funding",
+        "Few published case studies available",
+        "SQL-focused approach limits accessibility",
+        "Minimal public documentation"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel support",
+      "investigation": "❌ Single SQL queries",
+      "slack": "❌ No integration",
+      "presentations": "❌ Not available",
+      "save_queries": "❌ Limited capability",
+      "ml_analysis": "⚠️ Unclear capabilities",
+      "natural_language": "✅ NL to SQL conversion",
+      "hypothesis": "❌ No investigation"
+    },
+    "technical": {
+      "stack": "Cloud-native with warehouse focus",
+      "architecture": "Natural language to SQL engine",
+      "scalability": "Depends on underlying warehouse"
+    },
+    "commercial": {
+      "pricing": "Not publicly available",
+      "hidden_costs": ["Unknown due to limited documentation"],
+      "total_cost_200_users": "Unknown"
+    },
+    "timeline": {
+      "setup": "Unknown",
+      "implementation": "Unknown",
+      "time_to_value": "Unknown"
+    }
+  },
+  "DataGPT": {
+    "meta": {
+      "vendor": "DataGPT",
+      "category": "Analyst Workbench",
+      "score": "20/40",
+      "slug": "datagpt"
+    },
+    "content": {
+      "executive_summary": "DataGPT provides fast metrics analysis with a rigid schema that is rarely adjusted after initial setup. With no schema evolution capabilities, limited metrics handling, and inability to process unstructured data, it becomes a static solution in dynamic business environments. The platform offers speed but lacks flexibility for evolving business needs.",
+      "critical_gap": "Rigid schema that is rarely adjusted after setup. No schema evolution.",
+      "bottom_line": "Fast metrics tool with rigid schema requirements.",
+      "weaknesses": [
+        "Schema changes are rare after initial setup",
+        "No investigation or root cause capabilities",
+        "Limited to predefined metrics",
+        "Cannot handle business changes dynamically"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel support",
+      "investigation": "❌ Single-pass only",
+      "slack": "❌ No integration",
+      "presentations": "❌ No capability",
+      "save_queries": "❌ Rigid schema",
+      "ml_analysis": "❌ Statistics only, no ML",
+      "natural_language": "✅ Conversational interface",
+      "hypothesis": "❌ No investigation"
+    },
+    "technical": {
+      "stack": "Cloud-native analytics engine",
+      "architecture": "Pre-computed metrics architecture",
+      "scalability": "Limited by schema rigidity"
+    },
+    "commercial": {
+      "pricing": "Subscription-based model",
+      "hidden_costs": ["Schema redesign", "Professional services"],
+      "total_cost_200_users": "$100K+ minimum"
+    },
+    "timeline": {
+      "setup": "2-4 weeks",
+      "implementation": "1-2 months",
+      "time_to_value": "2-4 weeks"
+    }
+  },
+  "Domo": {
+    "meta": {
+      "vendor": "Domo",
+      "category": "Analyst Workbench",
+      "score": "18/40",
+      "slug": "domo"
+    },
+    "content": {
+      "executive_summary": "Domo provides natural language to SQL capabilities but operates on single queries without investigation capabilities. It cannot explore why metrics change, test hypotheses, or generate presentations automatically. The platform uses traditional statistical methods from 2017. Business users receive individual charts rather than comprehensive analysis.",
+      "critical_gap": "Single queries only with no investigation capability. One chart at a time approach.",
+      "bottom_line": "Dashboard-centric business intelligence platform.",
+      "weaknesses": [
+        "Dashboard-first approach limits flexibility",
+        "High renewal price increases reported",
+        "Alert fatigue from metric overload",
+        "IT builds while business users only view"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ Workbench upload only",
+      "investigation": "❌ Single queries only",
+      "slack": "❌ Portal required",
+      "presentations": "❌ Manual copy/paste",
+      "save_queries": "❌ Cannot save naturally",
+      "ml_analysis": "❌ Statistics from 2017",
+      "natural_language": "✅ AI Chat to SQL",
+      "hypothesis": "❌ No investigation"
+    },
+    "technical": {
+      "stack": "Cloud-native platform",
+      "architecture": "Card-based dashboard system",
+      "scalability": "Consumption-based scaling"
+    },
+    "commercial": {
+      "pricing": "Consumption-based pricing",
+      "hidden_costs": ["Overconsumption charges", "Professional services", "Training"],
+      "total_cost_200_users": "$134K average"
+    },
+    "timeline": {
+      "setup": "2-3 weeks",
+      "implementation": "8-12 weeks",
+      "time_to_value": "2-3 months"
+    }
+  },
+  "ThoughtSpot": {
+    "meta": {
+      "vendor": "ThoughtSpot",
+      "category": "Analyst Workbench",
+      "score": "18/40",
+      "slug": "thoughtspot"
+    },
+    "content": {
+      "executive_summary": "ThoughtSpot requires extensive data modeling before business users can ask questions. With complex search syntax requirements, enterprise pricing, and heavy IT dependencies, it represents enterprise software complexity when businesses need simplicity. The search-driven analytics promise requires significant technical knowledge to realize.",
+      "critical_gap": "Enterprise complexity requiring months of data modeling before first question.",
+      "bottom_line": "Enterprise search requiring extensive data modeling.",
+      "weaknesses": [
+        "Accuracy challenges noted in benchmarks",
+        "Requires specific phrasing for queries",
+        "Enterprise deployment complexity",
+        "Significant implementation requirements"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ Plugin for viz only",
+      "investigation": "⚠️ 33.3% accuracy on complex queries",
+      "slack": "❌ No native integration",
+      "presentations": "❌ Manual export only",
+      "save_queries": "⚠️ Pinboards required",
+      "ml_analysis": "⚠️ K-means but no explanation",
+      "natural_language": "⚠️ Search syntax needed",
+      "hypothesis": "❌ Single queries only"
+    },
+    "technical": {
+      "stack": "In-memory calculation engine",
+      "architecture": "Column-store with search layer",
+      "scalability": "Enterprise-grade but complex"
+    },
+    "commercial": {
+      "pricing": "Enterprise licensing model",
+      "hidden_costs": ["Data modeling", "Professional services", "Training"],
+      "total_cost_200_users": "$500K+"
+    },
+    "timeline": {
+      "setup": "1-2 months",
+      "implementation": "3-6 months",
+      "time_to_value": "3-4 months"
+    }
+  },
+  "Tellius": {
+    "meta": {
+      "vendor": "Tellius",
+      "category": "Analyst Workbench",
+      "score": "16/40",
+      "slug": "tellius"
+    },
+    "content": {
+      "executive_summary": "Tellius offers genuine AI capabilities constrained by enterprise complexity. Despite marketing around automated insights, it requires Business Views, semantic layers, and IT configuration. The platform has ML capabilities but requires manual setup and configuration, making it accessible primarily to technical teams rather than business users.",
+      "critical_gap": "Business Views require IT configuration. AI capabilities need semantic layers.",
+      "bottom_line": "ML platform requiring technical configuration.",
+      "weaknesses": [
+        "AutoML requires data science expertise",
+        "Business users need constant IT support",
+        "Complex setup and maintenance requirements",
+        "Technical skills required throughout usage"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel execution",
+      "investigation": "⚠️ Workflows not investigation",
+      "slack": "❌ No native integration",
+      "presentations": "❌ No automation",
+      "save_queries": "❌ Business Views required",
+      "ml_analysis": "⚠️ Has ML but manual config",
+      "natural_language": "✅ Natural language interface",
+      "hypothesis": "❌ No multi-hypothesis testing"
+    },
+    "technical": {
+      "stack": "Cloud-native with ML pipeline",
+      "architecture": "ML-first architecture with semantic layer",
+      "scalability": "Scales with configuration complexity"
+    },
+    "commercial": {
+      "pricing": "Platform licensing",
+      "hidden_costs": ["Business Views setup", "ML configuration", "Training"],
+      "total_cost_200_users": "$100K-300K+"
+    },
+    "timeline": {
+      "setup": "3-4 weeks",
+      "implementation": "3-4 months",
+      "time_to_value": "2-3 months"
+    }
+  },
+  "Zenlytic": {
+    "meta": {
+      "vendor": "Zenlytic",
+      "category": "Analyst Workbench",
+      "score": "15/40",
+      "slug": "zenlytic"
+    },
+    "content": {
+      "executive_summary": "Zenlytic's SQL-first approach excludes business users from the start. With no workflow integration and technical knowledge requirements throughout, it serves as a tool for analysts in a market demanding business user empowerment. The platform requires technical expertise at every step.",
+      "critical_gap": "SQL-first approach completely excludes business users from day one.",
+      "bottom_line": "SQL-focused tool for technical users.",
+      "weaknesses": [
+        "SQL-first approach excludes business users",
+        "Requires technical knowledge throughout",
+        "Analyst acceleration tool only",
+        "Not designed for business independence"
+      ]
+    },
+    "capabilities": {
+      "excel_engine": "❌ No Excel execution",
+      "investigation": "❌ Single SQL queries only",
+      "slack": "⚠️ Dashboard delivery only",
+      "presentations": "❌ No automation",
+      "save_queries": "❌ YAML config required",
+      "ml_analysis": "❌ No ML capabilities",
+      "natural_language": "⚠️ Text-to-SQL with YAML",
+      "hypothesis": "❌ Cannot test hypotheses"
+    },
+    "technical": {
+      "stack": "Modern data stack integration",
+      "architecture": "SQL generation engine",
+      "scalability": "Depends on underlying warehouse"
+    },
+    "commercial": {
+      "pricing": "Per-seat pricing model",
+      "hidden_costs": ["YAML configuration", "SQL training", "Warehouse costs"],
+      "total_cost_200_users": "$80K+"
+    },
+    "timeline": {
+      "setup": "1-2 weeks",
+      "implementation": "1-2 months",
+      "time_to_value": "2-3 weeks for technical users"
+    }
+  }
+}

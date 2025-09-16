@@ -1,0 +1,119 @@
+{
+  "competitors": {
+    "Power BI Copilot": {
+      "category": "Traditional Analytics",
+      "score": "13/40",
+      "bullets": [
+        "Designed for analysts, not business users",
+        "Requires semantic model setup",
+        "Enterprise pricing model",
+        "3-6 month implementation timeline"
+      ]
+    },
+    "Tableau Pulse": {
+      "category": "Traditional Analytics", 
+      "score": "9/40",
+      "bullets": [
+        "Embedded intelligence model from 2018",
+        "Focus on proactive alerts and metrics",
+        "Integrates with Tableau dashboard ecosystem",
+        "Automated anomaly detection system"
+      ]
+    },
+    "Snowflake Cortex": {
+      "category": "Traditional Analytics",
+      "score": "11/40", 
+      "bullets": [
+        "Enterprise data platform approach",
+        "Requires Snowflake ecosystem adoption",
+        "SQL-based interface for data teams",
+        "Best suited for technical users"
+      ]
+    },
+    "Sisense": {
+      "category": "Traditional Analytics",
+      "score": "10/40",
+      "bullets": [
+        "Traditional BI platform with AI features",
+        "Structured query approach",
+        "Enterprise-grade security and governance",
+        "IT-managed deployment model"
+      ]
+    },
+    "Qlik Insight Advisor": {
+      "category": "Traditional Analytics",
+      "score": "9/40",
+      "bullets": [
+        "Associative model requires specific syntax",
+        "Best for users familiar with data model",
+        "Precise field name matching required",
+        "Structured query approach"
+      ]
+    },
+    "DataChat": {
+      "category": "Traditional Analytics",
+      "score": "5/40",
+      "bullets": [
+        "Emerging platform with growing adoption",
+        "SQL-conversation hybrid approach",
+        "Academic research background",
+        "Focused feature set"
+      ]
+    },
+    "DataGPT": {
+      "category": "Analyst Workbench",
+      "score": "20/40",
+      "bullets": [
+        "Optimized for pre-defined metrics",
+        "Fast answers to known questions",
+        "Schema-based architecture",
+        "Best for stable data environments"
+      ]
+    },
+    "Domo": {
+      "category": "Analyst Workbench",
+      "score": "18/40",
+      "bullets": [
+        "Rich dashboard and app ecosystem",
+        "Enterprise platform capabilities",
+        "Extensive visualization options",
+        "IT-managed content creation"
+      ]
+    },
+    "ThoughtSpot": {
+      "category": "Analyst Workbench",
+      "score": "18/40",
+      "bullets": [
+        "Search-driven analytics platform",
+        "Best with structured queries",
+        "Enterprise-scale deployment",
+        "Comprehensive implementation support"
+      ]
+    },
+    "Tellius": {
+      "category": "Analyst Workbench",
+      "score": "16/40",
+      "bullets": [
+        "Advanced AutoML capabilities",
+        "Designed for data science teams",
+        "Comprehensive analytics platform",
+        "Technical user focus"
+      ]
+    },
+    "Zenlytic": {
+      "category": "Analyst Workbench",
+      "score": "15/40",
+      "bullets": [
+        "SQL-powered analytics platform",
+        "Designed for data analysts",
+        "Technical user productivity focus",
+        "Semantic layer approach"
+      ]
+    }
+  },
+  "categoryColors": {
+    "Traditional Analytics": "#E3165B",
+    "Analyst Workbench": "#FF9800",
+    "Platform Play": "#9C27B0"
+  }
+}
