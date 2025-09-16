@@ -2,7 +2,7 @@
 
 **Analysis Version**: 2.0 (Deep Multi-Moat Analysis)  
 **Research Date**: [Date]  
-**Classification**: Category [A/B/C/D] - [Category Name] ([X]/40 BUPAF Score)  
+**Classification**: Category [A/B/C/D] - [Category Name] ([X]/50 BUPAF Score)  
 **Evidence Level**: [Extensive/Moderate/Limited]
 
 ## Executive Assessment

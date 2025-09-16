@@ -141,7 +141,7 @@ Actionability: 0-2 points
 - Analytical Depth: X/10
 - Workflow Integration: X/10
 - Business Communication: X/10
-- **TOTAL BUPAF SCORE: X/40**
+- **TOTAL BUPAF SCORE: X/50**
 - **Category**: [A/B/C/D]
 
 ## Test Results
@@ -393,7 +393,7 @@ NEW: /category-[a-d]-*/[competitor]/bupaf-analysis.md (enhanced analysis)
 ```markdown
 ## Day [X] - [Date]
 ### Completed
-- [x] Competitor: Score X/40
+- [x] Competitor: Score X/50
 - [x] Evidence items: X collected
 - [x] Battle card created
 
