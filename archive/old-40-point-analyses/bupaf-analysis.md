@@ -1,3 +1,5 @@
+# ⚠️ ARCHIVED DOCUMENT - USES OUTDATED 40-POINT SCORING
+
 # Tableau Pulse - BUPAF Analysis (v2.0 Deep Analysis)
 
 ## Quick Scores

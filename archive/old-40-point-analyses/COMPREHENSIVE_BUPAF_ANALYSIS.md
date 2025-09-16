@@ -1,3 +1,5 @@
+# ⚠️ ARCHIVED DOCUMENT - USES OUTDATED 40-POINT SCORING
+
 # Snowflake Cortex - Comprehensive BUPAF Analysis
 
 **Analysis Version**: 2.0 (Deep Multi-Moat Analysis)  

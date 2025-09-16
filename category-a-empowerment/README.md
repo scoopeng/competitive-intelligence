@@ -1,9 +1,9 @@
-# Category A: Business User Empowerment Platforms (36-40 points)
+# Category A: Business User Empowerment Platforms (45-50 points)
 
 **Definition**: Platforms that enable complete business user independence with no technical barriers.
 
 ## Current Members
-- **Scoop** (36/40) - Only platform achieving true business user empowerment
+- **Scoop** (38/50) - Only platform achieving true business user empowerment
 
 ## Qualification Criteria
 To achieve Category A status, platforms must score 36+ points across:

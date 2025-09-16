@@ -1,14 +1,14 @@
-# Category D: Marketing Mirages (0-14 points)
+# Category D: Marketing Mirages (0-18 points)
 
 **Definition**: Platforms with AI/analytics claims that don't match reality. Marketing greatly exceeds capability.
 
 ## Current Members
-- **Power BI Copilot** (13/40) - Nondeterministic behavior, fragmented products
-- **Snowflake Cortex** (12/40) - Vendor lock-in with 6-12 month migration
-- **Sisense** (10/40) - ARIMA from 1970s marketed as AI
-- **Tableau Pulse** (9/40) - Not real AI (embedding models only)
-- **Qlik Insight Advisor** (9/40) - Can't handle typos, zero adoption
-- **DataChat** (5/40) - 7 years, zero reviews (possible vaporware)
+- **Power BI Copilot** (17/50) - Nondeterministic behavior, fragmented products
+- **Snowflake Cortex** (15/50) - Vendor lock-in with 6-12 month migration
+- **Sisense** (12/50) - ARIMA from 1970s marketed as AI
+- **Tableau Pulse** (11/50) - Not real AI (embedding models only)
+- **Qlik Insight Advisor** (11/50) - Can't handle typos, zero adoption
+- **DataChat** (6/50) - 7 years, zero reviews (possible vaporware)
 
 ## Common Characteristics
 

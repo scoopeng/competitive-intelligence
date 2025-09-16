@@ -197,7 +197,7 @@
 ## Competitive Positioning
 
 ### Scoop's Validated Moats
-- **Only platform scoring above 35/40** (next best: 20/40)
+- **Only platform scoring above 36/50** (next best: 25/50)
 - **Investigation Engine**: Multi-pass reasoning (3-10 queries)
 - **Schema Evolution**: Automatic handling vs universal failure
 - **Explainable ML**: J48 decision trees with business rules
@@ -205,9 +205,9 @@
 - **40-50x cost advantage**: $3,588 vs $100K-300K+
 
 ### Closest Competitors
-1. **DataGPT** (20/40) - But tiny customer base
-2. **Domo/ThoughtSpot** (18/40) - But major accessibility issues
-3. **Tellius** (16/40) - But too complex
+1. **DataGPT** (25/50) - But tiny customer base
+2. **Domo/ThoughtSpot** (23/50) - But major accessibility issues
+3. **Tellius** (20/50) - But too complex
 
 ### Why Others Can't Catch Up
 - **Architectural limitations** - Built for IT/analysts

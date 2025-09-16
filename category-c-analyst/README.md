@@ -1,13 +1,13 @@
-# Category C: Analyst Workbenches (15-25 points)
+# Category C: Analyst Workbenches (19-32 points)
 
 **Definition**: Platforms with real capabilities but requiring technical expertise or significant setup.
 
 ## Current Members
-- **DataGPT** (20/40) - Fast but schema-rigid after setup
-- **Domo** (18/40) - Dashboard-first with consumption pricing
-- **ThoughtSpot** (18/40) - Real AI with 33.3% accuracy issues
-- **Tellius** (16/40) - Genuine ML requiring data scientists
-- **Zenlytic** (15/40) - YAML/SQL configuration required
+- **DataGPT** (25/50) - Fast but schema-rigid after setup
+- **Domo** (23/50) - Dashboard-first with consumption pricing
+- **ThoughtSpot** (23/50) - Real AI with 33.3% accuracy issues
+- **Tellius** (20/50) - Genuine ML requiring data scientists
+- **Zenlytic** (18/50) - YAML/SQL configuration required
 
 ## Common Characteristics
 
