@@ -1,119 +1,114 @@
 {
   "competitors": {
     "Power BI Copilot": {
-      "category": "Traditional Analytics",
-      "score": "13/40",
+      "category": "Marketing Mirage",
+      "score": "17/50",
       "bullets": [
-        "Designed for analysts, not business users",
-        "Requires semantic model setup",
-        "Enterprise pricing model",
-        "3-6 month implementation timeline"
+        "Nondeterministic behavior admitted by Microsoft",
+        "Excel COPILOT is separate product/license",
+        "No native Slack, limited Excel integration",
+        "Screenshot-based PowerPoint workflow"
       ]
     },
     "Tableau Pulse": {
-      "category": "Traditional Analytics", 
-      "score": "9/40",
+      "category": "Marketing Mirage", 
+      "score": "11/50",
       "bullets": [
-        "Embedded intelligence model from 2018",
-        "Focus on proactive alerts and metrics",
-        "Integrates with Tableau dashboard ecosystem",
-        "Automated anomaly detection system"
+        "Not real AI - embedding models only",
+        "Schema breaks Pulse metrics completely",
+        "Screenshot-based PowerPoint workflow",
+        "No investigation capabilities"
       ]
     },
     "Snowflake Cortex": {
-      "category": "Traditional Analytics",
-      "score": "11/40", 
+      "category": "Marketing Mirage",
+      "score": "13/50", 
       "bullets": [
-        "Enterprise data platform approach",
-        "Requires Snowflake ecosystem adoption",
-        "SQL-based interface for data teams",
-        "Best suited for technical users"
+        "6-12 month migration required",
+        "$1.6M annual cost for 200 users",
+        "Complete vendor lock-in",
+        "No native Office integration"
       ]
     },
     "Sisense": {
-      "category": "Traditional Analytics",
-      "score": "12/40",
+      "category": "Marketing Mirage",
+      "score": "12/50",
       "bullets": [
-        "Traditional BI platform with AI features",
-        "Structured query approach",
-        "Enterprise-grade security and governance",
-        "IT-managed deployment model"
+        "ARIMA from 1970s marketed as AI",
+        "14+ week implementation typical",
+        "400% renewal increases documented",
+        "Simply Ask feature deprecated"
       ]
     },
     "Qlik Insight Advisor": {
-      "category": "Traditional Analytics",
-      "score": "9/40",
+      "category": "Marketing Mirage",
+      "score": "11/50",
       "bullets": [
-        "Associative model requires specific syntax",
-        "Best for users familiar with data model",
-        "Precise field name matching required",
-        "Structured query approach"
+        "Can't handle typos or plurals",
+        "Zero adoption per consultants",
+        "Rule-based matching, not AI",
+        "$340K+ annual enterprise cost"
       ]
     },
-    "DataChat": {
-      "category": "Traditional Analytics",
-      "score": "10/40",
+    "Zenlytic": {
+      "category": "Marketing Mirage",
+      "score": "18/50",
       "bullets": [
-        "Emerging platform with growing adoption",
-        "SQL-conversation hybrid approach",
-        "Academic research background",
-        "Focused feature set"
-      ]
-    },
-    "DataGPT": {
-      "category": "Analyst Workbench",
-      "score": "15/40",
-      "bullets": [
-        "Optimized for pre-defined metrics",
-        "Fast answers to known questions",
-        "Schema-based architecture",
-        "Best for stable data environments"
+        "YAML/SQL configuration required",
+        "Git workflows for metrics",
+        "Technical users only",
+        "Weeks to configure"
       ]
     },
     "Domo": {
       "category": "Analyst Workbench",
-      "score": "24/40",
+      "score": "29/50",
       "bullets": [
-        "Rich dashboard and app ecosystem",
-        "Enterprise platform capabilities",
-        "Extensive visualization options",
-        "IT-managed content creation"
+        "Dashboard-first architecture",
+        "$134K average annual cost",
+        "AI Chat requires dashboards exist",
+        "Portal prison - no native tools"
       ]
     },
     "ThoughtSpot": {
       "category": "Analyst Workbench",
-      "score": "18/40",
+      "score": "23/50",
       "bullets": [
-        "Search-driven analytics platform",
-        "Best with structured queries",
-        "Enterprise-scale deployment",
-        "Comprehensive implementation support"
+        "33.3% accuracy in benchmarks",
+        "$140K+ annual cost",
+        "2-3 month implementation",
+        "Search interface only"
       ]
     },
     "Tellius": {
       "category": "Analyst Workbench",
-      "score": "16/40",
+      "score": "20/50",
       "bullets": [
-        "Advanced AutoML capabilities",
-        "Designed for data science teams",
-        "Comprehensive analytics platform",
-        "Technical user focus"
+        "Real ML but too complex",
+        "Requires data scientists",
+        "$100K+ annual cost",
+        "Black box predictions"
       ]
     },
-    "Zenlytic": {
-      "category": "Analyst Workbench",
-      "score": "15/40",
+    "DataGPT": {
+      "category": "Marketing Mirage",
+      "score": "18/50",
       "bullets": [
-        "SQL-powered analytics platform",
-        "Designed for data analysts",
-        "Technical user productivity focus",
-        "Semantic layer approach"
+        "Schema rigid after setup",
+        "Single-source only",
+        "No investigation capability",
+        "Portal-only access"
+      ]
+    },
+    "DataChat": {
+      "category": "Marketing Mirage",
+      "score": "6/50",
+      "bullets": [
+        "7 years, zero reviews",
+        "No verifiable customers",
+        "Templates not real ML",
+        "Possible vaporware"
       ]
     }
-  },
-  "categoryColors": {
-    "Traditional Analytics": "#E3165B",
-    "Analyst Workbench": "#FF9800",
-    "Platform Play": "#9C27B0"
   }
 }
