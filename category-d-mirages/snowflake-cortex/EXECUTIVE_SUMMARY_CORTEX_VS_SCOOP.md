@@ -4,7 +4,7 @@
 
 ---
 
-## The Five Fatal Flaws of Cortex
+## The Five Critical Gaps of Cortex
 
 ### 1. ❌ Cannot Investigate (Only Queries)
 - **Cortex**: "Revenue was $X" (what)
