@@ -4,6 +4,38 @@
 **Impact**: Fundamental competitive advantage not documented in competitive analysis  
 **Recommendation**: Add new BUPAF dimension for Visual Intelligence
 
+## Strategic Positioning: AI Data Analyst in YOUR Tools
+
+### Core Identity
+**Scoop = Your AI Data Analyst** - This is what gets them in the door. We investigate (3-10 queries), find root causes, and explain with ML. Everything else supports this core identity.
+
+### The Business User Reality
+While competitors build for IT departments and data analysts, Scoop is built for actual business users working in their actual tools:
+- **Excel**: =SCOOP() formulas with live refresh - not static exports that die on arrival
+- **PowerPoint**: Live data overlay on your slides - not screenshots that go stale in minutes
+- **Slack**: Full investigation where teams collaborate - not another portal to check
+- **Google Sheets**: Native plugin for cloud-first organizations
+
+### When to Emphasize "Your Tools" - Strategic Application
+
+**DEVASTATING against NL-SQL tools** (Snowflake Cortex, Zenlytic, DataGPT):
+- They're trapped in SQL queries and proprietary portals
+- Users must context-switch out of their workflow
+- Key message: "They give you a query result in their portal. We give you a board-ready answer in YOUR PowerPoint."
+- Specific pain: These tools require 3-4 hours to get from query → Excel → PowerPoint
+- Our advantage: 30 seconds from question to boardroom-ready presentation
+
+**Supporting point against Enterprise BI** (Tableau, Power BI, Domo):
+- Main attack remains investigation depth and ML capabilities
+- "Your tools" becomes the closer: "Even if they could investigate (they can't), you'd still spend hours getting it into PowerPoint"
+- Their reality: Screenshot → Paste → Format → Repeat (3-4 hours per deck)
+
+### The Time Savings Math That Closes Deals
+- **Snowflake Cortex path**: SQL query → Copy results → Paste to Excel → Clean data → Create charts → Screenshot → PowerPoint → Format = 3-4 hours
+- **Tableau path**: Build viz → Screenshot → PowerPoint → Annotate → Format = 2-3 hours
+- **Scoop path**: Ask in Slack/Excel → Get formatted answer with visuals → Auto-PowerPoint = 30 seconds
+- **Weekly impact**: 17.5 hours saved per user × 10 users = **1 FTE equivalent**
+
 ## Executive Summary
 
 Scoop possesses an undisclosed, industry-unique capability: **AI-powered brand intelligence and live presentation technology** that transforms how business users create and maintain boardroom-quality presentations. This capability fundamentally changes the competitive landscape.
