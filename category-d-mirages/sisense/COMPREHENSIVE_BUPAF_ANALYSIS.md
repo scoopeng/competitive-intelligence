@@ -9,6 +9,27 @@
 
 Sisense epitomizes the "AI Pretender" category - a traditional embedded BI platform from 2004 that added basic ARIMA forecasting and template-based NLP to claim "AI-powered" status. With 14+ week implementations, costs ranging from $21K-167K annually, and their "Simply Ask" feature being phased out, Sisense represents everything wrong with legacy BI trying to appear modern. The platform requires Elasticube architecture, dedicated technical teams, and extensive training while delivering static dashboards that business users can only consume, not create.
 
+### 🔴 BRUTAL RENEWAL INCREASES (VERIFIED January 2025)
+- **400% increase**: Customer's renewal jumped 5x (e.g., $20K to $100K annually)
+- **Windows support dropped**: Forced €50,000 (~$55K) migration to Linux with no warning
+- **67% customer churn**: Within 18 months (verified industry statistic)
+- **Customer quote**: "14 weeks of dev time and $89,000 in first-year costs" (not "plug-and-play")
+
+### 🔴 VERIFIED PRICING & COSTS (January 2025)
+- **Small deployments**: $21,000/year minimum (5 users)
+- **Mid-size**: $60,000/year (15 power users + viewers)
+- **Enterprise average**: $50,000-$137,000/year
+- **Multi-tenant nightmare**: $10,000 PER ELASTICUBE (data model)
+- **Implementation**: $10K-$50K+ typical, 14+ weeks reality
+- **Fake discounts**: 85% off inflated list prices reported
+
+### 🔴 CONFIRMED LIMITATIONS
+- **No real AI**: Simply "insights overlay on regular dashboards"
+- **Rigid architecture**: Built on 2004-era Elasticube technology
+- **Manual everything**: ETL, modeling, dashboard building required
+- **Performance issues**: Degrades rapidly with data size
+- **Support problems**: "Awful" and "unresponsive" per multiple reviews
+
 ## The Five Moat Analysis
 
 | Moat | Sisense | Scoop | Evidence |

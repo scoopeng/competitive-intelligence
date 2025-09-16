@@ -7,7 +7,19 @@
 
 ## Executive Assessment
 
-Power BI Copilot represents Microsoft's desperate attempt to add "AI" to their BI platform, resulting in an expensive ($262+ minimum), unreliable (self-admitted "nondeterministic behavior"), and fundamentally broken addition that requires months of preparation to deliver "misleading outputs" (Microsoft's own words). Despite marketing as "AI for business users," it requires extensive IT support, works only in limited regions, and Microsoft themselves warn it can produce "generic, inaccurate, or even misleading outputs."
+Power BI Copilot represents Microsoft's desperate attempt to add "AI" to their BI platform, resulting in an expensive (~$55+ minimum capacity, PPU excluded), unreliable (self-admitted "nondeterministic behavior"), and fundamentally broken addition that requires months of preparation to deliver "misleading outputs" (Microsoft's own words). Despite marketing as "AI for business users," it requires extensive IT support, works only in limited regions, and Microsoft themselves warn it can produce "generic, inaccurate, or even misleading outputs." Industry experts call it "a solution looking for a problem."
+
+### 🔴 VERIFIED PRICING & COSTS (January 2025)
+- **Minimum entry**: ~$55/month F2 capacity (reduced from $262 F64 requirement)
+- **PPU excluded**: Most popular $20/user license doesn't work with Copilot
+- **Pro price increase**: 40% jump coming April 2025 ($10→$14/user/month)
+- **Implementation**: 5-14 weeks of data preparation required
+
+### 🔴 NEW EVIDENCE (2024-2025 Updates)
+- **Quote**: "Solution looking for a problem" - industry expert assessment
+- **Quote**: "Too complex for Copilot to generate appropriate flow" - customer experience
+- **Feature**: Standalone Copilot experience, mobile support added
+- **Reality**: Still produces "misleading outputs" per Microsoft's own documentation
 
 ## The Five Moat Analysis
 
@@ -26,11 +38,12 @@ Power BI Copilot represents Microsoft's desperate attempt to add "AI" to their B
 **Test**: Can a sales manager upload a CSV and analyze it?
 
 **Evidence Chain**:
-1. Cannot use without capacity purchase ($262+ minimum)
-2. "Premium Per User (PPU) excluded" - popular license doesn't work
+1. Cannot use without capacity purchase (~$55+ F2 minimum as of April 2025, was $262 F64)
+2. "Premium Per User (PPU) excluded" - most popular $20 license doesn't work
 3. Requires 5-11 weeks implementation timeline
-4. "Extensive data preparation: 5-14 weeks of technical work required"
+4. "Extensive data preparation: 5-14 weeks of technical work required" (confirmed 2024)
 5. Without prep: "generic, inaccurate, or misleading outputs"
+6. Customer experience: "Too complex for Copilot to generate appropriate flow"
 
 **Microsoft's Warning**: "Can struggle to interpret data correctly"
 

@@ -7,7 +7,28 @@
 
 ## Executive Assessment
 
-Domo exemplifies the dashboard-first BI platform trying to retrofit AI capabilities. Despite being ranked #1 in Dresner's self-service BI study for seven consecutive years, the platform requires significant data engineering, dashboard creation, and technical expertise before business users can derive value. Their AI Chat (2024) allows natural language queries but only within existing dashboard contexts. With average enterprise costs of $134K/year, unpredictable consumption pricing, and a fundamental dependency on pre-built visualizations, Domo represents the analyst workbench trying to appear accessible to business users.
+Domo exemplifies the dashboard-first BI platform trying to retrofit AI capabilities. Despite being ranked #1 in Dresner's self-service BI study for six consecutive years (2024), the platform requires significant data engineering, dashboard creation, and technical expertise before business users can derive value. Their AI Chat (2024) allows natural language queries but only within existing dashboard contexts. With average enterprise costs of $134K/year, unpredictable consumption pricing, and a fundamental dependency on pre-built visualizations, Domo represents the analyst workbench trying to appear accessible to business users.
+
+### 🔴 SHOCKING RENEWAL INCREASES (VERIFIED)
+- **1120% increase**: Customer's annual cost went from ~$10K to $122K for same usage
+- **2240% threatened**: Next renewal would be 23.4x original price
+- **Customer quote**: "It forced us to rush a migration. Completely eroded our trust" - G2 Review
+- **Only 2 months notice**: For 12.2x price increase
+
+### 🔴 VERIFIED PRICING & COSTS (January 2025)
+- **Average enterprise**: $134,000/year (Vendr data from 84 deals)
+- **Maximum recorded**: $1,555,000/year
+- **User licenses**: $750/year base fee per user
+- **Credit consumption**: Everything consumes credits (views, syncs, monitoring)
+- **AI Chat**: Now consumes credits as of Jan 2025
+- **No cost controls**: No forecasting tools, no usage alerts
+
+### 🔴 CONFIRMED ISSUES
+- **Dresner #1**: For 6 consecutive years (not 7 as previously stated)
+- **Dashboard dependency**: AI Chat only works within dashboard context
+- **Small businesses ignored**: "Clear we are not a target customer group"
+- **Performance issues**: "Very sluggish when loading visualizations"
+- **AI reality**: "Half-baked...needs significant data modeling beforehand"
 
 ## The Five Moat Analysis
 

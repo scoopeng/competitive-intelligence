@@ -9,7 +9,27 @@
 
 ### Classification: Category D - Marketing Mirage (9/40 BUPAF Score)
 
-Tableau Pulse represents a textbook case of legacy vendor "AI washing" - bolting superficial AI features onto 20-year-old architecture that fundamentally cannot support modern business user empowerment. Despite heavy marketing about "AI-powered insights" and "democratizing data," our research reveals it's essentially a metric alerting system with natural language descriptions, crippled by architectural limitations that cannot be fixed without a complete rebuild.
+Tableau Pulse represents a textbook case of legacy vendor "AI washing" - bolting superficial AI features onto 20-year-old architecture that fundamentally cannot support modern business user empowerment. Despite heavy marketing about "AI-powered insights" and "democratizing data," our research reveals it's essentially a metric alerting system with natural language descriptions, crippled by architectural limitations that cannot be fixed without a complete rebuild. Even Tableau admits it's "best used alongside traditional dashboards" rather than as a replacement.
+
+### 🔴 VERIFIED PRICING & COSTS (January 2025)
+- **Basic Pulse**: Included in all Tableau Cloud editions
+- **Premium features**: Reserved for Tableau+ only
+- **Creator licenses**: $75-115/month required to create metrics
+- **Implementation**: 3-5 months typical
+
+### 🔴 CONFIRMED LIMITATIONS (2024-2025)
+- **Single data source only**: Cannot blend or join data
+- **Time dimension required**: "Metrics must be anchored to time"
+- **No table calculations**: Major analytical limitation
+- **400 Bad Request errors**: Pre-aggregated measures fail
+- **Legacy metrics lost**: February 2024 retirement, no migration path
+
+### 🔴 NEW FEATURES (Still Limited)
+- **Tableau Agent**: Natural language for viz creation (2024.2)
+- **Enhanced Q&A**: Available in Tableau+ only
+- **Correlated Metrics**: Shows relationships between metrics
+- **Google Workspace Integration**: Embed in Docs/Slides
+- **Reality**: "Best used alongside traditional dashboards" - Tableau's own admission
 
 ### The Five Moat Analysis - Complete Failure Across All Dimensions
 

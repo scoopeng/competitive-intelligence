@@ -2,6 +2,15 @@
 
 **Bottom Line**: Cortex is text-to-SQL that can't investigate WHY. Scoop is an investigation platform that answers WHY, works in Slack natively, generates PowerPoints, and empowers business users completely.
 
+### 🔴 CORRECTED PRICING (January 2025 Verification)
+**Previous claim**: $1.6M annually - INCORRECT (conflated total Snowflake platform costs)
+**Actual Cortex costs for 200 users**: $100K-250K annually
+- Implementation: $25K-50K (3-4 months)
+- Annual Cortex add-on: $30K-100K  
+- Base Snowflake costs: $50K-150K (existing)
+- Maintenance: 1 FTE (~$180K)
+**Still 28-70x more expensive** than Scoop's $3,588/year
+
 ---
 
 ## The Five Critical Gaps of Cortex

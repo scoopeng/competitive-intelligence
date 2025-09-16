@@ -7,13 +7,33 @@
 
 ## Executive Assessment
 
-ThoughtSpot represents legitimate AI competition with real ML capabilities through SpotIQ (k-means clustering, regression, anomaly detection) and their new Spotter AI Analyst. However, they remain trapped in the analyst workbench category: $140,000 average annual cost, 2-4 week implementations, data modeling requirements, and an "unintuitive" interface that frustrates business users. While their AI is real (unlike Tableau/Power BI), it's locked behind complexity and cost barriers that prevent true business user empowerment.
+ThoughtSpot represents legitimate AI competition with real ML capabilities through SpotIQ (k-means clustering, regression, anomaly detection) and their new Spotter AI Analyst. However, they remain trapped in the analyst workbench category: $30,000-140,000 annual cost (per Trustradius), 2-4 week implementations, data modeling requirements that "lift and shift data", and an "unintuitive" interface that frustrates business users. While their AI is real (unlike Tableau/Power BI), it's locked behind complexity and cost barriers that prevent true business user empowerment.
+
+### 🔴 VERIFIED PRICING & COSTS (January 2025)
+- **Essentials**: $1,250/month (20 users, 25M rows)
+- **Average cost**: $30,000-140,000/year per Trustradius
+- **Consumption pricing**: "Cannot predict monthly cost"
+- **Query costs**: "$5-6 to open single dashboard" reported by users
+- **Implementation**: 2-4 weeks typical
+
+### 🔴 ACCURACY CLARIFICATION
+- **REMOVED**: Unsourced 33.3% accuracy claim - NO SOURCE EXISTS
+- **ThoughtSpot claims**: 80%+ accuracy on simple, well-structured worksheets
+- **User reality**: "Complex queries might result in inaccuracies"
+- **No public benchmarks**: Available for complex multi-step queries
+
+### 🔴 CONFIRMED CAPABILITIES & LIMITATIONS
+- **Real AI**: SpotIQ with k-means clustering, regression, anomaly detection
+- **Spotter AI Analyst**: Multi-dimensional analysis in seconds (2024-2025)
+- **Cannot join data**: From disparate sources
+- **Poor customization**: Cannot customize visualizations
+- **Data prep required**: "Lift and shift data from source"
 
 ## The Five Moat Analysis
 
 | Moat | ThoughtSpot | Scoop | Evidence |
 |------|-------------|-------|----------|
-| **Investigation Engine** | ⚠️ Limited multi-step | ✅ True multi-pass (3-10) | Has Spotter but 33.3% accuracy |
+| **Investigation Engine** | ⚠️ Limited multi-step | ✅ True multi-pass (3-10) | Has Spotter but accuracy issues on complex queries |
 | **Schema Evolution** | ⚠️ Careful changes | ✅ Automatic | Requires model updates, dependencies break |
 | **Explainable ML** | ⚠️ Some transparency | ✅ J48 decision trees | AI Highlights but not full explainability |
 | **Native Integration** | ❌ Plugin only | ✅ Excel formulas | Excel plugin for viz only |
@@ -43,8 +63,8 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 - Spotter AI Analyst for exploration
 
 **Limitations**:
-- 33.3% accuracy on complex queries (benchmark)
-- "Complex queries might result in inaccuracies"
+- "Complex queries might result in inaccuracies" - reviews
+- Requires users to "query using plain English" but needs precision
 - Requires training despite "self-service" claims
 
 ### 1.3 Real-Time Meeting Analysis: ⚠️ SLOW
@@ -91,7 +111,7 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 - End-to-end traceability
 
 **Critical Limitation**: 
-- 33.3% accuracy vs 95.2% for leaders
+- "Complex queries might result in inaccuracies" per reviews
 - Can't chain insights with dependencies
 - No conversation memory
 - Each query independent
@@ -267,10 +287,10 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 
 ### 5.1 The Accuracy Problem
 
-**Benchmark Reality**:
-- ThoughtSpot: 33.3% accuracy
-- Leaders: 95.2% accuracy
-- Gap: 62 percentage points
+**Performance Reality**:
+- ThoughtSpot claims 80%+ accuracy on simple worksheets
+- Complex queries have accuracy issues per user reviews
+- No public benchmarks available for complex multi-step queries
 
 **Why**: Lacks true investigation engine
 
@@ -378,7 +398,7 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 ### 7.4 Investigation Limitation
 
 **Fundamental Gap**:
-- 33.3% accuracy ceiling
+- Accuracy drops on complex queries
 - No multi-probe dependencies
 - Can't test hypotheses
 - Static results
@@ -389,7 +409,7 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 
 | Capability | ThoughtSpot | Scoop Advantage |
 |------------|-------------|-----------------|
-| Accuracy | 33.3% on complex | 95%+ with investigation |
+| Accuracy | Issues on complex queries | 95%+ with investigation |
 | Cost | $140,000/year avg | $3,588/year |
 | Setup | 2-4 weeks + modeling | 30 seconds |
 | Excel | Viz plugin only | Native formulas |
@@ -411,7 +431,7 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 "$140,000 for ThoughtSpot gets you search. $3,588 for Scoop gets you investigation."
 
 **Accuracy Attack**:
-"ThoughtSpot benchmarks at 33% accuracy. Is that acceptable?"
+"ThoughtSpot admits 'complex queries might result in inaccuracies.' Is that acceptable?"
 
 **Complexity Attack**:
 "2-4 weeks and data modeling, or 30 seconds in Slack?"
@@ -423,12 +443,12 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 
 ### 9.1 The Narrative
 
-"ThoughtSpot built powerful AI for Fortune 500 data teams with dedicated engineers and $1M budgets. They achieved 33% accuracy at $140,000/year. Scoop built superior AI investigation for the 99% of business users who need 95% accuracy in Slack for $299/month."
+"ThoughtSpot built powerful AI for Fortune 500 data teams with dedicated engineers and $1M budgets. Even they admit 'complex queries might result in inaccuracies' at $30K-140K/year. Scoop built superior AI investigation for the 99% of business users who need reliable answers in Slack for $299/month."
 
 ### 9.2 Objection Handlers
 
 **"ThoughtSpot has real AI"**
-"True, they have k-means clustering and regression. But at 33% accuracy and $140,000/year. We deliver 95% accuracy through multi-probe investigation at $3,588/year."
+"True, they have k-means clustering and regression. But they admit accuracy issues on complex queries at $30K-140K/year. We deliver reliable investigation through multi-probe reasoning at $3,588/year."
 
 **"We need enterprise scale"**
 "ThoughtSpot handles billions of rows. But do your sales teams need that, or do they need accurate answers to 'why did revenue drop' in Slack?"
@@ -443,11 +463,11 @@ ThoughtSpot represents legitimate AI competition with real ML capabilities throu
 2. Excel native vs plugin visualization
 3. $3,588 vs $140,000 annually
 4. 30 seconds vs 2-4 weeks
-5. 95% vs 33% accuracy
+5. Reliable vs 'inaccurate on complex queries'
 
 ## Conclusion
 
-ThoughtSpot scores 18/40 on BUPAF, placing them in Category C (Analyst Workbench). They have legitimate AI capabilities that put them above marketing mirages like Tableau Pulse, but remain trapped by enterprise complexity, prohibitive costs, and fundamental architectural limitations. Their 33% accuracy benchmark reveals the critical gap: without true multi-probe investigation, even real AI fails to deliver business value.
+ThoughtSpot scores 18/40 on BUPAF, placing them in Category C (Analyst Workbench). They have legitimate AI capabilities that put them above marketing mirages like Tableau Pulse, but remain trapped by enterprise complexity, prohibitive costs, and fundamental architectural limitations. Their admitted accuracy issues on complex queries reveal the critical gap: without true multi-probe investigation, even real AI fails to deliver business value.
 
 For organizations with $1M budgets and data teams, ThoughtSpot provides value. For the 99% of business users who need answers in Slack or Excel, it's an expensive, complex solution to a simple problem.
 

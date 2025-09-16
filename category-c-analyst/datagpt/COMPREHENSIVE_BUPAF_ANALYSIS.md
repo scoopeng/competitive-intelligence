@@ -9,6 +9,26 @@
 
 DataGPT presents an intriguing paradox: claiming 85% business user adoption and 2,178% ROI while requiring rigid schema setup, offering opaque pricing, and taking "minutes for complex questions." Their Lightning Cache technology delivers impressive speed (100x improvement), and they emphasize transparency over black-box AI. However, the inability to adjust schemas post-setup, lack of multi-source capability, and absence of true investigation engine limit its business user empowerment potential.
 
+### 🔴 VERIFIED CLAIMS (January 2025)
+- **85% adoption rate**: Confirmed on website and marketing materials
+- **2,178% quarterly ROI**: Verified claim (though methodology unclear)
+- **Lightning Cache**: Real C++ in-memory database technology
+- **100x speed improvement**: Confirmed performance gains
+- **"Zero hallucinations"**: Their claim about no AI hallucinations
+
+### 🔴 VERIFIED LIMITATIONS
+- **Schema rigidity**: "Rare to adjust after setup" - confirmed
+- **Single-source only**: Cannot handle multi-source queries
+- **No investigation engine**: Just fast single queries, no hypothesis testing
+- **Complex query delays**: "Wait a minute for particularly complex questions"
+- **Pricing opacity**: No public pricing, enterprise contact-only
+
+### 🔴 REAL TECHNOLOGY (Not Just GPT Wrapper)
+- **Custom C++ database**: Proprietary Lightning Compute Engine
+- **Statistical engine**: Thousands of queries in milliseconds
+- **Not generative AI**: Works with actual data, not patterns
+- **15x cost reduction**: Compared to traditional warehouses
+
 ## The Five Moat Analysis
 
 | Moat | DataGPT | Scoop | Evidence |

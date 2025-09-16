@@ -3,7 +3,7 @@
     "meta": {
       "vendor": "Scoop",
       "category": "AI Business User Empowerment",
-      "score": "36/40",
+      "score": "46/50",
       "slug": "scoop-analytics"
     },
     "content": {
@@ -49,7 +49,7 @@
     "meta": {
       "vendor": "Microsoft",
       "category": "Limited Analytics",
-      "score": "13/40",
+      "score": "17/50",
       "slug": "power-bi-copilot"
     },
     "content": {
@@ -93,7 +93,7 @@
     "meta": {
       "vendor": "Salesforce",
       "category": "Limited Analytics",
-      "score": "9/40",
+      "score": "16/50",
       "slug": "tableau-pulse"
     },
     "content": {
@@ -137,7 +137,7 @@
     "meta": {
       "vendor": "Snowflake",
       "category": "Limited Analytics",
-      "score": "11/40",
+      "score": "14/50",
       "slug": "snowflake-cortex"
     },
     "content": {
@@ -181,7 +181,7 @@
     "meta": {
       "vendor": "Sisense",
       "category": "Limited Analytics",
-      "score": "10/40",
+      "score": "12/50",
       "slug": "sisense"
     },
     "content": {
@@ -225,7 +225,7 @@
     "meta": {
       "vendor": "Qlik",
       "category": "Limited Analytics",
-      "score": "9/40",
+      "score": "16/50",
       "slug": "qlik"
     },
     "content": {
@@ -269,7 +269,7 @@
     "meta": {
       "vendor": "DataChat",
       "category": "Limited Analytics",
-      "score": "5/40",
+      "score": "6/50",
       "slug": "datachat"
     },
     "content": {
@@ -313,7 +313,7 @@
     "meta": {
       "vendor": "DataGPT",
       "category": "Analyst Workbench",
-      "score": "15/40",
+      "score": "18/50",
       "slug": "datagpt"
     },
     "content": {
@@ -357,7 +357,7 @@
     "meta": {
       "vendor": "Domo",
       "category": "Analyst Workbench",
-      "score": "24/40",
+      "score": "29/50",
       "slug": "domo"
     },
     "content": {
@@ -401,7 +401,7 @@
     "meta": {
       "vendor": "ThoughtSpot",
       "category": "Analyst Workbench",
-      "score": "18/40",
+      "score": "22/50",
       "slug": "thoughtspot"
     },
     "content": {
@@ -445,7 +445,7 @@
     "meta": {
       "vendor": "Tellius",
       "category": "Analyst Workbench",
-      "score": "16/40",
+      "score": "19/50",
       "slug": "tellius"
     },
     "content": {
@@ -489,7 +489,7 @@
     "meta": {
       "vendor": "Zenlytic",
       "category": "Analyst Workbench",
-      "score": "15/40",
+      "score": "18/50",
       "slug": "zenlytic"
     },
     "content": {

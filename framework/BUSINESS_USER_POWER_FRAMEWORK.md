@@ -171,38 +171,76 @@ This framework shifts focus from features to empowerment, from capabilities to i
 3. Are recommendations actionable?
 4. Is the story clear?
 
-## Total BUPAF Score Interpretation
+### Dimension 5: Visual Intelligence & Brand Consistency (10 points)
+*Can business users create boardroom-quality presentations that match their brand?*
+
+#### Scoring Rubric:
+- **0-2 points**: Basic charts only
+  - Simple visualizations
+  - No customization
+  - Screenshot exports
+  
+- **3-4 points**: Good visualization options
+  - Multiple chart types
+  - Basic color themes
+  - Static exports
+  
+- **5-6 points**: Advanced visualization
+  - Rich chart library
+  - Manual theming
+  - High-quality exports
+  
+- **7-8 points**: Pixel-perfect output
+  - Professional quality
+  - Custom branding
+  - Multiple export formats
+  
+- **9-10 points**: AI-powered presentation intelligence
+  - Automatic brand detection from PowerPoint
+  - Live data overlay on slides
+  - Pixel-perfect canvas (1600x900)
+  - Bi-directional PowerPoint flow
+  - AI color theory application
+  - Frame-based live presentations
+
+#### Test Questions:
+1. Can they import a PowerPoint and add live data?
+2. Does the system detect and apply brand colors automatically?
+3. Can presentations update themselves with new data?
+4. Is the output truly boardroom-ready without designers?
+
+## Total BUPAF Score Interpretation (50 points maximum)
 
 ### Score Ranges:
-- **36-40**: True Business User Empowerment Platform
-- **31-35**: Strong business user capabilities with gaps
-- **26-30**: Guided analytics with limitations
-- **21-25**: Analyst-dependent with some self-service
-- **16-20**: Traditional BI with modern UI
-- **11-15**: Technical tool with business features
-- **0-10**: Developer/analyst tool only
+- **45-50**: Complete Business User Empowerment Platform
+- **38-44**: Strong business user capabilities with minor gaps
+- **31-37**: Guided analytics with meaningful self-service
+- **24-30**: Analyst-dependent with some independence
+- **17-23**: Traditional BI with modern features
+- **10-16**: Technical tool with limited business features
+- **0-9**: Developer/analyst tool only
 
 ### Category Classifications:
 
-#### Category A: Empowerment Platforms (36-40)
+#### Category A: Empowerment Platforms (45-50)
 - Business users are primary users
 - Complete analytical independence
 - No technical barriers
 - **Current Members**: Scoop only
 
-#### Category B: Guided Systems (26-35)
-- Business users can consume and modify
+#### Category B: Guided Systems (31-44)
+- Business users can work with assistance
 - Within IT-defined boundaries
-- Some independence, many constraints
-- **Expected Members**: Domo, DataGPT, modern BI
+- Meaningful self-service capabilities
+- **Expected Members**: Modern BI platforms aiming for self-service
 
-#### Category C: Analyst Workbenches (16-25)
-- Powerful but inaccessible
+#### Category C: Analyst Workbenches (17-30)
+- Powerful but requires expertise
 - Business users need intermediaries
-- Technical knowledge required
-- **Expected Members**: ThoughtSpot, Snowflake, Tellius
+- Technical knowledge beneficial
+- **Expected Members**: Domo, ThoughtSpot, DataGPT, Tellius
 
-#### Category D: Marketing Mirages (0-15)
+#### Category D: Marketing Mirages (0-16)
 - Claims without substance
 - No real business user success
 - Marketing exceeds capability
@@ -302,7 +340,8 @@ This framework shifts focus from features to empowerment, from capabilities to i
 | Analytical Depth | X/10 | 9/10 | Scoop +Y |
 | Workflow Integration | X/10 | 9/10 | Scoop +Y |
 | Business Communication | X/10 | 9/10 | Scoop +Y |
-| **TOTAL** | **X/40** | **36/40** | **Scoop +Y** |
+| Visual Intelligence | X/10 | 10/10 | Scoop +Y |
+| **TOTAL** | **X/50** | **46/50** | **Scoop +Y** |
 
 ### Key Advantages:
 - Scoop: [Business user empowerment points]
