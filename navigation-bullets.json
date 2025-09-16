@@ -1,114 +1,119 @@
 {
   "competitors": {
     "Power BI Copilot": {
-      "category": "Marketing Mirage",
-      "score": "17/50",
+      "category": "Limited Analytics",
+      "score": "13/50",
       "bullets": [
-        "Nondeterministic behavior admitted by Microsoft",
-        "Excel COPILOT is separate product/license",
-        "No native Slack, limited Excel integration",
-        "Screenshot-based PowerPoint workflow"
+        "Designed for analysts, not business users",
+        "Requires semantic model configuration", 
+        "Limited investigation capabilities",
+        "Portal-based access required"
       ]
     },
     "Tableau Pulse": {
-      "category": "Marketing Mirage", 
+      "category": "Limited Analytics",
       "score": "11/50",
       "bullets": [
-        "Not real AI - embedding models only",
-        "Schema breaks Pulse metrics completely",
-        "Screenshot-based PowerPoint workflow",
-        "No investigation capabilities"
+        "Notification system without investigation",
+        "Limited to preset metrics and KPIs",
+        "Cannot investigate root causes",
+        "Requires full Tableau platform investment"
       ]
     },
     "Snowflake Cortex": {
-      "category": "Marketing Mirage",
-      "score": "13/50", 
+      "category": "Limited Analytics",
+      "score": "14/50",
       "bullets": [
-        "6-12 month migration required",
-        "$1.6M annual cost for 200 users",
-        "Complete vendor lock-in",
-        "No native Office integration"
+        "Complete vendor lock-in to Snowflake",
+        "6-12 month migration timeline required",
+        "Single SQL queries only, no investigation",
+        "High total cost of ownership"
       ]
     },
     "Sisense": {
-      "category": "Marketing Mirage",
+      "category": "Limited Analytics",
       "score": "12/50",
       "bullets": [
-        "ARIMA from 1970s marketed as AI",
-        "14+ week implementation typical",
-        "400% renewal increases documented",
-        "Simply Ask feature deprecated"
+        "Query execution times of 10-20 minutes",
+        "Performance challenges with complex queries",
+        "Requires technical expertise for configuration",
+        "Scalability challenges in large deployments"
       ]
     },
     "Qlik Insight Advisor": {
-      "category": "Marketing Mirage",
-      "score": "11/50",
+      "category": "Limited Analytics",
+      "score": "9/50",
       "bullets": [
-        "Can't handle typos or plurals",
-        "Zero adoption per consultants",
-        "Rule-based matching, not AI",
-        "$340K+ annual enterprise cost"
+        "Cannot handle natural language variations",
+        "Rule-based matching, not true AI",
+        "Limited adoption in customer base",
+        "High enterprise licensing costs"
       ]
     },
-    "Zenlytic": {
-      "category": "Analyst Workbench",
-      "score": "18/50",
+    "DataChat": {
+      "category": "Limited Analytics",
+      "score": "5/50",
       "bullets": [
-        "YAML/SQL configuration required",
-        "Git workflows for metrics",
-        "Technical users only",
-        "Weeks to configure"
+        "Limited verifiable customer evidence",
+        "No major customer references found",
+        "Basic template-based approach",
+        "Minimal market presence"
+      ]
+    },
+    "DataGPT": {
+      "category": "Analyst Workbench",
+      "score": "20/50",
+      "bullets": [
+        "Schema becomes rigid after initial setup",
+        "Single-source data limitation",
+        "No deep investigation capabilities",
+        "Portal-only access model"
       ]
     },
     "Domo": {
       "category": "Analyst Workbench",
-      "score": "29/50",
+      "score": "18/50",
       "bullets": [
-        "Dashboard-first architecture",
-        "$134K average annual cost",
-        "AI Chat requires dashboards exist",
-        "Portal prison - no native tools"
+        "Dashboard-first architecture model",
+        "High total cost of ownership",
+        "AI Chat requires pre-built dashboards",
+        "Portal-based workflow limitations"
       ]
     },
     "ThoughtSpot": {
       "category": "Analyst Workbench",
-      "score": "23/50",
+      "score": "18/50",
       "bullets": [
-        "33.3% accuracy in benchmarks",
-        "$140K+ annual cost",
-        "2-3 month implementation",
-        "Search interface only"
+        "Search interface limitations",
+        "Enterprise complexity and cost",
+        "2-3 month implementation timeline",
+        "Requires significant technical setup"
       ]
     },
     "Tellius": {
       "category": "Analyst Workbench",
-      "score": "20/50",
+      "score": "16/50",
       "bullets": [
-        "Real ML but too complex",
-        "Requires data scientists",
-        "$100K+ annual cost",
-        "Black box predictions"
+        "Requires data science expertise",
+        "Complex configuration and setup",
+        "High annual licensing costs",
+        "Machine learning predictions not explainable"
       ]
     },
-    "DataGPT": {
-      "category": "Marketing Mirage",
-      "score": "18/50",
+    "Zenlytic": {
+      "category": "Analyst Workbench", 
+      "score": "15/50",
       "bullets": [
-        "Schema rigid after setup",
-        "Single-source only",
-        "No investigation capability",
-        "Portal-only access"
-      ]
-    },
-    "DataChat": {
-      "category": "Marketing Mirage",
-      "score": "6/50",
-      "bullets": [
-        "7 years, zero reviews",
-        "No verifiable customers",
-        "Templates not real ML",
-        "Possible vaporware"
+        "YAML and SQL configuration required",
+        "Git workflows for metrics management",
+        "Technical users only",
+        "Weeks of configuration needed"
       ]
     }
+  },
+  "categoryColors": {
+    "Limited Analytics": "#E3165B",
+    "Analyst Workbench": "#FF9800",
+    "Platform Play": "#9C27B0"
   }
 }
