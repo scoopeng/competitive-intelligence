@@ -171,8 +171,8 @@ This framework shifts focus from features to empowerment, from capabilities to i
 3. Are recommendations actionable?
 4. Is the story clear?
 
-### Dimension 5: Visual Intelligence & Brand Consistency (10 points)
-*Can business users create boardroom-quality presentations that match their brand?*
+### Dimension 5: Visual Intelligence & Business-Ready Output (10 points)
+*Can business users get presentation-ready results in the tools they actually use?*
 
 #### Scoring Rubric:
 - **0-2 points**: Basic charts only
@@ -208,6 +208,7 @@ This framework shifts focus from features to empowerment, from capabilities to i
 2. Does the system detect and apply brand colors automatically?
 3. Can presentations update themselves with new data?
 4. Is the output truly boardroom-ready without designers?
+5. Do results arrive in the user's actual workflow tools (Excel, PowerPoint, Slack)?
 
 ## Total BUPAF Score Interpretation (50 points maximum)
 
