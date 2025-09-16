@@ -7,20 +7,20 @@
 
 ---
 
-## Phase 1: Create Safety Backup 🔲 TODO
+## Phase 1: Create Safety Backup ✅ COMPLETED
 
-- [ ] Create backup branch
-- [ ] Push to origin
-- [ ] Document current file count
-- [ ] Create inventory of critical files
+- [x] Create backup branch (backup-before-cleanup-jan2025)
+- [x] Push to origin
+- [x] Document current file count
+- [x] Create inventory of critical files
 
-## Phase 2: Archive Consolidation 🔲 TODO
+## Phase 2: Archive Consolidation ✅ COMPLETED
 
-- [ ] Move archive-old-tiers/ → archive/old-tiers/
-- [ ] Move session history → archive/sessions/
-- [ ] Archive duplicate battle cards (lowercase versions)
-- [ ] Delete empty category-b-guided folder
-- [ ] Mark all archive files with OUTDATED header
+- [x] Move archive-old-tiers/ → archive/old-scoring-system/
+- [x] Session history already organized in archive/session-history/
+- [x] Archive duplicate battle cards (lowercase versions) → archive/old-battle-cards/
+- [x] Delete empty category-b-guided folder
+- [ ] Mark all archive files with OUTDATED header (deferred)
 
 ## Phase 3: Fix Critical Customer-Facing Docs 🔲 TODO
 
