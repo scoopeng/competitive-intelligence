@@ -1,6 +1,6 @@
 # Battle Card: ThoughtSpot
 
-**BUPAF Score**: 18/40 (Category C - Analyst Workbench)  
+**BUPAF Score**: 23/50 (Category C - Analyst Workbench)  
 **Market Position**: Real AI but inaccessible  
 **Key Weakness**: 33.3% accuracy, $140K/year average
 
@@ -30,6 +30,20 @@
 | ML Depth | ❌ Black box prediction | ✅ ML_GROUP/ML_PERIOD explanatory | "Can't explain WHY patterns exist" |
 | Business Users | ❌ Need training | ✅ Instant use | "Steep learning curve" |
 | Setup Time | 2-3 months | 30 seconds | "Quarter vs instant" |
+
+## Workflow Integration Gap
+
+**ThoughtSpot Reality**: Search interface prison
+- No Excel integration - export CSVs and rebuild
+- No PowerPoint capability - screenshot and format manually
+- No Slack integration - another portal to check
+
+**Scoop Advantage**: Analytics where you work
+- Native =SCOOP() formulas with live refresh
+- PowerPoint generation with your brand colors
+- Complete investigation without leaving Slack
+
+**Time Impact**: 3+ hours manual work per report for ThoughtSpot users
 
 ## Objection Handlers
 

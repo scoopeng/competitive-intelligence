@@ -1,6 +1,6 @@
 # Battle Card: Tableau Pulse
 
-**BUPAF Score**: 9/40 (Category D - Marketing Mirage)  
+**BUPAF Score**: 11/50 (Category D - Marketing Mirage)  
 **Parent**: Salesforce  
 **Key Weakness**: Not real AI, just embedding models
 
@@ -26,6 +26,20 @@
 | Investigation | ❌ Single metrics | ✅ Multi-hypothesis | "Can't answer WHY" |
 | Setup Time | Weeks/Months | 30 seconds | "Immediate value" |
 | Business Users | ❌ Need Tableau first | ✅ Independent | "Dashboard prison" |
+
+## Workflow Integration Gap
+
+**Tableau Reality**: Screenshot hell for every presentation
+- No native Excel formulas - export static CSVs
+- PowerPoint requires screenshots, paste, format (2-3 hours)
+- No Slack integration - check another dashboard
+
+**Scoop Advantage**: Live data in YOUR tools
+- =SCOOP() formulas with automatic refresh
+- Board-ready PowerPoint in 30 seconds
+- Full analysis without leaving Slack
+
+**Time Impact**: 3+ hours manual work per report for Tableau users
 
 ## Objection Handlers
 

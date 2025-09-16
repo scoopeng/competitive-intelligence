@@ -1,6 +1,6 @@
 # Battle Card: DataChat
 
-**BUPAF Score**: 5/40 (Category D - Marketing Mirage)  
+**BUPAF Score**: 6/50 (Category D - Marketing Mirage)  
 **Market Position**: Possible vaporware  
 **Key Weakness**: 7 years, zero reviews anywhere
 
@@ -27,6 +27,20 @@
 | Customer Success | ❌ None visible | ✅ Case studies | "No verifiable customers" |
 | Pricing | ❌ Hidden | ✅ $299/month | "Won't tell you price" |
 | Investigation | ❌ SQL queries | ✅ Multi-hypothesis | "Chat interface to SQL" |
+
+## Workflow Integration Gap
+
+**DataChat Reality**: Another portal to learn (if it even works)
+- No Excel integration - not even exports documented
+- No PowerPoint capability - screenshots if anything
+- No Slack integration - separate login required
+
+**Scoop Advantage**: Work in YOUR tools
+- Native =SCOOP() Excel formulas that refresh
+- Live PowerPoint generation in 30 seconds
+- Full investigation directly in Slack
+
+**Time Impact**: Unknown for DataChat (no docs), 30 seconds for Scoop
 
 ## Objection Handlers
 
