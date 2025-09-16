@@ -74,3 +74,23 @@
 ---
 
 *Use when: Schema flexibility needed, Multi-source requirements, Cost-conscious buyers, Need investigation not just metrics*
+## Verify This Yourself
+
+### Schema Rigidity
+1. Test: Add new data column
+2. Result: Requires complete reconfiguration
+3. Problem: Can't handle evolving data
+
+### Single Source Limitation
+1. Review: DataGPT architecture
+2. Find: "Single data source" only
+3. Reality: No cross-source investigation
+
+### Portal-Only Access
+1. Check: Integration options
+2. Find: Web portal only
+3. Missing: Excel, PowerPoint, Slack
+
+---
+
+*Use when: Multi-source needs, Schema changes often, Tool integration matters*

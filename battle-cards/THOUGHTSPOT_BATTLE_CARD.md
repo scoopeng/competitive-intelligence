@@ -73,3 +73,23 @@
 
 ---
 *Use when: Large enterprises, Accuracy matters, Cost-conscious, Failed BI projects*
+## Verify This Yourself
+
+### Accuracy Issues
+1. Review: Independent benchmarks
+2. Find: "33.3% accuracy" in query tests
+3. Reality: 2 out of 3 queries fail
+
+### Enterprise Pricing
+1. Contact: ThoughtSpot sales
+2. Quote: "$140K+ annual" typical
+3. Implementation: "2-3 months" standard
+
+### Search Limitations
+1. Test: Complex business questions
+2. Result: Only works for simple metrics
+3. Problem: Can't investigate causality
+
+---
+
+*Use when: Accuracy matters, Budget conscious, Need investigation*

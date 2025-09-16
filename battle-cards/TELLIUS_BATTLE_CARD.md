@@ -74,3 +74,23 @@
 ---
 
 *Use when: Business user focus, Cost concerns, Need explainable AI, Want quick implementation*
+## Verify This Yourself
+
+### Data Science Requirements
+1. Review: Tellius documentation
+2. Find: "ML model configuration" required
+3. Reality: Need data scientists to operate
+
+### Black Box Predictions
+1. Test: Ask for explanation of predictions
+2. Result: Statistical outputs without context
+3. Problem: Business users can't interpret
+
+### Enterprise Cost
+1. Quote: Tellius pricing
+2. Reality: "$100K+" annual typical
+3. Plus: Data science team costs
+
+---
+
+*Use when: Business users primary, Need explainable AI, Budget matters*

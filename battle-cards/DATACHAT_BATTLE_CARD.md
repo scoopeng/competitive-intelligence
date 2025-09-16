@@ -72,3 +72,23 @@
 
 ---
 *Use when: They mention DataChat, Want proven solution, Concerned about vendor stability*
+## Verify This Yourself
+
+### Legitimate Company (Not Vaporware)
+1. Visit: https://www.businesswire.com/news/home/20250219735773/en/
+2. Find: "$25M Series A funding"
+3. Reality: Founded 2018, real product
+
+### Limited Market Presence
+1. Search: Customer reviews
+2. Find: Very few public references
+3. Question: Why so little adoption?
+
+### Recognition but No Traction
+1. Note: Gartner mention in 2024
+2. But: No significant customer base
+3. Reality: Technology without adoption
+
+---
+
+*Use when: Proven solutions needed, Customer references matter, Risk-averse*

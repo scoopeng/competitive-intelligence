@@ -49,5 +49,27 @@
 - Calculate true cost with all licenses
 - Show =SCOOP() vs =COPILOT() differences
 
+## Verify This Yourself
+
+### Nondeterministic Behavior
+1. Visit: https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-power-bi-privacy-security
+2. Search for "nondeterministic"
+3. Read Microsoft's own warning about different outputs from same prompts
+
+### Excel Separate License
+1. Visit: https://www.microsoft.com/en-us/store/b/copilotpro
+2. Note: "each will need to buy their own Copilot Pro subscription"
+3. Check: Excel features are preview-only and English-only
+
+### Capacity Requirements
+1. Visit: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction
+2. Find: "F2 or higher" or "P1 or higher" requirement
+3. Calculate: F64 minimum = $60,000+/year
+
+### Output Quality Issues
+1. Visit: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data-ai
+2. Find: "generic, inaccurate, or even misleading outputs"
+3. Note: Microsoft's own admission of quality problems
+
 ---
 *Use when: Microsoft shops, Excel-heavy teams, Cost-conscious buyers, Reliability concerns*

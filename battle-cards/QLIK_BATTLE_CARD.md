@@ -74,6 +74,33 @@
 ## Consultant Testimony
 *"In 5 years of Qlik consulting, I've never seen a client successfully adopt Insight Advisor. Most try it once and never return."* - Qlik Partner Consultant
 
+## Verify This Yourself
+
+### Zero Professional Adoption
+1. Visit: https://community.qlik.com/t5/Insight-Advisor/Why-Qlik-Insight-Advisor-is-not-more-popular/td-p/2094121
+2. Quote: "couldn't find a single company using this in day-to-day operations"
+3. Despite: "functionality since 2019" predating ChatGPT boom
+
+### Natural Language Limitations
+1. Visit: https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Insights/insight-advisor-natural-language.htm
+2. Find: "Only searches first 100,000 values per field"
+3. Problem: "user intent understanding is not quite good"
+
+### Configuration Complexity
+1. Visit: https://www.climberbi.co.uk/qlik-insight-advisor/
+2. Quote: "Business logic deemed 'too complex'"
+3. Reality: "moving beyond basic functionality is 'non-trivial'"
+
+### Calendar Requirements
+1. Check Qlik Documentation
+2. Issue: "what are my sales for Jun 2023" fails without proper calendar
+3. Problem: Missing modern calendar (DECLARE) functionality
+
+### Consultant Reports
+1. Source: Qlik Community Forums
+2. Quote: "never seeing Insight Advisor being used in professional environments"
+3. Hope: "recent acquisitions like Kyndi will help" (admission of current failure)
+
 ---
 
 *Use when: Natural language important, Adoption matters, Budget conscious, Need real AI*

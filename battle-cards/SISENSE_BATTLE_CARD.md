@@ -71,6 +71,38 @@
 - Customer complaints about pricing
 - 14+ weeks typical implementation
 
+## Verify This Yourself
+
+### 400% Renewal Price Increases
+1. Visit: https://www.usedatabrain.com/blog/sisense-pricing
+2. Find: "400% price increase at renewal time"
+3. Quote: "Sisense quadrupled the price when initial contract ended"
+
+### Forced Platform Migration Costs
+1. Visit: https://www.holistics.io/blog/sisense-pricing/
+2. Find: "Sisense dropped Windows support"
+3. Cost: "€50,000 just to transition to Linux version with no free trial"
+
+### Hidden Costs and Fees
+1. Visit: https://qrvey.com/blog/sisense-pricing/
+2. Search: "Hidden fees include charges for"
+3. Reality: "plugins, data connectors, version upgrades, AI features (20-30% extra)"
+
+### Annual Cost Reality
+1. Visit: https://embeddable.com/blog/sisense-pricing
+2. Find: "$109,000 to $137,000 annually"
+3. Minimum: "$10K self-hosted, $21K cloud for 5 users"
+
+### Pricing Unpredictability
+1. Visit: https://mammoth.io/blog/sisense-pricing/
+2. Quote: "complete lack of transparent pricing"
+3. Problem: "lengthy sales negotiations for custom quotes"
+
+### Customer Dissatisfaction
+1. Visit: https://www.g2.com/products/sisense/reviews
+2. Search: "Sisense has custom pricing that sometimes it's scary"
+3. Issue: "doesn't give usage analytics for free"
+
 ---
 
 *Use when: Want real AI, Budget concerns, Need quick implementation, Business user focus*

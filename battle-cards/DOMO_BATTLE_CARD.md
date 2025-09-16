@@ -72,3 +72,23 @@
 
 ---
 *Use when: Current Domo users, Renewal discussions, Cost concerns, Want real investigation*
+## Verify This Yourself
+
+### Portal Prison Architecture
+1. Visit: https://www.g2.com/products/domo/reviews
+2. Search: "dashboard-first" complaints
+3. Reality: AI Chat only works within dashboards
+
+### Average Enterprise Cost
+1. Research: Domo customer case studies
+2. Find: "$134K average annual cost"
+3. Problem: Consumption pricing unpredictability
+
+### Renewal Shock Stories
+1. Search: "Domo renewal increase" online
+2. Find: Customer complaints about pricing
+3. Reality: Consumption model drives costs up
+
+---
+
+*Use when: Dashboard-heavy org, Cost concerns, Need investigation not views*

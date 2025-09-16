@@ -87,3 +87,23 @@
 ---
 
 *Use when: Non-technical teams, Need quick setup, Want investigation not SQL, Tired of configuration complexity*
+## Verify This Yourself
+
+### YAML Configuration Hell
+1. Visit: https://docs.zenlytic.com
+2. Find: "YAML configuration files" required
+3. Reality: Git-based metric management
+
+### Technical Users Only
+1. Review: Setup requirements
+2. Find: "SQL and YAML expertise" needed
+3. Problem: Business users can't use it
+
+### Weeks to Configure
+1. Check: Implementation timeline
+2. Reality: "Weeks to configure" metrics
+3. Then: Ongoing YAML maintenance
+
+---
+
+*Use when: Business user focus, Quick implementation needed, Non-technical team*

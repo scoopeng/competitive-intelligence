@@ -61,5 +61,37 @@
 - Calculate TCO (40x higher minimum)
 - Ask for Pulse-specific references (they don't exist)
 
+## Verify This Yourself
+
+### Data Requirements Limitations
+1. Visit: https://interworks.com/blog/2023/12/14/5-things-to-consider-when-using-tableau-pulse/
+2. Find: "Single point in time values will not produce a valid metric"
+3. Note: Works only with regular data (daily/weekly), not quarterly/yearly
+
+### Pre-aggregated Fields Break
+1. Visit: https://interworks.com/blog/2023/12/14/5-things-to-consider-when-using-tableau-pulse/
+2. Find: "400: Bad Request error" for calculated fields
+3. Confirm: Pre-aggregated measures don't work
+
+### Metric Proliferation Problem
+1. Visit: https://www.theinformationlab.nl/en/2024/03/22/tableau-pulse-is-out-here-is-what-you-need-to-know/
+2. Search: "What started as one metric can quickly turn into many"
+3. Reality: Each filter combination creates new metric
+
+### Permission Control Issues
+1. Visit: https://help.tableau.com/current/online/en-us/pulse_intro.htm
+2. Find: "Users see all metrics from all published data sources"
+3. Problem: No granular control over metric access
+
+### Salesforce Dependency
+1. Read: https://medium.com/centric-tech-views/tableau-pulse-transform-your-bi-with-real-time-alerts-and-ai-b5e149a1a90e
+2. Find: "reliance on Salesforce connectors"
+3. Issue: "limitation of Tableau's AI strategy"
+
+### Limited Analytics Capabilities
+1. Visit: https://b-eye.com/blog/tableau-pulse-real-time-personalized-analytics/
+2. Find: "Beta version does not support table calculations"
+3. Limitation: Can't create advanced metrics
+
 ---
 *Use when: Enterprise with Tableau investment, Looking for real AI, Frustrated with implementation complexity*

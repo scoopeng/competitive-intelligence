@@ -71,6 +71,38 @@
 - No semantic layer without additional tools
 - Forces complete architectural change
 
+## Verify This Yourself
+
+### Vendor Lock-in Reality
+1. Visit: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst
+2. Find: "Data stays within Snowflake's governance boundary"
+3. Confirm: "no data, including metadata or prompts, leaves Snowflake"
+
+### Token-Based Pricing Structure
+1. Visit: https://yukidata.com/blog/snowflake-cortex-pricing/
+2. Search: "Token costs vary based on the specific Cortex model"
+3. Reality: "More documents = higher indexing costs"
+
+### Migration Warning from Snowflake
+1. Visit: https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql
+2. Find: "Snowflake strongly discourages the use of Azure OpenAI models"
+3. Warning: "Snowflake anticipates deprecating support"
+
+### Cost Management Issues
+1. Visit: https://www.linkedin.com/pulse/understanding-managing-costs-snowflake-cortex-akash-pandey-ox9pe
+2. Quote: "Snowflake Cortex pricing can easily get out of hand"
+3. Problem: Unpredictable usage-based costs
+
+### Compute Cost Reality
+1. Visit: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-costs
+2. Find: "Charged per gigabyte-month of indexed data"
+3. Calculate: 500GB logs = massive indexing costs
+
+### Optimization Requirements
+1. Visit: https://atlan.com/know/snowflake/snowflake-cortex-explained/
+2. Find: "Stay on top with strong cost optimization strategy"
+3. Reality: Requires dedicated cost management
+
 ---
 
 *Use when: Snowflake customers, Cost-conscious buyers, Multi-source data needs, Want actual AI not SQL*
