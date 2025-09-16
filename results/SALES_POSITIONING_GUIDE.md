@@ -318,6 +318,35 @@ User Adoption:
 
 ---
 
+## 🎯 Positioning by Competitor Type
+
+### Against NL-SQL Tools (Snowflake Cortex, Zenlytic, DataGPT)
+**Lead with**: "Your tools" advantage - they're trapped in portals
+**Key phrase**: "Why learn their portal when Scoop works in your Excel?"
+**Proof point**: 30-second Slack setup vs weeks of YAML configuration
+**Time math**: Their 3-4 hour workflow vs our 30 seconds
+**Devastating fact**: They require leaving your workflow for every question
+
+### Against Enterprise BI (Tableau, Power BI)
+**Lead with**: Investigation & ML capabilities (they can't find WHY)  
+**Support with**: Tool integration (screenshot hell vs live data)
+**Key phrase**: "They visualize what happened. We investigate why and deliver it ready."
+**Proof point**: Multi-hypothesis testing live demo
+**Close with**: "Even if they could investigate (they can't), you'd still waste hours on PowerPoint"
+
+### Against Portal Platforms (Domo, Thoughtspot, Sisense)
+**Lead with**: Portal fatigue - another login to remember
+**Key phrase**: "Portal prison vs working where you already are"
+**Proof point**: Show =SCOOP() in Excel, full analysis in Slack
+**Time math**: Login → Navigate → Export → Excel → PowerPoint = 3 hours
+**Reality check**: "How many portals do your users actually check daily?"
+
+### The Universal Truth
+Every competitor = Another portal/interface to learn
+Scoop = Your AI analyst in tools you already know
+
+---
+
 ## 🏆 The Winning Mindset
 
 1. **We're not competing on features** - We're competing on empowerment
