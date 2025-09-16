@@ -3,22 +3,22 @@
 **Last Updated**: January 2025  
 **Status**: Initial scoring based on existing research - to be enhanced with targeted analysis  
 
-## Overall BUPAF Scores (40 points maximum)
+## Overall BUPAF Scores (50 points maximum)
 
-| Competitor | Independence | Analytical Depth | Workflow | Communication | **TOTAL** | Category |
-|------------|-------------|-----------------|----------|---------------|-----------|----------|
-| **Scoop** | 9/10 | 9/10 | 9/10 | 9/10 | **36/40** | A |
-| Domo | 7/10 | 5/10 | 5/10 | 7/10 | **24/40** | C |
-| DataGPT | 4/10 | 4/10 | 3/10 | 4/10 | **15/40** | C |
-| ThoughtSpot | 4/10 | 7/10 | 2/10 | 5/10 | **18/40** | C |
-| Tellius | 3/10 | 7/10 | 2/10 | 4/10 | **16/40** | C |
-| Zenlytic | 3/10 | 6/10 | 2/10 | 4/10 | **15/40** | C |
-| Power BI Copilot | 3/10 | 3/10 | 3/10 | 4/10 | **13/40** | D |
-| Snowflake Cortex | 2/10 | 4/10 | 2/10 | 3/10 | **11/40** | D |
-| Sisense | 2/10 | 2/10 | 2/10 | 4/10 | **10/40** | D |
-| Tableau Pulse | 2/10 | 2/10 | 1/10 | 4/10 | **9/40** | D |
-| Qlik | 2/10 | 2/10 | 2/10 | 3/10 | **9/40** | D |
-| DataChat | 1/10 | 1/10 | 1/10 | 2/10 | **5/40** | D |
+| Competitor | Independence | Analytical Depth | Workflow | Communication | Visual Intelligence | **TOTAL** | Category |
+|------------|-------------|-----------------|----------|---------------|-------------------|-----------|----------|
+| **Scoop** | 9/10 | 9/10 | 9/10 | 9/10 | 9/10 | **45/50** | A |
+| Domo | 7/10 | 5/10 | 5/10 | 7/10 | 5/10 | **29/50** | C |
+| ThoughtSpot | 4/10 | 7/10 | 2/10 | 5/10 | 5/10 | **23/50** | C |
+| Tellius | 3/10 | 7/10 | 2/10 | 4/10 | 4/10 | **20/50** | C |
+| DataGPT | 4/10 | 4/10 | 3/10 | 4/10 | 3/10 | **18/50** | C |
+| Zenlytic | 3/10 | 6/10 | 2/10 | 4/10 | 3/10 | **18/50** | C |
+| Power BI Copilot | 3/10 | 3/10 | 3/10 | 4/10 | 4/10 | **17/50** | D |
+| Snowflake Cortex | 2/10 | 4/10 | 2/10 | 3/10 | 2/10 | **13/50** | D |
+| Sisense | 2/10 | 2/10 | 2/10 | 4/10 | 2/10 | **12/50** | D |
+| Tableau Pulse | 2/10 | 2/10 | 1/10 | 4/10 | 2/10 | **11/50** | D |
+| Qlik | 2/10 | 2/10 | 2/10 | 3/10 | 2/10 | **11/50** | D |
+| DataChat | 1/10 | 1/10 | 1/10 | 2/10 | 1/10 | **6/50** | D |
 
 ## Detailed Breakdown
 
@@ -69,28 +69,45 @@
 | ThoughtSpot | ⚠️ Search | ⚠️ Technical | ❌ No | ✅ Good | ⚠️ Basic |
 | Others | ❌ Technical | ❌ Raw data | ❌ No | ⚠️ OK | ❌ None |
 
+### Dimension 5: Visual Intelligence & Business-Ready Output (How presentation-ready?)
+
+| Competitor | Score | Excel Integration | PowerPoint | Slack | Brand Intelligence |
+|------------|-------|------------------|------------|-------|-------------------|
+| **Scoop** | 9/10 | =SCOOP() formulas | Live overlay | Native | AI brand detection |
+| Domo | 5/10 | Export only | Screenshots | Bot | None |
+| ThoughtSpot | 5/10 | Export only | Screenshots | None | None |
+| Tellius | 4/10 | Export only | None | None | None |
+| Power BI | 4/10 | Limited | Screenshots | None | Some |
+| DataGPT | 3/10 | None | None | None | None |
+| Zenlytic | 3/10 | None | None | None | None |
+| Snowflake | 2/10 | None | None | Bot | None |
+| Sisense | 2/10 | Export only | None | None | None |
+| Tableau | 2/10 | Export only | Screenshots | None | None |
+| Qlik | 2/10 | Export only | None | None | None |
+| DataChat | 1/10 | Unknown | Unknown | Unknown | None |
+
 ## Category Distribution
 
-### Category A: Empowerment Platforms (36-40 points)
-- **Scoop** (36/40) - Only true business user empowerment platform with investigation engine
+### Category A: Empowerment Platforms (45-50 points)
+- **Scoop** (45/50) - Only true business user empowerment platform with investigation engine
 
-### Category B: Guided Systems (26-35 points)
+### Category B: Guided Systems (33-44 points)
 - *None currently qualify* - All fall short on independence
 
-### Category C: Analyst Workbenches (15-25 points)
-- **DataGPT** (20/40) - Fast but schema-rigid, no investigation
-- **Domo** (18/40) - Dashboard-first with AI Chat limitations
-- **ThoughtSpot** (18/40) - Real AI but 33.3% accuracy, $140K/year
-- **Tellius** (16/40) - Genuine ML but requires data scientists
-- **Zenlytic** (15/40) - YAML/SQL configuration nightmare
+### Category C: Analyst Workbenches (19-32 points)
+- **Domo** (29/50) - Dashboard-first with AI Chat limitations
+- **ThoughtSpot** (23/50) - Real AI but 33.3% accuracy, $140K/year
+- **Tellius** (20/50) - Genuine ML but requires data scientists
 
-### Category D: Marketing Mirages (0-14 points)
-- **Power BI Copilot** (13/40) - Nondeterministic behavior, Excel COPILOT separate
-- **Snowflake Cortex** (12/40) - 6-12 month migration, vendor lock-in
-- **Sisense** (10/40) - 14+ week implementation, ARIMA isn't AI
-- **Tableau Pulse** (9/40) - Not real AI (embedding models), 40x scaling crisis
-- **Qlik** (9/40) - Can't handle typos, zero adoption found
-- **DataChat** (5/40) - 7 years, zero reviews - possible vaporware
+### Category D: Marketing Mirages (0-18 points)
+- **DataGPT** (18/50) - Fast but schema-rigid, no investigation
+- **Zenlytic** (18/50) - YAML/SQL configuration nightmare
+- **Power BI Copilot** (17/50) - Nondeterministic behavior, Excel COPILOT separate
+- **Snowflake Cortex** (13/50) - 6-12 month migration, vendor lock-in
+- **Sisense** (12/50) - 14+ week implementation, ARIMA isn't AI
+- **Tableau Pulse** (11/50) - Not real AI (embedding models), 40x scaling crisis
+- **Qlik** (11/50) - Can't handle typos, zero adoption found
+- **DataChat** (6/50) - 7 years, zero reviews - possible vaporware
 
 ## Hidden Costs & Time-to-Value Reality
 
