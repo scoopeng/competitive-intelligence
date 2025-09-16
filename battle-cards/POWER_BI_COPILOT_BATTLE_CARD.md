@@ -1,6 +1,6 @@
 # Battle Card: Power BI Copilot
 
-**BUPAF Score**: 13/40 (Category D - Marketing Mirage)  
+**BUPAF Score**: 17/50 (Category D - Marketing Mirage)  
 **Parent**: Microsoft  
 **Key Weakness**: Nondeterministic behavior, Excel COPILOT separate
 
@@ -27,6 +27,7 @@
 | Investigation | ❌ Report generation | ✅ Multi-hypothesis | "Generates text, not insights" |
 | True Cost | $262+/user/month | $299/month flat | "Hidden PPU costs" |
 | Schema Handling | ❌ Manual updates | ✅ Automatic | "Breaks on changes" |
+| Native Tools | ❌ Portal + exports | ✅ Excel/PPT/Slack | "Leave workflow constantly" |
 
 ## Objection Handlers
 

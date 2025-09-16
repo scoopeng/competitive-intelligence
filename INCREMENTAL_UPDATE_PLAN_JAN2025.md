@@ -317,3 +317,20 @@ cat INCREMENTAL_UPDATE_PLAN_JAN2025.md
 - NL-SQL competitors now explicitly called out for workflow disruption
 - Reinforces key pain point for business users
 - Consistent messaging across all NL-SQL competitors
+
+### ✅ Update 6: Enhanced Battle Cards with Workflow Integration
+**Date**: January 2025  
+**Files Updated**: 
+- `battle-cards/DOMO_BATTLE_CARD.md`
+- `battle-cards/POWER_BI_COPILOT_BATTLE_CARD.md`
+**Type**: Incremental additions
+**Changes Made**:
+1. Updated BUPAF scores to 50-point scale (Domo 18/40→29/50, Power BI 13/40→17/50)
+2. Added "Workflow Integration Gap" section to Domo card
+3. Added workflow row to comparison tables
+4. Documented time impact (3+ hours manual work per report)
+
+**Strategic Impact**:
+- Battle cards now emphasize "portal prison" concept
+- Specific workflow gaps documented for sales use
+- Time savings quantified for ROI discussions
