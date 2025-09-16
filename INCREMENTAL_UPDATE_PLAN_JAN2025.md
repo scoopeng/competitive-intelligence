@@ -303,3 +303,17 @@ cat INCREMENTAL_UPDATE_PLAN_JAN2025.md
 - Each competitor now explicitly shows Office integration gaps
 - Reinforces "your tools" positioning for sales conversations
 - Specific pain points documented for each platform
+
+### ✅ Update 5: Enhanced NL-SQL Executive Summaries with Workflow Language
+**Date**: January 2025  
+**File**: `competitor-details.json`  
+**Type**: Incremental additions to executive summaries (no deletions)
+**Competitors Updated**:
+1. **Snowflake Cortex**: Added "Business users must leave their workflow to access insights, with no native Excel, PowerPoint, or Slack integration"
+2. **Zenlytic**: Same workflow disruption language added
+3. **DataGPT**: Same workflow disruption language added
+
+**Strategic Impact**:
+- NL-SQL competitors now explicitly called out for workflow disruption
+- Reinforces key pain point for business users
+- Consistent messaging across all NL-SQL competitors

@@ -143,7 +143,7 @@
       "slug": "snowflake-cortex"
     },
     "content": {
-      "executive_summary": "Snowflake Cortex provides text-to-SQL capabilities within the Snowflake ecosystem. Business users cannot explore why questions, work in collaborative tools without custom development, generate presentations, or save queries without technical configuration. After significant investment in semantic models, users receive single SQL query results that answer what but never why.",
+      "executive_summary": "Snowflake Cortex provides text-to-SQL capabilities within the Snowflake ecosystem. Business users cannot explore why questions, work in collaborative tools without custom development, generate presentations, or save queries without technical configuration. Business users must leave their workflow to access insights, with no native Excel, PowerPoint, or Slack integration. After significant investment in semantic models, users receive single SQL query results that answer what but never why.",
       "critical_gap": "Limited to SQL queries without investigation capabilities. No collaboration or ML analysis.",
       "bottom_line": "SQL-based analytics requiring significant infrastructure.",
       "weaknesses": [
@@ -320,7 +320,7 @@
       "slug": "datagpt"
     },
     "content": {
-      "executive_summary": "DataGPT provides fast metrics analysis with a rigid schema that is rarely adjusted after initial setup. With no schema evolution capabilities, limited metrics handling, and inability to process unstructured data, it becomes a static solution in dynamic business environments. The platform offers speed but lacks flexibility for evolving business needs.",
+      "executive_summary": "DataGPT provides fast metrics analysis with a rigid schema that is rarely adjusted after initial setup. With no schema evolution capabilities, limited metrics handling, and inability to process unstructured data, it becomes a static solution in dynamic business environments. Business users must leave their workflow to access insights, with no native Excel, PowerPoint, or Slack integration. The platform offers speed but lacks flexibility for evolving business needs.",
       "critical_gap": "Rigid schema that is rarely adjusted after setup. No schema evolution.",
       "bottom_line": "Fast metrics tool with rigid schema requirements.",
       "weaknesses": [
@@ -499,7 +499,7 @@
       "slug": "zenlytic"
     },
     "content": {
-      "executive_summary": "Zenlytic's SQL-first approach excludes business users from the start. With no workflow integration and technical knowledge requirements throughout, it serves as a tool for analysts in a market demanding business user empowerment. The platform requires technical expertise at every step.",
+      "executive_summary": "Zenlytic's SQL-first approach excludes business users from the start. With no workflow integration and technical knowledge requirements throughout, it serves as a tool for analysts in a market demanding business user empowerment. Business users must leave their workflow to access insights, with no native Excel, PowerPoint, or Slack integration. The platform requires technical expertise at every step.",
       "critical_gap": "SQL-first approach completely excludes business users from day one.",
       "bottom_line": "SQL-focused tool for technical users.",
       "weaknesses": [
