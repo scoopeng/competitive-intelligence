@@ -33,6 +33,7 @@ Every claim backed by URLs prospects can verify themselves:
 - Customer complaints from G2, Reddit, TrustRadius
 - Pricing documentation showing hidden costs
 - Community forums revealing adoption failures
+- **NEW: Cortex Analyst requires Python environment, can't even test without dev setup**
 
 ### 3. **Business User Liberation Narrative**
 Powerful positioning that resonates:

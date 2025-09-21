@@ -1,0 +1,126 @@
+=== CURRENT COMPETITOR INVENTORY ===
+
+=== datachat ===
+File count: 1
+Total lines: 94
+Files:
+total 12
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3682 Sep 16 13:07 BATTLE_CARD.md
+
+=== datagpt ===
+File count: 1
+Total lines: 96
+Files:
+total 12
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3748 Sep 16 13:07 BATTLE_CARD.md
+
+=== domo ===
+File count: 4
+Total lines: 505
+Files:
+total 36
+drwxrwxr-x  3 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3899 Sep 16 13:07 BATTLE_CARD.md
+-rw-rw-r--  1 brad-peters brad-peters 6282 Sep 16 13:07 DOMO_AI_CHAT_DEEP_DIVE.md
+-rw-rw-r--  1 brad-peters brad-peters 9460 Sep 16 13:07 SCOOP_VS_DOMO_COMPLETE_ADVANTAGES.md
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 16 13:07 sources
+
+=== power-bi-copilot ===
+File count: 2
+Total lines: 243
+Files:
+total 20
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:24 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3687 Sep 16 13:07 BATTLE_CARD.md
+-rw-rw-r--  1 brad-peters brad-peters 6541 Sep 20 13:24 DEEP_ANALYSIS.md
+
+=== qlik ===
+File count: 1
+Total lines: 105
+Files:
+total 16
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 4540 Sep 16 13:07 BATTLE_CARD.md
+
+=== sisense ===
+File count: 1
+Total lines: 107
+Files:
+total 16
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 4309 Sep 16 13:07 BATTLE_CARD.md
+
+=== snowflake-cortex ===
+File count: 20
+Total lines: 3959
+Files:
+total 196
+drwxrwxr-x  2 brad-peters brad-peters  4096 Sep 20 13:14 .
+drwxrwxr-x 13 brad-peters brad-peters  4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters  4802 Sep 16 13:07 BATTLE_CARD.md
+-rw-rw-r--  1 brad-peters brad-peters  6285 Sep 20 12:39 CORTEX-ANALYST-COMPLEXITY-FINDINGS.md
+-rw-rw-r--  1 brad-peters brad-peters  5705 Sep 20 12:52 CORTEX-ANALYST-FINAL-FINDINGS.md
+-rw-rw-r--  1 brad-peters brad-peters  3026 Sep 20 12:57 cortex_analyst_test_results.json
+-rw-rw-r--  1 brad-peters brad-peters 20736 Sep 16 13:07 DEEP_TECHNICAL_ANALYSIS_VS_SCOOP.md
+-rw-rw-r--  1 brad-peters brad-peters  7894 Sep 20 13:02 EVENTBRITE-CORTEX-ANALYST-EVIDENCE.md
+-rw-rw-r--  1 brad-peters brad-peters  7905 Sep 16 13:07 EXECUTIVE_SUMMARY_CORTEX_VS_SCOOP.md
+-rw-rw-r--  1 brad-peters brad-peters  3362 Sep 20 13:14 README.md
+-rw-rw-r--  1 brad-peters brad-peters 13482 Sep 16 13:07 SALES_PLAYBOOK_SNOWFLAKE_HEAVY_PROSPECT.md
+-rw-rw-r--  1 brad-peters brad-peters  3566 Sep 20 12:33 semantic_model.yaml
+-rw-rw-r--  1 brad-peters brad-peters  1225 Sep 20 12:54 simple_test.py
+-rw-rw-r--  1 brad-peters brad-peters  9483 Sep 20 13:09 SNOWFLAKE-CORTEX-COMPLETE-TESTING-JOURNEY.md
+-rw-rw-r--  1 brad-peters brad-peters  8689 Sep 20 11:32 SNOWFLAKE-CORTEX-TESTING-GUIDE.md
+-rw-rw-r--  1 brad-peters brad-peters  5323 Sep 20 13:01 test_complete_comparison.py
+-rw-rw-r--  1 brad-peters brad-peters  1065 Sep 20 12:56 test_connection.py
+-rwxrwxr-x  1 brad-peters brad-peters  8111 Sep 20 12:57 test_cortex_analyst.py
+-rw-rw-r--  1 brad-peters brad-peters  3557 Sep 20 12:46 test_cortex_analyst_simple.py
+-rw-rw-r--  1 brad-peters brad-peters  4672 Sep 20 13:00 test_cortex_debug.py
+-rw-rw-r--  1 brad-peters brad-peters  7050 Sep 20 13:10 TEST-SUMMARY-SCOOP-VS-CORTEX.md
+-rw-rw-r--  1 brad-peters brad-peters 25683 Sep 16 13:07 USER_EXPERIENCE_DEEP_DIVE.md
+
+=== tableau-pulse ===
+File count: 2
+Total lines: 223
+Files:
+total 24
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:24 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 4406 Sep 16 13:07 BATTLE_CARD.md
+-rw-rw-r--  1 brad-peters brad-peters 5412 Sep 20 13:24 DEEP_ANALYSIS.md
+
+=== tellius ===
+File count: 2
+Total lines: 96
+Files:
+total 16
+drwxrwxr-x  3 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3729 Sep 16 13:07 BATTLE_CARD.md
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 16 13:07 sources
+
+=== thoughtspot ===
+File count: 1
+Total lines: 95
+Files:
+total 12
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3976 Sep 16 13:07 BATTLE_CARD.md
+
+=== zenlytic ===
+File count: 2
+Total lines: 109
+Files:
+total 16
+drwxrwxr-x  3 brad-peters brad-peters 4096 Sep 20 13:13 .
+drwxrwxr-x 13 brad-peters brad-peters 4096 Sep 16 13:07 ..
+-rw-rw-r--  1 brad-peters brad-peters 3953 Sep 16 13:07 BATTLE_CARD.md
+drwxrwxr-x  2 brad-peters brad-peters 4096 Sep 16 13:07 sources

@@ -1,0 +1,22 @@
+{
+  "investigation_capable": false,
+  "tests": [
+    {
+      "test": "INVESTIGATION_001",
+      "error": "000604 (57014): SQL execution canceled"
+    },
+    {
+      "test": "INVESTIGATION_002",
+      "query_count": 0,
+      "investigation": false,
+      "time": 27.732541
+    },
+    {
+      "test": "INVESTIGATION_003",
+      "query_count": 0,
+      "investigation": false,
+      "time": 26.798422
+    }
+  ],
+  "verdict": "Snowflake limited to single queries - no investigation"
+}

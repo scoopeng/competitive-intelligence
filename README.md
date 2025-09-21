@@ -1,10 +1,30 @@
-# Scoop Competitive Intelligence Platform
+# Scoop Competitive Intelligence Repository
+
+## 🔥 Latest: Snowflake Cortex Analyst Testing COMPLETED (Jan 2025)
+
+**Major Discovery**: After 4+ hours of setup, Cortex Analyst is NOT available on trial accounts!
+
+### Quick Access:
+📁 **[competitors/snowflake-cortex/](competitors/snowflake-cortex/)** - All testing evidence  
+📊 **[TEST-SUMMARY](competitors/snowflake-cortex/TEST-SUMMARY-SCOOP-VS-CORTEX.md)** - Complete results  
+🎯 **[EVENTBRITE DECK](competitors/snowflake-cortex/EVENTBRITE-CORTEX-ANALYST-EVIDENCE.md)** - Ready for Monday!
+
+### Key Results:
+- ❌ **Cortex Analyst**: 0% success (not available on trials)
+- ⚠️ **CORTEX.COMPLETE**: 71% success (different product)
+- ⏱️ **Setup Time**: 4+ hours, 17 Python packages
+- 🎯 **Coverage**: Only tested 23% of Scoop's suite
+- 💰 **Implementation**: $50-100K for Cortex vs $0 for Scoop
+
+---
+
+## Repository Overview
 
 **Purpose**: Evidence-based competitive intelligence for business user empowerment  
 **Framework**: BUPAF (Business User Power Assessment Framework)  
 **Scope**: 11 competitors across analytics/BI market  
-**Status**: Production-ready knowledge repository (Jan 2025)  
-**Files**: 51 active research files + 8 core documents, all queryable
+**Status**: Testing framework ready, awaiting execution  
+**Files**: 50+ research files including new testing methodology
 
 ## 🎯 What This Project Delivers
 
@@ -23,43 +43,44 @@ Every competitive claim backed by:
 - Technical limitation proof
 - Adoption failure evidence
 
-## 📁 Project Structure (Clean & Consolidated)
+## 📁 Project Structure (Clean & Organized)
 
 ```
 /competitive-intelligence/
 ├── README.md                    # This overview
 ├── COMPETITIVE_SUMMARY.md       # Executive overview + strategic blind spots
 ├── POSITIONING_GUIDE.md         # Sales messaging + liberation narrative  
-├── SCOOP_CAPABILITIES.md        # Technical differentiators (consolidated)
+├── SCOOP_CAPABILITIES.md        # Technical differentiators
 ├── EVIDENCE_VAULT.md           # All source documentation & URLs
 ├── QUICK_START.md              # 2-minute sales prep
-├── competitor-details.json     # Webflow data source
-├── navigation-bullets.json     # Webflow navigation data
 │
-├── battle-cards/               # 11 competitors (quick reference)
-│   ├── POWER_BI_COPILOT.md    # 17/50 - "Nondeterministic behavior"
-│   ├── TABLEAU_PULSE.md       # 11/50 - Breaks on schema changes
-│   ├── SNOWFLAKE_CORTEX.md    # 13/50 - $1.6M/year, no ML
-│   ├── SISENSE.md             # 12/50 - 400% renewal increases
-│   ├── QLIK_INSIGHT_ADVISOR.md # 11/50 - Zero adoption
-│   ├── DATACHAT.md            # 6/50 - No market traction
-│   ├── DATAGPT.md             # 18/50 - Single-source only
-│   ├── DOMO.md                # 29/50 - Portal prison
-│   ├── THOUGHTSPOT.md         # 23/50 - 33.3% accuracy
-│   ├── TELLIUS.md             # 20/50 - Requires data scientists
-│   └── ZENLYTIC.md            # 18/50 - YAML configuration hell
-│
-├── competitors/                # COMPLETE research repository
-│   ├── snowflake-cortex/      # 630-line deep technical analysis
-│   ├── domo/                  # AI capabilities deep dive
-│   ├── tellius/               # Implementation complexity analysis
-│   ├── zenlytic/              # YAML configuration nightmare
-│   └── [8 others]/            # All competitor research accessible
+├── competitors/                # ALL competitor intelligence (one folder each)
+│   ├── snowflake-cortex/      # 20 files - COMPLETE testing & analysis
+│   │   ├── README.md          # Quick navigation guide
+│   │   ├── BATTLE_CARD.md     # Sales quick reference
+│   │   ├── EVENTBRITE-*.md    # Customer presentation ready
+│   │   ├── TEST-SUMMARY-*.md  # Full test results
+│   │   ├── test_*.py          # Test scripts & evidence
+│   │   └── [analysis docs]    # Deep technical analysis
+│   │
+│   ├── domo/                  # 4 files - Portal prison analysis
+│   │   ├── BATTLE_CARD.md     # Quick reference
+│   │   └── [analysis docs]    # AI capabilities deep dive
+│   │
+│   ├── thoughtspot/           # 1 file - 33.3% accuracy evidence
+│   ├── tableau-pulse/         # 1 file - Schema break issues
+│   ├── power-bi-copilot/      # 1 file - Nondeterministic behavior
+│   ├── tellius/               # 2 files - Complexity analysis
+│   ├── zenlytic/              # 2 files - YAML configuration hell
+│   ├── datagpt/               # 1 file - Single-source limitations
+│   ├── datachat/              # 1 file - No market traction
+│   ├── sisense/               # 1 file - 400% renewal increases
+│   └── qlik/                  # 1 file - Zero adoption
 │
 ├── framework/                  # BUPAF methodology
 ├── results/                    # Presentation materials  
 ├── evidence/                   # Screenshots & proof
-└── archive/                    # Process files only (content preserved)
+└── archive/                    # Historical process files
 ```
 
 ## 🚀 Quick Start by Role

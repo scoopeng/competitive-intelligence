@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "total": 8,
+    "success": 8,
+    "fail": 0,
+    "success_rate": "100.0%"
+  },
+  "categories": {
+    "Distinct Counts": {
+      "success": 1,
+      "fail": 0
+    },
+    "Multiple Aggregations": {
+      "success": 1,
+      "fail": 0
+    },
+    "Range Query": {
+      "success": 1,
+      "fail": 0
+    },
+    "Subquery": {
+      "success": 1,
+      "fail": 0
+    },
+    "Top N": {
+      "success": 1,
+      "fail": 0
+    },
+    "Group By with Filter": {
+      "success": 1,
+      "fail": 0
+    },
+    "Calculated Metrics": {
+      "success": 1,
+      "fail": 0
+    },
+    "Aggregation by Category": {
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "error_types": {},
+  "details": [
+    {
+      "test_id": "INT_001",
+      "category": "Distinct Counts",
+      "status": "SUCCESS",
+      "rows_returned": 1,
+      "time": 1.21075,
+      "sql": "SELECT COUNT(DISTINCT PAYMENTMETHOD) \nFROM TELCO_DATA \nWHERE CHURN = TRUE;"
+    },
+    {
+      "test_id": "INT_002",
+      "category": "Multiple Aggregations",
+      "status": "SUCCESS",
+      "rows_returned": 3,
+      "time": 2.457636,
+      "sql": "SELECT \n    CONTRACT, \n    MIN(MONTHLYCHARGES) AS MIN_MONTHLYCHARGES, \n    MAX(MONTHLYCHARGES) AS MAX_MONTHLYCHARGES, \n    AVG(MONTHLYCHARGES) AS AVG_MONTHLYCHARGES \nFROM \n    TELCO_DATA \nGROUP BY \n    CONTRACT;"
+    },
+    {
+      "test_id": "INT_003",
+      "category": "Range Query",
+      "status": "SUCCESS",
+      "rows_returned": 1,
+      "time": 0.915336,
+      "sql": "SELECT COUNT(*) FROM TELCO_DATA WHERE MONTHLYCHARGES BETWEEN 50 AND 100;"
+    },
+    {
+      "test_id": "INT_004",
+      "category": "Subquery",
+      "status": "SUCCESS",
+      "rows_returned": 3923,
+      "time": 1.079251,
+      "sql": "SELECT * FROM TELCO_DATA WHERE MONTHLYCHARGES > (SELECT AVG(MONTHLYCHARGES) FROM TELCO_DATA);"
+    },
+    {
+      "test_id": "INT_005",
+      "category": "Top N",
+      "status": "SUCCESS",
+      "rows_returned": 10,
+      "time": 0.997488,
+      "sql": "SELECT TOP 10 * FROM TELCO_DATA ORDER BY MONTHLYCHARGES DESC;"
+    },
+    {
+      "test_id": "INT_006",
+      "category": "Group By with Filter",
+      "status": "SUCCESS",
+      "rows_returned": 3,
+      "time": 0.939193,
+      "sql": "SELECT INTERNETSERVICE, COUNT(*) \nFROM TELCO_DATA \nWHERE CHURN = TRUE \nGROUP BY INTERNETSERVICE;"
+    },
+    {
+      "test_id": "INT_007",
+      "category": "Calculated Metrics",
+      "status": "SUCCESS",
+      "rows_returned": 1,
+      "time": 1.180724,
+      "sql": "SELECT (COUNT(CASE WHEN CHURN = TRUE THEN 1 END) / COUNT(*)) AS CHURN_RATE FROM TELCO_DATA;"
+    },
+    {
+      "test_id": "INT_008",
+      "category": "Aggregation by Category",
+      "status": "SUCCESS",
+      "rows_returned": 4,
+      "time": 10.963069,
+      "sql": "SELECT PAYMENTMETHOD, AVG(TOTALCHARGES) AS AVG_TOTALCHARGES \nFROM TELCO_DATA \nGROUP BY PAYMENTMETHOD;"
+    }
+  ]
+}

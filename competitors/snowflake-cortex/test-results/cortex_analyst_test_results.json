@@ -1,0 +1,112 @@
+[
+  {
+    "test_id": "TEST_001",
+    "category": "Basic Aggregation",
+    "query": "What is the total number of customers?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 8,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.311901,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_002",
+    "category": "Basic Aggregation",
+    "query": "What is the average monthly charge?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 10,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.240729,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_003",
+    "category": "Grouped Analysis",
+    "query": "Show churn rate by contract type",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 15,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.204574,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_004",
+    "category": "Complex Filter",
+    "query": "Show customers with high monthly charges (over 100) who churned",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 12,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.226496,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_005",
+    "category": "Multi-Dimensional",
+    "query": "Which combination of contract type and payment method has the highest churn rate?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 25,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.276214,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_006",
+    "category": "Complex Calculation",
+    "query": "Calculate customer lifetime value as monthly charges times tenure divided by number of tickets plus one",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 18,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.232463,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_007",
+    "category": "Subquery Required",
+    "query": "Show customers from the top 3 contracts by customer count",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 20,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.255624,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_008",
+    "category": "Why Question",
+    "query": "Why are customers churning?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 50,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.22796,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_009",
+    "category": "Correlation Analysis",
+    "query": "What factors correlate most strongly with churn?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 45,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.270569,
+    "sql": null
+  },
+  {
+    "test_id": "TEST_010",
+    "category": "Trend Analysis",
+    "query": "How does churn rate change with tenure?",
+    "cortex_success": false,
+    "cortex_sql_lines": 0,
+    "scoop_json_lines": 22,
+    "complexity_ratio": 0.0,
+    "execution_time": 0.218996,
+    "sql": null
+  }
+]

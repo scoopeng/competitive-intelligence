@@ -1,0 +1,101 @@
+semantic_model:
+  name: Business Analytics Model
+  description: Comprehensive model for Cortex Analyst testing
+  
+  # Add custom instructions (January 2025 feature)
+  custom_instructions:
+    - "When asked about trends, attempt to show data over time"
+    - "Churn means CHURN = true"
+    - "High value means > $100"
+    - "Performance means win rate or success rate"
+  
+  tables:
+    # TELCO_DATA with full semantic mapping
+    - name: TELCO_DATA
+      description: Customer churn analysis data
+      base_table:
+        database: SCOOP_BENCHMARK
+        schema: TEST_DATA
+        table: TELCO_DATA
+      
+      dimensions:
+        - name: customer
+          synonyms: ["customer_id", "account", "subscriber"]
+          expr: CUSTOMERID
+          description: Unique customer identifier
+          
+        - name: churn_status
+          synonyms: ["churned", "left", "cancelled"]
+          expr: CHURN
+          description: Whether customer churned
+          
+        - name: contract
+          synonyms: ["contract_type", "plan", "subscription"]
+          expr: CONTRACT
+          description: Contract type
+          sample_values: ["Month-to-month", "One year", "Two year"]
+      
+      measures:
+        - name: customer_count
+          expr: COUNT(DISTINCT CUSTOMERID)
+          description: Total number of customers
+          
+        - name: churn_rate
+          expr: (SUM(CASE WHEN CHURN THEN 1 ELSE 0 END) * 100.0 / COUNT(*))
+          description: Percentage of customers who churned
+          
+        - name: average_revenue
+          expr: AVG(MONTHLYCHARGES)
+          description: Average monthly revenue per customer
+      
+      # Add verified queries for common questions
+      verified_queries:
+        - question: "What's the churn rate?"
+          sql: "SELECT (SUM(CASE WHEN CHURN THEN 1 ELSE 0 END) * 100.0 / COUNT(*)) as churn_rate FROM TELCO_DATA"
+        - question: "How many customers do we have?"
+          sql: "SELECT COUNT(DISTINCT CUSTOMERID) FROM TELCO_DATA"
+    
+    # OPENOPPORTUNITIES for time testing
+    - name: OPENOPPORTUNITIES  
+      description: Sales opportunities with dates
+      base_table:
+        database: SCOOP_BENCHMARK
+        schema: TEST_DATA
+        table: OPENOPPORTUNITIES
+        
+      dimensions:
+        - name: opportunity_date
+          synonyms: ["date", "created", "when"]
+          expr: C1
+          data_type: TIMESTAMP_NTZ
+          description: Opportunity creation date
+          
+        - name: close_date
+          expr: C9
+          data_type: TIMESTAMP_NTZ
+          description: Expected close date
+          
+        - name: status
+          synonyms: ["stage", "state"]
+          expr: C8
+          description: Opportunity status
+          
+        - name: amount
+          synonyms: ["value", "revenue", "deal_size"]
+          expr: C13
+          data_type: NUMBER
+          description: Opportunity value
+      
+      measures:
+        - name: total_revenue
+          expr: SUM(C13)
+          description: Total opportunity value
+          
+        - name: opportunity_count
+          expr: COUNT(*)
+          description: Number of opportunities
+          
+      time_dimensions:
+        - name: month
+          expr: DATE_TRUNC('MONTH', C1)
+          description: Month of opportunity
