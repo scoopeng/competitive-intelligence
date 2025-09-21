@@ -48,13 +48,13 @@ python3 test_time_intelligence_complete.py
 3. Does it enable any investigation capability?
 4. What's the overall success rate improvement?
 
-### 📊 Expected Comparison
+### 📊 ACTUAL RESULTS
 | Test Category | Llama3-70b | Claude-4-Sonnet | 
 |--------------|------------|-----------------|
-| Natural Language | 0% | ? |
-| Time Intelligence | 0% | ? |
-| Investigation | 0% | ? |
-| With Schema | 65% | ? |
+| Natural Language (no context) | 0% | **0%** |
+| With Semantic Context | ~65% | **100%** |
+| Time Intelligence | 0% | 0% (no CORTEX.ANALYST) |
+| Investigation | 0% | 0% (single query only) |
 
 ### Azure Connection Details
 - Account: rcdtonr-ji20455

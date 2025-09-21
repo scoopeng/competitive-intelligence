@@ -138,7 +138,7 @@ Generate SQL to investigate this question thoroughly."""
         start = datetime.now()
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             %s
         ) as sql
         """, (prompt,))

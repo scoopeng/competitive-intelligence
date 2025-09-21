@@ -102,105 +102,105 @@
       "category": "Month-over-Month",
       "query": "Compare OPENOPPORTUNITIES count this month vs last month using C1 date",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.133243
+      "time": 0.08977
     },
     {
       "test_id": "TIME_002",
       "category": "Week-over-Week Growth",
       "query": "Show OPENOPPORTUNITIES week-over-week growth rate by C1 date",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.118223
+      "time": 0.090229
     },
     {
       "test_id": "TIME_003",
       "category": "Year-over-Year",
       "query": "Calculate year-over-year change in OPENOPPORTUNITIES count using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.430015
+      "time": 0.087614
     },
     {
       "test_id": "TIME_004",
       "category": "Running Total",
       "query": "Show running total of OPENOPPORTUNITIES by C1 date",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.176029
+      "time": 0.079726
     },
     {
       "test_id": "TIME_005",
       "category": "Moving Average",
       "query": "Calculate 7-day moving average of daily OPENOPPORTUNITIES count using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.540458
+      "time": 0.084214
     },
     {
       "test_id": "TIME_006",
       "category": "Relative Date Filter",
       "query": "Show OPENOPPORTUNITIES from last 30 days based on C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.409425
+      "time": 0.0712
     },
     {
       "test_id": "TIME_007",
       "category": "Date Difference",
       "query": "Find OPENOPPORTUNITIES between C1 and C9 dates greater than 30 days",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.1084
+      "time": 0.104317
     },
     {
       "test_id": "TIME_008",
       "category": "Monthly Trend",
       "query": "Group OPENOPPORTUNITIES by month of C1 and show trend",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.403858
+      "time": 0.112553
     },
     {
       "test_id": "TIME_009",
       "category": "Day of Week Analysis",
       "query": "Show OPENOPPORTUNITIES by day of week pattern using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.132992
+      "time": 0.084359
     },
     {
       "test_id": "TIME_010",
       "category": "QTD Calculation",
       "query": "Calculate quarter-to-date OPENOPPORTUNITIES total using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.277675
+      "time": 0.070932
     },
     {
       "test_id": "TIME_011",
       "category": "SPLY Comparison",
       "query": "Show same period last year comparison for OPENOPPORTUNITIES using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.113352
+      "time": 0.130169
     },
     {
       "test_id": "TIME_012",
       "category": "Peak Period",
       "query": "Find peak OPENOPPORTUNITIES day in each month using C1",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.130227
+      "time": 0.121684
     },
     {
       "test_id": "TIME_013",
       "category": "Trend Analysis",
       "query": "What's the trend of OPENOPPORTUNITIES over time using C1?",
       "error": "001003 (42000): SQL compilation error:\nsyntax error line 3 at position 18 unexpected 's'.\nsyntax error line 3 at position 20 unexpected 'the'.\nparse error line 4 at position 21 near '<EOF>'.",
-      "time": 0.14185
+      "time": 0.081164
     },
     {
       "test_id": "TIME_014",
       "category": "Forecasting",
       "query": "Forecast next month's OPENOPPORTUNITIES based on C1 history",
       "error": "001003 (42000): SQL compilation error:\nsyntax error line 3 at position 33 unexpected 's'.\nsyntax error line 3 at position 35 unexpected 'OPENOPPORTUNITIES'.\nparse error line 4 at position 21 near '<EOF>'.",
-      "time": 0.158819
+      "time": 0.08348
     },
     {
       "test_id": "TIME_015",
       "category": "Seasonality",
       "query": "Find seasonality patterns in OPENOPPORTUNITIES using C1 dates",
       "error": "002140 (42601): SQL compilation error:\nUnknown function COMPLETE",
-      "time": 0.101601
+      "time": 0.084925
     }
   ]
 }

@@ -205,7 +205,7 @@ for test in comprehensive_tests:
         
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             %s
         ) as response
         """, (prompt,))

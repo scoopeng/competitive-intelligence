@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "total": 15,
+    "success": 0,
+    "failed": 15,
+    "success_rate": "0.0%"
+  },
+  "categories": {
+    "Basic Count": {
+      "success": 0,
+      "fail": 1
+    },
+    "Basic Average": {
+      "success": 0,
+      "fail": 1
+    },
+    "Segmented Metric": {
+      "success": 0,
+      "fail": 1
+    },
+    "Filtered List": {
+      "success": 0,
+      "fail": 1
+    },
+    "Investigation": {
+      "success": 0,
+      "fail": 1
+    },
+    "Sum Calculation": {
+      "success": 0,
+      "fail": 1
+    },
+    "Top N": {
+      "success": 0,
+      "fail": 1
+    },
+    "Distinct Count": {
+      "success": 0,
+      "fail": 1
+    },
+    "Correlation": {
+      "success": 0,
+      "fail": 1
+    },
+    "Characteristic Analysis": {
+      "success": 0,
+      "fail": 1
+    },
+    "Comparison": {
+      "success": 0,
+      "fail": 1
+    },
+    "Driver Analysis": {
+      "success": 0,
+      "fail": 1
+    },
+    "Segmentation": {
+      "success": 0,
+      "fail": 1
+    },
+    "Impact Analysis": {
+      "success": 0,
+      "fail": 1
+    },
+    "Pattern Discovery": {
+      "success": 0,
+      "fail": 1
+    }
+  },
+  "details": [
+    {
+      "test_id": "USER_001",
+      "query": "How many customers do we have?",
+      "category": "Basic Count",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 2.914518
+    },
+    {
+      "test_id": "USER_002",
+      "query": "What's the average monthly charge?",
+      "category": "Basic Average",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 2.20641
+    },
+    {
+      "test_id": "USER_003",
+      "query": "Show me churn rate by contract type",
+      "category": "Segmented Metric",
+      "status": "SQL_ERROR",
+      "has_sql": true,
+      "time": 6.748222
+    },
+    {
+      "test_id": "USER_004",
+      "query": "Which customers are paying more than $100 per month?",
+      "category": "Filtered List",
+      "status": "SQL_ERROR",
+      "has_sql": true,
+      "time": 5.346254
+    },
+    {
+      "test_id": "USER_005",
+      "query": "Why are customers leaving?",
+      "category": "Investigation",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 6.650714
+    },
+    {
+      "test_id": "USER_006",
+      "query": "What's our total revenue?",
+      "category": "Sum Calculation",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 2.150115
+    },
+    {
+      "test_id": "USER_007",
+      "query": "Show me the top 10 highest paying customers",
+      "category": "Top N",
+      "status": "SQL_ERROR",
+      "has_sql": true,
+      "time": 4.403565
+    },
+    {
+      "test_id": "USER_008",
+      "query": "How many payment methods do churned customers use?",
+      "category": "Distinct Count",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 6.607457
+    },
+    {
+      "test_id": "USER_009",
+      "query": "What's the relationship between tenure and churn?",
+      "category": "Correlation",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 6.614812
+    },
+    {
+      "test_id": "USER_010",
+      "query": "Which services do churned customers have?",
+      "category": "Characteristic Analysis",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 3.997357
+    },
+    {
+      "test_id": "USER_011",
+      "query": "Compare churn rates between different internet service types",
+      "category": "Comparison",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 17.931679
+    },
+    {
+      "test_id": "USER_012",
+      "query": "What drives customer loyalty?",
+      "category": "Driver Analysis",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 7.166038
+    },
+    {
+      "test_id": "USER_013",
+      "query": "Show me monthly charges by gender",
+      "category": "Segmentation",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 4.39115
+    },
+    {
+      "test_id": "USER_014",
+      "query": "How much money are we losing to churn?",
+      "category": "Impact Analysis",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 6.214852
+    },
+    {
+      "test_id": "USER_015",
+      "query": "What patterns predict churn?",
+      "category": "Pattern Discovery",
+      "status": "NO_SQL",
+      "has_sql": false,
+      "time": 8.590418
+    }
+  ]
+}

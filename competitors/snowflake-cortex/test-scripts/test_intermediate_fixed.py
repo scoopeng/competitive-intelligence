@@ -130,7 +130,7 @@ Important: Return ONLY the SQL statement, no explanations or markdown."""
         start = datetime.now()
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             %s
         ) as sql
         """, (prompt,))

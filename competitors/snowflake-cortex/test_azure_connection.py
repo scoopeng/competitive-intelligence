@@ -43,7 +43,7 @@ try:
     # Try different model names
     models_to_test = [
         'claude-4-sonnet',
-        'claude-3.5-sonnet',
+        'claude-4-sonnet',
         'claude-3-sonnet',
         'gpt-5',
         'gpt-4',

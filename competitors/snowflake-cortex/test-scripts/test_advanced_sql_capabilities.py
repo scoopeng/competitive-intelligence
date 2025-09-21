@@ -132,7 +132,7 @@ for test in advanced_tests:
     try:
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             CONCAT('Generate SQL for: ', %s)
         ) as response
         """, (test['query'],))

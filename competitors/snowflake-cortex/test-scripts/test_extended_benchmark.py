@@ -229,7 +229,7 @@ for category_name, category_tests in test_cases.items():
             
             cursor.execute(f"""
             SELECT SNOWFLAKE.CORTEX.COMPLETE(
-                'claude-3.5-sonnet',
+                'claude-4-sonnet',
                 '{prompt}'
             ) as sql
             """)

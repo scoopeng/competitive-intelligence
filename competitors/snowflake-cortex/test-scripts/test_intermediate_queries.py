@@ -67,7 +67,7 @@ for test in test_cases:
         start = datetime.now()
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             '{prompt}'
         ) as sql
         """)

@@ -164,7 +164,7 @@ for test in natural_queries:
         start = datetime.now()
         cursor.execute(f"""
         SELECT SNOWFLAKE.CORTEX.COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             %s
         ) as response
         """, (test['query'],))

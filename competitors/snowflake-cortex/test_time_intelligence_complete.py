@@ -160,7 +160,7 @@ for test in time_queries:
         # Test with CORTEX.COMPLETE - using COMPLETE function directly
         query = f"""
         SELECT COMPLETE(
-            'claude-3.5-sonnet',
+            'claude-4-sonnet',
             '{test['query']}'
         ) as response
         """
