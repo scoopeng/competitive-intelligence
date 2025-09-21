@@ -105,16 +105,16 @@ snowflake-cortex/
 
 ## 🔬 Verifiable Test Configuration
 
-All tests were performed on:
+All tests use:
 ```python
 SNOWFLAKE_ACCOUNT = 'rcdtonr-ji20455'  # Azure instance
-MODEL = 'llama3.1-70b'
+MODEL = 'claude-4-sonnet'  # Fair comparison (Scoop uses same)
 DATABASE = 'SCOOP_BENCHMARK'
 SCHEMA = 'TEST_DATA'
-TABLE = 'TELCO_DATA'  # 21 columns, real telecom data
+TABLES = ['TELCO_DATA', 'OPENOPPORTUNITIES']  # Same as Scoop's test data
 ```
 
-Test Framework: [`SNOWFLAKE_TEST_FRAMEWORK.py`](SNOWFLAKE_TEST_FRAMEWORK.py)
+Test Framework: [`DEFINITIVE_TEST_SUITE.py`](DEFINITIVE_TEST_SUITE.py) - 50+ queries
 
 ---
 
