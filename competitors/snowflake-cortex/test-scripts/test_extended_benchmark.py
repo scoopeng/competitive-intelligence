@@ -10,9 +10,9 @@ from datetime import datetime
 
 # Connection details
 conn = snowflake.connector.connect(
-    account='toajlpe-nfb33705',
-    user='bradscoop',
-    password='D6c2BmtJWPy3dM7',
+    account='rcdtonr-ji20455',
+    user='bradtest',
+    password='qMsGeKsE33NJeZp',
     warehouse='COMPUTE_WH',
     database='SCOOP_BENCHMARK',
     schema='TEST_DATA'
@@ -229,7 +229,7 @@ for category_name, category_tests in test_cases.items():
             
             cursor.execute(f"""
             SELECT SNOWFLAKE.CORTEX.COMPLETE(
-                'llama3-70b',
+                'claude-3.5-sonnet',
                 '{prompt}'
             ) as sql
             """)

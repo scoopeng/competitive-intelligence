@@ -10,9 +10,9 @@ import json
 from datetime import datetime
 
 conn = snowflake.connector.connect(
-    account='toajlpe-nfb33705',
-    user='bradscoop',
-    password='D6c2BmtJWPy3dM7',
+    account='rcdtonr-ji20455',
+    user='bradtest',
+    password='qMsGeKsE33NJeZp',
     database='SCOOP_BENCHMARK',
     schema='TEST_DATA',
     warehouse='COMPUTE_WH'
@@ -160,7 +160,7 @@ for test in time_queries:
         # Test with CORTEX.COMPLETE - using COMPLETE function directly
         query = f"""
         SELECT COMPLETE(
-            'llama3.1-70b',
+            'claude-3.5-sonnet',
             '{test['query']}'
         ) as response
         """
