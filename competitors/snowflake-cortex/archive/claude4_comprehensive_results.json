@@ -1,0 +1,419 @@
+{
+  "stats": {
+    "total": 20,
+    "sql_generated": 20,
+    "sql_executed": 18,
+    "answers_question": 16,
+    "by_category": {
+      "Basic Aggregation": {
+        "total": 3,
+        "generated": 3,
+        "executed": 3,
+        "answered": 3
+      },
+      "Segmented Analysis": {
+        "total": 2,
+        "generated": 2,
+        "executed": 2,
+        "answered": 2
+      },
+      "Filtering": {
+        "total": 1,
+        "generated": 1,
+        "executed": 1,
+        "answered": 1
+      },
+      "Complex Filtering": {
+        "total": 1,
+        "generated": 1,
+        "executed": 1,
+        "answered": 1
+      },
+      "Calculated Metrics": {
+        "total": 2,
+        "generated": 2,
+        "executed": 2,
+        "answered": 1
+      },
+      "Comparison": {
+        "total": 2,
+        "generated": 2,
+        "executed": 2,
+        "answered": 2
+      },
+      "Top N": {
+        "total": 2,
+        "generated": 2,
+        "executed": 2,
+        "answered": 2
+      },
+      "Time Intelligence": {
+        "total": 2,
+        "generated": 2,
+        "executed": 1,
+        "answered": 1
+      },
+      "Investigation": {
+        "total": 2,
+        "generated": 2,
+        "executed": 1,
+        "answered": 0
+      },
+      "Statistical": {
+        "total": 2,
+        "generated": 2,
+        "executed": 2,
+        "answered": 2
+      },
+      "Complex Pattern": {
+        "total": 1,
+        "generated": 1,
+        "executed": 1,
+        "answered": 1
+      }
+    }
+  },
+  "details": [
+    {
+      "test": {
+        "category": "Basic Aggregation",
+        "query": "How many customers do we have?",
+        "validation_type": "count",
+        "expected_answer": {
+          "type": "single_number"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned count: 10"
+      }
+    },
+    {
+      "test": {
+        "category": "Basic Aggregation",
+        "query": "What's the average monthly charge?",
+        "validation_type": "average",
+        "expected_answer": {
+          "type": "single_number",
+          "range": [
+            0,
+            200
+          ]
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned average: 73.8"
+      }
+    },
+    {
+      "test": {
+        "category": "Basic Aggregation",
+        "query": "What's the total revenue from all customers?",
+        "validation_type": "count",
+        "expected_answer": {
+          "type": "single_number"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned count: 19860.75"
+      }
+    },
+    {
+      "test": {
+        "category": "Segmented Analysis",
+        "query": "Show me churn rate by contract type",
+        "validation_type": "segmented",
+        "expected_answer": {
+          "segments": [
+            "Month-to-month",
+            "One year",
+            "Two year"
+          ]
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned 3 segments with metrics"
+      }
+    },
+    {
+      "test": {
+        "category": "Segmented Analysis",
+        "query": "What's the average monthly charge by internet service type?",
+        "validation_type": "segmented",
+        "expected_answer": {
+          "segments": [
+            "DSL",
+            "Fiber optic",
+            "No"
+          ]
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned 3 segments with metrics"
+      }
+    },
+    {
+      "test": {
+        "category": "Filtering",
+        "query": "Show me customers with monthly charges over $100",
+        "validation_type": "list",
+        "expected_answer": {
+          "type": "customer_list"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 1 items"
+      }
+    },
+    {
+      "test": {
+        "category": "Complex Filtering",
+        "query": "Find customers who have fiber optic internet but no online security",
+        "validation_type": "list",
+        "expected_answer": {
+          "type": "filtered_list"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 2 items"
+      }
+    },
+    {
+      "test": {
+        "category": "Calculated Metrics",
+        "query": "What percentage of customers have churned?",
+        "validation_type": "percentage",
+        "expected_answer": {
+          "type": "percentage",
+          "range": [
+            0,
+            100
+          ]
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": false,
+        "reasoning": "Result doesn't appear to be a percentage"
+      }
+    },
+    {
+      "test": {
+        "category": "Calculated Metrics",
+        "query": "Calculate the ratio of monthly charges to tenure for each customer",
+        "validation_type": "list",
+        "expected_answer": {
+          "type": "calculated_list"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 10 items"
+      }
+    },
+    {
+      "test": {
+        "category": "Comparison",
+        "query": "Compare churn rates between different payment methods",
+        "validation_type": "comparison",
+        "expected_answer": {
+          "type": "multi_group_comparison"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned 4 items for comparison"
+      }
+    },
+    {
+      "test": {
+        "category": "Comparison",
+        "query": "How does average tenure differ between churned and active customers?",
+        "validation_type": "comparison",
+        "expected_answer": {
+          "type": "two_group_comparison"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned 2 items for comparison"
+      }
+    },
+    {
+      "test": {
+        "category": "Top N",
+        "query": "Show me the top 5 customers by total charges",
+        "validation_type": "list",
+        "expected_answer": {
+          "count": 5
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 5 items"
+      }
+    },
+    {
+      "test": {
+        "category": "Top N",
+        "query": "What are the bottom 3 tenure lengths?",
+        "validation_type": "list",
+        "expected_answer": {
+          "count": 3
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 3 items"
+      }
+    },
+    {
+      "test": {
+        "category": "Time Intelligence",
+        "query": "Show me the month-over-month growth in customer count",
+        "validation_type": "trend",
+        "expected_answer": {
+          "type": "time_series"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": false,
+        "answers_question": false,
+        "reasoning": "SQL error: 001003 (42000): SQL compilation error:\nsyntax error line 6 at position 0 unexpected ')'."
+      }
+    },
+    {
+      "test": {
+        "category": "Time Intelligence",
+        "query": "What's the running total of revenue over time?",
+        "validation_type": "trend",
+        "expected_answer": {
+          "type": "cumulative"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned time-based trend data"
+      }
+    },
+    {
+      "test": {
+        "category": "Investigation",
+        "query": "Why are customers churning?",
+        "validation_type": "investigation",
+        "expected_answer": {
+          "type": "multi_factor_analysis"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": false,
+        "answers_question": false,
+        "reasoning": "SQL error: 001003 (42000): SQL compilation error:\nsyntax error line 25 at position 0 unexpected ')'."
+      }
+    },
+    {
+      "test": {
+        "category": "Investigation",
+        "query": "What factors predict high monthly charges?",
+        "validation_type": "investigation",
+        "expected_answer": {
+          "type": "correlation_analysis"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": false,
+        "reasoning": "Only single query executed - no investigation performed"
+      }
+    },
+    {
+      "test": {
+        "category": "Statistical",
+        "query": "What's the standard deviation of monthly charges?",
+        "validation_type": "count",
+        "expected_answer": {
+          "type": "single_number"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned count: 25.47078936961144"
+      }
+    },
+    {
+      "test": {
+        "category": "Statistical",
+        "query": "Show me the correlation between tenure and monthly charges",
+        "validation_type": "count",
+        "expected_answer": {
+          "type": "correlation",
+          "range": [
+            -1,
+            1
+          ]
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned count: 0.5808443276862412"
+      }
+    },
+    {
+      "test": {
+        "category": "Complex Pattern",
+        "query": "Find customers whose monthly charges are above average for their contract type",
+        "validation_type": "list",
+        "expected_answer": {
+          "type": "subquery_filter"
+        }
+      },
+      "result": {
+        "sql_generated": true,
+        "sql_executed": true,
+        "answers_question": true,
+        "reasoning": "Returned list of 5 items"
+      }
+    }
+  ],
+  "timestamp": "2025-09-20T23:08:31.258307"
+}

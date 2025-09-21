@@ -1,0 +1,632 @@
+[
+  {
+    "test_id": "cortex_001_basic_aggregation",
+    "query": "How many customers do we have?",
+    "description": "Test basic_aggregation capability",
+    "category": "basic_aggregation",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "correct_function": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875957"
+    }
+  },
+  {
+    "test_id": "cortex_002_basic_aggregation",
+    "query": "What is the total revenue?",
+    "description": "Test basic_aggregation capability",
+    "category": "basic_aggregation",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "correct_function": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875979"
+    }
+  },
+  {
+    "test_id": "cortex_003_grouping",
+    "query": "Show revenue by product category",
+    "description": "Test grouping capability",
+    "category": "grouping",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "has_group_by": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875985"
+    }
+  },
+  {
+    "test_id": "cortex_004_filtering",
+    "query": "Show only active customers",
+    "description": "Test filtering capability",
+    "category": "filtering",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "has_where": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875990"
+    }
+  },
+  {
+    "test_id": "cortex_005_time_intelligence",
+    "query": "Show monthly revenue trend",
+    "description": "Test time_intelligence capability",
+    "category": "time_intelligence",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "time_grouping": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875994"
+    }
+  },
+  {
+    "test_id": "cortex_006_calculated_metrics",
+    "query": "Calculate profit margin",
+    "description": "Test calculated_metrics capability",
+    "category": "calculated_metrics",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "has_calculation": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.875997"
+    }
+  },
+  {
+    "test_id": "cortex_007_grouping",
+    "query": "Number of customers by region",
+    "description": "Test grouping capability",
+    "category": "grouping",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "has_group_by": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876001"
+    }
+  },
+  {
+    "test_id": "cortex_008_filtering",
+    "query": "Show last quarter's sales",
+    "description": "Test filtering capability",
+    "category": "filtering",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "date_filter": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876004"
+    }
+  },
+  {
+    "test_id": "cortex_009_grouping",
+    "query": "Show revenue and customer count by category",
+    "description": "Test grouping capability",
+    "category": "grouping",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "multiple_metrics": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876007"
+    }
+  },
+  {
+    "test_id": "cortex_010_ranking",
+    "query": "Top 5 products by revenue",
+    "description": "Test ranking capability",
+    "category": "ranking",
+    "complexity": "basic",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "has_limit": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "must_execute": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876010"
+    }
+  },
+  {
+    "test_id": "cortex_011_filtering",
+    "query": "Active customers in California",
+    "description": "Test intermediate filtering",
+    "category": "filtering",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "compound_filter": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876018"
+    }
+  },
+  {
+    "test_id": "cortex_012_filtering",
+    "query": "Customers in CA or NY",
+    "description": "Test intermediate filtering",
+    "category": "filtering",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "or_condition": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876026"
+    }
+  },
+  {
+    "test_id": "cortex_013_time_intelligence",
+    "query": "Show monthly revenue with previous month comparison",
+    "description": "Test intermediate time_intelligence",
+    "category": "time_intelligence",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "lag_function": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876029"
+    }
+  },
+  {
+    "test_id": "cortex_014_calculated_metrics",
+    "query": "Calculate market share percentage by region",
+    "description": "Test intermediate calculated_metrics",
+    "category": "calculated_metrics",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "percentage_calc": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876033"
+    }
+  },
+  {
+    "test_id": "cortex_015_filtering",
+    "query": "Revenue for premium customers",
+    "description": "Test intermediate filtering",
+    "category": "filtering",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "conditional_calc": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876036"
+    }
+  },
+  {
+    "test_id": "cortex_016_grouping",
+    "query": "Sales by region and product",
+    "description": "Test intermediate grouping",
+    "category": "grouping",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "multi_group": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876039"
+    }
+  },
+  {
+    "test_id": "cortex_017_grouping",
+    "query": "Unique customers by month",
+    "description": "Test intermediate grouping",
+    "category": "grouping",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "count_distinct": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876042"
+    }
+  },
+  {
+    "test_id": "cortex_018_basic_aggregation",
+    "query": "Earliest and latest order dates",
+    "description": "Test intermediate basic_aggregation",
+    "category": "basic_aggregation",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "min_max": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876045"
+    }
+  },
+  {
+    "test_id": "cortex_019_calculated_metrics",
+    "query": "Growth rate calculation",
+    "description": "Test intermediate calculated_metrics",
+    "category": "calculated_metrics",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "growth_calc": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876048"
+    }
+  },
+  {
+    "test_id": "cortex_020_time_intelligence",
+    "query": "Weekly sales trends",
+    "description": "Test intermediate time_intelligence",
+    "category": "time_intelligence",
+    "complexity": "intermediate",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "weekly_grouping": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "semantic_match": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876051"
+    }
+  },
+  {
+    "test_id": "cortex_021_complex_analysis",
+    "query": "Revenue from top 5 customers",
+    "description": "Test advanced complex_analysis",
+    "category": "complex_analysis",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "subquery": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876057"
+    }
+  },
+  {
+    "test_id": "cortex_022_filtering",
+    "query": "Products with >$10K monthly sales",
+    "description": "Test advanced filtering",
+    "category": "filtering",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "threshold_filter": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876061"
+    }
+  },
+  {
+    "test_id": "cortex_023_calculated_metrics",
+    "query": "Accounts with win rate > 40%",
+    "description": "Test advanced calculated_metrics",
+    "category": "calculated_metrics",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "formula_filter": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876064"
+    }
+  },
+  {
+    "test_id": "cortex_024_calculated_metrics",
+    "query": "Weighted scoring calculation",
+    "description": "Test advanced calculated_metrics",
+    "category": "calculated_metrics",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "complex_formula": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876067"
+    }
+  },
+  {
+    "test_id": "cortex_025_time_intelligence",
+    "query": "Running total of sales",
+    "description": "Test advanced time_intelligence",
+    "category": "time_intelligence",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "window_function": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876070"
+    }
+  },
+  {
+    "test_id": "cortex_026_complex_analysis",
+    "query": "Forecast vs actual comparison",
+    "description": "Test advanced complex_analysis",
+    "category": "complex_analysis",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "date_comparison": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876073"
+    }
+  },
+  {
+    "test_id": "cortex_027_filtering",
+    "query": "Customers without email",
+    "description": "Test advanced filtering",
+    "category": "filtering",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "null_handling": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876075"
+    }
+  },
+  {
+    "test_id": "cortex_028_filtering",
+    "query": "Orders between $1000 and $5000",
+    "description": "Test advanced filtering",
+    "category": "filtering",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "between_operator": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876078"
+    }
+  },
+  {
+    "test_id": "cortex_029_filtering",
+    "query": "Companies ending in Corp",
+    "description": "Test advanced filtering",
+    "category": "filtering",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "like_operator": true
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876083"
+    }
+  },
+  {
+    "test_id": "cortex_030_complex_analysis",
+    "query": "Top customers in top regions",
+    "description": "Test advanced complex_analysis",
+    "category": "complex_analysis",
+    "complexity": "advanced",
+    "expected_capabilities": {
+      "scoop": true
+    },
+    "snowflake_prediction": {
+      "sql_generation": true,
+      "nested_subquery": false
+    },
+    "validation_criteria": {
+      "must_have_sql": true,
+      "complex_validation": true
+    },
+    "metadata": {
+      "created": "2025-09-21T02:50:16.876086"
+    }
+  }
+]
