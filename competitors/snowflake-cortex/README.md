@@ -40,11 +40,11 @@ This isn't about SQL generation or technical features. It's about depth of analy
 ### Archive
 - **[Archive](archive/)** - Historical analysis and older test runs
 
-## What Actually Differentiates (With Claude-4-Sonnet)
+## What Actually Differentiates
 
-### 1. Business Correctness (57% vs 100%)
-**Cortex**: Generates SQL that executes but may not answer the question
-**Scoop**: Query JSON ensures business logic is correct before execution
+### 1. Business User Empowerment
+**Cortex Intelligence**: Business users need to formulate precise questions
+**Scoop**: Business users can ask vague questions and get guided to insights
 
 ### 2. ML/Investigation Capabilities
 **Query**: "Why are customers churning?"
@@ -62,10 +62,10 @@ This isn't about SQL generation or technical features. It's about depth of analy
 
 ## Test Results Summary
 
-### Key Test Results (Claude-4-Sonnet)
-**What Works**: Basic SQL generation (subqueries, formulas, window functions)
-**What Fails**: ML analysis, multi-step reasoning, business context
-**Success Rate**: 57% business-usable answers (vs Scoop's ~100%)
+### Key Test Results 
+**Cortex Analyst (COMPLETE function)**: Can generate complex SQL successfully
+**Cortex Intelligence (Preview UI)**: Limited to 3 chart types, no deep analysis
+**What's Missing**: Investigation capabilities, ML insights, actionable recommendations
 
 ## For Sales Teams
 

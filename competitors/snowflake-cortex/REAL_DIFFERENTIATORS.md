@@ -1,5 +1,19 @@
 # The REAL Differentiators: Deep Analysis vs Simple Queries
 
+## Understanding Snowflake's Two Products
+
+### Cortex Analyst (Generally Available)
+- The underlying COMPLETE function that generates SQL
+- Works well for SQL generation from natural language
+- No UI, just an API function
+- This is NOT what we're competing against
+
+### Cortex Intelligence (Preview)
+- The actual UI product business users would use
+- Limited to 3 chart types (bar, line, pie)
+- Basic Q&A interface at ai.snowflake.com
+- This IS what we're competing against
+
 ## The Fundamental Difference: WHY vs WHAT
 
 ### Snowflake Intelligence: Answers WHAT
@@ -55,9 +69,15 @@ Scoop returns:
 
 **Snowflake returns**: Average deal size by industry (just numbers)
 
-## 3. Business User Optimization
+## 3. Business User Empowerment (The Core Philosophy)
 
-### Designed for Non-Technical Users
+### What Business User Empowerment Actually Means
+**Without IT Support**: Business users can get insights independently
+**Without SQL Knowledge**: Natural language that assumes zero technical background
+**Without Training**: Intuitive enough for immediate productivity
+**Without Waiting**: Instant insights, not tickets to IT
+
+### How Scoop Empowers vs How Snowflake Doesn't
 **Scoop**: 
 - Natural language that assumes no SQL knowledge
 - Visual decision trees instead of correlation tables
@@ -220,7 +240,7 @@ Pass 2: Generate optimized SQL from Query JSON
 Our previous documentation emphasized:
 - "Query JSON validation" → Sounds like a technical feature
 - "Stateful vs stateless" → Developer concern
-- "92% SQL success" → Who cares about SQL?
+- "SQL generation success" → Both tools generate SQL, this isn't a differentiator
 
 **What Actually Matters**:
 1. **Deep reasoning** that answers WHY not just WHAT
@@ -274,7 +294,7 @@ Monday 7:00 AM: Scheduled deck auto-generated
 "We have better SQL generation with Query JSON validation"
 
 ### Do Position As:
-"While Snowflake users are still gathering data, Scoop users are already taking action."
+"Scoop empowers business users to get insights without IT. Snowflake Intelligence still requires precise questions and technical understanding."
 
 ### The Killer Demo Sequence:
 
