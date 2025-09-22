@@ -18,7 +18,6 @@ Test Categories (50+ queries):
 
 import json
 import snowflake.connector
-import signal
 import time
 from datetime import datetime
 from typing import Dict, List, Optional, Any
@@ -569,10 +568,6 @@ class DefinitiveTestRunner:
         self.conn = snowflake.connector.connect(**SNOWFLAKE_CONFIG)
         print("✓ Connected")
         
-    def timeout_handler(self, signum, frame):
-        """Handle timeout"""
-        raise TimeoutError("Query timed out")
-        
     def test_query(self, query: TestQuery) -> Dict:
         """Test a single query"""
         result = {
@@ -587,9 +582,7 @@ class DefinitiveTestRunner:
         }
         
         try:
-            # Set timeout
-            signal.signal(signal.SIGALRM, self.timeout_handler)
-            signal.alarm(TIMEOUT_SECONDS)
+            # No signal handling - it causes issues in some environments
             
             # Generate SQL
             cursor = self.conn.cursor()
@@ -634,14 +627,9 @@ class DefinitiveTestRunner:
                     result["matched_expectation"] = not query.expected_cortex_success
                     
             cursor.close()
-            signal.alarm(0)
             
-        except TimeoutError:
-            result["error"] = "Timeout"
-            signal.alarm(0)
         except Exception as e:
             result["error"] = str(e)[:200]
-            signal.alarm(0)
             
         return result
     

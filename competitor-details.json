@@ -143,41 +143,145 @@
       "slug": "snowflake-cortex"
     },
     "content": {
-      "executive_summary": "Snowflake Cortex provides text-to-SQL capabilities within the Snowflake ecosystem. Business users cannot explore why questions, work in collaborative tools without custom development, generate presentations, or save queries without technical configuration. Business users must leave their workflow to access insights, with no native Excel, PowerPoint, or Slack integration. After significant investment in semantic models, users receive single SQL query results that answer what but never why.",
-      "critical_gap": "Limited to SQL queries without investigation capabilities. No collaboration or ML analysis.",
-      "bottom_line": "SQL-based analytics requiring significant infrastructure.",
+      "executive_summary": "Snowflake generates SQL from text with 92.9% syntax success but only 57% produce business-usable answers. The real limitations are Query JSON validation, multi-probe reasoning, and user experience. Snowflake Intelligence (preview) now offers 3 basic chart types but cannot switch visualizations without re-querying. Scoop offers 15+ chart types with instant switching, 40+ interactive features, and multi-channel deployment vs Snowflake's web-only preview.",
+      "critical_gap": "Query JSON Architecture: Snowflake goes straight from text to SQL (one pass) while Scoop validates business logic BEFORE SQL generation (two pass). This causes 43% business failure rate in Snowflake queries.",
+      "critical_discovery": "UPDATE: Snowflake Intelligence now has basic charting (bar, line, pie) but still cannot switch chart types without re-querying. Each visualization request starts fresh - no state preservation even for charts.",
+      "bottom_line": "Even with basic charting in preview, Snowflake Intelligence lacks Query JSON validation (43% business failures), multi-probe reasoning (no 'why' answers), and has only 3 chart types vs Scoop's 15+ with instant switching.",
       "weaknesses": [
-        "Complete vendor lock-in to Snowflake platform",
-        "Requires 6-12 month migration timeline",
-        "No investigation beyond single queries",
-        "High total cost of ownership",
-        "Requires separate BI tool for visualization, no native Office integration"
+        "43% business failure rate - no Query JSON validation",
+        "Cannot switch chart types without re-querying",
+        "Only 3 chart types (bar, line, pie) vs Scoop's 15+",
+        "No multi-probe reasoning - cannot answer 'why' questions",
+        "Web-only preview vs production multi-channel platform",
+        "No export, sharing, or collaboration features",
+        "$1.6M+ total cost for 200 users"
       ]
     },
     "capabilities": {
-      "excel_engine": "❌ No Excel support",
-      "investigation": "❌ Single SQL queries only",
-      "slack": "❌ 2-4 weeks custom dev required",
-      "presentations": "❌ Manual copy/paste only",
-      "save_queries": "❌ YAML semantic models",
-      "ml_analysis": "❌ Zero ML capabilities",
-      "natural_language": "⚠️ Text-to-SQL only, no WHY",
-      "hypothesis": "❌ Cannot test hypotheses"
+      "excel_engine": "❌ No Excel support whatsoever",
+      "investigation": "❌ Single stateless SQL queries only",
+      "slack": "❌ Requires custom Streamlit development",
+      "presentations": "❌ Manual copy/paste SQL results",
+      "save_queries": "❌ YAML semantic models per dataset",
+      "ml_analysis": "❌ Returns GROUP BY, not insights",
+      "natural_language": "⚠️ 57% business usability rate",
+      "hypothesis": "❌ Cannot maintain context"
     },
     "technical": {
-      "stack": "Snowflake Data Cloud platform",
-      "architecture": "Warehouse-centric with compute separation",
-      "scalability": "Scales with credit consumption"
+      "stack": "Snowflake Data Cloud + GitHub template + custom Streamlit",
+      "architecture": "Stateless REST API - no session management",
+      "scalability": "Linear cost increase with conversation length",
+      "evidence": {
+        "stateless_proof": "Large language models like the ones used by Cortex Analyst do not store state between requests",
+        "source": "Official Snowflake Documentation"
+      }
     },
     "commercial": {
-      "pricing": "Credit-based consumption model",
-      "hidden_costs": ["Migration costs", "Compute credits", "Storage", "Professional services"],
-      "total_cost_200_users": "High total cost of ownership"
+      "pricing": "Credit-based consumption + development costs",
+      "hidden_costs": [
+        "40-80 hours initial development",
+        "$100-200k/year maintenance",
+        "4-8 hours per dataset for semantic models",
+        "Per-query compute credits"
+      ],
+      "total_cost_200_users": "$1.6M+/year"
     },
     "timeline": {
-      "setup": "1-2 months",
-      "implementation": "6-12 months",
-      "time_to_value": "3-4 months minimum"
+      "setup": "3-4 months for Snowflake Intelligence",
+      "implementation": "40-80 hours custom development",
+      "time_to_value": "4-6 months if everything goes perfectly"
+    },
+    "test_results": {
+      "sql_generation": "92.9% success rate",
+      "business_usability": "57% produce actionable answers",
+      "time_intelligence": "67% failure rate",
+      "multi_step": "0% - architecturally impossible",
+      "visualization": "3 basic charts in preview only",
+      "details": {
+        "basic_filters": "100% success",
+        "subqueries": "100% success (both systems similar)",
+        "window_functions": "67% success (both systems similar)",
+        "ml_queries": "0% - returns aggregations not insights",
+        "context_stripping": "25% return incomplete answers",
+        "chart_switching": "0% - must re-query for different chart"
+      }
+    },
+    "evidence": {
+      "quotes": [
+        {
+          "text": "Cortex Analyst doesn't have access to results from previous SQL queries",
+          "source": "Snowflake Official Documentation"
+        },
+        {
+          "text": "Large language models like the ones used by Cortex Analyst do not store state between requests",
+          "source": "Snowflake Cortex Analyst User Guide"
+        },
+        {
+          "text": "For example, if you first ask 'What are my products?' and then ask 'What is the revenue of the second product?', Cortex Analyst cannot refer to the list of products from the first query",
+          "source": "Snowflake Documentation"
+        }
+      ],
+      "github_reality": {
+        "setup_commands": "git clone https://github.com/Snowflake-Labs/snowflake-demo-streamlit",
+        "requirements": "Node.js 18.16.0, Python, npm install, pip install",
+        "developer_time": "40-80 hours minimum",
+        "semantic_model_per_dataset": "4-8 hours each"
+      },
+      "real_conversation_example": {
+        "cortex_failure": [
+          "User: 'Show revenue by product' → SQL table only",
+          "User: 'For the top 3 products' → ERROR - doesn't know previous results",
+          "User: 'Display that as a chart' → ERROR - no visualization capability"
+        ],
+        "scoop_success": [
+          "User: 'Show revenue by product' → Interactive bar chart",
+          "User: 'For the top 3' → Filters to top 3, keeps chart",
+          "User: 'Switch to pie chart' → Instantly changes visualization"
+        ]
+      },
+      "specific_failures": {
+        "churn_analysis": {
+          "query": "Show contract types where churn rate exceeds 30%",
+          "cortex_result": "Returns 'Month-to-month' without the 60% rate",
+          "problem": "Manager can't prioritize without knowing actual percentage"
+        },
+        "time_series": {
+          "query": "Month-over-month change",
+          "cortex_result": "SQL execution error with DATE_TRUNC arithmetic",
+          "problem": "Complex date math fails without proper columns"
+        },
+        "causal_analysis": {
+          "query": "Why are customers churning?",
+          "cortex_result": "Error: Actual statement count 3 did not match desired 1",
+          "problem": "Tried multiple queries, architecturally limited to single SQL"
+        }
+      }
+    },
+    "scoop_advantages": {
+      "query_json_architecture": {
+        "two_pass_validation": "Validates business logic BEFORE SQL generation",
+        "type_safety": "Prevents meaningless calculations (avg of strings)",
+        "shareable_patterns": "Query JSON creates reusable templates",
+        "error_prevention": "43% fewer business logic failures"
+      },
+      "investigation_engine": {
+        "multi_probe": "3-10 queries with dependency chains",
+        "ml_analysis": "J48 decision trees, JRip rules, EM clustering",
+        "why_capability": "Answers causal questions with feature importance",
+        "synthesis": "Delivers recommendations, not just data"
+      },
+      "user_experience": {
+        "chart_types": "15+ visualizations with instant switching",
+        "interactive_features": "40+ capabilities (export, share, save, schedule)",
+        "multi_channel": "Slack, API, WebSocket, Excel, PowerPoint",
+        "collaboration": "Team sharing, saved queries, scheduled delivery"
+      },
+      "temporal_intelligence": {
+        "scoop_dkey": "Multiple date perspectives without rewriting",
+        "change_tracking": "Automatic _CHG tables for field-level changes",
+        "time_series": "Built-in MoM, YoY, rolling averages",
+        "snapshot_analysis": "Point-in-time vs transaction date analysis"
+      }
     }
   },
   "Sisense": {

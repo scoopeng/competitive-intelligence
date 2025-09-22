@@ -42,11 +42,11 @@
 - **[Power BI Copilot](power-bi-copilot/)** - 17/50 points
   - "Nondeterministic behavior" per Microsoft
 
-- **[Snowflake Cortex](snowflake-cortex/)** - 13/50 points
-  - **[DEEP TECHNICAL ANALYSIS](snowflake-cortex/DEEP_TECHNICAL_ANALYSIS_VS_SCOOP.md)** (630 lines)
-  - **[User Experience Deep Dive](snowflake-cortex/USER_EXPERIENCE_DEEP_DIVE.md)**
-  - **[Sales Playbook](snowflake-cortex/SALES_PLAYBOOK_SNOWFLAKE_HEAVY_PROSPECT.md)**
-  - **[Executive Summary](snowflake-cortex/EXECUTIVE_SUMMARY_CORTEX_VS_SCOOP.md)**
+- **[Snowflake Cortex/Intelligence](snowflake-cortex/)** - 13/50 points
+  - **[REAL DIFFERENTIATORS](snowflake-cortex/REAL_DIFFERENTIATORS.md)** - WHY vs WHAT analysis
+  - **Key Finding**: Tells you WHAT, not WHY or WHAT TO DO
+  - **Limited to**: 3 chart types, no Office integration, preview only
+  - **Missing**: Deep reasoning, ML insights, PowerPoint/Excel export
 
 - **[Sisense](sisense/)** - 12/50 points
   - 400% renewal increases documented
@@ -63,7 +63,7 @@
 ## Research Depth by Competitor
 
 ### Extensive Research (500+ lines each)
-- **Snowflake Cortex**: 4 deep analysis documents
+- **Snowflake Cortex**: Deep reasoning vs simple queries, Office integration gap
 - **Domo**: AI capabilities and competitive advantages
 - **Tellius**: Technical barriers and implementation complexity
 - **Zenlytic**: YAML configuration nightmare analysis
