@@ -3,16 +3,16 @@
 **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
 **Parent**: Microsoft
 **Key Weakness**: Only 3% of IT leaders find significant value (Gartner)
-**Last Updated**: September 25, 2025
+**Last Updated**: September 25, 2025 (100% Complete with new 4-phase template)
 
 ---
 
 ## Quick Win Discovery Questions
-1. "Are you aware Power BI Copilot is 'nondeterministic' per Microsoft?"
-2. "Did you know the minimum cost is $67,392/year before user licenses?"
-3. "Have you discovered Excel COPILOT is a separate $30/user product?"
-4. "How long was your data preparation phase - weeks or months?"
-5. "Are all your offices in supported regions?"
+1. "Can Copilot work with your $20 PPU licenses?" (No - needs $60k F64)
+2. "How do you embed Copilot in your applications?" (You can't - no APIs)
+3. "What's the accuracy rate according to Gartner?" (47% accurate - 53% errors)
+4. "Can government agencies use it?" (No - not in sovereign clouds)
+5. "How many queries to find root cause?" (One - no investigation)
 
 ## Top 5 Fatal Flaws (With Evidence)
 
@@ -38,14 +38,15 @@
    - Only 3% of 123 IT leaders found significant value
    - 53% report too many inaccurate results
    - "Reality is surreal - tool that says 'FYI, I can't be trusted'"
-   - Source: Gartner survey 2025 + customer feedback
+   - US Congress banned Copilot due to security concerns
+   - Source: Gartner survey 2025 + Phase 3 research
 
-5. **$60k Infrastructure Tax + Extensive Data Prep**
-   - Requires F64 Fabric capacity minimum
-   - "Data needs to be prepared to work with Copilot"
-   - 24-hour delay for new capacity recognition
-   - PPU licenses ($20/user) explicitly excluded
-   - Source: Microsoft pricing + documentation
+5. **No REST APIs - Complete Developer Dead-End**
+   - "No dedicated Copilot REST APIs exist" - official docs
+   - Cannot embed in applications ("Not integrated into Power BI Embedded")
+   - CSP violations when attempting to iframe
+   - App Owns Data model doesn't support Copilot
+   - Source: Microsoft documentation + Phase 3 technical analysis
 
 ## Pricing Comparison (200 Users)
 

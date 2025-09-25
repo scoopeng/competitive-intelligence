@@ -83,3 +83,50 @@
 - "A solution looking for a problem... it feels like a solution looking for a problem"
 - "Generative AI is good at use-cases with soft accuracy. Unfortunately, in business intelligence, almost nothing fits in that box"
 - "This is the part of Copilot where I'm so far the most disappointed" (on visualizations)
+
+---
+
+## Additional Industry Vertical Searches (Completed Sep 25, 2025)
+
+### Search 14: Financial Services & SOX Compliance Issues
+**Search**: "Power BI Copilot financial services SOX regulatory problems compliance issues"
+**Key Findings**:
+- **$3.5 billion in penalties**: Financial institutions face massive penalties since 2021 for inadequate recordkeeping
+- **Congress ban**: US Congress banned staffers from using Microsoft Copilot due to security concerns
+- **Black box compliance issue**: Cannot demonstrate compliance with suitability requirements
+- **Audit trail gaps**: Missing records of Copilot interactions lead to incomplete audit trails
+- **15% of files at risk**: Over 15% of business-critical files exposed through oversharing
+- **67% security concerns**: 67% of enterprise security teams concerned about AI exposing sensitive information
+- **SOC 1 Type 2**: Microsoft maintains attestation but implementation still requires extensive controls
+
+### Search 15: Retail Real-Time Inventory & Scalability
+**Search**: "Power BI Copilot retail real-time inventory scalability performance issues"
+**Key Findings**:
+- **15+ minute delays**: Semantic models can take over 15 minutes to analyze, internal server errors common
+- **Data prep critical**: "Without prep, Copilot can struggle... leading to generic, inaccurate, or misleading outputs"
+- **Missing values issue**: "AI can try to fill holes and fabricate data" when encountering missing values
+- **F2/P1 requirement**: Requires Fabric F2 or Premium P1 capacity for basic functionality
+- **No real-time specifics**: Documentation lacks specific benchmarks for real-time inventory streaming
+- **Schema limitations**: Must carefully curate data schema for Copilot to work effectively
+
+### Search 16: Manufacturing Plant Floor & OT/IT Convergence
+**Search**: "Power BI Copilot manufacturing plant floor data integration OT IT convergence issues"
+**Key Findings**:
+- **No specific OT features**: Copilot lacks features designed for OT/IT convergence challenges
+- **Protocol incompatibility**: OT network protocols often proprietary, differ from IT systems
+- **Manual translations required**: Need manual translations between enterprise and operations layers via spreadsheets
+- **Data silos**: Data fragmented in silos within IT and OT layers
+- **Unstructured OT data**: OT data lacks device context, creating integration challenges
+- **Middleware dependency**: Requires third-party integration platforms for plant floor data
+- **Cultural clash**: IT prioritizes agility/security while OT focuses on stability/safety
+
+### Search 17: Government Security & Sovereign Cloud Restrictions
+**Search**: "Power BI Copilot government security clearance restrictions FedRAMP sovereign cloud"
+**Key Findings**:
+- **NOT available in sovereign clouds**: Copilot unsupported due to GPU availability limitations
+- **Government clouds blocked**: Unavailable in GCC, GCC High, DoD environments
+- **FedRAMP gap**: While Power BI service has FedRAMP, Copilot functionality doesn't work
+- **Personnel screening**: Requires US citizenship and background checks for data access
+- **Geographic limitations**: Data processed outside government boundaries through OpenAI
+- **ITAR/CJIS issues**: Cannot meet export control requirements for certain data types
+- **Complete functionality loss**: Government orgs can use Power BI but NOT Copilot features
