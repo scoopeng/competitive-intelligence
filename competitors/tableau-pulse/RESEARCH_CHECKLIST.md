@@ -89,10 +89,15 @@ Execute these WebSearch queries:
 
 **📝 IMPORTANT - For EVERY search and EVERY URL visited**:
 1. **IMMEDIATELY** document in the Research Library section at the bottom of this file
-2. Use the format: URL, Date, Search Query #, Summary, Relevance, Key Evidence
+2. **BE COMPREHENSIVE** - Don't over-summarize! Capture:
+   - Multiple full quotes (not fragments)
+   - All specific numbers, costs, percentages, timelines
+   - Company details (size, industry, name if mentioned)
+   - Technical details (licensing requirements, error messages)
+   - Implementation challenges and failure scenarios
 3. Do this AS YOU GO - don't wait until the end
 4. Include even "no results found" searches for completeness
-5. Extract specific quotes with company size/industry context
+5. If a source is rich, use WebFetch to extract MORE detail
 6. Rate source credibility (High/Medium/Low)
 
 ### 1B: Reddit & Community Deep Dive (10 minutes)
@@ -298,9 +303,15 @@ Score each dimension with specific evidence:
 **URL**: [full URL or "No results found"]
 **Date**: [today's date]
 **Search Query**: [Search #X: exact query used]
-**Summary**: [2-3 sentences of key findings or why no results]
+**Summary**: [3-5 sentences with specific details. Include company sizes, timelines, percentages, costs mentioned]
 **Relevance**: High/Medium/Low/None
-**Key Evidence**: [specific quotes, numbers, facts, or "N/A"]
+**Key Evidence**: [COMPREHENSIVE - Include ALL important quotes, numbers, examples. Use bullets for multiple points:
+- Full quotes with context (not fragments)
+- Specific metrics (percentages, dollar amounts, timelines)
+- Company details (size, industry) when mentioned
+- Technical requirements or limitations
+- Error messages or failure descriptions
+- Multiple evidence points, not just 1-2]
 ---
 ```
 

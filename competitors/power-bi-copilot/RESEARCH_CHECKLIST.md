@@ -89,10 +89,15 @@ Execute these WebSearch queries:
 
 **📝 IMPORTANT - For EVERY search and EVERY URL visited**:
 1. **IMMEDIATELY** document in the Research Library section at the bottom of this file
-2. Use the format: URL, Date, Search Query #, Summary, Relevance, Key Evidence
+2. **BE COMPREHENSIVE** - Don't over-summarize! Capture:
+   - Multiple full quotes (not fragments)
+   - All specific numbers, costs, percentages, timelines
+   - Company details (size, industry, name if mentioned)
+   - Technical details (licensing requirements, error messages)
+   - Implementation challenges and failure scenarios
 3. Do this AS YOU GO - don't wait until the end
 4. Include even "no results found" searches for completeness
-5. Extract specific quotes with company size/industry context
+5. If a source is rich, use WebFetch to extract MORE detail
 6. Rate source credibility (High/Medium/Low)
 
 ### 1B: Reddit & Community Deep Dive (10 minutes)
@@ -298,15 +303,99 @@ Score each dimension with specific evidence:
 **URL**: [full URL or "No results found"]
 **Date**: [today's date]
 **Search Query**: [Search #X: exact query used]
-**Summary**: [2-3 sentences of key findings or why no results]
+**Summary**: [3-5 sentences with specific details. Include company sizes, timelines, percentages, costs mentioned]
 **Relevance**: High/Medium/Low/None
-**Key Evidence**: [specific quotes, numbers, facts, or "N/A"]
+**Key Evidence**: [COMPREHENSIVE - Include ALL important quotes, numbers, examples. Use bullets for multiple points:
+- Full quotes with context (not fragments)
+- Specific metrics (percentages, dollar amounts, timelines)
+- Company details (size, industry) when mentioned
+- Technical requirements or limitations
+- Error messages or failure descriptions
+- Multiple evidence points, not just 1-2]
 ---
 ```
 
 ### Phase 1 Research Library
 <!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 1 -->
 <!-- 📂 If evidence/research_library.md or evidence/research_library_chunk1.md exists, COPY its contents here first -->
+
+**URL**: https://www.g2.com/products/microsoft-microsoft-power-bi/reviews
+**Date**: 2025-09-25
+**Search Query**: Search #1: site:g2.com Power BI Copilot 1 star 2 star reviews implementation disaster
+**Summary**: Found Power BI reviews but no specific 1-2 star disaster stories. Main complaints: performance with large datasets, limited drilldowns, locked features behind Premium.
+**Relevance**: Medium
+**Key Evidence**: "doesn't handle large datasets well", "performance may degrade with very large datasets", "Ease of implementation becomes hectic"
+---
+
+**URL**: https://www.capterra.com/p/176586/Power-BI/reviews/
+**Date**: 2025-09-25
+**Search Query**: Search #2: site:capterra.com Power BI Copilot negative review switching from
+**Summary**: Found Power BI struggles with >3 tables with 1M+ rows, "limited in visual design", "quite ugly", difficult error messages. Copilot "never allows me to actually see or download the document"
+**Relevance**: High
+**Key Evidence**: "cannot manage strong quantities of data", "dashboards quite ugly", "Copilot cannot receive text inputs greater than 10240 characters", "6 months... absolutely zero results"
+---
+
+**URL**: https://www.trustradius.com/products/microsoft-power-bi/reviews?qs=pros-and-cons
+**Date**: 2025-09-25
+**Search Query**: Search #3: site:trustradius.com Power BI Copilot disappointed regret choosing
+**Summary**: No specific disappointment about Copilot found. Users note GUI is confusing, issues with >250MB data. One user prefers ChatGPT/Grok over Power BI for dashboard creation.
+**Relevance**: Medium
+**Key Evidence**: "GUI definitely one of the areas they need to improve", "issues with large amounts of data", "would definitely choose to create custom right now with AI over Microsoft Power BI"
+---
+
+**URL**: https://gocollectiv.com/blog/power-bi-copilot-success/
+**Date**: 2025-09-25
+**Search Query**: Search #4: Power BI Copilot implementation failed timeline overrun consultant expensive
+**Summary**: Detailed case study of $300M ARR SaaS company with Copilot failure. Initial 12% adoption due to messy models, disconnected workspaces, lack of prompt governance. Required 30-day remediation project to reach 84% adoption. Exposes critical security flaws and implementation barriers.
+**Relevance**: High
+**Key Evidence**:
+- "Copilot will happily answer questions your users were never meant to ask—like showing salary data or forecasting details without proper restrictions"
+- "doesn't just fall short—it actively makes things worse" without proper foundation
+- Initial adoption only 12%, required 30-day cleanup to reach 84%
+- "Misinterprets poorly labeled metrics (e.g. NetRev_Q2_Adj)"
+- "Produces inaccurate results or blank stares with complex/disconnected datasets"
+- Requires F64 Fabric capacity (expensive enterprise licensing)
+- "Not a plug-and-play solution" - needs extensive metadata prep, prompt engineering
+---
+
+**URL**: No results from Reddit r/BusinessIntelligence
+**Date**: 2025-09-25
+**Search Query**: Search #5: site:reddit.com r/BusinessIntelligence Power BI Copilot problems limitations
+**Summary**: No Reddit results found but search returned other sources. Found: requires F64+, "reports hard to read", "nonsensical or misleading visuals", "not beautiful or useful", non-deterministic.
+**Relevance**: High
+**Key Evidence**: "requires F64 or higher", "AI-generated chart type and formatting outputs make reports hard to read", "I do not find the reports generated by Copilot to be either beautiful or useful", "solution looking for a problem"
+---
+
+**URL**: No results from Reddit r/analytics
+**Date**: 2025-09-25
+**Search Query**: Search #6: site:reddit.com r/analytics Power BI Copilot switching from because
+**Summary**: No Reddit results. Documentation shows "Copilot responses can include inaccurate or low-quality content", "LLMs can hallucinate", enabled by default Sept 2025 causing concerns.
+**Relevance**: Medium
+**Key Evidence**: "Copilot responses can include inaccurate or low-quality content", "LLMs can produce incorrect results or hallucinate", "inherently unreliable"
+---
+
+**URL**: https://data-goblins.com/power-bi/copilot-in-power-bi (from multiple searches)
+**Date**: 2025-09-25
+**Search Query**: Search #7: site:reddit.com Power BI Copilot horror story disaster experience
+**Summary**: Comprehensive technical critique by BI expert. Questions fundamental reliability for critical data decisions. Documents performance impact (3% F64 capacity for minimal testing), output quality issues, and concludes it's "a solution looking for a problem."
+**Relevance**: High
+**Key Evidence**:
+- "In BI and analytics, trustworthiness and reliability are paramount - it takes a long time to build trust, but only a few mistakes for it to slip away. These mistakes can get you fired"
+- "AI-generated chart type and formatting outputs make reports hard to read in best-case scenarios, or reports include nonsensical or misleading visuals in worst-case scenarios"
+- "I do not find the reports generated by Copilot to be either beautiful or useful"
+- Requires F64 Fabric capacity, "consumes significant capacity and if you use too much, this can lead to throttling your other operations"
+- "why would a user ask data questions to and trust the response of a tool that says on the label 'mistakes are possible'"
+- Novices will "waste time or resources dealing with errors"
+- "feels like a solution looking for a problem"
+---
+
+**URL**: https://community.fabric.microsoft.com/t5/Service/Can-t-use-Copilot-on-Power-BI/m-p/3837670
+**Date**: 2025-09-25
+**Search Query**: Search #8: site:community.fabric.microsoft.com Power BI Copilot error doesn't work
+**Summary**: Multiple users reporting Copilot doesn't work with PPU license. Requires F64+ or P1+, geo restrictions, "Something went wrong" errors common. Won't work with Desktop versions before Jan 2025.
+**Relevance**: High
+**Key Evidence**: "Copilot is not available in Premium Per user license", "Something went wrong and we couldn't load the narrative", "not supported on trial SKUs", geographic restrictions outside US/France
+---
 
 ### Phase 2 Research Library
 <!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 2 -->
