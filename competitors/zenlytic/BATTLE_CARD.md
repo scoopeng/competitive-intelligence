@@ -1,8 +1,8 @@
 # Battle Card: Zenlytic
 
-**BUPAF Score**: 18/50 (Category C - Analyst Workbench)  
-**Market Position**: SQL-first for technical users  
-**Key Weakness**: YAML configuration nightmare
+**BUPAF Score**: 18/50 (Category C - Analyst Workbench)
+**Market Position**: YAML configuration platform disguised as AI
+**Key Weakness**: ZERO Excel support + YAML engineering required
 
 ---
 
@@ -12,23 +12,23 @@
 3. "What percentage of business users can write YAML?"
 
 ## Killer Facts
-- **YAML/SQL required** - Technical users only
-- **Git workflow** - Pull requests for metrics
-- **No investigation** - Single SQL queries
-- **No ML capabilities** - Despite AI claims
-- **Weeks to configure** - Complex semantic layer
-- **Zero business user independence** - IT dependent
+- **ZERO Excel support** - Not even export capability
+- **YAML configuration hell** - Everything requires YAML files
+- **GitHub required** - Version control for metrics
+- **No ML models** - Only LLM for text-to-SQL (90% accuracy)
+- **No independent reviews** - Zero presence on G2/Reddit
+- **No multi-pass investigation** - Single query only
 
 ## Head-to-Head
 
 | Factor | Zenlytic | Scoop | Your Win |
 |--------|----------|-------|----------|
-| User Requirement | YAML/SQL/Git | Natural language | "Technical barrier" |
-| Configuration | Weeks of YAML | 30 seconds | "Months vs minutes" |
-| Investigation | ❌ SQL only | ✅ Multi-hypothesis | "Can't find causes" |
-| Business Users | ❌ Excluded | ✅ Empowered | "IT bottleneck" |
-| Schema Changes | YAML updates | Automatic | "More YAML hell" |
-| True Cost | $50K+ (+ IT time) | $3,588 | "Hidden IT costs" |
+| Excel Support | ❌ ZERO | ✅ 150+ functions | "Can't even export to Excel" |
+| ML Models | ❌ None | ✅ J48, JRip, EM | "No actual ML despite claims" |
+| Investigation | ❌ Single query | ✅ Multi-pass (3-10) | "Can't find root causes" |
+| Configuration | YAML + GitHub | 30 seconds | "Engineering project vs instant" |
+| Market Validation | ❌ No reviews | ✅ Customer proven | "Ghost town on G2/Reddit" |
+| Business Users | ❌ YAML required | ✅ Natural language | "IT bottleneck forever" |
 
 ## Workflow Integration Gap
 
@@ -56,7 +56,7 @@
 "Then they're doing configuration instead of analysis. Zenlytic turns analysts into YAML maintainers."
 
 ## The Winning Pitch
-"Zenlytic requires YAML configuration, SQL knowledge, and Git workflows - it's built for engineers, not business users. Your business teams will never achieve independence; they'll always need IT to write YAML for new metrics. After weeks of configuration, you get single SQL queries that can't investigate problems. Scoop empowers actual business users in 30 seconds with natural language, automatic schema evolution, and investigation capabilities - no YAML, no SQL, no Git required."
+"Zenlytic has ZERO Excel support - not even export. Everything requires YAML configuration files in GitHub. Their own CEO admits 90% accuracy is 'absolutely terrible' for analytics. Despite $9M in funding, they have zero presence on G2 or Reddit - no independent reviews exist. You're looking at weeks of YAML engineering before getting single-query responses that can't investigate root causes. Scoop works in 30 seconds with 150+ Excel functions, automatic ML models, and multi-pass investigation - no YAML, no GitHub, actual business empowerment."
 
 ## Proof Points
 - Show their YAML documentation (intimidating)
