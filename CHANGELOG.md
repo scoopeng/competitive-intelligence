@@ -1,5 +1,21 @@
 # Competitive Intelligence Repository Changelog
 
+## September 25, 2025 - Evening Update
+
+### Zenlytic Research Complete (Phases 1 & 2)
+- **Phase 1 Customer Discovery**:
+  - ZERO independent reviews found on G2, Capterra, TrustRadius
+  - No Reddit or community discussion exists
+  - Only vendor-provided testimonials available
+  - Red flag: $9M Series A funding but no market validation
+- **Phase 2 Functionality Deep Dive**:
+  - **ZERO Excel support** - not even export capability
+  - **No ML models** - only LLM for text-to-SQL (90% accuracy per CEO)
+  - **YAML configuration required** for everything
+  - GitHub repository required for version control
+  - No multi-pass investigation capability
+- **BATTLE_CARD Updated**: Repositioned as "YAML configuration platform disguised as AI"
+
 ## September 25, 2025
 
 ### Enhanced Research Template - Phase 2 Functionality Deep Dive

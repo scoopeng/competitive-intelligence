@@ -24,7 +24,7 @@ Every claim backed by URLs prospects can verify themselves:
 - **ThoughtSpot**: 33.3% accuracy benchmarks
 - **Tellius**: Requires data scientists
 - **DataGPT**: Single-source only
-- **Zenlytic**: YAML configuration nightmare
+- **Zenlytic**: ZERO Excel support, YAML engineering required, no reviews found
 - **DataChat**: Legitimate but no traction
 
 ### 2. **Evidence Vault**
