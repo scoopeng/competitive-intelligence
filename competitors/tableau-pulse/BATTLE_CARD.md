@@ -1,21 +1,25 @@
 # Battle Card: Tableau Pulse
 
-**BUPAF Score**: 11/50 (Category D - Marketing Mirage)  
-**Parent**: Salesforce  
-**Key Weakness**: Not real AI, just embedding models
+**BUPAF Score**: 21/50 (Category C - Enterprise Platform)
+**Parent**: Salesforce
+**Key Weakness**: Cloud-only (Server abandoned) + Admitted hallucinations
+**Last Updated**: September 25, 2025
 
 ---
 
 ## Quick Win Discovery Questions
-1. "What happens when you add a new column to your data?"
-2. "Can Pulse investigate WHY metrics changed?"
-3. "Does it work outside of Tableau dashboards?"
+1. "Are you on Tableau Server or Cloud?" (Pulse only works on Cloud)
+2. "Did you see Tableau's warning about hallucinations?"
+3. "How much are you paying for view-only users?" ($15/month each)
+4. "Can you schedule automated updates?" (No - all manual)
+5. "What happens when your schema changes?" (400 errors)
 
-## Killer Facts
-- **NOT using LLMs** - Their own admission: embedding models only
-- **Schema breaks everything** - "Pulse metrics can break" on column changes
-- **40x cost explosion** - Tableau at scale requires massive infrastructure
-- **No investigation** - Single metrics only, no hypothesis testing
+## Top 5 Fatal Flaws
+1. **Server Abandoned**: Pulse Cloud-only, Server users lost Ask Data/Metrics
+2. **Admitted Hallucinations**: "Occasional hallucinations may occur" - official docs
+3. **$50k/Month Scale**: 500 users = $50,000+ monthly
+4. **400 Error Plague**: Schema changes break all metrics
+5. **Manual Everything**: No scheduling, no automation
 
 ## Head-to-Head
 
