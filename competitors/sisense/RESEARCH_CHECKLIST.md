@@ -5,6 +5,13 @@
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
+### 0. UNDERSTAND SCOOP'S STRENGTHS (REQUIRED READING)
+**Before starting ANY competitor research, read `/SCOOP_CAPABILITIES.md` to understand where Scoop wins**
+- Focus on capability differences, NOT market presence (Scoop is also a startup)
+- Emphasize: Excel engine, multi-pass investigation, automatic ML, 30-second setup
+- Document BOTH: Scoop's advantages AND competitor's specific pain points
+- Avoid: Review count comparisons, funding comparisons, market presence arguments
+
 ### 1. CHECK EXISTING RESEARCH FIRST
 **Before running ANY search, check the Research Library section below to see if it's already been done**
 - If a search is already documented with good results, SKIP IT (check the box and move on)
@@ -61,25 +68,25 @@
 ## PHASE 0: Existing Assets Check (5 minutes)
 
 ### Archive & Evidence Recovery
-- [ ] Checked `../../archive/` for any sisense related files
-- [ ] Checked `../../evidence/` for existing sisense content
-- [ ] Listed all existing files in `competitors/sisense/` directory
-- [ ] Read existing `README.md` if exists
-- [ ] Read existing `BATTLE_CARD.md` if exists
-- [ ] Read all files in `research/` subdirectory if exists
-- [ ] Read all files in `evidence/` subdirectory if exists
-- [ ] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
-- [ ] Documented what was recovered in `research/existing_research.md`
+- [x] Checked `../../archive/` for any sisense related files
+- [x] Checked `../../evidence/` for existing sisense content
+- [x] Listed all existing files in `competitors/sisense/` directory
+- [x] Read existing `README.md` if exists
+- [x] Read existing `BATTLE_CARD.md` if exists
+- [x] Read all files in `research/` subdirectory if exists
+- [x] Read all files in `evidence/` subdirectory if exists
+- [x] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
+- [x] Documented what was recovered in `research/existing_research.md`
 
 ### Existing Research Inventory
 ```
 Files Found:
-- [ ] README.md exists
-- [ ] BATTLE_CARD.md exists
-- [ ] research/ folder exists with ___ files
-- [ ] evidence/ folder exists with ___ files
-- [ ] outputs/ folder exists with ___ files
-- [ ] Archive contained: [list any recovered files]
+- [x] README.md exists (123 lines - documents 400% renewal increases)
+- [x] BATTLE_CARD.md exists (108 lines - complete with evidence)
+- [x] research/ folder exists with 1 file (existing_research.md)
+- [x] evidence/ folder exists with 0 files (created new)
+- [x] outputs/ folder exists with 0 files (created new)
+- [x] Archive contained: No Sisense files found
 ```
 
 ---
