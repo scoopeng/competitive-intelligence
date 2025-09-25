@@ -99,24 +99,24 @@ competitors/[name]/
 
 ---
 
-### ⚠️ Tableau Pulse - 40% Complete
-**Files**: 3 documents
-**Structure**: ❌ Minimal
-**BUPAF**: ✅ Scored (11/50)
-**Battle Card**: ✅ Complete
-**Evidence**: ⚠️ Schema break documented
+### ✅ Tableau Pulse - 90% Complete (CORRECTED)
+**Files**: 10+ documents with all 4 phases
+**Structure**: ✅ Full evidence/ folder with phase 1-4
+**BUPAF**: ✅ Evidence-based score (11/50)
+**Battle Card**: ✅ Updated with new template
+**Evidence**: ✅ All 4 phases documented
 **Outputs**: ❌ No web content
 **Tests**: ❌ No validation
 
 **Strengths**:
+- Complete 4-phase research executed
 - Schema break issue documented
 - Metric proliferation identified
+- All phases completed Sept 25, 2025
 
 **Gaps**:
-- Need architecture analysis
-- Missing pricing details
-- No customer evidence
-- Needs deeper investigation
+- Need web-ready outputs
+- Could use technical validation
 
 ---
 
@@ -223,10 +223,10 @@ competitors/[name]/
 | Competitor | Research | BUPAF | Evidence | Outputs | Overall |
 |-----------|----------|--------|----------|---------|---------|
 | Snowflake Cortex | 95% | ✅ | 90% | 0% | **95%** |
+| Tableau Pulse | 95% | ✅ | 95% | 0% | **90%** |
 | Domo | 95% | ✅ | 95% | 0% | **90%** |
 | Zenlytic | 100% | ✅ | 100% | 0% | **85%** |
-| Power BI | 30% | ✅ | 40% | 0% | **40%** |
-| Tableau | 30% | ✅ | 40% | 0% | **40%** |
+| Power BI Copilot | 60% | ✅ | 60% | 0% | **60%** |
 | ThoughtSpot | 10% | ✅ | 20% | 0% | **25%** |
 | Tellius | 10% | ✅ | 10% | 0% | **15%** |
 | DataGPT | 10% | ✅ | 10% | 0% | **15%** |
@@ -234,7 +234,7 @@ competitors/[name]/
 | Qlik | 10% | ✅ | 10% | 0% | **15%** |
 | DataChat | 10% | ✅ | 10% | 0% | **15%** |
 
-**Repository Average**: ~40% Complete (up from 30%)
+**Repository Average**: ~45% Complete
 
 ---
 
