@@ -1,9 +1,9 @@
 # Battle Card: Power BI Copilot
 
-**BUPAF Score**: 15/50 (Category D - Marketing Mirage)
+**BUPAF Score**: 14/50 (Category D - Marketing Mirage)
 **Parent**: Microsoft
-**Key Weakness**: Nondeterministic behavior admitted by Microsoft
-**Last Updated**: September 24, 2025
+**Key Weakness**: Only 3% of IT leaders find significant value (Gartner)
+**Last Updated**: September 25, 2025
 
 ---
 
@@ -16,29 +16,35 @@
 
 ## Top 5 Fatal Flaws (With Evidence)
 
-1. **Nondeterministic Results**
-   - Microsoft: "Not guaranteed to produce the same answer with the same prompt"
-   - Source: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-semantic-models
+1. **97% Failure Rate (Gartner Survey)**
+   - Only 3% of 123 IT leaders found significant value
+   - 75% report employees struggle to integrate into workflows
+   - 53% report too many inaccurate results
+   - Source: Gartner survey 2025
 
-2. **Infrastructure Tax: $67,392/year minimum**
-   - F64 capacity required: $5,616/month (reserved) or $9,360/month (pay-as-you-go)
-   - PPU licenses ($24/user) do NOT include Copilot
-   - Source: Microsoft Fabric pricing documentation
+2. **No REST APIs - Integration Impossible**
+   - "No dedicated Copilot REST APIs exist"
+   - Cannot embed in applications
+   - "App Owns Data" scenarios unsupported
+   - Source: Microsoft documentation
 
-3. **14+ Week Data Preparation**
-   - Microsoft: "Model owners need to invest in prepping their data for AI"
-   - Requires star schema, naming conventions, metadata enrichment
-   - Source: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data-ai
+3. **Infrastructure Tax: $60,000/year minimum**
+   - Requires F64 Fabric or P1+ Premium capacity
+   - PPU licenses ($20/user) do NOT include Copilot
+   - 24-hour delay for new capacity recognition
+   - Source: Microsoft Fabric pricing
 
-4. **Excel COPILOT Separate Product**
-   - Requires Copilot Pro: $30/user/month additional
-   - Not integrated with Power BI Copilot
-   - Source: https://www.microsoft.com/en-us/store/b/copilotpro
+4. **Hallucinations in Financial Data**
+   - Microsoft warns: "LLMs can produce incorrect results or hallucinate"
+   - "Produces inaccurate results or blank stares" with complex data
+   - BI expert: "These mistakes can get you fired"
+   - Source: Microsoft documentation + customer reports
 
-5. **Geographic Restrictions**
-   - Unavailable in India, Indonesia, Korea, Qatar, UAE, 6+ other regions
-   - No sovereign cloud support
-   - Source: Microsoft Learn documentation
+5. **12% Initial Adoption Rate**
+   - $300M SaaS company: only 12% adoption before 30-day remediation
+   - Required extensive IT project to reach 84%
+   - Still shows salary data without restrictions
+   - Source: GoCollectiv case study
 
 ## Pricing Comparison (200 Users)
 
@@ -62,20 +68,20 @@
 
 ## Customer Horror Stories (With Evidence)
 
-### 1. The Price Shock
-**Quote**: "Inundated with calls from clients concerned about 10X price increases"
-**Context**: Microsoft increased Pro licenses 40% in April 2025
-**Impact**: Budget overruns, forced downgrades
+### 1. The Gartner Bombshell
+**Quote**: "Only four [of 123 IT leaders] said Copilot provided significant value"
+**Context**: 3% success rate in Gartner survey
+**Impact**: 97% wasted investment, failed deployments
 
-### 2. The PPU Betrayal
-**Quote**: "Users have expressed concern about having to purchase this capacity license at this steep cost"
-**Source**: Microsoft Community Forum
-**Context**: PPU users discovering their $24/month license doesn't include Copilot
+### 2. The $300M SaaS Disaster
+**Quote**: "Copilot will happily answer questions your users were never meant to ask—like showing salary data"
+**Source**: GoCollectiv case study
+**Context**: 12% adoption, required 30-day IT project to salvage
 
-### 3. The Reliability Crisis
-**Quote**: "Something went wrong and we couldn't load the narrative. Try again later"
-**Source**: Multiple users in Microsoft forums
-**Impact**: Business presentations failed, decisions delayed
+### 3. The Trust Destroyer
+**Quote**: "In BI, these mistakes can get you fired... why would a user trust a tool that says 'mistakes are possible'"
+**Source**: Data Goblins BI expert analysis
+**Impact**: Career-ending wrong answers in financial reports
 
 ## Head-to-Head
 
