@@ -1,7 +1,7 @@
 # Competitor Research Template - Complete Protocol
 
-**Time**: 90-120 minutes for comprehensive, evidence-based competitive intelligence
-**Quality**: Enterprise-grade with implementation stories, quantified data, and research library
+**Time**: 120-150 minutes for comprehensive, evidence-based competitive intelligence
+**Quality**: Enterprise-grade with functionality mapping, implementation stories, quantified data, and research library
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
@@ -26,9 +26,10 @@
 
 ### 4. RESEARCH LIBRARY ORGANIZATION
 **All research is stored in separate files for better organization:**
-- **Phase 1**: Create `evidence/phase1_research_library.md`
-- **Phase 2**: Create `evidence/phase2_research_library.md`
-- **Phase 3**: Create `evidence/phase3_research_library.md`
+- **Phase 1**: Create `evidence/phase1_customer_discovery.md`
+- **Phase 2**: Create `evidence/phase2_functionality_analysis.md`
+- **Phase 3**: Create `evidence/phase3_technical_reality.md`
+- **Phase 4**: Create `evidence/phase4_sales_enablement.md`
 - **In main checklist**: Reference each file with 5-8 key findings summary
 - **Benefit**: Keeps checklist clean and research fully documented
 
@@ -36,6 +37,7 @@
 ### Overall Progress
 - [ ] Archive recovery completed
 - [ ] Customer discovery completed (17 searches)
+- [ ] Functionality analysis completed (15 searches)
 - [ ] Technical analysis completed (24 searches)
 - [ ] BUPAF scoring completed with evidence
 - [ ] Battle card updated
@@ -44,13 +46,15 @@
 
 ### Phase Status (Mark X to reset phase)
 - [ ] Reset Phase 1: Customer Discovery & Stories
-- [ ] Reset Phase 2: Technical Reality & Competitive Context
-- [ ] Reset Phase 3: Analysis & Sales Enablement
+- [ ] Reset Phase 2: Functionality Deep Dive
+- [ ] Reset Phase 3: Technical Reality & Competitive Context
+- [ ] Reset Phase 4: Analysis & Sales Enablement
 
 ### Last Research Date
 - **Phase 1**: Never / [Date]
 - **Phase 2**: Never / [Date]
 - **Phase 3**: Never / [Date]
+- **Phase 4**: Never / [Date]
 
 ---
 
@@ -152,15 +156,60 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 2: Technical Reality & Competitive Context (30-35 minutes)
+## PHASE 2: Functionality Deep Dive (30 minutes)
 
-### ⚠️ PRE-PHASE 2 CHECK (2 minutes)
-- [ ] **FIRST**: Read the Phase 2 Research Library section below
-- [ ] **IDENTIFY**: Which technical searches have already been completed
+### ⚠️ CRITICAL: UNDERSTAND WHAT IT ACTUALLY DOES
+**This phase focuses on understanding the actual capabilities, not just problems**
+
+### 2A: Core Functionality Research (10 minutes)
+- [ ] **Search 1**: "{COMPETITOR} demo walkthrough tutorial" official capabilities
+- [ ] **Search 2**: "{COMPETITOR} features list" complete functionality overview
+- [ ] **Search 3**: "{COMPETITOR} use cases" real world applications examples
+- [ ] **Search 4**: "{COMPETITOR} workflow" end-to-end process demonstration
+- [ ] **Search 5**: "{COMPETITOR} getting started guide" basic operations
+
+### 2B: Specific Capabilities Analysis (10 minutes)
+- [ ] **Search 6**: "{COMPETITOR} data sources" supported connections integrations
+- [ ] **Search 7**: "{COMPETITOR} visualization types" charts graphs outputs
+- [ ] **Search 8**: "{COMPETITOR} analysis capabilities" statistical ML AI features
+- [ ] **Search 9**: "{COMPETITOR} collaboration features" sharing permissions workflow
+- [ ] **Search 10**: "{COMPETITOR} automation scheduling" alerts notifications
+
+### 2C: Differentiation Research (10 minutes)
+- [ ] **Search 11**: "{COMPETITOR} unique features" competitive advantages
+- [ ] **Search 12**: "{COMPETITOR} vs alternatives" feature comparison matrix
+- [ ] **Search 13**: "{COMPETITOR} limitations" cannot do missing features
+- [ ] **Search 14**: "{COMPETITOR} roadmap" upcoming planned features
+- [ ] **Search 15**: "{COMPETITOR} customer success stories" best implementations
+
+### 📝 FUNCTIONALITY DOCUMENTATION FORMAT
+For each capability found, document:
+```markdown
+**Capability**: [Name of feature/function]
+**What It Does**: [Clear description of functionality]
+**How It Works**: [Technical mechanism if known]
+**User Benefit**: [What problem it solves]
+**Limitations**: [What it can't do]
+**Evidence**: [URL/source]
+```
+
+### Phase 2 Output Files
+- [ ] Created `evidence/phase2_functionality_analysis.md`
+- [ ] Documented 10+ core capabilities with evidence
+- [ ] Identified key differentiators and limitations
+- [ ] Mapped functionality gaps vs marketing claims
+
+---
+
+## PHASE 3: Technical Reality & Competitive Context (30-35 minutes)
+
+### ⚠️ PRE-PHASE 3 CHECK (2 minutes)
+- [ ] **FIRST**: Review Phase 2 functionality findings
+- [ ] **IDENTIFY**: Technical claims to verify from Phase 2
 - [ ] **MARK**: Check off any searches that are already well-documented
-- [ ] **PROCEED**: Focus on gaps in technical evidence
+- [ ] **PROCEED**: Focus on validating/invalidating functionality claims
 
-### 2A: Technical Performance Analysis (12-15 minutes)
+### 3A: Technical Performance Analysis (12-15 minutes)
 
 #### Performance Quantification
 - [ ] **Search 18**: "{COMPETITOR} slow performance response time seconds query"
@@ -181,7 +230,7 @@ Execute these WebSearch queries:
 
 **Focus**: Real developer pain points, integration failures, technical debt
 
-### 2B: Competitive Positioning Research (10-12 minutes)
+### 3B: Competitive Positioning Research (10-12 minutes)
 
 #### Direct Competitive Intelligence
 - [ ] **Search 28**: "{COMPETITOR} vs Tableau why customers switch"
@@ -196,7 +245,7 @@ Execute these WebSearch queries:
 
 **Goal**: Position in market context, understand competitive losses
 
-### 2C: Economic Impact Deep Dive (8-10 minutes)
+### 3C: Economic Impact Deep Dive (8-10 minutes)
 
 #### Total Cost of Ownership Reality
 - [ ] **Search 35**: "{COMPETITOR} hidden costs professional services implementation"
@@ -226,9 +275,9 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 3: Analysis & Rich Sales Enablement (20-25 minutes)
+## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 3A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
 
 Score each dimension with specific evidence:
 
@@ -265,7 +314,7 @@ Score each dimension with specific evidence:
 **TOTAL BUPAF SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
-### 3B: Rich Sales Materials Creation (8-10 minutes)
+### 4B: Rich Sales Materials Creation (8-10 minutes)
 
 #### Battle Card Update
 - [ ] **Top 5 Fatal Flaws** documented with customer story for each
@@ -324,27 +373,36 @@ Score each dimension with specific evidence:
 ---
 ```
 
-### Phase 1 Research Library
-**📁 Full research documented in: `evidence/phase1_research_library.md`**
+### Phase 1 Research Library - Customer Discovery
+**📁 Full research documented in: `evidence/phase1_customer_discovery.md`**
 
 Key findings from Phase 1:
 - Customer stories: [Top 2-3 implementation failures/complaints]
 - Industry verticals: [Top 2-3 industry-specific issues]
 - Community feedback: [Top 2-3 user frustrations]
 
-### Phase 2 Research Library
-**📁 Full research documented in: `evidence/phase2_research_library.md`**
+### Phase 2 Research Library - Functionality Analysis
+**📁 Full research documented in: `evidence/phase2_functionality_analysis.md`**
 
 Key findings from Phase 2:
+- Core capabilities: [Top 3-4 actual functions]
+- Unique features: [Top 2-3 differentiators]
+- Limitations: [Top 2-3 things it CANNOT do]
+- Gaps vs claims: [Top 2-3 marketing vs reality]
+
+### Phase 3 Research Library - Technical Reality
+**📁 Full research documented in: `evidence/phase3_technical_reality.md`**
+
+Key findings from Phase 3:
 - Performance: [Top 2-3 performance/scalability issues]
 - Integration: [Top 2-3 API/integration limitations]
 - Competition: [Top 2-3 competitive weaknesses]
 - Economics: [Top 2-3 cost/ROI concerns]
 
-### Phase 3 Research Library
-**📁 Full research documented in: `evidence/phase3_research_library.md`**
+### Phase 4 Research Library - Sales Enablement
+**📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
-Key findings from Phase 3:
+Key findings from Phase 4:
 - BUPAF Score: [Total score and category]
 - Fatal flaws: [Top 2-3 deal breakers]
 - Sales positioning: [Key differentiation points]
