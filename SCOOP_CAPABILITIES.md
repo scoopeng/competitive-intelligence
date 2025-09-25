@@ -187,6 +187,8 @@ Complete PowerPoint decks with insights, narratives, and branded visuals in 30 s
 - **Live data overlay** on presentation slides
 - **Bi-directional flow**: Import PPT → add data → export updated
 - **Frame-based architecture**: Presentations update automatically
+- **Google Slides sync**: Full bi-directional synchronization
+- **Live PowerPoint presentations**: Real-time data refresh in slides
 
 #### AI Color Theory Application
 - **Semantic color mapping**: Revenue = green, costs = red
@@ -220,11 +222,13 @@ Scoop works in the tools people already use - Excel, PowerPoint, Slack - without
 - **Auto-workbook generation** with multiple tabs
 - **Preserve existing work** - add Scoop to current files
 
-### PowerPoint Integration  
+### PowerPoint Integration
 - **Complete deck generation** in 30 seconds
 - **Brand detection** from existing templates
 - **Live data updates** in presentations
 - **Executive-ready** formatting and narratives
+- **Google Slides sync** for cloud collaboration
+- **Full live presentations** with real-time data
 
 ### Slack Integration
 - **Native installation** in 30 seconds

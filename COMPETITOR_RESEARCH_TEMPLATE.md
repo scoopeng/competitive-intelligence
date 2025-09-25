@@ -156,48 +156,81 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 2: Functionality Deep Dive (30 minutes)
+## PHASE 2: Functionality Deep Dive (35-40 minutes)
 
-### ⚠️ CRITICAL: UNDERSTAND WHAT IT ACTUALLY DOES
-**This phase focuses on understanding the actual capabilities, not just problems**
+### ⚠️ CRITICAL: STRATEGIC CAPABILITY ASSESSMENT
+**This phase maps competitor capabilities against Scoop's core differentiators**
 
-### 2A: Core Functionality Research (10 minutes)
+### Pre-Phase 2: Review Scoop's Core Differentiators (3 minutes)
+- [ ] **READ**: Review SCOOP_CAPABILITIES.md for key differentiators
+- [ ] **FOCUS**: Keep these in mind during all searches:
+  - Excel Formula Engine (150+ functions)
+  - Automatic ML Discovery (J48, JRip, EM Clustering)
+  - Multi-Pass Investigation (3-10 queries)
+  - Visual Intelligence (AI presentations)
+  - 30-Second Workflow Integration
+
+### 2A: Documentation & Core Functionality (10 minutes)
+- [ ] **Documentation Review**: Visit {competitor}.com/docs or help.{competitor}.com
+  - [ ] Read getting started guide
+  - [ ] Review feature overview/capabilities page
+  - [ ] Check API documentation overview
+  - [ ] Note any "What's New" or recent releases
 - [ ] **Search 1**: "{COMPETITOR} demo walkthrough tutorial" official capabilities
-- [ ] **Search 2**: "{COMPETITOR} features list" complete functionality overview
-- [ ] **Search 3**: "{COMPETITOR} use cases" real world applications examples
-- [ ] **Search 4**: "{COMPETITOR} workflow" end-to-end process demonstration
-- [ ] **Search 5**: "{COMPETITOR} getting started guide" basic operations
+- [ ] **Search 2**: "{COMPETITOR} documentation" feature list complete overview
+- [ ] **Search 3**: "{COMPETITOR} use cases" real world applications
+- [ ] **Search 4**: "{COMPETITOR} workflow" end-to-end process
 
-### 2B: Specific Capabilities Analysis (10 minutes)
-- [ ] **Search 6**: "{COMPETITOR} data sources" supported connections integrations
-- [ ] **Search 7**: "{COMPETITOR} visualization types" charts graphs outputs
-- [ ] **Search 8**: "{COMPETITOR} analysis capabilities" statistical ML AI features
-- [ ] **Search 9**: "{COMPETITOR} collaboration features" sharing permissions workflow
-- [ ] **Search 10**: "{COMPETITOR} automation scheduling" alerts notifications
+### 2B: Business User Empowerment Assessment (12 minutes)
+**Compare each capability to Scoop's differentiators**
 
-### 2C: Differentiation Research (10 minutes)
-- [ ] **Search 11**: "{COMPETITOR} unique features" competitive advantages
-- [ ] **Search 12**: "{COMPETITOR} vs alternatives" feature comparison matrix
-- [ ] **Search 13**: "{COMPETITOR} limitations" cannot do missing features
-- [ ] **Search 14**: "{COMPETITOR} roadmap" upcoming planned features
-- [ ] **Search 15**: "{COMPETITOR} customer success stories" best implementations
+- [ ] **Search 5**: "{COMPETITOR} Excel integration" formula support export
+  - Compare to Scoop's 150+ native Excel functions
+- [ ] **Search 6**: "{COMPETITOR} natural language" query capabilities NLP
+  - Compare to Scoop's multi-pass investigation
+- [ ] **Search 7**: "{COMPETITOR} machine learning" AI automated analysis
+  - Compare to Scoop's automatic ML (J48, JRip, EM)
+- [ ] **Search 8**: "{COMPETITOR} self-service" business users no code
+  - Compare to Scoop's 30-second setup
+- [ ] **Search 9**: "{COMPETITOR} PowerPoint Slack integration" workflow
+  - Compare to Scoop's native workflow integration
+- [ ] **Search 10**: "{COMPETITOR} root cause analysis" investigation why
+  - Compare to Scoop's multi-hypothesis testing
 
-### 📝 FUNCTIONALITY DOCUMENTATION FORMAT
-For each capability found, document:
+### 2C: Gap Analysis & Limitations (8 minutes)
+- [ ] **Search 11**: "{COMPETITOR} limitations" cannot do missing features
+- [ ] **Search 12**: "{COMPETITOR} vs Scoop" comparison (if exists)
+- [ ] **Search 13**: "{COMPETITOR} requires IT" technical expertise needed
+- [ ] **Search 14**: "{COMPETITOR} training certification" learning curve
+- [ ] **Search 15**: "{COMPETITOR} setup time" implementation duration
+
+### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
+For each capability found, document with BUPAF lens:
 ```markdown
 **Capability**: [Name of feature/function]
 **What It Does**: [Clear description of functionality]
 **How It Works**: [Technical mechanism if known]
-**User Benefit**: [What problem it solves]
-**Limitations**: [What it can't do]
-**Evidence**: [URL/source]
+**Business User Empowerment**: [Can business users use this alone? Scale 1-10]
+**vs Scoop Equivalent**: [How does this compare to Scoop's approach?]
+**Gaps/Limitations**: [What it can't do that Scoop can]
+**Evidence**: [URL/source - especially documentation]
 ```
+
+#### Key Questions for Each Capability:
+1. Can a business user do this WITHOUT IT help?
+2. Does it require training/certification?
+3. How long from question to answer?
+4. Does it work in user's existing tools (Excel/Slack/PPT)?
+5. Can it investigate WHY, not just WHAT?
 
 ### Phase 2 Output Files
 - [ ] Created `evidence/phase2_functionality_analysis.md`
-- [ ] Documented 10+ core capabilities with evidence
-- [ ] Identified key differentiators and limitations
-- [ ] Mapped functionality gaps vs marketing claims
+- [ ] Documented 10+ capabilities WITH Scoop comparisons
+- [ ] Identified gaps in Excel support (vs 150+ functions)
+- [ ] Identified gaps in ML capabilities (vs automatic ML)
+- [ ] Identified gaps in investigation (vs multi-pass)
+- [ ] Identified gaps in workflow (vs 30-second integration)
+- [ ] Created competitive gap matrix for sales team
 
 ---
 
@@ -279,23 +312,28 @@ For each capability found, document:
 
 ### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
 
+**IMPORTANT**: Use Phase 2 functionality findings as primary evidence
+
 Score each dimension with specific evidence:
 
 #### Independence (Can business users work alone?)
-- [ ] Used customer quotes about IT dependency
-- [ ] Cited specific setup requirements (weeks/months)
-- [ ] Referenced consultant requirements
+- [ ] Referenced Phase 2: Documentation requirements, training needs
+- [ ] Used customer quotes about IT dependency (Phase 1)
+- [ ] Cited specific setup requirements (Phase 2 & 3)
+- [ ] Referenced consultant requirements (Phase 1 & 3)
 - [ ] **Score: ___/10** with 3+ evidence points
 
 #### Analytical Depth (Investigation vs single queries)
-- [ ] Used performance data (response times, errors)
+- [ ] Referenced Phase 2: ML/AI capabilities vs Scoop's automatic ML
+- [ ] Compared investigation depth from Phase 2 (single vs multi-pass)
+- [ ] Used performance data (response times, errors) from Phase 3
 - [ ] Cited accuracy issues, inconsistent results
-- [ ] Compared to Scoop's investigation capabilities
 - [ ] **Score: ___/10** with quantified limitations
 
 #### Workflow Integration (Excel, Slack, PowerPoint)
-- [ ] Documented specific integration failures
-- [ ] Used developer complaints about APIs
+- [ ] Referenced Phase 2: Excel support vs Scoop's 150+ functions
+- [ ] Documented workflow gaps from Phase 2
+- [ ] Used developer complaints about APIs (Phase 3)
 - [ ] Cited mobile/embedding limitations
 - [ ] **Score: ___/10** with technical evidence
 
@@ -314,22 +352,32 @@ Score each dimension with specific evidence:
 **TOTAL BUPAF SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
-### 4B: Rich Sales Materials Creation (8-10 minutes)
+### 4B: Competitive Capability Matrix (5 minutes)
+
+Create comparison table based on Phase 2 functionality findings:
+
+| Capability | {COMPETITOR} | Scoop | Winner | Why |
+|------------|--------------|-------|--------|-----|
+| Excel Support | ❌/✅ [Phase 2 finding] | ✅ 150+ functions | Scoop/Them | [Evidence] |
+| ML/AI Analysis | ❌/✅ [Phase 2 finding] | ✅ Automatic ML | Scoop/Them | [Evidence] |
+| Investigation Depth | ❌/✅ [Phase 2 finding] | ✅ Multi-pass | Scoop/Them | [Evidence] |
+| Workflow Integration | ❌/✅ [Phase 2 finding] | ✅ 30-second | Scoop/Them | [Evidence] |
+| Business User Ready | ❌/✅ [Phase 2 finding] | ✅ No training | Scoop/Them | [Evidence] |
+
+### 4C: Rich Sales Materials Creation (5 minutes)
 
 #### Battle Card Update
-- [ ] **Top 5 Fatal Flaws** documented with customer story for each
-- [ ] **Pricing Reality** includes hidden costs breakdown
-- [ ] **Customer Horror Stories** - 3 best implementation disasters
-- [ ] **Industry Objections** - vertical-specific concerns documented
-- [ ] **Competitive Context** - how they lose to alternatives
+- [ ] **Top 5 Fatal Flaws** with functionality gaps from Phase 2
+- [ ] **Pricing Reality** includes capability limitations
+- [ ] **Customer Horror Stories** - linked to missing features
+- [ ] **Competitive Matrix** - completed above
 
 #### Customer-Facing Materials
-- [ ] **Case Study Comparisons** - "Customer X tried {COMPETITOR}, switched to Scoop because..."
-- [ ] **ROI Calculator** - Compare true costs at different scales
-- [ ] **Risk Assessment** - Implementation risks, timeline dangers
-- [ ] **Industry Briefings** - Vertical-specific limitations
+- [ ] **Gap Analysis** - "They claim X but can't do Y" (Phase 2)
+- [ ] **ROI Calculator** - Factor in missing functionality costs
+- [ ] **Migration Guide** - From their limitations to our capabilities
 
-### 3C: Quality Assurance (4-5 minutes)
+### 4D: Quality Assurance (4-5 minutes)
 
 #### Evidence Verification
 - [ ] Every claim has customer quote or quantified data
