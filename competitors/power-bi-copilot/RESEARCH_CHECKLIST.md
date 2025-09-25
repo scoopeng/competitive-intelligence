@@ -191,14 +191,14 @@ Execute these WebSearch queries:
 
 #### Total Cost of Ownership Reality
 - [X] **Search 35**: "Power BI Copilot hidden costs professional services implementation"
-- [ ] **Search 36**: "Power BI Copilot training required weeks months learning curve"
-- [ ] **Search 37**: "Power BI Copilot consultant fees implementation partner expensive"
-- [ ] **Search 38**: "Power BI Copilot maintenance overhead admin full-time required"
+- [X] **Search 36**: "Power BI Copilot training required weeks months learning curve"
+- [X] **Search 37**: "Power BI Copilot consultant fees implementation partner expensive"
+- [X] **Search 38**: "Power BI Copilot maintenance overhead admin full-time required"
 
 #### ROI and Value Realization
-- [ ] **Search 39**: "Power BI Copilot time to value months delayed insights"
-- [ ] **Search 40**: "Power BI Copilot ROI negative failed to deliver business value"
-- [ ] **Search 41**: "Power BI Copilot opportunity cost manual reporting workarounds"
+- [X] **Search 39**: "Power BI Copilot time to value months delayed insights"
+- [X] **Search 40**: "Power BI Copilot ROI negative failed to deliver business value"
+- [X] **Search 41**: "Power BI Copilot opportunity cost manual reporting workarounds"
 
 **Focus**: True costs beyond licenses, delayed value realization
 
@@ -521,6 +521,16 @@ Score each dimension with specific evidence:
 ### Phase 2 Research Library
 <!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 2 -->
 <!-- 📂 If evidence/research_library_chunk2.md exists, COPY its contents here first -->
+
+**📁 Phase 2 Research (Searches 18-41) documented in: `evidence/phase2_research_library.md`**
+
+Key findings from Phase 2:
+- Performance: 225-sec timeouts, 16GB RAM needed, F64 throttling
+- API: Only 120 req/min, no Copilot REST APIs exist
+- Competition: Tableau better visuals, ThoughtSpot better NLP, Qlik better data handling
+- Gartner: Only 3% of IT leaders find significant value
+- True costs: $60k/year minimum, $100-250/hour consultants
+- ROI: 12% initial adoption, Microsoft admits "tough to drive ROI"
 
 ### Phase 3 Research Library
 <!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 3 -->
