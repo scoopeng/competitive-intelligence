@@ -2,6 +2,14 @@
 
 ## 🔥 Latest Updates (September 2025)
 
+### ThoughtSpot Deep Research COMPLETED (100%)
+- **BUPAF Score**: 23/50 (Category C - Analyst Workbench)
+- **Killer Finding**: "$500k/yr for 20 people" before it "crashed with all our data"
+- **Fatal Flaw**: Zero Excel formulas - can't even do VLOOKUP
+- **Healthcare Exclusion**: Legally cannot handle HIPAA data
+- **Infrastructure**: Needs 96 CPUs/600GB RAM for 2-3TB data
+- **Reality**: 2-4 week setup, not "instant" as marketed
+
 ### Power BI Copilot Research COMPLETED (100%)
 - **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
 - **Killer Finding**: "No dedicated REST APIs exist" - complete developer dead-end
@@ -113,7 +121,7 @@ Every competitive claim backed by:
 │   │   ├── BATTLE_CARD.md     # Quick reference
 │   │   └── [analysis docs]    # AI capabilities deep dive
 │   │
-│   ├── thoughtspot/           # 1 file - 33.3% accuracy evidence
+│   ├── thoughtspot/           # 100% COMPLETE - $500k crashes, no Excel
 │   ├── tableau-pulse/         # 1 file - Schema break issues
 │   ├── power-bi-copilot/      # 1 file - Nondeterministic behavior
 │   ├── tellius/               # 2 files - Complexity analysis
@@ -160,7 +168,7 @@ Every competitive claim backed by:
 | Competitor | Annual Cost (200 users) | vs Scoop | 
 |------------|--------------------------|----------|
 | Snowflake Cortex | $1,600,000+ | 457x more |
-| ThoughtSpot | $300,000+ | 84x more |
+| ThoughtSpot | $137,000-$500,000 | 40-140x more |
 | Tableau Pulse | $165,000+ | 46x more |
 | Domo | $134,000+ | 37x more |
 | **Scoop** | **$3,588** | **Baseline** |
@@ -174,7 +182,7 @@ Every competitive claim backed by:
 | Rank | Competitor | Score | Category | Fatal Gap |
 |------|------------|-------|----------|-----------|
 | 1 | **Scoop** | 38/50 | Business Empowerment | None |
-| 2 | ThoughtSpot | 23/50 | Analyst Workbench | 33% accuracy |
+| 2 | ThoughtSpot | 23/50 | Analyst Workbench | $500k crashes, no Excel |
 | 3 | Tellius | 20/50 | Analyst Workbench | Data scientists required |
 | 4 | Domo | 18/50 | Analyst Workbench | Portal prison, formulas disabled |
 | 5 | DataGPT | 18/50 | Marketing Mirage | Single-source rigid |

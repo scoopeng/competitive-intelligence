@@ -5,6 +5,13 @@
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
+### 0. UNDERSTAND SCOOP'S STRENGTHS (REQUIRED READING)
+**Before starting ANY competitor research, read `/SCOOP_CAPABILITIES.md` to understand where Scoop wins**
+- Focus on capability differences, NOT market presence (Scoop is also a startup)
+- Emphasize: Excel engine, multi-pass investigation, automatic ML, 30-second setup
+- Document BOTH: Scoop's advantages AND competitor's specific pain points
+- Avoid: Review count comparisons, funding comparisons, market presence arguments
+
 ### 1. CHECK EXISTING RESEARCH FIRST
 **Before running ANY search, check the Research Library section below to see if it's already been done**
 - If a search is already documented with good results, SKIP IT (check the box and move on)
@@ -35,14 +42,14 @@
 
 ## Research Status Tracker
 ### Overall Progress
-- [ ] Archive recovery completed
-- [ ] Customer discovery completed (17 searches)
-- [ ] Functionality analysis completed (15 searches)
-- [ ] Technical analysis completed (24 searches)
-- [ ] BUPAF scoring completed with evidence
-- [ ] Battle card updated
-- [ ] Sales materials created
-- [ ] Research library fully documented
+- [X] Archive recovery completed
+- [X] Customer discovery completed (17 searches)
+- [X] Functionality analysis completed (15 searches)
+- [X] Technical analysis completed (24 searches)
+- [X] BUPAF scoring completed with evidence
+- [X] Battle card updated
+- [X] Sales materials created
+- [X] Research library fully documented
 
 ### Phase Status (Mark X to reset phase)
 - [ ] Reset Phase 1: Customer Discovery & Stories
@@ -51,10 +58,10 @@
 - [ ] Reset Phase 4: Analysis & Sales Enablement
 
 ### Last Research Date
-- **Phase 1**: Never / [Date]
-- **Phase 2**: Never / [Date]
-- **Phase 3**: Never / [Date]
-- **Phase 4**: Never / [Date]
+- **Phase 1**: September 25, 2025
+- **Phase 2**: September 25, 2025
+- **Phase 3**: September 25, 2025
+- **Phase 4**: September 25, 2025
 
 ---
 

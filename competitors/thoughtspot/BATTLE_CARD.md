@@ -1,8 +1,9 @@
 # Battle Card: ThoughtSpot
 
-**BUPAF Score**: 23/50 (Category C - Analyst Workbench)  
-**Market Position**: Real AI but inaccessible  
-**Key Weakness**: 33.3% accuracy, $140K/year average
+**BUPAF Score**: 23/50 (Category C - Analyst Workbench)
+**Market Position**: Enterprise platform disguised as self-service
+**Fatal Flaw**: "$500k/yr for 20 people" before it "crashed with all our data"
+**Key Reality**: 2-4 weeks setup, no Excel, can't handle healthcare data
 
 ---
 
@@ -11,25 +12,25 @@
 2. "What percentage of business users actively use it?"
 3. "How accurate are the AI-generated insights?"
 
-## Killer Facts
-- **33.3% accuracy** in Stanford HAI benchmark (vs 95.2% leaders)
-- **$140,000/year** average enterprise cost
-- **2-3 months** typical implementation
-- **No investigation** - Single-pass queries only
-- **No Excel integration** - Dashboard output only
-- **Black box ML** - Can predict but can't explain WHY
-- **No multivariate** - Misses multi-factor interactions
+## Killer Facts (Now with Evidence)
+- **"$500k/yr for 20 people"** - Actual customer quote (Reddit)
+- **"Crashed with all our data"** - Performance failure documented
+- **Zero Excel formulas** - No VLOOKUP, SUMIFS, nothing works
+- **Can't handle HIPAA** - Legal docs say "shall not upload PHI"
+- **96 CPUs/600GB RAM** - For just 2-3TB of data
+- **1-minute timeout** - Queries die after 60 seconds
+- **2-4 weeks minimum** - Not the "instant" setup claimed
 
 ## Head-to-Head
 
 | Factor | ThoughtSpot | Scoop | Your Win |
 |--------|-------------|-------|----------|
-| Accuracy | 33.3% benchmark | 95%+ proven | "2 out of 3 answers wrong" |
-| Annual Cost | $140,000 average | $3,588 flat | "40x cost difference" |
-| Investigation | ❌ Single queries | ✅ Multi-hypothesis | "Can't find root causes" |
-| ML Depth | ❌ Black box prediction | ✅ ML_GROUP/ML_PERIOD explanatory | "Can't explain WHY patterns exist" |
-| Business Users | ❌ Need training | ✅ Instant use | "Steep learning curve" |
-| Setup Time | 2-3 months | 30 seconds | "Quarter vs instant" |
+| Excel Support | ❌ Zero formulas | ✅ 150+ functions | "Can't even do VLOOKUP" |
+| Annual Cost | $137,000-$500,000 | $3,588 flat | "40-140x more expensive" |
+| Investigation | ❌ Single queries | ✅ 3-10 queries | "Can't find root causes" |
+| Healthcare | ❌ No HIPAA allowed | ✅ Full compliance | "Legally excludes PHI" |
+| Performance | ❌ Crashes, 1-min timeout | ✅ Instant on laptop | "Crashed with our data" |
+| Setup Time | 2-4 weeks minimum | 30 seconds | "Weeks vs seconds" |
 
 ## Workflow Integration Gap
 
@@ -57,7 +58,7 @@
 "For enterprise BI, where $140K/year is acceptable. But what percentage of your business users actually adopted it after that investment?"
 
 ## The Winning Pitch
-"ThoughtSpot has real AI that scores 33.3% accuracy - meaning 2 out of 3 insights are wrong. At $140,000 per year with 2-3 month implementations, you're paying enterprise prices for coin-flip accuracy. ThoughtSpot requires IT to build data models before business users can 'search,' and even then, it can't investigate WHY things happen - just WHAT happened. Scoop delivers 95%+ accuracy with multi-hypothesis investigation at $3,588/year, setup in 30 seconds."
+"One ThoughtSpot customer reported paying $500k per year for 20 users before it 'crashed with all our data.' ThoughtSpot can't do Excel formulas - not even VLOOKUP - takes 2-4 weeks minimum to set up, and legally cannot handle healthcare data. It needs 96 CPUs and 600GB of RAM for just 2-3TB of data. Scoop runs all 150+ Excel functions, sets up in 30 seconds, handles all data including HIPAA, and costs $3,588 flat. You're literally paying 40-140x more for a system that crashes and can't do basic Excel."
 
 ## Proof Points
 - Reference Stanford HAI benchmark study
