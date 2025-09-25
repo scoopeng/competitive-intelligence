@@ -65,5 +65,6 @@ Document technical limitations with quantified data and position in competitive 
 - `research/competitive_positioning.md` - Market context
 - `research/integration_reality.md` - Technical limitations
 - `research/economic_impact.md` - True TCO analysis
+- `evidence/research_library_chunk2.md` - Complete library of all URLs investigated with summaries
 
 When complete, output only: "CHUNK COMPLETE"

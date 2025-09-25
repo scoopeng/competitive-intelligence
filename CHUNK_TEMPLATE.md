@@ -3,6 +3,17 @@
 **Time**: 90-120 minutes total for rich, customer-story-driven intelligence
 **Quality**: Enterprise-grade with implementation stories and quantified data
 
+## RESEARCH LIBRARY FORMAT
+For each URL investigated, document:
+```
+**URL**: [full URL]
+**Date**: [access date]
+**Search Query**: [which search led here]
+**Summary**: [2-3 sentences of key findings]
+**Relevance**: High/Medium/Low
+**Key Evidence**: [specific quotes, numbers, or facts extracted]
+```
+
 ---
 
 # CHUNK 1: Deep Discovery & Customer Stories (40-50 minutes)
@@ -26,7 +37,10 @@ Execute these WebSearch queries:
 3. "site:trustradius.com {COMPETITOR} disappointed regret choosing"
 4. "{COMPETITOR} implementation failed timeline overrun consultant expensive"
 
-**For each search**: Read full reviews, extract specific quotes with company size/industry context
+**For each search**:
+1. Document URL, date accessed, and key findings in research library
+2. Extract specific quotes with company size/industry context
+3. Rate source credibility (High/Medium/Low)
 
 ### Reddit & Community Deep Dive (10 minutes)
 5. "site:reddit.com r/BusinessIntelligence {COMPETITOR} problems limitations"
@@ -68,6 +82,7 @@ Execute targeted searches by vertical:
 - `research/industry_analysis.md` - Vertical-specific limitations
 - `evidence/customer_quotes.md` - Direct quotes with context
 - `evidence/community_sources.md` - Forum/Reddit findings
+- `evidence/research_library_chunk1.md` - Complete library of all URLs investigated with summaries
 
 When complete, output only: "CHUNK COMPLETE"
 
@@ -140,6 +155,7 @@ Document technical limitations with quantified data and position in competitive 
 - `research/competitive_positioning.md` - Market context
 - `research/integration_reality.md` - Technical limitations
 - `research/economic_impact.md` - True TCO analysis
+- `evidence/research_library_chunk2.md` - Complete library of all URLs investigated with summaries
 
 When complete, output only: "CHUNK COMPLETE"
 
