@@ -12,16 +12,25 @@
 - This prevents duplicate work and saves time
 
 ### 2. DOCUMENT AS YOU GO
-**Document EVERY URL you visit in the Research Library section at the bottom of this file AS YOU GO**
-- Don't wait until the end - add each URL immediately after visiting
+**Document EVERY URL you visit in the appropriate phase research library file AS YOU GO**
+- Create `evidence/phase[N]_research_library.md` for each phase
+- Add each URL immediately after visiting to the appropriate phase file
 - Include searches that return no results
-- This creates your evidence trail and source documentation
+- Update the main checklist summary after completing each phase
 
 ### 3. HANDLE EDGE CASES
 - **Paywalled content**: Try cache:URL in Google, archive.org, or note as "Paywalled - could not access"
 - **No results**: After 3 failed searches in a section, try broader terms or competitor's parent company
 - **Time management**: If Phase 1 exceeds 50 minutes, prioritize remaining high-value searches
 - **Conflicting evidence**: Document both viewpoints in NOTES section with sources
+
+### 4. RESEARCH LIBRARY ORGANIZATION
+**All research is stored in separate files for better organization:**
+- **Phase 1**: Create `evidence/phase1_research_library.md`
+- **Phase 2**: Create `evidence/phase2_research_library.md`
+- **Phase 3**: Create `evidence/phase3_research_library.md`
+- **In main checklist**: Reference each file with 5-8 key findings summary
+- **Benefit**: Keeps checklist clean and research fully documented
 
 ## Research Status Tracker
 ### Overall Progress
@@ -316,16 +325,29 @@ Score each dimension with specific evidence:
 ```
 
 ### Phase 1 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 1 -->
-<!-- 📂 If evidence/research_library.md or evidence/research_library_chunk1.md exists, COPY its contents here first -->
+**📁 Full research documented in: `evidence/phase1_research_library.md`**
+
+Key findings from Phase 1:
+- Customer stories: [Top 2-3 implementation failures/complaints]
+- Industry verticals: [Top 2-3 industry-specific issues]
+- Community feedback: [Top 2-3 user frustrations]
 
 ### Phase 2 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 2 -->
-<!-- 📂 If evidence/research_library_chunk2.md exists, COPY its contents here first -->
+**📁 Full research documented in: `evidence/phase2_research_library.md`**
+
+Key findings from Phase 2:
+- Performance: [Top 2-3 performance/scalability issues]
+- Integration: [Top 2-3 API/integration limitations]
+- Competition: [Top 2-3 competitive weaknesses]
+- Economics: [Top 2-3 cost/ROI concerns]
 
 ### Phase 3 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 3 -->
-<!-- 📂 If evidence/research_library_chunk3.md exists, COPY its contents here first -->
+**📁 Full research documented in: `evidence/phase3_research_library.md`**
+
+Key findings from Phase 3:
+- BUPAF Score: [Total score and category]
+- Fatal flaws: [Top 2-3 deal breakers]
+- Sales positioning: [Key differentiation points]
 
 ---
 
