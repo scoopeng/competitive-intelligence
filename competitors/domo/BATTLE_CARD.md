@@ -1,33 +1,34 @@
 # Battle Card: Domo
 
-**BUPAF Score**: 29/50 (Category C - Analyst Workbench)  
-**Market Position**: Dashboard platform with AI Chat  
-**Key Weakness**: Dashboard-first, consumption pricing chaos
+**BUPAF Score**: 18/50 (Category C - Enterprise Platform)
+**Market Position**: Portal-centric BI requiring IT support
+**Key Weaknesses**: Excel formulas disabled, no investigation, 1% of revenue cost
 
 ---
 
 ## Quick Win Discovery Questions
-1. "How many dashboards exist before AI Chat is useful?"
-2. "What was your last renewal price increase?"
-3. "Can AI Chat work with data not in dashboards?"
+1. "Can you use Excel formulas with live Domo data?"
+2. "How long does it take to open the analyzer?"
+3. "What's your actual annual cost including professional services?"
 
-## Killer Facts
-- **$134,000/year** average enterprise cost
-- **1120% renewal increase** documented case
-- **Dashboard-first** - AI Chat only works within dashboards
-- **14+ weeks** typical implementation
-- **No investigation** - Shows SQL, not reasoning
+## Killer Facts (Evidence-Based)
+- **Excel formulas disabled** - Official documentation confirms
+- **1% of company revenue** - Actual customer quote
+- **1120% renewal increase** - Documented case
+- **30-60 seconds** to open analyzer - Community forums
+- **$95,800 for 100 users** - Not the advertised $10K
+- **No investigation** - Single SQL queries only
 
 ## Head-to-Head
 
 | Factor | Domo | Scoop | Your Win |
 |--------|------|-------|----------|
-| Architecture | Dashboard-first | Data-first | "Need dashboards before insights" |
-| Annual Cost | $134,000 avg | $3,588 flat | "40x cost, consumption chaos" |
-| Investigation | ❌ Shows SQL | ✅ Tests hypotheses | "SQL isn't investigation" |
-| Schema Changes | ❌ Breaks cards | ✅ Automatic | "Allow schema changes' disabled" |
-| Setup Time | 14+ weeks | 30 seconds | "Quarter vs instant" |
-| Workflow | Portal prison | Excel/PowerPoint/Slack | "Work where you already are" |
+| Excel Formulas | ❌ Disabled | ✅ 150+ functions | "They disable formulas for security" |
+| Investigation | ❌ Single query | ✅ 3-10 probes | "Can't answer WHY" |
+| True Cost (100 users) | $95,800+ | $3,588 | "27x more expensive" |
+| Setup Time | 1-2 months | 30 seconds | "Months vs seconds" |
+| CSV Upload | Workbench required | Drag & drop | "Windows-only tool needed" |
+| Performance | 30-60 sec loads | Instant | "Coffee break to open" |
 
 ## Objection Handlers
 
