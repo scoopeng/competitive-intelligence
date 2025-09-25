@@ -1,7 +1,7 @@
-# Power BI Copilot Research Checklist - Complete Protocol
+# Competitor Research Template - Complete Protocol
 
-**Time**: 90-120 minutes for comprehensive, evidence-based competitive intelligence
-**Quality**: Enterprise-grade with implementation stories, quantified data, and research library
+**Time**: 120-150 minutes for comprehensive, evidence-based competitive intelligence
+**Quality**: Enterprise-grade with functionality mapping, implementation stories, quantified data, and research library
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
@@ -12,10 +12,11 @@
 - This prevents duplicate work and saves time
 
 ### 2. DOCUMENT AS YOU GO
-**Document EVERY URL you visit in the Research Library section at the bottom of this file AS YOU GO**
-- Don't wait until the end - add each URL immediately after visiting
+**Document EVERY URL you visit in the appropriate phase research library file AS YOU GO**
+- Create `evidence/phase[N]_research_library.md` for each phase
+- Add each URL immediately after visiting to the appropriate phase file
 - Include searches that return no results
-- This creates your evidence trail and source documentation
+- Update the main checklist summary after completing each phase
 
 ### 3. HANDLE EDGE CASES
 - **Paywalled content**: Try cache:URL in Google, archive.org, or note as "Paywalled - could not access"
@@ -23,49 +24,61 @@
 - **Time management**: If Phase 1 exceeds 50 minutes, prioritize remaining high-value searches
 - **Conflicting evidence**: Document both viewpoints in NOTES section with sources
 
+### 4. RESEARCH LIBRARY ORGANIZATION
+**All research is stored in separate files for better organization:**
+- **Phase 1**: Create `evidence/phase1_customer_discovery.md`
+- **Phase 2**: Create `evidence/phase2_functionality_analysis.md`
+- **Phase 3**: Create `evidence/phase3_technical_reality.md`
+- **Phase 4**: Create `evidence/phase4_sales_enablement.md`
+- **In main checklist**: Reference each file with 5-8 key findings summary
+- **Benefit**: Keeps checklist clean and research fully documented
+
 ## Research Status Tracker
 ### Overall Progress
-- [X] Archive recovery completed
-- [X] Customer discovery completed (17 searches)
-- [X] Technical analysis completed (24 searches)
-- [X] BUPAF scoring completed with evidence
-- [X] Battle card updated
-- [X] Sales materials created
-- [X] Research library fully documented
+- [ ] Archive recovery completed
+- [ ] Customer discovery completed (17 searches)
+- [ ] Functionality analysis completed (15 searches)
+- [ ] Technical analysis completed (24 searches)
+- [ ] BUPAF scoring completed with evidence
+- [ ] Battle card updated
+- [ ] Sales materials created
+- [ ] Research library fully documented
 
 ### Phase Status (Mark X to reset phase)
 - [ ] Reset Phase 1: Customer Discovery & Stories
-- [ ] Reset Phase 2: Technical Reality & Competitive Context
-- [ ] Reset Phase 3: Analysis & Sales Enablement
+- [ ] Reset Phase 2: Functionality Deep Dive
+- [ ] Reset Phase 3: Technical Reality & Competitive Context
+- [ ] Reset Phase 4: Analysis & Sales Enablement
 
 ### Last Research Date
-- **Phase 1**: 2025-09-25
-- **Phase 2**: 2025-09-25
-- **Phase 3**: 2025-09-25
+- **Phase 1**: Never / [Date]
+- **Phase 2**: Never / [Date]
+- **Phase 3**: Never / [Date]
+- **Phase 4**: Never / [Date]
 
 ---
 
 ## PHASE 0: Existing Assets Check (5 minutes)
 
 ### Archive & Evidence Recovery
-- [X] Checked `../../archive/` for any Power BI Copilot related files
-- [ ] Checked `../../evidence/` for existing Power BI Copilot content
+- [ ] Checked `../../archive/` for any power-bi-copilot related files
+- [ ] Checked `../../evidence/` for existing power-bi-copilot content
 - [ ] Listed all existing files in `competitors/power-bi-copilot/` directory
-- [X] Read existing `README.md` if exists
-- [X] Read existing `BATTLE_CARD.md` if exists
-- [X] Read all files in `research/` subdirectory if exists
-- [X] Read all files in `evidence/` subdirectory if exists
+- [ ] Read existing `README.md` if exists
+- [ ] Read existing `BATTLE_CARD.md` if exists
+- [ ] Read all files in `research/` subdirectory if exists
+- [ ] Read all files in `evidence/` subdirectory if exists
 - [ ] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
-- [X] Documented what was recovered in `research/existing_research.md`
+- [ ] Documented what was recovered in `research/existing_research.md`
 
 ### Existing Research Inventory
 ```
 Files Found:
-- [X] README.md exists
-- [X] BATTLE_CARD.md exists
-- [X] research/ folder exists with 12 files
-- [X] evidence/ folder exists with 5 files
-- [X] outputs/ folder exists with 2 files
+- [ ] README.md exists
+- [ ] BATTLE_CARD.md exists
+- [ ] research/ folder exists with ___ files
+- [ ] evidence/ folder exists with ___ files
+- [ ] outputs/ folder exists with ___ files
 - [ ] Archive contained: [list any recovered files]
 ```
 
@@ -82,10 +95,10 @@ Files Found:
 ### 1A: Customer Review Mining (10 minutes)
 Execute these WebSearch queries:
 
-- [ ] **Search 1**: "site:g2.com Power BI Copilot 1 star 2 star reviews implementation disaster"
-- [ ] **Search 2**: "site:capterra.com Power BI Copilot negative review switching from"
-- [ ] **Search 3**: "site:trustradius.com Power BI Copilot disappointed regret choosing"
-- [ ] **Search 4**: "Power BI Copilot implementation failed timeline overrun consultant expensive"
+- [ ] **Search 1**: "site:g2.com power-bi-copilot 1 star 2 star reviews implementation disaster"
+- [ ] **Search 2**: "site:capterra.com power-bi-copilot negative review switching from"
+- [ ] **Search 3**: "site:trustradius.com power-bi-copilot disappointed regret choosing"
+- [ ] **Search 4**: "power-bi-copilot implementation failed timeline overrun consultant expensive"
 
 **📝 IMPORTANT - For EVERY search and EVERY URL visited**:
 1. **IMMEDIATELY** document in the Research Library section at the bottom of this file
@@ -102,29 +115,29 @@ Execute these WebSearch queries:
 
 ### 1B: Reddit & Community Deep Dive (10 minutes)
 
-- [ ] **Search 5**: "site:reddit.com r/BusinessIntelligence Power BI Copilot problems limitations"
-- [ ] **Search 6**: "site:reddit.com r/analytics Power BI Copilot switching from because"
-- [ ] **Search 7**: "site:reddit.com Power BI Copilot horror story disaster experience"
-- [ ] **Search 8**: "site:community.fabric.microsoft.com Power BI Copilot error doesn't work"
+- [ ] **Search 5**: "site:reddit.com r/BusinessIntelligence power-bi-copilot problems limitations"
+- [ ] **Search 6**: "site:reddit.com r/analytics power-bi-copilot switching from because"
+- [ ] **Search 7**: "site:reddit.com power-bi-copilot horror story disaster experience"
+- [ ] **Search 8**: "site:community.fabric.microsoft.com power-bi-copilot error doesn't work"
 
 **Goal**: Find real user frustrations, specific error messages, switching decisions
 
 ### 1C: LinkedIn & Professional Networks (8-10 minutes)
 
-- [X] **Search 9**: "site:linkedin.com Power BI Copilot disappointed moving from consultant"
-- [X] **Search 10**: "site:linkedin.com data analyst BI manager Power BI Copilot challenges"
-- [X] **Search 11**: "Power BI Copilot consultant blog implementation challenges timeline"
-- [X] **Search 12**: "Power BI Copilot systems integrator lessons learned failed project"
+- [ ] **Search 9**: "site:linkedin.com power-bi-copilot disappointed moving from consultant"
+- [ ] **Search 10**: "site:linkedin.com data analyst BI manager power-bi-copilot challenges"
+- [ ] **Search 11**: "power-bi-copilot consultant blog implementation challenges timeline"
+- [ ] **Search 12**: "power-bi-copilot systems integrator lessons learned failed project"
 
 **Focus**: Professional insights, consultant perspectives, enterprise challenges
 
 ### 1D: Industry Vertical Deep Dive (8-10 minutes)
 
-- [X] **Search 13**: "Power BI Copilot healthcare HIPAA compliance audit failed"
-- [X] **Search 14**: "Power BI Copilot financial services SOX regulatory problems"
-- [X] **Search 15**: "Power BI Copilot retail real-time inventory scalability issues"
-- [X] **Search 16**: "Power BI Copilot manufacturing plant floor data integration"
-- [X] **Search 17**: "Power BI Copilot government security clearance restrictions"
+- [ ] **Search 13**: "power-bi-copilot healthcare HIPAA compliance audit failed"
+- [ ] **Search 14**: "power-bi-copilot financial services SOX regulatory problems"
+- [ ] **Search 15**: "power-bi-copilot retail real-time inventory scalability issues"
+- [ ] **Search 16**: "power-bi-copilot manufacturing plant floor data integration"
+- [ ] **Search 17**: "power-bi-copilot government security clearance restrictions"
 
 **Goal**: Find industry-specific deal-breakers, compliance failures, regulatory issues
 
@@ -143,62 +156,140 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 2: Technical Reality & Competitive Context (30-35 minutes)
+## PHASE 2: Functionality Deep Dive (35-40 minutes)
 
-### ⚠️ PRE-PHASE 2 CHECK (2 minutes)
-- [ ] **FIRST**: Read the Phase 2 Research Library section below
-- [ ] **IDENTIFY**: Which technical searches have already been completed
+### ⚠️ CRITICAL: STRATEGIC CAPABILITY ASSESSMENT
+**This phase maps competitor capabilities against Scoop's core differentiators**
+
+### Pre-Phase 2: Review Scoop's Core Differentiators (3 minutes)
+- [ ] **READ**: Review SCOOP_CAPABILITIES.md for key differentiators
+- [ ] **FOCUS**: Keep these in mind during all searches:
+  - Excel Formula Engine (150+ functions)
+  - Automatic ML Discovery (J48, JRip, EM Clustering)
+  - Multi-Pass Investigation (3-10 queries)
+  - Visual Intelligence (AI presentations)
+  - 30-Second Workflow Integration
+
+### 2A: Documentation & Core Functionality (10 minutes)
+- [ ] **Documentation Review**: Visit power-bi-copilot.com/docs or help.power-bi-copilot.com
+  - [ ] Read getting started guide
+  - [ ] Review feature overview/capabilities page
+  - [ ] Check API documentation overview
+  - [ ] Note any "What's New" or recent releases
+- [ ] **Search 1**: "power-bi-copilot demo walkthrough tutorial" official capabilities
+- [ ] **Search 2**: "power-bi-copilot documentation" feature list complete overview
+- [ ] **Search 3**: "power-bi-copilot use cases" real world applications
+- [ ] **Search 4**: "power-bi-copilot workflow" end-to-end process
+
+### 2B: Business User Empowerment Assessment (12 minutes)
+**Compare each capability to Scoop's differentiators**
+
+- [ ] **Search 5**: "power-bi-copilot Excel integration" formula support export
+  - Compare to Scoop's 150+ native Excel functions
+- [ ] **Search 6**: "power-bi-copilot natural language" query capabilities NLP
+  - Compare to Scoop's multi-pass investigation
+- [ ] **Search 7**: "power-bi-copilot machine learning" AI automated analysis
+  - Compare to Scoop's automatic ML (J48, JRip, EM)
+- [ ] **Search 8**: "power-bi-copilot self-service" business users no code
+  - Compare to Scoop's 30-second setup
+- [ ] **Search 9**: "power-bi-copilot PowerPoint Slack integration" workflow
+  - Compare to Scoop's native workflow integration
+- [ ] **Search 10**: "power-bi-copilot root cause analysis" investigation why
+  - Compare to Scoop's multi-hypothesis testing
+
+### 2C: Gap Analysis & Limitations (8 minutes)
+- [ ] **Search 11**: "power-bi-copilot limitations" cannot do missing features
+- [ ] **Search 12**: "power-bi-copilot vs Scoop" comparison (if exists)
+- [ ] **Search 13**: "power-bi-copilot requires IT" technical expertise needed
+- [ ] **Search 14**: "power-bi-copilot training certification" learning curve
+- [ ] **Search 15**: "power-bi-copilot setup time" implementation duration
+
+### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
+For each capability found, document with BUPAF lens:
+```markdown
+**Capability**: [Name of feature/function]
+**What It Does**: [Clear description of functionality]
+**How It Works**: [Technical mechanism if known]
+**Business User Empowerment**: [Can business users use this alone? Scale 1-10]
+**vs Scoop Equivalent**: [How does this compare to Scoop's approach?]
+**Gaps/Limitations**: [What it can't do that Scoop can]
+**Evidence**: [URL/source - especially documentation]
+```
+
+#### Key Questions for Each Capability:
+1. Can a business user do this WITHOUT IT help?
+2. Does it require training/certification?
+3. How long from question to answer?
+4. Does it work in user's existing tools (Excel/Slack/PPT)?
+5. Can it investigate WHY, not just WHAT?
+
+### Phase 2 Output Files
+- [ ] Created `evidence/phase2_functionality_analysis.md`
+- [ ] Documented 10+ capabilities WITH Scoop comparisons
+- [ ] Identified gaps in Excel support (vs 150+ functions)
+- [ ] Identified gaps in ML capabilities (vs automatic ML)
+- [ ] Identified gaps in investigation (vs multi-pass)
+- [ ] Identified gaps in workflow (vs 30-second integration)
+- [ ] Created competitive gap matrix for sales team
+
+---
+
+## PHASE 3: Technical Reality & Competitive Context (30-35 minutes)
+
+### ⚠️ PRE-PHASE 3 CHECK (2 minutes)
+- [ ] **FIRST**: Review Phase 2 functionality findings
+- [ ] **IDENTIFY**: Technical claims to verify from Phase 2
 - [ ] **MARK**: Check off any searches that are already well-documented
-- [ ] **PROCEED**: Focus on gaps in technical evidence
+- [ ] **PROCEED**: Focus on validating/invalidating functionality claims
 
-### 2A: Technical Performance Analysis (12-15 minutes)
+### 3A: Technical Performance Analysis (12-15 minutes)
 
 #### Performance Quantification
-- [X] **Search 18**: "Power BI Copilot slow performance response time seconds query"
-- [X] **Search 19**: "Power BI Copilot memory requirements GB RAM crashes"
-- [X] **Search 20**: "Power BI Copilot concurrent users limit scalability testing"
-- [X] **Search 21**: "Power BI Copilot database timeout connection errors"
-- [X] **Search 22**: "Power BI Copilot uptime downtime SLA breach outage"
+- [ ] **Search 18**: "power-bi-copilot slow performance response time seconds query"
+- [ ] **Search 19**: "power-bi-copilot memory requirements GB RAM crashes"
+- [ ] **Search 20**: "power-bi-copilot concurrent users limit scalability testing"
+- [ ] **Search 21**: "power-bi-copilot database timeout connection errors"
+- [ ] **Search 22**: "power-bi-copilot uptime downtime SLA breach outage"
 
 **📝 REMEMBER**: Document EVERY URL visited in the Research Library section (bottom of file) AS YOU GO
 **Goal**: Get specific numbers - response times, memory needs, user limits, uptime stats
 
 #### Integration Reality Check
-- [X] **Search 23**: "Power BI Copilot API rate limits throttling developers"
-- [X] **Search 24**: "Power BI Copilot SSO integration broken SAML authentication"
-- [X] **Search 25**: "Power BI Copilot mobile app terrible performance user"
-- [X] **Search 26**: "Power BI Copilot embedding iframe security CSP issues"
-- [X] **Search 27**: "Power BI Copilot REST API documentation incomplete missing"
+- [ ] **Search 23**: "power-bi-copilot API rate limits throttling developers"
+- [ ] **Search 24**: "power-bi-copilot SSO integration broken SAML authentication"
+- [ ] **Search 25**: "power-bi-copilot mobile app terrible performance user"
+- [ ] **Search 26**: "power-bi-copilot embedding iframe security CSP issues"
+- [ ] **Search 27**: "power-bi-copilot REST API documentation incomplete missing"
 
 **Focus**: Real developer pain points, integration failures, technical debt
 
-### 2B: Competitive Positioning Research (10-12 minutes)
+### 3B: Competitive Positioning Research (10-12 minutes)
 
 #### Direct Competitive Intelligence
-- [X] **Search 28**: "Power BI Copilot vs Tableau why customers switch"
-- [X] **Search 29**: "Power BI Copilot vs ThoughtSpot RFP evaluation lost deal"
-- [X] **Search 30**: "Power BI Copilot vs Qlik comparison customers choose alternative"
-- [X] **Search 31**: "Power BI Copilot losing market share declining adoption 2024 2025"
+- [ ] **Search 28**: "power-bi-copilot vs Tableau why customers switch"
+- [ ] **Search 29**: "power-bi-copilot vs ThoughtSpot RFP evaluation lost deal"
+- [ ] **Search 30**: "power-bi-copilot vs Qlik comparison customers choose alternative"
+- [ ] **Search 31**: "power-bi-copilot losing market share declining adoption 2024 2025"
 
 #### Analyst & Market Intelligence
-- [X] **Search 32**: "Power BI Copilot Gartner customers complain disappointed"
-- [ ] **Search 33**: "Power BI Copilot Forrester critical assessment limitations"
-- [ ] **Search 34**: "Power BI Copilot analyst report customer feedback negative"
+- [ ] **Search 32**: "power-bi-copilot Gartner customers complain disappointed"
+- [ ] **Search 33**: "power-bi-copilot Forrester critical assessment limitations"
+- [ ] **Search 34**: "power-bi-copilot analyst report customer feedback negative"
 
 **Goal**: Position in market context, understand competitive losses
 
-### 2C: Economic Impact Deep Dive (8-10 minutes)
+### 3C: Economic Impact Deep Dive (8-10 minutes)
 
 #### Total Cost of Ownership Reality
-- [X] **Search 35**: "Power BI Copilot hidden costs professional services implementation"
-- [X] **Search 36**: "Power BI Copilot training required weeks months learning curve"
-- [X] **Search 37**: "Power BI Copilot consultant fees implementation partner expensive"
-- [X] **Search 38**: "Power BI Copilot maintenance overhead admin full-time required"
+- [ ] **Search 35**: "power-bi-copilot hidden costs professional services implementation"
+- [ ] **Search 36**: "power-bi-copilot training required weeks months learning curve"
+- [ ] **Search 37**: "power-bi-copilot consultant fees implementation partner expensive"
+- [ ] **Search 38**: "power-bi-copilot maintenance overhead admin full-time required"
 
 #### ROI and Value Realization
-- [X] **Search 39**: "Power BI Copilot time to value months delayed insights"
-- [X] **Search 40**: "Power BI Copilot ROI negative failed to deliver business value"
-- [X] **Search 41**: "Power BI Copilot opportunity cost manual reporting workarounds"
+- [ ] **Search 39**: "power-bi-copilot time to value months delayed insights"
+- [ ] **Search 40**: "power-bi-copilot ROI negative failed to deliver business value"
+- [ ] **Search 41**: "power-bi-copilot opportunity cost manual reporting workarounds"
 
 **Focus**: True costs beyond licenses, delayed value realization
 
@@ -217,63 +308,76 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 3: Analysis & Rich Sales Enablement (20-25 minutes)
+## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 3A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+
+**IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
 Score each dimension with specific evidence:
 
 #### Independence (Can business users work alone?)
-- [X] Used customer quotes about IT dependency
-- [X] Cited specific setup requirements (weeks/months)
-- [X] Referenced consultant requirements
-- [X] **Score: 2/10** with 3+ evidence points
+- [ ] Referenced Phase 2: Documentation requirements, training needs
+- [ ] Used customer quotes about IT dependency (Phase 1)
+- [ ] Cited specific setup requirements (Phase 2 & 3)
+- [ ] Referenced consultant requirements (Phase 1 & 3)
+- [ ] **Score: ___/10** with 3+ evidence points
 
 #### Analytical Depth (Investigation vs single queries)
-- [X] Used performance data (response times, errors)
-- [X] Cited accuracy issues, inconsistent results
-- [X] Compared to Scoop's investigation capabilities
-- [X] **Score: 3/10** with quantified limitations
+- [ ] Referenced Phase 2: ML/AI capabilities vs Scoop's automatic ML
+- [ ] Compared investigation depth from Phase 2 (single vs multi-pass)
+- [ ] Used performance data (response times, errors) from Phase 3
+- [ ] Cited accuracy issues, inconsistent results
+- [ ] **Score: ___/10** with quantified limitations
 
 #### Workflow Integration (Excel, Slack, PowerPoint)
-- [X] Documented specific integration failures
-- [X] Used developer complaints about APIs
-- [X] Cited mobile/embedding limitations
-- [X] **Score: 2/10** with technical evidence
+- [ ] Referenced Phase 2: Excel support vs Scoop's 150+ functions
+- [ ] Documented workflow gaps from Phase 2
+- [ ] Used developer complaints about APIs (Phase 3)
+- [ ] Cited mobile/embedding limitations
+- [ ] **Score: ___/10** with technical evidence
 
 #### Business Communication (Natural language)
-- [X] Used examples of misunderstood queries
-- [X] Cited data preparation requirements
-- [X] Documented training curve evidence
-- [X] **Score: 4/10** with customer stories
+- [ ] Used examples of misunderstood queries
+- [ ] Cited data preparation requirements
+- [ ] Documented training curve evidence
+- [ ] **Score: ___/10** with customer stories
 
 #### Visual Intelligence (Presentation-ready)
-- [X] Used examples of poor visualizations
-- [X] Cited manual formatting requirements
-- [X] Documented export/sharing limitations
-- [X] **Score: 3/10** with specific examples
+- [ ] Used examples of poor visualizations
+- [ ] Cited manual formatting requirements
+- [ ] Documented export/sharing limitations
+- [ ] **Score: ___/10** with specific examples
 
-**TOTAL BUPAF SCORE: 14/50**
-**Category**: D (0-14) - Marketing Mirage
+**TOTAL BUPAF SCORE: ___/50**
+**Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
-### 3B: Rich Sales Materials Creation (8-10 minutes)
+### 4B: Competitive Capability Matrix (5 minutes)
+
+Create comparison table based on Phase 2 functionality findings:
+
+| Capability | power-bi-copilot | Scoop | Winner | Why |
+|------------|--------------|-------|--------|-----|
+| Excel Support | ❌/✅ [Phase 2 finding] | ✅ 150+ functions | Scoop/Them | [Evidence] |
+| ML/AI Analysis | ❌/✅ [Phase 2 finding] | ✅ Automatic ML | Scoop/Them | [Evidence] |
+| Investigation Depth | ❌/✅ [Phase 2 finding] | ✅ Multi-pass | Scoop/Them | [Evidence] |
+| Workflow Integration | ❌/✅ [Phase 2 finding] | ✅ 30-second | Scoop/Them | [Evidence] |
+| Business User Ready | ❌/✅ [Phase 2 finding] | ✅ No training | Scoop/Them | [Evidence] |
+
+### 4C: Rich Sales Materials Creation (5 minutes)
 
 #### Battle Card Update
-- [X] **Top 5 Fatal Flaws** documented with customer story for each
-- [X] **Pricing Reality** includes hidden costs breakdown
-- [X] **Customer Horror Stories** - 3 best implementation disasters
-- [X] **Industry Objections** - vertical-specific concerns documented
-- [X] **Competitive Context** - how they lose to alternatives
+- [ ] **Top 5 Fatal Flaws** with functionality gaps from Phase 2
+- [ ] **Pricing Reality** includes capability limitations
+- [ ] **Customer Horror Stories** - linked to missing features
+- [ ] **Competitive Matrix** - completed above
 
 #### Customer-Facing Materials
-- [X] **Case Study Comparisons** - "Customer X tried Power BI Copilot, switched to Scoop because..."
-- [X] **ROI Calculator** - Compare true costs at different scales
-- [X] **Sales Playbook** - Complete competitive displacement strategy
-- [X] **Executive Brief** - C-level risk assessment document
-- [ ] **Risk Assessment** - Implementation risks, timeline dangers
-- [ ] **Industry Briefings** - Vertical-specific limitations
+- [ ] **Gap Analysis** - "They claim X but can't do Y" (Phase 2)
+- [ ] **ROI Calculator** - Factor in missing functionality costs
+- [ ] **Migration Guide** - From their limitations to our capabilities
 
-### 3C: Quality Assurance (4-5 minutes)
+### 4D: Quality Assurance (4-5 minutes)
 
 #### Evidence Verification
 - [ ] Every claim has customer quote or quantified data
@@ -317,235 +421,39 @@ Score each dimension with specific evidence:
 ---
 ```
 
-### Phase 1 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 1 -->
-<!-- 📂 If evidence/research_library.md or evidence/research_library_chunk1.md exists, COPY its contents here first -->
+### Phase 1 Research Library - Customer Discovery
+**📁 Full research documented in: `evidence/phase1_customer_discovery.md`**
 
-**URL**: https://www.g2.com/products/microsoft-microsoft-power-bi/reviews
-**Date**: 2025-09-25
-**Search Query**: Search #1: site:g2.com Power BI Copilot 1 star 2 star reviews implementation disaster
-**Summary**: Found Power BI reviews but no specific 1-2 star disaster stories. Main complaints: performance with large datasets, limited drilldowns, locked features behind Premium.
-**Relevance**: Medium
-**Key Evidence**: "doesn't handle large datasets well", "performance may degrade with very large datasets", "Ease of implementation becomes hectic"
----
+Key findings from Phase 1:
+- Customer stories: [Top 2-3 implementation failures/complaints]
+- Industry verticals: [Top 2-3 industry-specific issues]
+- Community feedback: [Top 2-3 user frustrations]
 
-**URL**: https://www.capterra.com/p/176586/Power-BI/reviews/
-**Date**: 2025-09-25
-**Search Query**: Search #2: site:capterra.com Power BI Copilot negative review switching from
-**Summary**: Found Power BI struggles with >3 tables with 1M+ rows, "limited in visual design", "quite ugly", difficult error messages. Copilot "never allows me to actually see or download the document"
-**Relevance**: High
-**Key Evidence**: "cannot manage strong quantities of data", "dashboards quite ugly", "Copilot cannot receive text inputs greater than 10240 characters", "6 months... absolutely zero results"
----
-
-**URL**: https://www.trustradius.com/products/microsoft-power-bi/reviews?qs=pros-and-cons
-**Date**: 2025-09-25
-**Search Query**: Search #3: site:trustradius.com Power BI Copilot disappointed regret choosing
-**Summary**: No specific disappointment about Copilot found. Users note GUI is confusing, issues with >250MB data. One user prefers ChatGPT/Grok over Power BI for dashboard creation.
-**Relevance**: Medium
-**Key Evidence**: "GUI definitely one of the areas they need to improve", "issues with large amounts of data", "would definitely choose to create custom right now with AI over Microsoft Power BI"
----
-
-**URL**: https://gocollectiv.com/blog/power-bi-copilot-success/
-**Date**: 2025-09-25
-**Search Query**: Search #4: Power BI Copilot implementation failed timeline overrun consultant expensive
-**Summary**: Detailed case study of $300M ARR SaaS company with Copilot failure. Initial 12% adoption due to messy models, disconnected workspaces, lack of prompt governance. Required 30-day remediation project to reach 84% adoption. Exposes critical security flaws and implementation barriers.
-**Relevance**: High
-**Key Evidence**:
-- "Copilot will happily answer questions your users were never meant to ask—like showing salary data or forecasting details without proper restrictions"
-- "doesn't just fall short—it actively makes things worse" without proper foundation
-- Initial adoption only 12%, required 30-day cleanup to reach 84%
-- "Misinterprets poorly labeled metrics (e.g. NetRev_Q2_Adj)"
-- "Produces inaccurate results or blank stares with complex/disconnected datasets"
-- Requires F64 Fabric capacity (expensive enterprise licensing)
-- "Not a plug-and-play solution" - needs extensive metadata prep, prompt engineering
----
-
-**URL**: No results from Reddit r/BusinessIntelligence
-**Date**: 2025-09-25
-**Search Query**: Search #5: site:reddit.com r/BusinessIntelligence Power BI Copilot problems limitations
-**Summary**: No Reddit results found but search returned other sources. Found: requires F64+, "reports hard to read", "nonsensical or misleading visuals", "not beautiful or useful", non-deterministic.
-**Relevance**: High
-**Key Evidence**: "requires F64 or higher", "AI-generated chart type and formatting outputs make reports hard to read", "I do not find the reports generated by Copilot to be either beautiful or useful", "solution looking for a problem"
----
-
-**URL**: No results from Reddit r/analytics
-**Date**: 2025-09-25
-**Search Query**: Search #6: site:reddit.com r/analytics Power BI Copilot switching from because
-**Summary**: No Reddit results. Documentation shows "Copilot responses can include inaccurate or low-quality content", "LLMs can hallucinate", enabled by default Sept 2025 causing concerns.
-**Relevance**: Medium
-**Key Evidence**: "Copilot responses can include inaccurate or low-quality content", "LLMs can produce incorrect results or hallucinate", "inherently unreliable"
----
-
-**URL**: https://data-goblins.com/power-bi/copilot-in-power-bi (from multiple searches)
-**Date**: 2025-09-25
-**Search Query**: Search #7: site:reddit.com Power BI Copilot horror story disaster experience
-**Summary**: Comprehensive technical critique by BI expert. Questions fundamental reliability for critical data decisions. Documents performance impact (3% F64 capacity for minimal testing), output quality issues, and concludes it's "a solution looking for a problem."
-**Relevance**: High
-**Key Evidence**:
-- "In BI and analytics, trustworthiness and reliability are paramount - it takes a long time to build trust, but only a few mistakes for it to slip away. These mistakes can get you fired"
-- "AI-generated chart type and formatting outputs make reports hard to read in best-case scenarios, or reports include nonsensical or misleading visuals in worst-case scenarios"
-- "I do not find the reports generated by Copilot to be either beautiful or useful"
-- Requires F64 Fabric capacity, "consumes significant capacity and if you use too much, this can lead to throttling your other operations"
-- "why would a user ask data questions to and trust the response of a tool that says on the label 'mistakes are possible'"
-- Novices will "waste time or resources dealing with errors"
-- "feels like a solution looking for a problem"
----
-
-**URL**: https://community.fabric.microsoft.com/t5/Service/Can-t-use-Copilot-on-Power-BI/m-p/3837670
-**Date**: 2025-09-25
-**Search Query**: Search #8: site:community.fabric.microsoft.com Power BI Copilot error doesn't work
-**Summary**: Multiple users reporting Copilot doesn't work with PPU license. Requires F64+ or P1+, geo restrictions, "Something went wrong" errors common. Won't work with Desktop versions before Jan 2025.
-**Relevance**: High
-**Key Evidence**: "Copilot is not available in Premium Per user license", "Something went wrong and we couldn't load the narrative", "not supported on trial SKUs", geographic restrictions outside US/France
----
-
-**URL**: https://www.linkedin.com/posts/suhail-powerflow_disappointed-in-copilot-for-m365-try-again-activity-7166594803651059712-8MZb
-**Date**: 2025-09-25
-**Search Query**: Search #9: site:linkedin.com Power BI Copilot disappointed moving from consultant
-**Summary**: LinkedIn post discussing widespread Copilot disappointment. Author has trained hundreds of users, notes Microsoft's non-trialable 12-month contracts suggest low confidence in value prop. Currently in "trough of disillusionment" per Gartner Hype Cycle.
-**Relevance**: High
-**Key Evidence**:
-- "Copilot for M365 SUCKS" - common LinkedIn sentiment
-- "Non-trialable, non-cancelable, upfront 12 month contract tells me that Microsoft aren't very confident that customers won't churn"
-- Currently in "trough of disillusionment" on Gartner Hype Cycle
-- "Personally trained hundreds of information workers" - consultant perspective
-- Users experiencing initial "defeats" when first trying the technology
----
-
-**URL**: Multiple LinkedIn articles (no specific disappointed consultant found)
-**Date**: 2025-09-25
-**Search Query**: Search #10: site:linkedin.com data analyst BI manager Power BI Copilot challenges
-**Summary**: Found multiple LinkedIn articles documenting data analyst and BI manager challenges. Copilot struggles with simple measures like percentage calculations and MoM values, leading to wrong outcomes. May lack business context understanding, resulting in generic or inappropriate suggestions. Requires proper data governance to avoid exposing sensitive information.
-**Relevance**: High
-**Key Evidence**:
-- "Copilot struggles when it comes to creating simple measures like the percentage of total sales or the MoM values, which eventually leads to wrong outcomes"
-- "May occasionally provide inaccurate or suboptimal suggestions"
-- "May lack the ability to fully comprehend the specific business context and objectives"
-- "Organizations must ensure that sensitive or confidential information is not exposed to Copilot unintentionally"
-- "Even with the assistance of Copilot, an understanding of data modeling principles and best practices remains valuable"
----
-
-**URL**: https://ttms.com/power-bi-implementation-challenges-pros-and-cons-you-should-know/
-**Date**: 2025-09-25
-**Search Query**: Search #11: Power BI Copilot consultant blog implementation challenges timeline
-**Summary**: Comprehensive implementation challenges article. Documents data integration complexity from disparate sources, performance bottlenecks with growing data volumes, poor data modeling causing DAX formula issues, governance and compliance hurdles, inadequate user training, and skills gaps in DAX knowledge. No specific implementation timelines provided but emphasizes extensive training requirements.
-**Relevance**: High
-**Key Evidence**:
-- Data integration complexity from disparate sources and legacy systems
-- Performance issues: "Slow-loading reports", "Unresponsive dashboards"
-- "Poor data modeling", "Inefficient star schema designs", "Complex DAX formulas causing performance problems"
-- "Lack of clear business requirements", "Inadequate user training", "Insufficient stakeholder involvement"
-- "Limited DAX knowledge", "Lack of understanding of optimization techniques"
-- Governance hurdles: "Data access controls", "Version management", "Compliance monitoring"
----
-
-**URL**: https://gocollectiv.com/blog/power-bi-copilot-success/ (via search results)
-**Date**: 2025-09-25
-**Search Query**: Search #12: Power BI Copilot systems integrator lessons learned failed project
-**Summary**: Detailed case study of $300M ARR SaaS company Copilot failure and recovery. Initial 12% adoption due to messy models and lack of governance. After 30-day remediation project: consolidated semantic models in Fabric, restructured naming conventions, implemented row-level security, built prompt training guide. Adoption jumped to 84%, forecasting cycle time dropped 40%.
-**Relevance**: High
-**Key Evidence**:
-- "Teams label key metrics like 'NetRev_Q2_Adj' and expect Copilot to guess what that means"
-- "Many deploy Copilot too early... before cleaning up models or defining use cases"
-- Initial adoption only 12%, jumped to 84% after 30-day remediation
-- "No clear fact and dimension tables, no star schema, many-to-many relationships with bi-directional filtering"
-- "Over 260 nested measures with custom business logic"
-- "Forecasting cycle time dropped by 40%" after proper implementation
-- "Enabling and using Copilot in Power BI requires careful deliberation"
----
-
-**URL**: https://redriver.com/artificial-intelligence/is-microsoft-copilot-hipaa-compliant
-**Date**: 2025-09-25
-**Search Query**: Search #13: Power BI Copilot healthcare HIPAA compliance audit failed
-**Summary**: Microsoft Copilot can be HIPAA compliant but only with proper configuration. Requires encryption, audit logs, access controls - none enforced automatically. Must sign BAA with Microsoft. Copilot service occasionally passes data to Bing service which is not secure for PHI. Web search queries not covered by HIPAA BAA. Organizations face audit failures due to improper configuration and inadequate monitoring.
-**Relevance**: High
-**Key Evidence**:
-- "Copilot requires encryption, audit logs and access control—none of which Copilot enforces automatically"
-- "The Copilot service occasionally passes data to their Bing service, which is not secure for PHI and exempted from the HIPAA BAA"
-- "HIPAA compliance doesn't apply to web search queries as they aren't covered by the DPA and Business Associate Agreement"
-- "Copilot does not inherently prevent users from inputting sensitive information like PHI"
-- "HIPAA violations alone could mean hundreds of thousands of dollars in fines and up to a decade of imprisonment"
----
-
-**URL**: https://www.smarsh.com/blog/thought-leadership/navigating-microsoft-365-copilot-regulatory-compliance-requirements-in-financial-services-a-guide
-**Date**: 2025-09-25
-**Search Query**: Search #14: Power BI Copilot financial services SOX regulatory problems
-**Summary**: Financial services face significant SOX compliance challenges with Copilot. 67% of enterprise security teams express concerns about AI exposing sensitive information. Missing records of Copilot interactions lead to incomplete audit trails and regulatory examination deficiencies. $3.5 billion in penalties imposed since 2021 for inadequate recordkeeping. 58% of financial firms implemented additional security controls for Copilot. US Congress banned staffers from using Copilot due to data breach concerns.
-**Relevance**: High
-**Key Evidence**:
-- "Over 15% of all business-critical files are at risk from oversharing"
-- "67% of enterprise security teams express concerns about AI tools exposing sensitive information"
-- "Missing records of Microsoft 365 Copilot interactions lead to incomplete audit trails"
-- "$3.5 billion in penalties imposed since 2021 for inadequate recordkeeping"
-- "58% of financial services firms have implemented additional security controls when deploying Copilot"
-- "US Congress banned staffers from using Microsoft Copilot due to security concerns around data breaches"
----
-
-**URL**: Search results (no specific retail inventory issues found)
-**Date**: 2025-09-25
-**Search Query**: Search #15: Power BI Copilot retail real-time inventory scalability issues
-**Summary**: No critical scalability failures found, but documentation shows significant preparation requirements. Model owners must invest in data prep for AI to understand business context. Without proper preparation, Copilot struggles to interpret data correctly. NFC features allow retail managers quick inventory access. Growing e-commerce can handle increasing sales data but requires proper schema design and configuration.
-**Relevance**: Medium
-**Key Evidence**:
-- "Data needs to be properly prepared to work with Copilot"
-- "Without this preparation, Copilot can struggle to interpret data correctly, leading to generic, inaccurate, or even misleading outputs"
-- "Thoughtfully preparing data—ensuring it's clean, structured, and context-rich—is the foundation for building reliable, scalable AI solutions"
-- NFC support for retail floor inventory management
-- "Growing e-commerce startups can use Copilot's scalable features" but requires proper IT configuration
----
-
-**URL**: Manufacturing search results (Microsoft Learn articles)
-**Date**: 2025-09-25
-**Search Query**: Search #16: Power BI Copilot manufacturing plant floor data integration
-**Summary**: Power BI Copilot offers NFC integration for plant floor data access, allowing workers to tap phones on storage shelf tags. Requires Microsoft Fabric platform integration and Premium/Fabric capacity (P1+ or F2+). Can analyze terabytes of sensor data for predictive maintenance. However, requires significant data preparation - without proper prep, Copilot produces generic, inaccurate, or misleading outputs.
-**Relevance**: Medium
-**Key Evidence**:
-- "NFC support... especially useful for frontline workers managing retail floors, inventory, or manufacturing processes"
-- Requires "Premium Power BI (P1 and above) or paid Fabric (F2 and above) capacity"
-- "Visualize terabytes of data from equipment sensors, then use AI to predict hardware issues"
-- "Without this prep, Copilot can struggle to interpret data correctly - leading to generic, inaccurate, or even misleading outputs"
-- "Model owners need to invest in prepping their data for AI to ensure Copilot understands the unique business context"
----
-
-**URL**: https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-power-bi-privacy-security
-**Date**: 2025-09-25
-**Search Query**: Search #17: Power BI Copilot government security clearance restrictions
-**Summary**: Major restrictions for government entities. Copilot not supported in sovereign/government clouds due to GPU availability. Not available with PPU license ($20) - requires Premium Capacity. Data can be processed outside geographical region and compliance boundary. GCC High available for US government with DISA SRG IL4 compliance, but full Copilot features unavailable. Multiple geographic restrictions including government-critical regions.
-**Relevance**: High
-**Key Evidence**:
-- "Sovereign clouds are unsupported. Copilot isn't yet supported for sovereign clouds due to GPU availability"
-- "Copilot in Power BI is not available with the $20 Premium Per User (PPU) license"
-- "Data sent to Azure OpenAI can be processed outside your capacity's geographical region, compliance boundary, or national cloud instance"
-- "Power BI US Government isn't available as a Free license"
-- Not available in: "India West, Indonesia Central, Korea South, Malaysia West, New Zealand North, Qatar Central, Taiwan North, Taiwan North West, UAE Central, France South, Germany North, Norway West"
----
-
-### Phase 2 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 2 -->
-<!-- 📂 If evidence/research_library_chunk2.md exists, COPY its contents here first -->
-
-**📁 Phase 2 Research (Searches 18-41) documented in: `evidence/phase2_research_library.md`**
+### Phase 2 Research Library - Functionality Analysis
+**📁 Full research documented in: `evidence/phase2_functionality_analysis.md`**
 
 Key findings from Phase 2:
-- Performance: 225-sec timeouts, 16GB RAM needed, F64 throttling
-- API: Only 120 req/min, no Copilot REST APIs exist
-- Competition: Tableau better visuals, ThoughtSpot better NLP, Qlik better data handling
-- Gartner: Only 3% of IT leaders find significant value
-- True costs: $60k/year minimum, $100-250/hour consultants
-- ROI: 12% initial adoption, Microsoft admits "tough to drive ROI"
+- Core capabilities: [Top 3-4 actual functions]
+- Unique features: [Top 2-3 differentiators]
+- Limitations: [Top 2-3 things it CANNOT do]
+- Gaps vs claims: [Top 2-3 marketing vs reality]
 
-### Phase 3 Research Library
-<!-- 🔴 ADD each URL here IMMEDIATELY after visiting during Phase 3 -->
-<!-- 📂 If evidence/research_library_chunk3.md exists, COPY its contents here first -->
+### Phase 3 Research Library - Technical Reality
+**📁 Full research documented in: `evidence/phase3_technical_reality.md`**
 
-**📁 Phase 3 Analysis (BUPAF Scoring & Sales Enablement) documented in: `evidence/phase3_research_library.md`**
+Key findings from Phase 3:
+- Performance: [Top 2-3 performance/scalability issues]
+- Integration: [Top 2-3 API/integration limitations]
+- Competition: [Top 2-3 competitive weaknesses]
+- Economics: [Top 2-3 cost/ROI concerns]
 
-Key outcomes from Phase 3:
-- BUPAF Score: 14/50 (Category D - Marketing Mirage)
-- Created comprehensive sales playbook with displacement strategy
-- Generated executive brief with risk assessment
-- Updated battle card with 97% failure rate as key weakness
-- Documented top 5 fatal flaws with customer evidence
+### Phase 4 Research Library - Sales Enablement
+**📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
+
+Key findings from Phase 4:
+- BUPAF Score: [Total score and category]
+- Fatal flaws: [Top 2-3 deal breakers]
+- Sales positioning: [Key differentiation points]
 
 ---
 
@@ -581,10 +489,11 @@ Key outcomes from Phase 3:
 - [ ] `research/bupaf_evidence.md` - Scoring rationale
 
 ### Evidence Collection
-- [ ] `evidence/customer_quotes.md` - Direct quotes with context
-- [ ] `evidence/community_sources.md` - Forum/Reddit findings
-- [ ] `evidence/research_library.md` - Complete URL library with summaries
-- [ ] **SAVE RESEARCH LIBRARY**: Copy all Research Library sections below to `evidence/research_library.md`
+- [ ] `evidence/phase1_research_library.md` - Phase 1 research with all URLs and findings
+- [ ] `evidence/phase2_research_library.md` - Phase 2 technical research documentation
+- [ ] `evidence/phase3_research_library.md` - Phase 3 analysis and evidence
+- [ ] `evidence/customer_quotes.md` - Consolidated key quotes from all phases
+- [ ] `evidence/community_sources.md` - Forum/Reddit findings summary
 
 ### Sales Enablement
 - [ ] `BATTLE_CARD.md` - Updated with customer stories

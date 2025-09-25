@@ -1,7 +1,7 @@
-# ThoughtSpot Research Checklist - Complete Protocol
+# Competitor Research Template - Complete Protocol
 
-**Time**: 90-120 minutes for comprehensive, evidence-based competitive intelligence
-**Quality**: Enterprise-grade with implementation stories, quantified data, and research library
+**Time**: 120-150 minutes for comprehensive, evidence-based competitive intelligence
+**Quality**: Enterprise-grade with functionality mapping, implementation stories, quantified data, and research library
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
@@ -26,9 +26,10 @@
 
 ### 4. RESEARCH LIBRARY ORGANIZATION
 **All research is stored in separate files for better organization:**
-- **Phase 1**: Create `evidence/phase1_research_library.md`
-- **Phase 2**: Create `evidence/phase2_research_library.md`
-- **Phase 3**: Create `evidence/phase3_research_library.md`
+- **Phase 1**: Create `evidence/phase1_customer_discovery.md`
+- **Phase 2**: Create `evidence/phase2_functionality_analysis.md`
+- **Phase 3**: Create `evidence/phase3_technical_reality.md`
+- **Phase 4**: Create `evidence/phase4_sales_enablement.md`
 - **In main checklist**: Reference each file with 5-8 key findings summary
 - **Benefit**: Keeps checklist clean and research fully documented
 
@@ -36,44 +37,48 @@
 ### Overall Progress
 - [ ] Archive recovery completed
 - [ ] Customer discovery completed (17 searches)
+- [ ] Functionality analysis completed (15 searches)
 - [ ] Technical analysis completed (24 searches)
 - [ ] BUPAF scoring completed with evidence
-- [X] Battle card updated
+- [ ] Battle card updated
 - [ ] Sales materials created
 - [ ] Research library fully documented
 
 ### Phase Status (Mark X to reset phase)
 - [ ] Reset Phase 1: Customer Discovery & Stories
-- [ ] Reset Phase 2: Technical Reality & Competitive Context
-- [ ] Reset Phase 3: Analysis & Sales Enablement
+- [ ] Reset Phase 2: Functionality Deep Dive
+- [ ] Reset Phase 3: Technical Reality & Competitive Context
+- [ ] Reset Phase 4: Analysis & Sales Enablement
 
 ### Last Research Date
 - **Phase 1**: Never / [Date]
 - **Phase 2**: Never / [Date]
 - **Phase 3**: Never / [Date]
+- **Phase 4**: Never / [Date]
 
 ---
 
 ## PHASE 0: Existing Assets Check (5 minutes)
 
 ### Archive & Evidence Recovery
-- [ ] Checked `../../archive/` for any ThoughtSpot related files
-- [ ] Checked `../../evidence/` for existing ThoughtSpot content
+- [ ] Checked `../../archive/` for any thoughtspot related files
+- [ ] Checked `../../evidence/` for existing thoughtspot content
 - [ ] Listed all existing files in `competitors/thoughtspot/` directory
-- [X] Read existing `README.md` if exists
-- [X] Read existing `BATTLE_CARD.md` if exists
-- [X] Read all files in `research/` subdirectory if exists
-- [X] Read all files in `evidence/` subdirectory if exists
+- [ ] Read existing `README.md` if exists
+- [ ] Read existing `BATTLE_CARD.md` if exists
+- [ ] Read all files in `research/` subdirectory if exists
+- [ ] Read all files in `evidence/` subdirectory if exists
+- [ ] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
 - [ ] Documented what was recovered in `research/existing_research.md`
 
 ### Existing Research Inventory
 ```
 Files Found:
-- [X] README.md exists
-- [X] BATTLE_CARD.md exists
-- [X] research/ folder exists with 5 files
-- [X] evidence/ folder exists with 2 files
-- [ ] outputs/ folder exists with 0 files
+- [ ] README.md exists
+- [ ] BATTLE_CARD.md exists
+- [ ] research/ folder exists with ___ files
+- [ ] evidence/ folder exists with ___ files
+- [ ] outputs/ folder exists with ___ files
 - [ ] Archive contained: [list any recovered files]
 ```
 
@@ -90,10 +95,10 @@ Files Found:
 ### 1A: Customer Review Mining (10 minutes)
 Execute these WebSearch queries:
 
-- [ ] **Search 1**: "site:g2.com ThoughtSpot 1 star 2 star reviews implementation disaster"
-- [ ] **Search 2**: "site:capterra.com ThoughtSpot negative review switching from"
-- [ ] **Search 3**: "site:trustradius.com ThoughtSpot disappointed regret choosing"
-- [ ] **Search 4**: "ThoughtSpot implementation failed timeline overrun consultant expensive"
+- [ ] **Search 1**: "site:g2.com thoughtspot 1 star 2 star reviews implementation disaster"
+- [ ] **Search 2**: "site:capterra.com thoughtspot negative review switching from"
+- [ ] **Search 3**: "site:trustradius.com thoughtspot disappointed regret choosing"
+- [ ] **Search 4**: "thoughtspot implementation failed timeline overrun consultant expensive"
 
 **📝 IMPORTANT - For EVERY search and EVERY URL visited**:
 1. **IMMEDIATELY** document in the Research Library section at the bottom of this file
@@ -110,29 +115,29 @@ Execute these WebSearch queries:
 
 ### 1B: Reddit & Community Deep Dive (10 minutes)
 
-- [ ] **Search 5**: "site:reddit.com r/BusinessIntelligence ThoughtSpot problems limitations"
-- [ ] **Search 6**: "site:reddit.com r/analytics ThoughtSpot switching from because"
-- [ ] **Search 7**: "site:reddit.com ThoughtSpot horror story disaster experience"
-- [ ] **Search 8**: "site:community.fabric.microsoft.com ThoughtSpot error doesn't work"
+- [ ] **Search 5**: "site:reddit.com r/BusinessIntelligence thoughtspot problems limitations"
+- [ ] **Search 6**: "site:reddit.com r/analytics thoughtspot switching from because"
+- [ ] **Search 7**: "site:reddit.com thoughtspot horror story disaster experience"
+- [ ] **Search 8**: "site:community.fabric.microsoft.com thoughtspot error doesn't work"
 
 **Goal**: Find real user frustrations, specific error messages, switching decisions
 
 ### 1C: LinkedIn & Professional Networks (8-10 minutes)
 
-- [ ] **Search 9**: "site:linkedin.com ThoughtSpot disappointed moving from consultant"
-- [ ] **Search 10**: "site:linkedin.com data analyst BI manager ThoughtSpot challenges"
-- [ ] **Search 11**: "ThoughtSpot consultant blog implementation challenges timeline"
-- [ ] **Search 12**: "ThoughtSpot systems integrator lessons learned failed project"
+- [ ] **Search 9**: "site:linkedin.com thoughtspot disappointed moving from consultant"
+- [ ] **Search 10**: "site:linkedin.com data analyst BI manager thoughtspot challenges"
+- [ ] **Search 11**: "thoughtspot consultant blog implementation challenges timeline"
+- [ ] **Search 12**: "thoughtspot systems integrator lessons learned failed project"
 
 **Focus**: Professional insights, consultant perspectives, enterprise challenges
 
 ### 1D: Industry Vertical Deep Dive (8-10 minutes)
 
-- [ ] **Search 13**: "ThoughtSpot healthcare HIPAA compliance audit failed"
-- [ ] **Search 14**: "ThoughtSpot financial services SOX regulatory problems"
-- [ ] **Search 15**: "ThoughtSpot retail real-time inventory scalability issues"
-- [ ] **Search 16**: "ThoughtSpot manufacturing plant floor data integration"
-- [ ] **Search 17**: "ThoughtSpot government security clearance restrictions"
+- [ ] **Search 13**: "thoughtspot healthcare HIPAA compliance audit failed"
+- [ ] **Search 14**: "thoughtspot financial services SOX regulatory problems"
+- [ ] **Search 15**: "thoughtspot retail real-time inventory scalability issues"
+- [ ] **Search 16**: "thoughtspot manufacturing plant floor data integration"
+- [ ] **Search 17**: "thoughtspot government security clearance restrictions"
 
 **Goal**: Find industry-specific deal-breakers, compliance failures, regulatory issues
 
@@ -151,62 +156,140 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 2: Technical Reality & Competitive Context (30-35 minutes)
+## PHASE 2: Functionality Deep Dive (35-40 minutes)
 
-### ⚠️ PRE-PHASE 2 CHECK (2 minutes)
-- [ ] **FIRST**: Read the Phase 2 Research Library section below
-- [ ] **IDENTIFY**: Which technical searches have already been completed
+### ⚠️ CRITICAL: STRATEGIC CAPABILITY ASSESSMENT
+**This phase maps competitor capabilities against Scoop's core differentiators**
+
+### Pre-Phase 2: Review Scoop's Core Differentiators (3 minutes)
+- [ ] **READ**: Review SCOOP_CAPABILITIES.md for key differentiators
+- [ ] **FOCUS**: Keep these in mind during all searches:
+  - Excel Formula Engine (150+ functions)
+  - Automatic ML Discovery (J48, JRip, EM Clustering)
+  - Multi-Pass Investigation (3-10 queries)
+  - Visual Intelligence (AI presentations)
+  - 30-Second Workflow Integration
+
+### 2A: Documentation & Core Functionality (10 minutes)
+- [ ] **Documentation Review**: Visit thoughtspot.com/docs or help.thoughtspot.com
+  - [ ] Read getting started guide
+  - [ ] Review feature overview/capabilities page
+  - [ ] Check API documentation overview
+  - [ ] Note any "What's New" or recent releases
+- [ ] **Search 1**: "thoughtspot demo walkthrough tutorial" official capabilities
+- [ ] **Search 2**: "thoughtspot documentation" feature list complete overview
+- [ ] **Search 3**: "thoughtspot use cases" real world applications
+- [ ] **Search 4**: "thoughtspot workflow" end-to-end process
+
+### 2B: Business User Empowerment Assessment (12 minutes)
+**Compare each capability to Scoop's differentiators**
+
+- [ ] **Search 5**: "thoughtspot Excel integration" formula support export
+  - Compare to Scoop's 150+ native Excel functions
+- [ ] **Search 6**: "thoughtspot natural language" query capabilities NLP
+  - Compare to Scoop's multi-pass investigation
+- [ ] **Search 7**: "thoughtspot machine learning" AI automated analysis
+  - Compare to Scoop's automatic ML (J48, JRip, EM)
+- [ ] **Search 8**: "thoughtspot self-service" business users no code
+  - Compare to Scoop's 30-second setup
+- [ ] **Search 9**: "thoughtspot PowerPoint Slack integration" workflow
+  - Compare to Scoop's native workflow integration
+- [ ] **Search 10**: "thoughtspot root cause analysis" investigation why
+  - Compare to Scoop's multi-hypothesis testing
+
+### 2C: Gap Analysis & Limitations (8 minutes)
+- [ ] **Search 11**: "thoughtspot limitations" cannot do missing features
+- [ ] **Search 12**: "thoughtspot vs Scoop" comparison (if exists)
+- [ ] **Search 13**: "thoughtspot requires IT" technical expertise needed
+- [ ] **Search 14**: "thoughtspot training certification" learning curve
+- [ ] **Search 15**: "thoughtspot setup time" implementation duration
+
+### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
+For each capability found, document with BUPAF lens:
+```markdown
+**Capability**: [Name of feature/function]
+**What It Does**: [Clear description of functionality]
+**How It Works**: [Technical mechanism if known]
+**Business User Empowerment**: [Can business users use this alone? Scale 1-10]
+**vs Scoop Equivalent**: [How does this compare to Scoop's approach?]
+**Gaps/Limitations**: [What it can't do that Scoop can]
+**Evidence**: [URL/source - especially documentation]
+```
+
+#### Key Questions for Each Capability:
+1. Can a business user do this WITHOUT IT help?
+2. Does it require training/certification?
+3. How long from question to answer?
+4. Does it work in user's existing tools (Excel/Slack/PPT)?
+5. Can it investigate WHY, not just WHAT?
+
+### Phase 2 Output Files
+- [ ] Created `evidence/phase2_functionality_analysis.md`
+- [ ] Documented 10+ capabilities WITH Scoop comparisons
+- [ ] Identified gaps in Excel support (vs 150+ functions)
+- [ ] Identified gaps in ML capabilities (vs automatic ML)
+- [ ] Identified gaps in investigation (vs multi-pass)
+- [ ] Identified gaps in workflow (vs 30-second integration)
+- [ ] Created competitive gap matrix for sales team
+
+---
+
+## PHASE 3: Technical Reality & Competitive Context (30-35 minutes)
+
+### ⚠️ PRE-PHASE 3 CHECK (2 minutes)
+- [ ] **FIRST**: Review Phase 2 functionality findings
+- [ ] **IDENTIFY**: Technical claims to verify from Phase 2
 - [ ] **MARK**: Check off any searches that are already well-documented
-- [ ] **PROCEED**: Focus on gaps in technical evidence
+- [ ] **PROCEED**: Focus on validating/invalidating functionality claims
 
-### 2A: Technical Performance Analysis (12-15 minutes)
+### 3A: Technical Performance Analysis (12-15 minutes)
 
 #### Performance Quantification
-- [ ] **Search 18**: "ThoughtSpot slow performance response time seconds query"
-- [ ] **Search 19**: "ThoughtSpot memory requirements GB RAM crashes"
-- [ ] **Search 20**: "ThoughtSpot concurrent users limit scalability testing"
-- [ ] **Search 21**: "ThoughtSpot database timeout connection errors"
-- [ ] **Search 22**: "ThoughtSpot uptime downtime SLA breach outage"
+- [ ] **Search 18**: "thoughtspot slow performance response time seconds query"
+- [ ] **Search 19**: "thoughtspot memory requirements GB RAM crashes"
+- [ ] **Search 20**: "thoughtspot concurrent users limit scalability testing"
+- [ ] **Search 21**: "thoughtspot database timeout connection errors"
+- [ ] **Search 22**: "thoughtspot uptime downtime SLA breach outage"
 
 **📝 REMEMBER**: Document EVERY URL visited in the Research Library section (bottom of file) AS YOU GO
 **Goal**: Get specific numbers - response times, memory needs, user limits, uptime stats
 
 #### Integration Reality Check
-- [ ] **Search 23**: "ThoughtSpot API rate limits throttling developers"
-- [ ] **Search 24**: "ThoughtSpot SSO integration broken SAML authentication"
-- [ ] **Search 25**: "ThoughtSpot mobile app terrible performance user"
-- [ ] **Search 26**: "ThoughtSpot embedding iframe security CSP issues"
-- [ ] **Search 27**: "ThoughtSpot REST API documentation incomplete missing"
+- [ ] **Search 23**: "thoughtspot API rate limits throttling developers"
+- [ ] **Search 24**: "thoughtspot SSO integration broken SAML authentication"
+- [ ] **Search 25**: "thoughtspot mobile app terrible performance user"
+- [ ] **Search 26**: "thoughtspot embedding iframe security CSP issues"
+- [ ] **Search 27**: "thoughtspot REST API documentation incomplete missing"
 
 **Focus**: Real developer pain points, integration failures, technical debt
 
-### 2B: Competitive Positioning Research (10-12 minutes)
+### 3B: Competitive Positioning Research (10-12 minutes)
 
 #### Direct Competitive Intelligence
-- [ ] **Search 28**: "ThoughtSpot vs Tableau why customers switch"
-- [ ] **Search 29**: "ThoughtSpot vs ThoughtSpot RFP evaluation lost deal"
-- [ ] **Search 30**: "ThoughtSpot vs Qlik comparison customers choose alternative"
-- [ ] **Search 31**: "ThoughtSpot losing market share declining adoption 2024 2025"
+- [ ] **Search 28**: "thoughtspot vs Tableau why customers switch"
+- [ ] **Search 29**: "thoughtspot vs ThoughtSpot RFP evaluation lost deal"
+- [ ] **Search 30**: "thoughtspot vs Qlik comparison customers choose alternative"
+- [ ] **Search 31**: "thoughtspot losing market share declining adoption 2024 2025"
 
 #### Analyst & Market Intelligence
-- [ ] **Search 32**: "ThoughtSpot Gartner customers complain disappointed"
-- [ ] **Search 33**: "ThoughtSpot Forrester critical assessment limitations"
-- [ ] **Search 34**: "ThoughtSpot analyst report customer feedback negative"
+- [ ] **Search 32**: "thoughtspot Gartner customers complain disappointed"
+- [ ] **Search 33**: "thoughtspot Forrester critical assessment limitations"
+- [ ] **Search 34**: "thoughtspot analyst report customer feedback negative"
 
 **Goal**: Position in market context, understand competitive losses
 
-### 2C: Economic Impact Deep Dive (8-10 minutes)
+### 3C: Economic Impact Deep Dive (8-10 minutes)
 
 #### Total Cost of Ownership Reality
-- [ ] **Search 35**: "ThoughtSpot hidden costs professional services implementation"
-- [ ] **Search 36**: "ThoughtSpot training required weeks months learning curve"
-- [ ] **Search 37**: "ThoughtSpot consultant fees implementation partner expensive"
-- [ ] **Search 38**: "ThoughtSpot maintenance overhead admin full-time required"
+- [ ] **Search 35**: "thoughtspot hidden costs professional services implementation"
+- [ ] **Search 36**: "thoughtspot training required weeks months learning curve"
+- [ ] **Search 37**: "thoughtspot consultant fees implementation partner expensive"
+- [ ] **Search 38**: "thoughtspot maintenance overhead admin full-time required"
 
 #### ROI and Value Realization
-- [ ] **Search 39**: "ThoughtSpot time to value months delayed insights"
-- [ ] **Search 40**: "ThoughtSpot ROI negative failed to deliver business value"
-- [ ] **Search 41**: "ThoughtSpot opportunity cost manual reporting workarounds"
+- [ ] **Search 39**: "thoughtspot time to value months delayed insights"
+- [ ] **Search 40**: "thoughtspot ROI negative failed to deliver business value"
+- [ ] **Search 41**: "thoughtspot opportunity cost manual reporting workarounds"
 
 **Focus**: True costs beyond licenses, delayed value realization
 
@@ -225,27 +308,32 @@ Execute these WebSearch queries:
 
 ---
 
-## PHASE 3: Analysis & Rich Sales Enablement (20-25 minutes)
+## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 3A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+
+**IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
 Score each dimension with specific evidence:
 
 #### Independence (Can business users work alone?)
-- [ ] Used customer quotes about IT dependency
-- [ ] Cited specific setup requirements (weeks/months)
-- [ ] Referenced consultant requirements
+- [ ] Referenced Phase 2: Documentation requirements, training needs
+- [ ] Used customer quotes about IT dependency (Phase 1)
+- [ ] Cited specific setup requirements (Phase 2 & 3)
+- [ ] Referenced consultant requirements (Phase 1 & 3)
 - [ ] **Score: ___/10** with 3+ evidence points
 
 #### Analytical Depth (Investigation vs single queries)
-- [ ] Used performance data (response times, errors)
+- [ ] Referenced Phase 2: ML/AI capabilities vs Scoop's automatic ML
+- [ ] Compared investigation depth from Phase 2 (single vs multi-pass)
+- [ ] Used performance data (response times, errors) from Phase 3
 - [ ] Cited accuracy issues, inconsistent results
-- [ ] Compared to Scoop's investigation capabilities
 - [ ] **Score: ___/10** with quantified limitations
 
 #### Workflow Integration (Excel, Slack, PowerPoint)
-- [ ] Documented specific integration failures
-- [ ] Used developer complaints about APIs
+- [ ] Referenced Phase 2: Excel support vs Scoop's 150+ functions
+- [ ] Documented workflow gaps from Phase 2
+- [ ] Used developer complaints about APIs (Phase 3)
 - [ ] Cited mobile/embedding limitations
 - [ ] **Score: ___/10** with technical evidence
 
@@ -264,22 +352,32 @@ Score each dimension with specific evidence:
 **TOTAL BUPAF SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
-### 3B: Rich Sales Materials Creation (8-10 minutes)
+### 4B: Competitive Capability Matrix (5 minutes)
+
+Create comparison table based on Phase 2 functionality findings:
+
+| Capability | thoughtspot | Scoop | Winner | Why |
+|------------|--------------|-------|--------|-----|
+| Excel Support | ❌/✅ [Phase 2 finding] | ✅ 150+ functions | Scoop/Them | [Evidence] |
+| ML/AI Analysis | ❌/✅ [Phase 2 finding] | ✅ Automatic ML | Scoop/Them | [Evidence] |
+| Investigation Depth | ❌/✅ [Phase 2 finding] | ✅ Multi-pass | Scoop/Them | [Evidence] |
+| Workflow Integration | ❌/✅ [Phase 2 finding] | ✅ 30-second | Scoop/Them | [Evidence] |
+| Business User Ready | ❌/✅ [Phase 2 finding] | ✅ No training | Scoop/Them | [Evidence] |
+
+### 4C: Rich Sales Materials Creation (5 minutes)
 
 #### Battle Card Update
-- [ ] **Top 5 Fatal Flaws** documented with customer story for each
-- [ ] **Pricing Reality** includes hidden costs breakdown
-- [ ] **Customer Horror Stories** - 3 best implementation disasters
-- [ ] **Industry Objections** - vertical-specific concerns documented
-- [ ] **Competitive Context** - how they lose to alternatives
+- [ ] **Top 5 Fatal Flaws** with functionality gaps from Phase 2
+- [ ] **Pricing Reality** includes capability limitations
+- [ ] **Customer Horror Stories** - linked to missing features
+- [ ] **Competitive Matrix** - completed above
 
 #### Customer-Facing Materials
-- [ ] **Case Study Comparisons** - "Customer X tried ThoughtSpot, switched to Scoop because..."
-- [ ] **ROI Calculator** - Compare true costs at different scales
-- [ ] **Risk Assessment** - Implementation risks, timeline dangers
-- [ ] **Industry Briefings** - Vertical-specific limitations
+- [ ] **Gap Analysis** - "They claim X but can't do Y" (Phase 2)
+- [ ] **ROI Calculator** - Factor in missing functionality costs
+- [ ] **Migration Guide** - From their limitations to our capabilities
 
-### 3C: Quality Assurance (4-5 minutes)
+### 4D: Quality Assurance (4-5 minutes)
 
 #### Evidence Verification
 - [ ] Every claim has customer quote or quantified data
@@ -323,27 +421,36 @@ Score each dimension with specific evidence:
 ---
 ```
 
-### Phase 1 Research Library
-**📁 Full research documented in: `evidence/phase1_research_library.md`**
+### Phase 1 Research Library - Customer Discovery
+**📁 Full research documented in: `evidence/phase1_customer_discovery.md`**
 
 Key findings from Phase 1:
 - Customer stories: [Top 2-3 implementation failures/complaints]
 - Industry verticals: [Top 2-3 industry-specific issues]
 - Community feedback: [Top 2-3 user frustrations]
 
-### Phase 2 Research Library
-**📁 Full research documented in: `evidence/phase2_research_library.md`**
+### Phase 2 Research Library - Functionality Analysis
+**📁 Full research documented in: `evidence/phase2_functionality_analysis.md`**
 
 Key findings from Phase 2:
+- Core capabilities: [Top 3-4 actual functions]
+- Unique features: [Top 2-3 differentiators]
+- Limitations: [Top 2-3 things it CANNOT do]
+- Gaps vs claims: [Top 2-3 marketing vs reality]
+
+### Phase 3 Research Library - Technical Reality
+**📁 Full research documented in: `evidence/phase3_technical_reality.md`**
+
+Key findings from Phase 3:
 - Performance: [Top 2-3 performance/scalability issues]
 - Integration: [Top 2-3 API/integration limitations]
 - Competition: [Top 2-3 competitive weaknesses]
 - Economics: [Top 2-3 cost/ROI concerns]
 
-### Phase 3 Research Library
-**📁 Full research documented in: `evidence/phase3_research_library.md`**
+### Phase 4 Research Library - Sales Enablement
+**📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
-Key findings from Phase 3:
+Key findings from Phase 4:
 - BUPAF Score: [Total score and category]
 - Fatal flaws: [Top 2-3 deal breakers]
 - Sales positioning: [Key differentiation points]
@@ -382,10 +489,11 @@ Key findings from Phase 3:
 - [ ] `research/bupaf_evidence.md` - Scoring rationale
 
 ### Evidence Collection
-- [ ] `evidence/customer_quotes.md` - Direct quotes with context
-- [ ] `evidence/community_sources.md` - Forum/Reddit findings
-- [ ] `evidence/research_library.md` - Complete URL library with summaries
-- [ ] **SAVE RESEARCH LIBRARY**: Copy all Research Library sections below to `evidence/research_library.md`
+- [ ] `evidence/phase1_research_library.md` - Phase 1 research with all URLs and findings
+- [ ] `evidence/phase2_research_library.md` - Phase 2 technical research documentation
+- [ ] `evidence/phase3_research_library.md` - Phase 3 analysis and evidence
+- [ ] `evidence/customer_quotes.md` - Consolidated key quotes from all phases
+- [ ] `evidence/community_sources.md` - Forum/Reddit findings summary
 
 ### Sales Enablement
 - [ ] `BATTLE_CARD.md` - Updated with customer stories
