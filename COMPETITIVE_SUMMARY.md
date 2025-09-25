@@ -15,8 +15,8 @@
 
 ### 1. **Verifiable Battle Cards** (11 Competitors)
 Every claim backed by URLs prospects can verify themselves:
-- **Power BI Copilot**: Microsoft admits "nondeterministic behavior" 
-- **Tableau Pulse**: Breaks on schema changes (400 errors documented)
+- **Power BI Copilot**: ZERO Excel formulas, cannot investigate "why" (one question at a time)
+- **Tableau Pulse**: ZERO Excel support, time-series prison, PowerPoint requires Rollstack
 - **Snowflake Cortex**: $1.6M/year with complete vendor lock-in
 - **Sisense**: 400% renewal increases (multiple sources)
 - **Qlik**: Zero adoption per consultants
@@ -27,13 +27,14 @@ Every claim backed by URLs prospects can verify themselves:
 - **Zenlytic**: YAML configuration nightmare
 - **DataChat**: Legitimate but no traction
 
-### 2. **Evidence Vault** 
+### 2. **Evidence Vault**
 60+ verified sources including:
 - Official vendor documentation admitting limitations
 - Customer complaints from G2, Reddit, TrustRadius
 - Pricing documentation showing hidden costs
 - Community forums revealing adoption failures
-- **NEW: Cortex Analyst requires Python environment, can't even test without dev setup**
+- **NEW: Phase 2 Functionality Deep Dive reveals NO Excel support in Power BI or Tableau**
+- **NEW: Both Power BI and Tableau cannot do multi-pass investigation**
 
 ### 3. **Business User Liberation Narrative**
 Powerful positioning that resonates:
@@ -82,8 +83,8 @@ Scoop at 38/50 (76%) - credible because:
 
 ### Discovery Questions That Win
 For each competitor, we have 3 killer questions:
-- **Power BI**: "What does Microsoft mean by nondeterministic?"
-- **Tableau**: "What happens when you add a column?"
+- **Power BI**: "Can you use Excel formulas with Copilot? (No, zero support)"
+- **Tableau**: "Can Pulse analyze point-in-time data? (No, time-series only)"
 - **Snowflake**: "What's your total Cortex cost?"
 - **Sisense**: "What was your last renewal increase?"
 - **Qlik**: "What percentage use Insight Advisor?"
