@@ -2,7 +2,7 @@
 
 **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
 **Parent**: Salesforce
-**Key Weakness**: Cloud-only (Server abandoned) + Admitted hallucinations
+**Key Weakness**: Zero Excel support + Cannot investigate "Why"
 **Last Updated**: September 25, 2025
 
 ---
@@ -15,21 +15,21 @@
 5. "What happens when your schema changes?" (400 errors)
 
 ## Top 5 Fatal Flaws
-1. **Server Abandoned**: Pulse Cloud-only, Server users lost Ask Data/Metrics
-2. **Admitted Hallucinations**: "Occasional hallucinations may occur" - official docs
-3. **$50k/Month Scale**: 500 users = $50,000+ monthly
-4. **400 Error Plague**: Schema changes break all metrics
-5. **Manual Everything**: No scheduling, no automation
+1. **ZERO Excel Formula Support**: No pivot tables, no formulas, requires third-party tools
+2. **Cannot Investigate "Why"**: Only "progressive Q&A" - no multi-pass investigation
+3. **PowerPoint Requires Rollstack**: Additional $$ for basic export functionality
+4. **Time-Series Prison**: Requires daily/weekly data with time dimension
+5. **Cloud-Only + Schema Breaks**: Server abandoned, 400 errors on any change
 
 ## Head-to-Head
 
 | Factor | Tableau Pulse | Scoop | Your Win |
 |--------|---------------|-------|----------|
-| Real AI | ❌ Embedding models | ✅ LLM + ML | "Not real AI by their admission" |
-| Schema Evolution | ❌ Breaks on changes | ✅ Automatic | "Add a column, everything breaks" |
-| Investigation | ❌ Single metrics | ✅ Multi-hypothesis | "Can't answer WHY" |
-| Setup Time | Weeks/Months | 30 seconds | "Immediate value" |
-| Business Users | ❌ Need Tableau first | ✅ Independent | "Dashboard prison" |
+| Excel Support | ❌ ZERO formulas | ✅ 150+ functions | "Can't even do VLOOKUP" |
+| ML Models | ❌ Detection only | ✅ J48, JRip, EM | "Trends vs actual ML" |
+| Investigation | ❌ Progressive Q&A | ✅ Multi-pass (3-10) | "Guided tour vs root cause" |
+| PowerPoint | ❌ Rollstack required | ✅ Native | "Extra $$ for basics" |
+| Data Flexibility | ❌ Time-series only | ✅ Any data | "Can't analyze point-in-time" |
 
 ## Workflow Integration Gap
 
