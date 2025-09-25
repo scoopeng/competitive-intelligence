@@ -1,0 +1,54 @@
+{
+  "name": "domo",
+  "timestamp": "2025-09-24T02:42:52.018089",
+  "research": {
+    "website": {
+      "url": "https://www.domo.com/",
+      "checked": "2025-09-24T02:42:52.018092",
+      "status": "TO_IMPLEMENT: Use WebFetch to check actual site"
+    },
+    "reviews": {
+      "sources": {
+        "g2": "https://www.g2.com/search?query=domo",
+        "capterra": "https://www.capterra.com/search/?search=domo",
+        "trustradius": "https://www.trustradius.com/search?q=domo"
+      },
+      "status": "TO_IMPLEMENT: Use WebFetch to gather actual reviews",
+      "sample_search": "Find negative reviews for domo on G2"
+    },
+    "pricing": {
+      "status": "TO_IMPLEMENT: Search for real pricing",
+      "pricing_page": "Check domo pricing page",
+      "enterprise_pricing": "Look for hidden costs"
+    },
+    "limitations": {
+      "known_issues": [
+        "Portal prison - can't export",
+        "Expensive at scale"
+      ],
+      "evidence_needed": "Find documentation and user complaints"
+    }
+  },
+  "bupaf": {
+    "independence": {
+      "score": 0,
+      "evidence": "Need to research"
+    },
+    "analytical_depth": {
+      "score": 0,
+      "evidence": "Need to test"
+    },
+    "workflow_integration": {
+      "score": 0,
+      "evidence": "Check integrations"
+    },
+    "business_communication": {
+      "score": 0,
+      "evidence": "Review outputs"
+    },
+    "visual_intelligence": {
+      "score": 0,
+      "evidence": "Check visualizations"
+    }
+  }
+}

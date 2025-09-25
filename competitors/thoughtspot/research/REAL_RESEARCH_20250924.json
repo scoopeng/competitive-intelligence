@@ -1,0 +1,54 @@
+{
+  "name": "thoughtspot",
+  "timestamp": "2025-09-24T02:42:52.017841",
+  "research": {
+    "website": {
+      "url": "https://www.thoughtspot.com/",
+      "checked": "2025-09-24T02:42:52.017844",
+      "status": "TO_IMPLEMENT: Use WebFetch to check actual site"
+    },
+    "reviews": {
+      "sources": {
+        "g2": "https://www.g2.com/search?query=thoughtspot",
+        "capterra": "https://www.capterra.com/search/?search=thoughtspot",
+        "trustradius": "https://www.trustradius.com/search?q=thoughtspot"
+      },
+      "status": "TO_IMPLEMENT: Use WebFetch to gather actual reviews",
+      "sample_search": "Find negative reviews for thoughtspot on G2"
+    },
+    "pricing": {
+      "status": "TO_IMPLEMENT: Search for real pricing",
+      "pricing_page": "Check thoughtspot pricing page",
+      "enterprise_pricing": "Look for hidden costs"
+    },
+    "limitations": {
+      "known_issues": [
+        "33.3% accuracy in benchmarks",
+        "High learning curve"
+      ],
+      "evidence_needed": "Find documentation and user complaints"
+    }
+  },
+  "bupaf": {
+    "independence": {
+      "score": 0,
+      "evidence": "Need to research"
+    },
+    "analytical_depth": {
+      "score": 0,
+      "evidence": "Need to test"
+    },
+    "workflow_integration": {
+      "score": 0,
+      "evidence": "Check integrations"
+    },
+    "business_communication": {
+      "score": 0,
+      "evidence": "Review outputs"
+    },
+    "visual_intelligence": {
+      "score": 0,
+      "evidence": "Check visualizations"
+    }
+  }
+}
