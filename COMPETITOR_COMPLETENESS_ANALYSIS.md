@@ -55,24 +55,26 @@ competitors/[name]/
 
 ---
 
-### 📊 Domo - 70% Complete
-**Files**: 12 documents including analysis
-**Structure**: ⚠️ Has some depth but needs organization
-**BUPAF**: ✅ Scored (29/50)
-**Battle Card**: ✅ Complete
-**Evidence**: ✅ Portal prison well documented
-**Outputs**: ❌ No web content
+### ✅ Domo - 90% Complete (UPDATED)
+**Files**: 18+ documents with deep research
+**Structure**: ✅ Full evidence/ folder with 4 phases
+**BUPAF**: ✅ Evidence-based score (18/50)
+**Battle Card**: ✅ Updated with killer evidence
+**Evidence**: ✅ All 4 phases documented
+**Outputs**: ❌ No web content yet
 **Tests**: ❌ No technical validation
 
 **Strengths**:
-- Good "portal prison" narrative
-- AI capabilities analyzed
-- Pricing shock documented
+- Complete 4-phase research executed
+- "1% of revenue" quote documented
+- Excel formula disability confirmed
+- 1120% renewal increase found
+- Performance issues quantified (30-60 sec)
 
 **Gaps**:
-- Need more technical architecture details
-- Missing customer quotes
-- No test validation
+- Need web-ready outputs
+- Could use technical validation
+- Outputs folder empty
 
 ---
 
@@ -221,18 +223,18 @@ competitors/[name]/
 | Competitor | Research | BUPAF | Evidence | Outputs | Overall |
 |-----------|----------|--------|----------|---------|---------|
 | Snowflake Cortex | 95% | ✅ | 90% | 0% | **95%** |
-| Domo | 70% | ✅ | 70% | 0% | **70%** |
+| Domo | 95% | ✅ | 95% | 0% | **90%** |
+| Zenlytic | 100% | ✅ | 100% | 0% | **85%** |
 | Power BI | 30% | ✅ | 40% | 0% | **40%** |
 | Tableau | 30% | ✅ | 40% | 0% | **40%** |
 | ThoughtSpot | 10% | ✅ | 20% | 0% | **25%** |
 | Tellius | 10% | ✅ | 10% | 0% | **15%** |
-| Zenlytic | 100% | ✅ | 100% | 0% | **85%** |
 | DataGPT | 10% | ✅ | 10% | 0% | **15%** |
 | Sisense | 10% | ✅ | 20% | 0% | **15%** |
 | Qlik | 10% | ✅ | 10% | 0% | **15%** |
 | DataChat | 10% | ✅ | 10% | 0% | **15%** |
 
-**Repository Average**: ~30% Complete
+**Repository Average**: ~40% Complete (up from 30%)
 
 ---
 

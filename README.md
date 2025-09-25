@@ -1,6 +1,19 @@
 # Scoop Competitive Intelligence Repository
 
-## 🔥 Latest: Snowflake Cortex Analyst Testing COMPLETED (Jan 2025)
+## 🔥 Latest Updates (September 2025)
+
+### Domo Deep Research COMPLETED
+- **BUPAF Score**: Adjusted from 29 to 18 based on evidence
+- **Killer Finding**: "1% of company revenue" - actual customer quote
+- **Fatal Flaw**: Excel formulas explicitly disabled for security
+- **Performance**: 30-60 seconds just to open analyzer
+
+### Zenlytic Research COMPLETED
+- **BUPAF Score**: 18/50 (Category C)
+- **Key Gap**: Zero Excel support vs Scoop's 150+ functions
+- **Pain Point**: YAML configuration for everything
+
+## Previous: Snowflake Cortex Analyst Testing COMPLETED (Jan 2025)
 
 **Major Discovery**: After 4+ hours of setup, Cortex Analyst is NOT available on trial accounts!
 
