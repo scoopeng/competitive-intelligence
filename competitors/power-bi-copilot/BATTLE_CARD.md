@@ -16,35 +16,36 @@
 
 ## Top 5 Fatal Flaws (With Evidence)
 
-1. **97% Failure Rate (Gartner Survey)**
-   - Only 3% of 123 IT leaders found significant value
-   - 75% report employees struggle to integrate into workflows
-   - 53% report too many inaccurate results
-   - Source: Gartner survey 2025
+1. **NO Excel Formula Support - Zero**
+   - Power BI Copilot has ZERO Excel formula execution
+   - Cannot understand VLOOKUP, SUMIFS, or any Excel functions
+   - Separate $30/user Excel Copilot product required
+   - Source: Phase 2 functionality analysis
 
-2. **No REST APIs - Integration Impossible**
-   - "No dedicated Copilot REST APIs exist"
-   - Cannot embed in applications
-   - "App Owns Data" scenarios unsupported
+2. **Cannot Investigate "Why" - Single Query Only**
+   - "Copilot doesn't answer follow-up questions. One question at a time"
+   - No multi-pass investigation capability
+   - "Can't currently answer questions that require generating new insights"
    - Source: Microsoft documentation
 
-3. **Infrastructure Tax: $60,000/year minimum**
-   - Requires F64 Fabric or P1+ Premium capacity
-   - PPU licenses ($20/user) do NOT include Copilot
+3. **No Slack Integration - Microsoft Lock-in**
+   - Zero Slack integration capabilities
+   - PowerPoint requires separate add-in installation
+   - Teams/SharePoint only - vendor lock-in strategy
+   - Source: Integration research findings
+
+4. **97% Failure Rate (Gartner Survey)**
+   - Only 3% of 123 IT leaders found significant value
+   - 53% report too many inaccurate results
+   - "Reality is surreal - tool that says 'FYI, I can't be trusted'"
+   - Source: Gartner survey 2025 + customer feedback
+
+5. **$60k Infrastructure Tax + Extensive Data Prep**
+   - Requires F64 Fabric capacity minimum
+   - "Data needs to be prepared to work with Copilot"
    - 24-hour delay for new capacity recognition
-   - Source: Microsoft Fabric pricing
-
-4. **Hallucinations in Financial Data**
-   - Microsoft warns: "LLMs can produce incorrect results or hallucinate"
-   - "Produces inaccurate results or blank stares" with complex data
-   - BI expert: "These mistakes can get you fired"
-   - Source: Microsoft documentation + customer reports
-
-5. **12% Initial Adoption Rate**
-   - $300M SaaS company: only 12% adoption before 30-day remediation
-   - Required extensive IT project to reach 84%
-   - Still shows salary data without restrictions
-   - Source: GoCollectiv case study
+   - PPU licenses ($20/user) explicitly excluded
+   - Source: Microsoft pricing + documentation
 
 ## Pricing Comparison (200 Users)
 
@@ -87,12 +88,12 @@
 
 | Factor | Power BI Copilot | Scoop | Your Win |
 |--------|------------------|-------|----------|
-| Reliability | ❌ Nondeterministic | ✅ Deterministic | "Same question, different answers = gambling" |
-| True Cost (200 users) | $100,992/year minimum | ~$178,800/year all-in | "Hidden $67k infrastructure tax" |
-| Excel Integration | ❌ Separate $30/user | ✅ Native =SCOOP() | "$6,000/year extra for Excel" |
-| Data Prep Time | ❌ 14+ weeks | ✅ Immediate | "Quarter wasted on prep work" |
-| Geographic Coverage | ❌ 11+ regions blocked | ✅ Global | "Your Dubai office can't use it" |
-| Investigation Depth | ❌ Surface reports | ✅ Root cause analysis | "Pretty charts vs actual answers" |
+| Excel Formulas | ❌ ZERO support | ✅ 150+ functions | "Learn DAX or use your Excel skills?" |
+| Investigation | ❌ Single query only | ✅ 3-10 pass analysis | "What happened vs WHY it happened" |
+| ML/AI | ❌ Manual setup required | ✅ Automatic ML | "Configure dataflows or just ask why?" |
+| Slack Integration | ❌ Not supported | ✅ Native | "Where does your team actually work?" |
+| Setup Time | ❌ Weeks of prep + 24hr wait | ✅ 30 seconds | "Quarter planning or quarter analyzing?" |
+| Business Users | ❌ Requires training | ✅ No training | "6-week rollout or 6-minute demo?" |
 
 ## Discovery Questions for Sales
 
