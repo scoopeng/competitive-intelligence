@@ -2,44 +2,48 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 🚨 CURRENT PROJECT: Deep Competitor Research with Claude CLI
+## 🚨 CURRENT PROJECT: Deep Competitor Research - Manual Execution
 
 ### The Strategy
-Use Claude CLI to execute comprehensive 3-chunk research process that produces customer-story-driven intelligence with quantified evidence.
+Execute comprehensive competitor research manually using a consolidated template that produces customer-story-driven intelligence with quantified evidence and maintains a complete research library.
 
-### The Architecture
+### The Approach
 ```
-Python Orchestrator → Claude CLI → 3 Deep Chunks → Rich Research Output
+Manual Research → Consolidated Template → 41+ Searches → Rich Research Output with URL Library
 ```
 
-### The 3-Chunk Deep Process (90-120 minutes per competitor)
-1. **CHUNK_1** - Deep Discovery & Customer Stories (40-50 min)
-   - Customer story mining via G2, Reddit, LinkedIn
+### The Research Process (90-120 minutes per competitor)
+1. **Phase 0** - Existing Assets Check (5 min)
+   - Check archive and existing research
+   - Inventory what's already known
+   - Build on existing work
+2. **Phase 1** - Deep Discovery & Customer Stories (40-50 min)
+   - Customer story mining via G2, Reddit, LinkedIn (17 searches)
    - Industry vertical analysis (healthcare, finance, retail, etc.)
    - Implementation horror stories and switching decisions
-2. **CHUNK_2** - Technical Reality & Competitive Context (30-35 min)
-   - Quantified performance data (response times, memory, limits)
+3. **Phase 2** - Technical Reality & Competitive Context (30-35 min)
+   - Quantified performance data (24 searches)
    - Competitive positioning research and win/loss analysis
    - True TCO including hidden costs and professional services
-3. **CHUNK_3** - Analysis & Rich Sales Enablement (20-25 min)
+4. **Phase 3** - Analysis & Rich Sales Enablement (20-25 min)
    - Evidence-based BUPAF scoring with customer quotes
    - Customer-story-driven battle cards and sales materials
    - Industry-specific objection handlers
 
 ### How to Execute
-```bash
-# Research one competitor (~90-120 minutes total)
-python3 claude_research_orchestrator.py --competitor tableau-pulse
-
-# Research all competitors
-python3 claude_research_orchestrator.py
+```
+1. Copy COMPETITOR_RESEARCH_TEMPLATE.md to competitors/[name]/RESEARCH_CHECKLIST.md
+2. Replace {COMPETITOR} with actual name throughout
+3. Work through the checklist systematically
+4. Build research library as you go (every URL investigated)
+5. Check off tasks as completed
+6. Can reset and re-run specific phases as needed
 ```
 
 ### Key Files
-- **MASTER_PLAN.md** - Complete strategy
-- **claude_research_orchestrator.py** - The orchestrator
-- **CHUNK_TEMPLATE.md** - Template for chunks
-- **competitors/[name]/CHUNK_*.md** - Per-competitor instructions
+- **COMPETITOR_RESEARCH_TEMPLATE.md** - Master research checklist
+- **competitors/[name]/RESEARCH_CHECKLIST.md** - Per-competitor tracking
+- **competitors/[name]/evidence/research_library.md** - URL documentation
 
 ## Repository Overview
 
