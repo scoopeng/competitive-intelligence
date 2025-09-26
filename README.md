@@ -9,15 +9,17 @@
 - **Location**: `competitors/power-bi-copilot/outputs/web_comparison.md`
 - **Ready for**: Webflow deployment with full AEO optimization
 
-### Web Comparison Framework PROVEN
-- **Templates**: `WEB_COMPARISON_TEMPLATE.md` - 150K character structure
-- **Process**: `WEB_COMPARISON_PHASED_EXECUTION.md` - 4-phase generation system
-- **Phase 1**: Foundation & Evidence (30-35K chars)
-- **Phase 2**: Capability Analysis (40-45K chars) 
-- **Phase 3**: Business Impact & ROI (35-40K chars)
-- **Phase 4**: Consolidation & AEO Optimization (150K final)
-- **Focus**: Credible, capability-driven comparisons showcasing Scoop's built features
-- **Output**: AEO-optimized for AI answer engines (ChatGPT, Perplexity, Google SGE)
+### Web Comparison Framework UPDATED (December 2025)
+- **Templates**: `WEB_COMPARISON_TEMPLATE.md` - Now with mandatory capability checklist
+- **Process**: `WEB_COMPARISON_PHASED_EXECUTION.md` - Enhanced 4-phase system
+- **Key Improvements**:
+  - 60/40 rule: Build up Scoop (60%) more than tear down competitor (40%)
+  - 40-item capability checklist ensures comprehensive coverage
+  - All 9 departments must be addressed
+  - Positive data team messaging throughout
+  - Agentic Analytics™ featured prominently
+- **Shared Components**: `competitors/SHARED/` - Reusable sections
+- **Output**: 150K+ chars, AEO-optimized for AI answer engines
 
 ## 📊 Recent Competitor Research
 

@@ -89,15 +89,42 @@ competitors/[name]/
 └── tests/                      # Any validation code
 ```
 
-### Web Content Generation (Phased Approach)
-For creating web-ready competitor comparisons, use the 4-phase execution framework:
+## Web Content Generation Framework (Updated December 2025)
 
-**Files to Use**:
-- `WEB_COMPARISON_TEMPLATE.md` - Final output structure (150K chars)
-- `WEB_COMPARISON_PHASED_EXECUTION.md` - Step-by-step process with checklists
+### Critical Learnings from Power BI Copilot Evaluation
+**Problem Identified**: Previous comparisons were 80% negative (tearing down competitor) and only 20% positive (building up Scoop). This missed key Scoop capabilities and narrowed audience appeal.
 
-**4-Phase Process**:
-1. **Phase 1**: Foundation & Evidence (30-35K chars) - Facts, pricing, documentation
+**Solution Implemented**: Templates now enforce:
+- **60/40 Rule**: 60% showcasing Scoop innovation, 40% competitor comparison
+- **Mandatory Capabilities Checklist**: 40 items that MUST be included
+- **All Departments Coverage**: 9 departments minimum
+- **Positive Data Team Messaging**: "We enable, not replace"
+
+### Files for Web Comparison Generation
+- **`WEB_COMPARISON_TEMPLATE.md`** - Master template with mandatory checklists (150K chars)
+- **`WEB_COMPARISON_PHASED_EXECUTION.md`** - 4-phase execution framework
+- **`competitors/SHARED/`** - Reusable components (Agentic Analytics section, checklist)
+
+### The 4-Phase Execution Framework
+1. **Phase 1**: Foundation & Scoop Revolution (35-40K chars)
+   - MUST lead with Agentic Analytics explanation
+   - Include Progressive Analysis modes (Quick/Deep)
+   - Show statistical validation examples
+   
+2. **Phase 2**: Capability Analysis (40-45K chars)
+   - Cover ALL 40 items from capability checklist
+   - List all 150+ Excel functions
+   - Explain ML with business rules output
+   
+3. **Phase 3**: Department & Industry Impact (40-45K chars)
+   - ALL 9 departments required
+   - Minimum 4 industries
+   - Positive data team enablement
+   
+4. **Phase 4**: Consolidation & Quality Check (150K+ final)
+   - Verify all checklists complete
+   - Ensure 60/40 positive ratio
+   - Professional tone throughout
 2. **Phase 2**: Capability Analysis (40-45K chars) - Features, architecture, Scoop advantages
 3. **Phase 3**: Business Impact (35-40K chars) - Scenarios, ROI, workflows
 4. **Phase 4**: Consolidation & AEO (150K final) - Merge, optimize for AI/SEO
@@ -124,6 +151,9 @@ For creating web-ready competitor comparisons, use the 4-phase execution framewo
 3. **BUPAF Guides**: Focus on business user empowerment
 4. **Credibility First**: Better to understate than exaggerate
 5. **Incremental Progress**: Small steps, checkpoint often
+6. **Build Up More Than Tear Down**: 60% Scoop innovation, 40% competitor gaps
+7. **Enable Don't Replace**: Positive messaging for data teams
+8. **Comprehensive Coverage**: All audiences, all capabilities
 
 ## Current Priorities
 
