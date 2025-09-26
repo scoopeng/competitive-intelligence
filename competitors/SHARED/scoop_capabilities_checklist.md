@@ -18,7 +18,7 @@
 - [ ] **=SCOOP() Excel function** - Direct spreadsheet integration
 - [ ] **REST API** - Full programmatic access
 - [ ] **100+ data sources** - List top 20 specifically
-- [ ] **Python/JavaScript SDKs** - Developer tools
+- [ ] **Embeddable Analytics** - Other SaaS providers can embed Scoop's chat interface
 
 ### ✅ ML & Statistical Features
 - [ ] **ML_RELATIONSHIP (J48)** - Decision trees with IF/THEN rules
