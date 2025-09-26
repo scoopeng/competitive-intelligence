@@ -12,13 +12,18 @@
 ### Web Comparison Framework UPDATED (December 2025)
 - **Templates**: `WEB_COMPARISON_TEMPLATE.md` - Now with mandatory capability checklist
 - **Process**: `WEB_COMPARISON_PHASED_EXECUTION.md` - Enhanced 4-phase system
+- **Shared Components**: `competitors/SHARED/` - Reusable sections with README guide
+  - `scoop_capabilities_checklist.md` - 40-item verification
+  - `agentic_analytics_section.md` - Multi-agent architecture content
+  - `embeddable_analytics_section.md` - SaaS embedding capabilities
 - **Key Improvements**:
   - 60/40 rule: Build up Scoop (60%) more than tear down competitor (40%)
   - 40-item capability checklist ensures comprehensive coverage
   - All 9 departments must be addressed
   - Positive data team messaging throughout
   - Agentic Analytics™ featured prominently
-- **Shared Components**: `competitors/SHARED/` - Reusable sections
+  - Embeddable Analytics replaces SDK references
+  - Framework documents now explicitly linked
 - **Output**: 150K+ chars, AEO-optimized for AI answer engines
 
 ## 📊 Recent Competitor Research

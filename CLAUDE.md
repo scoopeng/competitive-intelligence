@@ -102,8 +102,12 @@ competitors/[name]/
 
 ### Files for Web Comparison Generation
 - **`WEB_COMPARISON_TEMPLATE.md`** - Master template with mandatory checklists (150K chars)
-- **`WEB_COMPARISON_PHASED_EXECUTION.md`** - 4-phase execution framework
-- **`competitors/SHARED/`** - Reusable components (Agentic Analytics section, checklist)
+- **`WEB_COMPARISON_PHASED_EXECUTION.md`** - 4-phase execution framework with explicit SHARED/ references
+- **`competitors/SHARED/`** - Reusable components library:
+  - `README.md` - How to use shared components
+  - `scoop_capabilities_checklist.md` - 40-item mandatory verification
+  - `agentic_analytics_section.md` - Multi-agent architecture content
+  - `embeddable_analytics_section.md` - Platform embedding capabilities (NOT SDKs)
 
 ### The 4-Phase Execution Framework
 1. **Phase 1**: Foundation & Scoop Revolution (35-40K chars)
