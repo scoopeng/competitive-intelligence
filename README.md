@@ -28,6 +28,14 @@
 - **Key Gap**: Zero Excel support vs Scoop's 150+ functions
 - **Pain Point**: YAML configuration for everything
 
+### Sisense Deep Research COMPLETED (100%)
+- **BUPAF Score**: 12/50 (Category D - Marketing Mirage)
+- **Killer Finding**: 400% renewal price increases after 14-week lock-in
+- **Fatal Flaw**: ZERO Excel formulas, fake AI (ARIMA from 1970s)
+- **Performance**: 5-min timeouts, RAM crashes, weekly mobile reinstalls
+- **True Cost**: $89k/14 weeks implementation + $25k-327k/year
+- **Market Reality**: 0.01% market share, 13% layoffs in 2024
+
 ## Previous: Snowflake Cortex Analyst Testing COMPLETED (Jan 2025)
 
 **Major Discovery**: After 4+ hours of setup, Cortex Analyst is NOT available on trial accounts!
@@ -51,7 +59,7 @@
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
-**Completion**: 4 competitors at 100% (Snowflake, Power BI, Domo, Tableau)
+**Completion**: 6 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense)
 **Files**: 75+ research files, battle cards, and evidence documents
 
 ## Project Phases
@@ -189,7 +197,7 @@ Every competitive claim backed by:
 | 6 | Zenlytic | 18/50 | Analyst Workbench | YAML configuration |
 | 7 | Power BI | 14/50 | Marketing Mirage | No APIs, 97% failure |
 | 8 | Snowflake | 13/50 | Marketing Mirage | Not on trials, no ML |
-| 9 | Sisense | 12/50 | Marketing Mirage | 400% increases |
+| 9 | **Sisense** | 12/50 | Marketing Mirage | 400% increases, fake AI |
 | 10 | Tableau | 11/50 | Marketing Mirage | Schema breaks |
 | 11 | Qlik | 11/50 | Marketing Mirage | Zero adoption |
 | 12 | DataChat | 6/50 | Marketing Mirage | No traction |

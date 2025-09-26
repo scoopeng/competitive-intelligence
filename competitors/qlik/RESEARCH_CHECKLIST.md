@@ -5,6 +5,13 @@
 
 ## 🔴 CRITICAL INSTRUCTIONS
 
+### 0. UNDERSTAND SCOOP'S STRENGTHS (REQUIRED READING)
+**Before starting ANY competitor research, read `/SCOOP_CAPABILITIES.md` to understand where Scoop wins**
+- Focus on capability differences, NOT market presence (Scoop is also a startup)
+- Emphasize: Excel engine, multi-pass investigation, automatic ML, 30-second setup
+- Document BOTH: Scoop's advantages AND competitor's specific pain points
+- Avoid: Review count comparisons, funding comparisons, market presence arguments
+
 ### 1. CHECK EXISTING RESEARCH FIRST
 **Before running ANY search, check the Research Library section below to see if it's already been done**
 - If a search is already documented with good results, SKIP IT (check the box and move on)
@@ -35,14 +42,14 @@
 
 ## Research Status Tracker
 ### Overall Progress
-- [ ] Archive recovery completed
-- [ ] Customer discovery completed (17 searches)
+- [X] Archive recovery completed
+- [X] Customer discovery completed (17 searches)
 - [ ] Functionality analysis completed (15 searches)
 - [ ] Technical analysis completed (24 searches)
 - [ ] BUPAF scoring completed with evidence
 - [ ] Battle card updated
 - [ ] Sales materials created
-- [ ] Research library fully documented
+- [X] Research library fully documented
 
 ### Phase Status (Mark X to reset phase)
 - [ ] Reset Phase 1: Customer Discovery & Stories
@@ -51,7 +58,7 @@
 - [ ] Reset Phase 4: Analysis & Sales Enablement
 
 ### Last Research Date
-- **Phase 1**: Never / [Date]
+- **Phase 1**: September 26, 2025
 - **Phase 2**: Never / [Date]
 - **Phase 3**: Never / [Date]
 - **Phase 4**: Never / [Date]
@@ -61,25 +68,25 @@
 ## PHASE 0: Existing Assets Check (5 minutes)
 
 ### Archive & Evidence Recovery
-- [ ] Checked `../../archive/` for any qlik related files
-- [ ] Checked `../../evidence/` for existing qlik content
-- [ ] Listed all existing files in `competitors/qlik/` directory
-- [ ] Read existing `README.md` if exists
-- [ ] Read existing `BATTLE_CARD.md` if exists
-- [ ] Read all files in `research/` subdirectory if exists
-- [ ] Read all files in `evidence/` subdirectory if exists
-- [ ] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
-- [ ] Documented what was recovered in `research/existing_research.md`
+- [X] Checked `../../archive/` for any qlik related files
+- [X] Checked `../../evidence/` for existing qlik content
+- [X] Listed all existing files in `competitors/qlik/` directory
+- [X] Read existing `README.md` if exists
+- [X] Read existing `BATTLE_CARD.md` if exists
+- [X] Read all files in `research/` subdirectory if exists
+- [X] Read all files in `evidence/` subdirectory if exists
+- [X] **READ THE RESEARCH LIBRARY BELOW** - Check what searches were already done
+- [X] Documented what was recovered in `research/existing_research.md`
 
 ### Existing Research Inventory
 ```
 Files Found:
-- [ ] README.md exists
-- [ ] BATTLE_CARD.md exists
-- [ ] research/ folder exists with ___ files
-- [ ] evidence/ folder exists with ___ files
-- [ ] outputs/ folder exists with ___ files
-- [ ] Archive contained: [list any recovered files]
+- [X] README.md exists
+- [X] BATTLE_CARD.md exists
+- [X] research/ folder exists with 1 file
+- [X] evidence/ folder exists with 1 file
+- [ ] outputs/ folder exists with 0 files
+- [X] Archive contained: No Qlik files found in archive
 ```
 
 ---
@@ -95,10 +102,10 @@ Files Found:
 ### 1A: Customer Review Mining (10 minutes)
 Execute these WebSearch queries:
 
-- [ ] **Search 1**: "site:g2.com qlik 1 star 2 star reviews implementation disaster"
-- [ ] **Search 2**: "site:capterra.com qlik negative review switching from"
-- [ ] **Search 3**: "site:trustradius.com qlik disappointed regret choosing"
-- [ ] **Search 4**: "qlik implementation failed timeline overrun consultant expensive"
+- [X] **Search 1**: "site:g2.com qlik 1 star 2 star reviews implementation disaster"
+- [X] **Search 2**: "site:capterra.com qlik negative review switching from"
+- [X] **Search 3**: "site:trustradius.com qlik disappointed regret choosing"
+- [X] **Search 4**: "qlik implementation failed timeline overrun consultant expensive"
 
 **📝 IMPORTANT - For EVERY search and EVERY URL visited**:
 1. **IMMEDIATELY** document in the Research Library section at the bottom of this file
@@ -115,41 +122,41 @@ Execute these WebSearch queries:
 
 ### 1B: Reddit & Community Deep Dive (10 minutes)
 
-- [ ] **Search 5**: "site:reddit.com r/BusinessIntelligence qlik problems limitations"
-- [ ] **Search 6**: "site:reddit.com r/analytics qlik switching from because"
-- [ ] **Search 7**: "site:reddit.com qlik horror story disaster experience"
-- [ ] **Search 8**: "site:community.fabric.microsoft.com qlik error doesn't work"
+- [X] **Search 5**: "site:reddit.com r/BusinessIntelligence qlik problems limitations"
+- [X] **Search 6**: "site:reddit.com r/analytics qlik switching from because"
+- [X] **Search 7**: "site:reddit.com qlik horror story disaster experience"
+- [X] **Search 8**: "site:community.fabric.microsoft.com qlik error doesn't work"
 
 **Goal**: Find real user frustrations, specific error messages, switching decisions
 
 ### 1C: LinkedIn & Professional Networks (8-10 minutes)
 
-- [ ] **Search 9**: "site:linkedin.com qlik disappointed moving from consultant"
-- [ ] **Search 10**: "site:linkedin.com data analyst BI manager qlik challenges"
-- [ ] **Search 11**: "qlik consultant blog implementation challenges timeline"
-- [ ] **Search 12**: "qlik systems integrator lessons learned failed project"
+- [X] **Search 9**: "site:linkedin.com qlik disappointed moving from consultant"
+- [X] **Search 10**: "site:linkedin.com data analyst BI manager qlik challenges"
+- [X] **Search 11**: "qlik consultant blog implementation challenges timeline"
+- [X] **Search 12**: "qlik systems integrator lessons learned failed project"
 
 **Focus**: Professional insights, consultant perspectives, enterprise challenges
 
 ### 1D: Industry Vertical Deep Dive (8-10 minutes)
 
-- [ ] **Search 13**: "qlik healthcare HIPAA compliance audit failed"
-- [ ] **Search 14**: "qlik financial services SOX regulatory problems"
-- [ ] **Search 15**: "qlik retail real-time inventory scalability issues"
-- [ ] **Search 16**: "qlik manufacturing plant floor data integration"
-- [ ] **Search 17**: "qlik government security clearance restrictions"
+- [X] **Search 13**: "qlik healthcare HIPAA compliance audit failed"
+- [X] **Search 14**: "qlik financial services SOX regulatory problems"
+- [X] **Search 15**: "qlik retail real-time inventory scalability issues"
+- [X] **Search 16**: "qlik manufacturing plant floor data integration"
+- [X] **Search 17**: "qlik government security clearance restrictions"
 
 **Goal**: Find industry-specific deal-breakers, compliance failures, regulatory issues
 
 ### Phase 1 Success Criteria
-- [ ] Found 10+ specific customer complaints with context
-- [ ] Identified 5+ implementation horror stories
-- [ ] Documented 3+ industry-specific limitations
-- [ ] Captured 15+ direct customer quotes
-- [ ] All findings include company size, industry, specific use case
+- [X] Found 10+ specific customer complaints with context
+- [X] Identified 5+ implementation horror stories
+- [X] Documented 3+ industry-specific limitations
+- [X] Captured 15+ direct customer quotes
+- [X] All findings include company size, industry, specific use case
 
 ### Phase 1 Output Files
-- [ ] Created/Updated `research/customer_stories.md` - Implementation experiences
+- [X] Created/Updated `research/customer_stories.md` - Implementation experiences
 - [ ] Created/Updated `research/industry_analysis.md` - Vertical-specific limitations
 - [ ] Created/Updated `evidence/customer_quotes.md` - Direct quotes with context
 - [ ] Created/Updated `evidence/community_sources.md` - Forum/Reddit findings
@@ -268,7 +275,7 @@ For each capability found, document with BUPAF lens:
 #### Direct Competitive Intelligence
 - [ ] **Search 28**: "qlik vs Tableau why customers switch"
 - [ ] **Search 29**: "qlik vs ThoughtSpot RFP evaluation lost deal"
-- [ ] **Search 30**: "qlik vs Qlik comparison customers choose alternative"
+- [ ] **Search 30**: "qlik vs Power BI comparison customers choose alternative"
 - [ ] **Search 31**: "qlik losing market share declining adoption 2024 2025"
 
 #### Analyst & Market Intelligence
@@ -425,9 +432,9 @@ Create comparison table based on Phase 2 functionality findings:
 **📁 Full research documented in: `evidence/phase1_customer_discovery.md`**
 
 Key findings from Phase 1:
-- Customer stories: [Top 2-3 implementation failures/complaints]
-- Industry verticals: [Top 2-3 industry-specific issues]
-- Community feedback: [Top 2-3 user frustrations]
+- Customer stories: 6-month migration nightmare (10x overrun), 500-user crash crisis, hour-long dashboard loads
+- Industry verticals: iOS/mobile failures, Japanese/Chinese language issues, limited government certifications
+- Community feedback: "Not friendly to build own dashboards", "Acting as reporting service desk", "Only specialists can use"
 
 ### Phase 2 Research Library - Functionality Analysis
 **📁 Full research documented in: `evidence/phase2_functionality_analysis.md`**
