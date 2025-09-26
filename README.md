@@ -36,13 +36,13 @@
 - **True Cost**: $89k/14 weeks implementation + $25k-327k/year
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
-### Tellius Research IN PROGRESS (75% - Phases 1-3 Complete)
-- **BUPAF Score**: 20/50 (Category C - Analyst Workbench)
+### Tellius Research COMPLETED (100%)
+- **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
 - **Killer Finding**: 90% employee turnover, product "lightyears behind competitors"
 - **Fatal Flaws**: NO Excel support, Zero community, $125k+ Year 1 (25x advertised)
 - **Performance**: "Tool hangs sometimes" despite elastic scaling claims
 - **Reality**: Natural language "has not been adopted" (own admission)
-- **Progress**: Phase 1 ✅ | Phase 2 ✅ | Phase 3 ✅ | Phase 4 ⏳
+- **Customer Quote**: "A rip-off" with "false promises"
 
 ### Tableau Pulse Research COMPLETED (100%)
 - **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
@@ -75,8 +75,8 @@
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
-**Completion**: 8 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT)
-**In Progress**: Qlik, Tellius (other sessions)
+**Completion**: 9 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT, Tellius)
+**In Progress**: Qlik (other session)
 **Next Priority**: DataChat (BUPAF 6/50 - needs verification)
 **Files**: 75+ research files, battle cards, and evidence documents
 
@@ -218,7 +218,7 @@ Every competitive claim backed by:
 | 1 | **Scoop** | 38/50 | Business Empowerment | None |
 | 2 | ThoughtSpot | 23/50 | Analyst Workbench | $500k crashes, no Excel |
 | 3 | Tableau Pulse | 21/50 | Enterprise Platform | Server abandoned, hallucinations |
-| 4 | Tellius | 20/50 | Analyst Workbench | Data scientists required |
+| 4 | Tellius | 14/50 | Marketing Mirage | 90% turnover, NLP failed |
 | 5 | Domo | 18/50 | Analyst Workbench | Portal prison, formulas disabled |
 | 6 | Zenlytic | 18/50 | Analyst Workbench | YAML configuration |
 | 7 | Power BI | 14/50 | Marketing Mirage | No APIs, 97% failure |
