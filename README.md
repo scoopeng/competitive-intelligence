@@ -2,12 +2,15 @@
 
 ## 🔥 Latest Updates (September 2025)
 
-### NEW: Web Comparison Template for AEO/SEO
-- Created `WEB_COMPARISON_TEMPLATE.md` for web-ready competitor pages
-- AEO-optimized for AI answer engines (ChatGPT, Perplexity, Google SGE)
-- 150K character template across 3 Webflow fields
-- Includes schema markup, question clusters, long-tail keywords
-- Targets AEO Maturity Level 4 (Pillar) for topical authority
+### NEW: Complete Web Comparison Framework
+- **Templates**: `WEB_COMPARISON_TEMPLATE.md` - 150K character structure
+- **Process**: `WEB_COMPARISON_PHASED_EXECUTION.md` - 4-phase generation system
+- **Phase 1**: Foundation & Evidence (30-35K chars)
+- **Phase 2**: Capability Analysis (40-45K chars) 
+- **Phase 3**: Business Impact & ROI (35-40K chars)
+- **Phase 4**: Consolidation & AEO Optimization (150K final)
+- **Focus**: Credible, capability-driven comparisons showcasing Scoop's built features
+- **Output**: AEO-optimized for AI answer engines (ChatGPT, Perplexity, Google SGE)
 
 ## 📊 Recent Competitor Research
 
@@ -90,6 +93,26 @@
 **Next Priority**: DataChat (BUPAF 6/50 - needs verification)
 **Files**: 80+ research files, battle cards, and evidence documents
 **Latest**: Tellius completed with 4-phase deep research (60+ searches)
+
+## Web Comparison Generation
+
+### Quick Start
+To generate web-ready competitor comparisons:
+```bash
+# Full quality process (recommended):
+1. "Generate Phase 1 foundation for {competitor}"
+2. Review output
+3. "Generate Phase 2 capability analysis for {competitor}"
+4. Review output
+5. "Generate Phase 3 business impact for {competitor}"
+6. Review output
+7. "Consolidate all phases into final web comparison for {competitor}"
+
+# Quick generation:
+"Generate complete web comparison for {competitor} using phased execution framework"
+```
+
+Output location: `competitors/{name}/outputs/web_comparison.md`
 
 ## Project Phases
 
