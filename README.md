@@ -36,6 +36,14 @@
 - **True Cost**: $89k/14 weeks implementation + $25k-327k/year
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
+### Tableau Pulse Research COMPLETED (100%)
+- **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
+- **Killer Finding**: Cloud-only, Server customers abandoned
+- **Fatal Flaw**: Official hallucination admission in docs
+- **Performance**: Schema changes break everything
+- **Cost Reality**: $15/month even for view-only users
+- **Market Position**: Ask Data & Metrics deprecated, replaced with limited Pulse
+
 ## Previous: Snowflake Cortex Analyst Testing COMPLETED (Jan 2025)
 
 **Major Discovery**: After 4+ hours of setup, Cortex Analyst is NOT available on trial accounts!
@@ -59,7 +67,7 @@
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
-**Completion**: 6 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense)
+**Completion**: 7 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse)
 **Files**: 75+ research files, battle cards, and evidence documents
 
 ## Project Phases
@@ -198,7 +206,7 @@ Every competitive claim backed by:
 | 7 | Power BI | 14/50 | Marketing Mirage | No APIs, 97% failure |
 | 8 | Snowflake | 13/50 | Marketing Mirage | Not on trials, no ML |
 | 9 | **Sisense** | 12/50 | Marketing Mirage | 400% increases, fake AI |
-| 10 | Tableau | 11/50 | Marketing Mirage | Schema breaks |
+| 10 | **Tableau Pulse** | 21/50 | Enterprise Platform | Server abandoned, hallucinations |
 | 11 | Qlik | 11/50 | Marketing Mirage | Zero adoption |
 | 12 | DataChat | 6/50 | Marketing Mirage | No traction |
 
@@ -269,7 +277,7 @@ Every competitive claim backed by:
 ## 🚦 Repository Status: PRODUCTION READY KNOWLEDGE BASE
 
 **✅ Complete**: 11 competitors analyzed, 186 research files across all competitors
-**✅ High Completion**: 4 competitors at 90%+ (Snowflake 95%, Power BI 100%, Domo 90%, Tableau 90%)
+**✅ High Completion**: 7 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse)
 **✅ Credible**: Every claim backed by verifiable sources with deep analysis available
 **✅ Actionable**: Ready for sales, marketing, and product teams with full research depth
 
