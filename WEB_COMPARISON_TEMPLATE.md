@@ -4,6 +4,29 @@
 **Purpose**: Comprehensive web-ready competitive comparison content optimized for both SEO and AEO
 **Last Updated**: {DATE}
 
+## TEMPLATE USAGE INSTRUCTIONS
+
+### Conditional Sections
+This template includes both universal sections (apply to all competitors) and conditional sections marked with [IF APPLICABLE] or [FOR X TYPE]. Use these guidelines:
+
+**Universal Sections** (Always include):
+- All sections without bracketed conditionals
+- Core comparisons, costs, journey analysis
+- Basic technical limitations and evidence
+
+**Conditional Sections** (Include when relevant):
+- **[FOR MAJOR VENDORS]**: Power BI, Tableau, Domo, ThoughtSpot
+- **[FOR STARTUPS/SMALLER VENDORS]**: Tellius, Sisense, Zenlytic, DataChat
+- **[FOR AI PRODUCTS]**: Power BI Copilot, Snowflake Cortex, Tableau Pulse
+- **[FOR CONSUMPTION-BASED PRICING]**: Domo, Snowflake, cloud-based products
+- **[IF APPLICABLE]**: Include only if you have this specific data/research
+
+**Handling Missing Data**:
+- If a section doesn't apply, omit it entirely
+- If data is partially available, include what you have
+- Mark unknowns as "{Not publicly available}" or "{Research needed}"
+- Smaller competitors may have 80-100K chars instead of full 150K
+
 ## AEO (Answer Engine Optimization) Guidelines
 
 ### Content Creation Principles
@@ -365,17 +388,36 @@ TOTAL: 30 seconds, $0 implementation
    - Workaround required: {What users must do}
    - Evidence: [Source URL]
 
+**Infrastructure Requirements**:
+- Minimum hardware: {CPUs, RAM, storage}
+- Recommended specs: {For production use}
+- Scaling requirements: {How it grows with data}
+- Hidden infrastructure: {Additional services needed}
+- Example: {E.g., "96 CPUs + 600GB RAM for 2TB data"}
+
+**Portal Dependency Analysis**:
+- Portal-only features: {What requires logging in}
+- Export limitations: {Static vs live data}
+- Mobile app gaps: {What's missing vs web}
+- Offline capability: {None/Limited/Full}
+- Workflow disruption: {Time lost switching contexts}
+
 **Performance Characteristics**:
 - Query execution: {Time ranges with examples}
+- Dashboard load times: {Actual measurements}
 - Concurrent users: {Limits and degradation}
 - Data volume limits: {Actual vs marketed}
 - Refresh rates: {Real-world performance}
+- Timeout issues: {Common failure points}
 
 **Integration Limitations**:
 - API availability: {What's actually available}
 - Embedding options: {Real capabilities}
 - Security model: {Constraints and gaps}
 - Workflow integration: {What's missing}
+- Excel integration: {None/Read-only/Full}
+- PowerPoint: {Screenshot only/Live data}
+- Slack/Teams: {Native/Webhook/None}
 
 #### Scoop's Architecture Advantages
 
@@ -418,7 +460,119 @@ Test 2: Excel Formula Support
 3. Scoop result: {Successful execution}
 ```
 
-### 2.4 HIDDEN COSTS & TCO ANALYSIS (10,000 chars)
+#### Excel Formula Capability Deep Dive
+**{COMPETITOR} Excel Reality**:
+| Formula Type | Support Level | Workaround Required | Business Impact |
+|--------------|---------------|-------------------|-----------------|
+| VLOOKUP | {None/Partial/Full} | {Required steps} | {Impact} |
+| SUMIFS | {None/Partial/Full} | {Required steps} | {Impact} |
+| INDEX/MATCH | {None/Partial/Full} | {Required steps} | {Impact} |
+| Pivot Tables | {None/Partial/Full} | {Required steps} | {Impact} |
+| Array Formulas | {None/Partial/Full} | {Required steps} | {Impact} |
+
+**Scoop Excel Advantage**:
+- 150+ Excel formulas native support
+- Direct execution without translation
+- Live data connection with =SCOOP()
+- Existing spreadsheets work immediately
+- No retraining required for Excel users
+
+#### [IF APPLICABLE] Side-by-Side Query Comparison
+**Only for competitors with direct testing data (e.g., Snowflake Cortex)**
+
+| Query | {COMPETITOR} Output | Scoop Output | Analysis |
+|-------|-------------------|--------------|----------|
+| "Show total revenue" | {Their SQL/result} | {Multi-pass investigation} | {Comparison} |
+| "Why did sales drop?" | {Error or single query} | {Root cause analysis} | {Comparison} |
+| "Compare Q3 to Q4" | {Their attempt} | {Complete analysis} | {Comparison} |
+
+#### [IF APPLICABLE] Non-Deterministic Behavior Analysis
+**For AI-powered competitors (Power BI Copilot, etc.)**
+
+Test: Same query asked 3 times
+- Attempt 1: {Result 1}
+- Attempt 2: {Result 2} 
+- Attempt 3: {Result 3}
+- Variance: {%} difference
+- Business Impact: {Why this matters for decision-making}
+
+### 2.4 VENDOR-SPECIFIC CRITICAL ANALYSIS (10,000 chars)
+
+#### [FOR MAJOR VENDORS] Market Position & Ecosystem Lock-in
+**Parent Company Influence**:
+- Parent: {Microsoft/Salesforce/etc.}
+- Strategic constraints: {How parent limits innovation}
+- Bundling pressure: {What else you're forced to buy}
+- Ecosystem dependencies: {Required companion products}
+
+**Version History & Deprecation Pattern**:
+- Features killed: {List deprecated features with dates}
+- Migration forced: {When users had to rebuild}
+- Breaking changes: {Major disruptions to users}
+- Current deprecation warnings: {What's being sunset now}
+- Example: {E.g., "Tableau killed Ask Data after 3 years"}
+
+**Community & Support Reality**:
+- Community size: {Active users in forums}
+- Partner ecosystem: {Number of consultants/SIs}
+- Typical consultant rates: ${hourly rate}
+- Support response times: {Reality vs SLA}
+- Certification requirements: {Training complexity}
+
+**Geographic & Compliance Limitations**:
+- Blocked regions: {List countries/regions where unavailable}
+- Compliance gaps: {HIPAA/FedRAMP/SOX limitations}
+- Data residency issues: {Where data must/can't be stored}
+- Industry exclusions: {Sectors that can't use it}
+
+#### [FOR AI PRODUCTS] Deterministic Behavior Analysis
+**Consistency Testing**:
+- Same query variance: {%} difference between runs
+- Confidence scoring: {Available/Not available}
+- Hallucination rate: {Documented issues}
+- Official warnings: "{Quote from vendor docs about inconsistency}"
+
+#### [FOR STARTUPS/SMALLER VENDORS] Viability Assessment
+**Company Health Indicators**:
+- Employee count: {Current vs year ago}
+- Turnover rate: {If discoverable}
+- Customer base: {Number of active customers}
+- Revenue/Funding: {Public information}
+- Layoff history: {Recent reductions}
+- Product velocity: {Last major update date}
+
+**Customer Concentration Risk**:
+- Top 5 customers represent: {X}% of revenue
+- Logo churn rate: {If discoverable}
+- Public references available: {Number}
+
+#### Innovation Velocity Analysis
+**Product Evolution Speed**:
+- Last major feature: {Date and description}
+- Update frequency: {How often new features ship}
+- Bug fix responsiveness: {Average time to fix}
+- Feature request backlog: {If publicly visible}
+- Roadmap visibility: {Transparent/Opaque/None}
+
+**Technology Stack Modernity**:
+- Core technology: {Modern/Legacy/Mixed}
+- Architecture age: {When last modernized}
+- Technical debt indicators: {Performance issues, workarounds}
+- AI/ML adoption: {Real ML or marketing buzzwords}
+
+#### [FOR CONSUMPTION-BASED PRICING] Cost Spiral Analysis
+**Renewal Shock Patterns**:
+- Documented increases: {Specific examples with %}
+- Consumption trap mechanics: {How costs escalate}
+- Contract lock-in periods: {Typical terms}
+- Migration penalties: {Cost to leave}
+
+**Price Protection Reality**:
+- Price caps: {Typically available/not}
+- Audit requirements: {Complexity of usage tracking}
+- True-up penalties: {Overage costs}
+
+### 2.5 HIDDEN COSTS & TCO ANALYSIS (10,000 chars)
 
 #### {COMPETITOR} True Cost Breakdown
 
@@ -457,7 +611,64 @@ Cost per query: Unlimited
 
 ## FIELD 3: BUSINESS IMPACT & CALL TO ACTION (50,000 characters)
 
-### 3.1 REAL BUSINESS IMPACT SCENARIOS (15,000 chars)
+### 3.1 DASHBOARD-CENTRIC VS INVESTIGATION-CENTRIC ANALYSIS (8,000 chars)
+
+#### The Fundamental Philosophy Gap
+
+**{COMPETITOR}'s Dashboard-First Approach**:
+- Assumption: Users know what metrics to monitor
+- Reality: Requires predefined KPIs and views
+- Process: IT builds → Users consume → Limited exploration
+- Investigation: Can only analyze what's been built
+- Time to insight: Days/weeks for new questions
+- Example: "AI Chat only works within existing dashboards"
+
+**Scoop's Investigation-First Approach**:
+- Assumption: Users have questions that evolve
+- Reality: Dynamic exploration without predefinition
+- Process: Ask → Investigate → Discover → Share
+- Investigation: Multi-pass reasoning across all data
+- Time to insight: 30 seconds for any question
+- Example: "Why did revenue drop?" triggers 5-10 query investigation
+
+#### Workflow Integration Reality
+
+**{COMPETITOR} Workflow Disruption**:
+```
+Morning Routine with {COMPETITOR}:
+8:00 AM - Email request for analysis
+8:15 AM - Log into {COMPETITOR} portal
+8:30 AM - Navigate to correct dashboard
+8:45 AM - Screenshot relevant charts
+9:00 AM - Paste into PowerPoint
+9:30 AM - Format and annotate
+10:00 AM - Export data to Excel
+10:30 AM - Create pivot tables
+11:00 AM - Email PowerPoint
+Total: 3 hours for one report
+```
+
+**Scoop Workflow Integration**:
+```
+Morning Routine with Scoop:
+8:00 AM - Email request for analysis
+8:01 AM - Type in Slack: "Revenue analysis for board"
+8:02 AM - Receive complete PowerPoint
+Total: 2 minutes for complete analysis
+```
+
+#### Dashboard Dependency Analysis
+
+| Aspect | {COMPETITOR} Reality | Scoop Advantage |
+|--------|---------------------|-----------------|
+| New Question | Build new dashboard first | Ask directly |
+| Data Changes | Dashboards break | Auto-adapts |
+| User Training | Learn dashboard navigation | Natural language |
+| Sharing | Screenshot and paste | Native Office integration |
+| Mobile Access | Limited dashboard views | Full investigation |
+| Offline Work | No access | Local Excel with =SCOOP() |
+
+### 3.2 REAL BUSINESS IMPACT SCENARIOS (15,000 chars)
 
 #### Scenario 1: The Monday Morning Dashboard Update
 **With {COMPETITOR}**:
