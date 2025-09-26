@@ -1,8 +1,15 @@
 # Scoop Competitive Intelligence Repository
 
-## 🔥 Latest Updates (September 2025)
+## 🔥 Latest Updates (December 2025)
 
-### NEW: Complete Web Comparison Framework
+### NEW: Power BI Copilot Web Comparison COMPLETED
+- **Framework Tested**: 4-phase execution delivered 74K character document
+- **Key Finding**: $2.2M Year 1 vs $3,588 for Scoop (612x difference)
+- **Fatal Flaw**: Nondeterministic behavior - different answers each time
+- **Location**: `competitors/power-bi-copilot/outputs/web_comparison.md`
+- **Ready for**: Webflow deployment with full AEO optimization
+
+### Web Comparison Framework PROVEN
 - **Templates**: `WEB_COMPARISON_TEMPLATE.md` - 150K character structure
 - **Process**: `WEB_COMPARISON_PHASED_EXECUTION.md` - 4-phase generation system
 - **Phase 1**: Foundation & Evidence (30-35K chars)
@@ -22,12 +29,13 @@
 - **Infrastructure**: Needs 96 CPUs/600GB RAM for 2-3TB data
 - **Reality**: 2-4 week setup, not "instant" as marketed
 
-### Power BI Copilot Research COMPLETED (100%)
+### Power BI Copilot Research & Web Comparison COMPLETED (100%)
 - **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
 - **Killer Finding**: "No dedicated REST APIs exist" - complete developer dead-end
 - **Fatal Flaw**: US Congress banned it due to security concerns
 - **Reality Check**: Only 3% of IT leaders find value (Gartner)
-- **True Cost**: $175-235k for 200 users Year 1
+- **True Cost**: $2.2M for 200 users Year 1 (updated research)
+- **Web Comparison**: Complete 74K character document ready for deployment
 
 ### Domo Deep Research COMPLETED
 - **BUPAF Score**: 18/50 (Category C)

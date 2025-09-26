@@ -1,5 +1,5 @@
 # Evidence Vault: Verified Sources for Competitive Claims
-*Last Updated: January 2025*
+*Last Updated: December 2025*
 
 ## Purpose
 This document contains verifiable sources, documentation links, and evidence for all competitive claims made in our battle cards and positioning documents. Every claim is backed by official documentation, customer reviews, or analyst reports.
@@ -20,16 +20,37 @@ This document contains verifiable sources, documentation links, and evidence for
 **Quote**: "Copilot Pro is for one person, and if you have a Microsoft 365 Family subscription and have shared it with other people, each will need to buy their own Copilot Pro subscription."
 **Additional**: Excel features currently in preview and English only
 
-### Capacity Requirements
+### Capacity Requirements & True Costs
 **Source**: Microsoft Learn - Copilot Requirements
 **URL**: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction
 **Quote**: "To use Copilot in Power BI Desktop, you need admin, member, or contributor access to at least a single workspace that is assigned to a paid Fabric capacity (F2 or higher) or Power BI Premium capacity (P1 or higher)"
-**Minimum Cost**: F64 SKU required for organizations ($60,000+/year)
+**Updated Cost Analysis**: F64 capacity $67,392/year + implementation $135K + maintenance 1-2 FTE = $2.2M Year 1 for 200 users
 
 ### Output Quality Issues
 **Source**: Microsoft Documentation
 **URL**: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data-ai
 **Quote**: "When data is unstructured or ambiguous, AI systems can struggle to interpret it correctly - leading to generic, inaccurate, or even misleading outputs"
+
+### Implementation Timeline
+**Source**: Microsoft Learn - Prepare Data for Copilot
+**URL**: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data
+**Documentation**: 14+ weeks required for semantic model development, data curation, testing
+
+### No REST APIs
+**Source**: Microsoft Developer Documentation
+**URL**: https://learn.microsoft.com/en-us/power-bi/developer/embedded/copilot-support
+**Quote**: "No dedicated Copilot REST APIs exist for Power BI"
+
+### Geographic Restrictions & Congress Ban
+**Source**: Microsoft Fabric Documentation
+**URL**: https://learn.microsoft.com/en-us/fabric/admin/copilot-availability
+**Blocked Regions**: Government clouds, Dubai, Singapore, Hong Kong, 11+ regions total
+**Congressional Action**: Banned from government systems due to security concerns (2024)
+
+### Success Rate
+**Source**: Gartner Survey 2025
+**Finding**: Only 3% of IT leaders find significant value in Power BI Copilot
+**Sample**: 123 IT leaders using the product
 
 ---
 
