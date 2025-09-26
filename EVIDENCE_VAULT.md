@@ -114,6 +114,26 @@ This document contains verifiable sources, documentation links, and evidence for
 **URLs**: https://embeddable.com/blog/sisense-pricing, https://mammoth.io/blog/sisense-pricing/
 **Estimates**: "$109,000 to $137,000 annually" with minimum $10K self-hosted, $21K cloud
 
+### Zero Excel Formula Support (NEW - Phase 2)
+**Source**: Sisense Documentation
+**URL**: https://docs.sisense.com/main/SisenseLinux/exporting-pivot-tables-to-excel.htm
+**Finding**: Export-only to XLSX with 1.5M cell limit, no live formulas, no refresh capability
+
+### Simply Ask Deprecation (NEW - Phase 2)
+**Source**: Sisense Documentation
+**URL**: https://docs.sisense.com/main/SisenseLinux/simply-ask-query-in-natural-language.htm
+**Status**: Being deprecated, replaced with beta chatbot for cloud customers only
+
+### Embedded Analytics Focus (NEW - Phase 2)
+**Source**: Sisense Product Roundup
+**URL**: https://www.sisense.com/blog/sisense-product-roundup-embedded-ai/
+**Reality**: Compose SDK for ISVs, not business user self-service
+
+### Technical Requirements (NEW - Phase 2)
+**Source**: Community Reviews
+**URL**: https://qrvey.com/blog/sisense-reviews/
+**Quote**: "Requires extensive training if new to BI", "30-80 hours of training needed"
+
 ---
 
 ## Qlik Insight Advisor
