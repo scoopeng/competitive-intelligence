@@ -242,6 +242,63 @@ This document contains verifiable sources, documentation links, and evidence for
 2. Search for quoted text in official documentation
 3. Check review sites for customer experiences
 
+---
+
+## DataChat
+
+### NO Excel Integration
+**Source**: Phase 2 Functionality Analysis
+**Date**: 2025-09-26
+**Search**: "datachat Excel integration formula support export"
+**Finding**: ZERO Excel support found - no formulas, no add-in, no export mentioned
+**Impact**: Business users cannot work in their primary tool
+
+### NO API Access
+**Source**: Phase 2 & 3 Technical Analysis
+**Date**: 2025-09-26
+**Documentation**: https://docs.datachat.ai/
+**Finding**: NO API EXISTS - confirmed multiple times, no REST endpoints, no programmatic access
+**Impact**: Cannot integrate with any other system
+
+### ZERO Customer Reviews
+**Source**: Phase 1 Customer Discovery
+**Date**: 2025-09-26
+**Platforms Checked**: G2, Capterra, TrustRadius, Reddit
+**Finding**: Zero reviews found on any platform after 7 years in market
+**Evidence**: Unprecedented for any legitimate B2B software
+
+### Minimal Revenue/Market Traction
+**Source**: Latka, Crunchbase
+**URL**: https://getlatka.com/companies/datachat
+**Finding**: $3.7M revenue in 2024 after 7 years in market
+**Context**: 36 employees, $25M Series A in 2021, burning cash without growth
+
+### Hidden Pricing
+**Source**: AWS Marketplace, SaaSworthy
+**URL**: https://aws.amazon.com/marketplace/pp/prodview-44kyau6p3lcow
+**Finding**: Custom pricing only, no tiers published, perpetual license model
+**Impact**: Complete pricing opacity
+
+### No PowerPoint/Slack Integration
+**Source**: Phase 2 Searches
+**Date**: 2025-09-26
+**Finding**: No native PowerPoint generation, no official Slack integration
+**Evidence**: Only third-party "DataChat by Moodbit" found, not official
+
+### GEL Intermediary Language
+**Source**: Medium/Snowflake blog
+**Date**: 2025-09-26
+**Finding**: Natural language → GEL → Execution (two-step process)
+**Impact**: Not direct NL processing, adds complexity layer
+
+### No Mobile App
+**Source**: Phase 3 Search
+**Date**: 2025-09-26
+**Finding**: No official DataChat mobile app exists
+**Note**: "DataChat" on Play Store is different product (OpenAI-based)
+
+---
+
 ### Updates
 - This document updated monthly with new sources
 - All URLs verified before each update

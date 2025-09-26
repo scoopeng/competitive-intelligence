@@ -25,7 +25,7 @@ Every claim backed by URLs prospects can verify themselves:
 - **Tellius**: Requires data scientists
 - **DataGPT**: Single-source only
 - **Zenlytic**: ZERO Excel support, YAML engineering required, no reviews found
-- **DataChat**: Legitimate but no traction
+- **DataChat**: NO Excel, NO API, ZERO reviews after 7 years, $3.7M revenue (failed)
 
 ### 2. **Evidence Vault**
 60+ verified sources including:
