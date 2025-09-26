@@ -1,0 +1,110 @@
+{
+  "model": "claude-4-sonnet",
+  "test_type": "semantic_context",
+  "summary": {
+    "total": 8,
+    "success": 8,
+    "failed": 0,
+    "success_rate": "100.0%"
+  },
+  "categories": {
+    "Basic Count": {
+      "success": 1,
+      "fail": 0
+    },
+    "Basic Average": {
+      "success": 1,
+      "fail": 0
+    },
+    "Segmented Analysis": {
+      "success": 1,
+      "fail": 0
+    },
+    "Filtered List": {
+      "success": 1,
+      "fail": 0
+    },
+    "Correlation": {
+      "success": 1,
+      "fail": 0
+    },
+    "Top N": {
+      "success": 1,
+      "fail": 0
+    },
+    "Percentage Calculation": {
+      "success": 1,
+      "fail": 0
+    },
+    "Comparison": {
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "details": [
+    {
+      "id": "BIZ_001",
+      "query": "How many customers do we have?",
+      "category": "Basic Count",
+      "status": "SUCCESS",
+      "rows": 1,
+      "time": 2.643998
+    },
+    {
+      "id": "BIZ_002",
+      "query": "What's the average monthly charge?",
+      "category": "Basic Average",
+      "status": "SUCCESS",
+      "rows": 1,
+      "time": 2.540379
+    },
+    {
+      "id": "BIZ_003",
+      "query": "Show me churn rate by contract type",
+      "category": "Segmented Analysis",
+      "status": "SUCCESS",
+      "rows": 3,
+      "time": 4.284947
+    },
+    {
+      "id": "BIZ_004",
+      "query": "Which customers are high value (monthly charge > 80)?",
+      "category": "Filtered List",
+      "status": "SUCCESS",
+      "rows": 5,
+      "time": 2.717369
+    },
+    {
+      "id": "BIZ_005",
+      "query": "What's the correlation between tenure and churn?",
+      "category": "Correlation",
+      "status": "SUCCESS",
+      "rows": 1,
+      "time": 6.130484
+    },
+    {
+      "id": "BIZ_006",
+      "query": "Show me top 5 customers by total charges",
+      "category": "Top N",
+      "status": "SUCCESS",
+      "rows": 5,
+      "time": 4.329398
+    },
+    {
+      "id": "BIZ_007",
+      "query": "What percentage of customers have fiber optic internet?",
+      "category": "Percentage Calculation",
+      "status": "SUCCESS",
+      "rows": 1,
+      "time": 2.166283
+    },
+    {
+      "id": "BIZ_008",
+      "query": "Compare churn rates between different payment methods",
+      "category": "Comparison",
+      "status": "SUCCESS",
+      "rows": 4,
+      "time": 3.545413
+    }
+  ]
+}

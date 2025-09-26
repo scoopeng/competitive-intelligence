@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CTX_001",
+    "description": "Pure natural language",
+    "sql_generated": false,
+    "sql_executed": false,
+    "mentions_telco": false
+  },
+  {
+    "id": "CTX_002",
+    "description": "Natural + table name",
+    "sql_generated": true,
+    "sql_executed": false,
+    "mentions_telco": true
+  },
+  {
+    "id": "CTX_003",
+    "description": "Natural + full context",
+    "sql_generated": true,
+    "sql_executed": false,
+    "mentions_telco": true
+  },
+  {
+    "id": "CTX_004",
+    "description": "Natural + schema hints",
+    "sql_generated": true,
+    "sql_executed": true,
+    "mentions_telco": true
+  },
+  {
+    "id": "CTX_005",
+    "description": "Explicit context + task",
+    "sql_generated": true,
+    "sql_executed": false,
+    "mentions_telco": true
+  },
+  {
+    "id": "CTX_006",
+    "description": "Direct SQL (control)",
+    "sql_generated": true,
+    "sql_executed": false,
+    "mentions_telco": true
+  }
+]
