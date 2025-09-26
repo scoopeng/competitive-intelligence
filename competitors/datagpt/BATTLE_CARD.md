@@ -1,6 +1,6 @@
 # Battle Card: DataGPT
 
-**BUPAF Score**: 18/50 (Category D - Marketing Mirage)  
+**BUPAF Score**: 13/50 (Category D - Marketing Mirage)  
 **Market Position**: Fast metrics, rigid schema  
 **Key Weakness**: No schema evolution after setup
 

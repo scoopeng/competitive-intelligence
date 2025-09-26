@@ -67,7 +67,7 @@
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
-**Completion**: 7 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse)
+**Completion**: 8 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT)
 **Files**: 75+ research files, battle cards, and evidence documents
 
 ## Project Phases
@@ -77,6 +77,14 @@
 - BUPAF framework development and scoring
 - Evidence collection with 60+ verified sources
 - Snowflake Cortex comprehensive testing
+
+### DataGPT Deep Research COMPLETED (100%)
+- **BUPAF Score**: 13/50 (Category D - Marketing Mirage)
+- **Killer Finding**: "Rare to adjust" schema after setup - fatal rigidity
+- **Fatal Flaw**: Single source only - can't join data
+- **No Excel**: Zero formulas vs Scoop's 150+ functions
+- **Portal Prison**: No Slack/PowerPoint/Excel integration
+- **True Cost**: $150k+ year one for rigid metrics viewer
 
 ### 🔄 Phase 2: Content Production (ACTIVE)
 - **Web Pages**: Competitor-specific landing pages for webflow
@@ -199,14 +207,14 @@ Every competitive claim backed by:
 |------|------------|-------|----------|-----------|
 | 1 | **Scoop** | 38/50 | Business Empowerment | None |
 | 2 | ThoughtSpot | 23/50 | Analyst Workbench | $500k crashes, no Excel |
-| 3 | Tellius | 20/50 | Analyst Workbench | Data scientists required |
-| 4 | Domo | 18/50 | Analyst Workbench | Portal prison, formulas disabled |
-| 5 | DataGPT | 18/50 | Marketing Mirage | Single-source rigid |
+| 3 | Tableau Pulse | 21/50 | Enterprise Platform | Server abandoned, hallucinations |
+| 4 | Tellius | 20/50 | Analyst Workbench | Data scientists required |
+| 5 | Domo | 18/50 | Analyst Workbench | Portal prison, formulas disabled |
 | 6 | Zenlytic | 18/50 | Analyst Workbench | YAML configuration |
 | 7 | Power BI | 14/50 | Marketing Mirage | No APIs, 97% failure |
 | 8 | Snowflake | 13/50 | Marketing Mirage | Not on trials, no ML |
-| 9 | **Sisense** | 12/50 | Marketing Mirage | 400% increases, fake AI |
-| 10 | **Tableau Pulse** | 21/50 | Enterprise Platform | Server abandoned, hallucinations |
+| 9 | DataGPT | 13/50 | Marketing Mirage | Schema rigid, single-source |
+| 10 | Sisense | 12/50 | Marketing Mirage | 400% increases, fake AI |
 | 11 | Qlik | 11/50 | Marketing Mirage | Zero adoption |
 | 12 | DataChat | 6/50 | Marketing Mirage | No traction |
 
