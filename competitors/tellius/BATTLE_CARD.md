@@ -1,40 +1,40 @@
 # Battle Card: Tellius
 
-**BUPAF Score**: 14/50 (Category D - Marketing Mirage)  
+**BUPAF Score**: 12/50 (Category D - Marketing Mirage) ⬇️ DOWNGRADED  
 **Market Position**: Failed platform with 90% employee turnover  
-**Fatal Flaw**: Natural language "has not been adopted" (own admission)
+**Fatal Flaw**: Apache Spark crashes + NO Excel support + NL failed
 
 ---
 
 ## 🔥 Killer Discovery Questions
-1. "Why does Tellius have 90% employee turnover?"
-2. "Can I see their public API documentation?" (doesn't exist)
-3. "What's the TOTAL cost including services?" ($125k+ Year 1)
-4. "How many Reddit discussions exist about Tellius?" (ZERO)
-5. "Why did Tellius drop in Gartner according to employees?"
+1. "How will you handle Apache Spark memory crashes and GC overhead?"
+2. "Can you show me Tellius =TELLIUS() Excel formulas?" (doesn't exist)
+3. "What's the TOTAL cost including Spark expertise?" ($120k+ Year 1)
+4. "With only 31 customers globally, what's your bankruptcy plan?"
+5. "Why does Tellius force complete Excel abandonment?"
 
 ## 💣 Devastating Facts
-- **90% employee turnover** - "Most last less than a year"
-- **$125,000+ Year 1** - 25x advertised price ($495/month fake)
-- **Zero Excel integration** - Wants to REPLACE Excel entirely
-- **No community** - Zero Reddit presence, Capterra "Be first to review"
-- **"Natural language has not been adopted"** - Their own admission
-- **"Tool hangs sometimes"** - Performance failures
-- **"Lightyears behind competitors"** - Employee quote
-- **6-week to 6-month implementation** - Not quick setup promised
+- **Apache Spark crashes** - Memory issues, GC overhead, "notoriously difficult"
+- **31 customers globally** - After 8 years, smaller than most POCs
+- **$120,000+ Year 1** - Includes $20k+ Spark expertise requirement
+- **Zero Excel engine** - Forces complete Excel abandonment vs enhancement
+- **90% employee turnover** - "Lightyears behind competitors"
+- **$22.8M revenue** - ThoughtSpot has 21x more (~$500M)
+- **"Natural language has not been adopted"** - Failed technology admission
+- **"Tool hangs sometimes"** - Spark foundation causes crashes
 
 ## Head-to-Head Destruction
 
 | Factor | Tellius | Scoop | Your Win |
 |--------|---------|-------|----------|
-| Business Users | ❌ "Complex platform" | ✅ Instant use | "6 weeks vs 30 seconds" |
-| True Cost | $125k+ Year 1 | $3,588 | "35x more expensive" |
-| Excel Integration | ❌ ZERO - replaces it | ✅ 150+ functions | "Forces Excel abandonment" |
-| Documentation | ❌ None public | ✅ Complete | "Can't integrate without $70k services" |
-| Community | ❌ Non-existent | ✅ Growing | "Zero Reddit = zero users" |
-| Natural Language | ❌ "Not adopted" | ✅ Works | "They admit failure" |
-| Performance | ❌ "Hangs sometimes" | ✅ Instant | "Can't trust for decisions" |
-| Employee Stability | ❌ 90% turnover | ✅ Stable | "Your consultant will quit" |
+| Architecture | ❌ Apache Spark crashes | ✅ Stable platform | "Memory crashes vs reliability" |
+| True Cost | $120k+ Year 1 | $3,588 | "33x more expensive" |
+| Excel Support | ❌ ZERO - abandons it | ✅ 150+ functions | "Destroys vs enhances workflow" |
+| Market Size | 31 customers | Growing fast | "Bankruptcy risk vs growth" |
+| Setup Time | 6 weeks minimum | 30 seconds | "1000x slower" |
+| Natural Language | ❌ "Not adopted" | ✅ Excel formulas | "Failed experiment" |
+| Performance | ❌ Spark hangs | ✅ Instant | "Crashes during analysis" |
+| Company Health | ❌ 90% turnover | ✅ Stable team | "Everyone quits" |
 
 ## Customer Horror Quotes
 
@@ -57,38 +57,38 @@
 
 > "ambiguous language, mismatched definitions, unreliable multi-step logic"
 
-## The $125,000 Reality Check
+## The $120,000 Reality Check
 
 ### What They Hide
 **Advertised**: $495/month (Premium)
-**Reality**: $125,000+ Year 1
+**Reality**: $120,000+ Year 1
 - Software: $15,000+
-- Implementation: $50,000+
+- Implementation: $50,000+ (6 weeks minimum)
 - Customization: $25,000+
-- Training: $20,000+
-- Each Integration: $70,000+
+- Training: $10,000+ (citizen data scientists)
+- Apache Spark Expertise: $20,000+ (ongoing requirement)
 
 ### 3-Year Disaster
-- **Tellius**: $181,000 total
+- **Tellius**: $176,000 total
 - **Scoop**: $10,764 total
-- **Savings**: $170,236 (94% less)
+- **Savings**: $165,236 (94% less)
 
 ## Objection Demolition
 
-**"They're a Gartner Visionary"**  
-→ "With 'product gaps' and 'infant developer communities.' Their own employees report the 'biggest drop' in both quadrants."
+**"They have agentic AI analytics"**  
+→ "Built on Apache Spark that crashes from memory problems. 'Notoriously difficult to tune' with 'heap of frustration.' That's not AI, it's instability."
 
-**"They have elastic scaling"**  
-→ "That 'hangs sometimes' according to users. Where are the performance benchmarks? They don't exist."
+**"They're 4x Gartner Visionary"**  
+→ "With the biggest YoY drop in the quadrant. Only 31 customers after 8 years. That's not vision, it's failure."
 
-**"They have natural language"**  
-→ "Which they admit 'has not been adopted.' Their own documentation says it failed. Why bet on failure?"
+**"They beat ThoughtSpot 90% of the time"**  
+→ "In demos only. ThoughtSpot has 21x their revenue. Markets don't lie - customers choose ThoughtSpot."
 
-**"They have AI/ML"**  
-→ "Requiring 'citizen data scientists' and 6-week implementation. Plus it's 'lightyears behind competitors' per employees."
+**"The architecture scales"**  
+→ "Apache Spark requires expert management or crashes. Users report 'tool hangs sometimes.' Budget $20k+/year for Spark expertise."
 
 **"The price seems reasonable"**  
-→ "$495/month is the trap. Real cost is $125,000+ Year 1. Check the professional services requirements."
+→ "$495/month is bait. Real cost: $120,000+ Year 1 with Spark expertise. That's 33x more than Scoop."
 
 ## Competition Reality
 
@@ -209,4 +209,5 @@
 ---
 
 *Last Updated: September 26, 2025*
-*Source: 4-phase deep research with employee quotes, customer reviews, and Tellius's own admissions*
+*Source: 4-phase deep research (60+ searches) with employee quotes, customer reviews, technical analysis, and Tellius's own admissions*
+*Key Update: Apache Spark architecture failures confirmed, BUPAF score downgraded to 12/50*
