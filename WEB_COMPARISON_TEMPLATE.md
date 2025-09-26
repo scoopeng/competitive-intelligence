@@ -4,6 +4,13 @@
 **Purpose**: Comprehensive web-ready competitive comparison showcasing Scoop's revolution
 **Last Updated**: December 2025
 
+## 📁 REUSABLE RESOURCES
+
+Copy content from these shared components to ensure consistency:
+- **`competitors/SHARED/scoop_capabilities_checklist.md`** - Use to verify all capabilities included
+- **`competitors/SHARED/agentic_analytics_section.md`** - Copy/adapt for Section 2.1
+- **`competitors/SHARED/embeddable_analytics_section.md`** - Copy/adapt for Section 2.5
+
 ---
 
 ## ⚠️ MANDATORY PRE-FLIGHT CHECKLIST
@@ -189,6 +196,7 @@ IMPACT: Recover $430K monthly revenue
 ## FIELD 2: TECHNICAL DEEP-DIVE & SCOOP REVOLUTION (50K chars)
 
 ### 2.1 THE AGENTIC ANALYTICS REVOLUTION
+[💡 Use content from `competitors/SHARED/agentic_analytics_section.md` as foundation]
 
 #### Multi-Agent Architecture Explained
 While {COMPETITOR} processes queries sequentially, Scoop's patent-pending multi-agent system works like a team of specialists:
@@ -345,6 +353,7 @@ Personal Analytics Journey in Slack:
 **No IT Ticket. No Dashboard Request. Just You and Your Data.**
 
 ### 2.5 EMBEDDABLE ANALYTICS - PLATFORM INTEGRATION REVOLUTION
+[💡 Use content from `competitors/SHARED/embeddable_analytics_section.md` as foundation]
 
 #### The Fundamental Difference
 **{COMPETITOR} Approach:**

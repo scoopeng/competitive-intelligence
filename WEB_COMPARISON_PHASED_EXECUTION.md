@@ -4,6 +4,15 @@
 **Last Updated**: December 2025
 **Key Requirements**: Mandatory Scoop capabilities and audience sections in each phase
 
+## 📁 SHARED RESOURCES AVAILABLE
+
+Before starting, familiarize yourself with reusable components:
+- **`competitors/SHARED/scoop_capabilities_checklist.md`** - 40-item mandatory checklist
+- **`competitors/SHARED/agentic_analytics_section.md`** - Ready-to-use Agentic Analytics content
+- **`competitors/SHARED/embeddable_analytics_section.md`** - Embeddable platform integration content
+
+Use these to ensure consistency and save time across all competitor comparisons.
+
 ---
 
 ## THE ENHANCED 4-PHASE APPROACH
@@ -58,7 +67,7 @@ Must include:
 
 ### Phase 1 Checklist
 Before proceeding to Phase 2, verify:
-- [ ] Agentic Analytics prominently explained
+- [ ] Agentic Analytics prominently explained (use `SHARED/agentic_analytics_section.md` as reference)
 - [ ] Progressive analysis modes included
 - [ ] Statistical validation shown with example
 - [ ] Investigation Engine demonstrated
@@ -137,8 +146,9 @@ Before proceeding to Phase 3:
 - [ ] ML algorithms explained with outputs
 - [ ] Personal Decks feature detailed
 - [ ] Smart Scanner capabilities shown
+- [ ] Embeddable Analytics covered (use `SHARED/embeddable_analytics_section.md`)
 - [ ] Data team enablement positive
-- [ ] Every checklist item covered
+- [ ] Every checklist item covered (verify against `SHARED/scoop_capabilities_checklist.md`)
 
 ### Phase 2 Template
 ```markdown
@@ -262,7 +272,7 @@ Merge all phases, ensure completeness, and verify quality.
 4. Add cross-references
 
 #### Step 2: Scoop Capability Verification (MANDATORY)
-Go through ENTIRE checklist:
+Go through ENTIRE checklist from `competitors/SHARED/scoop_capabilities_checklist.md`:
 - [ ] Agentic Analytics™ explained with diagram
 - [ ] Investigation Engine detailed with examples
 - [ ] Statistical validation shown throughout
