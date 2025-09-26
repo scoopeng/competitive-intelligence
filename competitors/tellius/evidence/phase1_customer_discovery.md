@@ -123,6 +123,82 @@
 - One pharma firm "reduced aggregate quality process cycle time by 30%" (positive case)
 ---
 
+## Additional Research - Extended Customer Discovery
+
+### Extended Search Results (September 26, 2025)
+
+**Search**: "Tellius implementation problems issues failed project case study"
+**Date**: September 26, 2025
+**Summary**: No specific Tellius implementation failures found publicly documented, unlike numerous ERP failures (Revlon SAP, Birmingham Oracle). Tellius acknowledges general analytics challenges including data silos, tool maintenance issues, and "battle scars" from production deployments.
+**Relevance**: Medium
+**Key Evidence**:
+- No publicly documented Tellius implementation failures found (contrast with ERP disasters)
+- Tellius admits challenges: "ambiguous language, mismatched definitions, performance tail-latency"
+- "Practical challenges ('battle scars') when moving agentic AI from demo to production"
+- Success stories exist (Novo Nordisk) but no failure case studies
+---
+
+**Search**: "Tellius customer complaints negative review switching to competitor"
+**Date**: September 26, 2025
+**Summary**: Mixed customer reviews on Five.Reviews with serious complaints about data usage and false promises. G2 shows alternatives being evaluated.
+**Relevance**: High
+**Key Evidence**:
+- "I am not happy with tellius.com. The user experience has been negative at best"
+- "They use your data for their own gain" - privacy concern
+- "They promise AI-driven decision intelligence but provide false promises"
+- "a rip-off" - customer calling for different provider
+- G2 lists top alternatives: Domo, Oracle Analytics Cloud, QlikView being evaluated
+---
+
+**Search**: "switched from Tellius" OR "migrated from Tellius" OR "replaced Tellius with"
+**Date**: September 26, 2025
+**Summary**: Zero results found for any documented migrations away from Tellius
+**Relevance**: Medium
+**Key Evidence**:
+- No public announcements of companies switching from Tellius
+- No migration case studies found
+- May indicate small market footprint or less catastrophic failures
+- 31+ companies currently using Tellius (15 NA, 9 EMEA, 4 APAC, 3 LATAM)
+---
+
+**Search**: "Tellius learning curve training required business users struggle"
+**Date**: September 26, 2025
+**Summary**: Tellius claims natural language eliminates training needs but traditional BI challenges remain
+**Relevance**: High
+**Key Evidence**:
+- Claims: "can be given to any employee because it understands natural language"
+- Reality: Traditional BI struggle with user buy-in persists
+- "No coding required" but still requires understanding of analytics concepts
+- Addresses "only learn what you explicitly ask for" limitation
+- Still faces adoption challenges despite natural language claims
+---
+
+**Search**: "Tellius customer support response time SLA outage downtime problems"
+**Date**: September 26, 2025
+**Summary**: No specific SLA information or documented outages found publicly
+**Relevance**: Low
+**Key Evidence**:
+- Support portal exists at support.tellius.com (no public SLA)
+- Help center at help.tellius.com with guided tours
+- No documented outages or downtime issues found
+- No customer complaints about support response times found
+- Absence of public SLA information is itself a concern
+---
+
+**Search**: "Tellius G2 review negative cons drawbacks limitations"
+**Date**: September 26, 2025
+**Summary**: G2 reviews reveal performance issues, high costs, limited resources, and adoption challenges
+**Relevance**: High
+**Key Evidence**:
+- **Performance**: "Tool hangs sometimes" due to compute power limitations
+- **Cost**: "might be expensive" - cost is deciding factor
+- **Resources**: "smaller user base and fewer online resources" vs established tools
+- **Mobile**: "mobile app may not offer comprehensive functionality"
+- **Adoption**: "challenge for companies used to manual analytics"
+- **Employee**: "Worst company I have ever worked for" - toxic culture in backend
+- **Insights**: "Sometimes the trends do not give valuable insights"
+---
+
 ## Phase 1 Summary of Key Findings
 
 ### Customer Stories & Implementation Failures

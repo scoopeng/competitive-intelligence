@@ -36,6 +36,14 @@
 - **True Cost**: $89k/14 weeks implementation + $25k-327k/year
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
+### Tellius Research IN PROGRESS (50% - Phases 1&2 Complete)
+- **BUPAF Score**: 20/50 (Category C - Analyst Workbench)
+- **Killer Finding**: 90% employee turnover, product "lightyears behind competitors"
+- **Fatal Flaws**: NO Excel support (wants to replace it), Zero Reddit presence
+- **Reality**: Natural language "has not been adopted" (own admission)
+- **Cost**: 6-week to 6-month implementation, customers calling it "a rip-off"
+- **Progress**: Phase 1 (Customer Discovery) ✅ | Phase 2 (Functionality) ✅
+
 ### Tableau Pulse Research COMPLETED (100%)
 - **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
 - **Killer Finding**: Cloud-only, Server customers abandoned

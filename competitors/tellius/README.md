@@ -2,9 +2,15 @@
 
 ## Quick Summary
 **Category**: Analyst Workbench (BUPAF Score: 20/50)  
-**Fatal Flaw**: Requires data scientists to operate  
-**Key Fact**: 12+ week implementation at $100K+  
-**Reality Check**: Advanced analytics that business users can't use  
+**Fatal Flaws**: 
+- 90% employee turnover ("lightyears behind competitors")
+- Zero Reddit/community presence (no user base)
+- Natural language "has not been adopted" (own admission)
+**Key Facts**: 
+- 6-week to 6-month implementation (not 12+ weeks)
+- Customers calling it "a rip-off" and "false promises"
+- NO Excel integration (wants to replace Excel entirely)
+**Reality Check**: Advanced analytics platform with no community, failing adoption, and internal chaos  
 
 ## The Scoop Advantage
 - **User requirement**: Business users vs data scientists
@@ -19,13 +25,26 @@
 - **[BATTLE_CARD.md](BATTLE_CARD.md)** - Quick reference with data scientist requirement
 
 ### Research Sources
-- **[sources/](sources/)** - 7 detailed research documents:
-  - AI capabilities analysis
-  - Business user barriers
-  - Implementation complexity
-  - Pricing and ROI analysis
-  - Competitive analysis
-  - Source documentation
+- **[RESEARCH_CHECKLIST.md](RESEARCH_CHECKLIST.md)** - Complete 4-phase research tracking
+  - Phase 1: Customer Discovery ✅ COMPLETE (Sept 26, 2025)
+  - Phase 2: Functionality Analysis ✅ COMPLETE (Sept 25, 2025)
+  - Phase 3: Technical Reality (Not started)
+  - Phase 4: Sales Enablement (Not started)
+
+### Evidence Collection
+- **[evidence/](evidence/)** - Primary research documentation:
+  - `phase1_customer_discovery.md` - Customer review mining & community research
+  - `phase2_functionality_analysis.md` - Feature gaps & marketing vs reality
+  - `customer_quotes.md` - Direct quotes from reviews & employees
+  - `community_sources.md` - Reddit/forum absence analysis
+
+### Research Analysis  
+- **[research/](research/)** - Synthesized findings:
+  - `customer_stories.md` - Implementation horror stories & 90% turnover
+  - `industry_analysis.md` - Vertical-specific limitations (no HIPAA/SOX)
+
+### Legacy Sources
+- **[sources/](sources/)** - Original research documents
 
 ## Key Differentiators
 
