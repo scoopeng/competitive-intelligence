@@ -45,13 +45,15 @@
 - **True Cost**: $89k/14 weeks implementation + $25k-327k/year
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
-### Tellius Research COMPLETED (100%)
-- **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
-- **Killer Finding**: 90% employee turnover, product "lightyears behind competitors"
-- **Fatal Flaws**: NO Excel support, Zero community, $125k+ Year 1 (25x advertised)
-- **Performance**: "Tool hangs sometimes" despite elastic scaling claims
-- **Reality**: Natural language "has not been adopted" (own admission)
-- **Customer Quote**: "A rip-off" with "false promises"
+### Tellius Research COMPLETED (100%) - UPDATED Sep 26, 2025
+- **BUPAF Score**: 12/50 (Category D - Marketing Mirage) ⬇️ DOWNGRADED
+- **Killer Finding**: Apache Spark crashes from memory/GC issues + 90% employee turnover
+- **Fatal Flaws**: ZERO Excel engine (forces abandonment), Only 31 customers globally
+- **Architecture**: "Spark notoriously difficult to tune" causes hangs and crashes
+- **True Cost**: $120,000+ Year 1 (includes $20k Spark expertise) vs $495/month advertised
+- **Market Reality**: $22.8M revenue (ThoughtSpot has 21x more), "lightyears behind"
+- **Natural Language**: "has not been adopted" - failed technology admission
+- **Research**: 60+ searches across 4 phases with employee quotes and technical analysis
 
 ### Tableau Pulse Research COMPLETED (100%)
 - **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
@@ -84,10 +86,10 @@
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
-**Completion**: 9 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT, Tellius)
-**In Progress**: Qlik (other session)
+**Completion**: 10 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT, Tellius, Qlik)
 **Next Priority**: DataChat (BUPAF 6/50 - needs verification)
-**Files**: 75+ research files, battle cards, and evidence documents
+**Files**: 80+ research files, battle cards, and evidence documents
+**Latest**: Tellius completed with 4-phase deep research (60+ searches)
 
 ## Project Phases
 
