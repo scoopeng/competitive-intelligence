@@ -1,6 +1,6 @@
 # Web Comparison Template: Scoop vs {COMPETITOR}
 
-**Target Output**: 150,000+ characters across 5 fields
+**Target Output**: 150,000-200,000+ characters across 5 fields (more is acceptable)
 **Purpose**: Comprehensive web-ready competitive comparison showcasing Scoop's revolution
 **Last Updated**: December 2025
 

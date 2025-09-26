@@ -1,6 +1,6 @@
 # Web Comparison Phased Execution Framework
 
-**Purpose**: Generate comprehensive 150K+ character comparisons that fully showcase Scoop's innovation
+**Purpose**: Generate comprehensive 150-200K+ character comparisons that fully showcase Scoop's innovation
 **Last Updated**: December 2025
 **Key Requirements**: Mandatory Scoop capabilities and audience sections in each phase
 
@@ -22,7 +22,7 @@ Use these to ensure consistency and save time across all competitor comparisons.
 Phase 1: Foundation & Scoop Revolution (35-40K chars)
 Phase 2: Capability Deep-Dive with ML Showcase (40-45K chars)
 Phase 3: Department & Industry Impact (40-45K chars)
-Phase 4: Consolidation with Quality Checks (150K+ final)
+Phase 4: Consolidation with Quality Checks (150-200K+ final)
 ```
 
 ### Key Improvements
