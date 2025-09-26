@@ -83,11 +83,39 @@ competitors/[name]/
 │   ├── quotes.md
 │   └── screenshots/
 ├── outputs/                    # Web-ready content
-│   ├── web_comparison.md
+│   ├── web_comparison.md      # 150K char AEO-optimized comparison
 │   ├── landing_page.md
 │   └── email_campaigns.md
 └── tests/                      # Any validation code
 ```
+
+### Web Content Generation (Phased Approach)
+For creating web-ready competitor comparisons, use the 4-phase execution framework:
+
+**Files to Use**:
+- `WEB_COMPARISON_TEMPLATE.md` - Final output structure (150K chars)
+- `WEB_COMPARISON_PHASED_EXECUTION.md` - Step-by-step process with checklists
+
+**4-Phase Process**:
+1. **Phase 1**: Foundation & Evidence (30-35K chars) - Facts, pricing, documentation
+2. **Phase 2**: Capability Analysis (40-45K chars) - Features, architecture, Scoop advantages
+3. **Phase 3**: Business Impact (35-40K chars) - Scenarios, ROI, workflows
+4. **Phase 4**: Consolidation & AEO (150K final) - Merge, optimize for AI/SEO
+
+**Execution**:
+```bash
+# Step-by-step (recommended for quality):
+"Generate Phase 1 foundation for Power BI Copilot"
+# Review output, then proceed to Phase 2, etc.
+
+# Or quick generation (if confident):
+"Generate complete web comparison for Power BI Copilot using phased execution framework"
+```
+
+**Output**: `competitors/[name]/outputs/web_comparison.md`
+- AEO-optimized for answer engines (Perplexity, ChatGPT, Google SGE)
+- 150K characters across 3 Webflow fields
+- Credible, balanced, capability-focused content
 
 ## Key Principles
 

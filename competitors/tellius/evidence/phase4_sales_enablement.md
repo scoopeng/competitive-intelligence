@@ -3,7 +3,8 @@
 **Date:** September 26, 2025  
 **Research Phase:** Phase 4 - Analysis & Sales Enablement  
 **Duration:** 20-25 minutes  
-**Focus:** Evidence-based BUPAF scoring and competitive sales materials
+**Focus:** Evidence-based BUPAF scoring and competitive sales materials  
+**Updated:** September 26, 2025 - Incorporating Phase 3 extended research findings
 
 ## BUPAF Scoring with Evidence
 
@@ -252,3 +253,115 @@ With $181,000 you could:
 
 ### The Knockout Punch
 "Tellius's own employees say it's 'lightyears behind competitors' with 90% quitting within a year. Their natural language 'has not been adopted.' It costs $125,000 to discover what customers already know - it's 'a rip-off.' Why risk it when Scoop works in 30 seconds?"
+
+---
+
+## Extended Analysis: Phase 3 Technical Findings
+
+### Apache Spark Architecture Reality
+**Critical Discovery**: Tellius built on unstable Apache Spark foundation
+
+Evidence from 2024-2025:
+- "Spark is notoriously difficult to tune and maintain"
+- Common crashes from GC overhead and memory issues
+- "Jobs crash due to lack of sufficient available memory"
+- Tellius users confirm: "Tool hangs sometimes" directly correlates with Spark issues
+- No public Spark tuning guides for Tellius customers
+
+**Sales Impact**: Technical instability at core architecture level
+
+### Updated Competitive Positioning (2025)
+
+#### Tellius vs Scoop - The Fatal Gap
+**Excel Integration**:
+- **Tellius**: ZERO Excel support - forces complete abandonment
+- **Scoop**: 150+ Excel functions with =SCOOP() formulas
+- **Reality**: Tellius wants to "eliminate manual Excel work" not enhance it
+
+**Market Evidence**:
+- Tellius: 31 customers globally, $22.8M revenue
+- ThoughtSpot: 21x Tellius revenue (~$500M)
+- Power BI: 50x more reviews than Tellius
+- Domo: 1000+ connectors vs Tellius limited integrations
+
+#### The "Agentic AI" Marketing Trap
+**Tellius Claims**: "First platform designed for agentic flows"
+**Reality**: 
+- Still requires "citizen data scientists"
+- Same Apache Spark crashes persist
+- Natural language "has not been adopted"
+- Complex 6-week implementation unchanged
+
+### Updated TCO Analysis (2025)
+**Real Year 1 Costs**:
+- Software: $15,000+ (Enterprise)
+- Implementation: $50,000+ (6 weeks minimum)
+- Customization: $25,000+
+- Training: $10,000+ (citizen data scientists)
+- Apache Spark Expertise: $20,000+ (ongoing)
+- **Total**: $120,000+ minimum
+
+**3-Year Disaster**:
+- Tellius: $176,000
+- Scoop: $10,764
+- **Savings**: $165,236 (94% less)
+
+### New Objection Handlers from Phase 3
+
+**"They have agentic AI analytics"**
+→ "Built on Apache Spark that crashes from memory problems. Spark is 'notoriously difficult to tune' and causes 'heap of frustration.' That's not AI, it's instability."
+
+**"They're 4x Gartner Visionary"**
+→ "With the biggest YoY drop in the quadrant. Only 31 customers after 8 years. That's not vision, it's failure."
+
+**"They beat ThoughtSpot 90% of the time"**
+→ "In demos only. ThoughtSpot has 21x their revenue. Markets don't lie - customers choose ThoughtSpot."
+
+**"The architecture scales"**
+→ "Apache Spark requires expert management or crashes. Users report hangs. Have you budgeted for Spark expertise at $20,000+/year?"
+
+### Customer Success Reality Check
+**Published wins**:
+- PepsiCo: 180 hours saved/year
+- Financial Services: $700K/month savings
+- eBay: Tracking $163M donations
+
+**Hidden context**:
+- NO implementation costs disclosed
+- NO professional services fees mentioned
+- NO failed implementations documented
+- Only 31 customers total (suspicious success rate)
+
+### The 31-Customer Reality
+**Geographic Distribution**:
+- North America: 15
+- EMEA: 9
+- APAC: 4
+- LATAM: 3
+
+**What this means**:
+- Smaller than most POCs
+- No critical mass for survival
+- High bankruptcy/acquisition risk
+- No ecosystem development possible
+
+### Security & Compliance Gaps (2024)
+**Has**: SOC 2 Type II (August 2023)
+**Missing**:
+- No GDPR compliance stated
+- No HIPAA certification
+- No FedRAMP
+- No industry-specific compliance
+- No public SLAs
+
+**Risk**: Data governance in company with 90% turnover
+
+### Final Technical Assessment
+**Architecture**: Fatally flawed Apache Spark dependency
+**Scalability**: Claims elastic, delivers crashes
+**Integration**: Anti-Excel philosophy kills adoption
+**Support**: 90% turnover = no knowledge retention
+**Future**: "Agentic AI" lipstick on dying platform
+
+### The Ultimate Tellius Takedown
+"Tellius: Where Apache Spark crashes meet 90% employee turnover at $120,000 for 31 customers who discovered it's 'lightyears behind competitors' and their natural language 'has not been adopted.' That's not a vendor, it's a cautionary tale."

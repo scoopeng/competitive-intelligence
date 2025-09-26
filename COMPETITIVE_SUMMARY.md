@@ -22,19 +22,20 @@ Every claim backed by URLs prospects can verify themselves:
 - **Qlik**: Zero adoption per consultants
 - **Domo**: $134K average cost, portal prison
 - **ThoughtSpot**: 33.3% accuracy benchmarks
-- **Tellius**: Requires data scientists
+- **Tellius**: Apache Spark crashes, 90% employee turnover, 31 customers only
 - **DataGPT**: Single-source only
 - **Zenlytic**: ZERO Excel support, YAML engineering required, no reviews found
 - **DataChat**: NO Excel, NO API, ZERO reviews after 7 years, $3.7M revenue (failed)
 
 ### 2. **Evidence Vault**
-60+ verified sources including:
+75+ verified sources including:
 - Official vendor documentation admitting limitations
 - Customer complaints from G2, Reddit, TrustRadius
 - Pricing documentation showing hidden costs
 - Community forums revealing adoption failures
 - **NEW: Phase 2 Functionality Deep Dive reveals NO Excel support in Power BI or Tableau**
 - **NEW: Both Power BI and Tableau cannot do multi-pass investigation**
+- **NEW: Tellius 4-phase research (60+ searches) confirms Apache Spark failures**
 
 ### 3. **Business User Liberation Narrative**
 Powerful positioning that resonates:

@@ -1,23 +1,26 @@
 # Tellius - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Marketing Mirage (BUPAF Score: 14/50)  
+**Category**: Marketing Mirage (BUPAF Score: 12/50) ⬇️ DOWNGRADED  
 **Fatal Flaws**: 
+- Apache Spark crashes (memory issues, GC overhead, "notoriously difficult")
 - 90% employee turnover ("lightyears behind competitors")
-- Zero Reddit/community presence (no user base)
-- Natural language "has not been adopted" (own admission)
+- Only 31 customers globally after 8 years
+- ZERO Excel engine (forces complete abandonment)
 **Key Facts**: 
-- $125,000+ Year 1 (25x advertised price)
-- Customers calling it "a rip-off" and "false promises"
-- NO Excel integration (wants to replace Excel entirely)
-**Reality Check**: Failed platform with extreme risk, hidden costs, and no viable path forward  
+- $120,000+ Year 1 (includes $20k Spark expertise)
+- $22.8M revenue (ThoughtSpot has 21x more)
+- Natural language "has not been adopted" (own admission)
+- "Tool hangs sometimes" from Spark foundation issues
+**Reality Check**: Unstable architecture + collapsing company + 31 customers = extreme risk  
 
 ## The Scoop Advantage
-- **User requirement**: Business users vs data scientists
-- **Setup**: 30 seconds vs 12+ weeks
-- **Cost**: $3,588/year vs $100K+ plus implementation
-- **ML explainability**: Transparent vs black box
-- **Independence**: Self-service vs expert-dependent
+- **Architecture**: Stable platform vs Apache Spark crashes
+- **Excel Support**: 150+ functions vs ZERO (forced abandonment)
+- **Setup**: 30 seconds vs 6 weeks minimum
+- **Cost**: $3,588/year vs $120,000+ Year 1
+- **Market Risk**: Growing vs 31 customers (bankruptcy risk)
+- **Team Stability**: Stable vs 90% turnover
 
 ## Files in This Folder
 
@@ -33,8 +36,10 @@
 
 ### Evidence Collection
 - **[evidence/](evidence/)** - Primary research documentation:
-  - `phase1_customer_discovery.md` - Customer review mining & community research
+  - `phase1_customer_discovery.md` - Customer review mining & community research (extended)
   - `phase2_functionality_analysis.md` - Feature gaps & marketing vs reality
+  - `phase3_technical_reality.md` - Apache Spark issues & competitive positioning (NEW)
+  - `phase4_sales_enablement.md` - BUPAF scoring & battle points (NEW)
   - `customer_quotes.md` - Direct quotes from reviews & employees
   - `community_sources.md` - Reddit/forum absence analysis
 

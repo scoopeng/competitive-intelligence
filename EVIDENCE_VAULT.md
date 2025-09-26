@@ -214,10 +214,58 @@ This document contains verifiable sources, documentation links, and evidence for
 
 ## Tellius
 
-### Complexity for Business Users
-**Source**: Product Documentation Review
-**Reality**: Requires data science expertise despite marketing claims
-**Cost**: $100K+ annual typical enterprise
+### 90% Employee Turnover & Product Behind Competitors
+**Source**: Glassdoor Employee Review
+**URL**: https://www.glassdoor.com/Reviews/Employee-Review-Tellius-E1587503-RVW80465085.htm
+**Quote**: "Turnover rate for employees is in the 90% range. Most people last less than a year"
+**Quote**: "The product is lightyears behind other competitors"
+**Quote**: "Tellius had the biggest drop in both the Ability to Execute and Completeness of Vision Gartner quadrants YoY"
+
+### Apache Spark Architecture Issues
+**Source**: Industry Research 2024-2025
+**Finding**: "Spark is notoriously difficult to tune and maintain"
+**User Impact**: "The tool hangs sometimes" - G2 review
+**Technical**: Memory crashes, GC overhead, requires expert management
+
+### NO Excel Formula Engine - Forces Abandonment
+**Source**: Tellius Documentation & Marketing
+**Quote**: "eliminate manual Excel work that traditionally involves tedious copy-pasting and VLOOKUP formulas"
+**Reality**: ZERO Excel formulas, no =TELLIUS() functions, forces complete platform migration
+**Compare**: Scoop has 150+ Excel functions with =SCOOP() formulas
+
+### Natural Language Failed Adoption
+**Source**: Tellius Blog/Documentation
+**Quote**: "Natural Language Search has not been adopted for analytics within most organizations"
+**Admission**: "ambiguous language, mismatched definitions, performance tail-latency"
+**Reality**: "unreliable multi-step logic" and "average analyst still relies on canned reports"
+
+### True Cost vs Advertised
+**Source**: Tellius Pricing & Industry Analysis
+**Advertised**: $495/month (Premium plan)
+**Reality**: $120,000+ Year 1
+- Implementation: $50,000+ (6 weeks minimum)
+- Customization: $25,000+
+- Training: $10,000+ (citizen data scientists)
+- Apache Spark Expertise: $20,000+/year
+
+### Market Reality - Only 31 Customers
+**Source**: Market Research 2025
+**Customers**: 31 globally (15 NA, 9 EMEA, 4 APAC, 3 LATAM)
+**Revenue**: $22.8M (ThoughtSpot has 21x more at ~$500M)
+**Valuation**: $41.7M - $67.2M
+**Risk**: Smaller than most POCs, bankruptcy/acquisition likely
+
+### Customer Complaints
+**Source**: Five.Reviews & G2
+**Quote**: "They promise AI-driven decision intelligence but provide false promises"
+**Quote**: "a rip-off" - customer calling for different provider
+**Quote**: "They use your data for their own gain"
+
+### No Community Presence
+**Source**: Reddit, Capterra searches
+**Finding**: ZERO Reddit discussions in r/BusinessIntelligence
+**Capterra**: "Be the first to review!" - no reviews
+**Reality**: No user community, no grassroots adoption
 
 ---
 
