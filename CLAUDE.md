@@ -83,11 +83,20 @@ competitors/[name]/
 │   ├── quotes.md
 │   └── screenshots/
 ├── outputs/                    # Web-ready content
-│   ├── web_comparison.md
+│   ├── web_comparison.md      # 150K char AEO-optimized comparison
 │   ├── landing_page.md
 │   └── email_campaigns.md
 └── tests/                      # Any validation code
 ```
+
+### Web Content Generation
+For creating web-ready competitor comparisons:
+1. Use `WEB_COMPARISON_TEMPLATE.md` as the master template
+2. Fill with research from battle cards + evidence folders
+3. Output to `competitors/[name]/outputs/web_comparison.md`
+4. Template is AEO-optimized for AI answer engines (Perplexity, ChatGPT, etc.)
+5. Targets 150K characters across 3 Webflow fields
+6. Includes schema markup, question clusters, and long-tail keywords
 
 ## Key Principles
 

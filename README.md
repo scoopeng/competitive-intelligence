@@ -2,6 +2,15 @@
 
 ## 🔥 Latest Updates (September 2025)
 
+### NEW: Web Comparison Template for AEO/SEO
+- Created `WEB_COMPARISON_TEMPLATE.md` for web-ready competitor pages
+- AEO-optimized for AI answer engines (ChatGPT, Perplexity, Google SGE)
+- 150K character template across 3 Webflow fields
+- Includes schema markup, question clusters, long-tail keywords
+- Targets AEO Maturity Level 4 (Pillar) for topical authority
+
+## 📊 Recent Competitor Research
+
 ### ThoughtSpot Deep Research COMPLETED (100%)
 - **BUPAF Score**: 23/50 (Category C - Analyst Workbench)
 - **Killer Finding**: "$500k/yr for 20 people" before it "crashed with all our data"
