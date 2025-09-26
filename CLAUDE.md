@@ -42,6 +42,7 @@ Manual Research → Consolidated Template → 41+ Searches → Rich Research Out
 
 ### Key Files
 - **COMPETITOR_RESEARCH_TEMPLATE.md** - Master research checklist
+- **RESEARCH_QA_CHECKLIST.md** - Quality assurance standards (REQUIRED before publishing)
 - **competitors/[name]/RESEARCH_CHECKLIST.md** - Per-competitor tracking
 - **competitors/[name]/evidence/research_library.md** - URL documentation
 
@@ -52,6 +53,7 @@ This is a **competitive intelligence documentation repository** for Scoop Analyt
 ### Core Philosophy
 - **BUPAF Framework**: Business User Power Assessment - evaluates what users can actually do alone
 - **Evidence-Based**: Every claim must have verifiable proof
+- **Quality First**: All research must pass RESEARCH_QA_CHECKLIST.md before publishing
 - **Preservation-Focused**: Never delete research, only archive if proven wrong
 - **Incremental Growth**: Small, methodical improvements over time
 
