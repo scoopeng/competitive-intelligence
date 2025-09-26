@@ -2,14 +2,14 @@
 
 ## Quick Summary
 **Parent**: Microsoft  
-**Category**: Marketing Mirage (BUPAF Score: 17/50)  
-**Fatal Flaw**: "Nondeterministic behavior" - Microsoft's own admission  
+**Category**: Marketing Mirage (BUPAF Score: 17/50)
+**Critical Flaw**: "Nondeterministic behavior" - Microsoft's own admission  
 **Key Fact**: Same question, different answers = not analytics, it's gambling  
 
 ## The Scoop Advantage
 - **Consistency**: Deterministic results vs their admitted randomness
 - **True Investigation**: Multi-step reasoning vs report narration
-- **Cost**: $3,588/year vs $52,400+/year for 200 users (15x more expensive)
+- **Cost**: Scoop costs a fraction vs $52,400+/year for 200 users (significantly less expensive)
 - **Excel Integration**: Native formulas vs separate Copilot license
 
 ## Files in This Folder
@@ -42,7 +42,7 @@
 - Power BI Pro: $120/user/year
 - Copilot add-on: $20/user/month ($240/year more)
 - Excel Copilot: Separate license
-- Total: $360+/user/year vs Scoop at $18/user/year
+- Total: $360+/user/year while Scoop offers affordable flat-rate pricing
 
 ## Discovery Questions
 1. "Have you noticed different answers from the same Copilot question?"
