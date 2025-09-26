@@ -76,6 +76,8 @@
 **Framework**: BUPAF (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
 **Completion**: 8 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT)
+**In Progress**: Qlik, Tellius (other sessions)
+**Next Priority**: DataChat (BUPAF 6/50 - needs verification)
 **Files**: 75+ research files, battle cards, and evidence documents
 
 ## Project Phases
