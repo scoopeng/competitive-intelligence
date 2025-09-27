@@ -73,83 +73,110 @@ This is a **competitive intelligence documentation repository** for Scoop Analyt
 └── CLAUDE.md                 # THIS FILE - Project context
 ```
 
-### Competitor Structure (Goal State)
+### Competitor Structure (Current State)
 ```
 competitors/[name]/
-├── README.md                    # Navigation
-├── BATTLE_CARD.md              # Sales quick reference
-├── research/                   # ALL research (preserve everything!)
-│   └── [unlimited docs...]     # Technical, pricing, customer research
-├── evidence/                   # Proof & sources
-│   ├── links.md
-│   ├── quotes.md
+├── README.md                       # Navigation
+├── BATTLE_CARD.md                 # Sales quick reference (machine-generated)
+├── COMPETITIVE_STRATEGY.md        # 🆕 Human-editable positioning strategy
+├── research/                      # ALL research (preserve everything!)
+│   └── [unlimited docs...]        # Technical, pricing, customer research
+├── evidence/                      # Proof & sources
+│   ├── framework_scoring.md       # Machine-generated BUA scores
+│   ├── research_library.md        # URL documentation
 │   └── screenshots/
-├── outputs/                    # Web-ready content
-│   ├── web_comparison.md      # 150K char AEO-optimized comparison
-│   ├── landing_page.md
-│   └── email_campaigns.md
-└── tests/                      # Any validation code
+├── outputs/                       # Web-ready content
+│   └── web_comparison.md          # Machine-generated from strategy + scoring
+└── tests/                         # Any validation code
 ```
 
-## Web Content Generation Framework (Updated December 2025)
+**Key Innovation**: `COMPETITIVE_STRATEGY.md` allows human strategic decisions (emphasis levels, scenarios, positioning) that machine generation reads to customize output per competitor weakness.
 
-### Critical Learnings from Power BI Copilot Evaluation
-**Problem Identified**: Previous comparisons were 80% negative (tearing down competitor) and only 20% positive (building up Scoop). This missed key Scoop capabilities and narrowed audience appeal.
+## Competitive Strategy Framework (🆕 September 2025)
 
-**Solution Implemented**: Templates now enforce:
+### The Enhancement
+**Problem**: Generic template missed competitor-specific weaknesses. Snowflake Cortex (NO UI) got same 10% UI emphasis as Power BI (has Teams).
+
+**Solution**: Human-editable `COMPETITIVE_STRATEGY.md` per competitor that machine generation reads.
+
+### Architecture
+```
+Human writes:   COMPETITIVE_STRATEGY.md (positioning decisions)
+                         ↓
+Machine reads:  framework_scoring.md (BUA data)
+                + COMPETITIVE_STRATEGY.md (strategy)
+                         ↓
+Machine generates: web_comparison.md (customized output)
+```
+
+### 10-Section Strategy File Structure
+1. **Primary Weaknesses** - Rank top 3 with emphasis levels (e.g., "UI: 30%")
+2. **Key Scenarios** - Stories that expose weaknesses
+3. **Talking Points** - What to emphasize/de-emphasize
+4. **Content Distribution** - Word count allocation (7,500 words)
+5. **Proof Points** - Evidence from BUA scores + research
+6. **Win Conditions** - When we win/lose (be honest)
+7. **Positioning** - One-sentence + elevator pitch
+8. **Avoid Over-Claiming** - Credibility guardrails
+9. **Custom Content Blocks** - Competitor-specific examples
+10. **Sales Guidance** - Discovery questions, objections
+
+### Example: Content Shift Based on Competitor Weakness
+
+**DEFAULT** (Generic template):
+- UI/Workflow: 10% | Excel: 20% | ML: 15% | Cost: 20%
+
+**SNOWFLAKE CORTEX** (No UI):
+- UI/Workflow: 30% ⬆️ (0/8 Native Integration)
+- Investigation: 25% ⬆️ (0/8 Investigation)
+- Cost: 15% ⬇️ (comparable pricing)
+
+**POWER BI COPILOT** (Cost + Reliability):
+- Cost: 25% ⬆️ ($67K F64 tax)
+- Reliability: 20% ⬆️ (nondeterminism, 3% satisfaction)
+- UI: 8% ⬇️ (Teams integration ok)
+
+### Key Files
+- **`competitors/SHARED/COMPETITIVE_STRATEGY_TEMPLATE.md`** - Master template with examples
+- **`competitors/[name]/COMPETITIVE_STRATEGY.md`** - Per-competitor strategy (human-editable)
+- **`COMPETITIVE_STRATEGY_FRAMEWORK.md`** - Complete documentation
+
+### Status
+✅ Template created
+✅ Snowflake Cortex example (30% UI emphasis)
+✅ Power BI Copilot example (25% cost emphasis)
+🔄 Rollout to remaining 9 competitors planned
+
+---
+
+## Web Content Generation Framework (December 2025)
+
+### Critical Quality Standards
 - **60/40 Rule**: 60% showcasing Scoop innovation, 40% competitor comparison
 - **Mandatory Capabilities Checklist**: 40 items that MUST be included
 - **All Departments Coverage**: 9 departments minimum
 - **Positive Data Team Messaging**: "We enable, not replace"
+- **Competitor-Specific Emphasis**: Use COMPETITIVE_STRATEGY.md to customize
 
-### Files for Web Comparison Generation (✅ COMPLETE & VALIDATED)
-- **`WEB_COMPARISON_TEMPLATE.md`** - Master template with mandatory checklists (150-200K+ chars target)
-- **`WEB_COMPARISON_PHASED_EXECUTION.md`** - 4-phase execution framework with explicit SHARED/ references
-- **`competitors/SHARED/`** - Reusable components library:
-  - `README.md` - How to use shared components
-  - `scoop_capabilities_checklist.md` - 40-item mandatory verification
-  - `agentic_analytics_section.md` - Multi-agent architecture content
-  - `embeddable_analytics_section.md` - Platform embedding capabilities (NOT SDKs)
-- **`CHECKPOINT_DECEMBER_2025.md`** - Framework validation summary
+### Files for Web Comparison Generation
+- **`WEB_COMPARISON_TEMPLATE.md`** - Base template (150K+ chars target)
+- **`WEB_COMPARISON_PHASED_EXECUTION.md`** - 4-phase execution framework
+- **`competitors/SHARED/`** - Reusable components library
+- **`competitors/[name]/COMPETITIVE_STRATEGY.md`** - 🆕 Competitor-specific customization
 
-### The 4-Phase Execution Framework
-1. **Phase 1**: Foundation & Scoop Revolution (35-40K chars)
-   - MUST lead with Agentic Analytics explanation
-   - Include Progressive Analysis modes (Quick/Deep)
-   - Show statistical validation examples
-   
-2. **Phase 2**: Capability Analysis (40-45K chars)
-   - Cover ALL 40 items from capability checklist
-   - List all 150+ Excel functions
-   - Explain ML with business rules output
-   
-3. **Phase 3**: Department & Industry Impact (40-45K chars)
-   - ALL 9 departments required
-   - Minimum 4 industries
-   - Positive data team enablement
-   
-4. **Phase 4**: Consolidation & Quality Check (150K+ final)
-   - Verify all checklists complete
-   - Ensure 60/40 positive ratio
-   - Professional tone throughout
-2. **Phase 2**: Capability Analysis (40-45K chars) - Features, architecture, Scoop advantages
-3. **Phase 3**: Business Impact (35-40K chars) - Scenarios, ROI, workflows
-4. **Phase 4**: Consolidation & AEO (150K final) - Merge, optimize for AI/SEO
-
-**Execution**:
+### Generation Workflow
 ```bash
-# Step-by-step (recommended for quality):
-"Generate Phase 1 foundation for Power BI Copilot"
-# Review output, then proceed to Phase 2, etc.
+# Read competitor strategy file first
+cat competitors/[name]/COMPETITIVE_STRATEGY.md
 
-# Or quick generation (if confident):
-"Generate complete web comparison for Power BI Copilot using phased execution framework"
+# Then generate with customized emphasis
+"Generate web comparison for [competitor] using strategy file"
 ```
 
 **Output**: `competitors/[name]/outputs/web_comparison.md`
-- AEO-optimized for answer engines (Perplexity, ChatGPT, Google SGE)
-- 150K characters across 3 Webflow fields
-- Credible, balanced, capability-focused content
+- AEO-optimized for answer engines
+- 7,500+ words with competitor-specific emphasis
+- Evidence-based, credible, balanced
 
 ## Key Principles
 
@@ -162,24 +189,26 @@ competitors/[name]/
 7. **Enable Don't Replace**: Positive messaging for data teams
 8. **Comprehensive Coverage**: All audiences, all capabilities
 
-## Current Priorities
+## Current Status (September 2025)
 
-### Phase 1: Stabilize Foundation (This Week)
-- Fix inflated claims (✅ Snowflake $1.6M removed)
-- Archive planning docs (✅ Root cleaned)
-- Apply BUA scoring consistently
+### Framework Redesign ✅ COMPLETE
+- **100-Point BUA Framework**: All 12 competitors rescored
+- **Mathematical Verification**: All dimension sums = totals
+- **Competitive Strategy Files**: Template + 2 examples created
+- **Final Scores**: Scoop 82/100 (A Strong) to DataChat 17/100 (D Poor)
 
-### Phase 2: Deepen Priority Competitors (Next 2 Weeks)
-Priority order based on deal frequency:
-1. **Power BI Copilot** - Most common, only 40% done
-2. **Tableau Pulse** - Enterprise deals, schema issues
-3. **ThoughtSpot** - Major gap at 25%
-4. **Domo** - 70% done, needs organization
+### Recent Commits
+- `1e449e3` - Framework redesign completion summary
+- `d0d54fb` - Competitive strategy framework documentation
+- `c9b87df` - Strategy files for Snowflake & Power BI
+- `71bf0aa` - Fix final 3 mathematical errors
+- `c1bbee6` - Fix 9 mathematical errors from QA
+- `e973c31` - Complete 100-point framework redesign
 
-### Phase 3: Complete Repository (Month)
-- All competitors >70% complete
-- Web outputs for all
-- Automated updates working
+### Next Priorities
+1. **Rollout COMPETITIVE_STRATEGY.md** to remaining 9 competitors
+2. **Generate web comparisons** using strategy files for customized emphasis
+3. **Quarterly maintenance** of existing strategy files
 
 ## Common Development Tasks
 
