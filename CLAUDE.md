@@ -42,7 +42,7 @@ Manual Research → Consolidated Template → 41+ Searches → Rich Research Out
 
 ### Key Files
 - **COMPETITOR_RESEARCH_TEMPLATE.md** - Master research checklist
-- **RESEARCH_QA_CHECKLIST.md** - Quality assurance standards (REQUIRED before publishing)
+- **QUALITY_STANDARDS.md** - Quality assurance standards (REQUIRED before publishing)
 - **competitors/[name]/RESEARCH_CHECKLIST.md** - Per-competitor tracking
 - **competitors/[name]/evidence/research_library.md** - URL documentation
 
@@ -53,24 +53,28 @@ This is a **competitive intelligence documentation repository** for Scoop Analyt
 ### Core Philosophy
 - **Business User Autonomy Framework**: Business User Power Assessment - evaluates what users can actually do alone
 - **Evidence-Based**: Every claim must have verifiable proof
-- **Quality First**: All research must pass RESEARCH_QA_CHECKLIST.md before publishing
+- **Quality First**: All research must pass QUALITY_STANDARDS.md before publishing
 - **Preservation-Focused**: Never delete research, only archive if proven wrong
 - **Incremental Growth**: Small, methodical improvements over time
 
 ## Project Structure
 
-### Root Documents (9 Essential Files)
+### Root Documents (13 Essential Files)
 ```
 /competitive-intelligence/
-├── README.md                  # Navigation & overview
-├── COMPETITIVE_SUMMARY.md     # Executive synthesis
-├── POSITIONING_GUIDE.md       # Sales messaging
-├── SCOOP_CAPABILITIES.md      # Technical differentiators
-├── EVIDENCE_VAULT.md          # All source URLs
-├── RESEARCH_ROADMAP.md        # Priorities + incremental plan
-├── METHODOLOGY.md             # How we work + BUA integration
-├── QUICK_START.md            # 2-minute sales prep
-└── CLAUDE.md                 # THIS FILE - Project context
+├── README.md                          # Navigation & overview
+├── START_HERE.md                      # Quick context for sessions
+├── CLAUDE.md                          # THIS FILE - AI assistant guidance
+├── CHANGELOG.md                       # Update tracking
+├── COMPETITIVE_SUMMARY.md             # Executive synthesis
+├── POSITIONING_GUIDE.md               # Sales messaging
+├── QUICK_START.md                     # 2-minute sales prep
+├── SCOOP_CAPABILITIES.md              # Technical differentiators
+├── EVIDENCE_VAULT.md                  # All source URLs
+├── METHODOLOGY.md                     # How we work + BUA integration
+├── COMPETITIVE_STRATEGY_FRAMEWORK.md  # Strategy file system
+├── QUALITY_STANDARDS.md               # Quality assurance (consolidated)
+└── RESEARCH_ROADMAP.md                # Priorities + incremental plan
 ```
 
 ### Competitor Structure (Current State)

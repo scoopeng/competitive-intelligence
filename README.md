@@ -222,14 +222,21 @@ Every competitive claim backed by:
 
 ```
 /competitive-intelligence/
-├── README.md                    # This overview
-├── COMPETITIVE_SUMMARY.md       # Executive overview + strategic blind spots
-├── POSITIONING_GUIDE.md         # Sales messaging + liberation narrative  
-├── SCOOP_CAPABILITIES.md        # Technical differentiators
-├── EVIDENCE_VAULT.md           # All source documentation & URLs
-├── QUICK_START.md              # 2-minute sales prep
+├── README.md                          # This overview
+├── START_HERE.md                      # Quick context for sessions
+├── CLAUDE.md                          # AI assistant guidance
+├── CHANGELOG.md                       # Update tracking
+├── COMPETITIVE_SUMMARY.md             # Executive overview + strategic blind spots
+├── POSITIONING_GUIDE.md               # Sales messaging + liberation narrative
+├── QUICK_START.md                     # 2-minute sales prep
+├── SCOOP_CAPABILITIES.md              # Technical differentiators
+├── EVIDENCE_VAULT.md                  # All source documentation & URLs
+├── METHODOLOGY.md                     # Research process + BUA integration
+├── COMPETITIVE_STRATEGY_FRAMEWORK.md  # Strategy file system
+├── QUALITY_STANDARDS.md               # Quality assurance (consolidated)
+├── RESEARCH_ROADMAP.md                # Priorities + incremental plan
 │
-├── competitors/                # ALL competitor intelligence (one folder each)
+├── competitors/                       # ALL competitor intelligence (one folder each)
 │   ├── snowflake-cortex/      # 20 files - COMPLETE testing & analysis
 │   │   ├── README.md          # Quick navigation guide
 │   │   ├── BATTLE_CARD.md     # Sales quick reference

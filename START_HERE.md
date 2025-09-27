@@ -228,10 +228,8 @@ done
 - **`competitors/snowflake-cortex/COMPETITIVE_STRATEGY.md`** - Example (No UI competitor)
 - **`competitors/power-bi-copilot/COMPETITIVE_STRATEGY.md`** - Example (Cost + reliability)
 
-### Completion Reports
-- **`FRAMEWORK_REDESIGN_COMPLETE.md`** - 100-point rescoring summary
-- **`FRAMEWORK_100PT_FINAL_STATUS.md`** - Detailed status report
-- **`QA_INSTRUCTIONS.md`** - Quality assurance procedures
+### Quality & Process
+- **`QUALITY_STANDARDS.md`** - Quality assurance (framework verification, research standards, best practices)
 
 ### AI Assistant Guidance
 - **`CLAUDE.md`** - Complete project context for AI assistant
