@@ -1,6 +1,6 @@
 # Battle Card: Qlik
 
-**BUA Score**: 23/59 (39%, Category C)
+**BUA Score**: 46/100 (46%, Category C - Weak)
 **Market Position**: Legacy BI struggling with AI transition (2.36% share)
 **Fatal Flaw**: Business users can't use it alone
 

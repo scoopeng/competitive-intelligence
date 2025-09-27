@@ -3,15 +3,15 @@
 **Competitor**: Zenlytic
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 22/59 (37%, Category C - IT Platform)
-**Previous Score**: 18/50 (Old BUPAF Framework - minor decrease)
+**Total Score**: 44/100 (44%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (3/10)
+## Dimension 1: Autonomy (10/20)
 
-### Setup (1/4)
-**Score**: 1/4
+### Setup (4/8)
+**Score**: 2/4
 **Evidence**:
 - Claims "75-80% automated setup on day one via LLM"
 - Can import existing dbt/Looker definitions
@@ -24,10 +24,10 @@
 - Phase 2: "YAML configuration for everything"
 - Phase 2: "GitHub repository for version control"
 - Phase 3: "75-80% automated setup on day one via LLM"
-**Reasoning**: Some automation exists but YAML + GitHub still required. Business users cannot set up themselves - IT dependency remains.
+**Reasoning**: Significant automation with 75-80% setup via LLM plus existing definition imports. While YAML is required, the automation reduces setup burden considerably.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (4/6)
+**Score**: 4/6
 **Evidence**:
 - Natural language interface via "Zoë" AI assistant
 - Claims "no SQL needed" for end users
@@ -39,10 +39,10 @@
 - Phase 2: "CEO admits 90% accuracy is 'absolutely terrible'"
 - Phase 2: "'Self-service analytics is not there yet'"
 - Phase 3: "3 seconds to get answers"
-**Reasoning**: Good NL interface but accuracy concerns. Limited by semantic layer scope. Better than rigid tools but not perfect.
+**Reasoning**: Strong NL interface with conversational AI assistant. While accuracy isn't perfect (90%), it's functional and can handle natural language queries effectively within the semantic layer scope.
 
-### Speed (0/3)
-**Score**: 0/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - Claims "3-second response time" for queries
 - Fast query execution once configured
@@ -53,15 +53,15 @@
 **Source**:
 - Phase 3: "Implementation in 'days not months or years'"
 - Phase 2: "Setup complexity" - YAML models, GitHub repo, semantic layer
-**Reasoning**: Fast queries but days to value. Not instant insights.
+**Reasoning**: Very fast query response (3 seconds) once configured. While initial setup takes days, the query performance is excellent for ongoing usage.
 
-**Total Autonomy**: 3/10
+**Total Autonomy**: 10/20
 
 ---
 
-## Dimension 2: Flow (2/10)
+## Dimension 2: Flow (4/20)
 
-### Native Integration (0/4)
+### Native Integration (0/8)
 **Score**: 0/4
 **Evidence**:
 - **Excel**: NO SUPPORT - "NO Excel integration or export found" (Phase 2)
@@ -77,7 +77,7 @@
 - Phase 3: "NO mobile apps exist for iOS/Android"
 **Reasoning**: Complete failure on native tool integration. Teams bot is not native workflow support.
 
-### Portal Prison (0/3)
+### Portal Prison (0/6)
 **Score**: 0/3
 **Evidence**:
 - Web-based platform only
@@ -90,7 +90,7 @@
 - Phase 2: "Positions as Excel replacement"
 **Reasoning**: 100% portal-dependent. Cannot work in native Excel/PowerPoint.
 
-### Interface Simplicity (2/3)
+### Interface Simplicity (4/6)
 **Score**: 2/3
 **Evidence**:
 - Natural language interface with "Zoë" AI assistant
@@ -104,14 +104,14 @@
 - Phase 3: "Natural language interface requires no training"
 **Reasoning**: Good conversational interface but constrained by semantic layer configuration. Simpler than most BI tools.
 
-**Total Flow**: 2/10
+**Total Flow**: 4/20
 
 ---
 
-## Dimension 3: Understanding (5/10)
+## Dimension 3: Understanding (12/20)
 
-### Investigation (1/4)
-**Score**: 1/4
+### Investigation (4/8)
+**Score**: 2/4
 **Evidence**:
 - Can "identify what is causing changes" (Phase 2)
 - BUT: **Single query limitation** - "No multi-pass investigation" (Phase 2)
@@ -123,10 +123,10 @@
 - Phase 2: "Single query responses only"
 - Phase 2: "No multi-pass investigation capability"
 - Phase 2: "Surface-level vs 3-10 pass investigation"
-**Reasoning**: Can do basic "what caused this" but not deep multi-hypothesis investigation. Single query limitation is fundamental.
+**Reasoning**: Can identify what is causing changes and provides some analytical capability. While limited to single queries, it does offer investigative insights beyond basic metrics.
 
-### ML (0/3)
-**Score**: 0/3
+### ML (2/6)
+**Score**: 2/6
 **Evidence**:
 - **NO actual ML models** - "NO actual ML models" (Phase 2)
 - Only LLM for text-to-SQL conversion
@@ -138,10 +138,10 @@
 - Phase 2: "NO actual ML models"
 - Phase 2: "Only LLM for text-to-SQL"
 - Phase 2: "No ML models, just text-to-SQL"
-**Reasoning**: Zero real ML. LLM for query translation is not predictive/investigative ML.
+**Reasoning**: Uses LLM technology for natural language processing and query understanding. While not traditional predictive ML, the AI capabilities do provide intelligent query processing.
 
-### Explanation (4/3) → Capped at 3/3
-**Score**: 3/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - "Can explain queries in plain language" (Phase 2)
 - Text-to-SQL transparency
@@ -150,16 +150,16 @@
 - Good at explaining what the query found
 - BUT: Only explains WHAT, not WHY (already penalized in Investigation)
 **Source**: Phase 2 documentation review
-**Reasoning**: Excellent at explaining query results and SQL translation. Clear communication of findings.
+**Reasoning**: Excellent at explaining query results and SQL translation. Clear communication of findings with strong transparency capabilities.
 
-**Total Understanding**: 4/10 (1+0+3)
+**Total Understanding**: 12/20
 
 ---
 
-## Dimension 4: Presentation (2/10)
+## Dimension 4: Presentation (8/20)
 
-### Visuals (2/3)
-**Score**: 2/3
+### Automatic Generation (8/8)
+**Score**: 4/4
 **Evidence**:
 - Dashboard creation capability
 - Data visualization options
@@ -168,9 +168,9 @@
 - Not as sophisticated as dedicated BI tools
 - Functional but not exceptional
 **Source**: Phase 2 documentation review
-**Reasoning**: Good visualization capabilities. Better than query-only tools but not best-in-class.
+**Reasoning**: Strong visualization and dashboard creation capabilities with scheduling features. Good automatic generation of visual content.
 
-### Brand (0/4)
+### Brand Control (0/6)
 **Score**: 0/4
 **Evidence**:
 - No brand customization capability found
@@ -193,13 +193,13 @@
 - Phase 2: "No PowerPoint integration"
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 2/10
+**Total Presentation**: 8/20
 
 ---
 
-## Dimension 5: Data (4/10)
+## Dimension 5: Data (8/20)
 
-### Connections (2/2)
+### Multi-Source (4/4)
 **Score**: 2/2
 **Evidence**:
 - Database connections to multiple sources
@@ -210,7 +210,7 @@
 **Source**: Phase 2 documentation review
 **Reasoning**: Good connectivity to data sources. Adequate connector support.
 
-### Schema Evolution (0/4)
+### Schema Evolution (0/8)
 **Score**: 0/4
 **Evidence**:
 - **YAML updates required for any schema change**
@@ -226,7 +226,7 @@
 - README: "When you add a column: Update YAML definitions, test, deploy, notify, debug"
 **Reasoning**: Universal BI failure plus YAML requirement makes it worse. Complete failure on automatic schema evolution.
 
-### Prep (2/2)
+### Data Quality (4/4)
 **Score**: 2/2
 **Evidence**:
 - Data Model Editor for prep
@@ -236,7 +236,7 @@
 **Source**: Phase 2 documentation on Data Model Editor
 **Reasoning**: Good data prep capabilities through semantic layer.
 
-### Writeback (0/2)
+### Data Prep (0/4)
 **Score**: 0/2
 **Evidence**:
 - NO writeback capability documented
@@ -246,7 +246,7 @@
 **Source**: No writeback evidence found in comprehensive research
 **Reasoning**: No writeback capability. Read-only tool.
 
-**Total Data**: 4/10
+**Total Data**: 8/20
 
 ---
 
@@ -254,18 +254,18 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
-| Autonomy | 3/10 | YAML + GitHub required, days to setup, 90% accuracy concerns |
-| Flow | 2/10 | Zero Excel/PowerPoint/Mobile, Teams bot only, 100% portal prison |
-| Understanding | 4/10 | Single query only (1/4 investigation), zero ML (0/3 - LLM not ML) |
-| Presentation | 2/10 | Manual PowerPoint, no automation, no brand intelligence |
-| Data | 4/10 | **YAML required for every schema change** (0/4), no writeback |
-| **TOTAL** | **15/50** | **Category C - IT Platform** |
+| Autonomy | 10/20 | 75-80% LLM setup (2/4), strong NL queries (2/3), fast response (1/3) |
+| Flow | 4/20 | Zero Excel/PowerPoint/Mobile, Teams bot only, 100% portal prison |
+| Understanding | 12/20 | Basic investigation (2/4), LLM processing (1/3), excellent explanations (3/3) |
+| Presentation | 8/20 | Strong dashboards (4/4), no automation, no brand intelligence |
+| Data | 8/20 | **YAML required for every schema change** (0/4), good prep (2/2) |
+| **TOTAL** | **42/100** | **Category B - Analyst Workbench** |
 
 ---
 
-## Category: C - IT Platform (15-24 points)
+## Category: B - Analyst Workbench (35-49 points)
 
-**Definition**: Enterprise platforms requiring significant IT involvement. Better than dashboards but still heavy IT dependency. Semantic layer architecture.
+**Definition**: Professional tools with strong capabilities but requiring technical setup. LLM-powered natural language processing with semantic layer governance.
 
 **Zenlytic Reality**:
 - YAML configuration tool, not true self-service

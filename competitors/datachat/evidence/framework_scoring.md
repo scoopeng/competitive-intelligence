@@ -3,15 +3,15 @@
 **Competitor**: DataChat
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 14/59 (24%, Category D - Dashboard Tool)
-**Previous Score**: 12/50 (Old BUPAF Framework - minor decrease)
+**Total Score**: 28/100 (28%, Category D - Poor)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (2/10)
+## Dimension 1: Autonomy (2/20)
 
-### Setup (0/4)
-**Score**: 0/4
+### Setup (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Requires database connections and Google Cloud Platform setup** with IAP, HTTPS Load Balancers (Phase 4)
 - Claims "no-code" but needs IT for database connections (Phase 4)
@@ -23,8 +23,8 @@
 - Phase 4: "No 30-second setup"
 **Reasoning**: Complete IT dependency. Cannot setup without technical infrastructure. Zero self-service setup.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (2/6)
+**Score**: 2/6
 **Evidence**:
 - Natural language capability via GEL (Guided English Language)
 - Two-step process: NL → GEL → Execution (Phase 2/Phase 4)
@@ -34,10 +34,10 @@
 **Source**:
 - Phase 2: "DataChat uses GEL (Guided English Language) as intermediary"
 - Phase 4: "Two-step process adds complexity"
-**Reasoning**: NL exists but through complex intermediary. Can ask questions but not as natural as direct processing. 2/3 for working but complex.
+**Reasoning**: NL exists but through complex intermediary. Can ask questions but not as natural as direct processing. 2/6 for working but complex.
 
-### Speed (0/3)
-**Score**: 0/3
+### Speed (0/6)
+**Score**: 0/6
 **Evidence**:
 - No performance benchmarks published (Phase 4)
 - Unknown query response times (Phase 4)
@@ -45,16 +45,16 @@
 - No evidence of fast insights
 - Database and GCP setup required before any productivity
 **Source**: Phase 4: "No performance benchmarks published, unknown query response times"
-**Reasoning**: No speed evidence. Setup barriers prevent instant insights. 0/3 for no demonstrated speed.
+**Reasoning**: No speed evidence. Setup barriers prevent instant insights. 0/6 for no demonstrated speed.
 
-**Total Autonomy**: 2/10
+**Total Autonomy**: 2/20
 
 ---
 
-## Dimension 2: Flow (0/10)
+## Dimension 2: Flow (0/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: **ZERO INTEGRATION** - "NO EXCEL INTEGRATION FOUND" (Phase 2/Phase 4)
 - "No Excel formula support, no Excel add-in or plugin, no =DATACHAT() functions, no export to Excel mentioned" (Phase 2)
@@ -67,8 +67,8 @@
 - BATTLE_CARD: "ZERO Excel integration"
 **Reasoning**: Complete failure on all native tool integration. Worst possible score.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Web-only platform (Phase 2)
 - Cannot work in Excel/PowerPoint/Slack
@@ -80,8 +80,8 @@
 - Phase 2: "Web-based only (no native apps)"
 **Reasoning**: 100% portal-dependent. No escape to native tools. No API for integration.
 
-### Interface Simplicity (0/3)
-**Score**: 0/3
+### Interface Simplicity (0/6)
+**Score**: 0/6
 **Evidence**:
 - Requires understanding GEL intermediary language (Phase 2/Phase 4)
 - Business context dictionary setup needed (Phase 4)
@@ -91,16 +91,16 @@
 **Source**:
 - Phase 4: "Business context dictionary required for domain terms"
 - Phase 4: "No training program exists, no certification, no time-to-productivity metrics"
-**Reasoning**: Not simple. Requires understanding of GEL intermediary. Zero user success evidence. 0/3 for complexity without validation.
+**Reasoning**: Not simple. Requires understanding of GEL intermediary. Zero user success evidence. 0/6 for complexity without validation.
 
-**Total Flow**: 0/10
+**Total Flow**: 0/20
 
 ---
 
-## Dimension 3: Understanding (3/10)
+## Dimension 3: Understanding (6/20)
 
-### Investigation (0/4)
-**Score**: 0/4
+### Investigation (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Single-query conversion only** (Phase 4)
 - "No multi-pass investigation capability" (Phase 4)
@@ -110,10 +110,10 @@
 **Source**:
 - Phase 4: "Single-query conversion only, no multi-pass investigation capability"
 - Phase 4: "DataChat is a SQL translator, not an investigative analytics engine"
-**Reasoning**: Cannot investigate WHY. Single query limitation. 0/4 for no investigation capability.
+**Reasoning**: Cannot investigate WHY. Single query limitation. 0/8 for no investigation capability.
 
-### ML (0/3)
-**Score**: 0/3
+### ML (0/6)
+**Score**: 0/6
 **Evidence**:
 - **AutoML with black-box model selection** (Phase 2/Phase 4)
 - No explanatory ML like J48/JRip (Phase 2/Phase 4)
@@ -123,10 +123,10 @@
 **Source**:
 - Phase 2: "Auto-selects 'best' model (black box selection)"
 - Phase 4: "Basic AutoML with black-box model selection, no explanatory ML like J48/JRip"
-**Reasoning**: Black box ML. No explainability. Not automatic/transparent. 0/3 for opaque ML.
+**Reasoning**: Black box ML. No explainability. Not automatic/transparent. 0/6 for opaque ML.
 
-### Explanation (3/3)
-**Score**: 3/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - GEL code is transparent and users can verify (Phase 2)
 - "Transparent GEL code users can verify" (Phase 2)
@@ -134,26 +134,26 @@
 - Can see what system interpreted
 - Basic visualization capabilities (Phase 4)
 **Source**: Phase 2: "Transparent GEL code users can verify"
-**Reasoning**: Good at showing what it interpreted through GEL transparency. 3/3 for explanation of process.
+**Reasoning**: Good at showing what it interpreted through GEL transparency. 6/6 for explanation of process.
 
-**Total Understanding**: 3/10
+**Total Understanding**: 6/20
 
 ---
 
-## Dimension 4: Presentation (1/10)
+## Dimension 4: Presentation (2/20)
 
-### Visuals (1/3)
-**Score**: 1/3
+### Automatic Generation (2/8)
+**Score**: 2/8
 **Evidence**:
 - "Show Me Something Interesting" feature exists but details unclear (Phase 4)
 - Basic visualization capabilities mentioned (Phase 4)
 - No evidence of sophisticated visualization
 - Minimal customer stories about visuals (Phase 1)
 **Source**: Phase 4: "Basic visualization capabilities mentioned"
-**Reasoning**: Basic visualization exists. 1/3 for minimal capability.
+**Reasoning**: Basic visualization exists. 2/8 for minimal capability.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization found
 - No logo insertion
@@ -162,63 +162,63 @@
 **Source**: No brand capabilities found in research
 **Reasoning**: Zero brand automation.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: NO SUPPORT (Phase 2/Phase 4)
 - NO presentation generation (Phase 4)
 - No automated report creation
 - Manual export workflow only
 **Source**: Phase 4: "NO presentation generation (no PowerPoint support)"
-**Reasoning**: Completely manual. No automation. 0/3.
+**Reasoning**: Completely manual. No automation. 0/6.
 
-**Total Presentation**: 1/10
+**Total Presentation**: 2/20
 
 ---
 
-## Dimension 5: Data (5/10)
+## Dimension 5: Data (7/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Multi-Source (4/4)
+**Score**: 4/4
 **Evidence**:
 - Database connections to various tables/views (Phase 2)
 - OAuth support for Snowflake (Phase 2)
 - BigQuery and Presto connectivity (Phase 2)
 - Can connect to multiple data sources
 **Source**: Phase 2 documentation on connectors
-**Reasoning**: Good data connectivity. Adequate connectors. 2/2.
+**Reasoning**: Good data connectivity. Adequate connectors. 4/4.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic schema evolution documented
 - Requires IT to reconfigure connections on schema changes
 - No evidence of automatic adaptation
 - Zero user reviews means no real-world schema change validation
 **Source**: No schema evolution capability found in research
-**Reasoning**: Universal BI failure. No automatic schema adaptation. 0/4.
+**Reasoning**: Universal BI failure. No automatic schema adaptation. 0/8.
 
-### Prep (2/2)
-**Score**: 2/2
+### Data Quality (2/4)
+**Score**: 2/4
 **Evidence**:
 - Remove Duplicates capability (Phase 2)
 - DateTime calculations (Phase 2)
 - Data transformation capabilities exist
 - GEL intermediary allows data manipulation
 **Source**: Phase 2 documentation on data prep
-**Reasoning**: Adequate data prep through GEL. 2/2.
+**Reasoning**: Adequate data prep through GEL. 2/4.
 
-### Writeback (1/2)
-**Score**: 1/2
+### Data Prep (1/4)
+**Score**: 1/4
 **Evidence**:
 - No explicit writeback documented
 - BUT: Database connections suggest potential write capability
 - Not operationalized for business users
 - No API limits programmatic writeback
 **Source**: Phase 2/3 research
-**Reasoning**: Unclear but possible technical capability. 1/2 for potential but not validated.
+**Reasoning**: Unclear but possible technical capability. 1/4 for potential but not validated.
 
-**Total Data**: 5/10
+**Total Data**: 7/20
 
 ---
 
@@ -226,12 +226,12 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
-| Autonomy | 2/10 | GCP setup required, GEL complexity, no performance data, zero user success |
-| Flow | 0/10 | **ZERO Excel** (fatal), NO API (confirmed), no PowerPoint/Slack/Mobile, 100% portal prison |
-| Understanding | 3/10 | No investigation (0/4 - single query), black box ML (0/3), GEL transparency (3/3) |
-| Presentation | 1/10 | Basic viz (1/3), no automation, no brand intelligence |
-| Data | 5/10 | Good connectivity (2/2), **no schema evolution** (0/4), decent prep (2/2), unclear writeback (1/2) |
-| **TOTAL** | **11/50** | **Category D - Dashboard Tool** |
+| Autonomy | 2/20 | GCP setup required, GEL complexity, no performance data, zero user success |
+| Flow | 0/20 | **ZERO Excel** (fatal), NO API (confirmed), no PowerPoint/Slack/Mobile, 100% portal prison |
+| Understanding | 6/20 | No investigation (0/8 - single query), black box ML (0/6), GEL transparency (6/6) |
+| Presentation | 2/20 | Basic viz (2/8), no automation, no brand intelligence |
+| Data | 7/20 | Good connectivity (4/4), **no schema evolution** (0/8), decent prep (2/4), unclear writeback (1/4) |
+| **TOTAL** | **17/100** | **Category D - Dashboard Tool** |
 
 ---
 

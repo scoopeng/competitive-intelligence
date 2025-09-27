@@ -3,15 +3,15 @@
 **Competitor**: DataGPT
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 15/59 (25%, Category C - IT Platform)
-**Previous Score**: 13/50 (Old BUPAF Framework - minor decrease)
+**Total Score**: 30/100 (30%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (2/10)
+## Dimension 1: Autonomy (4/20)
 
-### Setup (0/4)
-**Score**: 0/4
+### Setup (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Requires 2-4 weeks implementation** - Schema configuration mandatory
 - "Always begins with pilot" (their own docs)
@@ -25,8 +25,8 @@
 - BATTLE_CARD: "Setup Time: 2-4 weeks"
 **Reasoning**: Complete IT dependency. Schema configuration required before any business user can ask questions. Zero self-service setup.
 
-### Questions (1/3)
-**Score**: 1/3
+### Questions (2/6)
+**Score**: 2/6
 **Evidence**:
 - Natural language interface exists
 - BUT: "Requires exact phrasing" (Phase 2)
@@ -39,8 +39,8 @@
 - Phase 2: "Single query processing (not multi-pass)"
 **Reasoning**: Can ask questions but limited to surface-level metrics. No investigation capability.
 
-### Speed (1/3)
-**Score**: 1/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - Claims "100x faster" but no actual benchmarks
 - "Lightning Cache" is just standard database caching
@@ -52,14 +52,14 @@
 - Phase 3: "Standard caching marketed as innovation"
 **Reasoning**: Fast query response but weeks to value. Misleading speed claims.
 
-**Total Autonomy**: 2/10
+**Total Autonomy**: 4/20
 
 ---
 
-## Dimension 2: Flow (1/10)
+## Dimension 2: Flow (2/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: NO SUPPORT - "No formula support (0 functions vs Scoop's 150+)"
 - **Slack**: NO INTEGRATION FOUND - "No Slack integration found"
@@ -73,8 +73,8 @@
 - Phase 3: "Portal-only access confirmed"
 **Reasoning**: Complete failure on workflow integration. Zero native tool support.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Must use DataGPT web portal exclusively
 - "Portal-only access" (Phase 3)
@@ -87,8 +87,8 @@
 - Phase 3: "No API documentation found publicly"
 **Reasoning**: 100% portal-dependent. Cannot work in native tools.
 
-### Interface Simplicity (1/3)
-**Score**: 1/3
+### Interface Simplicity (2/6)
+**Score**: 2/6
 **Evidence**:
 - Natural language interface conceptually simple
 - BUT: "Steep learning curve documented" (Phase 2)
@@ -101,14 +101,14 @@
 - Phase 2: "Not intuitive for beginners"
 **Reasoning**: Looks simple but documented as steep learning curve. Limited validation base.
 
-**Total Flow**: 1/10
+**Total Flow**: 2/20
 
 ---
 
-## Dimension 3: Understanding (3/10)
+## Dimension 3: Understanding (6/20)
 
-### Investigation (0/4)
-**Score**: 0/4
+### Investigation (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Complete failure on "why" questions**: Can only show WHAT, not WHY
 - Single query limitation - no multi-pass investigation
@@ -122,8 +122,8 @@
 - Phase 2: "Single query only"
 **Reasoning**: Cannot investigate WHY. Fundamental architectural limitation - single metrics only.
 
-### ML (0/3)
-**Score**: 0/3
+### ML (0/6)
+**Score**: 0/6
 **Evidence**:
 - **NO AUTOMATIC ML** - "No J48, JRip, or EM clustering equivalents"
 - "Basic statistics marketed as 'AI'" (Phase 2)
@@ -137,8 +137,8 @@
 - Phase 2: "Marketing vs Reality: Claims 'AI-powered analysis', Reality: Basic statistics only"
 **Reasoning**: Zero real ML. Marketing basic statistics as AI.
 
-### Explanation (3/3)
-**Score**: 3/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - Returns clear metric displays
 - Shows data in tables/charts
@@ -149,14 +149,14 @@
 **Source**: Product documentation on output formats
 **Reasoning**: Good at explaining what it shows, but shallow depth (single metrics). Clarity on surface-level answers.
 
-**Total Understanding**: 3/10
+**Total Understanding**: 6/20
 
 ---
 
-## Dimension 4: Presentation (1/10)
+## Dimension 4: Presentation (2/20)
 
-### Visuals (1/3)
-**Score**: 1/3
+### Automatic Generation (2/8)
+**Score**: 2/8
 **Evidence**:
 - "Databoard" visualization capability exists
 - Basic charts and metrics display
@@ -166,8 +166,8 @@
 **Source**: Product documentation on Databoard
 **Reasoning**: Basic visualization capabilities. Adequate for metrics display.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization capability
 - No logo insertion
@@ -177,8 +177,8 @@
 **Source**: No evidence of brand capabilities found
 **Reasoning**: Zero brand automation. Standard output only.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: Manual workflow - no generation capability
 - **Export**: Manual CSV download
@@ -190,14 +190,14 @@
 - BATTLE_CARD: "No PowerPoint integration - copy/paste screenshots"
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 1/10
+**Total Presentation**: 2/20
 
 ---
 
-## Dimension 5: Data (5/10)
+## Dimension 5: Data (8/20)
 
-### Connections (1/2)
-**Score**: 1/2
+### Multi-Source (2/4)
+**Score**: 2/4
 **Evidence**:
 - Can connect to databases
 - BUT: **SINGLE SOURCE ONLY** - Fatal limitation
@@ -209,8 +209,8 @@
 - BATTLE_CARD: "Data Sources: Single source only"
 **Reasoning**: Has connectors but single-source architecture makes them inadequate. Major limitation.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - **FATAL FLAW**: "Rare to adjust after setup" (their own documentation)
 - Schema locked after configuration
@@ -224,8 +224,8 @@
 - README: "The Rigidity Trap (Fatal Flaw)"
 **Reasoning**: Universal BI failure plus explicit admission it's "rare to adjust." Complete failure on schema evolution.
 
-### Prep (2/2)
-**Score**: 2/2
+### Data Quality (4/4)
+**Score**: 4/4
 **Evidence**:
 - SQL-like transformations available
 - Can configure metrics during setup
@@ -234,8 +234,8 @@
 **Source**: Product architecture documentation
 **Reasoning**: Adequate data preparation capabilities during configuration phase.
 
-### Writeback (2/2)
-**Score**: 2/2
+### Data Prep (2/4)
+**Score**: 2/4
 **Evidence**:
 - Can write back to connected data source
 - Technical writeback capability exists
@@ -244,7 +244,7 @@
 **Source**: Architecture documentation
 **Reasoning**: Technical writeback possible. Adequate for data platform use cases.
 
-**Total Data**: 5/10
+**Total Data**: 8/20
 
 ---
 
@@ -252,12 +252,12 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|-----------------|
-| Autonomy | 2/10 | 2-4 weeks setup, schema locked "rare to adjust", steep learning curve |
-| Flow | 1/10 | Zero Excel/Slack/PowerPoint/Mobile, 100% portal prison |
-| Understanding | 3/10 | **Cannot answer "why"** (0/4 investigation), zero ML (statistics only) |
-| Presentation | 1/10 | Manual screenshots, no automation, no brand intelligence |
-| Data | 5/10 | **Single source only** (fatal), schema "rare to adjust" after setup |
-| **TOTAL** | **12/50** | **Category D - Dashboard Tool** |
+| Autonomy | 4/20 | 2-4 weeks setup, schema locked "rare to adjust", steep learning curve |
+| Flow | 2/20 | Zero Excel/Slack/PowerPoint/Mobile, 100% portal prison |
+| Understanding | 6/20 | **Cannot answer "why"** (0/4 investigation), zero ML (statistics only) |
+| Presentation | 2/20 | Manual screenshots, no automation, no brand intelligence |
+| Data | 8/20 | **Single source only** (fatal), schema "rare to adjust" after setup |
+| **TOTAL** | **22/100** | **Category D - Dashboard Tool** |
 
 ---
 

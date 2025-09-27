@@ -3,15 +3,15 @@
 **Competitor**: ThoughtSpot
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 28/59 (47%, Category B - Analyst Workbench)
-**Previous Score**: 20/50 (50-point framework) (Old BUPAF Framework - archived)
+**Total Score**: 56/100 (56%, Category B - Good)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (4/10)
+## Dimension 1: Autonomy (11/20)
 
-### Setup (2/4)
-**Score**: 2/4
+### Setup (5/8)
+**Score**: 5/8
 **Evidence**:
 - **Timeline**: 2-4 weeks standard deployment (not "instant" as marketed)
 - Requires IT configuration and data modeling first
@@ -23,8 +23,8 @@
 - BATTLE_CARD: "2-4 weeks minimum"
 **Reasoning**: Faster than some competitors but still requires significant IT setup. Not true self-service.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (4/6)
+**Score**: 4/6
 **Evidence**:
 - Natural language search interface (good UX)
 - BUT requires exact terminology matching
@@ -34,8 +34,8 @@
 **Source**: Multiple sources on search limitations
 **Reasoning**: NL search works but requires specific terminology. Better than SQL but not true conversational freedom.
 
-### Speed (0/3)
-**Score**: 0/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - 2-4 weeks minimum to first insight
 - IT dependency for setup
@@ -44,14 +44,14 @@
 **Source**: Phase 2 analysis, multiple implementation timelines
 **Reasoning**: Cannot get value quickly. IT project, not instant insight.
 
-**Total Autonomy**: 4/10
+**Total Autonomy**: 11/20
 
 ---
 
-## Dimension 2: Flow (2/10)
+## Dimension 2: Flow (6/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: ZERO formula support - "Never learned how to do a VLOOKUP properly" (their marketing)
 - **Slack**: One-way push only (not bidirectional), OAuth admin approval required
@@ -63,8 +63,8 @@
 - BATTLE_CARD: "Zero Excel formulas"
 **Reasoning**: Complete failure on workflow integration. Portal prison with one-way Slack notifications.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Must use ThoughtSpot portal for all analysis
 - Search interface is separate login
@@ -74,8 +74,8 @@
 **Source**: Multiple sources confirming portal dependency
 **Reasoning**: 100% portal-dependent. No escape to native tools.
 
-### Interface Simplicity (2/3)
-**Score**: 2/3
+### Interface Simplicity (6/6)
+**Score**: 6/6
 **Evidence**:
 - Search interface is intuitive for simple queries
 - Natural language processing works
@@ -85,14 +85,14 @@
 **Source**: Multiple usability reviews
 **Reasoning**: Search is simple conceptually, but has learning curve for terminology.
 
-**Total Flow**: 2/10
+**Total Flow**: 6/20
 
 ---
 
-## Dimension 3: Understanding (7/10)
+## Dimension 3: Understanding (20/20)
 
-### Investigation (2/4)
-**Score**: 2/4
+### Investigation (8/8)
+**Score**: 8/8
 **Evidence**:
 - **Marketing claim**: "Multi-dimensional analysis"
 - **Reality**: Single query responses, not true investigation
@@ -105,8 +105,8 @@
 - "Can't investigate 'why' - only 'what'"
 **Reasoning**: Better than basic dashboards but not true multi-pass investigation. Describes changes, doesn't investigate causes.
 
-### ML (3/3)
-**Score**: 3/3
+### ML (6/6)
+**Score**: 6/6
 **Evidence**:
 - SpotIQ provides real ML predictions (not fake AI)
 - Automated pattern discovery
@@ -120,8 +120,8 @@
 - BATTLE_CARD: "33.3% accuracy" per Stanford HAI benchmark
 **Reasoning**: Has real ML (rare in competitors) but lacks explainability. Scores well for having ML at all, but penalized for black box.
 
-### Explanation (2/3)
-**Score**: 2/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - Provides insights in natural language
 - Shows patterns and trends detected
@@ -132,14 +132,14 @@
 **Source**: Multiple reviews of SpotIQ limitations
 **Reasoning**: Better than most at explaining what it found, but shallow on why.
 
-**Total Understanding**: 7/10
+**Total Understanding**: 20/20
 
 ---
 
-## Dimension 4: Presentation (2/10)
+## Dimension 4: Presentation (6/20)
 
-### Visuals (2/3)
-**Score**: 2/3
+### Visuals (4/6)
+**Score**: 4/6
 **Evidence**:
 - Good visualization capabilities
 - Interactive dashboards
@@ -149,8 +149,8 @@
 **Source**: Multiple product reviews
 **Reasoning**: Solid visualization capabilities. Not cutting-edge but functional.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic brand detection
 - No logo insertion
@@ -160,8 +160,8 @@
 **Source**: No evidence of brand intelligence found
 **Reasoning**: Zero brand automation. Manual branding only.
 
-### Speed (0/3)
-**Score**: 0/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - **PowerPoint**: ZERO generation - must screenshot and format manually (3+ hours per BATTLE_CARD)
 - **Export**: CSV/Excel static exports only
@@ -172,14 +172,14 @@
 - BATTLE_CARD: "3+ hours manual work per report"
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 2/10
+**Total Presentation**: 6/20
 
 ---
 
-## Dimension 5: Data (5/10)
+## Dimension 5: Data (14/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Connections (4/4)
+**Score**: 4/4
 **Evidence**:
 - Wide range of data source connectors
 - Enterprise database support
@@ -189,8 +189,8 @@
 **Source**: ThoughtSpot documentation
 **Reasoning**: Strong connector ecosystem. No major gaps here.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - Search-based architecture breaks when column names change
 - Requires IT to update search models when schema changes
@@ -200,8 +200,8 @@
 **Source**: Multiple sources on maintenance burden
 **Reasoning**: Universal competitive weakness. Complete failure like all others.
 
-### Prep (2/2)
-**Score**: 2/2
+### Prep (4/4)
+**Score**: 4/4
 **Evidence**:
 - Has data prep capabilities
 - Can handle transformations
@@ -210,8 +210,8 @@
 **Source**: ThoughtSpot product documentation
 **Reasoning**: Adequate data prep for the use case.
 
-### Writeback (1/2)
-**Score**: 1/2
+### Data Quality (6/4)
+**Score**: 6/4
 **Evidence**:
 - Limited writeback via Workato (third-party)
 - No native CRM integration for ML scores
@@ -220,7 +220,7 @@
 **Source**: Workato integration documentation
 **Reasoning**: Some operationalization possible via third-party, but not native.
 
-**Total Data**: 5/10
+**Total Data**: 14/20
 
 ---
 

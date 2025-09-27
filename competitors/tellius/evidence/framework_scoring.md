@@ -3,15 +3,15 @@
 **Competitor**: Tellius
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 15/59 (25%, Category C - IT Platform)
-**Previous Score**: 12/50 (Old BUPAF Framework - minor decrease)
+**Total Score**: 30/100 (30%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (2/10)
+## Dimension 1: Autonomy (4/20)
 
-### Setup (0/4)
-**Score**: 0/4
+### Setup (0/8)
+**Score**: 0/8
 **Evidence**:
 - **6-week to 6-month implementations** documented (Phase 1)
 - "Days to weeks implementation" required (Phase 2)
@@ -26,8 +26,8 @@
 - BATTLE_CARD: "6 weeks minimum implementation"
 **Reasoning**: Complete IT dependency. Enterprise implementation project required. Zero self-service setup.
 
-### Questions (1/3)
-**Score**: 1/3
+### Questions (2/6)
+**Score**: 2/6
 **Evidence**:
 - Natural language capability exists
 - BUT: **"Natural Language Search has not been adopted for analytics"** (Tellius's own admission)
@@ -41,8 +41,8 @@
 - Phase 3: "The tool hangs sometimes"
 **Reasoning**: NL exists but Tellius admits it has not been adopted. Multiple acknowledged failures. 1 point for attempting NL.
 
-### Speed (1/3)
-**Score**: 1/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - Claims "queries returned instantly"
 - Fast query processing once configured
@@ -54,14 +54,14 @@
 - Phase 3: "6-week to 6-month implementations"
 **Reasoning**: Fast queries when working but weeks/months to value and reliability issues. 1 point for query speed when operational.
 
-**Total Autonomy**: 2/10
+**Total Autonomy**: 4/20
 
 ---
 
-## Dimension 2: Flow (0/10)
+## Dimension 2: Flow (0/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: ZERO SUPPORT - "Tellius wants to REPLACE Excel, not enhance it" (Phase 2)
 - Quote: "eliminate manual Excel work that traditionally involves tedious copy-pasting and VLOOKUP formulas"
@@ -75,8 +75,8 @@
 - Phase 2: "PowerPoint Integration - BASIC ONLY"
 **Reasoning**: Complete failure on native tool integration. Actively hostile to Excel (replacement strategy).
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Enterprise platform only
 - Must use Tellius interface exclusively
@@ -86,8 +86,8 @@
 **Source**: Phase 2 documentation on Excel replacement strategy
 **Reasoning**: 100% portal-dependent. Forces users to abandon native workflows.
 
-### Interface Simplicity (0/3)
-**Score**: 0/3
+### Interface Simplicity (0/6)
+**Score**: 0/6
 **Evidence**:
 - "Some users find Tellius complex" (G2 reviews)
 - "citizen data scientists" focus - requires technical skills
@@ -101,14 +101,14 @@
 - G2 reviews on complexity
 **Reasoning**: Not simple. Requires citizen data scientist training. Complex by user admission.
 
-**Total Flow**: 0/10
+**Total Flow**: 0/20
 
 ---
 
-## Dimension 3: Understanding (5/10)
+## Dimension 3: Understanding (10/20)
 
-### Investigation (3/4)
-**Score**: 3/4
+### Investigation (6/8)
+**Score**: 6/8
 **Evidence**:
 - **Tellius Strength: Strong root cause analysis** (Phase 2)
 - "Multi-dimensional analysis" (Phase 2)
@@ -121,8 +121,8 @@
 - Phase 2: "Investigation Capabilities - COMPETITIVE AREA"
 **Reasoning**: Strong investigation capability - one of Tellius's actual strengths. But limited by complexity. 3/4 for good technical capability with accessibility issues.
 
-### ML (2/3)
-**Score**: 2/3
+### ML (4/6)
+**Score**: 4/6
 **Evidence**:
 - **Has actual ML**: "AutoML functionality, decision trees, clustering algorithms, predictive analytics" (Phase 2)
 - Real ML capabilities exist (not fake AI)
@@ -134,8 +134,8 @@
 - Phase 2: "What They Lack: Automatic ML without user awareness, explainability challenges"
 **Reasoning**: Real ML exists (better than many) but not automatic/transparent. Requires expertise. 2/3 for having ML but accessibility limited.
 
-### Explanation (0/3)
-**Score**: 0/3
+### Explanation (0/6)
+**Score**: 0/6
 **Evidence**:
 - **Black Box ML Problem** documented (README)
 - "Can predict but can't explain" (README)
@@ -148,14 +148,14 @@
 - Phase 2: "Explainability challenges remain"
 **Reasoning**: Explicit black box problem. Cannot explain WHY predictions occur. Critical failure for business users.
 
-**Total Understanding**: 5/10
+**Total Understanding**: 10/20
 
 ---
 
-## Dimension 4: Presentation (1/10)
+## Dimension 4: Presentation (2/20)
 
-### Visuals (1/3)
-**Score**: 1/3
+### Automatic Generation (2/8)
+**Score**: 2/8
 **Evidence**:
 - Basic visualization capabilities
 - Dashboard creation exists
@@ -164,8 +164,8 @@
 **Source**: Product documentation
 **Reasoning**: Adequate visualization. Not a strength but exists. 1/3 for basic capability.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization found
 - No logo insertion
@@ -174,8 +174,8 @@
 **Source**: No evidence of brand capabilities found in research
 **Reasoning**: Zero brand automation. Standard output only.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: "Limited to basic exports, manual export process, no AI-powered generation" (Phase 2)
 - No automated presentation creation
@@ -184,14 +184,14 @@
 **Source**: Phase 2: "PowerPoint Integration - BASIC ONLY"
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 1/10
+**Total Presentation**: 2/20
 
 ---
 
-## Dimension 5: Data (3/10)
+## Dimension 5: Data (6/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Multi-Source (4/4)
+**Score**: 4/4
 **Evidence**:
 - Multiple database connectors
 - Can connect to various data sources
@@ -200,8 +200,8 @@
 **Source**: Phase 3 architecture documentation
 **Reasoning**: Good data connectivity. Adequate connectors.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic schema evolution documented
 - Enterprise platform requires configuration updates
@@ -211,8 +211,8 @@
 **Source**: No schema evolution capability found in comprehensive research
 **Reasoning**: Universal BI platform failure. No automatic schema adaptation.
 
-### Prep (1/2)
-**Score**: 1/2
+### Data Quality (2/4)
+**Score**: 2/4
 **Evidence**:
 - Data preparation capabilities exist
 - BUT: Requires expertise - "citizen data scientists" (Phase 2)
@@ -221,8 +221,8 @@
 **Source**: Phase 2 documentation on citizen data scientist requirement
 **Reasoning**: Has prep but not accessible to business users. 1/2 for technical capability only.
 
-### Writeback (0/2)
-**Score**: 0/2
+### Data Prep (0/4)
+**Score**: 0/4
 **Evidence**:
 - NO writeback capability documented
 - Read-only analytics platform
@@ -231,7 +231,7 @@
 **Source**: No writeback evidence found in comprehensive research
 **Reasoning**: No writeback capability. Read-only tool.
 
-**Total Data**: 3/10
+**Total Data**: 6/20
 
 ---
 
@@ -239,12 +239,12 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
-| Autonomy | 2/10 | 6-week to 6-month implementation, NL "not adopted" (own admission), "hangs sometimes" |
-| Flow | 0/10 | **Zero Excel/Slack/PowerPoint** (forces Excel replacement), 100% portal prison, complex interface |
-| Understanding | 5/10 | Strong investigation (3/4), real ML (2/3), **BLACK BOX** - no explanations (0/3) |
-| Presentation | 1/10 | Manual exports, no automation, no brand intelligence |
-| Data | 3/10 | Good connectivity (2/2), **no schema evolution** (0/4), prep requires expertise (1/2) |
-| **TOTAL** | **11/50** | **Category D - Dashboard Tool** |
+| Autonomy | 4/20 | 6-week to 6-month implementation, NL "not adopted" (own admission), "hangs sometimes" |
+| Flow | 0/20 | **Zero Excel/Slack/PowerPoint** (forces Excel replacement), 100% portal prison, complex interface |
+| Understanding | 10/20 | Strong investigation (3/4), real ML (2/3), **BLACK BOX** - no explanations (0/3) |
+| Presentation | 2/20 | Manual exports, no automation, no brand intelligence |
+| Data | 6/20 | Good connectivity (2/2), **no schema evolution** (0/4), prep requires expertise (1/2) |
+| **TOTAL** | **22/100** | **Category D - Dashboard Tool** |
 
 ---
 

@@ -1,6 +1,6 @@
 # Battle Card: DataChat
 
-**BUA Score**: 14/59 (24%, Category D)
+**BUA Score**: 28/100 (28%, Category D - Poor)
 **Market Position**: Failed product with minimal adoption
 **Key Weakness**: NO Excel, NO API, ZERO reviews after 7 years
 **Revenue Reality**: $3.7M after 7 years (proof of failure)

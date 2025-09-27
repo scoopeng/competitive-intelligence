@@ -1,6 +1,6 @@
 # Battle Card: ThoughtSpot
 
-**BUA Score**: 28/59 (47%, Category B)
+**BUA Score**: 56/100 (56%, Category B - Good)
 **Market Position**: Enterprise platform disguised as self-service
 **Fatal Flaw**: "$500k/yr for 20 people" before it "crashed with all our data"
 **Key Reality**: 2-4 weeks setup, no Excel, can't handle healthcare data

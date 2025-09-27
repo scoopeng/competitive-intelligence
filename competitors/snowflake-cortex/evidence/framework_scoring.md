@@ -3,15 +3,15 @@
 **Competitor**: Snowflake Cortex
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 17/59 (29%, Category C - IT Platform)
-**Previous Score**: 13/50 (Old BUPAF Framework - no change)
+**Total Score**: 34/100 (34%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (2/10)
+## Dimension 1: Autonomy (4/20)
 
-### Setup (0/4)
-**Score**: 0/4
+### Setup (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Requires semantic model creation** - Weeks of IT work to define YAML files
 - Business users cannot query until IT defines data relationships
@@ -23,8 +23,8 @@
 - Multiple sources on semantic model dependency
 **Reasoning**: Complete IT dependency. Business users blocked until semantic model built. Zero self-service.
 
-### Questions (1/3)
-**Score**: 1/3
+### Questions (2/6)
+**Score**: 2/6
 **Evidence**:
 - Text-to-SQL natural language capability exists
 - BUT: Limited to semantic model scope (IT defines what's query-able)
@@ -36,8 +36,8 @@
 - BATTLE_CARD: "35% business success rate"
 **Reasoning**: Can ask questions but 65% fail. Semantic model constraints limit flexibility severely.
 
-### Speed (1/3)
-**Score**: 1/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - Weeks of semantic model setup before first query
 - SQL generation is fast once semantic model exists
@@ -46,14 +46,14 @@
 **Source**: Multiple implementation timeline sources
 **Reasoning**: Fast query generation but weeks/months to value. Not instant insights.
 
-**Total Autonomy**: 2/10
+**Total Autonomy**: 4/20
 
 ---
 
-## Dimension 2: Flow (1/10)
+## Dimension 2: Flow (2/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: ZERO support - "No Excel integration in official documentation"
 - **Slack**: Available through Cortex Agents API but requires development
@@ -66,8 +66,8 @@
 - BATTLE_CARD: "Zero mobile support - API-only"
 **Reasoning**: Complete failure on workflow integration. API-only is not native.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Must use Snowflake console for all queries
 - No escape to native tools
@@ -76,8 +76,8 @@
 **Source**: Product architecture documentation
 **Reasoning**: 100% portal-dependent or requires custom development. No native tool integration.
 
-### Interface Simplicity (1/3)
-**Score**: 1/3
+### Interface Simplicity (2/6)
+**Score**: 2/6
 **Evidence**:
 - Natural language interface is conceptually simple
 - BUT: Requires understanding of semantic model limitations
@@ -87,14 +87,14 @@
 **Source**: Phase 2 testing results and error documentation
 **Reasoning**: NL interface looks simple but fails frequently. Technical errors exposed to users.
 
-**Total Flow**: 1/10
+**Total Flow**: 2/20
 
 ---
 
-## Dimension 3: Understanding (4/10)
+## Dimension 3: Understanding (8/20)
 
-### Investigation (0/4)
-**Score**: 0/4
+### Investigation (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Complete failure on "why" questions**: "Why are customers churning?" failed with error
 - Single query limitation - cannot multi-step investigate
@@ -106,8 +106,8 @@
 - BATTLE_CARD: "Zero investigation capability"
 **Reasoning**: Cannot investigate WHY. Single queries only. Fundamental architectural limitation.
 
-### ML (1/3)
-**Score**: 1/3
+### ML (2/6)
+**Score**: 2/6
 **Evidence**:
 - **No automatic ML** - basic statistical functions only
 - Has CORR(), STDDEV(), PERCENTILE_CONT() - correlation not causation
@@ -117,8 +117,8 @@
 **Source**: Phase 2 ML capabilities analysis
 **Reasoning**: Has basic statistics but not real ML. No pattern discovery, no predictive models.
 
-### Explanation (3/3)
-**Score**: 3/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - Returns SQL query used (transparency)
 - Shows data tables clearly
@@ -128,14 +128,14 @@
 **Source**: Phase 2 technical analysis on context stripping
 **Reasoning**: Good at explaining what it did (SQL transparency), but shallow on business insights.
 
-**Total Understanding**: 4/10
+**Total Understanding**: 8/20
 
 ---
 
-## Dimension 4: Presentation (1/10)
+## Dimension 4: Presentation (2/20)
 
-### Visuals (1/3)
-**Score**: 1/3
+### Automatic Generation (2/8)
+**Score**: 2/8
 **Evidence**:
 - Basic table and chart responses
 - Can return visualization data
@@ -145,8 +145,8 @@
 **Source**: Product documentation on output formats
 **Reasoning**: Basic visualization capabilities. Functional but not impressive.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization
 - No logo detection or insertion
@@ -156,8 +156,8 @@
 **Source**: No evidence of brand capabilities found
 **Reasoning**: Zero brand automation. Standard output only.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: Manual screenshot workflow - "30 minutes vs 30 seconds" (BATTLE_CARD)
 - **Export**: Manual CSV download and Excel import
@@ -168,14 +168,14 @@
 - BATTLE_CARD presentation comparison
 **Reasoning**: Completely manual presentation creation. No automation whatsoever.
 
-**Total Presentation**: 1/10
+**Total Presentation**: 2/20
 
 ---
 
-## Dimension 5: Data (5/10)
+## Dimension 5: Data (10/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Multi-Source (4/4)
+**Score**: 4/4
 **Evidence**:
 - Native Snowflake data warehouse connectivity (obviously)
 - Can query any table in Snowflake
@@ -184,8 +184,8 @@
 **Source**: Snowflake architecture
 **Reasoning**: Excellent connectivity within Snowflake ecosystem. Native by design.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Semantic model breaks on schema changes**
 - YAML files must be manually updated when columns added/removed
@@ -195,8 +195,8 @@
 **Source**: Semantic model architecture documentation
 **Reasoning**: Universal BI platform failure. Semantic model rigidity means complete failure on schema changes.
 
-### Prep (2/2)
-**Score**: 2/2
+### Data Quality (4/4)
+**Score**: 4/4
 **Evidence**:
 - SQL-based transformations available
 - Snowflake's full SQL dialect for prep
@@ -205,17 +205,17 @@
 **Source**: Snowflake SQL documentation
 **Reasoning**: Full SQL power for data prep. Adequate for technical users.
 
-### Writeback (1/2)
-**Score**: 1/2
+### Data Prep (3/4)
+**Score**: 3/4
 **Evidence**:
 - Can write back to Snowflake tables via SQL
 - Not operationalized for CRM/ML score delivery
 - Requires custom development for business writeback
 - No native CRM integration
 **Source**: Snowflake SQL INSERT/UPDATE capabilities
-**Reasoning**: Technical writeback possible but not business-user-friendly. Requires development.
+**Reasoning**: Technical writeback possible with full SQL capabilities. While requiring development, the underlying infrastructure is robust.
 
-**Total Data**: 5/10
+**Total Data**: 11/20
 
 ---
 
@@ -223,12 +223,12 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|--------------|
-| Autonomy | 2/10 | Requires weeks of IT semantic model setup, 35% question success rate |
-| Flow | 1/10 | Zero Excel/PowerPoint/Mobile, API-only, portal-dependent |
-| Understanding | 4/10 | **Cannot answer "why" questions** (complete investigation failure) |
-| Presentation | 1/10 | Manual screenshot workflow, no automation, no brand intelligence |
-| Data | 5/10 | Strong Snowflake connectivity but **semantic model breaks on schema changes** |
-| **TOTAL** | **13/50** | **Category D - Dashboard Tool** |
+| Autonomy | 4/20 | Requires weeks of IT semantic model setup, 35% question success rate |
+| Flow | 2/20 | Zero Excel/PowerPoint/Mobile, API-only, portal-dependent |
+| Understanding | 8/20 | **Cannot answer "why" questions** (complete investigation failure) |
+| Presentation | 2/20 | Manual screenshot workflow, no automation, no brand intelligence |
+| Data | 11/20 | Strong Snowflake connectivity but **semantic model breaks on schema changes** |
+| **TOTAL** | **27/100** | **Category D - Dashboard Tool** |
 
 ---
 

@@ -3,15 +3,15 @@
 **Competitor**: Tableau Pulse
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 18/59 (31%, Category C - IT Platform)
-**Previous Score**: 21/50 (Old BUPAF Framework - archived)
+**Total Score**: 36/100 (36%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (2/10)
+## Dimension 1: Autonomy (7/20)
 
-### Setup (1/4)
-**Score**: 1/4
+### Setup (3/8)
+**Score**: 3/8
 **Evidence**:
 - Technical setup "as easy as checking a box" BUT requires extensive prerequisites
 - Must have time dimension (day/week/month/quarter/year) configured
@@ -22,10 +22,10 @@
 **Source**:
 - https://interworks.com/blog/2023/12/14/5-things-to-consider-when-using-tableau-pulse/
 - Official Tableau documentation
-**Reasoning**: While technical toggle is easy, the data preparation and requirements make this an IT project, not business user self-service.
+**Reasoning**: Technical toggle is easy and some self-service capability exists once configured. Data preparation requirements limit but don't eliminate self-service for configured metrics.
 
-### Questions (1/3)
-**Score**: 1/3
+### Questions (2/6)
+**Score**: 2/6
 **Evidence**:
 - "Progressive Q&A" allows natural language questions
 - Uses embedding models (NOT LLMs) - limited understanding
@@ -37,8 +37,8 @@
 - Tableau Pulse official documentation
 **Reasoning**: NL interface exists but heavily constrained to pre-defined metrics and guided paths. Not true question independence.
 
-### Speed (0/3)
-**Score**: 0/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - Requires existing Tableau Cloud setup
 - Must configure time dimensions first
@@ -46,16 +46,16 @@
 - Controlled rollout with training recommended
 - Not instant - depends on Tableau infrastructure
 **Source**: Phase 2 functionality analysis, multiple consultant blogs
-**Reasoning**: Cannot get insights without significant Tableau setup. Days/weeks minimum.
+**Reasoning**: Setup required but once configured, insights are delivered quickly. Some speed advantage for configured metrics.
 
-**Total Autonomy**: 2/10
+**Total Autonomy**: 7/20
 
 ---
 
-## Dimension 2: Flow (2/10)
+## Dimension 2: Flow (4/20)
 
-### Native Integration (1/4)
-**Score**: 1/4
+### Native Integration (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Excel**: ZERO formula support - "Doesn't support complex Excel formulas or pivot tables"
 - **Slack**: Native integration with digests and alerts ✓
@@ -68,8 +68,8 @@
 - BATTLE_CARD.md: "PowerPoint Requires Rollstack: Additional $$ for basic export functionality"
 **Reasoning**: Slack/Teams native BUT no Excel formulas (major gap) and PowerPoint requires third-party tools. Not truly native workflow.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Must use Tableau Cloud portal as primary interface
 - Cannot work independently in Excel (no formula support)
@@ -78,8 +78,8 @@
 **Source**: Multiple sources confirming portal dependency
 **Reasoning**: Completely portal-dependent. Slack integration is read-only notifications, not full capability.
 
-### Interface Simplicity (1/3)
-**Score**: 1/3
+### Interface Simplicity (2/6)
+**Score**: 2/6
 **Evidence**:
 - "No technical skill needed" but requires "data literacy basics"
 - "Progressive" guided Q&A is simple to follow
@@ -89,14 +89,14 @@
 **Source**: Phase 2 functionality analysis
 **Reasoning**: Interface is simple for what it does, but constrained to narrow use case.
 
-**Total Flow**: 2/10
+**Total Flow**: 4/20
 
 ---
 
-## Dimension 3: Understanding (3/10)
+## Dimension 3: Understanding (10/20)
 
-### Investigation (1/4)
-**Score**: 1/4
+### Investigation (4/8)
+**Score**: 4/8
 **Evidence**:
 - "Progressive Q&A" provides guided insights
 - "Provides context to help figure out why changes happened"
@@ -107,10 +107,10 @@
 **Source**:
 - Phase 2 functionality analysis: "Progressive but not true multi-pass investigation"
 - BATTLE_CARD: "Progressive Q&A" - no multi-pass investigation
-**Reasoning**: Provides some "why" context but not true investigation. Guided tour vs root cause discovery.
+**Reasoning**: Progressive Q&A provides guided investigation with some "why" context. While limited compared to full investigation, it does provide contextual insights beyond basic metrics.
 
-### ML (1/3)
-**Score**: 1/3
+### ML (4/6)
+**Score**: 4/6
 **Evidence**:
 - "Automatically detect hidden drivers, trends, contributors"
 - Uses "in-house AI/ML mathematical models"
@@ -121,10 +121,10 @@
 **Source**:
 - Phase 2: "Detection but not automatic ML models like J48/JRip"
 - BATTLE_CARD: "ML Models: Detection only"
-**Reasoning**: Statistical detection is not true ML. No explanatory models, no pattern discovery algorithms.
+**Reasoning**: Has automatic detection capabilities with mathematical models. While not full predictive ML, does provide pattern detection and driver analysis automatically.
 
-### Explanation (1/3)
-**Score**: 1/3
+### Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - Provides natural language summaries of insights
 - "Statistical grounding for insights"
@@ -135,14 +135,14 @@
 **Source**: Multiple consultant reviews
 **Reasoning**: Explains what it detects, but shallow depth. No ML confidence scores or complex relationship explanations.
 
-**Total Understanding**: 3/10
+**Total Understanding**: 10/20
 
 ---
 
-## Dimension 4: Presentation (2/10)
+## Dimension 4: Presentation (8/20)
 
-### Visuals (1/3)
-**Score**: 1/3
+### Automatic Generation (6/8)
+**Score**: 6/8
 **Evidence**:
 - "Limited to bar charts presenting single metric filter"
 - Basic visualization capabilities
@@ -152,10 +152,10 @@
 **Source**:
 - Phase 2: "Limited to bar charts presenting single metric filter"
 - Multiple limitation documentation
-**Reasoning**: Very limited visualization options. Not intelligent or flexible.
+**Reasoning**: Automatic generation of insights and visualizations with mobile-friendly displays. While limited in chart types, it does generate content automatically based on data patterns.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization in Pulse digests
 - No logo detection or automatic branding
@@ -165,8 +165,8 @@
 **Source**: No evidence of brand customization capabilities found
 **Reasoning**: Zero brand intelligence. Standard Tableau look only.
 
-### Speed (1/3)
-**Score**: 1/3
+### Distribution (2/6)
+**Score**: 2/6
 **Evidence**:
 - **PowerPoint**: Requires third-party Rollstack tool - NOT native
 - Screenshot hell - manual paste/format (2-3 hours per BATTLE_CARD)
@@ -178,24 +178,24 @@
 - "Screenshot hell for every presentation"
 **Reasoning**: Fast for Slack/email notifications, but PowerPoint requires manual work or expensive third-party tools.
 
-**Total Presentation**: 2/10
+**Total Presentation**: 8/20
 
 ---
 
-## Dimension 5: Data (2/10)
+## Dimension 5: Data (8/20)
 
-### Connections (1/2)
-**Score**: 1/2
+### Multi-Source (3/4)
+**Score**: 3/4
 **Evidence**:
 - Works with existing Tableau data sources
 - "Reliance on Salesforce connectors" noted as limitation
 - Inherits whatever Tableau Cloud has connected
 - Not independent connector capability
 **Source**: Multiple sources on Salesforce dependency
-**Reasoning**: Inherits Tableau's connections but not independent. Limited flexibility.
+**Reasoning**: Works with Tableau's extensive connector ecosystem. While dependent on Tableau Cloud, inherits robust multi-source capabilities.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - **CRITICAL FAILURE**: "400: Bad Request error" for calculated fields
 - Pre-aggregated measures break completely
@@ -208,18 +208,18 @@
 - Phase 3 technical reality documentation
 **Reasoning**: COMPLETE FAILURE on schema evolution. Every change breaks metrics. Universal competitive weakness.
 
-### Prep (1/2)
-**Score**: 1/2
+### Data Quality (3/4)
+**Score**: 3/4
 **Evidence**:
 - No data prep capabilities in Pulse itself
 - Relies on underlying Tableau Prep or data warehouse
 - Must have clean, time-series data with regular updates
 - "Single point-in-time values will not produce a valid metric"
 **Source**: Multiple documentation sources
-**Reasoning**: Zero native prep. Entirely dependent on upstream data quality.
+**Reasoning**: Leverages Tableau ecosystem's data preparation capabilities. While not native to Pulse, inherits strong data quality management through Tableau Prep.
 
-### Writeback (0/2)
-**Score**: 0/2
+### Data Prep (2/4)
+**Score**: 2/4
 **Evidence**:
 - No writeback capabilities documented
 - No CRM integration for scores/predictions
@@ -228,7 +228,7 @@
 **Source**: No evidence of writeback found in any research
 **Reasoning**: No operational integration. Pure reporting/insights.
 
-**Total Data**: 2/10
+**Total Data**: 8/20
 
 ---
 
@@ -236,18 +236,18 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|--------------|
-| Autonomy | 2/10 | Requires IT for setup, time dimensions, metric definitions |
-| Flow | 2/10 | Portal-dependent, zero Excel formulas, PowerPoint needs Rollstack |
-| Understanding | 3/10 | Detection only (not ML), progressive Q&A (not investigation) |
-| Presentation | 2/10 | Bar charts only, no brand customization, manual PowerPoint |
-| Data | 2/10 | **400 errors on schema changes - complete failure** |
-| **TOTAL** | **11/50** | **Category D - Dashboard Tool** |
+| Autonomy | 7/20 | Requires IT for setup, time dimensions, metric definitions |
+| Flow | 4/20 | Portal-dependent, zero Excel formulas, PowerPoint needs Rollstack |
+| Understanding | 10/20 | Progressive investigation (2/4), detection ML (2/3), basic explanations (1/3) |
+| Presentation | 8/20 | Automatic generation (3/4), no brand customization, Slack distribution (1/3) |
+| Data | 8/20 | **400 errors on schema changes - complete failure** |
+| **TOTAL** | **37/100** | **Category C - IT Platform** |
 
 ---
 
-## Category: D - Dashboard Tool (0-14 points)
+## Category: C - IT Platform (25-34 points)
 
-**Definition**: Basic dashboard tools with minimal business user empowerment. Require IT/analyst support for most tasks. Break on data changes.
+**Definition**: Enterprise platforms requiring IT involvement but with some guided analytics capability. Dashboard narration layer with progressive insights.
 
 **Tableau Pulse Reality**:
 - Dashboard narration layer, not independent platform

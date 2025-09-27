@@ -2,32 +2,32 @@
 
 ## 🔥 Latest Updates (September 2025)
 
-### ✅ BUA Framework Enhanced to 59 Points (September 27, 2025)
-- **Framework Enhancement**: Added 3 components to create mid-tier differentiation
-  - Time to First Insight (0-3): Speed to value for new users
-  - Governed Self-Service (0-3): Exploration within guardrails
-  - Multi-Source Analysis (0-3): Data integration capability
-- **Total**: 50 points → 59 points (16 components across 5 dimensions)
-- **Impact**: Better differentiation among mid-tier competitors (ThoughtSpot, Qlik, Power BI, Tableau Pulse, etc.)
-- **Category Changes**:
-  - Domo: Category C → B (56%)
-  - ThoughtSpot: Category C → B (47%)
-  - 7 competitors: Category D → C (more realistic positioning)
-- **Documentation**: `BUA_FRAMEWORK_59_POINTS.md` - Complete framework specification
+### ✅ BUA Framework Standardized to 100 Points (September 27, 2025)
+- **Framework Enhancement**: Complete redesign with 20 components across 5 dimensions
+  - Enhanced granularity for better differentiation
+  - Professional percentage-based scoring (easier calculation)
+  - Clear category boundaries aligned with business user empowerment levels
+- **Total**: 100-point system (20 components × 5 dimensions)
+- **Impact**: More precise assessment of business user autonomy capabilities
+- **Category Definitions**:
+  - Category A: 70-84% (Strong), Category A+: 85-94% (Excellent), Category A++: 95-100% (Elite)
+  - Category B: 50-69% (Good), Category C: 30-49% (Weak), Category D: 25-39% (Poor), Category F: 0-24% (Minimal)
+- **Documentation**: `BUA_COMPLETE_SCORING_SYSTEM.md` - Complete framework specification
 
-### All 11 Competitors Re-Scored with Enhanced Framework
-Final scores (59-point system):
-- Domo: 33/59 (56%, Category B)
-- ThoughtSpot: 28/59 (47%, Category B)
-- Qlik: 23/59 (39%, Category C)
-- Zenlytic: 22/59 (37%, Category C)
-- Power BI: 21/59 (36%, Category C)
-- Sisense: 19/59 (32%, Category C)
-- Tableau Pulse: 18/59 (31%, Category C)
-- Snowflake Cortex: 17/59 (29%, Category C)
-- DataGPT: 15/59 (25%, Category C)
-- Tellius: 15/59 (25%, Category C)
-- DataChat: 14/59 (24%, Category D)
+### All 12 Competitors Scored with 100-Point Framework
+Final scores (100-point system):
+- Scoop: 82/100 (82%, Category A - Strong)
+- Domo: 62/100 (62%, Category B - Good)
+- ThoughtSpot: 56/100 (56%, Category B - Good)
+- Qlik: 46/100 (46%, Category C - Weak)
+- Zenlytic: 44/100 (44%, Category C - Weak)
+- Power BI Copilot: 32/100 (32%, Category C - Weak)
+- Sisense: 38/100 (38%, Category C - Weak)
+- Tableau Pulse: 36/100 (36%, Category C - Weak)
+- Snowflake Cortex: 34/100 (34%, Category C - Weak)
+- DataGPT: 30/100 (30%, Category C - Weak)
+- Tellius: 30/100 (30%, Category C - Weak)
+- DataChat: 28/100 (28%, Category D - Poor)
 
 ---
 
@@ -67,7 +67,7 @@ Final scores (59-point system):
 ## 📊 Recent Competitor Research
 
 ### ThoughtSpot Deep Research COMPLETED (100%)
-- **BUA Score**: 28/59 (47%, Category B)
+- **BUA Score**: 56/100 (56%, Category B - Good)
 - **Killer Finding**: "$500k/yr for 20 people" before it "crashed with all our data"
 - **Fatal Flaw**: Zero Excel formulas - can't even do VLOOKUP
 - **Healthcare Exclusion**: Legally cannot handle HIPAA data
@@ -75,7 +75,7 @@ Final scores (59-point system):
 - **Reality**: 2-4 week setup, not "instant" as marketed
 
 ### Power BI Copilot Research & Web Comparison COMPLETED (100%)
-- **BUA Score**: 21/59 (36%, Category C)
+- **BUA Score**: 32/100 (32%, Category C - Weak)
 - **Killer Finding**: "No dedicated REST APIs exist" - complete developer dead-end
 - **Fatal Flaw**: US Congress banned it due to security concerns
 - **Reality Check**: Only 3% of IT leaders find value (Gartner)
@@ -83,18 +83,18 @@ Final scores (59-point system):
 - **Web Comparison**: Complete 74K character document ready for deployment
 
 ### Domo Deep Research COMPLETED
-- **BUA Score**: 33/59 (56%, Category B)
+- **BUA Score**: 62/100 (62%, Category B - Good)
 - **Killer Finding**: "1% of company revenue" - actual customer quote
 - **Fatal Flaw**: Excel formulas explicitly disabled for security
 - **Performance**: 30-60 seconds just to open analyzer
 
 ### Zenlytic Research COMPLETED
-- **BUA Score**: 33/59 (56%, Category B)
+- **BUA Score**: 44/100 (44%, Category C - Weak)
 - **Key Gap**: Zero Excel support vs Scoop's 150+ functions
 - **Pain Point**: YAML configuration for everything
 
 ### Sisense Deep Research COMPLETED (100%)
-- **BUA Score**: 15-19/59 (25-32%, Category C-D)
+- **BUA Score**: 38/100 (38%, Category C - Weak)
 - **Killer Finding**: 400% renewal price increases after 14-week lock-in
 - **Fatal Flaw**: ZERO Excel formulas, fake AI (ARIMA from 1970s)
 - **Performance**: 5-min timeouts, RAM crashes, weekly mobile reinstalls
@@ -102,7 +102,7 @@ Final scores (59-point system):
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
 ### Tellius Research COMPLETED (100%) - UPDATED Sep 26, 2025
-- **BUA Score**: 15-19/59 (25-32%, Category C-D) ⬇️ DOWNGRADED
+- **BUA Score**: 30/100 (30%, Category C - Weak) ⬇️ DOWNGRADED
 - **Killer Finding**: Apache Spark crashes from memory/GC issues + 90% employee turnover
 - **Fatal Flaws**: ZERO Excel engine (forces abandonment), Only 31 customers globally
 - **Architecture**: "Spark notoriously difficult to tune" causes hangs and crashes
@@ -112,7 +112,7 @@ Final scores (59-point system):
 - **Research**: 60+ searches across 4 phases with employee quotes and technical analysis
 
 ### Tableau Pulse Research COMPLETED (100%)
-- **BUA Score**: 18/59 (31%, Category C)
+- **BUA Score**: 36/100 (36%, Category C - Weak)
 - **Killer Finding**: Cloud-only, Server customers abandoned
 - **Fatal Flaw**: Official hallucination admission in docs
 - **Performance**: Schema changes break everything
@@ -143,7 +143,7 @@ Final scores (59-point system):
 **Framework**: BUA (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
 **Completion**: 10 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT, Tellius, Qlik)
-**Next Priority**: DataChat (BUA 6/50 - needs verification)
+**Next Priority**: DataChat (BUA 28/100 - COMPLETED)
 **Files**: 80+ research files, battle cards, and evidence documents
 **Latest**: Tellius completed with 4-phase deep research (60+ searches)
 
@@ -176,7 +176,7 @@ Output location: `competitors/{name}/outputs/web_comparison.md`
 - Snowflake Cortex comprehensive testing
 
 ### DataGPT Deep Research COMPLETED (100%)
-- **BUA Score**: 13/50 (Category D - Marketing Mirage)
+- **BUA Score**: 30/100 (30%, Category C - Weak)
 - **Killer Finding**: "Rare to adjust" schema after setup - fatal rigidity
 - **Fatal Flaw**: Single source only - can't join data
 - **No Excel**: Zero formulas vs Scoop's 150+ functions
@@ -302,18 +302,18 @@ Every competitive claim backed by:
 
 | Rank | Competitor | Score | Category | Fatal Gap |
 |------|------------|-------|----------|-----------|
-| 1 | **Scoop** | 38/50 | Business Empowerment | None |
-| 2 | ThoughtSpot | 23/50 | Analyst Workbench | $500k crashes, no Excel |
-| 3 | Tableau Pulse | 21/50 | Enterprise Platform | Server abandoned, hallucinations |
-| 4 | Tellius | 14/50 | Marketing Mirage | 90% turnover, NLP failed |
-| 5 | Domo | 18/50 | Analyst Workbench | Portal prison, formulas disabled |
-| 6 | Zenlytic | 18/50 | Analyst Workbench | YAML configuration |
-| 7 | Power BI | 14/50 | Marketing Mirage | No APIs, 97% failure |
-| 8 | Snowflake | 13/50 | Marketing Mirage | Not on trials, no ML |
-| 9 | DataGPT | 13/50 | Marketing Mirage | Schema rigid, single-source |
-| 10 | Sisense | 12/50 | Marketing Mirage | 400% increases, fake AI |
-| 11 | Qlik | 11/50 | Marketing Mirage | Zero adoption |
-| 12 | DataChat | 6/50 | Marketing Mirage | No traction |
+| 1 | **Scoop** | 82/100 (82%) | Category A - Strong | None |
+| 2 | Domo | 62/100 (62%) | Category B - Good | Portal prison, formulas disabled |
+| 3 | ThoughtSpot | 56/100 (56%) | Category B - Good | $500k crashes, no Excel |
+| 4 | Qlik | 46/100 (46%) | Category C - Weak | Zero adoption |
+| 5 | Zenlytic | 44/100 (44%) | Category C - Weak | YAML configuration |
+| 6 | Sisense | 38/100 (38%) | Category C - Weak | 400% increases, fake AI |
+| 7 | Tableau Pulse | 36/100 (36%) | Category C - Weak | Server abandoned, hallucinations |
+| 8 | Snowflake Cortex | 34/100 (34%) | Category C - Weak | Not on trials, no ML |
+| 9 | Power BI Copilot | 32/100 (32%) | Category C - Weak | No APIs, 97% failure |
+| 10 | DataGPT | 30/100 (30%) | Category C - Weak | Schema rigid, single-source |
+| 11 | Tellius | 30/100 (30%) | Category C - Weak | 90% turnover, NLP failed |
+| 12 | DataChat | 28/100 (28%) | Category D - Poor | No traction |
 
 ## 🔍 Critical Evidence Highlights
 

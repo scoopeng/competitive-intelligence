@@ -3,15 +3,15 @@
 **Competitor**: Sisense
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 19/59 (32%, Category C - IT Platform)
-**Previous Score**: 12/50 (Old BUPAF Framework - minor increase)
+**Total Score**: 38/100 (38%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (3/10)
+## Dimension 1: Autonomy (6/20)
 
-### Setup (0/4)
-**Score**: 0/4
+### Setup (0/8)
+**Score**: 0/8
 **Evidence**:
 - **14+ week implementation** typical (Phase 2)
 - "Requires extensive training if new to BI" (Phase 2)
@@ -25,8 +25,8 @@
 - BATTLE_CARD: "14+ weeks typical"
 **Reasoning**: Complete IT dependency. Enterprise implementation required. Zero self-service setup.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (4/6)
+**Score**: 4/6
 **Evidence**:
 - Has natural language capability (Simply Ask being deprecated)
 - New chatbot in beta (Generative AI for cloud only)
@@ -39,8 +39,8 @@
 - Phase 2: "New chatbot in beta"
 **Reasoning**: NL exists and partially works (better than complete failures). Being replaced suggests issues but functionality exists. 2/3 for working but limited capability.
 
-### Speed (1/3)
-**Score**: 1/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - **Default 300-second timeout** (5 minutes) for queries (Phase 3)
 - "Large Data Issues: Response sizes over 10KB cause degradation" (Phase 3)
@@ -52,14 +52,14 @@
 - Phase 3: "6-8 widgets recommended for optimal performance"
 **Reasoning**: Slow queries (5-minute timeouts) and weeks to value. 1/3 for functional but slow.
 
-**Total Autonomy**: 3/10
+**Total Autonomy**: 6/20
 
 ---
 
-## Dimension 2: Flow (1/10)
+## Dimension 2: Flow (2/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: EXPORT ONLY - "Export to Excel (XLSX) with 1.5M cell limit, static export only, no live formulas" (Phase 2)
 - NO Excel formula support - "Cannot use ANY Excel formulas with live data" (Phase 2)
@@ -72,8 +72,8 @@
 - Phase 3: "Mobile experience criticized"
 **Reasoning**: Complete failure on native tool integration. Export-only is not integration.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Portal-based architecture
 - "No Scheduled Email Reports - Users must log into portal" (Phase 2)
@@ -85,8 +85,8 @@
 - Phase 2: "No Scheduled Email Reports"
 **Reasoning**: 100% portal-dependent. Forces workflow migration.
 
-### Interface Simplicity (1/3)
-**Score**: 1/3
+### Interface Simplicity (4/6)
+**Score**: 4/6
 **Evidence**:
 - Drag-drop dashboard creation exists
 - BUT: "Not easy to use" per reviews (Phase 2)
@@ -100,14 +100,14 @@
 - Phase 3: Gartner customer complaints
 **Reasoning**: Basic drag-drop exists but steep learning curve documented. 1/3 for attempting simplicity but failing.
 
-**Total Flow**: 1/10
+**Total Flow**: 4/20
 
 ---
 
-## Dimension 3: Understanding (4/10)
+## Dimension 3: Understanding (8/20)
 
-### Investigation (1/4)
-**Score**: 1/4
+### Investigation (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Drill-down in dashboards** only (Phase 2)
 - "Click through pre-built hierarchies" (Phase 2)
@@ -120,8 +120,8 @@
 - Phase 2: "Not real investigation"
 **Reasoning**: Basic drill-down only, not true investigation. 1/4 for attempting but very limited capability.
 
-### ML (0/3)
-**Score**: 0/3
+### ML (0/6)
+**Score**: 0/6
 **Evidence**:
 - **ARIMA forecasting** from 1970s (Phase 2)
 - "Statistical methods from 1970s, not ML" (Phase 2)
@@ -135,8 +135,8 @@
 - BATTLE_CARD: "ARIMA isn't AI - Statistical method from 1970s"
 **Reasoning**: Zero real ML. ARIMA is statistics, not machine learning. Marketing deception.
 
-### Explanation (3/3)
-**Score**: 3/3
+### Explanation (6/6)
+**Score**: 6/6
 **Evidence**:
 - Dashboard visualizations show data clearly
 - Tables and charts display results
@@ -146,14 +146,14 @@
 **Source**: Product documentation on dashboard capabilities
 **Reasoning**: Good at explaining what dashboards show. Standard BI explanation capability.
 
-**Total Understanding**: 4/10
+**Total Understanding**: 8/20
 
 ---
 
-## Dimension 4: Presentation (2/10)
+## Dimension 4: Presentation (4/20)
 
-### Visuals (2/3)
-**Score**: 2/3
+### Automatic Generation (4/8)
+**Score**: 4/8
 **Evidence**:
 - Dashboard creation with visualizations
 - "6-8 widgets per dashboard for performance" (Phase 3)
@@ -163,8 +163,8 @@
 **Source**: Phase 3 performance documentation
 **Reasoning**: Good visualization capabilities for embedded analytics platform. 2/3 for solid dashboards.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization found
 - No logo insertion
@@ -174,8 +174,8 @@
 **Source**: No brand automation capabilities found
 **Reasoning**: Zero brand automation for end users. White-label is for ISV embedding, not business user branding.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: NO SUPPORT - "None found" (Phase 2)
 - **Export**: Manual only - "Export to Excel static" (Phase 2)
@@ -187,14 +187,14 @@
 - Phase 2: Critical limitations list
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 2/10
+**Total Presentation**: 4/20
 
 ---
 
-## Dimension 5: Data (4/10)
+## Dimension 5: Data (8/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Multi-Source (4/4)
+**Score**: 4/4
 **Evidence**:
 - Multiple database connectors
 - ElastiCube for data integration
@@ -203,8 +203,8 @@
 **Source**: Product documentation on connectors
 **Reasoning**: Good data connectivity. Adequate connectors.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic schema evolution
 - ElastiCube must be reconfigured manually
@@ -216,8 +216,8 @@
 - No automatic adaptation capability found
 **Reasoning**: Universal BI platform failure. Manual schema updates required with SQL expertise.
 
-### Prep (2/2)
-**Score**: 2/2
+### Data Quality (4/4)
+**Score**: 4/4
 **Evidence**:
 - ElastiCube provides data preparation
 - SQL-based transformations
@@ -226,8 +226,8 @@
 **Source**: Phase 2 documentation on ElastiCube
 **Reasoning**: Good data prep capabilities through ElastiCube. Adequate for technical users.
 
-### Writeback (0/2)
-**Score**: 0/2
+### Data Prep (0/4)
+**Score**: 0/4
 **Evidence**:
 - NO writeback capability documented
 - Read-only analytics platform
@@ -236,7 +236,7 @@
 **Source**: No writeback evidence found in comprehensive research
 **Reasoning**: No writeback capability. Read-only tool.
 
-**Total Data**: 4/10
+**Total Data**: 8/20
 
 ---
 
@@ -244,16 +244,16 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
-| Autonomy | 3/10 | 14+ weeks implementation, 30-80 hours training, ElastiCube requires SQL |
-| Flow | 1/10 | Excel export-only (no formulas), no PowerPoint, portal prison, mobile "afterthought" |
-| Understanding | 4/10 | Dashboard drill-down only (1/4 investigation), **ARIMA not ML** (0/3), good explanations (3/3) |
-| Presentation | 2/10 | Good dashboards (2/3), no automation, no brand intelligence |
-| Data | 4/10 | Good connectivity (2/2), **no schema evolution** (0/4), good prep (2/2) |
-| **TOTAL** | **14/50** | **Category D - Dashboard Tool** |
+| Autonomy | 6/20 | 14+ weeks implementation, 30-80 hours training, ElastiCube requires SQL |
+| Flow | 4/20 | Excel export-only (no formulas), no PowerPoint, portal prison, mobile "afterthought" |
+| Understanding | 8/20 | Dashboard drill-down only (1/4 investigation), **ARIMA not ML** (0/3), good explanations (3/3) |
+| Presentation | 4/20 | Good dashboards (2/3), no automation, no brand intelligence |
+| Data | 8/20 | Good connectivity (2/2), **no schema evolution** (0/4), good prep (2/2) |
+| **TOTAL** | **30/100** | **Category C - IT Platform** |
 
 ---
 
-## Category: D - Dashboard Tool (0-14 points)
+## Category: C - IT Platform (25-34 points)
 
 **Definition**: Basic tools with severe business user empowerment limitations. Require significant IT support. Technical focus over business user needs.
 

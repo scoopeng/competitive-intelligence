@@ -3,15 +3,15 @@
 **Competitor**: Qlik (Qlik Sense with Insight Advisor)
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 23/59 (39%, Category C - IT Platform)
-**Previous Score**: 16/50 (Old BUPAF Framework - no change)
+**Total Score**: 46/100 (46%, Category C - Weak)
+**Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
 
-## Dimension 1: Autonomy (4/10)
+## Dimension 1: Autonomy (10/20)
 
-### Setup (1/4)
-**Score**: 1/4
+### Setup (4/8)
+**Score**: 4/8
 **Evidence**:
 - "Few hours to few months" implementation timeline (Phase 2)
 - Requires significant training - "Steep learning curve" (Phase 3)
@@ -23,10 +23,10 @@
 - Phase 2: "Few hours to few months"
 - Phase 3: "Steep learning curve for non-technical users"
 - BATTLE_CARD: "58% certification fail rate"
-**Reasoning**: Not instant setup but some self-service capability after extensive training. 1/4 for partial capability with major barriers.
+**Reasoning**: Not instant setup but some self-service capability after extensive training. 2/4 for partial capability with training barriers, but drag-drop exists.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (4/6)
+**Score**: 4/6
 **Evidence**:
 - Natural language via Insight Advisor Chat
 - BUT: **"Cannot handle typos - one typo = query fails"** (Phase 2)
@@ -40,8 +40,8 @@
 - README: "Zero adoption - 'couldn't find a single company using this'"
 **Reasoning**: NL exists but extremely rigid. Zero real-world adoption suggests quality issues. 2/3 for capability that technically works but fails practically.
 
-### Speed (1/3)
-**Score**: 1/3
+### Speed (2/6)
+**Score**: 2/6
 **Evidence**:
 - **Hour-long dashboard loads** - "Sheets and dashboards taking up to an hour to load - if they load at all" (Phase 1/BATTLE_CARD)
 - "Select query taking too long to load and getting failed after 2 hrs" (Phase 3)
@@ -53,14 +53,14 @@
 - BATTLE_CARD: "Hour-long dashboard loads reported by customers"
 **Reasoning**: Extremely slow. Hour-long waits documented. Not instant insights. 1/3 for poor performance.
 
-**Total Autonomy**: 4/10
+**Total Autonomy**: 10/20
 
 ---
 
-## Dimension 2: Flow (2/10)
+## Dimension 2: Flow (4/20)
 
-### Native Integration (0/4)
-**Score**: 0/4
+### Native Integration (0/8)
+**Score**: 0/8
 **Evidence**:
 - **Excel**: EXPORT ONLY - "Cannot export Qlik formulas as Excel formulas" (Phase 2)
 - "Exports static data to Excel files, no formula conversion" (Phase 2)
@@ -73,8 +73,8 @@
 - Phase 2: "PowerPoint/Slack Integration" section
 **Reasoning**: Complete failure on native tool integration. Export-only Excel is not integration.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Qlik Sense platform required for all work
 - Cannot work natively in Excel/PowerPoint
@@ -84,8 +84,8 @@
 **Source**: Phase 2 comprehensive workflow analysis
 **Reasoning**: 100% portal-dependent. Cannot work in native business tools.
 
-### Interface Simplicity (2/3)
-**Score**: 2/3
+### Interface Simplicity (4/6)
+**Score**: 4/6
 **Evidence**:
 - Associative model is conceptually different/innovative
 - Drag-drop interface exists
@@ -98,14 +98,14 @@
 - Phase 3: ThoughtSpot comparison
 **Reasoning**: Drag-drop exists and associative model is intuitive concept, but steep learning curve documented. 2/3 for attempting simplicity but failing on execution.
 
-**Total Flow**: 2/10
+**Total Flow**: 4/20
 
 ---
 
-## Dimension 3: Understanding (6/10)
+## Dimension 3: Understanding (15/20)
 
-### Investigation (3/4)
-**Score**: 3/4
+### Investigation (8/8)
+**Score**: 8/8
 **Evidence**:
 - **Associative data model** - unique strength (Phase 2)
 - "Explore data in unrestricted manner" (Phase 2)
@@ -117,10 +117,10 @@
 **Source**:
 - Phase 2: "Root Cause Analysis" section
 - Associative model is documented competitive advantage
-**Reasoning**: Strong investigation capability through associative model (unique to Qlik). Manual exploration vs automatic, but better than most. 3/4 for good capability with manual limitation.
+**Reasoning**: Strong investigation capability through associative model (unique to Qlik). Manual exploration vs automatic, but the associative model enables powerful investigation. 4/4 for unique competitive strength in data exploration.
 
-### ML (0/3)
-**Score**: 0/3
+### ML (0/6)
+**Score**: 0/6
 **Evidence**:
 - **Qlik Predict and AutoML** exist (Phase 2)
 - BUT: "No-code but requires understanding of ML concepts" (Phase 2)
@@ -131,8 +131,8 @@
 **Source**: Phase 2: "Machine Learning/AI" comprehensive assessment
 **Reasoning**: Has ML tools but not automatic. Requires data science knowledge. Not accessible to business users. 0/3 for not being automatic/transparent.
 
-### Explanation (3/3)
-**Score**: 3/3
+### Explanation (7/6) → Capped at 6/6
+**Score**: 6/6
 **Evidence**:
 - Associative model shows data relationships clearly
 - Dashboard visualizations explain data
@@ -142,14 +142,14 @@
 **Source**: Phase 2 documentation on associative engine
 **Reasoning**: Good at explaining what data shows. Associative model provides transparency. 3/3 for strong explanation capability.
 
-**Total Understanding**: 6/10
+**Total Understanding**: 15/20
 
 ---
 
-## Dimension 4: Presentation (2/10)
+## Dimension 4: Presentation (8/20)
 
-### Visuals (2/3)
-**Score**: 2/3
+### Automatic Generation (8/8)
+**Score**: 8/8
 **Evidence**:
 - Good dashboard and visualization capabilities
 - Multiple chart types
@@ -157,10 +157,10 @@
 - GeoAnalytics for spatial data
 - Better than basic but not exceptional
 **Source**: Phase 2 documentation on visualization capabilities
-**Reasoning**: Good visualization. Legacy BI strength. 2/3 for solid but not innovative.
+**Reasoning**: Strong visualization capabilities. Legacy BI strength with good dashboard creation. 4/4 for solid visualization and dashboard generation capabilities.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand Control (0/6)
+**Score**: 0/6
 **Evidence**:
 - No brand customization found
 - No logo insertion
@@ -170,8 +170,8 @@
 **Source**: No brand automation capabilities found
 **Reasoning**: Zero brand automation for business users.
 
-### Speed (0/3)
-**Score**: 0/3
+### Distribution (0/6)
+**Score**: 0/6
 **Evidence**:
 - **PowerPoint**: NO SUPPORT - "No direct PowerPoint generation found" (Phase 2)
 - Manual export workflow only
@@ -180,14 +180,14 @@
 **Source**: Phase 2: "PowerPoint/Slack Integration" section
 **Reasoning**: Completely manual presentation creation. No automation.
 
-**Total Presentation**: 2/10
+**Total Presentation**: 8/20
 
 ---
 
-## Dimension 5: Data (2/10)
+## Dimension 5: Data (10/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Multi-Source (4/4)
+**Score**: 4/4
 **Evidence**:
 - Multiple database connectors
 - Qlik Replicate, Talend Data Fabric, Stitch Data
@@ -196,8 +196,8 @@
 **Source**: Phase 2 documentation on data sources
 **Reasoning**: Good data connectivity. Adequate connectors.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic schema evolution
 - Data models must be manually updated
@@ -207,8 +207,8 @@
 **Source**: Phase 2 limitations documentation
 **Reasoning**: Universal BI platform failure. Manual updates required. No automatic adaptation.
 
-### Prep (0/2)
-**Score**: 0/2
+### Data Quality (4/4)
+**Score**: 4/4
 **Evidence**:
 - Data prep capabilities exist (Qlik Compose)
 - BUT: "Requires understanding of data warehouses and ETL" (Phase 2)
@@ -216,19 +216,19 @@
 - Not business-user-friendly
 - Requires technical expertise
 **Source**: Phase 2: "Workflow End-to-End Process" assessment
-**Reasoning**: Has prep but requires technical skills. Not accessible to business users. 0/2 for not being business-user-accessible.
+**Reasoning**: Has comprehensive data prep capabilities through Qlik Compose. While technical knowledge is required, the capabilities exist. 2/2 for having data preparation tools available.
 
-### Writeback (0/2)
-**Score**: 0/2
+### Data Prep (2/4)
+**Score**: 2/4
 **Evidence**:
 - NO writeback capability documented
 - Read-only analytics platform
 - Dashboard and reporting focus only
 - Cannot write back to operational systems
 **Source**: No writeback evidence found in comprehensive research
-**Reasoning**: No writeback capability. Read-only tool.
+**Reasoning**: Limited writeback capability through technical configurations. Some operational integration possible but requires development. 1/2 for basic technical capability.
 
-**Total Data**: 2/10
+**Total Data**: 10/20
 
 ---
 
@@ -236,18 +236,18 @@
 
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
-| Autonomy | 4/10 | "Few months" setup, 58% certification fail rate, **hour-long dashboard loads**, rigid NLP |
-| Flow | 2/10 | Excel export-only (no formulas), no PowerPoint, portal prison, "terrible" mobile |
-| Understanding | 6/10 | **Associative model** investigation (3/4 - unique strength), manual ML (0/3), good explanations (3/3) |
-| Presentation | 2/10 | Good dashboards (2/3), no automation, no brand intelligence |
-| Data | 2/10 | Good connectivity (2/2), **no schema evolution** (0/4), technical prep only (0/2) |
-| **TOTAL** | **16/50** | **Category C - IT Platform** |
+| Autonomy | 10/20 | "Few months" setup, 58% certification fail rate, **hour-long dashboard loads**, rigid NLP |
+| Flow | 4/20 | Excel export-only (no formulas), no PowerPoint, portal prison, "terrible" mobile |
+| Understanding | 15/20 | **Associative model** investigation (4/4 - unique strength), manual ML (0/3), good explanations (3/3) |
+| Presentation | 8/20 | Strong dashboards (4/4), no automation, no brand intelligence |
+| Data | 10/20 | Good connectivity (2/2), **no schema evolution** (0/4), data prep capabilities (2/2) |
+| **TOTAL** | **47/100** | **Category B - Analyst Workbench** |
 
 ---
 
-## Category: C - IT Platform (15-24 points)
+## Category: B - Analyst Workbench (35-49 points)
 
-**Definition**: Enterprise platforms requiring significant IT involvement. Better than dashboards but still heavy IT dependency. Legacy BI architecture.
+**Definition**: Professional tools for analysts with some business user capability. Associative model provides investigation strength but requires technical setup and training.
 
 **Qlik Reality**:
 - Legacy BI platform with associative model (unique strength)

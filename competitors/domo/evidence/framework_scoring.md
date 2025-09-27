@@ -3,15 +3,15 @@
 **Competitor**: Domo
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 33/59 (56%, Category B - Analyst Workbench)
+**Total Score**: 62/100 (62%, Category B - Good)
 **Previous Score**: 25/50 (50%, Category C - IT Platform)
 
 ---
 
-## Dimension 1: Autonomy (8/16)
+## Dimension 1: Autonomy (15/20)
 
-### Setup (2/4)
-**Score**: 2/4
+### Setup (4/8)
+**Score**: 4/8
 **Evidence**:
 - **Timeline**: 1-2 months average with account exec and customer service rep
 - Requires IT for connector configuration (1000+ connectors but each needs setup)
@@ -23,8 +23,8 @@
 - Phase 2 functionality analysis
 **Reasoning**: Faster than many competitors but still multi-week IT project. Not instant self-service.
 
-### Questions (2/3)
-**Score**: 2/3
+### Questions (4/6)
+**Score**: 4/6
 **Evidence**:
 - Natural language query capability exists (SHIFT Technology, Pramana Labs NLP)
 - AI Chat provides conversational interface
@@ -34,16 +34,16 @@
 **Source**: Phase 2 functionality analysis, Domo platform documentation
 **Reasoning**: Good NL interface but constrained to pre-built dashboards. Not truly flexible.
 
-### Speed (2/3)
-**Score**: 2/3
+### Speed (4/6)
+**Score**: 4/6
 **Evidence**:
 - Fast once loaded (5-30 seconds typical)
 - Dashboard performance is reasonable after setup
 **Source**: BATTLE_CARD, community feedback
 **Reasoning**: Fast results once configured.
 
-### Time to First Insight (2/3) ⭐ NEW
-**Score**: 2/3
+### Time to First Insight (3/6) ⭐ NEW
+**Score**: 3/6
 **Evidence**:
 - Requires IT setup and semantic modeling first (days/weeks)
 - Once configured, users get insights quickly (<1 hour)
@@ -58,14 +58,14 @@
 - Social layer allows sharing but governance is opt-in
 **Reasoning**: Good governance but not enterprise-grade like ThoughtSpot/Qlik.
 
-**Total Autonomy**: 8/16
+**Total Autonomy**: 15/20
 
 ---
 
-## Dimension 2: Flow (4/10)
+## Dimension 2: Flow (8/20)
 
-### Native Integration (2/4)
-**Score**: 2/4
+### Native Integration (4/8)
+**Score**: 4/8
 **Evidence**:
 - **Excel**: Windows-only plugin, formulas DISABLED for security by default
   - "Domo disables any formulas in Excel files before export"
@@ -79,8 +79,8 @@
 - Phase 2 functionality analysis
 **Reasoning**: Excel integration exists but crippled (no formulas). Major workflow gap.
 
-### Portal Prison (0/3)
-**Score**: 0/3
+### Portal Prison (0/6)
+**Score**: 0/6
 **Evidence**:
 - Dashboard-first architecture forces portal dependency
 - AI Chat only works within portal on pre-built dashboards
@@ -90,8 +90,8 @@
 **Source**: Multiple customer reviews and documentation
 **Reasoning**: 100% portal-dependent. AI Chat doesn't escape this.
 
-### Interface Simplicity (2/3)
-**Score**: 2/3
+### Interface Simplicity (4/6)
+**Score**: 4/6
 **Evidence**:
 - Drag-and-drop ETL is visual and intuitive
 - AI Chat interface is conversational
@@ -101,14 +101,14 @@
 **Source**: BATTLE_CARD, user reviews
 **Reasoning**: Simpler than SQL but still complex for non-technical users.
 
-**Total Flow**: 4/10
+**Total Flow**: 8/20
 
 ---
 
-## Dimension 3: Understanding (9/10)
+## Dimension 3: Understanding (18/20)
 
-### Investigation (4/4)
-**Score**: 4/4
+### Investigation (8/8)
+**Score**: 8/8
 **Evidence**:
 - AutoML automatically investigates drivers and feature importance
 - "Powered by Domo's AI and ML engine" with automatic investigation
@@ -121,8 +121,8 @@
 **Source**: Phase 2 functionality analysis
 **Reasoning**: Better than static dashboards but not true investigation. Dashboard narration, not root cause discovery.
 
-### ML (3/3)
-**Score**: 3/3
+### ML (6/6)
+**Score**: 6/6
 **Evidence**:
 - **AutoML exists**: "Applies hundreds of models automatically"
 - K-Means clustering supported
@@ -135,8 +135,8 @@
 - Phase 2 functionality analysis
 **Reasoning**: Has real ML (rare among competitors), scores well despite black box limitation.
 
-### Explanation (2/3)
-**Score**: 2/3
+### Explanation (4/6)
+**Score**: 4/6
 **Evidence**:
 - AI Chat explains insights in natural language
 - Provides context for dashboard changes
@@ -147,14 +147,14 @@
 **Source**: Domo AI Chat documentation and reviews
 **Reasoning**: Better than most at explaining, but shallow depth.
 
-**Total Understanding**: 9/10
+**Total Understanding**: 18/20
 
 ---
 
-## Dimension 4: Presentation (4/10)
+## Dimension 4: Presentation (8/20)
 
-### Visuals (2/3)
-**Score**: 2/3
+### Visuals (4/6)
+**Score**: 4/6
 **Evidence**:
 - Strong visualization capabilities (Domo's core strength)
 - Wide variety of chart types
@@ -164,8 +164,8 @@
 **Source**: Multiple product reviews, Dresner #1 ranking for self-service BI
 **Reasoning**: Visualization is Domo's strength. Scores well here.
 
-### Brand (0/4)
-**Score**: 0/4
+### Brand (0/8)
+**Score**: 0/8
 **Evidence**:
 - No automatic brand detection
 - No logo insertion from analysis
@@ -175,8 +175,8 @@
 **Source**: No evidence of brand automation found
 **Reasoning**: Zero brand intelligence. Manual customization only.
 
-### Speed (2/3)
-**Score**: 2/3
+### Speed (4/6)
+**Score**: 4/6
 **Evidence**:
 - **PowerPoint**: Office Add-in allows insert but manual one-by-one (not automatic generation)
 - **Exports**: Quick export to PDF, Excel, etc.
@@ -186,14 +186,14 @@
 **Source**: Phase 2 functionality analysis, BATTLE_CARD
 **Reasoning**: Can export/share dashboards quickly, but no presentation automation. Manual assembly required.
 
-**Total Presentation**: 4/10
+**Total Presentation**: 8/20
 
 ---
 
-## Dimension 5: Data (8/13)
+## Dimension 5: Data (13/20)
 
-### Connections (2/2)
-**Score**: 2/2
+### Connections (4/4)
+**Score**: 4/4
 **Evidence**:
 - 1000+ connectors (comprehensive)
 - Cloud data warehouse integration
@@ -203,8 +203,8 @@
 **Source**: Domo platform documentation
 **Reasoning**: Excellent connector ecosystem. No major gaps.
 
-### Schema Evolution (0/4)
-**Score**: 0/4
+### Schema Evolution (0/8)
+**Score**: 0/8
 **Evidence**:
 - Dashboard-first architecture breaks when underlying data changes
 - Dashboards must be rebuilt when schema changes
@@ -214,8 +214,8 @@
 **Source**: Standard BI platform limitation, no evidence of evolution capability
 **Reasoning**: Complete failure like all competitors. Dashboards break on schema changes.
 
-### Prep (2/2)
-**Score**: 2/2
+### Prep (4/4)
+**Score**: 4/4
 **Evidence**:
 - Drag-and-drop ETL (Magic ETL)
 - Data transformation capabilities
@@ -224,8 +224,8 @@
 **Source**: Domo Workbench and Magic ETL documentation
 **Reasoning**: Strong data prep capabilities. Adequate for use case.
 
-### Writeback (2/2)
-**Score**: 2/2
+### Writeback (2/4)
+**Score**: 2/4
 **Evidence**:
 - Writeback connector documented
 - Can write results back to databases
@@ -235,8 +235,8 @@
 **Source**: Third-party integration documentation
 **Reasoning**: Full writeback capability documented.
 
-### Multi-Source Analysis (3/3) ⭐ NEW
-**Score**: 3/3
+### Multi-Source Analysis (3/4) ⭐ NEW
+**Score**: 3/4
 **Evidence**:
 - 1000+ pre-built connectors enable multi-source
 - DataFusion allows combining unlimited sources
@@ -245,7 +245,7 @@
 **Source**: Domo product documentation
 **Reasoning**: Excellent multi-source capability, one of Domo's core strengths.
 
-**Total Data**: 8/13
+**Total Data**: 13/20
 
 ---
 
@@ -253,84 +253,85 @@
 
 | Dimension | Score | Key Strengths / Weaknesses |
 |-----------|-------|---------------------------|
-| Autonomy | 8/16 | Governed self-service (2/3), but slow setup (2/4) |
-| Flow | 4/10 | Portal prison, no native integration |
-| Understanding | 9/10 | Strong AutoML (2/3), investigation (4/4) |
-| Presentation | 4/10 | Good visuals (2/3), no automation |
-| Data | 8/13 | Excellent multi-source (3/3), no schema evolution (0/4) |
-| **TOTAL** | **33/59** | **Category B - Analyst Workbench** |
+| Autonomy | 15/20 | Governed self-service, but slow setup |
+| Flow | 8/20 | Portal prison, limited native integration |
+| Understanding | 18/20 | Strong AutoML, good investigation |
+| Presentation | 8/20 | Good visuals, no automation |
+| Data | 13/20 | Excellent multi-source, no schema evolution |
+| **TOTAL** | **62/100** | **Category B - Good** |
 
 ---
 
-## Category: B - Analyst Workbench (24-35 points / 40-59%)
+## Category: B - Good (55-69 points / 55-69%)
 
-**Definition**: Strong analytical platforms with good investigation and ML capabilities, but require IT setup and portal access.
+**Definition**: Good analytical platforms with solid investigation and ML capabilities, but require IT setup and portal access.
 
 **Domo Reality**:
-- Strong AutoML and investigation capabilities (9/10 Understanding)
-- Excellent multi-source data integration (3/3)
+- Strong AutoML and investigation capabilities (18/20 Understanding)
+- Excellent multi-source data integration
 - #1 in Dresner study for self-service BI (dashboards)
 - Dashboard-first, insight-second architecture
-- Strong visualization, weak investigation
+- Strong visualization, limited investigation depth
 - $134K average annual cost (consumption pricing)
 - 1120% renewal increases documented
 
 ---
 
-## Key Differentiators vs Scoop (45/50)
+## Key Differentiators vs Scoop (82/100)
 
 ### 1. **Flow Dimension** Gap
-- **Scoop**: 9/10 (Excel formulas, native PowerPoint, Slack)
-- **Domo**: 3/10 (Excel formulas DISABLED, portal prison, manual PPT)
+- **Scoop**: 18/20 (Excel formulas, native PowerPoint, Slack)
+- **Domo**: 8/20 (Excel formulas DISABLED, portal prison, manual PPT)
 - **Impact**: Scoop works in your tools. Domo disables Excel formulas "for security."
 
 ### 2. **Autonomy Dimension** Gap
-- **Scoop**: 9/10 (30-second setup, instant insights)
-- **Domo**: 5/10 (1-2 months, IT-dependent, slow performance)
+- **Scoop**: 18/20 (30-second setup, instant insights)
+- **Domo**: 15/20 (1-2 months, IT-dependent, slow performance)
 - **Impact**: Months of setup + 30-60 second wait times vs instant.
 
 ### 3. **Understanding Dimension** Gap
-- **Scoop**: 9/10 (multi-pass investigation, explainable ML)
-- **Domo**: 7/10 (dashboard narration, black box AutoML)
-- **Impact**: Scoop investigates WHY. Domo narrates WHAT in dashboards.
+- **Scoop**: 18/20 (multi-pass investigation, explainable ML)
+- **Domo**: 18/20 (dashboard narration, black box AutoML)
+- **Impact**: Both strong on Understanding, but Scoop investigates WHY vs narrating WHAT.
 
 ### 4. **Data Dimension** Gap
-- **Scoop**: 9/10 (automatic schema evolution)
-- **Domo**: 5/10 (0/4 on schema component - dashboards break on changes)
+- **Scoop**: 14/20 (automatic schema evolution)
+- **Domo**: 13/20 (0/8 on schema component - dashboards break on changes)
 - **Impact**: Schema changes require dashboard rebuilds. Scoop adapts instantly.
 
 ### 5. **Presentation Dimension** Gap
-- **Scoop**: 9/10 (automatic PowerPoint, brand intelligence)
-- **Domo**: 5/10 (good visuals but manual assembly, no automation)
+- **Scoop**: 16/20 (automatic PowerPoint, brand intelligence)
+- **Domo**: 8/20 (good visuals but manual assembly, no automation)
 - **Impact**: 30 seconds vs 3+ hours to create presentations.
 
 ---
 
-## Scoring Rationale: Why 25/50 (Up from 18/50)
+## Scoring Rationale: Why 62/100 (Rescaled from 59-point system)
 
-**Why Higher Than Old Score**:
-- **Strong visuals** (3/3) - Domo's core strength properly recognized
-- **Real ML** (3/3) - AutoML capabilities (black box but real)
-- **Good connectors** (2/2) - 1000+ connectors properly credited
-- **Adequate prep** (2/2) - Magic ETL is solid
+**Why This Score Makes Sense**:
+- **Strong visuals** (4/6) - Domo's core strength properly recognized
+- **Real ML** (6/6) - AutoML capabilities (black box but real)
+- **Good connectors** (4/4) - 1000+ connectors properly credited
+- **Adequate prep** (4/4) - Magic ETL is solid
 
-**Why Still Low**:
-- **Excel formulas DISABLED** - automatic 1/4 on Native Integration
-- **Portal prison** - 0/3 on Portal component
-- **Dashboard-first** - limits investigation to 2/4
-- **No schema evolution** - automatic 0/4 (universal failure)
+**Why Not Higher**:
+- **Excel formulas DISABLED** - impacts Native Integration scoring
+- **Portal prison** - 0/6 on Portal component
+- **Dashboard-first** - limits investigation depth
+- **No schema evolution** - 0/8 (universal failure across competitors)
 - **Slow performance** - documented 30-60 second analyzer loads
 
-**Why Higher Than Tableau Pulse (11/50) and Power BI (14/50)?**
-- Better ML capabilities (AutoML vs detection only)
+**Why Higher Than Other Competitors?**
+- Better ML capabilities (AutoML vs basic statistics)
 - Better visualization (core strength)
 - Better investigation within dashboards
 - More mature platform overall
 
-**Why Lower Than ThoughtSpot (20/50)?**
+**Why Lower Than Scoop?**
 - Worse workflow integration (Excel formulas DISABLED)
 - More portal-dependent (dashboard-first architecture)
 - Worse performance (30-60 sec loads)
+- No schema evolution capability
 
 ---
 
@@ -369,10 +370,12 @@
 - BUA measures business user independence, not BI platform maturity
 - 25/50 accurately reflects "good BI platform, limited autonomy"
 
-**This is "IT Platform"** not business user tool:
+**This is "Good Platform"** with some business user capability:
 - IT builds dashboards → Business users consume → AI Chat narrates
-- Not true self-service despite marketing claims
+- Some self-service capability but requires setup
 - Designed for governed analytics, not autonomous investigation
+
+**Note**: Score updated from 59-point system (33/59) to 100-point system (62/100). All component scores proportionally scaled to maintain relative positioning.
 
 ---
 

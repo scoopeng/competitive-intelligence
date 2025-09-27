@@ -1,6 +1,6 @@
 # Battle Card: Sisense
 
-**BUA Score**: 19/59 (32%, Category C)  
+**BUA Score**: 38/100 (38%, Category C - Weak)  
 **Market Position**: Legacy BI with fake AI  
 **Key Weakness**: ARIMA from 1970s, not real AI
 

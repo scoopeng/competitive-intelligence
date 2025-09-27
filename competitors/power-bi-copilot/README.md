@@ -2,9 +2,9 @@
 
 ## Quick Summary
 **Parent**: Microsoft
-**BUPAF Score**: 14/50 (Category D - Marketing Mirage)
+**BUA Score**: 32/100 (32%, Category D - Weak)
 **Critical Flaw**: "Nondeterministic behavior" - Microsoft's own admission
-**Gartner Finding**: 97% failure rate (only 3% find value)
+**Gartner Finding**: Only 3% of IT leaders find significant value (123 leaders surveyed, 2025)
 **Key Fact**: Same question, different answers = not analytics, it's gambling
 
 ## The Scoop Advantage
@@ -28,7 +28,7 @@
 ### Evidence & Proof Points
 | Claim | Proof |
 |-------|-------|
-| 97% failure rate | Gartner survey 2025: "Only 3% of IT leaders find significant value" |
+| Low satisfaction rate | Gartner survey 2025: "Only 3% of IT leaders find significant value" (123 leaders surveyed) |
 | "Nondeterministic behavior" | Microsoft official documentation (learn.microsoft.com) |
 | 53% error rate | Gartner: "53% report too many inaccurate results" |
 | No Excel formulas | Requires separate $30/user Copilot Pro (preview only) |
@@ -81,7 +81,7 @@
 → "Actually, Microsoft's own docs say: 'No dedicated Copilot REST APIs exist' and 'Not integrated into Power BI Embedded.' Plus Excel formulas require separate $30/user Copilot Pro. Scoop has native integration everywhere."
 
 **"We need enterprise-grade reliability"**
-→ "Gartner found 97% don't get value from Power BI Copilot. Microsoft admits it's 'nondeterministic'—same question, different answers. That's not enterprise-grade, that's beta testing."
+→ "Gartner found only 3% of IT leaders get significant value from Power BI Copilot. Microsoft admits it's 'nondeterministic'—same question, different answers. That's not enterprise-grade, that's beta testing."
 
 **"The price seems reasonable"**
 → "F64 capacity alone is $67K/year before any licenses. Add Pro licenses ($34K), Excel Copilot ($72K), and maintenance ($50K-$100K) = $408K-$633K Year 1. Scoop saves you $344K-$779K over 3 years."
@@ -90,7 +90,7 @@
 
 "I noticed you're evaluating Power BI Copilot. Three things you should know:
 
-1. **Gartner just reported a 97% failure rate**—only 3% of IT leaders find significant value
+1. **Gartner survey found low satisfaction**—only 3% of IT leaders find significant value (123 surveyed, 2025)
 2. **Microsoft warns it's 'nondeterministic'**—same question produces different answers (check their docs yourself)
 3. **True cost is $408K-$633K Year 1** for 200 users (F64 $67K + licenses $101K + Excel Copilot $72K + implementation $90K-$170K + maintenance $60K-$120K)
 
@@ -112,4 +112,4 @@ Scoop gives you deterministic results, investigation capabilities Power BI Copil
 
 *Intelligence current as of: September 27, 2025*
 *Research: 100% complete (47 documented sources)*
-*BUPAF Score: 14/50 (Marketing Mirage)*
+*BUA Score: 32/100 (32%, Category D - Weak)*

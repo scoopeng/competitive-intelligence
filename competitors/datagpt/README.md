@@ -1,7 +1,7 @@
 # DataGPT - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Dashboard Tool (BUA Score: 15/59, 25%)  
+**Category**: Dashboard Tool (BUA Score: 30/100, 30%, Category C - Weak)  
 **Fatal Flaw**: Rigid schema, single-source only  
 **Key Fact**: "Rare to adjust" schema after setup (their docs)  
 **Reality Check**: Fast metrics viewer, not investigation engine  

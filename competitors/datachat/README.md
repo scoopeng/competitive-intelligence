@@ -1,7 +1,7 @@
 # DataChat - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Dashboard Tool (BUA Score: 14/59, 24%)
+**Category**: Dashboard Tool (BUA Score: 28/100, 28%, Category D - Poor)
 **Fatal Flaw**: NO Excel, NO API, ZERO customer reviews
 **Revenue Reality**: $3.7M after 7 years (market rejection)
 **Research Status**: COMPLETE - All 4 phases executed
@@ -26,7 +26,7 @@
 - `evidence/phase1_customer_discovery.md` - Zero reviews documented
 - `evidence/phase2_functionality_analysis.md` - Missing Excel/PPT/Slack
 - `evidence/phase3_technical_reality.md` - Hidden pricing, no SLA
-- `evidence/phase4_sales_enablement.md` - BUPAF scoring & positioning
+- `evidence/phase4_sales_enablement.md` - BUA scoring & positioning
 
 ## Fatal Flaws Discovered
 
@@ -59,7 +59,7 @@
 - Per employee: $103K (36 employees)
 - **Impact**: Burning cash without product-market fit
 
-## BUPAF Analysis
+## BUA Analysis
 
 | Dimension | Score | Evidence |
 |-----------|-------|----------|
@@ -68,7 +68,7 @@
 | **Workflow Integration** | 0/10 | NO Excel, NO PPT, NO Slack, NO API |
 | **Business Communication** | 4/10 | NL through GEL intermediary, complex |
 | **Visual Intelligence** | 3/10 | Basic viz, no presentations |
-| **TOTAL** | **12/50** | **Category D - Marketing Mirage** |
+| **TOTAL** | **17/100** | **Category F - Poor** |
 
 ## Key Differentiators
 

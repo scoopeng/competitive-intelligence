@@ -1,7 +1,7 @@
 # Tellius - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Dashboard Tool (BUA Score: 15/59, 25%) ⬇️ DOWNGRADED  
+**Category**: Dashboard Tool (BUA Score: 30/100, 30%, Category C - Weak) ⬇️ DOWNGRADED  
 **Fatal Flaws**: 
 - Apache Spark crashes (memory issues, GC overhead, "notoriously difficult")
 - 90% employee turnover ("lightyears behind competitors")
@@ -39,7 +39,7 @@
   - `phase1_customer_discovery.md` - Customer review mining & community research (extended)
   - `phase2_functionality_analysis.md` - Feature gaps & marketing vs reality
   - `phase3_technical_reality.md` - Apache Spark issues & competitive positioning (NEW)
-  - `phase4_sales_enablement.md` - BUPAF scoring & battle points (NEW)
+  - `phase4_sales_enablement.md` - BUA scoring & battle points (NEW)
   - `customer_quotes.md` - Direct quotes from reviews & employees
   - `community_sources.md` - Reddit/forum absence analysis
 

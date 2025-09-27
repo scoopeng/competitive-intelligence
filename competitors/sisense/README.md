@@ -1,7 +1,7 @@
 # Sisense - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Dashboard Tool (BUA Score: 19/59, 32%)  
+**Category**: Dashboard Tool (BUA Score: 38/100, 38%, Category C - Weak)  
 **Fatal Flaw**: 400% renewal price increases (documented)  
 **Key Fact**: ARIMA from 1970s marketed as "AI"  
 **Reality Check**: Embedded analytics for ISVs, not business users  

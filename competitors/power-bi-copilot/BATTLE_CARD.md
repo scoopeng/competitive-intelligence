@@ -1,6 +1,6 @@
 # Battle Card: Power BI Copilot
 
-**BUA Score**: 21/59 (36%, Category C)
+**BUA Score**: 32/100 (32%, Category D - Weak)
 **Parent**: Microsoft
 **Key Weakness**: Only 3% of IT leaders find significant value (Gartner)
 **Last Updated**: September 25, 2025 (100% Complete with new 4-phase template)
