@@ -1,6 +1,6 @@
 # Battle Card: Sisense
 
-**BUPAF Score**: 12/50 (Category D - Marketing Mirage)  
+**BUA Score**: 14/50 (Category D - Dashboard Tool)  
 **Market Position**: Legacy BI with fake AI  
 **Key Weakness**: ARIMA from 1970s, not real AI
 

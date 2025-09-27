@@ -1,7 +1,7 @@
 # Sisense - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Marketing Mirage (BUPAF Score: 12/50)  
+**Category**: Dashboard Tool (BUA Score: 14/50)  
 **Fatal Flaw**: 400% renewal price increases (documented)  
 **Key Fact**: ARIMA from 1970s marketed as "AI"  
 **Reality Check**: Embedded analytics for ISVs, not business users  
