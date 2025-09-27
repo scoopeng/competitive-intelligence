@@ -86,10 +86,10 @@ For each competitor:
 - Identify evidence for each dimension
 - Note gaps (may need additional research)
 
-**Step 2: Apply Rubrics**
+**Step 2: Apply Detailed Rubrics**
 - Use scoring rubrics from BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
-- Score each dimension 0-10
-- Document specific evidence for each score
+- Score each sub-component (e.g., Autonomy = Setup + Question Independence + Speed)
+- Document specific evidence for each sub-component score
 
 **Step 3: Document Rationale**
 Create `competitors/[name]/evidence/framework_scoring.md`:
@@ -100,17 +100,51 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 **Date Scored**: [Date]
 **Total Score**: X/50 (Category [A/B/C/D])
 
+---
+
 ## Dimension 1: Autonomy (X/10)
-**Score Rationale**: [Why this score]
-**Evidence**:
-- [Specific evidence point 1]
-- [Specific evidence point 2]
+
+### Component A: Self-Service Setup (X/4)
+**Score**: X/4
+**Evidence**: [Specific proof of setup process, time required, IT involvement]
 **Source**: [URLs]
 
-## Dimension 2: Flow (X/10)
-[Same structure]
+### Component B: Question Independence (X/3)
+**Score**: X/3
+**Evidence**: [NL support, query flexibility, constraints]
+**Source**: [URLs]
 
-[Etc.]
+### Component C: Speed to Value (X/3)
+**Score**: X/3
+**Evidence**: [Time from signup to first insight, training required]
+**Source**: [URLs]
+
+**Total Autonomy**: X/10
+
+---
+
+## Dimension 2: Flow (X/10)
+
+### Component A: Native Integration (X/4)
+**Score**: X/4
+**Evidence**: [Slack/Excel/Mobile/PPT integration details]
+**Source**: [URLs]
+
+### Component B: No Portal Prison (X/3)
+**Score**: X/3
+**Evidence**: [Portal requirement or lack thereof]
+**Source**: [URLs]
+
+### Component C: Interface Simplicity (X/3)
+**Score**: X/3
+**Evidence**: [NL quality, learning curve, technical requirements]
+**Source**: [URLs]
+
+**Total Flow**: X/10
+
+---
+
+[Continue for all 5 dimensions with sub-components]
 ```
 
 ---
