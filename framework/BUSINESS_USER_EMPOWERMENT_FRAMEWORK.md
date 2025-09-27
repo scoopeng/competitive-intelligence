@@ -40,20 +40,57 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users start and operate without IT involvement?
 
-### Key Components
-- **Self-service setup**: Can user install/configure themselves? (no IT project required)
-- **Question independence**: Can user ask ad-hoc questions? (no analyst queue)
-- **Speed to value**: How fast from signup to first insight?
+### Detailed Scoring Rubric
 
-### Scoring Rubric (0-10)
+#### Component A: Self-Service Setup (0-4 points)
+*Can user install/configure themselves without IT project?*
 
-| Score | Capability |
-|-------|------------|
-| **0-2** | Requires IT implementation project (weeks/months) |
-| **3-4** | IT setup required but user can ask questions after (days/weeks) |
-| **5-6** | Self-service setup but requires training/configuration (hours/days) |
-| **7-8** | Quick self-service setup, minimal training needed (30-60 min) |
-| **9-10** | Instant self-service (under 5 minutes), natural language, no training |
+| Points | Capability |
+|--------|------------|
+| **0** | Requires IT implementation project (weeks/months), multiple teams involved |
+| **1** | IT setup required, but faster (1-2 weeks), limited configuration |
+| **2** | Some self-service possible but IT needed for key steps (2-3 days) |
+| **3** | Mostly self-service, minor IT help for connections (few hours) |
+| **4** | Complete self-service setup in minutes, zero IT involvement |
+
+**What to evaluate**:
+- Installation process (click vs IT project)
+- Data source connections (self-serve vs IT ticket)
+- User provisioning (self-signup vs IT approval)
+- Time from signup to connected
+
+#### Component B: Question Independence (0-3 points)
+*Can user ask ad-hoc questions without analyst queue?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | All questions require analyst ticket, view-only access |
+| **1** | Can ask questions within pre-built dashboards only (drill-downs) |
+| **2** | Can ask new questions but limited to pre-defined metrics/dimensions |
+| **3** | Complete question freedom, natural language, no constraints |
+
+**What to evaluate**:
+- Natural language support (conversational vs SQL/DAX)
+- Query flexibility (any question vs pre-defined)
+- Response time (instant vs analyst queue)
+- No ticket system required
+
+#### Component C: Speed to Value (0-3 points)
+*How fast from signup to first meaningful insight?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | Months (implementation project, semantic model building) |
+| **1** | Weeks (setup, training, configuration) |
+| **2** | Days (connect data, learn interface) |
+| **3** | Minutes (30 seconds to first insight, immediate productivity) |
+
+**What to evaluate**:
+- First insight time (measure actual time)
+- Training required (none vs days of classes)
+- Onboarding complexity (one step vs many)
+
+**Total Autonomy Score**: Sum of A + B + C (max 10 points)
 
 ### Business Impact
 - **High score (9-10)**: SMB owner or department head can start TODAY
@@ -70,20 +107,59 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users work in their existing tools vs switching to separate BI portal?
 
-### Key Components
-- **Native integration**: Works in Slack, mobile, where user already works?
-- **No portal prison**: Can avoid logging into separate BI tool?
-- **Interface simplicity**: Natural language vs learning query syntax?
+### Detailed Scoring Rubric
 
-### Scoring Rubric (0-10)
+#### Component A: Native Integration (0-4 points)
+*Does it work WHERE users already work?*
 
-| Score | Capability |
-|-------|------------|
-| **0-2** | Separate portal only, must login and navigate tool |
-| **3-4** | Portal-based but has basic export/embed capabilities |
-| **5-6** | Some integrations (Slack notifications) but analysis requires portal |
-| **7-8** | Native in one key tool (Slack or Excel) with full functionality |
-| **9-10** | Native in multiple tools (Slack + Excel + Mobile), natural language everywhere |
+| Points | Capability |
+|--------|------------|
+| **0** | Separate portal only, must login and navigate BI tool |
+| **1** | Portal-based with basic embedding (iframes, limited functionality) |
+| **2** | One native integration (Slack notifications OR basic Excel export) |
+| **3** | Native in one tool with full functionality (Slack OR Excel with analysis) |
+| **4** | Native in multiple tools (Slack + Excel/Sheets + Mobile + PowerPoint) |
+
+**What to evaluate**:
+- Slack: Notifications only vs full analysis in threads
+- Excel/Sheets: Export only vs live plugin with refresh
+- Mobile: Responsive web vs native mobile experience
+- PowerPoint: Manual copy/paste vs automated generation
+- Setup time (weeks of custom dev vs 30 seconds)
+
+#### Component B: No Portal Prison (0-3 points)
+*Can users avoid logging into separate BI tool?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | Portal required for all analysis, separate login, tool navigation |
+| **1** | Portal optional for simple tasks, but complex analysis requires portal |
+| **2** | Most tasks possible outside portal but some features portal-only |
+| **3** | Zero portal requirement, complete analysis in user's workflow tools |
+
+**What to evaluate**:
+- Can ask questions without opening BI tool?
+- Can create presentations without portal?
+- Can share insights without portal access?
+- Login friction (separate auth vs SSO vs no login)
+
+#### Component C: Interface Simplicity (0-3 points)
+*How easy is it to use?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | Technical query language required (SQL, DAX, Python) |
+| **1** | Guided NL with templates, limited flexibility |
+| **2** | Good NL but some tasks require technical knowledge |
+| **3** | True conversational NL, zero technical knowledge required |
+
+**What to evaluate**:
+- Natural language quality (conversational vs keyword matching)
+- Learning curve (minutes vs days/weeks of training)
+- Error handling (helps user vs cryptic errors)
+- Context retention (conversation vs isolated queries)
+
+**Total Flow Score**: Sum of A + B + C (max 10 points)
 
 ### Business Impact
 - **High score (9-10)**: User works in familiar environment, no tool switching
@@ -100,21 +176,60 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users get deep insights (root cause WHY) without data analyst?
 
-### Key Components
-- **Investigation depth**: Multi-pass reasoning vs single query
-- **Root cause analysis**: Finds WHY not just WHAT
-- **ML insights**: Provides pattern discovery (J48, clustering, etc.)
-- **Explainability**: ML/statistical results explained in business language
+### Detailed Scoring Rubric
 
-### Scoring Rubric (0-10)
+#### Component A: Investigation Depth (0-4 points)
+*How deep can users go to find WHY?*
 
-| Score | Capability |
-|-------|------------|
-| **0-2** | Static dashboards only (shows WHAT happened) |
-| **3-4** | Single-query answers, no follow-up investigation |
-| **5-6** | User can drill down manually but must know what to ask |
-| **7-8** | Multi-pass investigation OR explainable ML (but not both) |
-| **9-10** | Automatic multi-pass investigation + ML insights + business-language explanation |
+| Points | Capability |
+|--------|------------|
+| **0** | Static dashboards only (shows WHAT happened, no investigation) |
+| **1** | Single-query answers with basic drill-downs |
+| **2** | User can ask follow-up questions but must know what to ask next |
+| **3** | Multi-pass investigation but user must guide it (3-5 queries) |
+| **4** | Automatic multi-pass investigation (3-10 queries), finds root cause autonomously |
+
+**What to evaluate**:
+- Query depth (one shot vs multi-pass)
+- Context retention (remembers conversation vs starts over)
+- Hypothesis testing (tests theories automatically vs user must ask)
+- Root cause discovery (finds WHY vs just shows WHAT)
+- Investigation examples: "Sales dropped 15% in Q3" → automatic investigation of segments, timing, causes
+
+#### Component B: ML Pattern Discovery (0-3 points)
+*Can users discover patterns they wouldn't find themselves?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | No ML capabilities, manual analysis only |
+| **1** | Basic statistics (correlations, trends) marketed as "AI" |
+| **2** | Real ML but black-box predictions (can't explain why) |
+| **3** | Explainable ML with pattern discovery (J48 trees, EM clustering, rule mining) |
+
+**What to evaluate**:
+- ML sophistication (none vs real models: decision trees, clustering, rule mining)
+- Pattern discovery (finds hidden segments, drivers, relationships)
+- Accessibility (automatic vs requires data scientist)
+- Examples: Customer segmentation, churn drivers, product affinity
+
+#### Component C: Business-Language Explanation (0-3 points)
+*Can users understand and explain insights to others?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | Raw data dumps, technical output, no explanation |
+| **1** | Basic summaries but still technical (statistical jargon) |
+| **2** | Good explanations but some technical knowledge helpful |
+| **3** | Complete business-language translation, narratives with context, actionable recommendations |
+
+**What to evaluate**:
+- Explanation quality (technical vs business language)
+- Narrative generation (just numbers vs story with context)
+- Actionability (insights only vs recommendations with reasoning)
+- Confidence/validation (explains how we know, not just what)
+- User can explain to their boss without help
+
+**Total Understanding Score**: Sum of A + B + C (max 10 points)
 
 ### Business Impact
 - **High score (9-10)**: User finds root causes themselves, no analyst ticket required
@@ -138,21 +253,58 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users create professional, branded visual outputs without designer?
 
-### Key Components
-- **Visual quality**: Pixel-perfect, professional aesthetics
-- **Brand compliance**: Automatic brand detection and application
-- **Speed**: Time to create board-ready presentation
-- **Output formats**: PowerPoint, Google Slides, live decks
+### Detailed Scoring Rubric
 
-### Scoring Rubric (0-10)
+#### Component A: Visual Quality & Aesthetics (0-3 points)
+*How professional do outputs look?*
 
-| Score | Capability |
-|-------|------------|
-| **0-2** | Screenshot exports only, manual formatting required |
-| **3-4** | Basic chart exports, no branding, requires manual PowerPoint work (3-4 hours) |
-| **5-6** | Template-based exports but user must apply branding/formatting (1-2 hours) |
-| **7-8** | Good visual output but limited branding automation (30-60 min) |
-| **9-10** | AI-powered branded deck generation (under 1 minute), board-ready |
+| Points | Capability |
+|--------|------------|
+| **0** | Screenshot exports, unprofessional appearance |
+| **1** | Basic charts with standard templates, generic look |
+| **2** | Good visuals with customization options, professional but requires effort |
+| **3** | Pixel-perfect output (1600x900), Gartner-quality professional aesthetics automatically |
+
+**What to evaluate**:
+- Chart quality (basic vs sophisticated)
+- Layout/composition (auto vs manual)
+- Color theory application (random vs semantic color mapping)
+- Professional standards (acceptable vs boardroom-ready)
+
+#### Component B: Brand Compliance & Automation (0-4 points)
+*How well does it handle branding?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | No branding, generic output only |
+| **1** | Manual brand color/logo application required |
+| **2** | Template-based branding (user uploads, system applies) |
+| **3** | Automatic brand detection from uploaded files (extracts colors) |
+| **4** | AI-powered brand detection + semantic color application + live data overlay on branded templates |
+
+**What to evaluate**:
+- Brand detection (manual vs automatic from PowerPoint)
+- Color consistency (user manages vs auto-applied throughout)
+- Logo/template handling (separate upload vs integrated)
+- Corporate compliance (hit-or-miss vs guaranteed)
+
+#### Component C: Speed & Formats (0-3 points)
+*How fast can users create shareable outputs?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | Manual work required (3-4 hours per deck) |
+| **1** | Faster but still significant effort (1-2 hours) |
+| **2** | Quick generation with some manual touchup (15-30 min) |
+| **3** | Instant generation (under 60 seconds), multiple formats (PPT, Slides, PDF, live decks) |
+
+**What to evaluate**:
+- Time to board-ready deck (hours vs seconds)
+- Output formats (one vs multiple: PowerPoint, Google Slides, PDF, live decks)
+- Bi-directional flow (can import PPT, add data, re-export)
+- Live updates (static vs live data refresh in presentations)
+
+**Total Presentation Score**: Sum of A + B + C (max 10 points)
 
 ### Business Impact
 - **High score (9-10)**: User creates executive presentations themselves, no designer
@@ -177,22 +329,74 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users handle all data operations without data engineer?
 
-### Key Components
-- **Data connections**: Can user connect to data sources themselves?
-- **Schema evolution**: What happens when data structure changes?
-- **Data preparation**: Can user transform/clean data without SQL/Python?
-- **Operationalization**: Can user write insights back to operational systems?
-- **Maintenance**: Does system break when data changes?
+### Detailed Scoring Rubric
 
-### Scoring Rubric (0-10)
+#### Component A: Data Connections (0-2 points)
+*Can users connect to data sources themselves?*
 
-| Score | Capability |
-|-------|------------|
-| **0-2** | Requires data engineer for setup, prep, and all changes (weeks per change) |
-| **3-4** | Data engineer sets up, user can query but breaks on schema changes (days to fix) |
-| **5-6** | Some self-service data prep but limited, requires IT for schema updates (1-2 days) |
-| **7-8** | Good data prep tools, faster schema adaptation but still requires some IT (hours) |
-| **9-10** | Complete self-service: connections, prep, schema evolution automatic (minutes), writeback |
+| Points | Capability |
+|--------|------------|
+| **0** | Data engineer required for all connections, data warehouse setup needed |
+| **1** | Some self-service connections but IT needed for enterprise sources |
+| **2** | Complete self-service, connect to any source (databases, SaaS, files, APIs) |
+
+**What to evaluate**:
+- Connection setup (IT ticket vs self-serve)
+- Source variety (limited vs comprehensive)
+- Authentication handling (IT required vs user manages)
+- Time to connect (days vs minutes)
+
+#### Component B: Schema Evolution & Maintenance (0-4 points)
+*What happens when data structure changes?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | System breaks completely, requires data engineer rebuild (weeks) |
+| **1** | Breaks but faster recovery with IT help (days) |
+| **2** | Some fields adapt but others break, IT needed (1-2 days) |
+| **3** | Most changes handled automatically, rare IT involvement (hours) |
+| **4** | Complete automatic adaptation, zero downtime, instant availability (minutes) |
+
+**What to evaluate**:
+- New column handling (breaks vs auto-detects)
+- Renamed column handling (breaks vs auto-migrates)
+- Type change handling (breaks vs adapts)
+- Historical data preservation (lost vs maintained)
+- Semantic model requirement (YAML files vs zero maintenance)
+- Time to availability (weeks vs minutes)
+
+#### Component C: Data Preparation & Transformation (0-2 points)
+*Can users prep/clean data without SQL/Python?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | No data prep, must have clean data, or requires data engineer/SQL |
+| **1** | Basic prep capabilities with GUI, limited functionality |
+| **2** | In-memory spreadsheet engine (150+ Excel functions), sophisticated transformation |
+
+**What to evaluate**:
+- Prep method (SQL vs GUI vs spreadsheet functions)
+- Function library (limited vs 150+ Excel functions: VLOOKUP, SUMIFS, etc.)
+- Skills required (SQL/Python vs Excel familiarity)
+- Combination/joins (manual vs spreadsheet-based)
+- Messy data handling (requires clean data vs handles automatically)
+
+#### Component D: Operationalization & Writeback (0-2 points)
+*Can users push insights back to operational systems?*
+
+| Points | Capability |
+|--------|------------|
+| **0** | View/export only, no writeback capability |
+| **1** | Manual export to CSV, user must upload to other systems |
+| **2** | Direct writeback to CRM/operational systems (Salesforce, HubSpot, etc.) |
+
+**What to evaluate**:
+- CRM writeback (can push ML scores/segments to Salesforce)
+- API integrations for operationalization
+- Automation of insights → action loop
+- No manual copy/paste required
+
+**Total Data Score**: Sum of A + B + C + D (max 10 points)
 
 ### Business Impact
 - **High score (9-10)**: New CRM field available immediately, user can prep data themselves
@@ -228,18 +432,60 @@ Each dimension measures a specific dependency removal:
 ## Competitor Scoring Examples
 
 ### Power BI Copilot: 15/50 (Category C - IT Platform)
-- **Autonomy**: 3/10 (14-week F64 setup + semantic model)
-- **Flow**: 4/10 (separate tool, limited Excel Copilot Pro)
-- **Understanding**: 2/10 (single query, nondeterministic, no ML)
-- **Presentation**: 3/10 (basic charts, no branded deck generation)
-- **Data**: 3/10 (semantic model breaks, requires data engineer)
+
+**Autonomy: 3/10**
+- Setup (0/4): 14-week F64 implementation, semantic model required
+- Question Independence (2/3): NL queries but limited semantic model
+- Speed to Value (1/3): Weeks to first insight
+
+**Flow: 4/10**
+- Native Integration (1/4): Excel Copilot Pro separate $30/user subscription
+- No Portal Prison (1/3): Requires Power BI tool for most tasks
+- Interface Simplicity (2/3): Good NL but within semantic model constraints
+
+**Understanding: 2/10**
+- Investigation Depth (1/4): Single query only ("one question at a time" - Microsoft docs)
+- ML Pattern Discovery (0/3): No ML capabilities
+- Business Explanation (1/3): Basic summaries, nondeterministic outputs
+
+**Presentation: 3/10**
+- Visual Quality (1/3): Standard BI charts
+- Brand Automation (1/4): Manual branding work required
+- Speed & Formats (1/3): Manual PowerPoint workflow (hours)
+
+**Data: 3/10**
+- Connections (1/2): IT required for enterprise connections
+- Schema Evolution (0/4): Semantic model breaks on changes, 14-day rebuild
+- Data Prep (1/2): Requires DAX/Power Query (technical skills)
+- Writeback (1/2): Export only, manual process to operationalize
 
 ### Scoop: 42/50 (Category A - True Self-Service)
-- **Autonomy**: 9/10 (30-second Slack install, immediate value)
-- **Flow**: 9/10 (Slack native, Excel integration, mobile, PowerPoint)
-- **Understanding**: 9/10 (multi-pass investigation + Three-Layer AI)
-- **Presentation**: 8/10 (30-second branded decks, expanding)
-- **Data**: 7/10 (schema evolution, spreadsheet engine, expanding writeback)
+
+**Autonomy: 9/10**
+- Setup (4/4): 30-second Slack install, zero IT
+- Question Independence (3/3): Full NL, any question
+- Speed to Value (2/3): Minutes to first insight (improving to seconds)
+
+**Flow: 9/10**
+- Native Integration (4/4): Slack + Excel/Sheets + Mobile + PowerPoint
+- No Portal Prison (3/3): Zero portal requirement
+- Interface Simplicity (2/3): Conversational NL (improving context)
+
+**Understanding: 9/10**
+- Investigation Depth (4/4): Automatic multi-pass (3-10 queries), root cause
+- ML Pattern Discovery (3/3): J48 (800+ nodes), EM clustering, explainable
+- Business Explanation (2/3): Good narratives (improving actionability)
+
+**Presentation: 8/10**
+- Visual Quality (3/3): Pixel-perfect, Gartner-quality aesthetics
+- Brand Automation (3/4): Auto brand detection (expanding live overlay)
+- Speed & Formats (2/3): 30-second generation (expanding formats)
+
+**Data: 7/10**
+- Connections (2/2): Self-service, any source
+- Schema Evolution (3/4): Automatic adaptation (continuous improvement)
+- Data Prep (2/2): 150+ Excel functions, spreadsheet engine
+- Writeback (0/2): Coming soon (Salesforce, HubSpot integration)
 
 ---
 
