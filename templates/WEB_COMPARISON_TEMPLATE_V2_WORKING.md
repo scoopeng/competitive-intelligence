@@ -26,6 +26,37 @@
 - Next Steps: 200 words
 - **TOTAL**: ~6,000 words
 
+### Capability Selection Strategy (IMPORTANT!)
+
+**Philosophy**: Include capabilities that are **differentiating for THIS competitor**, not everything.
+
+**Always Include (Universal Differentiators)**:
+- Three-Layer AI Data Scientist (all competitors lack this)
+- Spreadsheet Calculation Engine (no competitor has this)
+- Investigation Engine (vs single queries)
+- Schema Evolution (100% competitor failure point)
+- ML examples: ML_RELATIONSHIP (J48), ML_CLUSTER (EM)
+
+**Include If Differentiating**:
+- ML_PERIOD: If competitor can't compare time periods with ML
+- ML_GROUP: If competitor can't do comparative segment analysis
+- CRM Writeback: If competitor can't operationalize ML scores
+- Personal Decks: If competitor requires IT for dashboards (most do)
+- Smart Scanner: If competitor requires clean, structured data (most do)
+- Progressive Analysis: If competitor has no depth control
+- 100+ Data Sources: Only if competitor has <50 connectors
+
+**Department Examples (3-4 max)**:
+- Choose departments where competitor is weakest OR Scoop is strongest
+- Example: Tableau → Finance, Operations, Executive (not all 9)
+- Skip departments that aren't relevant to competitive context
+
+**Industry Solutions**:
+- Skip entirely (we lack vertical expertise)
+- Exception: If competitor is healthcare-only, show we do healthcare too
+
+**Target Length**: 5,000-7,000 words (focused, not exhaustive)
+
 ### Quality Checklist
 - [ ] Every major claim has supporting table or example
 - [ ] No marketing fluff or repetitive positioning
@@ -34,7 +65,8 @@
 - [ ] 3+ side-by-side output examples
 - [ ] FAQ answers high-intent questions
 - [ ] File passes RESEARCH_QA_CHECKLIST.md
-- [ ] Total length: 5,000-8,000 words
+- [ ] Capabilities selected based on differentiation (not all 42 items)
+- [ ] Total length: 5,000-7,000 words (not inflated)
 
 ---
 
@@ -210,6 +242,38 @@ CONFIDENCE: 89% (based on 18 months historical data)
 | Multi-table join | {TIME} | 3-5 sec | {COMPARISON} |
 | Investigation query | {CAN/CANNOT + TIME} | 15-30 sec | {COMPARISON} |
 | Pattern discovery | {CAPABILITY} | 10-20 sec | {COMPARISON} |
+
+#### 🔧 OPTIONAL: Personal Decks (Slack-Exclusive Feature)
+
+**Include if**: Competitor requires IT to build dashboards or lacks personal workspace
+
+**What Personal Decks Solve**: Every user can save queries and build their own dashboard without IT, directly in Slack.
+
+**{COMPETITOR} Limitation**: {DESCRIBE - e.g., "Requires IT to create dashboards", "No personal workspace", "Dashboards are shared-only"}
+
+**Scoop's Personal Decks**:
+```
+Workflow:
+1. User asks question in Slack: "Show me my Q4 pipeline"
+2. Scoop returns analysis
+3. User clicks "Save to Personal Deck"
+4. Query becomes a card in their personal dashboard
+5. Next time: "Refresh my deck" → all cards update with latest data
+```
+
+**Key Capabilities**:
+- **Personal**: Each user has their own deck (not shared by default)
+- **Self-Service**: No IT required to build or modify
+- **Dynamic**: Cards refresh with latest data on demand
+- **Shareable**: Can share specific cards or whole deck when ready
+- **Slack-Native**: Everything happens in Slack, no separate portal
+
+**Business Impact**:
+- **Time**: Build personal dashboard in 30 seconds vs 2-4 weeks with IT
+- **Adoption**: 100% Slack users can use it (no new tool to learn)
+- **IT Burden**: Zero requests for "please build me a dashboard"
+
+**Example Use Case**: Sales rep saves 5 queries about their pipeline, opportunities, and closed deals. Each morning: "@Scoop refresh my deck" → instant updated view of their business.
 
 ---
 
@@ -467,6 +531,100 @@ and converting Steady Users (highest growth potential).
 
 ---
 
+#### 🔧 OPTIONAL: Additional ML Capabilities (Include if differentiating)
+
+**When to include**: If competitor lacks these specific capabilities
+
+##### ML_PERIOD: Time Period Comparison Analysis
+
+**Include if**: Competitor can't compare time periods with ML-powered change detection
+
+```
+Question: "What's materially different between Q4 2024 and Q3 2024?"
+
+Scoop ML_PERIOD Output:
+SIGNIFICANT CHANGES DETECTED:
+
+1. CUSTOMER ACQUISITION PATTERN SHIFT (89% confidence)
+   - Q3: Enterprise deals dominated (avg $47K, 34% of revenue)
+   - Q4: SMB volume surged (avg $8K, but 61% of deals)
+   - Impact: Lower ACV but 2.3x deal velocity
+   - Recommendation: Adjust sales capacity for higher volume
+
+2. SUPPORT TICKET CATEGORY CHANGE (83% confidence)
+   - Q3: Onboarding issues (42% of tickets)
+   - Q4: Feature requests (38% of tickets, up from 12%)
+   - Pattern: Maturing customer base demanding advanced features
+   - Action: Prioritize roadmap items from support data
+
+3. CHURN DRIVER EVOLUTION (76% confidence)
+   - Q3: Churned due to "complexity" (67% of exit surveys)
+   - Q4: Churned due to "missing features" (54% of exits)
+   - Insight: Product is now easier but feature gaps exposed
+```
+
+**{COMPETITOR}**: {DESCRIBE_THEIR_LIMITATION - e.g., "Can only show before/after charts, no ML analysis of what changed"}
+
+##### ML_GROUP: Comparative Segment Analysis
+
+**Include if**: Competitor can't do ML-powered comparison between populations
+
+```
+Question: "How do customers who churned differ from those who renewed?"
+
+Scoop ML_GROUP Output:
+COMPARATIVE ANALYSIS: Churned vs Renewed Customers
+
+KEY DIFFERENTIATING FACTORS (J48 Decision Tree Analysis):
+
+Factor 1: Support Engagement Pattern (94% predictive accuracy)
+- Churned: Avg 4.2 tickets in final 90 days (reactive support-seeking)
+- Renewed: Avg 0.8 tickets in final 90 days (proactive success)
+- Rule: >3 tickets in 90 days before renewal = 87% churn probability
+
+Factor 2: Feature Adoption Depth (81% predictive accuracy)
+- Churned: Used 2.1 features on average (shallow adoption)
+- Renewed: Used 5.7 features on average (deep integration)
+- Rule: <3 features used = 73% churn risk
+
+Factor 3: Login Consistency (76% predictive accuracy)
+- Churned: 12 days average between logins (sporadic usage)
+- Renewed: 2.3 days average between logins (habitual usage)
+- Rule: >7 days between logins = 68% churn risk
+
+RECOMMENDATION: Monitor accounts with >3 tickets + <3 features + >7 day gaps
+Risk Score: Accounts matching all 3 criteria have 94% churn rate
+```
+
+**{COMPETITOR}**: {DESCRIBE_THEIR_LIMITATION - e.g., "Can show two segments side-by-side, but no ML analysis of what distinguishes them"}
+
+##### CRM Writeback: Operationalize ML Scores
+
+**Include if**: Competitor can't push ML results back to operational systems
+
+**What It Does**: Push ML-derived scores directly to Salesforce, HubSpot, or other CRMs
+
+**Use Cases**:
+- **Lead Scoring**: ML predicts conversion likelihood → score updates in CRM → sales prioritizes
+- **Churn Scoring**: ML identifies at-risk customers → flag updates in CRM → CS intervenes
+- **Expansion Scoring**: ML finds upsell candidates → opportunity created in CRM → AE engages
+
+**Example Workflow**:
+```
+1. Scoop runs ML_RELATIONSHIP to predict deal close probability
+2. Finds pattern: Deals with 3+ stakeholder meetings + budget confirmed + timeline <60 days = 89% close rate
+3. Scores all open opportunities in Salesforce
+4. Updates custom field "Scoop_Close_Score" (0-100)
+5. Sales team sees scores in their normal workflow
+6. High scorers get prioritized, low scorers get re-qualification
+```
+
+**{COMPETITOR}**: {DESCRIBE_THEIR_LIMITATION - e.g., "ML results stay in analytics tool, no integration back to operational systems"}
+
+**Business Impact**: ML moves from "interesting insights" to "automated action"
+
+---
+
 ### 2.4 Setup & Implementation (500 words)
 
 **Core Question**: How long until users are productive?
@@ -519,9 +677,166 @@ and converting Steady Users (highest growth potential).
 > - Timeline: {ACTUAL_TIME}
 > - Result: {BUSINESS_OUTCOME}
 
+#### 🔧 OPTIONAL: Smart Scanner for Messy Data
+
+**Include if**: Competitor requires clean, structured, pre-processed data
+
+**What Smart Scanner Solves**: Upload messy Excel files, Scoop figures out the structure automatically.
+
+**{COMPETITOR} Requirement**: {DESCRIBE - e.g., "Data must be clean, structured, single-table format", "No embedded subtotals or headers", "Requires data engineer to prep files"}
+
+**Common Data Problems That Break Competitors**:
+- Embedded subtotals (Sum rows mixed with data rows)
+- Multiple header rows
+- Merged cells with hierarchical structure
+- Mixed data types in columns
+- Currency symbols and formatting ($1,234.56)
+- Date formats that vary (12/31/24 vs Dec 31, 2024)
+- Notes and comments embedded in data
+- Irregular file structures (pivot-table-like layouts)
+
+**Scoop's Smart Scanner Handles**:
+```
+Upload messy Excel file → Smart Scanner detects:
+1. Structure: Identifies where headers are, even if multiple rows
+2. Data types: Recognizes numbers despite $ and , formatting
+3. Subtotals: Excludes embedded sum/total rows automatically
+4. Hierarchies: Understands merged cells and indentation
+5. Anomalies: Flags outliers and missing values
+6. Formats: Parses dates regardless of format variation
+
+Result: Ready to analyze in seconds, no data prep required
+```
+
+**Real-World Example**:
+```
+Finance team exports this from ERP:
+─────────────────────────────────────
+              Q4 2024 Report
+─────────────────────────────────────
+Region    | Product      | Revenue
+─────────────────────────────────────
+Northeast                  $1,234,567
+          | Widget A     | $   456,789
+          | Widget B     | $   777,778
+Southeast                  $   987,654
+          | Widget A     | $   432,100
+          | Widget B     | $   555,554
+─────────────────────────────────────
+TOTAL                      $2,222,221
+─────────────────────────────────────
+```
+
+**{COMPETITOR}**: Requires data engineer to clean (remove subtotals, flatten hierarchy, fix formatting) - 30-60 minutes
+
+**Scoop**: Smart Scanner recognizes:
+- "Q4 2024 Report" is title (ignore)
+- Region subtotals are calculated (exclude)
+- Hierarchy: Region → Product structure
+- TOTAL row is summary (exclude)
+- Currency formatting (strip $ and , for numbers)
+
+**Result**: Upload → 5 seconds → ready to query: "Which region had higher Widget A sales?"
+
+**Business Impact**:
+- **Zero data prep time** (analysts work with real-world files)
+- **No data engineer required** for file cleanup
+- **Faster insights** (minutes vs hours per analysis)
+
 ---
 
-### 2.5 Accuracy & Reliability (500 words)
+### 2.5 Schema Evolution & Maintenance (500 words) ⚠️ ALWAYS INCLUDE
+
+**Core Question**: What happens when your data structure changes?
+
+**Why This Section Is Critical**: Schema evolution is the **100% competitor failure point** and Scoop's most defensible moat. Every competitor breaks when data changes; Scoop adapts automatically.
+
+#### The Universal Competitor Weakness
+
+| Data Change Scenario | {COMPETITOR} Response | Scoop Response | Business Impact |
+|---------------------|----------------------|----------------|-----------------|
+| **Column added to CRM** | {BREAKS_COMPLETELY / REQUIRES_IT_UPDATE} | Adapts instantly | Zero downtime |
+| **Data type changes** | {2-4_WEEKS_OF_WORK} | Automatic migration | No IT burden |
+| **Column renamed** | {SEMANTIC_MODEL_REBUILD} | Recognizes automatically | Continuous operation |
+| **New data source** | {WEEKS_TO_INTEGRATE} | Immediate availability | Same-day insights |
+| **Historical data** | {OFTEN_LOST / COMPLEX_MIGRATION} | Preserves complete history | No data loss |
+| **Maintenance burden** | {X_HOURS_PER_WEEK} | Zero maintenance | Frees IT resources |
+
+#### Real-World Example: CRM Column Addition
+
+**Scenario**: Sales team adds "Deal_Risk_Level" custom field to Salesforce
+
+**{COMPETITOR} Experience**:
+```
+Day 1: Field added in Salesforce
+Day 1: {COMPETITOR} doesn't see new field
+Day 2: IT team notified, tickets created
+Day 3-5: Update semantic model / YAML config
+Day 6-8: QA testing, validation
+Day 9-10: Deploy to production
+Day 11: New field finally available
+```
+**Timeline**: 10-14 days
+**Cost**: 16-20 IT hours ($3,200-$4,000 at $200/hr)
+**Business Impact**: Sales can't use new field for 2 weeks
+
+**Scoop Experience**:
+```
+Day 1: Field added in Salesforce
+Day 1: Scoop sees new field immediately
+Day 1: Users can query: "Show me high-risk deals"
+```
+**Timeline**: Instant
+**Cost**: $0
+**Business Impact**: Sales uses new field same day
+
+#### Schema Evolution Cost Analysis
+
+**Annual Cost of Maintenance (200-user org)**:
+
+| Item | {COMPETITOR} | Scoop | Savings |
+|------|-------------|-------|---------|
+| Data Engineer FTE for model maintenance | {1-2_FTE} ($180K-$360K) | 0 FTE | $180K-$360K |
+| Emergency schema fixes | {10-15/year} ($5K-$10K each) | 0 | $50K-$150K |
+| Delayed feature adoption | {2-4_weeks_per_change} | Instant | Opportunity cost |
+| **Total Annual Savings** | — | — | **$230K-$510K** |
+
+**Typical 3-Year TCO Impact**: $690K-$1.5M savings on maintenance alone
+
+#### Why Competitors Can't Fix This
+
+**Architectural Limitation**: {COMPETITOR} uses {SEMANTIC_LAYERS / YAML_CONFIGS / CUBES} that are:
+- **Pre-defined**: Must specify schema upfront
+- **Static**: Don't adapt to changes automatically
+- **Maintained manually**: Requires human intervention
+- **Fragile**: Break when data evolves
+
+**Scoop's Architectural Advantage**:
+- **Dynamic schema detection**: Discovers structure automatically
+- **Continuous adaptation**: Monitors for changes and adjusts
+- **Self-healing**: No manual intervention required
+- **Resilient**: Handles data evolution gracefully
+
+#### Business Impact Quantification
+
+**For IT/Data Teams**:
+- Eliminate 15-20 hours/week of model maintenance
+- Redirect 1-2 FTEs to strategic projects
+- Reduce "analytics is broken" support tickets by 60-80%
+
+**For Business Users**:
+- New data available immediately (not weeks later)
+- No "waiting for IT to update the model" delays
+- Analysis keeps working as business evolves
+
+**Strategic Advantage**:
+- Adapt to market changes faster (no analytics lag)
+- IT team becomes strategic, not reactive
+- Business moves at business speed, not IT speed
+
+---
+
+### 2.6 Accuracy & Reliability (500 words)
 
 **Core Question**: Can you trust the results for business decisions?
 
@@ -785,15 +1100,26 @@ Total Time: 5 seconds
 
 ### Department-by-Department Fit
 
-| Department | {COMPETITOR} Fit | Scoop Fit | Winner |
-|------------|-----------------|-----------|--------|
-| Sales | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| Marketing | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| Finance | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| Operations | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| HR | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| Customer Success | {RATING + WHY} | {RATING + WHY} | {WINNER} |
-| Executive | {RATING + WHY} | {RATING + WHY} | {WINNER} |
+**Selection Strategy**: Include 3-4 departments most relevant to {COMPETITOR}'s positioning or where Scoop has strongest differentiation. Don't force all 9.
+
+**Department Selection Guide**:
+- If {COMPETITOR} targets Finance → Include Finance, Operations, Executive
+- If {COMPETITOR} is sales-focused → Include Sales, RevOps, Customer Success
+- If {COMPETITOR} is general BI → Pick departments where spreadsheet engine or ML shine
+
+**Examples to Include** (pick 3-4):
+
+| Department | {COMPETITOR} Fit | Scoop Fit | Key Differentiator |
+|------------|-----------------|-----------|-------------------|
+| **Finance** | {RATING + WHY} | Excellent - Spreadsheet engine for complex FP&A calculations, variance analysis | Excel skills at scale |
+| **Sales** | {RATING + WHY} | Excellent - Personal Decks for pipeline tracking, ML deal scoring, CRM writeback | Self-service + ML |
+| **Marketing** | {RATING + WHY} | Excellent - ML_CLUSTER for customer segmentation, attribution analysis | Hidden segment discovery |
+| **Customer Success** | {RATING + WHY} | Excellent - Churn prediction with ML_RELATIONSHIP, proactive risk identification | Predictive + actionable |
+| **Operations** | {RATING + WHY} | Excellent - Process bottleneck analysis, multi-source data blending | Investigation engine |
+| **Executive** | {RATING + WHY} | Excellent - PowerPoint generation, multi-hypothesis investigations, confidence scoring | Board-ready insights |
+| **Data Teams** | {RATING + WHY} | Excellent - Schema evolution eliminates maintenance, enables strategic work | Time savings |
+
+*Note: Fill in 3-4 rows most relevant to competitive positioning, not all 7*
 
 ### Migration Considerations
 
