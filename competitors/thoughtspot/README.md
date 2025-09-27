@@ -1,7 +1,7 @@
 # ThoughtSpot - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Analyst Workbench (BUPAF Score: 23/50)  
+**Category**: IT Platform (BUA Score: 20/50)  
 **Fatal Flaw**: 33.3% accuracy - 2 out of 3 answers wrong  
 **Key Fact**: $140,000/year average cost (40x more than Scoop)  
 **Reality Check**: Search-driven BI that still needs IT setup  
