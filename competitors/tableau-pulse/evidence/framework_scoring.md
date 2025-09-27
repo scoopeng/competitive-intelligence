@@ -3,7 +3,7 @@
 **Competitor**: Tableau Pulse
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 36/100 (36%, Category C - Weak)
+**Total Score**: 37/100 (37%, Category C - Weak)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---

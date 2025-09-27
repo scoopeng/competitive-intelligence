@@ -2,7 +2,7 @@
 
 ## Quick Summary
 **Parent**: Salesforce  
-**Category**: Dashboard Tool (BUA Score: 36/100, 36%, Category C - Weak)  
+**Category**: Dashboard Tool (BUA Score: 37/100, 37%, Category C - Weak)  
 **Fatal Flaw**: Schema changes break everything  
 **Key Fact**: NOT using LLMs (their admission) - just embedding models  
 

@@ -1,6 +1,6 @@
 # Battle Card: DataGPT
 
-**BUA Score**: 30/100 (30%, Category C - Weak)  
+**BUA Score**: 22/100 (22%, Category D - Poor)  
 **Market Position**: Fast metrics, rigid schema  
 **Key Weakness**: No schema evolution after setup
 

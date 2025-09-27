@@ -3,7 +3,7 @@
 **Competitor**: Snowflake Cortex
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 34/100 (34%, Category C - Weak)
+**Total Score**: 26/100 (26%, Category C - Weak)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---

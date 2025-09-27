@@ -3,7 +3,7 @@
 **Competitor**: ThoughtSpot
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 56/100 (56%, Category B - Good)
+**Total Score**: 57/100 (57%, Category B - Good)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---

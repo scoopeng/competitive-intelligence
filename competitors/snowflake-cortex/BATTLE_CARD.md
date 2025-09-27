@@ -1,6 +1,6 @@
 # Battle Card: Snowflake Cortex
 
-**BUA Score**: 34/100 (34%, Category C - Weak)
+**BUA Score**: 26/100 (26%, Category C - Weak)
 **Market Position**: SQL generation tool marketed as business analytics
 **Key Weakness**: 35% business question success rate - cannot investigate WHY
 
