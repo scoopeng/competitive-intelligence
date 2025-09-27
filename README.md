@@ -1,6 +1,37 @@
 # Scoop Competitive Intelligence Repository
 
-## 🔥 Latest Updates (December 2025)
+## 🔥 Latest Updates (September 2025)
+
+### ✅ BUA Framework Enhanced to 59 Points (September 27, 2025)
+- **Framework Enhancement**: Added 3 components to create mid-tier differentiation
+  - Time to First Insight (0-3): Speed to value for new users
+  - Governed Self-Service (0-3): Exploration within guardrails
+  - Multi-Source Analysis (0-3): Data integration capability
+- **Total**: 50 points → 59 points (16 components across 5 dimensions)
+- **Impact**: Better differentiation among mid-tier competitors (ThoughtSpot, Qlik, Power BI, Tableau Pulse, etc.)
+- **Category Changes**:
+  - Domo: Category C → B (56%)
+  - ThoughtSpot: Category C → B (47%)
+  - 7 competitors: Category D → C (more realistic positioning)
+- **Documentation**: `BUA_FRAMEWORK_59_POINTS.md` - Complete framework specification
+
+### All 11 Competitors Re-Scored with Enhanced Framework
+Final scores (59-point system):
+- Domo: 33/59 (56%, Category B)
+- ThoughtSpot: 28/59 (47%, Category B)
+- Qlik: 23/59 (39%, Category C)
+- Zenlytic: 22/59 (37%, Category C)
+- Power BI: 21/59 (36%, Category C)
+- Sisense: 19/59 (32%, Category C)
+- Tableau Pulse: 18/59 (31%, Category C)
+- Snowflake Cortex: 17/59 (29%, Category C)
+- DataGPT: 15/59 (25%, Category C)
+- Tellius: 15/59 (25%, Category C)
+- DataChat: 14/59 (24%, Category D)
+
+---
+
+## 🔥 Previous Updates (December 2025)
 
 ### ✅ CHECKPOINT: Web Comparison Framework Complete & Validated
 - **Framework Status**: All templates complete, well-linked, proven effective
@@ -36,7 +67,7 @@
 ## 📊 Recent Competitor Research
 
 ### ThoughtSpot Deep Research COMPLETED (100%)
-- **BUA Score**: 23/50 (Category C - Analyst Workbench)
+- **BUA Score**: 28/59 (47%, Category B)
 - **Killer Finding**: "$500k/yr for 20 people" before it "crashed with all our data"
 - **Fatal Flaw**: Zero Excel formulas - can't even do VLOOKUP
 - **Healthcare Exclusion**: Legally cannot handle HIPAA data
@@ -44,7 +75,7 @@
 - **Reality**: 2-4 week setup, not "instant" as marketed
 
 ### Power BI Copilot Research & Web Comparison COMPLETED (100%)
-- **BUA Score**: 14/50 (Category D - Marketing Mirage)
+- **BUA Score**: 21/59 (36%, Category C)
 - **Killer Finding**: "No dedicated REST APIs exist" - complete developer dead-end
 - **Fatal Flaw**: US Congress banned it due to security concerns
 - **Reality Check**: Only 3% of IT leaders find value (Gartner)
@@ -52,18 +83,18 @@
 - **Web Comparison**: Complete 74K character document ready for deployment
 
 ### Domo Deep Research COMPLETED
-- **BUA Score**: 18/50 (Category C)
+- **BUA Score**: 33/59 (56%, Category B)
 - **Killer Finding**: "1% of company revenue" - actual customer quote
 - **Fatal Flaw**: Excel formulas explicitly disabled for security
 - **Performance**: 30-60 seconds just to open analyzer
 
 ### Zenlytic Research COMPLETED
-- **BUA Score**: 18/50 (Category C)
+- **BUA Score**: 33/59 (56%, Category B)
 - **Key Gap**: Zero Excel support vs Scoop's 150+ functions
 - **Pain Point**: YAML configuration for everything
 
 ### Sisense Deep Research COMPLETED (100%)
-- **BUA Score**: 12/50 (Category D - Marketing Mirage)
+- **BUA Score**: 15-19/59 (25-32%, Category C-D)
 - **Killer Finding**: 400% renewal price increases after 14-week lock-in
 - **Fatal Flaw**: ZERO Excel formulas, fake AI (ARIMA from 1970s)
 - **Performance**: 5-min timeouts, RAM crashes, weekly mobile reinstalls
@@ -71,7 +102,7 @@
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
 ### Tellius Research COMPLETED (100%) - UPDATED Sep 26, 2025
-- **BUA Score**: 12/50 (Category D - Marketing Mirage) ⬇️ DOWNGRADED
+- **BUA Score**: 15-19/59 (25-32%, Category C-D) ⬇️ DOWNGRADED
 - **Killer Finding**: Apache Spark crashes from memory/GC issues + 90% employee turnover
 - **Fatal Flaws**: ZERO Excel engine (forces abandonment), Only 31 customers globally
 - **Architecture**: "Spark notoriously difficult to tune" causes hangs and crashes
@@ -81,7 +112,7 @@
 - **Research**: 60+ searches across 4 phases with employee quotes and technical analysis
 
 ### Tableau Pulse Research COMPLETED (100%)
-- **BUA Score**: 21/50 (Category C - Enterprise Platform)
+- **BUA Score**: 18/59 (31%, Category C)
 - **Killer Finding**: Cloud-only, Server customers abandoned
 - **Fatal Flaw**: Official hallucination admission in docs
 - **Performance**: Schema changes break everything

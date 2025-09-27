@@ -15,7 +15,7 @@ The Business User Autonomy Framework measures analytics platforms across 5 dimen
 4. **Presentation** - Professional branded output (no designer)
 5. **Data** - All data operations (no data engineer)
 
-**Total Score**: 50 points (5 dimensions × 10 points each)
+**Total Score**: 59 points across 16 components (enhanced September 2025)
 
 ### Why This Framework?
 
