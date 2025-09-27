@@ -48,7 +48,7 @@
 
 | Competitor | Data Mgmt | Excel | PowerPoint | Collaboration | Automation |
 |------------|-----------|-------|------------|---------------|------------|
-| **Scoop** | ✅ Auto schema evolution | ✅ =SCOOP() formulas | ✅ 30-sec generation | ✅ Slack in 30 sec | ✅ Full auto |
+| **Scoop** | ✅ Auto schema evolution | ✅ Spreadsheet engine | ✅ 30-sec generation | ✅ Slack in 30 sec | ✅ Full auto |
 | DataGPT | ❌ Schema rigid | ❌ Export only | ❌ Manual (3-4 hrs) | ⚠️ API available | ⚠️ Limited |
 | Domo | ❌ IT required | ⚠️ Export only | ❌ Manual (3-4 hrs) | ⚠️ Portal prison | ⚠️ Basic |
 | ThoughtSpot | ❌ Models break | ❌ Export only | ❌ Manual (3-4 hrs) | ⚠️ Limited | ❌ None |
@@ -73,7 +73,7 @@
 
 | Competitor | Score | Excel Integration | PowerPoint | Slack | Brand Intelligence |
 |------------|-------|------------------|------------|-------|-------------------|
-| **Scoop** | 9/10 | =SCOOP() formulas | Live overlay | Native | AI brand detection |
+| **Scoop** | 9/10 | Spreadsheet engine | Live overlay | Native | AI brand detection |
 | Domo | 5/10 | Export only | Screenshots | Bot | None |
 | ThoughtSpot | 5/10 | Export only | Screenshots | None | None |
 | Tellius | 4/10 | Export only | None | None | None |
@@ -201,7 +201,7 @@
 - **Investigation Engine**: Multi-pass reasoning (3-10 queries)
 - **Schema Evolution**: Automatic handling vs universal failure
 - **Explainable ML**: J48 decision trees with business rules
-- **Native Integration**: =SCOOP() in Excel, native Slack
+- **Native Integration**: Spreadsheet engine with 150+ Excel functions, native Slack
 - **40-50x cost advantage**: $3,588 vs $100K-300K+
 
 ### Closest Competitors

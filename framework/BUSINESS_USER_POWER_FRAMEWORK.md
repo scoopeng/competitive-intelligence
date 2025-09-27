@@ -112,7 +112,7 @@ This framework shifts focus from features to empowerment, from capabilities to i
 - **Excel Integration (0-2)**:
   - 0: Export only (copy/paste workflow)
   - 1: Basic import/export with formatting loss
-  - 2: Native formulas (=SCOOP()), live refresh, auto-workbook generation
+  - 2: In-memory spreadsheet engine, live data transformation, Google Sheets plugin
   
 - **Presentation Generation (0-2)**:
   - 0: Manual copy/paste (3-4 hours per deck)
@@ -296,7 +296,7 @@ This framework shifts focus from features to empowerment, from capabilities to i
 - **Competitive Reality**: Others have zero ML or opaque prediction-only models
 
 #### 4. Native Integration (Not Just Export)
-- **Excel Formulas**: =SCOOP() works in cells with live refresh
+- **Spreadsheet Engine**: 150+ Excel functions for data prep and transformation
 - **Slack Analytics**: Full investigation in conversation (30 seconds setup)
 - **PowerPoint Generation**: Complete decks with narratives in 30 seconds
 - **Auto-Workbook Creation**: Multi-tab Excel with formulas included
@@ -370,7 +370,7 @@ Evaluate each competitor through a business user's actual day:
 - **Follow-up Capability**: Intelligent branching vs new queries?
 
 #### Excel Integration Reality
-- **Native Formulas**: =SCOOP() vs copy/paste?
+- **Spreadsheet Engine**: In-memory calculation engine vs copy/paste?
 - **Live Updates**: Refresh on demand vs manual re-export?
 - **Workbook Generation**: Complete with tabs vs DIY?
 - **Time Savings**: 5 minutes vs 45 minutes per report?

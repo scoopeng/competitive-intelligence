@@ -32,7 +32,7 @@ Before finalizing, verify every item is covered:
 
 #### Integration & Technical
 - [ ] **Slack-native platform** - Full analytics IN Slack, not notifications
-- [ ] **=SCOOP() Excel function** - Direct formula integration
+- [ ] **Spreadsheet calculation engine** - In-memory engine with 150+ Excel functions for data prep
 - [ ] **REST API** - Full programmatic access vs competitor's limitations
 - [ ] **100+ data sources** - List top 20 specifically
 - [ ] **Embeddable Analytics** - Other SaaS providers can embed Scoop's chat interface

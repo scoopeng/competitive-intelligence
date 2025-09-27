@@ -126,7 +126,7 @@ Must cover ALL items from checklist:
 - **Smart Scanner**: Messy data handling
 - **Schema Evolution**: Automatic vs manual
 - **PowerPoint Generation**: One-click board decks
-- **Integration Ecosystem**: APIs, Embeddable Analytics, =SCOOP()
+- **Integration Ecosystem**: APIs, Embeddable Analytics, Spreadsheet Engine, Google Sheets Plugin
 
 #### 2.3 ML That Explains Itself
 - Business-readable rules from J48

@@ -6,28 +6,34 @@
 
 ## Executive Summary
 
-Scoop is the world's first **Digital Data Analyst** with complete Excel engine, automatic ML discovery, and multi-pass investigation capabilities. While competitors offer chat-to-SQL interfaces, Scoop provides a complete analytical brain that speaks Excel natively and thinks like a human analyst.
+Scoop is the world's first **Digital Data Analyst** with a complete spreadsheet calculation engine, automatic ML discovery, and multi-pass investigation capabilities. While competitors offer chat-to-SQL interfaces, Scoop provides a complete analytical brain with an in-memory spreadsheet engine for data transformation and thinks like a human analyst.
 
 **Key Differentiators**:
-1. **Complete Excel Formula Engine** - 150+ functions executed in-memory
+1. **In-Memory Spreadsheet Engine** - 150+ Excel functions for data prep and runtime calculations (UNIQUE TO SCOOP)
 2. **Automatic ML Discovery** - PhD-level analysis without user knowing ML exists
 3. **Multi-Pass Investigation Engine** - 3-10 queries to find root causes
 4. **Visual Intelligence System** - AI-powered presentation generation
-5. **Native Workflow Integration** - Excel, PowerPoint, Slack in 30 seconds
+5. **Native Workflow Integration** - Spreadsheet engine, PowerPoint, Slack in 30 seconds
 
 ---
 
-## 1. Excel Formula Engine (UNIQUE TO SCOOP)
+## 1. Spreadsheet Calculation Engine (UNIQUE TO SCOOP)
 
 ### What We Have Built
-**Complete in-memory Excel processing engine** with 150+ functions. This isn't integration - we natively execute Excel formulas on live data.
+**Complete in-memory spreadsheet calculation engine** with 150+ Excel functions. This isn't integration—Scoop streams data through a spreadsheet to calculate transformed results, giving you access to the full range of spreadsheet functions for data preparation and analysis.
 
 ### The Technical Reality
-- **MemSheet Engine**: Full Excel-compatible formula execution
+- **In-Memory Spreadsheet Engine**: Full Excel-compatible formula execution
 - **ScoopExpression Grammar**: 150+ Excel functions implemented
-- **Business Logic Preservation**: Every VLOOKUP, SUMIFS, IF statement works
-- **Live Data Connection**: Formulas run on real-time data, not static exports
-- **Google Sheets Compatible**: Full Sheets function support
+- **Dual-Purpose Engine**: Used both for runtime query results AND data preparation
+- **Data Transformation Power**: Combine datasets, create formulas, calculate derived metrics—all using spreadsheet functions
+- **Google Sheets Plugin**: Pull and refresh Scoop data into Google Sheets with utility functions
+
+### How It Works
+1. **Runtime Calculations**: Query results are processed through the spreadsheet engine, applying formulas and transformations
+2. **Data Preparation**: Prepare and transform data using familiar spreadsheet formulas (VLOOKUP, SUMIFS, nested IFs, etc.)
+3. **Dataset Combination**: Use spreadsheet logic to merge, join, and relate multiple data sources
+4. **Google Sheets Integration**: Plugin provides utility functions to pull/refresh Scoop data into spreadsheets
 
 ### Function Categories Implemented
 
@@ -49,22 +55,19 @@ Scoop is the world's first **Digital Data Analyst** with complete Excel engine, 
 #### Dynamic Array Functions (Excel 365)
 `FILTER, UNIQUE, SORT, SEQUENCE, RANDARRAY`
 
-#### Scoop Special Functions
-- `=SCOOP("revenue last month")` - Query Scoop in Excel
-- `=SCOOPLOOKUP()` - Enhanced lookup with ML
-- `=SCOOPAPPLYMODEL()` - Apply ML models in spreadsheets
-
 ### Business Impact
-- **Zero Retraining**: Users keep decades of Excel knowledge
-- **Immediate Value**: Upload Excel file → formulas work immediately
-- **Live Analysis**: Formulas connect to live data sources
-- **No Migration**: Existing Excel work becomes live dashboards
+- **Zero Retraining**: Users leverage decades of Excel knowledge for data preparation
+- **Sophisticated Data Prep**: Combine datasets, create complex transformations—more powerful and flexible than SQL
+- **Accessible to Business Users**: Any Excel user can perform data engineering tasks without SQL knowledge
+- **Runtime Transformation**: Query results processed through spreadsheet engine with formulas
+- **Google Sheets Integration**: Plugin utility functions let you pull/refresh Scoop data into spreadsheets
 
 ### Competitive Reality
 **NO COMPETITOR HAS THIS.** Others offer:
-- Export to Excel (static)
-- "Excel-like" interfaces (not actual Excel)
-- Template downloads (no live connection)
+- Export to Excel (static snapshots)
+- "Excel-like" interfaces (not actual spreadsheet calculation)
+- SQL-based data prep (requires data engineers)
+- Template downloads (no live transformation engine)
 
 ---
 
@@ -216,11 +219,11 @@ Others offer:
 ### 30-Second Setup Philosophy  
 Scoop works in the tools people already use - Excel, PowerPoint, Slack - without IT involvement.
 
-### Excel Integration
-- **=SCOOP()** formulas in any cell
-- **Live refresh** on data updates
-- **Auto-workbook generation** with multiple tabs
-- **Preserve existing work** - add Scoop to current files
+### Spreadsheet Integration
+- **In-memory spreadsheet engine** for data transformation and runtime calculations
+- **Google Sheets plugin** with utility functions to pull/refresh Scoop data
+- **150+ Excel functions** available for data preparation and combining datasets
+- **Live data transformation** using familiar spreadsheet formulas
 
 ### PowerPoint Integration
 - **Complete deck generation** in 30 seconds
@@ -290,11 +293,12 @@ Others require:
 
 ## Sales Positioning by Capability
 
-### Lead with Excel (Universal Appeal)
-**"Upload your Excel file - your formulas work immediately"**
+### Lead with Spreadsheet Engine (Universal Appeal)
+**"We have a built-in spreadsheet engine—use Excel skills for sophisticated data prep"**
 - Instant credibility demonstration
-- Zero learning curve
-- Immediate business value proof
+- Zero learning curve (already know Excel formulas)
+- More powerful than SQL for data transformation
+- Business users can do data engineering work
 
 ### Follow with Investigation (Differentiation)
 **"Ask why - get multi-pass analysis automatically"**  

@@ -113,7 +113,7 @@ Not "trust us" but "verify yourself" - builds unshakeable credibility
 $299/month flat vs $10K+/month consumption - changes buying dynamics
 
 ### 4. **Workflow Integration**
-=SCOOP() in Excel vs portal prison - immediate value prop
+Spreadsheet engine for data prep vs portal prison - immediate value prop
 
 ## What Makes This Great
 

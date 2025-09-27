@@ -42,7 +42,7 @@ What IT bought you makes you more dependent, not less:
 
 ### Scoop's Liberation Promise
 **"Your AI Data Analyst in YOUR Tools"**
-- **Excel**: Your formulas work immediately with =SCOOP()
+- **Spreadsheet Engine**: In-memory calculation with 150+ Excel functions for data prep
 - **PowerPoint**: Presentations ready in 30 seconds
 - **Slack**: Full investigation in conversation
 - **No Training**: Zero learning curve, immediate productivity
@@ -58,7 +58,7 @@ What IT bought you makes you more dependent, not less:
 **Why Devastating**: They're trapped in SQL and Snowflake console
 **Specific Pain**: Users must learn their query interface, export to CSV, import to Excel, clean data, create charts, screenshot to PowerPoint
 **Time Comparison**: Their path = 3-4 hours. Our path = 30 seconds.
-**Proof Point**: "Let me show you =SCOOP() working in Excel right now"
+**Proof Point**: "Let me show you how our spreadsheet engine transforms data using Excel formulas you already know"
 
 #### Zenlytic
 **Primary Attack**: "They need YAML files. We need 30 seconds in Slack."
@@ -152,7 +152,7 @@ What IT bought you makes you more dependent, not less:
 ## Objection Handling
 
 ### "We already have Excel exports"
-**Response**: "Exports die on arrival. =SCOOP() formulas refresh live. Show me any BI tool that can do that."
+**Response**: "Exports die on arrival. Our spreadsheet engine processes live data with formulas you already know. Show me any BI tool that can do that."
 
 ### "Our users can learn a new portal"
 **Response**: "They can, but will they? 87% of BI projects fail due to adoption. We work where they already are."

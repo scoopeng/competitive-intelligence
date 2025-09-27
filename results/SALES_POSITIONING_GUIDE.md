@@ -37,7 +37,7 @@
 **Capability Gap**: PhD-level multivariate analysis explained in plain English
 
 ### 4. Native Integration (The Productivity Multiplier)
-**What It Is**: =SCOOP() formulas, 30-sec Slack, auto-PowerPoint  
+**What It Is**: Spreadsheet engine with 150+ Excel functions, 30-sec Slack, auto-PowerPoint  
 **Competitor Reality**: 3-4 hours manual work or 2-4 weeks custom dev  
 **Your Pitch**: "Board deck in 30 seconds vs 3 hours. Excel that refreshes itself."  
 **Proof**: Generate complete presentation live
@@ -337,7 +337,7 @@ User Adoption:
 ### Against Portal Platforms (Domo, Thoughtspot, Sisense)
 **Lead with**: Portal fatigue - another login to remember
 **Key phrase**: "Portal prison vs working where you already are"
-**Proof point**: Show =SCOOP() in Excel, full analysis in Slack
+**Proof point**: Show spreadsheet engine transforming data, full analysis in Slack
 **Time math**: Login → Navigate → Export → Excel → PowerPoint = 3 hours
 **Reality check**: "How many portals do your users actually check daily?"
 

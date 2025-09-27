@@ -312,7 +312,7 @@ Every competitive claim backed by:
 
 ### The Scoop Demo That Wins
 1. **Investigation**: "Why did revenue drop?" - show 3-10 query analysis
-2. **Excel Integration**: =SCOOP() formulas working live  
+2. **Spreadsheet Engine**: In-memory calculation engine with 150+ Excel functions  
 3. **30-Second Setup**: Slack integration in real-time
 4. **Cost Comparison**: $299/month vs their $50K-1.6M annually
 

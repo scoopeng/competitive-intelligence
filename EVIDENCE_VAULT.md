@@ -252,7 +252,7 @@ This document contains verifiable sources, documentation links, and evidence for
 **Source**: Tellius Documentation & Marketing
 **Quote**: "eliminate manual Excel work that traditionally involves tedious copy-pasting and VLOOKUP formulas"
 **Reality**: ZERO Excel formulas, no =TELLIUS() functions, forces complete platform migration
-**Compare**: Scoop has 150+ Excel functions with =SCOOP() formulas
+**Compare**: Scoop has in-memory spreadsheet engine with 150+ Excel functions for data transformation
 
 ### Natural Language Failed Adoption
 **Source**: Tellius Blog/Documentation

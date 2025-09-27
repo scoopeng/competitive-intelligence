@@ -17,15 +17,17 @@
 ## SECTION 1: SCOOP FACTUAL ACCURACY
 
 ### 1.1 Capabilities - What Scoop HAS ✅
-- [ ] **Excel Formula Engine**: 150+ functions (VLOOKUP, SUMIFS, INDEX/MATCH, COUNTIFS, etc.)
+- [ ] **In-Memory Spreadsheet Engine**: 150+ Excel functions for data prep and transformation (NOT a =SCOOP() function)
+- [ ] **Google Sheets Plugin**: Utility functions to pull/refresh Scoop data into spreadsheets
 - [ ] **Multi-Pass Investigation**: 3-10 queries, stateful conversation, builds on previous context
 - [ ] **Automatic ML Discovery**: J48 decision trees, JRip rules, EM clustering (NOT p-values, NOT statistical tests)
 - [ ] **Visual Intelligence**: Generates PowerPoint presentations automatically
 - [ ] **30-Second Setup**: No data modeling, no training, no complex configuration
-- [ ] **Works in Existing Tools**: Excel (via formulas), Slack (bot), PowerPoint (generation)
+- [ ] **Works in Existing Tools**: Spreadsheet engine, Slack (bot), PowerPoint (generation)
 - [ ] **Explainable ML**: Shows decision rules and logic, not black box
 
 ### 1.2 Capabilities - What Scoop DOES NOT HAVE ❌
+- [ ] **NO =SCOOP() Excel Function**: We have a spreadsheet ENGINE, not a spreadsheet function
 - [ ] **NO Public Developer API**: Scoop mobile API is internal use only - DO NOT claim SDK/API access
 - [ ] **NO HIPAA Certification**: Not certified, not compliant, not "HIPAA ready"
 - [ ] **NO FedRAMP Authorization**: Not authorized for government use
@@ -242,6 +244,9 @@
 
 **Issue**: P-values, statistical significance
 **Fix**: "ML confidence scores", "decision tree rules"
+
+**Issue**: "=SCOOP()" function or Excel formula
+**Fix**: "In-memory spreadsheet engine" or "Google Sheets plugin with utility functions"
 
 **Issue**: API/SDK code examples
 **Fix**: DELETE entirely - we don't have public API

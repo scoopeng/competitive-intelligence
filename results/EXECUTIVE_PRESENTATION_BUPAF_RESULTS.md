@@ -163,7 +163,7 @@ Platforms with fundamental failures:
 ### For Sales Leadership
 1. **Lead with investigation capability** - No one else has it
 2. **Demo schema evolution** - 100% competitor failure point
-3. **Show Excel =SCOOP() formulas** - Immediate "aha" moment
+3. **Show spreadsheet engine** - Data transformation with Excel formulas they already know
 4. **Calculate ROI** - 15-457x cost advantage
 
 ### For Product Leadership
