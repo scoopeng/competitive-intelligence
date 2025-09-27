@@ -1,7 +1,7 @@
 # DataGPT - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Marketing Mirage (BUPAF Score: 18/50)  
+**Category**: Dashboard Tool (BUA Score: 12/50)  
 **Fatal Flaw**: Rigid schema, single-source only  
 **Key Fact**: "Rare to adjust" schema after setup (their docs)  
 **Reality Check**: Fast metrics viewer, not investigation engine  
