@@ -1,6 +1,6 @@
 # Battle Card: Qlik
 
-**BUPAF Score**: 16/50 (Category C - Enterprise Platform)
+**BUA Score**: 16/50 (Category C - IT Platform)
 **Market Position**: Legacy BI struggling with AI transition (2.36% share)
 **Fatal Flaw**: Business users can't use it alone
 

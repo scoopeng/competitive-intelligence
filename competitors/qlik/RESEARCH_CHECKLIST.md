@@ -46,7 +46,7 @@
 - [X] Customer discovery completed (17 searches)
 - [X] Functionality analysis completed (15 searches)
 - [X] Technical analysis completed (24 searches)
-- [X] BUPAF scoring completed with evidence
+- [X] BUA scoring completed with evidence
 - [X] Battle card updated
 - [X] Sales materials created
 - [X] Research library fully documented
@@ -212,7 +212,7 @@ Execute these WebSearch queries:
 - [X] **Search 15**: "qlik setup time" implementation duration
 
 ### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
-For each capability found, document with BUPAF lens:
+For each capability found, document with BUA lens:
 ```markdown
 **Capability**: [Name of feature/function]
 **What It Does**: [Clear description of functionality]
@@ -317,7 +317,7 @@ For each capability found, document with BUPAF lens:
 
 ## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes) ✅ COMPLETE
 
-### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUA Scoring (8-10 minutes)
 
 **IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
@@ -356,7 +356,7 @@ Score each dimension with specific evidence:
 - [X] Documented export/sharing limitations
 - [X] **Score: 5/10** with specific examples
 
-**TOTAL BUPAF SCORE: 16/50**
+**TOTAL BUA SCORE: 16/50**
 **Category**: C (15-24) - Enterprise Platform
 
 ### 4B: Competitive Capability Matrix (5 minutes)
@@ -394,7 +394,7 @@ Create comparison table based on Phase 2 functionality findings:
 - [ ] Competitive positioning includes win/loss stories
 
 ### Phase 4 Success Criteria
-- [X] BUPAF scored with 15+ evidence points
+- [X] BUA scored with 15+ evidence points
 - [X] Battle card includes 5 customer stories
 - [X] Created industry-specific objection handlers
 - [X] Documented 3+ competitive loss scenarios
@@ -458,7 +458,7 @@ Key findings from Phase 3:
 **📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
 Key findings from Phase 4:
-- BUPAF Score: 16/50 (Category C - Enterprise Platform)
+- BUA Score: 16/50 (Category C - Enterprise Platform)
 - Fatal flaws: Can't use alone, hour-long loads, $200-495K year 1, typo-intolerant
 - Sales positioning: 30-sec vs months, no training vs 58% fail rate, $60K vs $200-495K
 

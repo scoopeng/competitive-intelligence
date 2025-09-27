@@ -1,7 +1,7 @@
 # Qlik (Insight Advisor) - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Marketing Mirage (BUPAF Score: 11/50)  
+**Category**: IT Platform (BUA Score: 16/50)  
 **Fatal Flaw**: Zero adoption - "couldn't find a single company using this"  
 **Key Fact**: Can't handle typos or natural language  
 **Reality Check**: Traditional BI trying to bolt on AI  
