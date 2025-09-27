@@ -1219,6 +1219,14 @@ A: {SCOOP_COMPLIANCE_STATUS}. {COMPETITOR_COMPLIANCE_STATUS}.
 **Q: How does Scoop handle {SPECIFIC_TECHNICAL_CONCERN}?**
 A: {TECHNICAL_ANSWER}. {COMPETITOR_APPROACH}.
 
+### Framework & Scoring
+
+**Q: What is the BUA Score and what does it measure?**
+A: BUA (Business User Autonomy) Score measures how independently non-technical business users can work across 5 dimensions: Autonomy (self-service without IT), Flow (working in existing tools), Understanding (deep insights without analysts), Presentation (professional output without designers), and Data (all data ops without engineers). It's positioned as Gartner's missing 5th analytics category—beyond traditional BI. Scoop scores {SCOOP_SCORE}/50, {COMPETITOR} scores {COMPETITOR_SCORE}/50.
+
+**Q: Why does {COMPETITOR} score {LOW_SCORE} when it's a market leader?**
+A: {COMPETITOR} optimizes for governance, IT control, and enterprise scalability (Gartner's Categories 1-4). BUA measures business user independence—a different architecture goal. Both are valid; the question is which your organization needs.
+
 ### Decision-Making
 
 **Q: When should we choose {COMPETITOR} over Scoop?**
