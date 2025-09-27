@@ -36,28 +36,28 @@
 
 **The Business User Autonomy Framework**
 
-Brief explanation of what business user empowerment means:
+Brief explanation of what business user empowerment means (Gartner's missing 5th category):
 
-| Dimension | What It Measures | Why It Matters |
-|-----------|------------------|----------------|
-| **Browse** | Can users explore data without pre-built reports? | "I want to see customer data for myself" |
-| **Understand** | Can users discover patterns/insights without statistics training? | "Why are churn rates rising?" |
-| **Predict** | Can users run ML predictions without data science skills? | "Which customers will churn next quarter?" |
-| **Act** | Can users operationalize insights (exports, alerts, integrations)? | "Send at-risk accounts to my CRM" |
-| **Fix** | Can users self-serve when data changes or reports break? | "New field added to Salesforce - can I analyze it?" |
+| Dimension | What It Measures | Dependency Removed |
+|-----------|------------------|-------------------|
+| **Autonomy** | Can users set up and ask questions without IT? | No IT gatekeeping |
+| **Flow** | Do users work in their existing tools (Excel/Slack) or learn new portals? | No portal prison |
+| **Understanding** | Can users discover WHY (not just WHAT) without analysts? | No analyst dependency |
+| **Presentation** | Do users get professional output without designers? | No design work |
+| **Data** | Can users handle schema changes without engineers? | No data engineering |
 
 **{COMPETITOR}'s BUA Score: [X/50]**
 
 | Dimension | Score | Why |
 |-----------|-------|-----|
-| Browse | [0-10] | [One sentence: what blocks users] |
-| Understand | [0-10] | [One sentence: investigation limitations] |
-| Predict | [0-10] | [One sentence: ML access/usability] |
-| Act | [0-10] | [One sentence: operationalization barriers] |
-| Fix | [0-10] | [One sentence: maintenance burden] |
+| Autonomy | [0-10] | [One sentence: IT dependency level] |
+| Flow | [0-10] | [One sentence: portal requirement, tool integration] |
+| Understanding | [0-10] | [One sentence: investigation depth, ML access] |
+| Presentation | [0-10] | [One sentence: output quality, automation] |
+| Data | [0-10] | [One sentence: schema evolution, maintenance burden] |
 | **TOTAL** | **[X/50]** | **Category [A/B/C/D]** |
 
-**Scoop's BUA Score: 42/50 (Category A - Business Empowerment)**
+**Scoop's BUA Score: 45/50 (Category A - Business Empowerment)**
 
 ---
 
@@ -162,18 +162,18 @@ Skills required: None (just asked the question)
 **4. Schema Evolution**
 - New field added to CRM? Available immediately
 - {COMPETITOR}: [X days/weeks] for IT to update semantic model
-- **BUA Impact**: Scores 10/10 on "Fix" dimension
+- **BUA Impact**: Scores 9/10 on "Data" dimension
 
 ### BUA Score Comparison
 
 | Dimension | {COMPETITOR} | Scoop | Why Scoop Wins |
 |-----------|--------------|-------|----------------|
-| Browse | [X/10] | 9/10 | Natural language > learning tool syntax |
-| Understand | [X/10] | 9/10 | Investigation engine finds WHY, not just WHAT |
-| Predict | [X/10] | 9/10 | Three-Layer AI = ML for business users |
-| Act | [X/10] | 8/10 | Chat/Slack native, export anywhere |
-| Fix | [X/10] | 7/10 | Schema evolution, but still improves over time |
-| **TOTAL** | **[X/50]** | **42/50** | **Category A vs [their category]** |
+| Autonomy | [X/10] | 9/10 | 30-second setup, no IT dependency |
+| Flow | [X/10] | 9/10 | Excel/Slack native, no portal learning curve |
+| Understanding | [X/10] | 9/10 | Investigation engine finds WHY, not just WHAT |
+| Presentation | [X/10] | 9/10 | Auto PowerPoint, professional output |
+| Data | [X/10] | 9/10 | Schema evolution, no engineering needed |
+| **TOTAL** | **[X/50]** | **45/50** | **Category A vs [their category]** |
 
 ---
 
@@ -305,23 +305,23 @@ Evaluate your current analytics:
 
 Pick 2-3 dimensions where competitor fails hardest:
 
-**Browse (Exploration)**:
-- Emphasize if: Competitor requires pre-built reports, rigid dashboards, IT to add fields
-- Example: Power BI Copilot (limited semantic model), Domo (portal prison)
+**Autonomy (IT Independence)**:
+- Emphasize if: Competitor requires IT for setup, semantic models, ongoing maintenance
+- Example: Power BI Copilot (F64 capacity, semantic models), Snowflake Cortex (3-6 month setup)
 
-**Understand (Investigation)**:
+**Flow (Tool Integration)**:
+- Emphasize if: Competitor is portal-only, no Excel/Slack integration, requires new tool learning
+- Example: Domo (portal prison), ThoughtSpot (separate login required), most BI tools
+
+**Understanding (Investigation Depth)**:
 - Emphasize if: Competitor does single queries (not multi-pass), no root cause analysis, limited "why?"
 - Example: Power BI Copilot (one question at a time), Tableau Pulse (pre-built insights only)
 
-**Predict (ML Access)**:
-- Emphasize if: Competitor has no ML, black-box ML, or requires data science skills
-- Example: Most competitors (no ML), ThoughtSpot (inaccurate ML)
+**Presentation (Output Quality)**:
+- Emphasize if: Competitor requires manual PowerPoint creation, no brand customization, screenshot hell
+- Example: Most competitors (manual export required), Power BI (3-4 hours to create deck)
 
-**Act (Operationalization)**:
-- Emphasize if: Competitor has limited exports, no CRM writeback, no alerting, not embeddable
-- Example: Power BI Copilot (not embeddable, limited APIs)
-
-**Fix (Maintenance)**:
+**Data (Schema Evolution)**:
 - Emphasize if: Competitor breaks on schema changes, requires IT for model updates
 - Example: ALL COMPETITORS fail here - schema evolution is universal differentiator
 
