@@ -3,7 +3,7 @@
 **Competitor**: Qlik (Qlik Sense with Insight Advisor)
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 16/50 (Category C - IT Platform)
+**Total Score**: 23/59 (39%, Category C - IT Platform)
 **Previous Score**: 16/50 (Old BUPAF Framework - no change)
 
 ---

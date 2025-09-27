@@ -3,8 +3,8 @@
 **Competitor**: ThoughtSpot
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 20/50 (Category C - IT Platform)
-**Previous Score**: 23/50 (Old BUPAF Framework - archived)
+**Total Score**: 28/59 (47%, Category B - Analyst Workbench)
+**Previous Score**: 20/50 (50-point framework) (Old BUPAF Framework - archived)
 
 ---
 

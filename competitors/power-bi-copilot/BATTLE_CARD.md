@@ -1,6 +1,6 @@
 # Battle Card: Power BI Copilot
 
-**BUPAF Score**: 14/50 (Category D - Marketing Mirage)
+**BUA Score**: 21/59 (36%, Category C)
 **Parent**: Microsoft
 **Key Weakness**: Only 3% of IT leaders find significant value (Gartner)
 **Last Updated**: September 25, 2025 (100% Complete with new 4-phase template)

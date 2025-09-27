@@ -3,7 +3,7 @@
 **Competitor**: Snowflake Cortex
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 13/50 (Category D - Dashboard Tool)
+**Total Score**: 17/59 (29%, Category C - IT Platform)
 **Previous Score**: 13/50 (Old BUPAF Framework - no change)
 
 ---

@@ -1,6 +1,6 @@
 # Battle Card: Tellius
 
-**BUA Score**: 11/50 (Category D - Dashboard Tool) ⬇️ DOWNGRADED  
+**BUA Score**: 15/59 (25%, Category C) ⬇️ DOWNGRADED  
 **Market Position**: Failed platform with 90% employee turnover  
 **Fatal Flaw**: Apache Spark crashes + NO Excel support + NL failed
 

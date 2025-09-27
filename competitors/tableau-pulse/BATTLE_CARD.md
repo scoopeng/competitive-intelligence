@@ -1,6 +1,6 @@
 # Battle Card: Tableau Pulse
 
-**BUA Score**: 11/50 (Category D - Dashboard Tool)
+**BUA Score**: 18/59 (31%, Category C)
 **Parent**: Salesforce
 **Key Weakness**: Zero Excel support + Cannot investigate "Why"
 **Last Updated**: September 25, 2025

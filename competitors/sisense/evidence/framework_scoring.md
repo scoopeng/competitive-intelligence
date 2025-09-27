@@ -3,7 +3,7 @@
 **Competitor**: Sisense
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 14/50 (Category D - Dashboard Tool)
+**Total Score**: 19/59 (32%, Category C - IT Platform)
 **Previous Score**: 12/50 (Old BUPAF Framework - minor increase)
 
 ---

@@ -1,7 +1,7 @@
 # Zenlytic - Competitive Intelligence
 
 ## Quick Summary
-**Category**: IT Platform (BUA Score: 15/50)  
+**Category**: IT Platform (BUA Score: 22/59, 37%)  
 **Fatal Flaw**: YAML configuration nightmare  
 **Key Fact**: Requires SQL/YAML/Git knowledge  
 **Reality Check**: Built for developers, not business users  

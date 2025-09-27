@@ -1,7 +1,7 @@
 # Tellius - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Dashboard Tool (BUA Score: 11/50) ⬇️ DOWNGRADED  
+**Category**: Dashboard Tool (BUA Score: 15/59, 25%) ⬇️ DOWNGRADED  
 **Fatal Flaws**: 
 - Apache Spark crashes (memory issues, GC overhead, "notoriously difficult")
 - 90% employee turnover ("lightyears behind competitors")
