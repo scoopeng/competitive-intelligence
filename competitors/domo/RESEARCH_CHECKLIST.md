@@ -46,7 +46,7 @@
 - [ ] Customer discovery completed (17 searches)
 - [ ] Functionality analysis completed (15 searches)
 - [ ] Technical analysis completed (24 searches)
-- [ ] BUPAF scoring completed with evidence
+- [ ] BUA scoring completed with evidence
 - [ ] Battle card updated
 - [ ] Sales materials created
 - [ ] Research library fully documented
@@ -61,7 +61,7 @@
 - **Phase 1**: September 25, 2025 - COMPLETED (8 searches, strong evidence)
 - **Phase 2**: September 25, 2025 - COMPLETED (7 searches, capability gaps documented)
 - **Phase 3**: September 25, 2025 - COMPLETED (5 searches, technical reality confirmed)
-- **Phase 4**: September 25, 2025 - COMPLETED (BUPAF updated to 18/50 with evidence)
+- **Phase 4**: September 25, 2025 - COMPLETED (BUA updated to 18/50 with evidence)
 
 ---
 
@@ -82,7 +82,7 @@
 ```
 Files Found:
 - [x] README.md exists - Good overview, portal prison concept established
-- [x] BATTLE_CARD.md exists - BUPAF 29/50, needs update with capability focus
+- [x] BATTLE_CARD.md exists - BUA 29/50, needs update with capability focus
 - [x] research/ folder exists with 5 files (minimal actual research)
 - [x] evidence/ folder exists with 2 files (minimal evidence)
 - [x] outputs/ folder exists with 0 files
@@ -214,7 +214,7 @@ Execute these WebSearch queries:
 - [ ] **Search 15**: "Domo setup time" implementation duration
 
 ### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
-For each capability found, document with BUPAF lens:
+For each capability found, document with BUA lens:
 ```markdown
 **Capability**: [Name of feature/function]
 **What It Does**: [Clear description of functionality]
@@ -319,7 +319,7 @@ For each capability found, document with BUPAF lens:
 
 ## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUA Scoring (8-10 minutes)
 
 **IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
@@ -358,7 +358,7 @@ Score each dimension with specific evidence:
 - [ ] Documented export/sharing limitations
 - [ ] **Score: ___/10** with specific examples
 
-**TOTAL BUPAF SCORE: ___/50**
+**TOTAL BUA SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
 ### 4B: Competitive Capability Matrix (5 minutes)
@@ -396,7 +396,7 @@ Create comparison table based on Phase 2 functionality findings:
 - [ ] Competitive positioning includes win/loss stories
 
 ### Phase 3 Success Criteria
-- [ ] BUPAF scored with 15+ evidence points
+- [ ] BUA scored with 15+ evidence points
 - [ ] Battle card includes 5 customer stories
 - [ ] Created industry-specific objection handlers
 - [ ] Documented 3+ competitive loss scenarios
@@ -461,7 +461,7 @@ Key findings from Phase 3:
 **📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
 Key findings from Phase 4:
-- **BUPAF Score**: 18/50 (Category C - Enterprise Platform)
+- **BUA Score**: 18/50 (Category C - Enterprise Platform)
 - **Fatal Flaws**: Excel formulas disabled, no investigation, portal prison
 - **Killer Evidence**: "1% of revenue", 1120% renewal, 30-60 second loads
 

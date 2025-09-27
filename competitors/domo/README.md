@@ -1,7 +1,7 @@
 # Domo - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Analyst Workbench (BUPAF Score: 29/50)  
+**Category**: IT Platform (BUA Score: 25/50)  
 **Fatal Flaw**: Portal Prison - everything trapped in Domo UI  
 **Key Fact**: $134,000+/year for 200 users (37x more than Scoop)  
 **Strength to Acknowledge**: AI Chat can query datasets directly  

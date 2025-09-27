@@ -1,6 +1,6 @@
 # Battle Card: Domo
 
-**BUPAF Score**: 18/50 (Category C - Enterprise Platform)
+**BUA Score**: 25/50 (Category C - IT Platform)
 **Market Position**: Portal-centric BI requiring IT support
 **Key Weaknesses**: Excel formulas disabled, no investigation, 1% of revenue cost
 
