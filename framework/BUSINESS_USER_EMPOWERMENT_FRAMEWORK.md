@@ -1,16 +1,111 @@
-# Business User Empowerment Framework (5 Dimensions)
+# Business User Autonomy Framework
 
 **Version**: 2.0
 **Date**: September 27, 2025
 **Status**: Active Framework
+**Subtitle**: Measuring Independent Analytics Capability for Non-Technical Business Users
 
 ---
 
-## Executive Summary
+## A New Category in Analytics
 
-The Business User Empowerment Framework measures how completely a business user can self-serve analytics **without dependencies on IT, data teams, analysts, or designers**.
+### Gartner's Four Primary Use Cases
 
-**Core Question**: Can a non-technical business user independently:
+Gartner's Critical Capabilities for Analytics and Business Intelligence Platforms evaluate vendors across four primary use cases:
+
+1. **Centralized BI Provisioning** - IT/BI team builds and maintains all reports, dashboards, and data models
+2. **Decentralized Analytics** - Business units/domain experts have self-service tools (but require data skills)
+3. **Governed Data Discovery** - Balance between end-user empowerment and centralized governance
+4. **OEM/Embedded BI** - Analytics embedded within other applications
+
+**These categories focus on different organizational models for delivering analytics through IT departments, data teams, or business analysts.**
+
+### The Missing Fifth Category: Business User Autonomy
+
+**What Gartner's categories assume:**
+- Users have data skills (SQL, DAX, data modeling) OR
+- IT sets up semantic models/data infrastructure OR
+- Business analysts act as intermediaries OR
+- Weeks/months of implementation time
+
+**What they don't measure:**
+- Can a **non-technical business user** (marketing manager, sales VP, finance director) operate **completely independently**?
+- Zero IT setup, zero analyst involvement, zero data engineering support
+- Natural language only, no SQL/DAX/Python
+- Minutes to productivity, not weeks
+
+**Business User Autonomy is a fundamentally different architecture** - not "better" or "worse" than traditional BI, but optimized for different users and different needs.
+
+### Architectural Comparison
+
+| Dimension | Traditional BI (Gartner's Categories) | Business User Autonomy (5th Category) |
+|-----------|---------------------------------------|--------------------------------------|
+| **Primary User** | Data analysts, business analysts, BI developers | Non-technical business users |
+| **Skills Required** | SQL, DAX, data modeling, or technical training | Natural language, Excel skills only |
+| **IT Involvement** | IT sets up infrastructure, semantic models, governance | Zero - user connects data and operates alone |
+| **Setup Time** | Weeks/months (implementation projects) | Minutes (30-second installation) |
+| **Semantic Models** | Required, IT-maintained, breaks on data changes | Not required, automatic schema evolution |
+| **Investigation Depth** | User asks question, analyst investigates why | User investigates themselves (multi-pass AI) |
+| **Output Creation** | User exports data, designer creates presentations | User creates board-ready presentations instantly |
+| **Governance Model** | Centralized control, IT-managed access | Self-service with optional governance |
+| **Target Org** | Enterprises with BI teams and data infrastructure | Organizations where business speed > centralized control |
+
+### This Framework's Purpose
+
+**This framework measures Business User Autonomy** - the fifth category that Gartner's existing use cases don't capture.
+
+Traditional BI platforms (Power BI, Tableau, Qlik, Looker) will score LOW on this framework **by design** - they optimize for governance, scalability, and enterprise IT control, not business user independence. That's a valid architectural choice with different trade-offs.
+
+Platforms designed for Business User Autonomy will score HIGH - they optimize for independence, speed, and self-sufficiency, with different governance and scalability trade-offs.
+
+**This is not about "better" or "worse" - it's about measuring a different category.**
+
+### What This Framework Does NOT Measure
+
+This framework intentionally does not evaluate capabilities that traditional BI platforms excel at:
+
+**Enterprise Governance & Control:**
+- Centralized data governance frameworks
+- Role-based access control at scale (1000+ users)
+- Audit trails and compliance reporting
+- IT oversight and approval workflows
+- Certified datasets and metrics definitions
+
+**Enterprise IT Features:**
+- Multi-tenant architecture at massive scale
+- Enterprise authentication (SAML, AD integration)
+- Data lineage and impact analysis
+- Master data management integration
+- IT service management integration
+
+**Traditional BI Strengths:**
+- Complex, governed semantic models
+- Pixel-perfect operational reporting
+- Scheduled report distribution at enterprise scale
+- Deep integration with on-premise data warehouses
+- Professional services for enterprise implementations
+
+**Why these aren't measured**: These capabilities require IT departments and centralized control - the opposite of business user autonomy. Organizations that prioritize these features should choose traditional BI platforms.
+
+**When Traditional BI Makes Sense:**
+- Enterprise with dedicated BI/data team
+- Governance and compliance are primary concerns
+- Standardized metrics definitions required
+- Centralized control valued over speed
+- IT wants oversight of all analytics
+
+**When Business User Autonomy Makes Sense:**
+- No BI team or BI team is overloaded
+- Business users need ad-hoc investigation
+- Speed to insight matters more than governance
+- Questions change faster than IT can respond
+- Business user independence valued over centralized control
+
+---
+
+## Framework Core Question
+
+Can a non-technical business user independently:
 1. Start using the tool themselves?
 2. Work in their existing tools?
 3. Get deep insights explained clearly?
@@ -548,8 +643,15 @@ Each dimension measures a specific dependency removal:
 - When new evidence emerges (Gartner reports, customer complaints)
 
 ### Version History
-- **Version 1.0**: Original BUPAF (Browse, Understand, Predict, Act, Fix) - January 2024
-- **Version 2.0**: New framework (Autonomy, Flow, Understanding, Presentation, Data) - September 27, 2025
+- **Version 1.0**: Original BUPAF (Browse, Understand, Predict, Act, Fix) - 2024
+  - Archived: `framework/archive/BUPAF_V1_ORIGINAL.md`
+- **Version 2.0 (January 2025)**: Five dimensions (Independence, Analytical Depth, Workflow Integration, Business Communication, Visual Intelligence)
+  - Archived: `framework/archive/BUSINESS_USER_POWER_FRAMEWORK_JAN2025.md`
+- **Version 2.0 (September 2025)**: Business User Autonomy Framework - Five dimensions (Autonomy, Flow, Understanding, Presentation, Data)
+  - Current active version
+  - Added Gartner 5th category positioning
+  - Detailed sub-component rubrics
+  - Clear "What We Don't Measure" section
 
 ---
 
