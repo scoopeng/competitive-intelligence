@@ -2,7 +2,7 @@
 
 **Created**: September 27, 2025
 **Target Completion**: October 15, 2025 (3 weeks)
-**Status**: Planning
+**Status**: Phase 1 Complete - Ready for Phase 2 (Re-scoring)
 
 ---
 
@@ -22,33 +22,44 @@
 
 ## Execution Plan (3 Phases)
 
-### Phase 1: Update Templates & Documentation (Week 1)
+### Phase 1: Update Templates & Documentation (Week 1) ✅ COMPLETE
+
 **Goal**: All templates and foundational docs reflect new framework
 
-#### Tasks
-1. **Update BUA_COMPARISON_TEMPLATE.md**
-   - Replace old framework explanation with new 5 dimensions
-   - Update Section 1 (BUA scoring table)
-   - Update Section 2 dimension selection guidance
-   - Add scoring rubrics for each dimension
-   - **Estimated time**: 2-3 hours
+#### Tasks ✅ All Complete
+1. ✅ **Update BUA_COMPARISON_TEMPLATE.md** - DONE (Sep 27)
+   - Replaced old framework (Browse/Understand/Predict/Act/Fix) with new 5 dimensions
+   - Updated scoring table to Autonomy/Flow/Understanding/Presentation/Data
+   - Updated dimension selection guidance
+   - Updated Scoop score from 42/50 to 45/50
+   - **Completed**: September 27, 2025
 
-2. **Update CLAUDE.md**
-   - Reference new framework location
-   - Update any BUA mentions
-   - **Estimated time**: 30 minutes
+2. ✅ **Update CLAUDE.md** - DONE (Sep 27)
+   - All BUPAF→BUA references updated
+   - Framework v2.0 referenced
+   - **Completed**: September 27, 2025
 
-3. **Update METHODOLOGY.md**
-   - Replace old BUA explanation with new framework
-   - Link to framework/BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
-   - **Estimated time**: 1 hour
+3. ✅ **Update METHODOLOGY.md** - DONE (Sep 27)
+   - All BUPAF→BUA references updated
+   - Links to framework/BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
+   - **Completed**: September 27, 2025
 
-4. **Update README.md**
-   - Update framework references
-   - Link to new framework document
-   - **Estimated time**: 30 minutes
+4. ✅ **Update README.md** - DONE (Sep 27)
+   - All BUPAF→BUA references updated
+   - Framework v2.0 linked
+   - **Completed**: September 27, 2025
 
-**Phase 1 Deliverable**: All templates ready to use with new framework
+5. ✅ **Update WEB_COMPARISON_TEMPLATE.md** - DONE (Sep 27)
+   - Added BUA framework FAQ section
+   - Explains 5 dimensions and Gartner positioning
+   - **Completed**: September 27, 2025
+
+6. ✅ **Validate Power BI web_comparison.md** - DONE (Sep 27)
+   - Updated BUPAF→BUA (3 instances)
+   - Added BUA framework FAQ
+   - **Completed**: September 27, 2025
+
+**Phase 1 Deliverable**: ✅ All templates ready to use with new framework
 
 ---
 
@@ -149,16 +160,16 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 
 ---
 
-### Phase 3: Generate BUA Comparison Pages (Week 3)
-**Goal**: New focused BUA comparison pages for top 4 competitors
+### Phase 3: Generate Web Comparison Pages (Week 3)
+**Goal**: Comprehensive web comparison pages for all competitors
 
 #### Tasks Per Competitor
-1. **Generate BUA comparison page** (2-3 hours)
-   - Use BUA_COMPARISON_TEMPLATE.md
-   - Target: 2,000-3,000 words
-   - Focus on 2-3 dimensions where competitor fails worst
-   - Emphasize chat/agentic analytics positioning
-   - **Output**: `competitors/[name]/outputs/bupaf_comparison.md`
+1. **Generate web comparison page** (3-4 hours)
+   - Use WEB_COMPARISON_TEMPLATE.md
+   - Target: 5,000-7,000 words
+   - Comprehensive SEO/AEO-optimized content
+   - Include BUA framework FAQ
+   - **Output**: `competitors/[name]/outputs/web_comparison.md`
 
 2. **Quality check** (30 minutes)
    - Verify all evidence sourced
@@ -166,10 +177,10 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
    - Ensure business user language (not technical)
 
 3. **Update competitor README** (15 minutes)
-   - Add link to new BUA comparison
+   - Add link to web comparison
    - Update "Files in This Folder" section
 
-**Phase 3 Deliverable**: 4 focused BUA comparison pages ready for outbound marketing
+**Phase 3 Deliverable**: Comprehensive web comparison pages for all 11 competitors
 
 ---
 
