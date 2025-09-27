@@ -38,16 +38,16 @@ All framework_scoring.md files now have correct math:
 |------|------------|-------|----------|-----------------|
 | 1 | Scoop | 82/100 | A Strong | Honest positioning |
 | 2 | Domo | 62/100 | B Good | 56% → 62% |
-| 3 | ThoughtSpot | 56/100 | B Good | 47% → 56% |
-| 4 | Qlik | 46/100 | C Moderate | 39% → 46% |
-| 5 | Zenlytic | 44/100 | C Moderate | 37% → 44% |
-| 6 | Sisense | 38/100 | C Moderate | 32% → 38% |
-| 7 | Tableau Pulse | 36/100 | C Weak | 31% → 36% |
-| 8 | Snowflake Cortex | 34/100 | C Weak | New scoring |
-| 9 | Power BI Copilot | 32/100 | C Weak | 36% → 32% |
-| 10 | DataGPT | 30/100 | C Weak | 25% → 30% |
-| 11 | Tellius | 30/100 | C Weak | 25% → 30% |
-| 12 | DataChat | 28/100 | D Poor | 24% → 28% |
+| 3 | ThoughtSpot | 57/100 | B Good | 56% → 57% (math fix) |
+| 4 | Qlik | 47/100 | C Moderate | 46% → 47% (math fix) |
+| 5 | Zenlytic | 42/100 | C Moderate | 44% → 42% (math fix) |
+| 6 | Tableau Pulse | 37/100 | C Weak | 36% → 37% (math fix) |
+| 7 | Power BI Copilot | 32/100 | D Weak | 36% → 32% |
+| 8 | Sisense | 28/100 | C Weak | 38% → 28% (math fix) |
+| 9 | Snowflake Cortex | 26/100 | C Weak | 34% → 26% (math fix) |
+| 10 | DataGPT | 22/100 | D Poor | 30% → 22% (math fix) |
+| 11 | Tellius | 22/100 | D Poor | 30% → 22% (math fix) |
+| 12 | DataChat | 17/100 | D Poor | 28% → 17% (math fix) |
 
 ---
 

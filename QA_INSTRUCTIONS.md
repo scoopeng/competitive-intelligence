@@ -31,20 +31,20 @@
 - ✅ **No old references**: No "/50", "/59", "BUPAF", "Marketing Mirage"
 - ✅ **Date**: September 27, 2025 or later
 
-**Expected Scores** (verify these exactly):
+**Expected Scores** (verify these exactly - updated after math fixes):
 ```
 Scoop: 82/100 (A Strong)
 Domo: 62/100 (B Good)
-ThoughtSpot: 56/100 (B Good)
-Qlik: 46/100 (C Moderate)
-Zenlytic: 44/100 (C Moderate)
-Sisense: 38/100 (C Moderate)
-Tableau Pulse: 36/100 (C Weak)
-Snowflake Cortex: 34/100 (C Weak)
-Power BI Copilot: 32/100 (C Weak)
-DataGPT: 30/100 (C Weak)
-Tellius: 30/100 (C Weak)
-DataChat: 28/100 (D Poor)
+ThoughtSpot: 57/100 (B Good)
+Qlik: 47/100 (C Moderate)
+Zenlytic: 42/100 (C Moderate)
+Tableau Pulse: 37/100 (C Weak)
+Power BI Copilot: 32/100 (D Weak)
+Sisense: 28/100 (C Weak)
+Snowflake Cortex: 26/100 (C Weak)
+DataGPT: 22/100 (D Poor)
+Tellius: 22/100 (D Poor)
+DataChat: 17/100 (D Poor)
 ```
 
 ### 2. Battle Cards (11 files)
