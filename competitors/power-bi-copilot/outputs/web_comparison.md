@@ -1,7 +1,7 @@
 # Scoop vs Power BI Copilot: Complete Comparison
 
 **Last Updated**: September 27, 2025
-**BUPAF Score**: Power BI Copilot 14/50 (Category D - Marketing Mirage)
+**BUA Score**: Power BI Copilot 14/50 (Category D - Marketing Mirage)
 **Research Completeness**: 100%
 
 ---
@@ -1015,6 +1015,12 @@ A: Scoop adapts automatically (schema evolution). Power BI Copilot: semantic mod
 **Q: Why did Congress ban Power BI Copilot?**
 A: Security concerns led to ban from US government use. Not available in sovereign clouds, blocked in 11+ regions.
 
+**Q: What is the BUA Score and what does it measure?**
+A: BUA (Business User Autonomy) Score measures how independently non-technical business users can work across 5 dimensions: Autonomy (self-service without IT), Flow (working in existing tools), Understanding (deep insights without analysts), Presentation (professional output without designers), and Data (all data ops without engineers). It's positioned as Gartner's missing 5th analytics category—beyond traditional BI. Scoop scores 42/50, Power BI Copilot scores 14/50.
+
+**Q: Why does Power BI Copilot score 14/50 when it's a market leader?**
+A: Power BI (core product) optimizes for governance, IT control, and enterprise scalability (Gartner's Categories 1-4). Power BI Copilot specifically scores low on BUA because it requires: F64 infrastructure ($67K/year), semantic models built by IT, DAX expertise, and only provides single queries (no investigation). BUA measures business user independence—a different architecture goal. Both are valid; the question is which your organization needs.
+
 **Q: When should we choose Power BI Copilot over Scoop?**
 A: If you're in the 3% who find value per Gartner—typically organizations with: existing Power BI infrastructure, dedicated Power BI developers, tolerance for nondeterministic results, and willingness to invest $408K-$633K Year 1. 97% don't find value.
 
@@ -1062,10 +1068,10 @@ Documentation: docs.getscoop.com
 - Phase 1: Customer Discovery (17 searches)
 - Phase 2: Functionality Analysis (capability mapping)
 - Phase 3: Technical Reality (24 searches)
-- Phase 4: Sales Enablement (BUPAF scoring)
+- Phase 4: Sales Enablement (BUA scoring)
 
 **Research Date**: September 27, 2025
-**BUPAF Score**: Power BI Copilot 14/50 (Category D - Marketing Mirage)
+**BUA Score**: Power BI Copilot 14/50 (Category D - Marketing Mirage)
 **Total Evidence Items**: 47 documented sources
 
 ---
