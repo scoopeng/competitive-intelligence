@@ -1,6 +1,6 @@
 # Battle Card: Zenlytic
 
-**BUPAF Score**: 18/50 (Category C - Enterprise Platform)
+**BUA Score**: 15/50 (Category C - IT Platform)
 **Market Position**: Chat interface for single-query Q&A
 **Scoop Wins**: Excel engine + Multi-pass investigation + Automatic ML
 

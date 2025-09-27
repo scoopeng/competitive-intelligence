@@ -39,7 +39,7 @@
 - [x] Customer discovery completed (17 searches)
 - [x] Functionality analysis completed (15 searches)
 - [x] Technical analysis completed (24 searches)
-- [x] BUPAF scoring completed with evidence
+- [x] BUA scoring completed with evidence
 - [x] Battle card updated
 - [x] Sales materials created
 - [x] Research library fully documented
@@ -205,7 +205,7 @@ Execute these WebSearch queries:
 - [ ] **Search 15**: "zenlytic setup time" implementation duration
 
 ### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
-For each capability found, document with BUPAF lens:
+For each capability found, document with BUA lens:
 ```markdown
 **Capability**: [Name of feature/function]
 **What It Does**: [Clear description of functionality]
@@ -310,7 +310,7 @@ For each capability found, document with BUPAF lens:
 
 ## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUA Scoring (8-10 minutes)
 
 **IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
@@ -349,7 +349,7 @@ Score each dimension with specific evidence:
 - [ ] Documented export/sharing limitations
 - [ ] **Score: ___/10** with specific examples
 
-**TOTAL BUPAF SCORE: ___/50**
+**TOTAL BUA SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
 ### 4B: Competitive Capability Matrix (5 minutes)
@@ -387,7 +387,7 @@ Create comparison table based on Phase 2 functionality findings:
 - [ ] Competitive positioning includes win/loss stories
 
 ### Phase 3 Success Criteria
-- [ ] BUPAF scored with 15+ evidence points
+- [ ] BUA scored with 15+ evidence points
 - [ ] Battle card includes 5 customer stories
 - [ ] Created industry-specific objection handlers
 - [ ] Documented 3+ competitive loss scenarios
@@ -451,7 +451,7 @@ Key findings from Phase 3:
 **📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
 Key findings from Phase 4:
-- BUPAF Score: 18/50 (Category C - Enterprise Platform)
+- BUA Score: 18/50 (Category C - Enterprise Platform)
 - Fatal flaws: ZERO Excel support, NO multi-pass, NO customer reviews
 - Sales positioning: Ghost town validation, forced workflow changes, IT dependency
 
