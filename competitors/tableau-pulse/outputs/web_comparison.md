@@ -109,7 +109,7 @@ questions:
 
 ---
 
-### Quick-Win Questions (AEO-Optimized)
+### Quick-Win Questions
 
 **Q: Can Tableau Pulse execute Excel formulas like VLOOKUP?**
 A: No. Tableau Pulse has zero Excel formula support and "doesn't support complex Excel formulas or pivot tables." Export requires third-party tools like Coupler.io. Scoop natively supports 150+ Excel functions including VLOOKUP, SUMIFS, INDEX/MATCH, and XLOOKUP within its spreadsheet calculation engine.

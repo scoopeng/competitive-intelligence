@@ -103,7 +103,7 @@ questions:
 
 ---
 
-### Quick-Win Questions (AEO-Optimized)
+### Quick-Win Questions
 
 **Q: Can Snowflake Cortex execute Excel formulas like VLOOKUP?**
 A: No. Snowflake Cortex has zero Excel integration. It generates SQL code, not spreadsheet formulas. To use results in Excel requires manual CSV export and import. Scoop natively supports 150+ Excel functions including VLOOKUP, SUMIFS, INDEX/MATCH, and XLOOKUP within its analytics engine.

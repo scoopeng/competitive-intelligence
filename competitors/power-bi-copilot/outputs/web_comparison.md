@@ -99,7 +99,7 @@ questions:
 
 ---
 
-### Quick-Win Questions (AEO-Optimized)
+### Quick-Win Questions
 
 **Q: Can Power BI Copilot execute Excel formulas like VLOOKUP?**
 A: No. Power BI Copilot has zero Excel formula support. You need a separate $30/user/month Copilot Pro subscription for Excel features (preview only). Scoop natively supports 150+ Excel functions including VLOOKUP, SUMIFS, INDEX/MATCH, and XLOOKUP.
