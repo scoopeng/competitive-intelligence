@@ -239,6 +239,13 @@ done
 
 ## Recent Major Updates
 
+### September 27, 2025 - Positioning Alignment Complete
+- ✅ Updated web comparison template with AI data analyst positioning
+- ✅ Added 7 positioning touchpoints (TL;DR, table, FAQ, section openers)
+- ✅ Power BI comparison updated as reference implementation
+- ✅ Template now aligns with homepage ("Chat with Your Data") and investor deck ("Digital Data Analyst")
+- ✅ All future comparisons automatically include positioning
+
 ### September 27, 2025 - Framework Redesign Complete
 - ✅ Rescaled from 59-point to 100-point system
 - ✅ All 12 competitors rescored (17-82 range)
@@ -249,13 +256,12 @@ done
 
 ### Git Commits (Most Recent)
 ```
+8529e5e  Finalize AI data analyst positioning in template and Power BI
+f6c6b43  Add AI data analyst positioning to template and Power BI comparison
+e79c1d9  Conservative consolidation: 19 → 13 files (32% reduction)
+3650721  Archive 17 historical framework/planning docs
+27c86fc  Update documentation for competitive strategy framework
 d0d54fb  Add comprehensive framework documentation
-c9b87df  Add COMPETITIVE_STRATEGY framework for positioning
-1e449e3  Add framework redesign completion summary
-4690635  Update documentation to reflect completion
-71bf0aa  Fix remaining 3 mathematical errors
-c1bbee6  Fix 9 mathematical errors
-e973c31  Complete 100-point BUA framework redesign
 ```
 
 ---

@@ -153,9 +153,22 @@ Machine generates: web_comparison.md (customized output)
 
 ---
 
-## Web Content Generation Framework (December 2025)
+## Web Content Generation Framework (September 2025)
+
+### AI Data Analyst Positioning (September 27, 2025)
+Template now includes "AI data analyst you chat with" positioning aligned with homepage and investor deck.
+
+**7 Positioning Touchpoints Added**:
+1. TL;DR: "What is Scoop?" positioning statement
+2. Comparison table: "User Experience" section (Primary Interface, Learning Curve)
+3. Bottom Line: Uses "AI data analyst you chat with" language
+4. FAQ: "What is Scoop?" as first question
+5. Section openers: "When you chat with Scoop..." bridges positioning to technical depth
+
+**Result**: Technical capabilities now explicitly SUPPORT positioning. Power BI Copilot updated as reference implementation.
 
 ### Critical Quality Standards
+- **AI Data Analyst First**: Lead with positioning before technical depth
 - **60/40 Rule**: 60% showcasing Scoop innovation, 40% competitor comparison
 - **Mandatory Capabilities Checklist**: 40 items that MUST be included
 - **All Departments Coverage**: 9 departments minimum
