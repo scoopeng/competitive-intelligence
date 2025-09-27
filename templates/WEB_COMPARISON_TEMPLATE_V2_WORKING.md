@@ -189,7 +189,7 @@ PRIMARY CAUSE IDENTIFIED: Contract renewals not followed up
 SECONDARY FACTOR: Support ticket response time
 - Churned accounts: Average 4.2 days to first response
 - Retained accounts: Average 1.1 days to first response
-- Correlation strength: 0.73 (p < 0.001)
+- Correlation strength: 0.73 (ML model confidence: 89%)
 
 RECOMMENDATION: Immediate 90-day lookback renewal campaign
 - Target: 23 remaining at-risk accounts
