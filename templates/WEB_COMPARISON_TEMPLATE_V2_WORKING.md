@@ -599,10 +599,9 @@ Same Test Case, Scoop Results:
 | Excel | {CAPABILITY_DESCRIPTION} | Native formula support | Work in existing spreadsheets |
 | Slack | {YES/NO + DETAILS} | Native bot + notifications | Chat-based analytics |
 | PowerPoint | {YES/NO + DETAILS} | Auto-generate presentations | One-click reporting |
-| REST API | {YES/NO + DETAILS} | {SCOOP_API_STATUS} | {IMPACT} |
+| Google Sheets | {CAPABILITY} | Plugin with utility functions | Pull/refresh Scoop data |
 | Email | {CAPABILITY} | Scheduled insights | Proactive delivery |
-| Mobile | {CAPABILITY} | {SCOOP_MOBILE_STATUS} | {IMPACT} |
-| BI Tools | {CAPABILITY} | {SCOOP_BI_INTEGRATION} | {IMPACT} |
+| Embeddable Analytics | {CAPABILITY} | SaaS providers can embed Scoop's chat | Extend your platform |
 
 #### Workflow Scenarios
 
