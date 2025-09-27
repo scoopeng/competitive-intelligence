@@ -33,6 +33,9 @@ questions:
 
 ### TL;DR Verdict
 
+**What is Scoop?**
+Scoop is an AI data analyst you chat with to get answers. Ask questions in natural language, and Scoop investigates your data like a human analyst—no dashboards to build, no query languages to learn.
+
 **Choose Scoop if you need:**
 - Investigation capabilities (multi-pass "why" analysis, not single queries)
 - Excel formula execution (150+ functions) without learning DAX
@@ -53,6 +56,9 @@ questions:
 
 | Dimension | Power BI Copilot | Scoop | Advantage |
 |-----------|-----------------|-------|-----------|
+| **User Experience** |
+| Primary Interface | Power BI Desktop / Teams app | Natural language chat (Slack, web) | Ask vs Build |
+| Learning Curve | DAX, semantic models, Power BI training | Conversational—like talking to analyst | Use existing communication skills |
 | **Setup & Implementation** |
 | Setup Time | 14+ weeks (data prep, semantic model, testing) | 30 seconds | 280x faster |
 | Prerequisites | F64 capacity ($67K/year), semantic model, data warehouse | None | Immediate start |
@@ -1001,6 +1007,9 @@ Over 3 years, Power BI Copilot's semantic model maintenance costs $675K-$1.4M in
 ---
 
 ## 6. FREQUENTLY ASKED QUESTIONS
+
+**Q: What is Scoop and how is it different from Power BI Copilot?**
+A: Scoop is an AI data analyst you interact with through chat, not a dashboard tool you have to learn. Ask questions in natural language—"Why did churn increase?"—and Scoop investigates your data like a human analyst would, running multiple queries, testing hypotheses, and delivering insights with confidence scores. Power BI Copilot requires you to build semantic models, learn DAX, and manage F64 infrastructure. Scoop requires you to ask questions.
 
 **Q: How long does Scoop implementation really take?**
 A: 30 seconds. Connect data source and ask first question. Power BI Copilot takes 14+ weeks with F64 provisioning, semantic model design, and DAX training.
