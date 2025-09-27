@@ -20,11 +20,13 @@
 - [ ] **In-Memory Spreadsheet Engine**: 150+ Excel functions for data prep and transformation (NOT a =SCOOP() function)
 - [ ] **Google Sheets Plugin**: Utility functions to pull/refresh Scoop data into spreadsheets
 - [ ] **Multi-Pass Investigation**: 3-10 queries, stateful conversation, builds on previous context
-- [ ] **Automatic ML Discovery**: J48 decision trees, JRip rules, EM clustering (NOT p-values, NOT statistical tests)
+- [ ] **AI Data Scientist Engine**: Three-layer system (auto data prep + real ML models + AI explanation)
+  - Layer 1: Automatic data prep (cleaning, binning, feature engineering)
+  - Layer 2: Real ML (J48 trees 800+ nodes, JRip rules, EM clustering)
+  - Layer 3: AI explains complex model output in business language
 - [ ] **Visual Intelligence**: Generates PowerPoint presentations automatically
 - [ ] **30-Second Setup**: No data modeling, no training, no complex configuration
 - [ ] **Works in Existing Tools**: Spreadsheet engine, Slack (bot), PowerPoint (generation)
-- [ ] **Explainable ML**: Shows decision rules and logic, not black box
 
 ### 1.2 Capabilities - What Scoop DOES NOT HAVE ❌
 - [ ] **NO =SCOOP() Excel Function**: We have a spreadsheet ENGINE, not a spreadsheet function
@@ -55,11 +57,14 @@
 - [ ] **Use Reduction Language**: "1/5 the FTE requirement", "reduces by 80%"
 - [ ] **Be Honest**: Some setup/maintenance exists, just far less than competitors
 
-### 1.6 Technical Accuracy - ML NOT STATISTICS
+### 1.6 Technical Accuracy - AI DATA SCIENTIST ENGINE
+- [ ] **Three-Layer Architecture**: Always describe all three layers (data prep + ML + AI explanation)
+- [ ] **Real ML Models**: J48 decision trees (can be 800+ nodes), JRip rules, EM clustering
+- [ ] **Automatic Data Prep**: Emphasize cleaning, binning, feature engineering happens automatically
+- [ ] **AI Explanation Layer**: Models produce complex output, AI explains in business language
+- [ ] **NOT Just Rules**: Don't oversimplify - we run sophisticated ML then explain it
 - [ ] **NO P-Values**: We don't provide statistical significance (p < 0.05)
 - [ ] **NO Statistical Tests**: We run ML models, not statistical hypothesis tests
-- [ ] **YES ML Confidence**: Decision trees show confidence via rule support
-- [ ] **YES Explainable ML**: J48 and JRip provide interpretable rules
 - [ ] **NO Tech Stack Details**: Don't mention internal languages (Python, etc.)
 
 ---
@@ -247,6 +252,9 @@
 
 **Issue**: "=SCOOP()" function or Excel formula
 **Fix**: "In-memory spreadsheet engine" or "Google Sheets plugin with utility functions"
+
+**Issue**: Oversimplified ML description ("shows rules", "explainable output")
+**Fix**: "Three-layer AI Data Scientist: auto data prep + real ML (J48/JRip/EM) + AI explains complex output"
 
 **Issue**: API/SDK code examples
 **Fix**: DELETE entirely - we don't have public API

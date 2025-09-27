@@ -10,9 +10,9 @@ Scoop is the world's first **Digital Data Analyst** with a complete spreadsheet 
 
 **Key Differentiators**:
 1. **In-Memory Spreadsheet Engine** - 150+ Excel functions for data prep and runtime calculations (UNIQUE TO SCOOP)
-2. **Automatic ML Discovery** - PhD-level analysis without user knowing ML exists
-3. **Multi-Pass Investigation Engine** - 3-10 queries to find root causes
-4. **Visual Intelligence System** - AI-powered presentation generation
+2. **AI Data Scientist Engine** - Three-layer system: auto data prep + real ML (J48, JRip, EM) + AI explanation (UNIQUE TO SCOOP)
+3. **Multi-Pass Investigation Engine** - 3-10 queries to find root causes with context retention
+4. **Visual Intelligence System** - AI-powered presentation generation with brand detection
 5. **Native Workflow Integration** - Spreadsheet engine, PowerPoint, Slack in 30 seconds
 
 ---
@@ -71,57 +71,85 @@ Scoop is the world's first **Digital Data Analyst** with a complete spreadsheet 
 
 ---
 
-## 2. Automatic ML Discovery Engine
+## 2. AI Data Scientist Engine
 
-### The Revolution We've Built
-**Users ask "Why?" and get PhD-level ML analysis without knowing ML exists.** Scoop runs actual machine learning models (J48, JRip, EM Clustering) automatically to discover patterns no human would find.
+### The Three-Layer Revolution
+**Users ask "Why?" and get PhD-level ML analysis explained in business language.** Scoop is a complete AI data scientist: automatically prepares data, runs real ML models (J48, JRip, EM Clustering), then explains the results like a consultant would.
+
+### The Three-Layer Architecture (Unique to Scoop)
+
+#### Layer 1: Automatic Data Preparation
+- **Data cleaning**: Handles missing values, outliers, inconsistencies
+- **Feature engineering**: Creates derived metrics, bins continuous variables
+- **Normalization**: Scales data appropriately for ML algorithms
+- **Feature selection**: Removes correlated variables automatically
+- **Result**: Production-quality data science prep with zero user input
+
+#### Layer 2: Explainable ML Model Execution
+- **J48 Decision Trees**: Multi-level trees (can be 12+ levels, 800+ nodes)
+- **JRip Rule Mining**: Association rules and pattern discovery
+- **EM Clustering**: Statistical segmentation with confidence scores
+- **Result**: Explainable models (not black boxes) but too verbose for business users
+
+#### Layer 3: AI Explanation Engine
+- **Analyzes model output**: Parses complex trees, rules, clusters
+- **Translates to business language**: Converts statistical output to actionable insights
+- **Provides recommendations**: Not just patterns, but what to do about them
+- **Result**: Business users get consultant-quality analysis without knowing ML ran
 
 ### What Happens Automatically
 
 #### Investigation Workflow
 1. **User asks**: "Why did sales drop?"
-2. **Scoop launches**: 3-10 automated probes
-3. **ML models run**: J48, JRip, EM clustering execute
-4. **Results delivered**: "IF tenure < 6 months AND tickets > 3 THEN churn = 87%"
+2. **Scoop prepares data**: Automatic cleaning, binning, feature engineering
+3. **ML models run**: J48 trees (847 nodes), JRip rules, EM clustering execute
+4. **AI explains results**: "High-risk customers have >3 support tickets + inactive 30+ days"
 
-**Time**: 10-60 seconds  
-**ML expertise required**: ZERO  
-**User awareness of ML**: NO  
+**Time**: 10-60 seconds
+**ML expertise required**: ZERO
+**User awareness of ML**: NO
+**Data science work done**: PhD-level  
 
 ### ML Models We Run Automatically
 
 #### ML_RELATIONSHIP (J48 Decision Trees)
-- **Purpose**: Find what drives outcomes
-- **Output**: Human-readable rules
-- **Example**: "IF customer_age > 45 AND purchase_history > $5000 THEN loyalty = HIGH (confidence: 92%)"
+- **Purpose**: Find what drives outcomes through explainable decision tree analysis
+- **What runs**: Multi-level J48 tree (can be 12+ levels deep, 800+ nodes)
+- **What user sees**: AI-explained business rules with confidence scores
+- **Example output**: "High-risk churn: >3 support tickets + inactive 30+ days + tenure <6 months (89% accuracy)"
 
-#### ML_CLUSTER (EM Clustering) 
-- **Purpose**: Discover natural segments
-- **Output**: Customer/product groups
-- **Example**: "Found 4 distinct buying patterns: Power Users (23%), Bargain Hunters (31%), Loyalists (28%), Experimenters (18%)"
+#### ML_CLUSTER (EM Clustering)
+- **Purpose**: Discover natural customer/product segments automatically
+- **What runs**: EM clustering with BIC/AIC optimization (statistical output with μ, σ scores)
+- **What user sees**: Named segments with business characteristics and strategy recommendations
+- **Example output**: "Power Users (18%, 42% of revenue): Daily usage, 3+ integrations, 95% retention. Strategy: Protect and upsell."
 
 #### ML_GROUP (Comparative Analysis)
-- **Purpose**: Compare populations statistically
-- **Output**: Significant differences with confidence
-- **Example**: "High-value customers: 67% mobile app usage vs 23% low-value (p<0.001)"
+- **Purpose**: Compare populations to find statistically significant differences
+- **What runs**: Multi-variate statistical comparison across populations
+- **What user sees**: Key differences explained with business impact
+- **Example output**: "High-value customers use mobile 67% vs 23% for low-value. Mobile adoption = 3x value indicator."
 
 #### ML_PERIOD (Temporal ML)
-- **Purpose**: Time-based pattern analysis
-- **Output**: Seasonal trends and causality
-- **Example**: "Sales spike precedes churn by 6 weeks in B2B segment (correlation: 0.78)"
+- **Purpose**: Identify time-based patterns and leading indicators
+- **What runs**: Temporal pattern analysis with correlation and causality detection
+- **What user sees**: Business-relevant timing patterns with actionable insights
+- **Example output**: "Sales spikes precede churn by 6 weeks in B2B. Set 6-week check-in triggers."
 
 ### Business Impact
-- **Discovery of Unknown Unknowns**: Find patterns humans miss
-- **Actionable Insights**: Get specific rules, not black boxes
-- **No Data Scientist Needed**: ML expertise built into questions
-- **Explainable Results**: Every model output interpretable
+- **True AI Data Scientist**: Automatic data prep + real ML + AI explanation = complete workflow
+- **PhD-Level Analysis**: J48 trees with 800+ nodes, EM clustering, JRip rules - real data science
+- **Business Language**: Complex model output translated to actionable insights
+- **No Data Scientist Needed**: Full data science workflow automated
+- **Discovery Power**: Find patterns humans miss, explained so humans understand
 
 ### Competitive Reality
-Others offer:
-- Statistics marketed as "AI" (ARIMA from 1970s)
-- Black box predictions (no explanations)
-- Manual ML (requires data scientists)
-- **None offer automatic explanatory ML from natural language**
+Others offer one of three inadequate approaches:
+1. **No ML**: Just SQL queries or basic statistics marketed as "AI"
+2. **Black Box ML**: Predictions without explanations (unusable for business decisions)
+3. **Raw Model Output**: Explainable models but dump technical output on users (requires PhD to interpret)
+
+**Scoop uniquely offers**: Real ML + Automatic data prep + AI explanation layer = Business users get data scientist-quality work
 
 ---
 
@@ -264,11 +292,14 @@ Others require:
 
 ### The Scoop Moats (Verified)
 
-1. **Excel Engine Moat** - 2-3 years to replicate, requires ground-up rebuild
-2. **ML Discovery Moat** - Automatic explanatory ML from natural language  
-3. **Investigation Moat** - Multi-pass reasoning with context retention
-4. **Integration Moat** - 30-second native tool integration
-5. **Visual Intelligence Moat** - AI-powered branded presentation generation
+1. **Spreadsheet Engine Moat** - 2-3 years to replicate, requires ground-up rebuild (150+ functions, runtime calc engine)
+2. **AI Data Scientist Moat** - Three-layer system competitors can't replicate:
+   - Automatic data prep infrastructure (cleaning, binning, feature engineering)
+   - Real ML models (J48, JRip, EM) with explainable output
+   - AI explanation layer that translates model output to business language
+3. **Investigation Moat** - Multi-pass reasoning with context retention (3-10 queries per investigation)
+4. **Integration Moat** - 30-second native tool integration (Spreadsheet, Slack, PowerPoint)
+5. **Visual Intelligence Moat** - AI-powered branded presentation generation with automatic brand detection
 
 ### Why Competitors Can't Catch Up
 
@@ -283,11 +314,14 @@ Others require:
 - **IT Relationship**: Sold to IT departments, not business users
 
 ### Time to Replicate Analysis
-- **Excel Engine**: 2-3 years minimum (150+ functions + grammar)
-- **ML Discovery**: 1-2 years (requires investigation architecture)  
-- **Multi-Pass Investigation**: 1-2 years (conversation engine rebuild)
-- **Visual Intelligence**: 6-12 months (brand detection + canvas system)
-- **Combined System**: 3-5 years + paradigm shift
+- **Spreadsheet Engine**: 2-3 years minimum (150+ functions + grammar + runtime calc)
+- **AI Data Scientist (Three Layers)**: 2-3 years minimum:
+  - Data prep automation: 6-12 months (cleaning, binning, feature engineering infrastructure)
+  - ML model integration: 6-12 months (J48, JRip, EM with proper execution)
+  - AI explanation layer: 12-18 months (interpret complex model output, translate to business language)
+- **Multi-Pass Investigation**: 1-2 years (conversation engine with context retention)
+- **Visual Intelligence**: 6-12 months (brand detection + canvas system + live data overlay)
+- **Combined System**: 4-6 years + complete paradigm shift
 
 ---
 
@@ -300,15 +334,18 @@ Others require:
 - More powerful than SQL for data transformation
 - Business users can do data engineering work
 
-### Follow with Investigation (Differentiation)
-**"Ask why - get multi-pass analysis automatically"**  
-- Shows depth beyond dashboards
-- Demonstrates AI intelligence
-- Proves investigative capabilities
+### Follow with AI Data Scientist (The Killer Differentiator)
+**"Get a PhD-level data scientist that explains insights in business language"**
+- We automatically clean/prep your data
+- We run real ML models (J48 decision trees, EM clustering, JRip rules)
+- We explain the complex output in language you understand
+- You get data scientist-quality analysis without hiring a data scientist
+
+**Demo approach**: Show a complex J48 tree snippet, then show how Scoop explains it
 
 ### Close with Integration (Adoption)
-**"Works in Excel, PowerPoint, Slack - 30 seconds to setup"**
-- Removes adoption barriers  
+**"Works in spreadsheets, PowerPoint, Slack - 30 seconds to setup"**
+- Removes adoption barriers
 - Shows workflow integration
 - Proves no IT dependencies
 
