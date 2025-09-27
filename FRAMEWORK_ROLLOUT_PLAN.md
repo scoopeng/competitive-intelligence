@@ -8,7 +8,7 @@
 
 ## What Changed
 
-### Old BUPAF → New Framework
+### Old BUA → New Framework
 - **Old**: Browse, Understand, Predict, Act, Fix (overlap, missing moats)
 - **New**: Autonomy, Flow, Understanding, Presentation, Data (distinct, covers all moats)
 
@@ -26,20 +26,20 @@
 **Goal**: All templates and foundational docs reflect new framework
 
 #### Tasks
-1. **Update BUPAF_COMPARISON_TEMPLATE.md**
+1. **Update BUA_COMPARISON_TEMPLATE.md**
    - Replace old framework explanation with new 5 dimensions
-   - Update Section 1 (BUPAF scoring table)
+   - Update Section 1 (BUA scoring table)
    - Update Section 2 dimension selection guidance
    - Add scoring rubrics for each dimension
    - **Estimated time**: 2-3 hours
 
 2. **Update CLAUDE.md**
    - Reference new framework location
-   - Update any BUPAF mentions
+   - Update any BUA mentions
    - **Estimated time**: 30 minutes
 
 3. **Update METHODOLOGY.md**
-   - Replace old BUPAF explanation with new framework
+   - Replace old BUA explanation with new framework
    - Link to framework/BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
    - **Estimated time**: 1 hour
 
@@ -69,7 +69,7 @@ For each competitor:
    - Document rationale in evidence folder
 
 2. **Update BATTLE_CARD.md** (30 minutes)
-   - Replace old BUPAF score with new score
+   - Replace old BUA score with new score
    - Update dimension breakdown table
    - Refresh key evidence
 
@@ -149,12 +149,12 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 
 ---
 
-### Phase 3: Generate BUPAF Comparison Pages (Week 3)
-**Goal**: New focused BUPAF comparison pages for top 4 competitors
+### Phase 3: Generate BUA Comparison Pages (Week 3)
+**Goal**: New focused BUA comparison pages for top 4 competitors
 
 #### Tasks Per Competitor
-1. **Generate BUPAF comparison page** (2-3 hours)
-   - Use BUPAF_COMPARISON_TEMPLATE.md
+1. **Generate BUA comparison page** (2-3 hours)
+   - Use BUA_COMPARISON_TEMPLATE.md
    - Target: 2,000-3,000 words
    - Focus on 2-3 dimensions where competitor fails worst
    - Emphasize chat/agentic analytics positioning
@@ -166,17 +166,17 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
    - Ensure business user language (not technical)
 
 3. **Update competitor README** (15 minutes)
-   - Add link to new BUPAF comparison
+   - Add link to new BUA comparison
    - Update "Files in This Folder" section
 
-**Phase 3 Deliverable**: 4 focused BUPAF comparison pages ready for outbound marketing
+**Phase 3 Deliverable**: 4 focused BUA comparison pages ready for outbound marketing
 
 ---
 
 ## Rollout Schedule
 
 ### Week 1 (Sep 28 - Oct 4): Templates & Documentation
-- **Mon-Tue**: Update BUPAF_COMPARISON_TEMPLATE.md
+- **Mon-Tue**: Update BUA_COMPARISON_TEMPLATE.md
 - **Wed**: Update CLAUDE.md, METHODOLOGY.md, README.md
 - **Thu-Fri**: Review and test template with example
 
@@ -188,10 +188,10 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 - **Fri**: Review all scores, ensure consistency
 
 ### Week 3 (Oct 12 - Oct 18): Generate Comparison Pages
-- **Mon**: Power BI Copilot BUPAF comparison
-- **Tue**: Tableau Pulse BUPAF comparison
-- **Wed**: ThoughtSpot BUPAF comparison
-- **Thu**: Domo BUPAF comparison
+- **Mon**: Power BI Copilot BUA comparison
+- **Tue**: Tableau Pulse BUA comparison
+- **Wed**: ThoughtSpot BUA comparison
+- **Thu**: Domo BUA comparison
 - **Fri**: Quality check all pages, final review
 
 ---
@@ -199,7 +199,7 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 ## Success Criteria
 
 ### Phase 1 Complete When:
-- [ ] BUPAF_COMPARISON_TEMPLATE.md fully updated with new framework
+- [ ] BUA_COMPARISON_TEMPLATE.md fully updated with new framework
 - [ ] All root documentation references new framework
 - [ ] Template tested with one example (Power BI)
 
@@ -209,7 +209,7 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 - [ ] Scoring methodology is consistent across competitors
 
 ### Phase 3 Complete When:
-- [ ] 4 focused BUPAF comparison pages generated (2-3K words each)
+- [ ] 4 focused BUA comparison pages generated (2-3K words each)
 - [ ] All pages pass quality check
 - [ ] Sales team has new outbound marketing content
 
@@ -217,7 +217,7 @@ Create `competitors/[name]/evidence/framework_scoring.md`:
 
 ## Remaining Competitors (Phase 4 - Future)
 
-After top 4, score and create BUPAF comparisons for:
+After top 4, score and create BUA comparisons for:
 5. **Snowflake Cortex** (heavy IT dependency angle)
 6. **Zenlytic** (semantic model maintenance)
 7. **Databricks AI/BI** (technical complexity)
@@ -239,15 +239,15 @@ After top 4, score and create BUPAF comparisons for:
 2. **Evidence gaps**: May discover we need more research on some dimensions
    - **Mitigation**: Note gaps, conduct targeted research as needed
 
-3. **Template iteration**: First BUPAF comparison may reveal template improvements
+3. **Template iteration**: First BUA comparison may reveal template improvements
    - **Mitigation**: Update template as we learn, regenerate if needed
 
 ### Open Questions
-1. Should we archive old BUPAF references or update in place?
+1. Should we archive old BUA references or update in place?
    - **Recommendation**: Update in place for active docs, archive old framework doc
 
 2. Do we need to update web_comparison.md files with new scores?
-   - **Recommendation**: No - web comparisons are comprehensive, BUPAF comparisons are focused. Keep separate.
+   - **Recommendation**: No - web comparisons are comprehensive, BUA comparisons are focused. Keep separate.
 
 3. Should we create a migration guide explaining old → new mapping?
    - **Recommendation**: Yes - add section to BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
@@ -267,7 +267,7 @@ After top 4, score and create BUPAF comparisons for:
 - **Review**: User (direction, approval, quality check)
 
 ### Tools
-- Templates: BUPAF_COMPARISON_TEMPLATE.md
+- Templates: BUA_COMPARISON_TEMPLATE.md
 - Framework: BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
 - Evidence: Existing research in competitors/*/evidence/
 
@@ -278,10 +278,10 @@ After top 4, score and create BUPAF comparisons for:
 ### Internal
 - **Week 1 end**: Share updated framework document with team
 - **Week 2 end**: Share new competitor scores
-- **Week 3 end**: Share BUPAF comparison pages for review
+- **Week 3 end**: Share BUA comparison pages for review
 
 ### External (Future)
-- BUPAF comparison pages can be used for:
+- BUA comparison pages can be used for:
   - LinkedIn posts (dimension-specific insights)
   - Email campaigns (targeted by competitor)
   - Sales conversations (framework-based positioning)
@@ -291,8 +291,8 @@ After top 4, score and create BUPAF comparisons for:
 
 ## Next Immediate Actions
 
-1. **Start Phase 1**: Update BUPAF_COMPARISON_TEMPLATE.md
-2. **Test template**: Generate Power BI Copilot BUPAF comparison as proof of concept
+1. **Start Phase 1**: Update BUA_COMPARISON_TEMPLATE.md
+2. **Test template**: Generate Power BI Copilot BUA comparison as proof of concept
 3. **Iterate**: Refine template based on first generation
 4. **Proceed**: Continue with remaining Phase 1 tasks
 

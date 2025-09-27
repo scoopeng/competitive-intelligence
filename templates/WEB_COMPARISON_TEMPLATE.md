@@ -75,7 +75,7 @@
 # Scoop vs {COMPETITOR}: Complete Comparison
 
 **Last Updated**: {DATE}
-**BUPAF Score**: {COMPETITOR_SCORE}/50 (Category {CATEGORY})
+**BUA Score**: {COMPETITOR_SCORE}/50 (Category {CATEGORY})
 **Research Completeness**: 100%
 
 ---
@@ -1279,7 +1279,7 @@ Join community: {SLACK_OR_DISCORD_LINK}
 - Sales Enablement: {LINK_TO_PHASE4}
 
 **Research Date**: {LAST_RESEARCH_DATE}
-**BUPAF Score**: {COMPETITOR_SCORE}/50 (Category {CATEGORY})
+**BUA Score**: {COMPETITOR_SCORE}/50 (Category {CATEGORY})
 **Total Evidence Items**: {COUNT}
 
 ---

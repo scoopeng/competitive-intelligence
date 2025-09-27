@@ -15,7 +15,7 @@
 - **Founded**: [Year]
 - **Funding**: [Total raised or public market cap]
 - **Website**: [URL]
-- **BUPAF Score**: [XX/50] - Category [A/B/C/D]
+- **BUA Score**: [XX/50] - Category [A/B/C/D]
 
 ### Strategic Summary
 **In One Sentence**: [Competitor] is a [category] that [primary function] but [fatal limitation].
@@ -291,7 +291,7 @@ Worth a 15-minute call to show you the difference?
 ## Checklist for Completion
 
 ### Required Elements
-- [ ] BUPAF score calculated
+- [ ] BUA score calculated
 - [ ] 3+ technical limitations with evidence
 - [ ] 3+ customer pain points with quotes
 - [ ] Complete pricing analysis with hidden costs

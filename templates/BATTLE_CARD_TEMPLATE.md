@@ -7,7 +7,7 @@
 
 # Battle Card: [Competitor Name]
 
-**BUPAF Score**: [XX/50] ([Category A/B/C/D] - [Category Name])
+**BUA Score**: [XX/50] ([Category A/B/C/D] - [Category Name])
 **Market Position**: [One-line description]
 **Key Weakness**: [Their fatal flaw]
 

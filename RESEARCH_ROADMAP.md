@@ -207,7 +207,7 @@
 - [ ] Track customer complaints
 
 ### Week 2: Analysis
-- [ ] Update BUPAF scores if needed
+- [ ] Update BUA scores if needed
 - [ ] Document new limitations found
 - [ ] Collect customer evidence
 - [ ] Verify existing claims
@@ -261,7 +261,7 @@
    - Verify all evidence URLs still work
    - Update any obviously stale data
 
-2. **Apply BUPAF Consistently**
+2. **Apply BUA Consistently**
    - Score each competitor on 5 dimensions
    - Document scoring rationale
    - Update comparison matrix with scores
@@ -285,7 +285,7 @@
 - Gather 5+ recent customer quotes
 - Verify current pricing with evidence
 - Test key claims if possible
-- Update BUPAF scoring with evidence
+- Update BUA scoring with evidence
 
 ### Phase 3: Long-term (This Quarter)
 1. 100% competitor coverage with all documents

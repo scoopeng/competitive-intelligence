@@ -1,7 +1,7 @@
 # Scoop Sales Positioning Guide
 
 **Purpose**: Arm sales team with evidence-based positioning against all competitors  
-**Framework**: BUPAF competitive intelligence  
+**Framework**: BUA competitive intelligence  
 **Key Message**: Only Scoop enables true business user independence
 
 ---

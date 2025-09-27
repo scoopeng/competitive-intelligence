@@ -2,7 +2,7 @@
 
 **Last Updated**: [Date]
 **Research Completeness**: [%]
-**BUPAF Score**: [XX/50]
+**BUA Score**: [XX/50]
 
 ---
 

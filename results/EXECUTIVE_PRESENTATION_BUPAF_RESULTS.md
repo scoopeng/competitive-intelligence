@@ -1,8 +1,8 @@
-# Executive Presentation: BUPAF Competitive Analysis Results
+# Executive Presentation: BUA Competitive Analysis Results
 
 **Date**: January 2025  
 **Analysis**: 11 Competitors Evaluated  
-**Framework**: AI Business User Empowerment Framework (BUPAF) v2.0  
+**Framework**: AI Business User Empowerment Framework (BUA) v2.0  
 **Key Finding**: Scoop is the only true business user empowerment platform
 
 ---
@@ -26,7 +26,7 @@ Scoop has **five validated moats** that competitors cannot replicate:
 
 ---
 
-## 2. BUPAF Scoring Results
+## 2. BUA Scoring Results
 
 ### Complete Rankings (50 points maximum)
 
@@ -229,4 +229,4 @@ Execute aggressively on:
 
 ---
 
-*This analysis represents 200+ hours of competitive research using the AI Business User Empowerment Framework (BUPAF) v2.0*
+*This analysis represents 200+ hours of competitive research using the AI Business User Empowerment Framework (BUA) v2.0*

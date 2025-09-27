@@ -26,7 +26,7 @@ Manual Research → Consolidated Template → 41+ Searches → Rich Research Out
    - Competitive positioning research and win/loss analysis
    - True TCO including hidden costs and professional services
 4. **Phase 3** - Analysis & Rich Sales Enablement (20-25 min)
-   - Evidence-based BUPAF scoring with customer quotes
+   - Evidence-based BUA scoring with customer quotes
    - Customer-story-driven battle cards and sales materials
    - Industry-specific objection handlers
 
@@ -51,7 +51,7 @@ Manual Research → Consolidated Template → 41+ Searches → Rich Research Out
 This is a **competitive intelligence documentation repository** for Scoop Analytics, focused on analyzing competitors in the business analytics/BI space through the lens of **business user empowerment**.
 
 ### Core Philosophy
-- **BUPAF Framework**: Business User Power Assessment - evaluates what users can actually do alone
+- **Business User Autonomy Framework**: Business User Power Assessment - evaluates what users can actually do alone
 - **Evidence-Based**: Every claim must have verifiable proof
 - **Quality First**: All research must pass RESEARCH_QA_CHECKLIST.md before publishing
 - **Preservation-Focused**: Never delete research, only archive if proven wrong
@@ -68,7 +68,7 @@ This is a **competitive intelligence documentation repository** for Scoop Analyt
 ├── SCOOP_CAPABILITIES.md      # Technical differentiators
 ├── EVIDENCE_VAULT.md          # All source URLs
 ├── RESEARCH_ROADMAP.md        # Priorities + incremental plan
-├── METHODOLOGY.md             # How we work + BUPAF integration
+├── METHODOLOGY.md             # How we work + BUA integration
 ├── QUICK_START.md            # 2-minute sales prep
 └── CLAUDE.md                 # THIS FILE - Project context
 ```
@@ -155,7 +155,7 @@ competitors/[name]/
 
 1. **Research is Gold**: Never delete, always preserve
 2. **Evidence Required**: No claims without proof
-3. **BUPAF Guides**: Focus on business user empowerment
+3. **BUA Guides**: Focus on business user empowerment
 4. **Credibility First**: Better to understate than exaggerate
 5. **Incremental Progress**: Small steps, checkpoint often
 6. **Build Up More Than Tear Down**: 60% Scoop innovation, 40% competitor gaps
@@ -167,7 +167,7 @@ competitors/[name]/
 ### Phase 1: Stabilize Foundation (This Week)
 - Fix inflated claims (✅ Snowflake $1.6M removed)
 - Archive planning docs (✅ Root cleaned)
-- Apply BUPAF scoring consistently
+- Apply BUA scoring consistently
 
 ### Phase 2: Deepen Priority Competitors (Next 2 Weeks)
 Priority order based on deal frequency:
@@ -230,7 +230,7 @@ find archive/ -name "*competitor-name*"
 - **Sales Teams**: Start with `QUICK_START.md` and battle cards in `competitors/*/BATTLE_CARD.md`
 - **Technical Analysis**: Deep dives in `competitors/*/research/` folders
 - **Evidence Verification**: All source URLs in `EVIDENCE_VAULT.md`
-- **Methodology**: BUPAF framework in `framework/` directory
+- **Methodology**: BUA framework in `framework/` directory
 - **Progress Tracking**: `COMPETITOR_COMPLETENESS_ANALYSIS.md`
 
 ## High-Level Architecture
@@ -254,7 +254,7 @@ find archive/ -name "*competitor-name*"
 │       ├── BATTLE_CARD.md         # Sales quick reference
 │       └── [analysis files]       # Deep technical analysis
 │
-├── framework/                      # BUPAF methodology
+├── framework/                      # BUA methodology
 ├── results/                        # Executive presentations
 ├── evidence/                       # Screenshots & proof
 └── archive/                        # Historical files
@@ -266,7 +266,7 @@ find archive/ -name "*competitor-name*"
 3. **ThoughtSpot**: Accuracy benchmarking evidence
 4. **Others**: Each with battle cards and specific limitation evidence
 
-### BUPAF Scoring Framework
+### BUA Scoring Framework
 - **Total Score**: 50 points (5 dimensions × 10 points each)
 - **Categories**: 
   - A (35-50): Business Empowerment

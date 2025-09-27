@@ -170,7 +170,7 @@ What would you like to do?"
 - **Specific battle cards**: `/battle-cards/[competitor].md`
 - **Technical details**: `SCOOP_PRODUCT_DIFFERENTIATORS.md`
 - **Sales strategies**: `SALES_POSITIONING_GUIDE.md`
-- **Executive deck**: `EXECUTIVE_PRESENTATION_BUPAF_RESULTS.md`
+- **Executive deck**: `EXECUTIVE_PRESENTATION_BUA_RESULTS.md`
 
 ---
 

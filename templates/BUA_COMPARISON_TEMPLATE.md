@@ -1,6 +1,6 @@
 # {COMPETITOR} vs Scoop: Business User Empowerment Analysis
 
-**BUPAF Score**: [X/50] (Category [A/B/C/D])
+**BUA Score**: [X/50] (Category [A/B/C/D])
 **Target Audience**: Business users frustrated with dashboard limitations
 **Content Type**: Outbound marketing, sales enablement
 **Length Target**: 2,000-3,000 words
@@ -34,7 +34,7 @@
 - But WHY did sales drop? Which segments? What patterns?
 - To find out, you need to: [describe {COMPETITOR}'s workflow - usually involves IT, data teams, waiting]
 
-**The BUPAF Framework**
+**The Business User Autonomy Framework**
 
 Brief explanation of what business user empowerment means:
 
@@ -46,7 +46,7 @@ Brief explanation of what business user empowerment means:
 | **Act** | Can users operationalize insights (exports, alerts, integrations)? | "Send at-risk accounts to my CRM" |
 | **Fix** | Can users self-serve when data changes or reports break? | "New field added to Salesforce - can I analyze it?" |
 
-**{COMPETITOR}'s BUPAF Score: [X/50]**
+**{COMPETITOR}'s BUA Score: [X/50]**
 
 | Dimension | Score | Why |
 |-----------|-------|-----|
@@ -57,13 +57,13 @@ Brief explanation of what business user empowerment means:
 | Fix | [0-10] | [One sentence: maintenance burden] |
 | **TOTAL** | **[X/50]** | **Category [A/B/C/D]** |
 
-**Scoop's BUPAF Score: 42/50 (Category A - Business Empowerment)**
+**Scoop's BUA Score: 42/50 (Category A - Business Empowerment)**
 
 ---
 
 ## Section 2: Where {COMPETITOR} Falls Down (800-1,000 words)
 
-**Structure**: Pick the 2-3 BUPAF dimensions where competitor fails hardest. Focus on the business user experience.
+**Structure**: Pick the 2-3 BUA dimensions where competitor fails hardest. Focus on the business user experience.
 
 ### 2.1 [Dimension Name] - Score: [X/10]
 
@@ -94,7 +94,7 @@ Skills required: [SQL/DAX/Python/etc.]
 - [Customer complaint from G2/Reddit]
 - [Pricing/licensing barrier]
 
-**BUPAF Impact**: [Why this scores low - connects back to framework]
+**BUA Impact**: [Why this scores low - connects back to framework]
 
 ### 2.2 [Dimension Name] - Score: [X/10]
 
@@ -162,9 +162,9 @@ Skills required: None (just asked the question)
 **4. Schema Evolution**
 - New field added to CRM? Available immediately
 - {COMPETITOR}: [X days/weeks] for IT to update semantic model
-- **BUPAF Impact**: Scores 10/10 on "Fix" dimension
+- **BUA Impact**: Scores 10/10 on "Fix" dimension
 
-### BUPAF Score Comparison
+### BUA Score Comparison
 
 | Dimension | {COMPETITOR} | Scoop | Why Scoop Wins |
 |-----------|--------------|-------|----------------|
@@ -282,7 +282,7 @@ Scoop works alongside {COMPETITOR}. Connect to same data sources. Use {COMPETITO
 - Collaborative investigation
 - No login required
 
-### Get Your BUPAF Score
+### Get Your BUA Score
 
 Evaluate your current analytics:
 1. Can business users answer "why?" questions themselves?
@@ -301,7 +301,7 @@ Evaluate your current analytics:
 
 ## Template Instructions
 
-### Selecting BUPAF Dimensions to Emphasize (Section 2)
+### Selecting BUA Dimensions to Emphasize (Section 2)
 
 Pick 2-3 dimensions where competitor fails hardest:
 

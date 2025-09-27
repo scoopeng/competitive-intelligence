@@ -36,7 +36,7 @@
 ## 📊 Recent Competitor Research
 
 ### ThoughtSpot Deep Research COMPLETED (100%)
-- **BUPAF Score**: 23/50 (Category C - Analyst Workbench)
+- **BUA Score**: 23/50 (Category C - Analyst Workbench)
 - **Killer Finding**: "$500k/yr for 20 people" before it "crashed with all our data"
 - **Fatal Flaw**: Zero Excel formulas - can't even do VLOOKUP
 - **Healthcare Exclusion**: Legally cannot handle HIPAA data
@@ -44,7 +44,7 @@
 - **Reality**: 2-4 week setup, not "instant" as marketed
 
 ### Power BI Copilot Research & Web Comparison COMPLETED (100%)
-- **BUPAF Score**: 14/50 (Category D - Marketing Mirage)
+- **BUA Score**: 14/50 (Category D - Marketing Mirage)
 - **Killer Finding**: "No dedicated REST APIs exist" - complete developer dead-end
 - **Fatal Flaw**: US Congress banned it due to security concerns
 - **Reality Check**: Only 3% of IT leaders find value (Gartner)
@@ -52,18 +52,18 @@
 - **Web Comparison**: Complete 74K character document ready for deployment
 
 ### Domo Deep Research COMPLETED
-- **BUPAF Score**: 18/50 (Category C)
+- **BUA Score**: 18/50 (Category C)
 - **Killer Finding**: "1% of company revenue" - actual customer quote
 - **Fatal Flaw**: Excel formulas explicitly disabled for security
 - **Performance**: 30-60 seconds just to open analyzer
 
 ### Zenlytic Research COMPLETED
-- **BUPAF Score**: 18/50 (Category C)
+- **BUA Score**: 18/50 (Category C)
 - **Key Gap**: Zero Excel support vs Scoop's 150+ functions
 - **Pain Point**: YAML configuration for everything
 
 ### Sisense Deep Research COMPLETED (100%)
-- **BUPAF Score**: 12/50 (Category D - Marketing Mirage)
+- **BUA Score**: 12/50 (Category D - Marketing Mirage)
 - **Killer Finding**: 400% renewal price increases after 14-week lock-in
 - **Fatal Flaw**: ZERO Excel formulas, fake AI (ARIMA from 1970s)
 - **Performance**: 5-min timeouts, RAM crashes, weekly mobile reinstalls
@@ -71,7 +71,7 @@
 - **Market Reality**: 0.01% market share, 13% layoffs in 2024
 
 ### Tellius Research COMPLETED (100%) - UPDATED Sep 26, 2025
-- **BUPAF Score**: 12/50 (Category D - Marketing Mirage) ⬇️ DOWNGRADED
+- **BUA Score**: 12/50 (Category D - Marketing Mirage) ⬇️ DOWNGRADED
 - **Killer Finding**: Apache Spark crashes from memory/GC issues + 90% employee turnover
 - **Fatal Flaws**: ZERO Excel engine (forces abandonment), Only 31 customers globally
 - **Architecture**: "Spark notoriously difficult to tune" causes hangs and crashes
@@ -81,7 +81,7 @@
 - **Research**: 60+ searches across 4 phases with employee quotes and technical analysis
 
 ### Tableau Pulse Research COMPLETED (100%)
-- **BUPAF Score**: 21/50 (Category C - Enterprise Platform)
+- **BUA Score**: 21/50 (Category C - Enterprise Platform)
 - **Killer Finding**: Cloud-only, Server customers abandoned
 - **Fatal Flaw**: Official hallucination admission in docs
 - **Performance**: Schema changes break everything
@@ -109,10 +109,10 @@
 ## Repository Overview
 
 **Purpose**: Evidence-based competitive intelligence for business user empowerment
-**Framework**: BUPAF (Business User Power Assessment Framework)
+**Framework**: BUA (Business User Power Assessment Framework)
 **Scope**: 11 competitors across analytics/BI market
 **Completion**: 10 competitors at 100% (Snowflake, Power BI, Domo, ThoughtSpot, Zenlytic, Sisense, Tableau Pulse, DataGPT, Tellius, Qlik)
-**Next Priority**: DataChat (BUPAF 6/50 - needs verification)
+**Next Priority**: DataChat (BUA 6/50 - needs verification)
 **Files**: 80+ research files, battle cards, and evidence documents
 **Latest**: Tellius completed with 4-phase deep research (60+ searches)
 
@@ -140,12 +140,12 @@ Output location: `competitors/{name}/outputs/web_comparison.md`
 
 ### ✅ Phase 1: Research & Analysis (COMPLETE)
 - Deep technical analysis of 11 competitors
-- BUPAF framework development and scoring
+- BUA framework development and scoring
 - Evidence collection with 60+ verified sources
 - Snowflake Cortex comprehensive testing
 
 ### DataGPT Deep Research COMPLETED (100%)
-- **BUPAF Score**: 13/50 (Category D - Marketing Mirage)
+- **BUA Score**: 13/50 (Category D - Marketing Mirage)
 - **Killer Finding**: "Rare to adjust" schema after setup - fatal rigidity
 - **Fatal Flaw**: Single source only - can't join data
 - **No Excel**: Zero formulas vs Scoop's 150+ functions
@@ -166,7 +166,7 @@ Output location: `competitors/{name}/outputs/web_comparison.md`
 
 ### ♾️ Phase 4: Continuous Improvement (ONGOING)
 - Monthly competitor monitoring
-- Quarterly BUPAF rescoring
+- Quarterly BUA rescoring
 - Customer evidence collection
 - Pricing and feature updates
 
@@ -221,7 +221,7 @@ Every competitive claim backed by:
 │   ├── sisense/               # 1 file - 400% renewal increases
 │   └── qlik/                  # 1 file - Zero adoption
 │
-├── framework/                  # BUPAF methodology
+├── framework/                  # BUA methodology
 ├── results/                    # Presentation materials  
 ├── evidence/                   # Screenshots & proof
 └── archive/                    # Historical process files
@@ -267,7 +267,7 @@ Every competitive claim backed by:
 - **Scoop**: 30 seconds to first insight
 - **All Competitors**: 3 weeks to 4 months implementation
 
-## 📊 BUPAF Scoring Summary
+## 📊 BUA Scoring Summary
 
 | Rank | Competitor | Score | Category | Fatal Gap |
 |------|------------|-------|----------|-----------|
@@ -323,7 +323,7 @@ Every competitive claim backed by:
 - **Core documents**: 8 essential files (overview, capabilities, evidence)  
 - **Deep analysis**: 9 major technical deep-dives (500+ lines each)
 - **Process separation**: Only workflows archived, all content active
-- **Current framework**: Structure matches active BUPAF categories
+- **Current framework**: Structure matches active BUA categories
 
 ### Repository Benefits
 - **Complete research access** - all competitive intelligence queryable

@@ -598,7 +598,7 @@ Each dimension measures a specific dependency removal:
 
 **All 5 moats are represented** in the framework.
 
-### Comparison to Old BUPAF
+### Comparison to Old BUA
 
 **Old Framework** (Browse, Understand, Predict, Act, Fix):
 - ❌ Missing workflow integration entirely
@@ -619,7 +619,7 @@ Each dimension measures a specific dependency removal:
 
 ## Usage in Competitive Content
 
-### In BUPAF Comparison Pages
+### In BUA Comparison Pages
 1. Lead with framework explanation (Section 1)
 2. Show competitor's score breakdown (table)
 3. Deep dive on 2-3 dimensions where competitor fails worst (Section 2)
@@ -643,8 +643,8 @@ Each dimension measures a specific dependency removal:
 - When new evidence emerges (Gartner reports, customer complaints)
 
 ### Version History
-- **Version 1.0**: Original BUPAF (Browse, Understand, Predict, Act, Fix) - 2024
-  - Archived: `framework/archive/BUPAF_V1_ORIGINAL.md`
+- **Version 1.0**: Original BUA (Browse, Understand, Predict, Act, Fix) - 2024
+  - Archived: `framework/archive/BUA_V1_ORIGINAL.md`
 - **Version 2.0 (January 2025)**: Five dimensions (Independence, Analytical Depth, Workflow Integration, Business Communication, Visual Intelligence)
   - Archived: `framework/archive/BUSINESS_USER_POWER_FRAMEWORK_JAN2025.md`
 - **Version 2.0 (September 2025)**: Business User Autonomy Framework - Five dimensions (Autonomy, Flow, Understanding, Presentation, Data)
@@ -657,10 +657,10 @@ Each dimension measures a specific dependency removal:
 
 ## Next Steps for Implementation
 
-1. **Update BUPAF_COMPARISON_TEMPLATE.md** with new framework
+1. **Update BUA_COMPARISON_TEMPLATE.md** with new framework
 2. **Re-score all competitors** using new rubrics
 3. **Update existing battle cards** with new scores
-4. **Generate new BUPAF comparison pages** for priority competitors:
+4. **Generate new BUA comparison pages** for priority competitors:
    - Power BI Copilot
    - Tableau Pulse
    - ThoughtSpot

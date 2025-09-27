@@ -52,7 +52,7 @@ Both Power BI Copilot and Tableau Pulse have ZERO Excel formula support and cann
 ### Power BI Copilot Deep Research
 - Completed Phase 1 & 2 research (41 searches)
 - Key finding: Only 3% of IT leaders find significant value (Gartner)
-- BUPAF Score: 14/50 (Category D - Marketing Mirage)
+- BUA Score: 14/50 (Category D - Marketing Mirage)
 
 ### Enhanced Research Framework
 - Implemented scalable research library organization
@@ -60,6 +60,6 @@ Both Power BI Copilot and Tableau Pulse have ZERO Excel formula support and cann
 - Comprehensive search tracking system
 
 ## Previous Updates
-- Repository restructured with BUPAF framework
+- Repository restructured with BUA framework
 - 11 competitors analyzed with evidence-based scoring
 - Battle cards created for all major competitors

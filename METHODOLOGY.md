@@ -3,15 +3,15 @@
 **Current Process**: 3-Chunk Deep Research (90-120 minutes per competitor)
 **Focus**: Customer-story-driven intelligence with quantified evidence
 **Goal**: Enterprise-grade sales enablement materials
-**Framework**: BUPAF (Business User Power Assessment Framework) guides all analysis
+**Framework**: BUA (Business User Power Assessment Framework) guides all analysis
 
 ---
 
-## How BUPAF Guides the System
+## How BUA Guides the System
 
 ### The System Architecture
 ```
-BUPAF Framework (The Lens)
+Business User Autonomy Framework (The Lens)
     ↓ guides
 Competitor Research (The Content)
     ↓ synthesizes into
@@ -20,7 +20,7 @@ Standard Outputs (The Products)
 Customer-Facing Materials (The Value)
 ```
 
-### BUPAF is the Lens, Not the Constraint
+### BUA is the Lens, Not the Constraint
 The framework ensures we research what matters for business users:
 - **Independence**: Can they work alone?
 - **Analytical Depth**: Can they investigate, not just query?
@@ -102,13 +102,13 @@ But it doesn't limit what you research or how you document it.
 │
 ├── synthesis/                        # Cross-competitor aggregation
 │   ├── MASTER_COMPARISON.md        # Generated from all
-│   ├── BUPAF_SCORES.md             # Pulled from all
+│   ├── BUA_SCORES.md             # Pulled from all
 │   ├── PRICING_MATRIX.md           # Aggregated pricing
 │   └── web-api/                    # For webflow
 │       └── all-competitors.json
 │
 ├── framework/                        # Methodologies & guides
-│   ├── BUPAF.md
+│   ├── BUA.md
 │   ├── RESEARCH_GUIDE.md
 │   └── SYNTHESIS_GUIDE.md
 │
@@ -216,7 +216,7 @@ Aggregate into `synthesis/`:
 **Outputs**: `research/performance_analysis.md`, `research/competitive_positioning.md`, `research/economic_impact.md`
 
 ### CHUNK 3: Analysis & Rich Sales Enablement (20-25 minutes)
-**Phase 3A**: Evidence-based BUPAF scoring with customer quotes (8-10 min)
+**Phase 3A**: Evidence-based BUA scoring with customer quotes (8-10 min)
 **Phase 3B**: Rich sales materials creation with customer stories (8-10 min)
 **Phase 3C**: Quality assurance and evidence verification (4-5 min)
 

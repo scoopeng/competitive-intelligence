@@ -1,9 +1,9 @@
-# BUPAF Quick Comparison Matrix
+# BUA Quick Comparison Matrix
 
 **Last Updated**: January 2025  
 **Status**: Initial scoring based on existing research - to be enhanced with targeted analysis  
 
-## Overall BUPAF Scores (50 points maximum)
+## Overall BUA Scores (50 points maximum)
 
 | Competitor | Independence | Analytical Depth | Workflow | Communication | Visual Intelligence | **TOTAL** | Category |
 |------------|-------------|-----------------|----------|---------------|-------------------|-----------|----------|
@@ -217,4 +217,4 @@
 
 ---
 
-*This matrix will be continuously updated as deeper BUPAF analysis is completed for each competitor.*
+*This matrix will be continuously updated as deeper BUA analysis is completed for each competitor.*

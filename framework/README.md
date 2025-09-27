@@ -60,7 +60,7 @@ This framework proposes a **fifth category** beyond Gartner's four primary analy
 **[archive/](archive/)** - Historical framework versions and old templates
 
 - `BUSINESS_USER_POWER_FRAMEWORK_JAN2025.md` - Framework v2.0 (January 2025)
-- `BUPAF_EXECUTION_PLAN_JAN2025.md` - January 2025 rollout plan
+- `BUA_EXECUTION_PLAN_JAN2025.md` - January 2025 rollout plan
 - `COMPETITOR_ANALYSIS_TEMPLATE.md` - Old competitor analysis template (v1.0)
 - `EVALUATION_METHODOLOGY.md` - Old evaluation methodology (v1.0)
 - `EVIDENCE_REQUIREMENTS.md` - Old evidence requirements (v1.0)
@@ -70,7 +70,7 @@ This framework proposes a **fifth category** beyond Gartner's four primary analy
 ## Related Files
 
 **Templates:**
-- `../templates/BUPAF_COMPARISON_TEMPLATE.md` - Template for creating focused competitor comparison pages
+- `../templates/BUA_COMPARISON_TEMPLATE.md` - Template for creating focused competitor comparison pages
 
 **Rollout Plan:**
 - `../FRAMEWORK_ROLLOUT_PLAN.md` - 3-phase execution plan for scoring all competitors
@@ -87,7 +87,7 @@ This framework proposes a **fifth category** beyond Gartner's four primary analy
 1. **Score each competitor** using detailed rubrics in BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md
 2. **Document evidence** for each sub-component score
 3. **Update battle cards** with framework scores
-4. **Generate BUPAF comparison pages** using template
+4. **Generate BUA comparison pages** using template
 
 ### For Sales & Marketing
 
