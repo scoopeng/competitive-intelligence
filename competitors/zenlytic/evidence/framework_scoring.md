@@ -3,7 +3,7 @@
 **Competitor**: Zenlytic
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 16/50 (Category C - IT Platform)
+**Total Score**: 22/59 (37%, Category C - IT Platform)
 **Previous Score**: 18/50 (Old BUPAF Framework - minor decrease)
 
 ---
