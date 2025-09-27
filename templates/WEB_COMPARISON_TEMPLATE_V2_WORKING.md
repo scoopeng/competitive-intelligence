@@ -43,7 +43,6 @@
 - CRM Writeback: If competitor can't operationalize ML scores
 - Personal Decks: If competitor requires IT for dashboards (most do)
 - Smart Scanner: If competitor requires clean, structured data (most do)
-- Progressive Analysis: If competitor has no depth control
 - 100+ Data Sources: Only if competitor has <50 connectors
 
 **Department Examples (3-4 max)**:
@@ -252,14 +251,7 @@ CONFIDENCE: 89% (based on 18 months historical data)
 **{COMPETITOR} Limitation**: {DESCRIBE - e.g., "Requires IT to create dashboards", "No personal workspace", "Dashboards are shared-only"}
 
 **Scoop's Personal Decks**:
-```
-Workflow:
-1. User asks question in Slack: "Show me my Q4 pipeline"
-2. Scoop returns analysis
-3. User clicks "Save to Personal Deck"
-4. Query becomes a card in their personal dashboard
-5. Next time: "Refresh my deck" → all cards update with latest data
-```
+Ask question → Save to Personal Deck → Refresh anytime for updated data
 
 **Key Capabilities**:
 - **Personal**: Each user has their own deck (not shared by default)
@@ -708,35 +700,10 @@ Upload messy Excel file → Smart Scanner detects:
 Result: Ready to analyze in seconds, no data prep required
 ```
 
-**Real-World Example**:
-```
-Finance team exports this from ERP:
-─────────────────────────────────────
-              Q4 2024 Report
-─────────────────────────────────────
-Region    | Product      | Revenue
-─────────────────────────────────────
-Northeast                  $1,234,567
-          | Widget A     | $   456,789
-          | Widget B     | $   777,778
-Southeast                  $   987,654
-          | Widget A     | $   432,100
-          | Widget B     | $   555,554
-─────────────────────────────────────
-TOTAL                      $2,222,221
-─────────────────────────────────────
-```
-
-**{COMPETITOR}**: Requires data engineer to clean (remove subtotals, flatten hierarchy, fix formatting) - 30-60 minutes
-
-**Scoop**: Smart Scanner recognizes:
-- "Q4 2024 Report" is title (ignore)
-- Region subtotals are calculated (exclude)
-- Hierarchy: Region → Product structure
-- TOTAL row is summary (exclude)
-- Currency formatting (strip $ and , for numbers)
-
-**Result**: Upload → 5 seconds → ready to query: "Which region had higher Widget A sales?"
+**Real-World Impact**:
+- Finance exports from ERP with embedded subtotals, hierarchies, currency formatting
+- **{COMPETITOR}**: Data engineer spends 30-60 minutes cleaning file
+- **Scoop**: Smart Scanner handles automatically in 5 seconds
 
 **Business Impact**:
 - **Zero data prep time** (analysts work with real-world files)
@@ -1115,11 +1082,9 @@ Total Time: 5 seconds
 | **Sales** | {RATING + WHY} | Excellent - Personal Decks for pipeline tracking, ML deal scoring, CRM writeback | Self-service + ML |
 | **Marketing** | {RATING + WHY} | Excellent - ML_CLUSTER for customer segmentation, attribution analysis | Hidden segment discovery |
 | **Customer Success** | {RATING + WHY} | Excellent - Churn prediction with ML_RELATIONSHIP, proactive risk identification | Predictive + actionable |
-| **Operations** | {RATING + WHY} | Excellent - Process bottleneck analysis, multi-source data blending | Investigation engine |
-| **Executive** | {RATING + WHY} | Excellent - PowerPoint generation, multi-hypothesis investigations, confidence scoring | Board-ready insights |
 | **Data Teams** | {RATING + WHY} | Excellent - Schema evolution eliminates maintenance, enables strategic work | Time savings |
 
-*Note: Fill in 3-4 rows most relevant to competitive positioning, not all 7*
+*Note: Fill in 3-4 rows most relevant to competitive positioning. Operations and Executive can be added if particularly relevant.*
 
 ### Migration Considerations
 
@@ -1235,14 +1200,6 @@ A: {RELATIVE_COMPARISON}. {ONE_SENTENCE_ON_COST_DIFFERENCE}.
 **Q: What's the ROI timeline for Scoop?**
 A: Payback in 3 hours (documented). {COMPETITOR_PAYBACK}: {TIME}.
 
-### Accuracy & Reliability
-
-**Q: Is {COMPETITOR} accurate for business decisions?**
-A: {DOCUMENTED_ACCURACY_ISSUES + SOURCE}. {ONE_SENTENCE_ON_BUSINESS_IMPACT}.
-
-**Q: Does Scoop have the same {SPECIFIC_ACCURACY_ISSUE} as {COMPETITOR}?**
-A: No. {BRIEF_EXPLANATION_OF_SCOOP_APPROACH}. {ONE_SENTENCE_GUARANTEE}.
-
 ### Integration & Workflow
 
 **Q: Can Scoop integrate with {SPECIFIC_TOOL}?**
@@ -1253,17 +1210,6 @@ A: {SCOOP_EXCEL_INTEGRATION}. {COMPETITOR_EXCEL_STATUS}.
 
 **Q: Can we use Scoop in Slack?**
 A: Yes, native Slack bot with full investigation capabilities. {COMPETITOR_SLACK_STATUS}.
-
-### Migration & Change Management
-
-**Q: How hard is it to switch from {COMPETITOR} to Scoop?**
-A: {COMPLEXITY_ASSESSMENT}. {BRIEF_MIGRATION_PATH}. Timeline: {TIME_ESTIMATE}.
-
-**Q: Can we run both {COMPETITOR} and Scoop in parallel?**
-A: Yes. {BRIEF_EXPLANATION_OF_PARALLEL_APPROACH}. {TYPICAL_PATTERN}.
-
-**Q: What happens to our existing {COMPETITOR} reports?**
-A: {MIGRATION_APPROACH}. {TIME_ESTIMATE_FOR_RECREATION}.
 
 ### Technical & Security
 
