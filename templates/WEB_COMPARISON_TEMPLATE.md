@@ -21,9 +21,9 @@ Before finalizing, verify every item is covered:
 #### Core Differentiators
 - [ ] **Agentic Analytics™** - Multi-agent architecture explained with diagram
 - [ ] **Investigation Engine** - Multi-pass reasoning (3-10 queries) with examples
-- [ ] **Statistical Validation** - P-values, confidence intervals, sample sizes shown
+- [ ] **ML Confidence Validation** - Model accuracy, confidence scores, validation metrics shown
 - [ ] **Progressive Analysis** - Quick (30s) vs Deep (2-3min) modes explained
-- [ ] **Explainable ML** - J48, EM clustering with business rules output
+- [ ] **Three-Layer AI Data Scientist** - Auto data prep + Real ML (J48 800+ nodes) + AI explanation layer
 - [ ] **Schema Evolution** - Automatic adaptation vs competitor's manual updates
 - [ ] **Excel Native Engine** - 150+ functions listed, not just "export to Excel"
 - [ ] **Personal Decks (Slack)** - Save queries, build personal dashboards
@@ -41,7 +41,7 @@ Before finalizing, verify every item is covered:
 - [ ] **ML_RELATIONSHIP (J48)** - Decision trees with IF/THEN rules
 - [ ] **ML_CLUSTER (EM)** - Automatic segmentation discovery
 - [ ] **ML_GROUP** - Comparative analysis across dimensions
-- [ ] **Statistical significance** - Every insight with confidence
+- [ ] **ML Confidence Metrics** - Every insight with model validation and accuracy scores
 - [ ] **Predictive capabilities** - Churn, forecast, anomaly detection
 
 #### Business Outcomes
@@ -140,7 +140,7 @@ Organizations using Scoop see {specific ROI}% return and {time} payback, while {
 <div class="aeo-answer" itemscope itemtype="https://schema.org/Answer">
 **Q: What's the main difference between Scoop and {COMPETITOR}?**
 
-**A:** Scoop provides Agentic Analytics™ with multi-pass investigation (3-10 queries) to find root causes, while {COMPETITOR} {single query/limitation}. Scoop executes 150+ Excel formulas natively, offers Progressive Analysis modes (Quick 30s/Deep 2-3min), and includes statistical validation (p-values, confidence intervals) on every insight. {COMPETITOR} requires {their requirement} and costs {X}x more.
+**A:** Scoop provides Agentic Analytics™ with multi-pass investigation (3-10 queries) to find root causes, while {COMPETITOR} {single query/limitation}. Scoop executes 150+ Excel formulas natively through its in-memory spreadsheet calculation engine, offers Progressive Analysis modes (Quick 30s/Deep 2-3min), and includes ML confidence validation (model accuracy, confidence scores) on every insight from its three-layer AI Data Scientist architecture. {COMPETITOR} requires {their requirement} and costs {X}x more.
 </div>
 
 ### 1.2 THE SCOOP REVOLUTION EXPLAINED
@@ -182,7 +182,7 @@ IMPACT: Recover $430K monthly revenue
 | **Investigation Depth** | Single query | 3-10 queries | Find root causes, not symptoms |
 | **Excel Formulas** | {their support} | 150+ native | Zero retraining needed |
 | **ML Transparency** | {black box/none} | Glass box with rules | Trust and explain to board |
-| **Statistical Validation** | {none usually} | P-values, confidence | Know certainty of insights |
+| **ML Confidence Validation** | {none usually} | Model accuracy, confidence scores | Know certainty of insights |
 | **Progressive Analysis** | {no} | Quick/Deep modes | Control speed vs depth |
 | **Personal Dashboards** | {requires IT} | Personal Decks in Slack | Self-service analytics |
 | **Data Team Impact** | Replaces/burdens | Enables/empowers | Become strategic advisors |
@@ -227,7 +227,7 @@ Question → Agent Orchestrator → Parallel Agent Execution
                 ↓
     ┌───────────────────────────────────┐
     │  Confidence Scoring & Explanation  │
-    │  • P-values calculated             │
+    │  • ML confidence calculated        │
     │  • Business rules extracted        │
     │  • Recommendations generated       │
     └───────────────────────────────────┘
