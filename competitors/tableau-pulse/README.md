@@ -2,7 +2,7 @@
 
 ## Quick Summary
 **Parent**: Salesforce  
-**Category**: Marketing Mirage (BUPAF Score: 11/50)  
+**Category**: Dashboard Tool (BUA Score: 11/50)  
 **Fatal Flaw**: Schema changes break everything  
 **Key Fact**: NOT using LLMs (their admission) - just embedding models  
 
@@ -16,7 +16,7 @@
 
 ### Sales Tools
 - **[BATTLE_CARD.md](BATTLE_CARD.md)** - Quick reference for sales calls
-- **[DEEP_ANALYSIS.md](DEEP_ANALYSIS.md)** - Enhanced battle card with BUPAF scores and detailed talk tracks
+- **[DEEP_ANALYSIS.md](DEEP_ANALYSIS.md)** - Enhanced battle card with BUA scores and detailed talk tracks
 
 ### Evidence & Proof Points
 | Claim | Proof |

@@ -1,6 +1,6 @@
 # Tableau Pulse vs Scoop - Battle Card
 
-## BUPAF Scores
+## BUA Scores
 | Dimension | Tableau Pulse | Scoop | Winner |
 |-----------|---------------|-------|---------|
 | Independence | 2/10 | 9/10 | **Scoop +7** |
