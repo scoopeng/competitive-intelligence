@@ -116,7 +116,7 @@ Scoop is an AI data analyst you chat with to get answers. Ask questions in natur
 **Consider {COMPETITOR} if:**
 - {COMPETITOR_STRENGTH_SCENARIO} (rare edge case)
 
-**Bottom Line**: {ONE_SENTENCE_VERDICT}
+**Bottom Line**: {COMPETITOR} is {COMPETITOR_CHARACTERIZATION}. Scoop is an AI data analyst you chat with—{SCOOP_KEY_DIFFERENTIATORS}.
 
 ---
 
@@ -191,6 +191,8 @@ A: {DOCUMENTED_ACCURACY_ISSUES + SOURCES}. Scoop provides deterministic results 
 ## 2. CAPABILITY DEEP DIVE (Target: 3,000 words)
 
 ### 2.1 Investigation & Analysis Capabilities (500 words)
+
+When you chat with Scoop and ask "Why did revenue drop?", Scoop investigates like a human analyst—running multiple queries, testing hypotheses, and delivering root cause analysis. {COMPETITOR} {COMPETITOR_LIMITATION}.
 
 **Core Question**: Can business users investigate "why" questions without IT help?
 
@@ -280,6 +282,8 @@ Ask question → Save to Personal Deck → Refresh anytime for updated data
 
 ### 2.2 Spreadsheet Engine & Data Preparation (500 words)
 
+When you ask Scoop for data transformations, you describe what you need in plain language—Scoop generates Excel formulas automatically. {COMPETITOR} requires you to {COMPETITOR_REQUIREMENT}.
+
 **Core Question**: Can your team use skills they already have, or do they need to learn new languages?
 
 #### The Spreadsheet Engine Advantage
@@ -366,6 +370,8 @@ Unlike {COMPETITOR} which requires {THEIR_QUERY_LANGUAGE}, Scoop is the **only c
 ---
 
 ### 2.3 ML & Pattern Discovery (500 words)
+
+When you ask Scoop to find patterns in your data, Scoop runs real machine learning models and explains results in business language. {COMPETITOR} {COMPETITOR_ML_LIMITATION}.
 
 **Core Question**: Can users discover insights they didn't know to look for, explained in business language?
 

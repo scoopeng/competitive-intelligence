@@ -48,7 +48,7 @@ Scoop is an AI data analyst you chat with to get answers. Ask questions in natur
 - You have budget for F64 capacity ($67K+/year) and semantic model maintenance
 - You fall in the 3% who find significant value (per Gartner survey of 123 IT leaders)
 
-**Bottom Line**: Power BI Copilot is a single-query AI add-on requiring extensive infrastructure, producing inconsistent results that Microsoft warns can be "misleading." Scoop is a multi-pass investigation engine with deterministic results, native Excel integration, and no infrastructure overhead.
+**Bottom Line**: Power BI Copilot is a single-query AI add-on requiring extensive infrastructure, producing inconsistent results that Microsoft warns can be "misleading." Scoop is an AI data analyst you chat with—delivering multi-pass investigation, deterministic results, native Excel integration, and zero infrastructure overhead.
 
 ---
 
@@ -127,6 +127,8 @@ A: Microsoft warns of "nondeterministic behavior" (same question = different ans
 ## 2. CAPABILITY DEEP DIVE
 
 ### 2.1 Investigation & Analysis Capabilities (500 words)
+
+When you chat with Scoop and ask "Why did revenue drop?", Scoop investigates like a human analyst—running multiple queries, testing hypotheses, and delivering root cause analysis. Power BI Copilot can only answer one question at a time with no follow-up capability.
 
 **Core Question**: Can business users investigate "why" questions without IT help?
 
@@ -222,6 +224,8 @@ Ask question → Save to Personal Deck → Refresh anytime for updated data
 ---
 
 ### 2.2 Spreadsheet Engine & Data Preparation (500 words)
+
+When you ask Scoop for data transformations, you describe what you need in plain language—Scoop generates Excel formulas automatically. Power BI Copilot requires DAX expertise and manual semantic model design.
 
 **Core Question**: Can your team use skills they already have, or do they need to learn new languages?
 
@@ -334,6 +338,8 @@ CALCULATE(
 ---
 
 ### 2.3 ML & Pattern Discovery (500 words)
+
+When you ask Scoop to find patterns in your data, Scoop runs real machine learning models and explains results in business language. Power BI Copilot has no automated ML discovery—patterns must be manually configured in semantic models.
 
 **Core Question**: Can users discover insights they didn't know to look for, explained in business language?
 
