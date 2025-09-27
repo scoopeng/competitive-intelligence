@@ -1,6 +1,6 @@
 # Battle Card: Zenlytic
 
-**BUA Score**: 44/100 (44%, Category C - Weak)
+**BUA Score**: 42/100 (42%, Category C - Moderate)
 **Market Position**: Chat interface for single-query Q&A
 **Scoop Wins**: Excel engine + Multi-pass investigation + Automatic ML
 

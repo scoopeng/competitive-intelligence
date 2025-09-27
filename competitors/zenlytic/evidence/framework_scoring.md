@@ -3,7 +3,7 @@
 **Competitor**: Zenlytic
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 44/100 (44%, Category C - Weak)
+**Total Score**: 42/100 (42%, Category C - Moderate)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---

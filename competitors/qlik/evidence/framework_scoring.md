@@ -3,7 +3,7 @@
 **Competitor**: Qlik (Qlik Sense with Insight Advisor)
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 46/100 (46%, Category C - Weak)
+**Total Score**: 47/100 (47%, Category C - Moderate)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---

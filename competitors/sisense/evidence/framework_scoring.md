@@ -3,7 +3,7 @@
 **Competitor**: Sisense
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 38/100 (38%, Category C - Weak)
+**Total Score**: 28/100 (28%, Category C - Weak)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
