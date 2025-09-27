@@ -46,7 +46,7 @@
 - [X] Customer discovery completed (17 searches + extended research)
 - [X] Functionality analysis completed (15 searches)
 - [X] Technical analysis completed (24 searches + 10 extended searches)
-- [X] BUPAF scoring completed with evidence (12/50 - downgraded)
+- [X] BUA scoring completed with evidence (12/50 - downgraded)
 - [X] Battle card updated (comprehensive update with Phase 3 findings)
 - [X] Sales materials created (phase4_sales_enablement.md)
 - [X] Research library fully documented (All 4 phases complete)
@@ -212,7 +212,7 @@ Execute these WebSearch queries:
 - [ ] **Search 15**: "tellius setup time" implementation duration
 
 ### 📝 STRATEGIC FUNCTIONALITY DOCUMENTATION FORMAT
-For each capability found, document with BUPAF lens:
+For each capability found, document with BUA lens:
 ```markdown
 **Capability**: [Name of feature/function]
 **What It Does**: [Clear description of functionality]
@@ -314,7 +314,7 @@ For each capability found, document with BUPAF lens:
 - [X] Created/Updated `research/economic_impact.md` - True TCO analysis
 
 ### Phase 4 Success Criteria
-- [X] BUPAF scored with 15+ evidence points
+- [X] BUA scored with 15+ evidence points
 - [X] Battle card includes 5+ customer stories
 - [X] Created industry-specific objection handlers
 - [X] Documented 3+ competitive loss scenarios
@@ -325,13 +325,13 @@ For each capability found, document with BUPAF lens:
 - [X] Created `evidence/phase4_sales_enablement.md` - Complete sales materials
 - [X] Updated competitive capability matrix
 - [X] Created ROI calculator and migration guide
-- [X] Documented BUPAF evidence with 25+ points
+- [X] Documented BUA evidence with 25+ points
 
 ---
 
 ## PHASE 4: Analysis & Rich Sales Enablement (20-25 minutes)
 
-### 4A: Evidence-Based BUPAF Scoring (8-10 minutes)
+### 4A: Evidence-Based BUA Scoring (8-10 minutes)
 
 **IMPORTANT**: Use Phase 2 functionality findings as primary evidence
 
@@ -370,7 +370,7 @@ Score each dimension with specific evidence:
 - [ ] Documented export/sharing limitations
 - [ ] **Score: ___/10** with specific examples
 
-**TOTAL BUPAF SCORE: ___/50**
+**TOTAL BUA SCORE: ___/50**
 **Category**: A (35-50) / B (25-34) / C (15-24) / D (0-14)
 
 ### 4B: Competitive Capability Matrix (5 minutes)
@@ -408,7 +408,7 @@ Create comparison table based on Phase 2 functionality findings:
 - [ ] Competitive positioning includes win/loss stories
 
 ### Phase 3 Success Criteria
-- [ ] BUPAF scored with 15+ evidence points
+- [ ] BUA scored with 15+ evidence points
 - [ ] Battle card includes 5 customer stories
 - [ ] Created industry-specific objection handlers
 - [ ] Documented 3+ competitive loss scenarios
@@ -472,7 +472,7 @@ Key findings from Phase 3: ✅ COMPLETED
 **📁 Full research documented in: `evidence/phase4_sales_enablement.md`**
 
 Key findings from Phase 4:
-- BUPAF Score: [Total score and category]
+- BUA Score: [Total score and category]
 - Fatal flaws: [Top 2-3 deal breakers]
 - Sales positioning: [Key differentiation points]
 

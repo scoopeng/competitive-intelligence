@@ -1,7 +1,7 @@
 # Tellius - Competitive Intelligence
 
 ## Quick Summary
-**Category**: Marketing Mirage (BUPAF Score: 12/50) ⬇️ DOWNGRADED  
+**Category**: Dashboard Tool (BUA Score: 11/50) ⬇️ DOWNGRADED  
 **Fatal Flaws**: 
 - Apache Spark crashes (memory issues, GC overhead, "notoriously difficult")
 - 90% employee turnover ("lightyears behind competitors")
