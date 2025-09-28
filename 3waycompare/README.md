@@ -2,14 +2,22 @@
 
 Generates intelligent three-way comparisons (Competitor A vs Competitor B vs Scoop) using Claude AI to create nuanced, evidence-based content that highlights Scoop's business user autonomy advantages.
 
-## Status: ✅ Production Ready v1.1.0
+## Status: ✅ Production Ready v1.2.0
 - Successfully calls Claude AI via Scoop's AIConnector
+- **Now uses Reasoning model (Opus 4.1) for superior content quality**
 - Generates complete comparisons in ~4-5 minutes
 - All sections properly populated (Executive Summary, BUA, Capabilities, FAQ)
-- All hard-coded content removed
-- Uses production configuration and API keys
+- Enhanced for AEO/SEO optimization
 
-### Latest Fixes (v1.1.0)
+### Latest Improvements (v1.2.0 - January 28, 2025)
+- 🎯 **Switched to Reasoning model** (Claude Opus 4.1) for better word count compliance
+- 📝 **Enhanced TL;DR generation** with 3-sentence structure (46-51 words, targeting 50-58)
+- 🔍 **Real question integration** - 100+ actual user queries vs generic questions
+- 📊 **Extractable summaries** - 40-60 word blocks for featured snippets
+- ✅ **Improved readability** - <20 words per sentence average
+- 🔧 **AEO validation script** - Automated quality checks
+
+### Previous Fixes (v1.1.0)
 - ✅ Executive Summary bullet points now populate correctly
 - ✅ BUA Framework tables show all component scores
 - ✅ Capability Deep Dive sections generate all 5 capabilities
@@ -125,9 +133,9 @@ Scoop: **82/100** (A Strong)
 
 1. **Load Competitor Data**: BUA scores, competitive strategy, evidence
 2. **Prepare Context**: Fill prompt templates with competitor-specific data
-3. **Invoke AI Model**: Send prompts to Claude/GPT-4 via AIConnector
+3. **Invoke AI Model**: Send prompts to Claude Opus 4.1 via AIConnector (Reasoning model)
 4. **Parse JSON Response**: Extract structured content from AI response
-5. **Generate Markdown**: Assemble final comparison document
+5. **Generate Markdown**: Assemble final AEO-optimized comparison document
 
 ### Example Prompt Flow
 
@@ -183,10 +191,24 @@ Edit `AIComparisonGenerator.java` to:
 - Check template exists in resources/prompts/
 - Verify filename matches exactly
 
-**Word count violations in FAQ**
-- AI occasionally misses word count requirements
-- Implement retry logic with stricter constraints
-- Manual validation recommended
+**Word count violations**
+- Now using Reasoning model (Opus 4.1) for better compliance
+- Run `python3 scripts/validate_aeo.py output/*.md` to check
+- TL;DR should be 50-58 words, FAQ answers 40-60 words
+
+## AEO/SEO Validation
+
+Run the validation script to check AEO compliance:
+```bash
+python3 scripts/validate_aeo.py output/[comparison-file].md
+```
+
+Checks:
+- TL;DR word count (50-58 words)
+- FAQ answer lengths (40-60 words)
+- Readability (<20 words per sentence)
+- Extractable summaries
+- Real question usage
 
 ## Future Enhancements
 
