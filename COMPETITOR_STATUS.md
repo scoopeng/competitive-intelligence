@@ -97,16 +97,48 @@
 - Investigation-first positioning clear
 - Zero critical issues found
 
+## Tier 2 Complete: Key Insights
+
+### Sisense (28/100, Category C)
+**Top 3 Weaknesses**:
+1. Embedded Analytics Focus (35%) - Architectural | ISV platform, not business user self-service
+2. ARIMA Marketing Mirage (25%) - Architectural | Fake AI, just curve fitting
+3. Excel Export-Only (20%) - Architectural | Portal prison, no formulas
+
+**Key Insight**: Built for software vendors to embed, not for business user empowerment. ARIMA fake AI is most defensible attack.
+
+### DataGPT (22/100, Category D)
+**Top 3 Weaknesses**:
+1. Single-Source Architecture (25%) - Architectural | Cannot join multiple data sources
+2. Investigation Failure (25%) - Architectural | Single-query limitation
+3. Schema Rigidity (20%) - Architectural | "Rare to adjust after setup"
+
+**Key Insight**: Fast metrics display for single source, but cannot investigate across datasets or handle schema changes.
+
+### Tellius (22/100, Category D)
+**Top 3 Weaknesses**:
+1. Apache Spark Architecture Crashes (25%) - Architectural | Technical instability
+2. Complete Excel Elimination (25%) - Strategic | Forces workflow destruction
+3. Natural Language Adoption Failure (20%) - Temporal | Vendor admitted
+
+**Key Insight**: Apache Spark reliability crisis is architectural flaw. Excel replacement strategy failed.
+
+### DataChat (17/100, Category F - LOWEST)
+**Top 3 Weaknesses**:
+1. Zero Excel Integration (35%) - Architectural | No formulas, no support
+2. No API Access (25%) - Architectural | Portal prison, cannot integrate
+3. Single Query Limitation (20%) - Architectural | Text-to-SQL translator only
+
+**Key Insight**: Lowest BUA score. Minimal functionality, zero market validation after 7 years.
+
 ## Next Actions
 
-1. ✅ **All Tier 1 Complete**: 7 of 11 competitors deployed (64%)
+1. ✅ **ALL 11 COMPETITORS COMPLETE**: 100% strategy + web comparison coverage
+   - Tier 1 deployed (7): Power BI, Snowflake, Tableau, Zenlytic, ThoughtSpot, Domo, Qlik
+   - Tier 2 ready (4): Sisense, DataGPT, Tellius, DataChat
 
-2. **Final Push: Complete Tier 2** (4 remaining)
-   - Sisense: 28/100 (C) - Embedded analytics focus
-   - DataGPT: 22/100 (D) - Single-source limitation
-   - Tellius: 22/100 (D) - Apache Spark crashes, low adoption
-   - DataChat: 17/100 (D) - Lowest score, minimal market presence
+2. **Deploy Tier 2** to production (4 remaining web comparisons)
 
-3. **Repository Status**: Ready for final batch creation
+3. **Repository Status**: Complete competitive intelligence suite
 
-Last Updated: September 28, 2025 (Evening - All 7 Tier 1 deployed and QA verified)
+Last Updated: September 28, 2025 (Late Evening - ALL 11 COMPETITORS COMPLETE)
