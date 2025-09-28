@@ -206,7 +206,47 @@ cat competitors/[name]/COMPETITIVE_STRATEGY.md
 7. **Enable Don't Replace**: Positive messaging for data teams
 8. **Comprehensive Coverage**: All audiences, all capabilities
 
-## Current Status (September 2025)
+## Current Status (September 28, 2025)
+
+### Competitive Strategy & Web Comparison Progress
+**5 of 11 Competitors Complete** (strategy + web comparison)
+- ✅ Power BI Copilot (32/100) - v2.0 strategy, deployed
+- ✅ Snowflake Cortex (26/100) - v1.1 strategy, generated
+- ✅ Tableau Pulse (37/100) - v1.1 strategy, generated
+- ✅ Zenlytic (42/100) - v1.1 strategy, generated
+- ✅ [One other from previous work]
+
+**Next Priority**: ThoughtSpot (57/100), Domo (62/100), Qlik (47/100)
+
+**Track Progress**: See `COMPETITOR_STATUS.md` for live status tracker
+
+### Template Evolution
+- **Strategy Template**: v1.0 → v1.1 (defensibility framework added Sept 28)
+  - Weaknesses classified: Architectural | Temporal | Strategic
+  - Emphasis allocation: Architectural (highest) > Strategic > Temporal
+  - Product type framing in positioning section
+
+- **Web Comparison Template**: v2.0 → v2.1 (generalizable features added Sept 28)
+  - Question Hierarchy subsection (Simple/Complex/Why)
+  - Semantic Model Boundary block (optional)
+  - 3 new At-a-Glance table rows
+  - Complex query FAQ for AEO
+
+### 4 Architectural Patterns Identified (September 28)
+1. **YAML/Semantic Layer Dependency** - Snowflake Cortex, Zenlytic (IT must maintain definitions)
+2. **Portal Prison** - All dashboard-first competitors (no native Excel/Slack/PowerPoint)
+3. **Text-to-SQL = One Query Per Question** - Cannot do multi-pass investigation (7+ queries)
+4. **Schema/Metric Brittleness** - Tableau Pulse (400 errors), semantic layers break on changes
+
+### Web Comparison Best Practices (Learned Sept 27-28)
+- **Investigation-First Strategy**: Multi-pass investigation is architectural differentiator (30% emphasis)
+- **Multi-Turn vs Multi-Pass**: Clarify distinction (follow-up questions ≠ automated investigation)
+- **Question Hierarchy**: Simple "What" → Complex "What" → "Why" framework
+- **Semantic Model Boundary**: When applicable, explain IT dependency clearly
+- **CEO Quotes as Evidence**: Credible (Zenlytic CEO: "90% accuracy is absolutely terrible")
+- **Defensibility Drives Emphasis**: Architectural limitations > Strategic choices > Temporal gaps
+
+## Current Status (Legacy - Pre-September 28)
 
 ### Framework Redesign ✅ COMPLETE
 - **100-Point BUA Framework**: All 12 competitors rescored

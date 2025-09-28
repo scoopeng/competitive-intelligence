@@ -1,9 +1,13 @@
 # Web Comparison Template V2 (WORKING DRAFT)
-**Version**: 2.0-draft
+**Version**: 2.1-draft
+**Last Updated**: 2025-09-28
 **Created**: 2025-09-26
 **Purpose**: Information-dense competitor comparison template for web content
 **Target Length**: 5,000-8,000 words (~30-48K characters)
 **Philosophy**: Tables > Prose, Show > Tell, Dense > Long
+
+**Changelog**:
+- 2025-09-28: Added "Question Hierarchy" (simple/complex/why distinction), optional "Semantic Model Boundary" block, 3 question capability rows to At-a-Glance table, FAQ about complex analytical queries
 
 ---
 
@@ -127,6 +131,10 @@ Scoop is an AI data analyst you chat with to get answers. Ask questions in natur
 | **User Experience** |
 | Primary Interface | {COMPETITOR_INTERFACE} | Natural language chat (Slack, web) | Ask vs Build |
 | Learning Curve | {COMPETITOR_LEARNING_CURVE} | Conversational—like talking to analyst | Use existing communication skills |
+| **Question Capabilities** |
+| Simple "What" Questions | {✅/⚠️ + DETAILS} | ✅ All questions supported | {COMPARISON} |
+| Complex "What" (Analytical Filtering) | {✅/❌ + IF_NO_EXPLAIN} | ✅ Automatic subqueries | {COMPARISON} |
+| "Why" Investigation | {✅/❌ + DETAILS} | ✅ Multi-pass analysis | {COMPARISON} |
 | **Setup & Implementation** |
 | Setup Time | {COMPETITOR_SETUP_TIME} | 30 seconds | {MULTIPLIER}x faster |
 | Prerequisites | {COMPETITOR_PREREQS} | None | Immediate start |
@@ -205,6 +213,58 @@ When you chat with Scoop and ask "Why did revenue drop?", Scoop investigates lik
 | Hypothesis Testing | {YES/NO + DETAILS} | Automatic (5-10 hypotheses) |
 | Context Retention | {YES/NO + DETAILS} | Full conversation context |
 | Root Cause Analysis | {CAPABILITY_LEVEL} | Built-in with confidence scoring |
+
+#### The Question Hierarchy: Simple vs Complex "What" Questions
+
+**Simple "What" Questions** (both tools typically handle):
+- "Show me revenue by region"
+- "How many customers do we have?"
+- "What's the average deal size?"
+
+{COMPETITOR} {✅/⚠️ + DETAILS} | Scoop ✅
+
+**Complex "What" Questions** (require analytical filtering):
+- "Show opportunities from top 5 sales reps by win rate"
+- "Display accounts where lifetime value > $100K and growth > 20%"
+- "Find regions where average deal size > $50K AND win rate > 60%"
+
+{COMPETITOR} {✅/❌ + IF_NO_EXPLAIN_WHY} | Scoop ✅ (automatic subquery generation)
+
+**"Why" Questions** (require investigation):
+- "Why did churn increase this quarter?"
+- "What caused the revenue drop in Q3?"
+- "Why are enterprise deals taking longer to close?"
+
+{COMPETITOR} ❌ {SPECIFIC_LIMITATION} | Scoop ✅ (multi-pass investigation)
+
+**Key Insight**: {COMPETITOR} is a {text-to-query interface / BI tool / describe architecture}—handles simple questions but cannot {SPECIFIC_GAP: e.g., "generate complex analytical logic on the fly" or "investigate beyond single queries"}. Scoop is an AI data analyst—handles all three question types.
+
+---
+
+#### 🔧 OPTIONAL: The Semantic Model Boundary
+
+**Include if**: Competitor requires semantic models, data modeling, or IT-configured datasets (e.g., Power BI semantic models, ThoughtSpot models, Tableau data sources, Domo datasets)
+
+**Skip if**: Competitor works on raw data (e.g., Snowflake Cortex)
+
+{COMPETITOR}'s {SEMANTIC_MODEL_NAME} Limitation:
+- Business users can only query data {IT/ANALYSTS} included in the {MODEL_TYPE}
+- Complex questions like "show opportunities from top 5 reps by win rate" require {SPECIFIC_IT_WORK: e.g., "custom DAX measures", "pre-built calculations", "semantic model updates"} (typical time: {TIMEFRAME: e.g., "1-2 weeks"})
+- If {IT/ANALYSTS} didn't include a table or relationship, business users cannot analyze it—even if data exists in source systems
+
+**Examples That Require IT Work in {COMPETITOR}**:
+- Top N by calculated metric: {EXAMPLE: e.g., "Top 5 reps by win rate"}
+- Aggregation thresholds: {EXAMPLE: e.g., "Accounts where LTV > $100K"}
+- Multi-condition filtering: {EXAMPLE: e.g., "Regions where avg deal size > $50K AND win rate > 60%"}
+- Time comparisons with filtering: {EXAMPLE: e.g., "Accounts where Q4 revenue grew > 20% vs Q3"}
+
+**Scoop's Approach**:
+- No semantic model required—works directly on raw data
+- Complex analytical filtering automatic (subquery generation)
+- Business users not bounded by IT's model decisions
+- Time to answer complex question: 3 seconds (vs {COMPETITOR_TIME: e.g., "1-2 weeks for IT to build"})
+
+---
 
 #### Side-by-Side Example: "Why did customer churn increase?"
 
@@ -1200,6 +1260,9 @@ A: {YES + SPECIFICS}. {COMPETITOR_STATUS}. Complete list: {NUMBER}+ functions in
 
 **Q: Can Scoop investigate "why" questions or just answer "what"?**
 A: {SCOOP_INVESTIGATION_CAPABILITY}. {COMPETITOR_STATUS}.
+
+**Q: Can {COMPETITOR} handle complex analytical questions like "show top performers by calculated metric"?**
+A: {YES/NO + SPECIFIC_DETAILS}. Questions like "show opportunities from top 5 sales reps by win rate" require {SUBQUERY_OR_ANALYTICAL_FILTERING: e.g., "subqueries" or "pre-built calculations in semantic models"}. {IF_NO: Explain what IT must build, e.g., "In {COMPETITOR}, IT must build custom DAX measures (1-2 weeks) before business users can ask this type of question"}. Scoop handles these automatically via subquery generation—no pre-work needed.
 
 **Q: What ML algorithms does Scoop use?**
 A: J48 decision trees, JRip rule mining, EM clustering—all with explainable outputs. {COMPETITOR_ML_STATUS}.

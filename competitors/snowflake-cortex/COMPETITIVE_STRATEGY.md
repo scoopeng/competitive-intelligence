@@ -1,6 +1,6 @@
 # Competitive Strategy: Snowflake Cortex
 
-**Last Updated**: September 27, 2025
+**Last Updated**: September 28, 2025
 **Maintained By**: Human (strategic positioning decisions)
 **Used By**: web_comparison generation, battle card generation, sales enablement
 
@@ -8,22 +8,25 @@
 
 ## 1. PRIMARY WEAKNESSES (Rank Top 3)
 
-**#1: No User Interface** (Severity: Critical)
-- **Evidence**: BUA Flow 2/20 (Native Integration 0/8, Portal Prison 0/6, Interface Simplicity 2/6)
-- **Why It Matters**: Business users forced into Snowflake SQL console. No mobile access, no workflow integration. Must manually export CSV, create charts, build PowerPoint (70+ minutes per analysis). Cannot answer executive questions from phone.
-- **Our Advantage**: Scoop works in Slack (native bot), Excel (150+ formulas), and generates branded PowerPoint automatically. Mobile-ready via Slack app. Zero context switching.
+**#1: No User Interface** (Severity: Critical | Defensibility: Strategic)
+- **Evidence**: BUA Flow 2/20 (Native Integration 0/8, Portal Prison 0/6, Interface Simplicity 2/6). Snowflake Intelligence preview adds basic UI (bar/line/pie charts) but remains console-focused with no native Excel/Slack/PowerPoint/mobile integration.
+- **Why It Matters**: Business users forced into Snowflake console. Intelligence preview has 3 basic chart types but no workflow integration. Must manually export CSV, create PowerPoint (70+ minutes per analysis). Cannot answer executive questions from phone.
+- **Our Advantage**: Scoop works in Slack (native bot), Excel (150+ formulas), and generates branded PowerPoint automatically. Mobile-ready via Slack app. Zero context switching. 15+ chart types vs Intelligence's 3.
+- **Defensibility**: Strategic choice—Snowflake is a database company building BI as afterthought. Intelligence UI exists but prioritizes SQL users, not business users in native tools.
 - **Emphasis Level**: 30% of web comparison
 
-**#2: Investigation Failure** (Severity: Critical)
-- **Evidence**: BUA Investigation 0/8, stateless architecture, "Why are customers churning?" query failed with error: "Actual statement count 3 did not match desired statement count 1"
-- **Why It Matters**: Can only answer "what happened" questions. Cannot investigate "why" or do multi-step analysis. 35% business question success rate (65% fail). Single query only—no context retention.
-- **Our Advantage**: Scoop's multi-pass investigation (3-10 automated queries), hypothesis testing, root cause discovery with ML validation. Built for "why" questions.
+**#2: Investigation Failure** (Severity: Critical | Defensibility: Architectural)
+- **Evidence**: BUA Investigation 0/8, single-query architecture per question, "Why are customers churning?" requires multi-pass analysis which Cortex cannot do
+- **Why It Matters**: Can handle follow-up questions (Cortex Analyst multi-turn) but cannot do multi-pass investigation. Each question generates one SQL query. Cannot test multiple hypotheses, run 7+ automated queries, or perform root cause analysis. "Why did churn increase?" gets one SQL result showing churn went up—not an investigation into causes. 35% business question success rate (65% fail).
+- **Our Advantage**: Scoop's multi-pass investigation (3-10 automated queries per "why" question), hypothesis testing, root cause discovery with ML validation. Multi-turn ≠ multi-pass: we run multiple automated queries to investigate, not just understand follow-up context.
+- **Defensibility**: Architectural limitation. Text-to-SQL systems generate one query per question. Multi-pass investigation requires reasoning engine that orchestrates multiple queries automatically—fundamental architecture difference.
 - **Emphasis Level**: 25% of web comparison
 
-**#3: IT Dependency & Setup Burden** (Severity: High)
+**#3: IT Dependency & Setup Burden** (Severity: High | Defensibility: Architectural)
 - **Evidence**: BUA Setup 0/8, requires weeks of semantic model creation in YAML before ANY business user can query, 3-6 month implementation typical
 - **Why It Matters**: Business users blocked until IT builds complete semantic layer. Cannot ask even basic questions without pre-work. Implementation costs $20K-$50K plus ongoing maintenance.
 - **Our Advantage**: Scoop setup takes 30 seconds, zero data modeling, no IT gatekeeping. Business users start asking questions immediately.
+- **Defensibility**: Architectural—text-to-SQL approach requires semantic model to map natural language to SQL correctly. Snowflake's "Cognitive Layer" is still YAML configuration.
 - **Emphasis Level**: 20% of web comparison
 
 ---
@@ -40,10 +43,10 @@
 - **Story**: "Snowflake Cortex gives you a SQL table with 1,247 rows. YOU must: export CSV (2 min), create Excel charts (20 min), build PowerPoint (30 min), write narrative (15 min), apply branding (10 min) = 77 minutes. Scoop generates complete branded PowerPoint in 30 seconds."
 - **Expected Impact**: Shows Snowflake delivers "data" not "insights." Scoop delivers board-ready presentations. Time savings quantified and dramatic (99% faster).
 
-**Scenario 3: "Why Did Churn Increase?" Investigation Failure**
+**Scenario 3: "Why Did Churn Increase?" Investigation Limitation**
 - **When to Use**: When discussing investigation capabilities vs single-query tools
-- **Story**: "Ask Snowflake Cortex 'Why did customer churn increase?' — it returns ERROR. It's architecturally limited to single SQL queries. Ask Scoop the same question — it tests 8 hypotheses, runs 7 queries, identifies root cause (support ticket escalation pattern), and provides intervention strategy with revenue impact ($1.2M ARR at risk)."
-- **Expected Impact**: Demonstrates Snowflake is SQL generation, not business analytics. Scoop answers the questions executives actually ask.
+- **Story**: "Ask Snowflake Cortex 'Why did customer churn increase?' — it can understand follow-up questions, but each question generates one SQL query. You might get: 'Churn increased 15% in Q3.' Then you ask 'Why?' and get: 'Churn rate by tenure shows...' You're driving the investigation manually. Ask Scoop the same question — it automatically tests 8 hypotheses, runs 7 queries, identifies root cause (support ticket escalation pattern), and provides intervention strategy with revenue impact ($1.2M ARR at risk). Multi-turn conversation vs multi-pass investigation."
+- **Expected Impact**: Demonstrates Snowflake is SQL generation (one query per question), not business analytics (automated multi-pass investigation). Scoop investigates like an analyst, not a query engine.
 
 **Scenario 4: Semantic Model Bottleneck**
 - **When to Use**: When discussing time-to-value and IT dependency
@@ -55,9 +58,9 @@
 ## 3. TALKING POINTS (Emphasis hierarchy)
 
 **Lead With** (Most important - first 1000 words):
-1. **"Where you work"** (Slack/Excel/Mobile vs Snowflake console) - *Because they have NO UI, zero mobile, API-only*
+1. **"Where you work"** (Slack/Excel/Mobile vs Snowflake console) - *Because Intelligence preview has 3 basic charts but zero native tool integration*
 2. **"What you get"** (Branded PowerPoint vs SQL tables) - *Because they have no presentation tools, manual 70-min workflow*
-3. **"Investigation vs generation"** (Multi-pass "why" vs single SQL query) - *Because they fail on "why" questions (0/8 Investigation score)*
+3. **"Multi-pass vs multi-turn"** (Automated investigation with 7+ queries vs follow-up questions) - *Because they can understand context but each question = one SQL query. Investigation requires reasoning engine that orchestrates multiple queries automatically.*
 
 **Always Mention** (Standard Scoop advantages):
 4. **Excel formula engine** (150+ functions vs zero Excel integration)
@@ -70,6 +73,7 @@
 - **Cost** (TCO is comparable, not huge differentiator - they're $86K-$171K, we're similar)
 - **Data quality** (they have basic data validation, not their weakest point)
 - **SQL expertise** (obvious they need SQL skills, don't over-hammer this)
+- **"No follow-ups"** (Cortex Analyst now supports multi-turn conversations - acknowledge this, but emphasize multi-turn ≠ multi-pass investigation)
 
 ---
 
@@ -433,9 +437,11 @@ TIME: 30 seconds automated
 
 **Version History**:
 - 2025-09-27: Initial version based on BUA 26/100 scoring and Phase 2 research
+- 2025-09-28: Updated for Snowflake Intelligence preview and Cortex Analyst multi-turn capabilities. Added defensibility classification. Refined investigation weakness to distinguish multi-turn (follow-up questions) from multi-pass (automated investigation with 7+ queries). Acknowledged Intelligence UI preview but emphasized it remains console-focused with 3 basic chart types vs Scoop's 15+ in native tools.
 
 ---
 
-**Template Version**: 1.0
+**Template Version**: 1.1 (updated with defensibility framework)
 **Created**: September 27, 2025
+**Last Updated**: September 28, 2025
 **Competitor BUA Score**: 26/100 (Category C - Weak)

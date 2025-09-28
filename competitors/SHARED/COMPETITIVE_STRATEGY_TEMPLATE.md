@@ -10,24 +10,32 @@
 
 ## 1. PRIMARY WEAKNESSES (Rank Top 3)
 
-**Instructions**: Identify the 3 most exploitable weaknesses. Use BUA framework scores as evidence. Assign severity and emphasis level.
+**Instructions**: Identify the 3 most exploitable weaknesses. Use BUA framework scores as evidence. Assign severity, defensibility, and emphasis level.
 
-**#1: [Weakness Name]** (Severity: Critical | High | Medium)
+**Defensibility Guide**:
+- **Architectural**: Fundamental to competitor's design, hard/impossible to fix (emphasize heavily)
+- **Temporal**: May improve with better models/updates (acknowledge but don't over-emphasize)
+- **Strategic**: Competitor could fix but chooses not to (moderate emphasis)
+
+**#1: [Weakness Name]** (Severity: Critical | High | Medium | Defensibility: Architectural | Temporal | Strategic)
 - **Evidence**: [BUA dimension score, specific finding, or quote from research]
 - **Why It Matters**: [Business impact - why buyers care]
 - **Our Advantage**: [Specific Scoop capability that addresses this]
+- **Defensibility**: [Is this architectural or may competitor improve? How quickly? Why emphasize/de-emphasize?]
 - **Emphasis Level**: [XX]% of web comparison
 
-**#2: [Weakness Name]** (Severity: Critical | High | Medium)
+**#2: [Weakness Name]** (Severity: Critical | High | Medium | Defensibility: Architectural | Temporal | Strategic)
 - **Evidence**:
 - **Why It Matters**:
 - **Our Advantage**:
+- **Defensibility**:
 - **Emphasis Level**: [XX]%
 
-**#3: [Weakness Name]** (Severity: Critical | High | Medium)
+**#3: [Weakness Name]** (Severity: Critical | High | Medium | Defensibility: Architectural | Temporal | Strategic)
 - **Evidence**:
 - **Why It Matters**:
 - **Our Advantage**:
+- **Defensibility**:
 - **Emphasis Level**: [XX]%
 
 ---
@@ -75,7 +83,14 @@
 
 ## 4. CONTENT DISTRIBUTION (Word allocation for 7,500-word comparison)
 
-**Instructions**: Allocate percentages based on competitor weaknesses. Default is balanced, adjust to emphasize areas where competitor is weakest.
+**Instructions**: Allocate percentages based on competitor weaknesses and defensibility. Emphasize architectural limitations (hard for competitor to fix), de-emphasize temporal limitations (may improve).
+
+**Emphasis Adjustment Philosophy**:
+- ⬆️ INCREASE emphasis on architectural limitations (competitor cannot easily fix)
+- ⬇️ DECREASE emphasis on temporal limitations (may improve with better models/updates)
+- ⬆️ INCREASE where competitor gap is widest (BUA dimension <5/20)
+- ⬆️ INCREASE where differentiation is clearest and most measurable
+- ⬇️ DECREASE where competitor is adequate or gap is narrow
 
 **Recommended Mix**:
 - **Section 1 (Executive Summary)**: [XX]% (~XXX words)
@@ -90,11 +105,11 @@
 - **Section 5-7 (FAQ/Evidence/Next Steps)**: [XX]% (~XXX words)
 
 **Rationale**:
-[1-2 sentences explaining why this distribution makes sense for this competitor]
+[Explain distribution based on defensibility, not just severity. Which weaknesses are architectural vs temporal? Why emphasize certain areas over others?]
 
 **Comparison to Default**:
-- ⬆️ Increased: [Section name] (normally XX%, now XX%) - Because [reason]
-- ⬇️ Decreased: [Section name] (normally XX%, now XX%) - Because [reason]
+- ⬆️ Increased: [Section name] (normally XX%, now XX%) - Because [architectural limitation / widest gap / defensibility reason]
+- ⬇️ Decreased: [Section name] (normally XX%, now XX%) - Because [may improve / narrow gap / temporal limitation]
 
 ---
 
@@ -141,21 +156,34 @@
 
 ## 7. COMPETITIVE POSITIONING
 
-**Instructions**: Craft the core positioning message. This should be memorable and accurate.
+**Instructions**: Craft the core positioning message. Start with product type classification to set the frame, then build specific positioning.
+
+**Product Type Classification**:
+- **What They Really Are**: [Text-to-query interface | SQL generation tool | BI tool with AI | Dashboard platform | etc.]
+- **What We Really Are**: [AI data analyst | Business analytics platform]
+- **Their Primary Audience**: [Data engineers | Analysts | Dashboard creators | Technical users]
+- **Our Primary Audience**: Business users with Excel skills
+- **Key Architectural Difference**: [Their fundamental approach vs our approach]
 
 **One-Sentence Position**:
-"[Competitor] is [what they really are], Scoop is [what we really are]"
+"[Competitor] is a {PRODUCT_TYPE} for {AUDIENCE}, Scoop is a {PRODUCT_TYPE} for {AUDIENCE}"
+
+**Example Patterns**:
+- "[Competitor] is a text-to-query interface for IT-built semantic models, Scoop is an AI data analyst for any data"
+- "[Competitor] is a SQL generation tool for data engineers, Scoop is a business analytics platform for Excel users"
+- "[Competitor] is a BI tool with AI features, Scoop is an AI-first analytics platform"
 
 **Elevator Pitch** (30 seconds, ~60 words):
-[2-3 sentences capturing the core differentiation. Should mention their primary weakness and our primary strength.]
+[2-3 sentences capturing the core differentiation. Should mention their product type, primary weakness, and our product type with primary strength.]
 
 **Key Contrast**:
 | Dimension | [Competitor] | Scoop |
 |-----------|-------------|-------|
-| Built For | [Their user] | Business users with Excel skills |
-| Primary Interface | [Their interface] | Slack + Excel + PowerPoint |
-| Deliverable | [What they give you] | Branded presentations with insights |
-| Setup Time | [Their time] | 30 seconds |
+| **Product Type** | [Their type] | AI data analyst / Business analytics platform |
+| **Built For** | [Their user] | Business users with Excel skills |
+| **Primary Interface** | [Their interface] | Slack + Excel + PowerPoint |
+| **Deliverable** | [What they give you] | Branded presentations with insights |
+| **Setup Time** | [Their time] | 30 seconds |
 
 ---
 
@@ -290,5 +318,9 @@ RESULT: [What you end up with]
 
 ---
 
-**Template Version**: 1.0
+**Template Version**: 1.1
 **Created**: September 27, 2025
+**Last Updated**: September 28, 2025
+
+**Changelog**:
+- **v1.1 (Sept 28, 2025)**: Added defensibility field to weaknesses (Section 1), emphasis adjustment philosophy to content distribution (Section 4), and product type classification to positioning (Section 7). Based on learnings from Power BI Copilot strategy development.
