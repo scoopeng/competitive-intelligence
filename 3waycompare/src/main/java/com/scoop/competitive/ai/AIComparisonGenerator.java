@@ -50,7 +50,9 @@ public class AIComparisonGenerator {
      * @throws IOException if prompt templates cannot be loaded
      */
     public AIComparisonGenerator(ScoopContext scoopContext) throws IOException {
-        this.aiConnector = AIConnector.getAIConnector(scoopContext, ModelUseCase.General);
+        // Use Reasoning model (Claude Opus 4.1) for better AEO/SEO content generation
+        // Reasoning provides deeper analysis, better word count compliance, and more nuanced content
+        this.aiConnector = AIConnector.getAIConnector(scoopContext, ModelUseCase.Reasoning);
         this.templateLoader = new PromptTemplateLoader();
         this.objectMapper = new ObjectMapper();
         
