@@ -17,6 +17,7 @@ public class MarkdownWriter {
         writeExecutiveSummary(markdown, comparison);
         writeAtAGlanceMatrix(markdown, comparison);
         writeBUADeepDive(markdown, comparison);
+        writeCapabilityDeepDive(markdown, comparison);
         writeFAQ(markdown, comparison);
         writeSchemas(markdown, comparison);
 
@@ -133,10 +134,40 @@ public class MarkdownWriter {
             md.append(" | Scoop |\n");
             md.append("|-----------|----------|----------|-------|\n");
 
-            // Component table iteration would go here when model supports it
-            // for (ThreeWayComparison.ComponentComparison comp : analysis.getComponents()) {...
+            // Write component rows
+            for (ThreeWayComparison.ComponentComparison comp : analysis.getComponents()) {
+                md.append("| ").append(comp.getComponentName());
+                md.append(" | ").append(comp.getCompetitorAScore()).append("/8");
+                md.append(" | ").append(comp.getCompetitorBScore()).append("/8");
+                md.append(" | ").append(comp.getScoopScore()).append("/8 |\n");
+            }
 
             md.append("\n");
+        }
+    }
+
+    private void writeCapabilityDeepDive(StringBuilder md, ThreeWayComparison comparison) {
+        if (comparison.getCapabilityDeepDive() == null) return;
+
+        md.append("## Capability Deep Dive\n\n");
+
+        ThreeWayComparison.CapabilityDeepDive capabilities = comparison.getCapabilityDeepDive();
+
+        // Write each capability section if it exists
+        if (capabilities.getInvestigationAnalysis() != null) {
+            md.append(capabilities.getInvestigationAnalysis()).append("\n\n");
+        }
+        if (capabilities.getSpreadsheetEngine() != null) {
+            md.append(capabilities.getSpreadsheetEngine()).append("\n\n");
+        }
+        if (capabilities.getSideByByScenario() != null) {
+            md.append(capabilities.getSideByByScenario()).append("\n\n");
+        }
+        if (capabilities.getMlPatternDiscovery() != null) {
+            md.append(capabilities.getMlPatternDiscovery()).append("\n\n");
+        }
+        if (capabilities.getWorkflowIntegration() != null) {
+            md.append(capabilities.getWorkflowIntegration()).append("\n\n");
         }
     }
 

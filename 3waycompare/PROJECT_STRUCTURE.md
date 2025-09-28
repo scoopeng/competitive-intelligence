@@ -123,13 +123,20 @@
 - Output size: ~15-20KB markdown
 - Word count compliance: FAQ (40-60), TL;DR (50-58)
 
-## Known Working State
+## Known Working State (v1.1.0)
 - ✅ Connects to Scoop production database
 - ✅ Creates valid ScoopContext
-- ✅ Successfully calls Claude AI
+- ✅ Successfully calls Claude AI (11 calls per comparison)
 - ✅ Parses JSON responses with markdown wrapper handling
-- ✅ Generates complete comparisons
-- ✅ Writes valid markdown output
+- ✅ Handles both string and array responses for bullet points
+- ✅ Generates complete comparisons with all sections
+- ✅ Writes valid markdown output with populated tables
+
+### Fixed Issues (Sept 28, 2025)
+- Executive Summary bullet points (was empty, now populated)
+- BUA Framework component tables (was empty, now shows scores)
+- Capability sections (was missing, now generates all 5)
+- Array response handling (was failing on arrays, now handles both)
 
 ## For QA Testing
 Focus on:

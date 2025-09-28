@@ -2,11 +2,18 @@
 
 Generates intelligent three-way comparisons (Competitor A vs Competitor B vs Scoop) using Claude AI to create nuanced, evidence-based content that highlights Scoop's business user autonomy advantages.
 
-## Status: ✅ Production Ready
+## Status: ✅ Production Ready v1.1.0
 - Successfully calls Claude AI via Scoop's AIConnector
-- Generates complete comparisons in ~5 minutes
+- Generates complete comparisons in ~4-5 minutes
+- All sections properly populated (Executive Summary, BUA, Capabilities, FAQ)
 - All hard-coded content removed
 - Uses production configuration and API keys
+
+### Latest Fixes (v1.1.0)
+- ✅ Executive Summary bullet points now populate correctly
+- ✅ BUA Framework tables show all component scores
+- ✅ Capability Deep Dive sections generate all 5 capabilities
+- ✅ Handles both string and array AI responses
 
 ## Architecture
 

@@ -138,9 +138,47 @@ public class AIComparisonGenerator {
         ThreeWayComparison.ExecutiveSummary summary = new ThreeWayComparison.ExecutiveSummary();
         summary.setTldrVerdict(markdown.get("tldrVerdict").asText());
         summary.setWhatIsScoop(markdown.get("whatIsScoop").asText());
-        summary.setChooseScoopIf(markdown.get("chooseScoopIf").asText());
-        summary.setConsiderAIf(markdown.get("considerAIf").asText());
-        summary.setConsiderBIf(markdown.get("considerBIf").asText());
+
+        // Handle bullet points that might be returned as a string or array
+        JsonNode chooseScoopNode = markdown.get("chooseScoopIf");
+        if (chooseScoopNode != null && !chooseScoopNode.isNull()) {
+            if (chooseScoopNode.isArray()) {
+                StringBuilder bullets = new StringBuilder();
+                for (JsonNode bullet : chooseScoopNode) {
+                    bullets.append("- ").append(bullet.asText()).append("\n");
+                }
+                summary.setChooseScoopIf(bullets.toString().trim());
+            } else {
+                summary.setChooseScoopIf(chooseScoopNode.asText());
+            }
+        }
+
+        JsonNode considerANode = markdown.get("considerAIf");
+        if (considerANode != null && !considerANode.isNull()) {
+            if (considerANode.isArray()) {
+                StringBuilder bullets = new StringBuilder();
+                for (JsonNode bullet : considerANode) {
+                    bullets.append("- ").append(bullet.asText()).append("\n");
+                }
+                summary.setConsiderAIf(bullets.toString().trim());
+            } else {
+                summary.setConsiderAIf(considerANode.asText());
+            }
+        }
+
+        JsonNode considerBNode = markdown.get("considerBIf");
+        if (considerBNode != null && !considerBNode.isNull()) {
+            if (considerBNode.isArray()) {
+                StringBuilder bullets = new StringBuilder();
+                for (JsonNode bullet : considerBNode) {
+                    bullets.append("- ").append(bullet.asText()).append("\n");
+                }
+                summary.setConsiderBIf(bullets.toString().trim());
+            } else {
+                summary.setConsiderBIf(considerBNode.asText());
+            }
+        }
+
         summary.setBottomLine(markdown.get("bottomLine").asText());
         
         return summary;
@@ -203,7 +241,8 @@ public class AIComparisonGenerator {
         
         // Create DimensionComparison object
         ThreeWayComparison.DimensionComparison comparison = new ThreeWayComparison.DimensionComparison();
-        
+        comparison.setDimensionName(dimension);
+
         // Parse component table if present
         if (markdown.has("componentTable")) {
             List<ThreeWayComparison.ComponentComparison> components = new ArrayList<>();
@@ -223,7 +262,7 @@ public class AIComparisonGenerator {
             }
             comparison.setComponents(components);
         }
-        
+
         return comparison;
     }
     
@@ -240,10 +279,12 @@ public class AIComparisonGenerator {
             generateCapabilitySection("Investigation & Root Cause Analysis", competitorA, competitorB));
         capabilities.setSpreadsheetEngine(
             generateCapabilitySection("Excel & Spreadsheet Integration", competitorA, competitorB));
+        capabilities.setSideByByScenario(
+            generateCapabilitySection("Side-by-Side Scenario Analysis", competitorA, competitorB));
         capabilities.setMlPatternDiscovery(
-            generateCapabilitySection("Machine Learning & AI", competitorA, competitorB));
+            generateCapabilitySection("Machine Learning & Pattern Discovery", competitorA, competitorB));
         capabilities.setWorkflowIntegration(
-            generateCapabilitySection("Workflow Integration", competitorA, competitorB));
+            generateCapabilitySection("Workflow Integration & Mobile", competitorA, competitorB));
         
         return capabilities;
     }

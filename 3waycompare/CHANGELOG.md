@@ -5,6 +5,30 @@ All notable changes to the 3waycompare project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-09-28
+
+### Fixed
+- Executive Summary sections now properly populated with bullet points
+- BUA Framework tables now display component scores correctly
+- Capability Deep Dive sections now generate and display all 5 capabilities
+- Array handling for AI responses that return bullet points as arrays
+- MarkdownWriter now writes all sections including capabilities
+
+### Changed
+- AIComparisonGenerator handles both string and array responses for bullet points
+- Added dimension names to BUA comparison objects
+- Added all capability section generation (Investigation, Excel, Side-by-Side, ML, Workflow)
+- MarkdownWriter includes component iteration and capability writing
+
+### Known Issues
+- TL;DR word count below target (38 vs 50-58 words)
+- Evidence citations remain generic placeholders
+
+### Testing
+- Successfully tested with thoughtspot vs domo comparison
+- Successfully tested with power-bi-copilot vs tableau-pulse comparison
+- Generation time: ~4-5 minutes per comparison
+
 ## [1.0.0] - 2025-09-28
 
 ### Added
