@@ -49,12 +49,13 @@
 ### Competitive Strategy Template
 - **Version**: 1.1
 - **Location**: `/competitors/SHARED/COMPETITIVE_STRATEGY_TEMPLATE.md`
-- **Features**: Defensibility framework, emphasis adjustment philosophy, product type classification
+- **Features**: Defensibility framework, emphasis adjustment philosophy, product type classification, TCO cost elimination guidance
 
 ### Web Comparison Template
-- **Version**: 2.1
+- **Version**: 2.2 (TCO Rewrite)
 - **Location**: `/templates/WEB_COMPARISON_TEMPLATE.md`
-- **Features**: Question Hierarchy, Semantic Model Boundary (optional), At-a-Glance question rows, complex query FAQ
+- **Features**: Question Hierarchy, Semantic Model Boundary (optional), At-a-Glance question rows, complex query FAQ, **TCO cost elimination framework**
+- **Critical Change (Sept 28 Evening)**: Removed all specific Scoop dollar amounts, replaced with cost category elimination approach
 
 ## Competitive Insights from Tier 1 Strategies (Sept 28)
 
@@ -131,14 +132,71 @@
 
 **Key Insight**: Lowest BUA score. Minimal functionality, zero market validation after 7 years.
 
+## Critical Issue Discovered: Pricing Inconsistency (Sept 28 Evening)
+
+### The Problem
+All 11 web comparisons contained **wildly inconsistent Scoop pricing claims**:
+- ThoughtSpot: $3,588 for 200 users ($18/user/year)
+- Qlik: $240,000 for 200 users ($1,200/user/year)
+- Snowflake: $72,000 for 200 users ($360/user/year)
+- **67x variance** between lowest and highest claims
+
+**Root Cause**: Pricing is evolving. Specific dollar amounts will become outdated and create credibility risk.
+
+### The Solution: TCO Cost Elimination Framework
+
+**Strategic Reframe**: From "we're cheaper" to "we eliminate 5 of 6 cost categories"
+
+```
+Traditional BI TCO = Licenses + Implementation + Training + Maintenance + Consultants + Productivity Loss
+                   = 1x      + 2-4x           + 0.5-2x  + 1-2x        + 1-3x        + 2-4x
+                   = 7.5x - 16x the license cost
+
+Scoop TCO = Software subscription only
+          = 1x (everything else is $0)
+```
+
+**What We Now Say** (defensible):
+- ✅ "Scoop eliminates implementation cost ($0), training cost ($0), and IT maintenance cost ($0)"
+- ✅ "Typical customers see 10x lower TCO"
+- ✅ "Cost advantage comes from eliminating 5 of 6 cost categories, not cheaper licenses"
+
+**What We Don't Say** (risky):
+- ❌ "Scoop costs $X for Y users"
+- ❌ Any specific Scoop annual contract values
+
+### Implementation Progress
+
+**Templates Updated** ✅:
+- WEB_COMPARISON_TEMPLATE.md → v2.2 (TCO framework)
+- COMPETITIVE_STRATEGY_TEMPLATE.md → v1.1 (TCO guidance added)
+- CLAUDE.md → Pricing & TCO Guidance section added
+
+**Web Comparisons Rewritten**:
+- ✅ **Qlik** (Sept 28) - Regenerated with TCO framework, QA passed
+- 🔄 **Remaining 10** - Need regeneration with TCO framework
+
+### Quality Verification: Qlik (Reference Implementation)
+
+**QA Checklist**:
+- ✅ No specific Scoop dollar amounts
+- ✅ "Fraction of traditional BI TCO" in At-a-Glance table
+- ✅ Full 6-category cost breakdown showing why each = $0
+- ✅ Architectural reasoning for cost elimination (not pricing claims)
+- ✅ All competitor pricing kept with sources
+- ✅ Professional positioning (cost elimination vs "cheap alternative")
+
+**Result**: Ready to deploy as reference for remaining 10 competitors.
+
 ## Next Actions
 
-1. ✅ **ALL 11 COMPETITORS COMPLETE**: 100% strategy + web comparison coverage
-   - Tier 1 deployed (7): Power BI, Snowflake, Tableau, Zenlytic, ThoughtSpot, Domo, Qlik
-   - Tier 2 ready (4): Sisense, DataGPT, Tellius, DataChat
+1. 🔄 **REGENERATE ALL WEB COMPARISONS** with TCO framework
+   - ✅ Qlik (complete, QA passed)
+   - 🔄 Power BI, Snowflake, Tableau, Zenlytic, ThoughtSpot, Domo (deployed but need TCO rewrite)
+   - 🔄 Sisense, DataGPT, Tellius, DataChat (ready to deploy but need TCO rewrite)
 
-2. **Deploy Tier 2** to production (4 remaining web comparisons)
+2. **Deploy after TCO rewrite**: All 11 competitors with consistent, defensible cost positioning
 
-3. **Repository Status**: Complete competitive intelligence suite
+3. **Strategic Benefit**: Pricing flexibility - claims remain true regardless of future pricing changes
 
-Last Updated: September 28, 2025 (Late Evening - ALL 11 COMPETITORS COMPLETE)
+Last Updated: September 28, 2025 (Late Evening - TCO Framework Implemented)

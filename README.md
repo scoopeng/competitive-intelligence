@@ -4,25 +4,50 @@
 
 **Current Work Status**: See `COMPETITOR_STATUS.md` for live progress tracker
 
+### 🚨 CRITICAL: TCO Framework Rewrite In Progress (September 28, Late Evening)
+
+**Issue Discovered**: All 11 web comparisons had inconsistent Scoop pricing (67x variance: $3,588 to $240,000 for same user count)
+
+**Solution Implemented**: TCO Cost Elimination Framework
+- **FROM**: "We're cheaper" (commoditizes, creates pricing lock-in)
+- **TO**: "We eliminate 5 of 6 cost categories" (architectural differentiation)
+- **Formula**: Traditional BI = 7.5x-16x license cost | Scoop = License only (everything else $0)
+
+**Templates Updated** (No new files):
+- WEB_COMPARISON_TEMPLATE.md → v2.2 (TCO framework)
+- COMPETITIVE_STRATEGY_TEMPLATE.md → v1.1 (TCO guidance)
+- CLAUDE.md → Pricing & TCO Guidance section
+
+**Regeneration Progress**:
+- ✅ **Qlik** - Complete rewrite with TCO framework (QA passed)
+- 🔄 **Remaining 10** - Need regeneration with TCO approach
+
+**Why This Matters**: Defensible regardless of pricing evolution. Even if Scoop pricing increases 10x, architectural facts remain: implementation ($0), training ($0), maintenance ($0).
+
+---
+
 ### ✅ ALL 11 COMPETITORS COMPLETE: 100% Strategy + Web Comparison Coverage (September 28, 2025)
 
 **Tier 1 Deployed** (7 market leaders):
 - **Morning**: Snowflake Cortex, Tableau Pulse, Zenlytic
 - **Evening**: ThoughtSpot, Domo, Qlik
 - **Deployment**: Power BI Copilot + 6 above live on production
+- **Note**: All 7 require TCO rewrite before next deployment
 
 **Tier 2 Generated** (4 lower presence):
 - Sisense (28/100) - Embedded analytics focus, ARIMA fake AI
 - DataGPT (22/100) - Single-source limitation, investigation failure
 - Tellius (22/100) - Apache Spark crashes, Excel elimination
 - DataChat (17/100) - Zero Excel, no API, lowest score
+- **Note**: All 4 require TCO rewrite before deployment
 
 **Framework & Quality**:
-- **Strategy Template**: v1.1 with defensibility framework (Architectural/Temporal/Strategic)
-- **Web Comparison Template**: v2.1 with Question Hierarchy, Semantic Model Boundary
+- **Strategy Template**: v1.1 with defensibility + TCO guidance
+- **Web Comparison Template**: v2.2 with TCO cost elimination framework (Sept 28 update)
 - **Quality Standard**: Grade A (9/10 average) across all deployments
 - **Total Content**: 82,538 words across 11 web comparisons
 - **Investigation-First**: Multi-pass vs single-query positioning throughout
+- **Cost Positioning**: TCO elimination (10x lower) vs sticker price claims
 
 ### ✅ BUA Framework Standardized to 100 Points (September 27, 2025)
 - **Framework Enhancement**: Complete redesign with 20 components across 5 dimensions

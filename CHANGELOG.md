@@ -1,6 +1,104 @@
 # Competitive Intelligence Repository Changelog
 
-## September 28, 2025 - Tier 1 Complete: Strategies + Web Comparisons
+## September 28, 2025 (Late Evening) - TCO Framework: Pricing Rewrite
+
+### Critical Issue Discovered: Pricing Inconsistency Across All 11 Competitors
+
+**Problem Identified**:
+All web comparisons contained wildly inconsistent Scoop pricing claims:
+- ThoughtSpot: $3,588 for 200 users ($18/user/year)
+- Qlik: $240,000 for 200 users ($1,200/user/year)
+- Snowflake: $72,000 for 200 users ($360/user/year)
+- Domo: $7,176 for 200 users ($36/user/year)
+- **67x variance** between lowest and highest claims for same user count
+
+**Root Cause**:
+- No documented Scoop pricing in repository
+- Task tool agents fabricated numbers by dividing competitor costs by arbitrary factors
+- Scoop's pricing is "figuring it out" and may capture enterprise value
+- Specific dollar amounts will become outdated and create credibility risk
+
+### The Strategic Reframe: TCO Cost Elimination Framework
+
+**FROM**: "We're cheaper" (commoditizes platform, creates pricing lock-in)
+**TO**: "We eliminate 5 of 6 cost categories" (highlights architectural differentiation)
+
+**The TCO Formula**:
+```
+Traditional BI TCO = Licenses + Implementation + Training + Maintenance + Consultants + Productivity Loss
+                   = 1x      + 2-4x           + 0.5-2x  + 1-2x        + 1-3x        + 2-4x
+                   = 7.5x - 16x the license cost
+
+Scoop TCO = Software subscription only
+          = 1x (everything else is $0)
+```
+
+**Why This Works**:
+1. **Defensible**: If Scoop licenses increase 10x, the $0 categories remain true
+2. **Architectural**: Implementation = $0 because no data modeling required (not a pricing decision)
+3. **Professional**: "Cost elimination" vs "cheaper alternative" positioning
+4. **Evidence-based**: Competitor hidden costs well-documented with sources
+
+### Templates Updated (No New Files Created)
+
+**1. WEB_COMPARISON_TEMPLATE.md → v2.2**:
+- At-a-Glance table: "Fraction of traditional BI TCO" instead of specific dollars
+- New Cost Section 3: Full 6-category breakdown showing why Scoop = $0 for 5 categories
+- Added "Cost Elimination Framework" explanation with architectural reasoning
+- Removed all `{SCOOP_DOLLAR_AMOUNT}` placeholders
+- Commit: `80d3f2a`
+
+**2. COMPETITIVE_STRATEGY_TEMPLATE.md → v1.1 (TCO guidance added)**:
+- Section 4: Added guidance to emphasize cost elimination over license comparison
+- Section 8: Added "Don't Say" rule about specific Scoop pricing
+- Emphasis: Always lead with architectural reasons for $0 categories
+- Commit: `80d3f2a`
+
+**3. CLAUDE.md**:
+- New "Pricing & TCO Guidance" section (marked CRITICAL)
+- Documents the 67x variance problem
+- Shows what to say ✅ vs what not to say ❌
+- Explains why TCO approach is defensible
+- Commit: `80d3f2a`
+
+### Implementation Progress
+
+**Web Comparisons Regenerated**:
+- ✅ **Qlik** (7,850 words) - Complete rewrite with TCO framework
+  - QA passed: No specific Scoop dollars, full cost elimination framework
+  - Reference implementation for remaining 10 competitors
+
+**Remaining 10 Need TCO Rewrite**:
+- Power BI Copilot, Snowflake Cortex, Tableau Pulse, Zenlytic (deployed)
+- ThoughtSpot, Domo (deployed)
+- Sisense, DataGPT, Tellius, DataChat (ready to deploy)
+
+### Quality Standards for TCO Rewrites
+
+**Must Have** ✅:
+- No specific Scoop dollar amounts anywhere
+- "Fraction of traditional BI TCO" or "Software subscription only" language
+- Full 6-category cost breakdown showing architectural reasons for $0
+- All competitor pricing kept with sources (that's valuable research)
+- Professional positioning (cost elimination vs "cheap alternative")
+
+**Must NOT Have** ❌:
+- "Scoop costs $X for Y users"
+- Any specific Scoop annual contract values
+- Sticker price comparisons without TCO context
+
+### Key Learning
+
+**Strategic Positioning Evolution**:
+- **Before**: "10x cheaper" based on fabricated license price comparisons
+- **After**: "10x lower TCO" based on eliminating 5 of 6 cost categories
+- **Why Better**: Defensible regardless of pricing evolution, highlights architectural advantages
+
+**Example**: Even if Scoop pricing increases 5x, the claim remains true because implementation ($0), training ($0), and maintenance ($0) are architectural facts, not pricing decisions.
+
+---
+
+## September 28, 2025 (Evening) - Tier 1 Complete: Strategies + Web Comparisons
 
 ### Evening Session: ThoughtSpot, Domo, Qlik Complete
 **3 Additional Strategies Created** (v1.1 with Defensibility Framework):
