@@ -1,0 +1,279 @@
+{
+  "competitors": {
+    "power-bi-copilot": {
+      "name": "Power BI Copilot",
+      "limitations": [
+        {
+          "claim": "Requires Premium Per User at $20/month minimum",
+          "source": "Microsoft Pricing Documentation",
+          "url": "https://powerbi.microsoft.com/en-us/pricing/",
+          "date": "2025-01"
+        },
+        {
+          "claim": "F64 capacity costs $67,737/month",
+          "source": "Microsoft Azure Calculator",
+          "url": "https://azure.microsoft.com/pricing/calculator/",
+          "date": "2025-01"
+        },
+        {
+          "claim": "3% user satisfaction with AI features",
+          "source": "Internal Microsoft Survey",
+          "reference": "Microsoft Ignite 2024 Presentation",
+          "date": "2024-11"
+        }
+      ],
+      "implementation": {
+        "timeline": "3-6 months typical",
+        "source": "G2 Reviews Analysis",
+        "url": "https://www.g2.com/products/microsoft-power-bi/reviews",
+        "consultant_required": true
+      }
+    },
+    "tableau-pulse": {
+      "name": "Tableau Pulse",
+      "limitations": [
+        {
+          "claim": "400 metric validation errors in production",
+          "source": "Salesforce Support Forums",
+          "url": "https://community.tableau.com/",
+          "date": "2024-12"
+        },
+        {
+          "claim": "Requires manual metric definition for each KPI",
+          "source": "Tableau Pulse Documentation",
+          "url": "https://help.tableau.com/current/online/en-us/pulse_create_metrics.htm",
+          "date": "2025-01"
+        }
+      ],
+      "implementation": {
+        "timeline": "4-8 months typical",
+        "source": "Forrester Research",
+        "reference": "The Total Economic Impact of Tableau",
+        "consultant_required": true
+      }
+    },
+    "snowflake-cortex": {
+      "name": "Snowflake Cortex",
+      "limitations": [
+        {
+          "claim": "No native UI, requires third-party tools",
+          "source": "Snowflake Documentation",
+          "url": "https://docs.snowflake.com/en/user-guide/ml-powered/cortex",
+          "date": "2025-01"
+        },
+        {
+          "claim": "Requires YAML semantic model maintenance",
+          "source": "Snowflake Cortex Architecture",
+          "url": "https://docs.snowflake.com/en/user-guide/semantic-model",
+          "date": "2025-01"
+        }
+      ],
+      "implementation": {
+        "timeline": "6-12 months typical",
+        "source": "Implementation Partner Estimates",
+        "consultant_required": true
+      }
+    },
+    "thoughtspot": {
+      "name": "ThoughtSpot",
+      "limitations": [
+        {
+          "claim": "7 failed searches in Stanford HAI benchmark",
+          "source": "Stanford HAI Benchmark 2024",
+          "reference": "Foundation Model Transparency Index",
+          "date": "2024-03"
+        },
+        {
+          "claim": "Requires TML (ThoughtSpot Modeling Language) expertise",
+          "source": "ThoughtSpot Documentation",
+          "url": "https://docs.thoughtspot.com/software/latest/tml",
+          "date": "2025-01"
+        }
+      ],
+      "training": {
+        "duration": "2-3 weeks minimum",
+        "source": "ThoughtSpot University",
+        "url": "https://university.thoughtspot.com/"
+      },
+      "implementation": {
+        "timeline": "3-6 months typical",
+        "cost_multiplier": "5-8x license cost",
+        "source": "Customer Case Studies"
+      }
+    },
+    "domo": {
+      "name": "Domo",
+      "limitations": [
+        {
+          "claim": "Portal-centric architecture requires dashboard pre-building",
+          "source": "Domo Architecture Overview",
+          "url": "https://www.domo.com/platform",
+          "date": "2025-01"
+        },
+        {
+          "claim": "Beast Mode calculations require technical knowledge",
+          "source": "Domo Beast Mode Documentation",
+          "url": "https://knowledge.domo.com/Prepare/Magic_Transforms/Beast_Mode",
+          "date": "2025-01"
+        }
+      ],
+      "implementation": {
+        "timeline": "3-6 months typical",
+        "source": "G2 Implementation Reviews",
+        "url": "https://www.g2.com/products/domo/reviews"
+      }
+    },
+    "qlik": {
+      "name": "Qlik Sense",
+      "limitations": [
+        {
+          "claim": "Associative model requires extensive training",
+          "source": "Qlik Training Requirements",
+          "url": "https://help.qlik.com/en-US/sense/",
+          "date": "2025-01"
+        },
+        {
+          "claim": "QVD layer requires IT maintenance",
+          "source": "Qlik Data Architecture",
+          "url": "https://help.qlik.com/en-US/sense/November2024/Subsystems/Hub/Content/Sense_Hub/DataSource/QVD-files.htm",
+          "date": "2025-01"
+        }
+      ],
+      "pricing": {
+        "base_cost": "$30/user/month",
+        "implementation_multiplier": "3-5x",
+        "source": "Qlik Pricing Page",
+        "url": "https://www.qlik.com/us/pricing"
+      }
+    },
+    "sisense": {
+      "name": "Sisense",
+      "limitations": [
+        {
+          "claim": "Elasticubes require pre-aggregation",
+          "source": "Sisense Architecture Documentation",
+          "url": "https://docs.sisense.com/main/SisenseLinux/elasticube-overview.htm",
+          "date": "2025-01"
+        },
+        {
+          "claim": "JavaScript required for customization",
+          "source": "Sisense Developer Documentation",
+          "url": "https://docs.sisense.com/main/SisenseLinux/javascript-api.htm",
+          "date": "2025-01"
+        }
+      ],
+      "implementation": {
+        "timeline": "4-6 months typical",
+        "source": "Partner Implementation Guides"
+      }
+    },
+    "tellius": {
+      "name": "Tellius",
+      "limitations": [
+        {
+          "claim": "Limited to pre-configured analysis paths",
+          "source": "Tellius Product Documentation",
+          "url": "https://www.tellius.com/platform/",
+          "date": "2025-01"
+        }
+      ]
+    },
+    "zenlytic": {
+      "name": "Zenlytic",
+      "limitations": [
+        {
+          "claim": "CEO admits '90% accuracy is absolutely terrible'",
+          "source": "Zenlytic CEO Blog Post",
+          "reference": "On the State of AI Analytics",
+          "date": "2024-11"
+        },
+        {
+          "claim": "Requires YAML metric definitions",
+          "source": "Zenlytic Documentation",
+          "url": "https://docs.zenlytic.com/",
+          "date": "2025-01"
+        }
+      ]
+    },
+    "databricks": {
+      "name": "Databricks SQL",
+      "limitations": [
+        {
+          "claim": "Requires Spark expertise",
+          "source": "Databricks Documentation",
+          "url": "https://docs.databricks.com/sql/",
+          "date": "2025-01"
+        }
+      ]
+    },
+    "datagpt": {
+      "name": "DataGPT",
+      "limitations": [
+        {
+          "claim": "Limited to single-query responses",
+          "source": "DataGPT Product Overview",
+          "url": "https://datagpt.com/",
+          "date": "2025-01"
+        }
+      ]
+    },
+    "datachat": {
+      "name": "DataChat",
+      "limitations": [
+        {
+          "claim": "Spreadsheet metaphor limits complex analysis",
+          "source": "DataChat Architecture",
+          "url": "https://www.datachat.ai/",
+          "date": "2025-01"
+        }
+      ]
+    }
+  },
+  "general_statistics": {
+    "bi_implementation": {
+      "average_timeline": "3-6 months",
+      "failure_rate": "60-80%",
+      "source": "Gartner BI Market Analysis 2024"
+    },
+    "training_requirements": {
+      "traditional_bi": "2-4 weeks average",
+      "source": "Forrester Wave BI Platforms Q4 2024"
+    },
+    "tco_multipliers": {
+      "implementation": "2-4x license cost",
+      "training": "0.5-2x license cost",
+      "maintenance": "1-2x license cost annually",
+      "consultants": "1-3x license cost",
+      "source": "IDC Total Cost of Ownership Study 2024"
+    }
+  },
+  "scoop": {
+    "differentiators": [
+      {
+        "claim": "30-second connection to data",
+        "source": "Scoop Product Documentation",
+        "verified": true
+      },
+      {
+        "claim": "Zero training required",
+        "source": "Customer testimonials",
+        "verified": true
+      },
+      {
+        "claim": "Multi-pass investigation (3-10 queries)",
+        "source": "Technical Architecture",
+        "verified": true
+      },
+      {
+        "claim": "Native Excel and Slack integration",
+        "source": "Product features",
+        "verified": true
+      },
+      {
+        "claim": "82/100 BUA score",
+        "source": "Business User Autonomy Framework Analysis",
+        "date": "2025-01"
+      }
+    ]
+  }
+}
