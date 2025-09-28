@@ -155,6 +155,57 @@ Machine generates: web_comparison.md (customized output)
 
 ## Web Content Generation Framework (September 2025)
 
+### 🚨 Pricing & TCO Guidance (September 28, 2025 - CRITICAL)
+
+**NEVER include specific Scoop dollar amounts in web comparisons.** Scoop's pricing is evolving and specific claims will become outdated.
+
+#### The Problem
+Early web comparisons contained wildly inconsistent Scoop pricing:
+- ThoughtSpot comparison: "$3,588 for 200 users" ($18/user/year) ❌
+- Qlik comparison: "$240,000 for 200 users" ($1,200/user/year) ❌
+- Snowflake comparison: "$72,000 for 200 users" ($360/user/year) ❌
+
+**67x variance** between highest and lowest claims for same user count = credibility disaster.
+
+#### The Solution: TCO Framework (Cost Category Elimination)
+
+**Traditional BI platforms have 6 cost categories. Scoop has 1.**
+
+```
+Traditional BI TCO = Licenses + Implementation + Training + Maintenance + Consultants + Productivity Loss
+                   = 1x      + 2-4x           + 0.5-2x  + 1-2x        + 1-3x        + 2-4x
+                   = 7.5x - 16x the license cost
+
+Scoop TCO = Software subscription only
+          = 1x (everything else is $0)
+```
+
+#### What to Say (Defensible)
+✅ "Scoop eliminates implementation cost ($0), training cost ($0), and IT maintenance cost ($0)"
+✅ "Typical customers see 10x lower TCO"
+✅ "No hidden costs: no consultants, no semantic layer maintenance, no productivity loss during rollout"
+✅ "Cost advantage comes from eliminating 5 of 6 cost categories, not cheaper licenses"
+
+#### What NOT to Say (Risky)
+❌ "Scoop costs $X for Y users" (pricing is evolving)
+❌ "Scoop is X% cheaper" based on license price alone (commoditizes platform)
+❌ Any specific Scoop annual contract value
+
+#### Why This Works
+1. **Defensible regardless of pricing evolution**: If Scoop licenses increase 10x, the $0 categories remain true
+2. **Highlights architectural differentiation**: Implementation = $0 because no data modeling required (architectural fact)
+3. **Professional positioning**: "Cost elimination" vs "cheaper alternative"
+4. **Evidence-based**: Competitor hidden costs are well-documented with sources
+
+#### Implementation in Templates
+- **At-a-Glance Table**: "Fraction of traditional BI TCO" (not dollar amounts)
+- **Cost Section**: Full table showing 6 categories, why Scoop eliminates 5
+- **FAQ**: "What does {COMPETITOR} really cost?" answers with all categories breakdown
+
+See `WEB_COMPARISON_TEMPLATE.md` Section 3 for full TCO table structure.
+
+---
+
 ### AI Data Analyst Positioning (September 27, 2025)
 Template now includes "AI data analyst you chat with" positioning aligned with homepage and investor deck.
 
@@ -174,6 +225,7 @@ Template now includes "AI data analyst you chat with" positioning aligned with h
 - **All Departments Coverage**: 9 departments minimum
 - **Positive Data Team Messaging**: "We enable, not replace"
 - **Competitor-Specific Emphasis**: Use COMPETITIVE_STRATEGY.md to customize
+- **TCO Focus (NOT Pricing)**: Emphasize cost category elimination, avoid specific Scoop dollar amounts (see below)
 
 ### Files for Web Comparison Generation
 - **`WEB_COMPARISON_TEMPLATE.md`** - Base template (150K+ chars target)

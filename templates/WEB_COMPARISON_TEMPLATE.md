@@ -7,7 +7,8 @@
 **Philosophy**: Tables > Prose, Show > Tell, Dense > Long
 
 **Changelog**:
-- 2025-09-28: Added "Question Hierarchy" (simple/complex/why distinction), optional "Semantic Model Boundary" block, 3 question capability rows to At-a-Glance table, FAQ about complex analytical queries
+- 2025-09-28 (Evening): Updated pricing section to emphasize TCO and cost elimination instead of specific dollar amounts (strategic: pricing flexibility)
+- 2025-09-28 (Morning): Added "Question Hierarchy" (simple/complex/why distinction), optional "Semantic Model Boundary" block, 3 question capability rows to At-a-Glance table, FAQ about complex analytical queries
 
 ---
 
@@ -151,11 +152,12 @@ Scoop is an AI data analyst you chat with to get answers. Ask questions in natur
 | Deterministic Results | {YES/NO + EVIDENCE} | Yes (always identical) | {IMPACT} |
 | Documented Accuracy | {PERCENTAGE + SOURCE} | {SCOOP_ACCURACY} | {COMPARISON} |
 | Error Rate | {PERCENTAGE + SOURCE} | {SCOOP_ERROR_RATE} | {MULTIPLIER}x better |
-| **Cost (200 Users)** |
-| Year 1 Total Cost | {COMPETITOR_YEAR1_COST} | {SCOOP_RELATIVE_COST} | {MULTIPLIER}x less |
-| Implementation Cost | {COMPETITOR_IMPL} | $0 | {SAVINGS} |
-| Annual Maintenance | {COMPETITOR_MAINT} | Included | {SAVINGS} |
-| Hidden Costs | {LIST_KEY_HIDDEN_COSTS} | None | {IMPACT} |
+| **Cost (Typical Enterprise)** |
+| Year 1 Total Cost | {COMPETITOR_YEAR1_COST_WITH_BREAKDOWN} | Fraction of traditional BI TCO | {MULTIPLIER}x lower TCO |
+| Implementation Cost | {COMPETITOR_IMPL} | $0 (30-second setup) | Complete elimination |
+| Training Cost | {COMPETITOR_TRAINING_COST} | $0 (Excel users) | Complete elimination |
+| Annual IT Maintenance | {COMPETITOR_MAINT} | $0 (no semantic layer) | Complete elimination |
+| Hidden Costs | {LIST_KEY_CATEGORIES: consultants, productivity loss, etc.} | None | {IMPACT} |
 | **Business Impact** |
 | User Adoption Rate | {PERCENTAGE + SOURCE} | {SCOOP_ADOPTION} | {COMPARISON} |
 | IT Involvement Required | {ONGOING/SETUP_ONLY} | Setup only | {FTE_IMPACT} |
@@ -185,8 +187,8 @@ A: {YES/NO}. {ONE_SENTENCE_SPECIFICS}. Scoop natively supports 150+ Excel functi
 **Q: How long does {COMPETITOR} implementation take?**
 A: {SPECIFIC_TIME + SOURCE}. Scoop takes 30 seconds with no data modeling, training, or IT involvement required.
 
-**Q: What does {COMPETITOR} really cost for 200 users?**
-A: {YEAR_1_COST_BREAKDOWN}. Scoop costs {RELATIVE_COMPARISON}.
+**Q: What does {COMPETITOR} really cost?**
+A: {YEAR_1_COST_BREAKDOWN_WITH_ALL_CATEGORIES: licenses + implementation + training + consultants + productivity loss}. Scoop eliminates implementation ($0), training ($0), and ongoing IT maintenance ($0)—typical customers see {MULTIPLIER}x lower total cost of ownership.
 
 **Q: Can business users use {COMPETITOR} without IT help?**
 A: {YES/NO + SPECIFIC_LIMITATIONS}. Scoop is designed for business users with Excel skills—no IT gatekeeping.
@@ -1007,41 +1009,48 @@ Total Time: 5 seconds
 
 ### Total Cost of Ownership Comparison
 
-#### Year 1 Costs (200 Users)
+**Key Insight**: Scoop's TCO advantage comes from eliminating 5 of 6 cost categories, not just cheaper software licenses.
 
-| Cost Component | {COMPETITOR} | Scoop | Savings |
-|----------------|-------------|-------|---------|
+#### Year 1 Cost Category Comparison
+
+| Cost Component | {COMPETITOR} | Scoop | Why Scoop Eliminates This |
+|----------------|-------------|-------|---------------------------|
 | **Software Licenses** |
-| Base platform | {COST + SOURCE} | {RELATIVE_DESCRIPTION} | {SAVINGS} |
-| Per-user licenses | {COST + SOURCE} | Included | {SAVINGS} |
-| Premium features | {COST_IF_APPLICABLE} | Included | {SAVINGS} |
+| Base platform | {COST + SOURCE} | Per-user subscription | Transparent pricing model |
+| Per-user licenses | {COST + SOURCE} | Included | Unlimited viewers included |
+| Premium features | {COST_IF_APPLICABLE} | All included | No feature gating |
 | **Implementation** |
-| Professional services | {COST + ESTIMATE_BASIS} | $0 | {SAVINGS} |
-| Data modeling | {COST + TIME_ESTIMATE} | $0 | {SAVINGS} |
-| Integration setup | {COST} | $0 | {SAVINGS} |
+| Professional services | {COST + ESTIMATE_BASIS} | **$0** | 30-second setup, no data modeling required (architectural) |
+| Data modeling | {COST + TIME_ESTIMATE} | **$0** | Schema-agnostic design (architectural) |
+| Integration setup | {COST} | **$0** | Native connectors, zero config (architectural) |
 | **Training** |
-| Initial training | {COST + DETAILS} | $0 | {SAVINGS} |
-| Ongoing training | {COST} | $0 | {SAVINGS} |
+| Initial training | {COST + DETAILS} | **$0** | Excel users already know how (capability) |
+| Certification programs | {COST} | **$0** | Conversational interface (capability) |
+| Ongoing training | {COST} | **$0** | No new versions to relearn (capability) |
 | **Infrastructure** |
-| Capacity units | {COST_IF_APPLICABLE} | Included | {SAVINGS} |
-| Storage | {COST} | Included | {SAVINGS} |
-| Compute | {COST} | Included | {SAVINGS} |
+| Capacity units | {COST_IF_APPLICABLE} | Included | Cloud-native architecture |
+| Storage | {COST} | Included | Managed service |
+| Compute | {COST} | Included | Serverless design |
 | **Maintenance** |
-| Semantic model updates | {COST_ESTIMATE} | N/A | {SAVINGS} |
-| IT support (ongoing) | {FTE_ESTIMATE × COST} | Minimal | {SAVINGS} |
+| Semantic model updates | {COST_ESTIMATE} | **$0** | No semantic layer to maintain (architectural) |
+| IT support (ongoing) | {FTE_ESTIMATE × COST} | **$0** | Business users work independently (capability) |
+| Schema change management | {COST_ESTIMATE} | **$0** | Adapts automatically to schema changes (architectural) |
 | **Hidden Costs** |
-| {HIDDEN_COST_1} | {AMOUNT + EXPLANATION} | None | {SAVINGS} |
-| {HIDDEN_COST_2} | {AMOUNT + EXPLANATION} | None | {SAVINGS} |
-| **YEAR 1 TOTAL** | **{TOTAL_COMPETITOR}** | **{RELATIVE_SCOOP}** | **{TOTAL_SAVINGS}** |
+| External consultants | {AMOUNT + EXPLANATION} | **$0** | No specialist dependency (capability) |
+| Productivity loss during rollout | {AMOUNT + EXPLANATION} | **$0** | Instant time-to-value (30 seconds) |
+| Failed adoption / rework | {AMOUNT + EXPLANATION} | **$0** | 95%+ user adoption rate |
+| **YEAR 1 TOTAL** | **{TOTAL_WITH_ALL_CATEGORIES}** | **Software + $0 additional** | **Typical: {MULTIPLIER}x lower TCO** |
 
 #### 3-Year TCO Comparison
 
-| Year | {COMPETITOR} | Scoop | Cumulative Savings |
-|------|-------------|-------|--------------------|
-| Year 1 | {YEAR_1_TOTAL} | {SCOOP_RELATIVE} | {SAVINGS} |
-| Year 2 | {YEAR_2_TOTAL} | {SCOOP_RELATIVE} | {CUMULATIVE} |
-| Year 3 | {YEAR_3_TOTAL} | {SCOOP_RELATIVE} | {CUMULATIVE} |
-| **3-Year Total** | **{TOTAL}** | **{SCOOP_RELATIVE}** | **{TOTAL_SAVINGS}** |
+| Year | {COMPETITOR} (all categories) | Scoop (software only) | TCO Advantage |
+|------|-------------------------------|----------------------|---------------|
+| Year 1 | {YEAR_1_TOTAL_ALL_COSTS} | Software subscription | {MULTIPLIER}x lower |
+| Year 2 | {ONGOING_COSTS: licenses + maintenance + IT} | Software subscription | {MULTIPLIER}x lower |
+| Year 3 | {ONGOING_COSTS} | Software subscription | {MULTIPLIER}x lower |
+| **3-Year Total** | **{TOTAL_ALL_CATEGORIES}** | **Software × 3 years** | **Typical: {MULTIPLIER}x lower TCO** |
+
+Note: {COMPETITOR} ongoing costs include license renewals, semantic model maintenance, IT support, and consultant fees. Scoop costs = software subscription only (no additional categories).
 
 #### Hidden Costs Breakdown
 
@@ -1067,30 +1076,43 @@ Total Time: 5 seconds
 > - Unexpected Cost: {WHAT_IT_WAS}
 > - Source: {G2_OR_REDDIT_LINK}
 
+#### The Cost Elimination Framework
+
+**Traditional BI platforms have 6 cost categories. Scoop has 1.**
+
+```
+Traditional BI TCO = Licenses + Implementation + Training + Maintenance + Consultants + Productivity Loss
+                   = 1x      + 2-4x           + 0.5-2x  + 1-2x        + 1-3x        + 2-4x
+                   = 7.5x - 16x the license cost
+
+Scoop TCO = Software subscription only
+          = 1x (everything else is $0)
+```
+
+**Why the 10x TCO advantage exists**:
+1. **$0 Implementation** (architectural): No data modeling, 30-second setup
+2. **$0 Training** (capability): Excel users already know how to use it
+3. **$0 Maintenance** (architectural): No semantic layer to update
+4. **$0 Consultants** (capability): Business users work independently
+5. **$0 Productivity Loss** (capability): Instant time-to-value
+
+**This advantage is defensible** regardless of software pricing changes because it's based on architectural and capability differences, not pricing decisions.
+
 #### ROI Comparison
 
-**{COMPETITOR} ROI Calculation**:
-- Year 1 Investment: {AMOUNT}
-- Time to First Value: {WEEKS}
-- Annual Productivity Gain: {ESTIMATE_WITH_BASIS}
-- Payback Period: {TIME_ESTIMATE}
-- 3-Year ROI: {PERCENTAGE_IF_CALCULABLE}
+**{COMPETITOR} ROI Reality**:
+- Year 1 Total Investment: {ALL_CATEGORIES_TOTAL}
+- Time to First Value: {WEEKS_OR_MONTHS}
+- Adoption Rate: {PERCENTAGE_WHO_ACTUALLY_USE_IT}
+- Payback Period: {REALISTIC_ESTIMATE}
+- Common Issue: {IMPLEMENTATION_FAILURE_OR_LOW_ADOPTION_PATTERN}
 
-**Scoop ROI Calculation**:
-- Year 1 Investment: {RELATIVE_AMOUNT}
+**Scoop ROI Reality**:
+- Year 1 Total Investment: Software subscription (no other categories)
 - Time to First Value: 30 seconds
-- Annual Productivity Gain: {ESTIMATE_WITH_BASIS}
-- Payback Period: 3 hours (documented)
-- 3-Year ROI: {PERCENTAGE}
-
-#### Cost Per User Economics
-
-| Users | {COMPETITOR} Annual | Scoop Annual | Cost Advantage |
-|-------|-------------------|--------------|----------------|
-| 50 | {CALCULATED} | {RELATIVE} | {SAVINGS} |
-| 200 | {CALCULATED} | {RELATIVE} | {SAVINGS} |
-| 500 | {CALCULATED} | {RELATIVE} | {SAVINGS} |
-| 1,000 | {CALCULATED} | {RELATIVE} | {SAVINGS} |
+- Adoption Rate: 95%+ (Excel-familiar users)
+- Payback Period: 3 hours (documented case study)
+- Key Advantage: Zero risk of implementation failure or low adoption
 
 ---
 

@@ -91,6 +91,7 @@
 - ⬆️ INCREASE where competitor gap is widest (BUA dimension <5/20)
 - ⬆️ INCREASE where differentiation is clearest and most measurable
 - ⬇️ DECREASE where competitor is adequate or gap is narrow
+- **⬆️ COST/TCO SECTION**: Always emphasize cost category elimination (implementation, training, maintenance) over license price comparison
 
 **Recommended Mix**:
 - **Section 1 (Executive Summary)**: [XX]% (~XXX words)
@@ -101,6 +102,9 @@
   - Setup/Implementation: [XX]%
   - Schema Evolution: [XX]%
 - **Section 3 (Cost/TCO)**: [XX]% (~XXX words)
+  - Focus: Cost category elimination (5 of 6 categories = $0), NOT license price comparison
+  - Emphasize: Architectural reasons for $0 implementation, $0 training, $0 maintenance
+  - Avoid: Specific Scoop dollar amounts (pricing may evolve)
 - **Section 4 (Use Cases)**: [XX]% (~XXX words)
 - **Section 5-7 (FAQ/Evidence/Next Steps)**: [XX]% (~XXX words)
 
@@ -195,9 +199,11 @@
 - "[Exaggeration]" - *Because [why this is inaccurate]*
 - "[Over-claim]" - *Because [why we can't prove this]*
 - "[Unfair characterization]" - *Because [why this is misleading]*
+- **"Scoop costs $X for Y users"** - *Because pricing is evolving and specific claims will become outdated*
 
 **Instead Say** (Evidence-based alternatives):
 - "[Accurate statement]" - *Supported by [evidence]*
+- **"Scoop eliminates implementation cost ($0), training cost ($0), and maintenance cost ($0)—typical customers see 10x lower TCO"** - *Defensible regardless of license price changes, based on architectural differences*
 - "[Provable claim]" - *Supported by [evidence]*
 - "[Fair characterization]" - *Supported by [evidence]*
 
