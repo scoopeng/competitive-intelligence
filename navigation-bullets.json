@@ -1,28 +1,38 @@
 {
   "competitors": {
-    "Power BI Copilot": {
+    "DataChat": {
       "category": "Limited Analytics",
-      "score": "32/100",
+      "score": "17/100",
       "bullets": [
-        "Designed for analysts, not business users",
-        "Requires semantic model configuration", 
-        "Limited investigation capabilities",
-        "Portal-based access required"
+        "Limited verifiable customer evidence",
+        "No major customer references found",
+        "Basic template-based approach",
+        "Minimal market presence"
       ]
     },
-    "Tableau Pulse": {
+    "DataGPT": {
       "category": "Limited Analytics",
-      "score": "36/100",
+      "score": "22/100",
       "bullets": [
-        "Notification system without investigation",
-        "Limited to preset metrics and KPIs",
-        "Cannot investigate root causes",
-        "Requires full Tableau platform investment"
+        "Schema becomes rigid after initial setup",
+        "Single-source data limitation",
+        "No deep investigation capabilities",
+        "Portal-only access model"
+      ]
+    },
+    "Tellius": {
+      "category": "Limited Analytics",
+      "score": "22/100",
+      "bullets": [
+        "Requires data science expertise",
+        "Complex configuration and setup",
+        "High annual licensing costs",
+        "Machine learning predictions not explainable"
       ]
     },
     "Snowflake Cortex": {
       "category": "Limited Analytics",
-      "score": "34/100",
+      "score": "26/100",
       "bullets": [
         "Complete vendor lock-in to Snowflake",
         "6-12 month migration timeline required",
@@ -32,7 +42,7 @@
     },
     "Sisense": {
       "category": "Limited Analytics",
-      "score": "38/100",
+      "score": "28/100",
       "bullets": [
         "Query execution times of 10-20 minutes",
         "Performance challenges with complex queries",
@@ -40,9 +50,39 @@
         "Scalability challenges in large deployments"
       ]
     },
-    "Qlik Insight Advisor": {
+    "Power BI Copilot": {
       "category": "Limited Analytics",
-      "score": "46/100",
+      "score": "32/100",
+      "bullets": [
+        "Designed for analysts, not business users",
+        "Requires semantic model configuration",
+        "Limited investigation capabilities",
+        "Portal-based access required"
+      ]
+    },
+    "Tableau Pulse": {
+      "category": "Portal-Based Analytics",
+      "score": "37/100",
+      "bullets": [
+        "Notification system without investigation",
+        "Limited to preset metrics and KPIs",
+        "Cannot investigate root causes",
+        "Requires full Tableau platform investment"
+      ]
+    },
+    "Zenlytic": {
+      "category": "Portal-Based Analytics",
+      "score": "42/100",
+      "bullets": [
+        "YAML and SQL configuration required",
+        "Git workflows for metrics management",
+        "Technical users only",
+        "Weeks of configuration needed"
+      ]
+    },
+    "Qlik Insight Advisor": {
+      "category": "Portal-Based Analytics",
+      "score": "47/100",
       "bullets": [
         "Cannot handle natural language variations",
         "Rule-based matching, not true AI",
@@ -50,39 +90,9 @@
         "High enterprise licensing costs"
       ]
     },
-    "DataChat": {
-      "category": "Limited Analytics",
-      "score": "28/100",
-      "bullets": [
-        "Limited verifiable customer evidence",
-        "No major customer references found",
-        "Basic template-based approach",
-        "Minimal market presence"
-      ]
-    },
-    "DataGPT": {
-      "category": "Analyst Workbench",
-      "score": "30/100",
-      "bullets": [
-        "Schema becomes rigid after initial setup",
-        "Single-source data limitation",
-        "No deep investigation capabilities",
-        "Portal-only access model"
-      ]
-    },
-    "Domo": {
-      "category": "Analyst Workbench",
-      "score": "62/100",
-      "bullets": [
-        "Dashboard-first architecture model",
-        "High total cost of ownership",
-        "AI Chat requires pre-built dashboards",
-        "Portal-based workflow limitations"
-      ]
-    },
     "ThoughtSpot": {
-      "category": "Analyst Workbench",
-      "score": "56/100",
+      "category": "Portal-Based Analytics",
+      "score": "57/100",
       "bullets": [
         "Search interface limitations",
         "Enterprise complexity and cost",
@@ -90,30 +100,19 @@
         "Requires significant technical setup"
       ]
     },
-    "Tellius": {
-      "category": "Analyst Workbench",
-      "score": "30/100",
+    "Domo": {
+      "category": "Portal-Based Analytics",
+      "score": "62/100",
       "bullets": [
-        "Requires data science expertise",
-        "Complex configuration and setup",
-        "High annual licensing costs",
-        "Machine learning predictions not explainable"
-      ]
-    },
-    "Zenlytic": {
-      "category": "Analyst Workbench",
-      "score": "44/100",
-      "bullets": [
-        "YAML and SQL configuration required",
-        "Git workflows for metrics management",
-        "Technical users only",
-        "Weeks of configuration needed"
+        "Dashboard-first architecture model",
+        "High total cost of ownership",
+        "AI Chat requires pre-built dashboards",
+        "Portal-based workflow limitations"
       ]
     }
   },
   "categoryColors": {
     "Limited Analytics": "#E3165B",
-    "Analyst Workbench": "#FF9800",
-    "Platform Play": "#9C27B0"
+    "Portal-Based Analytics": "#FF9800"
   }
 }
