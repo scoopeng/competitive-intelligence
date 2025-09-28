@@ -13,13 +13,13 @@
 | Domo | 62/100 (B) | v1.1 (Sept 28) | 8,699 words | ✅ Deployed |
 | Qlik | 47/100 (C) | v1.1 (Sept 28) | 8,361 words | ✅ Deployed |
 
-### Priority Queue (4 remaining)
-
-**Tier 2: Lower Market Presence**
-- Sisense: 28/100 (C) - Embedded analytics
-- DataGPT: 22/100 (D) - Single-source limitation
-- Tellius: 22/100 (D) - Apache Spark crashes
-- DataChat: 17/100 (D) - Minimal market presence
+### Strategy + Web Comparison Generated (4 Additional) ✅ TIER 2 COMPLETE
+| Competitor | BUA Score | Strategy Version | Web Comparison | Status |
+|------------|-----------|------------------|----------------|--------|
+| Sisense | 28/100 (C) | v1.1 (Sept 28) | 7,254 words | ✅ Generated (ready to deploy) |
+| DataGPT | 22/100 (D) | v1.1 (Sept 28) | 6,116 words | ✅ Generated (ready to deploy) |
+| Tellius | 22/100 (D) | v1.1 (Sept 28) | 6,121 words | ✅ Generated (ready to deploy) |
+| DataChat | 17/100 (F) | v1.1 (Sept 28) | 3,241 words | ✅ Generated (ready to deploy) |
 
 
 ## Key Patterns Identified
