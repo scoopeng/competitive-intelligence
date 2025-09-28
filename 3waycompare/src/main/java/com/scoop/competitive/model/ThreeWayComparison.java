@@ -176,6 +176,7 @@ public class ThreeWayComparison {
     public static class DimensionComparison {
         private String dimensionName;
         private List<ComponentComparison> components;
+        private String extractableSummary; // 40-60 word summary for AEO
 
         public DimensionComparison() {
             this.components = new ArrayList<>();
@@ -187,6 +188,11 @@ public class ThreeWayComparison {
         public List<ComponentComparison> getComponents() { return components; }
         public void setComponents(List<ComponentComparison> components) {
             this.components = components;
+        }
+
+        public String getExtractableSummary() { return extractableSummary; }
+        public void setExtractableSummary(String extractableSummary) {
+            this.extractableSummary = extractableSummary;
         }
     }
 

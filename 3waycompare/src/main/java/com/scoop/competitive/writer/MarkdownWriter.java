@@ -144,6 +144,12 @@ public class MarkdownWriter {
 
             md.append("\n");
         }
+
+        // Write extractable summary for AEO (40-60 words)
+        if (analysis.getExtractableSummary() != null && !analysis.getExtractableSummary().isEmpty()) {
+            md.append("**Quick Summary** (40-60 words):\n");
+            md.append(analysis.getExtractableSummary()).append("\n\n");
+        }
     }
 
     private void writeCapabilityDeepDive(StringBuilder md, ThreeWayComparison comparison) {

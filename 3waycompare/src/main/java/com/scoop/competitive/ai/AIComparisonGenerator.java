@@ -245,6 +245,11 @@ public class AIComparisonGenerator {
         ThreeWayComparison.DimensionComparison comparison = new ThreeWayComparison.DimensionComparison();
         comparison.setDimensionName(dimension);
 
+        // Parse extractable summary for AEO (40-60 words)
+        if (markdown.has("extractableSummary")) {
+            comparison.setExtractableSummary(markdown.get("extractableSummary").asText());
+        }
+
         // Parse component table if present
         if (markdown.has("componentTable")) {
             List<ThreeWayComparison.ComponentComparison> components = new ArrayList<>();
