@@ -2,17 +2,13 @@
 
 ## Overall Progress: 7 of 11 Competitors With Strategy Docs
 
-### Strategy Complete, Web Comparison Deployed (1)
+### Strategy + Web Comparison Deployed (4)
 | Competitor | BUA Score | Strategy Version | Web Comparison | Status |
 |------------|-----------|------------------|----------------|--------|
 | Power BI Copilot | 32/100 (D) | v2.0 (Sept 28) | 8,450 words | ✅ Deployed |
-
-### Strategy + Web Comparison Generated (3)
-| Competitor | BUA Score | Strategy Version | Web Comparison | Status |
-|------------|-----------|------------------|----------------|--------|
-| Snowflake Cortex | 26/100 (C) | v1.1 (Sept 28) | 8,608 words | ✅ Generated (ready to deploy) |
-| Tableau Pulse | 37/100 (C) | v1.1 (Sept 28) | 6,568 words | ✅ Generated (ready to deploy) |
-| Zenlytic | 42/100 (C) | v1.1 (Sept 28) | 8,151 words | ✅ Generated (ready to deploy) |
+| Snowflake Cortex | 26/100 (C) | v1.1 (Sept 28) | 8,608 words | ✅ Deployed |
+| Tableau Pulse | 37/100 (C) | v1.1 (Sept 28) | 6,568 words | ✅ Deployed |
+| Zenlytic | 42/100 (C) | v1.1 (Sept 28) | 8,151 words | ✅ Deployed |
 
 ### Strategy + Web Comparison Generated (Additional 3)
 | Competitor | BUA Score | Strategy Version | Web Comparison | Status |
@@ -92,13 +88,13 @@
 
 ## Next Actions
 
-1. **Deploy** all 6 web comparisons to production:
-   - Snowflake Cortex (8,608 words)
-   - Tableau Pulse (6,568 words)
-   - Zenlytic (8,151 words)
-   - ThoughtSpot (8,969 words) ⭐ NEW
-   - Domo (8,699 words) ⭐ NEW
-   - Qlik (8,361 words) ⭐ NEW
+1. **Deploy** remaining 3 web comparisons to production:
+   - ✅ Snowflake Cortex (8,608 words) - DEPLOYED
+   - ✅ Tableau Pulse (6,568 words) - DEPLOYED
+   - ✅ Zenlytic (8,151 words) - DEPLOYED
+   - ⏳ ThoughtSpot (8,969 words) - Ready to deploy
+   - ⏳ Domo (8,699 words) - Ready to deploy
+   - ⏳ Qlik (8,361 words) - Ready to deploy
 
 2. **Consider** Tier 2 strategies + web comparisons (Sisense, DataGPT, Tellius, DataChat) - lower priority
 
