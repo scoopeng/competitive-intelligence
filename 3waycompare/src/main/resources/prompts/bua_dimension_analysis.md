@@ -14,19 +14,20 @@ Return a JSON object with this structure:
 ```json
 {
   "markdown": {
-    "dimensionNarrative": "[150-200 words explaining why this dimension matters]",
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
     "componentTable": [
       {
         "component": "[Component Name]",
         "weight": "[X points]",
         "competitorA": "[Score/8 + brief explanation]",
-        "competitorB": "[Score/8 + brief explanation]", 
+        "competitorB": "[Score/8 + brief explanation]",
         "scoop": "[Score/8 + brief explanation]",
         "winner": "[Platform name or 'Tie']"
       }
     ],
     "keyDifferentiator": "[80-100 words on the biggest architectural difference]",
     "businessImpact": "[60-80 words on real-world impact]",
+    "extractableSummary": "[40-60 words. Complete answer to 'How do these platforms compare on {dimension}?' Must be standalone, no pronouns requiring context.]",
     "evidenceCitations": ["[Evidence: source1]", "[Evidence: source2]"]
   }
 }
@@ -60,7 +61,15 @@ REQUIREMENTS:
    - Use time/cost/quality metrics where possible
    - Include specific role impacts (analyst, business user, IT)
 
-5. **Evidence Citations**:
+5. **Extractable Summary** (CRITICAL for AEO):
+   - EXACTLY 40-60 words
+   - Complete, standalone answer to "How do these platforms compare on {dimension}?"
+   - Include all three platform names explicitly
+   - No pronouns that require context (they, it, these)
+   - Must make sense if shown alone in search results
+   - Include specific scores or metrics
+
+6. **Evidence Citations**:
    - Include 2-4 specific evidence citations
    - Format: [Evidence: source, date if available]
 

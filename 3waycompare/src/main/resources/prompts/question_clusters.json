@@ -1,0 +1,126 @@
+{
+  "investigation_questions": [
+    "How do I investigate anomalies in {competitor}?",
+    "Can {competitor} do root cause analysis automatically?",
+    "Does {competitor} support multi-step analysis?",
+    "How many queries does {competitor} run to answer why questions?",
+    "Can {competitor} trace problems across multiple data sources?",
+    "How does {competitor} help me understand what changed?",
+    "Does {competitor} automatically explore related metrics?"
+  ],
+  "integration_questions": [
+    "Does {competitor} work with Excel?",
+    "Can I use {competitor} directly in Slack?",
+    "How do I export from {competitor} to PowerPoint?",
+    "Does {competitor} integrate with Microsoft Teams?",
+    "Can {competitor} connect to my existing databases?",
+    "Does {competitor} require moving data to a new platform?",
+    "How does {competitor} handle real-time data?"
+  ],
+  "cost_questions": [
+    "What does {competitor} really cost including implementation?",
+    "Are there hidden fees with {competitor}?",
+    "Do I need consultants to use {competitor}?",
+    "How much training is required for {competitor}?",
+    "What's the typical implementation time for {competitor}?",
+    "Does {competitor} require annual contracts?",
+    "What happens to pricing as we scale {competitor}?"
+  ],
+  "learning_questions": [
+    "How long does it take to learn {competitor}?",
+    "Do I need SQL knowledge for {competitor}?",
+    "Can business users use {competitor} without IT help?",
+    "What training does {competitor} require?",
+    "Can non-technical users create reports in {competitor}?",
+    "How steep is the learning curve for {competitor}?",
+    "Does {competitor} require coding skills?"
+  ],
+  "industry_specific": {
+    "healthcare": [
+      "Is {competitor} HIPAA compliant?",
+      "How does {competitor} handle patient data security?",
+      "Can {competitor} analyze clinical trial data?",
+      "Does {competitor} integrate with EMR systems?",
+      "How does {competitor} support healthcare KPIs?"
+    ],
+    "finance": [
+      "Does {competitor} support real-time trading analytics?",
+      "How does {competitor} handle financial compliance?",
+      "Can {competitor} do risk modeling?",
+      "Does {competitor} integrate with Bloomberg terminals?",
+      "How does {competitor} handle regulatory reporting?"
+    ],
+    "retail": [
+      "Can {competitor} analyze customer behavior patterns?",
+      "Does {competitor} support inventory optimization?",
+      "How does {competitor} handle seasonal analysis?",
+      "Can {competitor} track marketing campaign ROI?",
+      "Does {competitor} integrate with POS systems?"
+    ],
+    "manufacturing": [
+      "Can {competitor} analyze supply chain data?",
+      "Does {competitor} support quality control metrics?",
+      "How does {competitor} handle IoT sensor data?",
+      "Can {competitor} do predictive maintenance analysis?",
+      "Does {competitor} track production efficiency?"
+    ]
+  },
+  "comparison_patterns": [
+    "How to choose between {competitorA} and {competitorB} for {industry}",
+    "Which is better for business users: {competitorA} or {competitorB}?",
+    "{competitorA} vs {competitorB} for non-technical teams",
+    "Best BI platform for {department}: {competitorA} or {competitorB}",
+    "{competitorA} alternatives for {specific_need}",
+    "Is {competitorA} easier to use than {competitorB}?",
+    "Which costs less: {competitorA} or {competitorB}?"
+  ],
+  "long_tail_patterns": [
+    "{competitor} for small business with limited IT resources",
+    "How to implement {competitor} without data engineers",
+    "{competitor} for Excel users who need more power",
+    "Can {competitor} replace our existing BI dashboards?",
+    "Moving from {competitorA} to {competitorB}: Is it worth it?",
+    "{competitor} for teams that don't know SQL",
+    "Getting started with {competitor} in 30 days or less"
+  ],
+  "departments": {
+    "sales": [
+      "How does {competitor} help with sales forecasting?",
+      "Can {competitor} analyze pipeline data?",
+      "Does {competitor} support territory planning?"
+    ],
+    "marketing": [
+      "Can {competitor} track campaign attribution?",
+      "How does {competitor} measure customer journey?",
+      "Does {competitor} calculate marketing ROI?"
+    ],
+    "operations": [
+      "How does {competitor} optimize resource allocation?",
+      "Can {competitor} identify process bottlenecks?",
+      "Does {competitor} support capacity planning?"
+    ],
+    "finance": [
+      "Can {competitor} do budget variance analysis?",
+      "How does {competitor} handle cash flow forecasting?",
+      "Does {competitor} support profitability analysis?"
+    ]
+  },
+  "pain_points": [
+    "Why does {competitor} take so long to implement?",
+    "Why do {competitor} projects fail?",
+    "What are the hidden costs of {competitor}?",
+    "Why do business users struggle with {competitor}?",
+    "What happens when {competitor} schemas break?",
+    "Why does {competitor} require so much IT support?",
+    "How often does {competitor} need maintenance?"
+  ],
+  "scoop_differentiators": [
+    "How is Scoop different from traditional BI tools?",
+    "What makes Scoop easier than {competitor}?",
+    "Why doesn't Scoop require training?",
+    "How does Scoop eliminate implementation costs?",
+    "What is an AI data analyst vs a dashboard?",
+    "How does Scoop do multi-pass investigation?",
+    "Why can Scoop users work independently?"
+  ]
+}

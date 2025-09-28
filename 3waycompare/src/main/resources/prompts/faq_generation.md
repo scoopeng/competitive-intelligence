@@ -5,8 +5,44 @@ Context:
 - {competitorB}: BUA {bScore}/100, {bStrengths}, {bWeaknesses}
 - Scoop: BUA 82/100, AI analyst approach, multi-pass investigation
 
-Questions to Answer:
-{faqQuestions}
+REAL USER QUESTIONS TO ANSWER (Select 14 most relevant):
+
+Investigation & Analysis:
+- "How do I investigate anomalies in {competitorA}?"
+- "Can {competitorB} do root cause analysis automatically?"
+- "Does Scoop support multi-step analysis?"
+- "How many queries does {competitorA} run to answer why questions?"
+
+Integration & Workflow:
+- "Does {competitorA} work with Excel?"
+- "Can I use {competitorB} directly in Slack?"
+- "How do I export from {competitorA} to PowerPoint?"
+- "Does {competitorB} integrate with Microsoft Teams?"
+
+Cost & Implementation:
+- "What does {competitorA} really cost including implementation?"
+- "Are there hidden fees with {competitorB}?"
+- "Do I need consultants to use {competitorA}?"
+- "What's the typical implementation time for {competitorB}?"
+
+Learning & Adoption:
+- "How long does it take to learn {competitorA}?"
+- "Do I need SQL knowledge for {competitorB}?"
+- "Can business users use Scoop without IT help?"
+- "What training does {competitorA} require?"
+
+Comparison & Selection:
+- "Which is better for business users: {competitorA} or {competitorB}?"
+- "How is Scoop different from traditional BI tools?"
+- "Is {competitorA} easier to use than {competitorB}?"
+- "Why doesn't Scoop require training?"
+
+Department-Specific:
+- "How does {competitorA} help with sales forecasting?"
+- "Can {competitorB} track marketing campaign ROI?"
+- "Does Scoop support financial planning analysis?"
+
+IMPORTANT: Always start with "What is Scoop?" as the first FAQ, then select 13 more from above based on relevance to the specific competitors.
 
 OUTPUT CONTRACT:
 

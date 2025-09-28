@@ -25,9 +25,10 @@ Return a JSON object with this structure:
         "businessImpact": "[Why this matters]"
       }
     ],
-    "deepDiveAnalysis": "[200-250 words detailed comparison]",
-    "exampleScenario": "[150-200 words showing real-world usage]",
-    "bottomLine": "[60-80 words summary]",
+    "deepDiveAnalysis": "[200-250 words detailed comparison. Short sentences. Active voice. Flesch 80+]",
+    "exampleScenario": "[150-200 words showing real-world usage. Concrete example with specific roles/situations.]",
+    "bottomLine": "[60-80 words summary. High readability.]",
+    "extractableSummary": "[40-60 words. Complete answer to 'How do these platforms compare on {capabilityType}?' Standalone, no context needed.]",
     "evidenceCitations": ["[Evidence: source]"]
   }
 }
