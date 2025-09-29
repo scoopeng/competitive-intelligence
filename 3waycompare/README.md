@@ -3,11 +3,14 @@
 Generates intelligent three-way comparisons (Competitor A vs Competitor B vs Scoop) using Claude AI to create nuanced, evidence-based content that highlights Scoop's business user autonomy advantages.
 
 ## Status: ✅ Production Ready v1.2.0 - AEO/SEO Optimized
-- Successfully calls Claude AI via Scoop's AIConnector
-- **Now uses Reasoning model (Opus 4.1) for superior content quality**
-- Generates complete comparisons in ~5-6 minutes
-- All sections properly populated with AEO optimization
-- **Grade: A (from C+)** - Ready for featured snippet capture
+
+### Current Capabilities
+- **AI Model**: Claude Opus 4.1 (Reasoning) for superior content quality
+- **Generation Time**: ~5-6 minutes per comparison
+- **AEO Grade**: A (from C+) - Ready for featured snippet capture
+- **Word Count Compliance**: TL;DR consistently 50-52 words (target: 50-58)
+- **Evidence Integration**: Real sources from 12 competitors database
+- **Schema Markup**: FAQ, Product, Software, Breadcrumb JSON-LD
 
 ### Complete v1.2.0 Features (January 28, 2025)
 - 🎯 **Reasoning Model** - Claude Opus 4.1 achieving perfect word counts (50-52 words)
