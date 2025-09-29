@@ -341,26 +341,11 @@ public class AIComparisonGenerator {
      */
     private List<ThreeWayComparison.FAQQuestion> generateFAQs(
             Competitor competitorA, Competitor competitorB) throws IOException, ScoopException {
-        
-        // Define standard FAQ questions
-        List<String> questions = Arrays.asList(
-            "What is Scoop?",
-            "Can Scoop handle complex multi-table queries?",
-            "How much training do users need?",
-            "What does " + competitorA.getName() + " really cost including hidden fees?",
-            "What does " + competitorB.getName() + " really cost including hidden fees?",
-            "Can Scoop handle real-time data?",
-            "Which platform is best for non-technical users?",
-            "How does Scoop's investigation capability work?",
-            "What's the difference between Scoop and dashboard tools?",
-            "Can Scoop integrate with Excel?",
-            "How long does implementation take?",
-            "What about data security and governance?",
-            "Which platform has the best AI capabilities?",
-            "Can Scoop replace my existing BI tool?"
-        );
-        
-        // Prepare context
+
+        // Log start
+        System.out.println("Generating FAQs for " + competitorA.getName() + " vs " + competitorB.getName());
+
+        // Prepare context with better data
         Map<String, Object> context = new HashMap<>();
         context.put("competitorA", competitorA.getName());
         context.put("competitorB", competitorB.getName());
@@ -370,34 +355,47 @@ public class AIComparisonGenerator {
         context.put("bStrengths", extractStrengths(competitorB));
         context.put("aWeaknesses", extractWeaknesses(competitorA));
         context.put("bWeaknesses", extractWeaknesses(competitorB));
-        context.put("faqQuestions", String.join("\n- ", questions));
-        context.put("questionGuidance", "");
-        
+        context.put("questionGuidance", "Focus on practical business user concerns and real-world scenarios.");
+
         // Load and fill template
         String template = templateLoader.loadTemplate("faq_generation.md");
         String prompt = templateLoader.fillTemplate(template, context);
-        
+
         // Invoke AI
+        System.out.println("Invoking AI for FAQ generation...");
         String response = aiConnector.invokeModel(cachedSystemPrompt, prompt);
 
         // Parse response using AIConnector's built-in method
         JsonNode json = aiConnector.getJsonFromResult(response);
-        JsonNode faqs = json.get("markdown").get("faqs");
-        
+
+        // Debug logging
+        System.out.println("FAQ JSON response structure: " + json.toString().substring(0, Math.min(200, json.toString().length())));
+
         List<ThreeWayComparison.FAQQuestion> faqList = new ArrayList<>();
-        for (JsonNode faq : faqs) {
-            ThreeWayComparison.FAQQuestion question = new ThreeWayComparison.FAQQuestion();
-            question.setQuestion(faq.get("question").asText());
-            question.setAnswer(faq.get("answer").asText());
-            
-            // Add citation if present
-            if (faq.has("evidence")) {
-                question.setCitations(Arrays.asList(faq.get("evidence").asText()));
+
+        // Check if markdown exists and has faqs
+        if (json.has("markdown") && json.get("markdown").has("faqs")) {
+            JsonNode faqs = json.get("markdown").get("faqs");
+
+            System.out.println("Found " + faqs.size() + " FAQ questions");
+
+            for (JsonNode faq : faqs) {
+                ThreeWayComparison.FAQQuestion question = new ThreeWayComparison.FAQQuestion();
+                question.setQuestion(faq.get("question").asText());
+                question.setAnswer(faq.get("answer").asText());
+
+                // Add citation if present
+                if (faq.has("evidence")) {
+                    question.setCitations(Arrays.asList(faq.get("evidence").asText()));
+                }
+
+                faqList.add(question);
             }
-            
-            faqList.add(question);
+        } else {
+            System.err.println("WARNING: No FAQs found in response. JSON structure: " + json.toString());
         }
-        
+
+        System.out.println("Generated " + faqList.size() + " FAQ questions");
         return faqList;
     }
     

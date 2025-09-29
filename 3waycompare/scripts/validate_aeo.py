@@ -31,12 +31,14 @@ def validate_tldr(content):
 
 def validate_faq_answers(content):
     """Validate FAQ answers are 40-60 words"""
-    faq_section = re.search(r'## Frequently Asked Questions(.+?)(?=## |$)', content, re.DOTALL)
+    # Look for FAQ section until end of content or next ## section or schema markup
+    faq_section = re.search(r'## Frequently Asked Questions(.+?)(?=\n## |\n<!-- Generated Schema|$)', content, re.DOTALL)
     if not faq_section:
         return False, "FAQ section not found"
 
     # Find all FAQ answers (text between questions)
-    questions = re.findall(r'### (.+?)\n\n(.+?)(?=\n\n###|\Z)', faq_section.group(1), re.DOTALL)
+    # Pattern: ### question followed by answer text until next ### or schema/end
+    questions = re.findall(r'### (.+?)\n+(.+?)(?=\n### |\n<!-- |$)', faq_section.group(1), re.DOTALL)
 
     valid_count = 0
     total_count = len(questions)
@@ -99,7 +101,7 @@ def validate_questions(content):
     generic_indicators = ["What is", "How does", "Can I", "Does it"]
     real_indicators = ["investigate anomalies", "root cause", "Excel", "hidden fees", "consultants", "TCO"]
 
-    faq_section = re.search(r'## Frequently Asked Questions(.+?)(?=## |$)', content, re.DOTALL)
+    faq_section = re.search(r'## Frequently Asked Questions(.+?)(?=\n## |\n<!-- Generated Schema|$)', content, re.DOTALL)
     if not faq_section:
         return False, "FAQ section not found"
 

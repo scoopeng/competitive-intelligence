@@ -1,6 +1,8 @@
 package com.scoop.competitive.writer;
 
 import com.scoop.competitive.model.ThreeWayComparison;
+import com.scoop.competitive.loader.EvidenceLoader;
+import com.scoop.competitive.schema.SchemaGenerator;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,6 +11,20 @@ import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class MarkdownWriter {
+
+    private EvidenceLoader evidenceLoader;
+    private SchemaGenerator schemaGenerator;
+
+    public MarkdownWriter() {
+        try {
+            this.evidenceLoader = new EvidenceLoader();
+            System.out.println("EvidenceLoader initialized successfully");
+        } catch (IOException e) {
+            System.err.println("Warning: Could not load evidence database: " + e.getMessage());
+            this.evidenceLoader = null;
+        }
+        this.schemaGenerator = new SchemaGenerator();
+    }
 
     public void writeComparison(ThreeWayComparison comparison, Path outputPath) throws IOException {
         StringBuilder markdown = new StringBuilder();
@@ -19,10 +35,26 @@ public class MarkdownWriter {
         writeBUADeepDive(markdown, comparison);
         writeCapabilityDeepDive(markdown, comparison);
         writeFAQ(markdown, comparison);
-        writeSchemas(markdown, comparison);
+
+        // Convert to string for evidence enrichment
+        String content = markdown.toString();
+
+        // Enrich with real evidence if available
+        if (evidenceLoader != null && comparison.getCompetitorA() != null && comparison.getCompetitorB() != null) {
+            System.out.println("Enriching content with real evidence citations...");
+            content = evidenceLoader.enrichWithEvidence(
+                content,
+                comparison.getCompetitorA().getName(),
+                comparison.getCompetitorB().getName()
+            );
+        }
+
+        // Add schema markup at the end
+        StringBuilder finalContent = new StringBuilder(content);
+        writeSchemas(finalContent, comparison);
 
         Files.createDirectories(outputPath.getParent());
-        Files.writeString(outputPath, markdown.toString(),
+        Files.writeString(outputPath, finalContent.toString(),
             StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
     }
 
@@ -178,8 +210,12 @@ public class MarkdownWriter {
     }
 
     private void writeFAQ(StringBuilder md, ThreeWayComparison comparison) {
-        if (comparison.getFaqSection() == null || comparison.getFaqSection().isEmpty()) return;
+        if (comparison.getFaqSection() == null || comparison.getFaqSection().isEmpty()) {
+            System.err.println("WARNING: FAQ section is empty or null!");
+            return;
+        }
 
+        System.out.println("Writing " + comparison.getFaqSection().size() + " FAQ questions");
         md.append("## Frequently Asked Questions\n\n");
 
         for (ThreeWayComparison.FAQQuestion faq : comparison.getFaqSection()) {
@@ -197,27 +233,20 @@ public class MarkdownWriter {
     }
 
     private void writeSchemas(StringBuilder md, ThreeWayComparison comparison) {
-        md.append("## Schema Markup\n\n");
+        // Generate complete schema markup using SchemaGenerator
+        if (schemaGenerator != null && comparison.getFaqSection() != null && !comparison.getFaqSection().isEmpty()) {
+            System.out.println("Generating schema markup for SEO...");
+            String schemas = schemaGenerator.generateCompleteSchema(comparison);
+            if (schemas != null && !schemas.isEmpty()) {
+                md.append("\n\n<!-- Generated Schema Markup for Rich Results -->\n");
+                md.append(schemas);
+            }
+        }
 
-        if (comparison.getFaqPageSchema() != null) {
-            md.append("### FAQPage Schema\n\n");
-            md.append("```json\n");
+        // Also include any pre-generated schemas if they exist (backwards compatibility)
+        if (comparison.getFaqPageSchema() != null && !comparison.getFaqPageSchema().isEmpty()) {
+            md.append("\n\n<!-- Additional Pre-generated Schema -->\n");
             md.append(comparison.getFaqPageSchema());
-            md.append("```\n\n");
-        }
-
-        if (comparison.getProductSchema() != null) {
-            md.append("### Product Schema\n\n");
-            md.append("```json\n");
-            md.append(comparison.getProductSchema());
-            md.append("```\n\n");
-        }
-
-        if (comparison.getOrganizationSchema() != null) {
-            md.append("### Organization Schema\n\n");
-            md.append("```json\n");
-            md.append(comparison.getOrganizationSchema());
-            md.append("```\n\n");
         }
     }
 }

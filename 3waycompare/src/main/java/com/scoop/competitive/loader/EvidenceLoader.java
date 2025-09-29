@@ -51,9 +51,9 @@ public class EvidenceLoader {
             String date = evidence.has("date") ? evidence.get("date").asText() : "";
 
             if (!date.isEmpty()) {
-                return String.format("[Evidence: %s, %s]", source, date);
+                return String.format("%s, %s", source, date);
             } else {
-                return String.format("[Evidence: %s]", source);
+                return source;
             }
         }
 
@@ -71,7 +71,7 @@ public class EvidenceLoader {
             JsonNode impl = competitorData.get("implementation");
             String timeline = impl.get("timeline").asText();
             String source = impl.get("source").asText();
-            return String.format("[Evidence: %s - %s]", timeline, source);
+            return String.format("%s - %s", timeline, source);
         }
 
         return "[Evidence: Industry standard 3-6 months]";
@@ -124,12 +124,12 @@ public class EvidenceLoader {
      * Replace placeholder citations in text with real evidence.
      */
     public String enrichWithEvidence(String text, String competitorA, String competitorB) {
-        // Replace generic placeholders
-        text = text.replace("[Evidence: source]", getCompetitorEvidence(competitorA, "general"));
+        // Replace generic placeholders - be careful not to double-bracket
+        text = text.replace("[Evidence: source]", "[Evidence: " + getCompetitorEvidence(competitorA, "general") + "]");
         text = text.replace("[Evidence: BUA Framework Analysis]", "[Evidence: Business User Autonomy Framework Analysis, Jan 2025]");
-        text = text.replace("[Evidence: TCO Analysis]", getTCOEvidence());
-        text = text.replace("[Evidence: Implementation study]", getImplementationEvidence(competitorA));
-        text = text.replace("[Evidence: Training requirement documentation]", getTrainingEvidence(competitorA));
+        text = text.replace("[Evidence: TCO Analysis]", "[Evidence: " + getTCOEvidence() + "]");
+        text = text.replace("[Evidence: Implementation study]", "[Evidence: " + getImplementationEvidence(competitorA) + "]");
+        text = text.replace("[Evidence: Training requirement documentation]", "[Evidence: " + getTrainingEvidence(competitorA) + "]");
 
         // Replace competitor-specific placeholders
         text = text.replace("[Evidence: " + competitorA + " documentation]",
