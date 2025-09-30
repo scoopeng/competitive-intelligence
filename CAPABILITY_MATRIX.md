@@ -53,7 +53,7 @@ Measures the platform's ability to autonomously investigate "why" questions thro
 | **Scoop Analytics** | ✓✓✓ | ✓✓✓ | ✓✓✓ | **✓✓✓** | **✓✓✓** | **✓✓✓** |
 | Domo | ✓✓ | ✓✓ | ✓ | ✗ | ✗ | ✗ |
 | ThoughtSpot | ✓✓ | ✓✓ | ✓ | ✗ | ✗ | ✗ |
-| Qlik | ✓ | ✓✓ | **✓✓✓** | ✓✓ | ✗ | ✗ |
+| Qlik | ✓ | ✓✓ | **✓✓✓** | ✗ | ✗ | ✗ |
 | Zenlytic | ✓✓ | ✓✓ | ✓ | ✗ | ✗ | ✗ |
 | Tableau Pulse | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ |
 | Power BI Copilot | ✓✓ | ✗ | ✓ | ✗ | ✗ | ✗ |
@@ -84,9 +84,7 @@ Measures the platform's ability to autonomously investigate "why" questions thro
 
 - **Multi-Pass Investigation**: AI autonomously runs 3-10 queries to find root causes
   - **✓✓✓: Automatic investigation planning with probe dependencies (SCOOP ONLY)**
-  - ✓✓: User-guided multi-query workflows (Qlik manual exploration)
-  - ✓: Single query with basic follow-ups
-  - ✗: Single query only
+  - ✗: No autonomous multi-pass investigation (all competitors - even Qlik's exploration is user-driven clicks, not AI planning)
 
 - **Context Retention**: System remembers insights across queries within investigation
   - **✓✓✓: Full investigation memory with probe extraction rules (SCOOP ONLY)**
@@ -97,11 +95,11 @@ Measures the platform's ability to autonomously investigate "why" questions thro
   - ✗: User must manually test hypotheses
 
 **Evidence**:
-- **Scoop Multi-Pass**: ReasoningPrompts.txt - "Generate multi-step investigation plan using 2-8 probes", probe dependencies with `depends_on` and `extraction_rules`
-- **Qlik Interactive Exploration**: Associative model allows "click through associations" - user-guided (framework_scoring.md: 4/8 Investigation)
-- **Power BI Copilot**: Microsoft docs: "One question at a time", "Can't currently answer questions that require generating new insights"
+- **Scoop Multi-Pass**: ReasoningPrompts.txt - "Generate multi-step investigation plan using 2-8 probes", probe dependencies with `depends_on` and `extraction_rules`. Framework score: 8/8 Investigation (ONLY platform with full score)
+- **Qlik Interactive Exploration**: Associative model ✓✓✓ for user-guided clicks, but Multi-Pass Investigation = ✗ because "User must manually explore" (framework_scoring.md: 4/8 Investigation from manual exploration, NOT autonomous investigation)
+- **Power BI Copilot**: Microsoft docs: "One question at a time", "Can't currently answer questions that require generating new insights" (framework_scoring.md: 2/8 Investigation)
 - **Snowflake Cortex**: Error "Actual statement count 3 did not match desired statement count 1" - cannot multi-step (framework_scoring.md: 2/8 Investigation)
-- **All Others**: Single query architecture, no investigation planning (framework_scoring.md: 2/8 Investigation scores)
+- **All Others**: Single query architecture, no investigation planning (framework_scoring.md: ALL score 2/8 Investigation - none have multi-pass)
 
 ---
 
@@ -215,17 +213,17 @@ Measures how easily users can create and distribute insights.
 | Platform | Visualization Quality | PowerPoint Generation | Excel Export | Slack/Teams | Mobile | Presentation Builder | Brand Control |
 |----------|---------------------|---------------------|--------------|-------------|--------|---------------------|---------------|
 | **Scoop Analytics** | ✓✓✓ | ✓✓✓ | ✓✓✓ | ✓✓✓ | ✓✓✓ | ✓✓✓ | ✓✓✓ |
-| Domo | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
-| ThoughtSpot | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
+| Domo | ✓✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
+| ThoughtSpot | ✓✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
 | Qlik | ✓✓✓ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Zenlytic | ✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
+| Zenlytic | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
 | Tableau Pulse | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
-| Power BI Copilot | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
-| Sisense | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
+| Power BI Copilot | ✓✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
+| Sisense | ✓✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
 | Snowflake Cortex | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| DataGPT | ✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
-| Tellius | ✓✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
-| DataChat | ✓✓ | ✗ | ✓✓ | ✓✓ | ✓✓ | ✗ | ✗ |
+| DataGPT | ✓✓ | ✗ | ✓✓ | ✗ | ✓✓ | ✗ | ✗ |
+| Tellius | ✓✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✗ | ✗ |
+| DataChat | ✓✓ | ✗ | ✓✓ | ✗ | ✓✓ | ✗ | ✗ |
 
 **Capability Definitions**:
 
@@ -239,10 +237,10 @@ Measures how easily users can create and distribute insights.
   - ✓: Basic CSV/Excel export
 
 - **Slack/Teams Integration**: Can work natively in chat platforms
-  - ✓✓✓: Full analysis in Slack with file upload (Scoop)
-  - ✓✓: Notifications and basic sharing
-  - ✓: Can send chart images
-  - ✗: No chat integration
+  - ✓✓✓: Full bidirectional Slack chat - upload files, ask questions, get full analysis (Scoop only)
+  - ✓✓: Native integration with alerts/digests (Tableau Pulse)
+  - ✓: One-way notifications or chart sharing (ThoughtSpot, Domo, Qlik, most others)
+  - ✗: No Slack integration (Snowflake Cortex, DataGPT, DataChat) or Teams-only (Power BI)
 
 - **Brand Control**: AI understands and applies company branding
   - **✓✓✓: Automatic logo detection and brand application (SCOOP ONLY)**
@@ -251,9 +249,15 @@ Measures how easily users can create and distribute insights.
 **Evidence**:
 - **Scoop PowerPoint**: SCOOP_CAPABILITIES.md "Visual Intelligence System - AI-powered presentation generation with brand detection"
 - **Scoop Brand Control**: "AI detects company branding from uploaded materials and applies automatically"
+- **Scoop Slack**: LLM Prompts.txt "Slack Chat" - full bidirectional analysis with file upload
 - **Qlik PowerPoint**: "No direct PowerPoint generation found" (framework_scoring.md)
-- **Snowflake Cortex**: "No Excel, PowerPoint, or mobile support" (framework_scoring.md: 0/8 Native Integration)
-- **All Others**: framework_scoring.md scores show 0/6 for Distribution (no PowerPoint automation)
+- **Qlik Slack**: "Send chart image to Slack only - requires automation setup" (framework_scoring.md)
+- **ThoughtSpot Slack**: "One-way push only (not bidirectional)" (framework_scoring.md)
+- **Tableau Pulse Slack**: "Native integration with digests and alerts" but read-only (framework_scoring.md)
+- **Power BI Slack**: "Not supported (Teams only)" (framework_scoring.md)
+- **Snowflake Cortex**: "No Excel, PowerPoint, or mobile support", Slack requires custom development (framework_scoring.md: 0/8 Native Integration)
+- **DataGPT/DataChat Slack**: "No Slack integration found" (framework_scoring.md)
+- **All Others PowerPoint**: framework_scoring.md scores show 0/6 for Distribution (no PowerPoint automation)
 
 ---
 
