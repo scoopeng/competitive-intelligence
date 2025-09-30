@@ -3,7 +3,9 @@
 **Competitor**: DataGPT
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 22/100 (22%, Category D - Poor)
+**Total Score**: 16/100 (16%, Category F - Poor)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 18/100 (18%, Category F) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -105,10 +107,10 @@
 
 ---
 
-## Dimension 3: Understanding (6/20)
+## Dimension 3: Understanding (4/20)
 
-### Investigation (0/8)
-**Score**: 0/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Complete failure on "why" questions**: Can only show WHAT, not WHY
 - Single query limitation - no multi-pass investigation
@@ -116,13 +118,21 @@
 - "Cannot determine 'why' things happened" (Phase 2)
 - No hypothesis testing capability
 - No root cause analysis
+- No probe dependencies
+- Conversational but stateless
 **Source**:
 - Phase 2: "NO INVESTIGATION CAPABILITY"
 - Phase 2: "Answers 'what happened' not 'why'"
 - Phase 2: "Single query only"
-**Reasoning**: Cannot investigate WHY. Fundamental architectural limitation - single metrics only.
+**Reasoning**: Single query only (scores 2/8). Cannot investigate WHY. Fundamental architectural limitation - single metrics only. No autonomous investigation planning.
 
-### ML (0/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ Single metric per query
+- ❌ Stateless (no investigation memory)
+
+### Deep ML Understanding (0/6)
 **Score**: 0/6
 **Evidence**:
 - **NO AUTOMATIC ML** - "No J48, JRip, or EM clustering equivalents"
@@ -131,25 +141,40 @@
 - No automatic segmentation
 - Claims "AI-powered" but reality is "Statistics only"
 - No feature importance, no predictions, no clustering
+- No explainable ML algorithms
 **Source**:
 - Phase 2: "NO AUTOMATIC ML"
 - Phase 2: "Zero ML capabilities vs automatic ML"
 - Phase 2: "Marketing vs Reality: Claims 'AI-powered analysis', Reality: Basic statistics only"
-**Reasoning**: Zero real ML. Marketing basic statistics as AI.
+**Reasoning**: Zero real ML (scores 0/6). Marketing basic statistics as AI. No decision trees, no rule mining, no clustering.
 
-### Explanation (6/6)
-**Score**: 6/6
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction
+- ❌ No clustering
+- ❌ Statistics marketed as "AI"
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - Returns clear metric displays
 - Shows data in tables/charts
 - Numbers are explained clearly
 - Claims "zero hallucination analytics"
-- BUT: Only explains WHAT, not WHY (already penalized above)
-- Simple visualization of results
+- BUT: Only explains WHAT, not WHY
+- No causal explanations
+- No actionable recommendations
+- Surface-level narratives only
 **Source**: Product documentation on output formats
-**Reasoning**: Good at explaining what it shows, but shallow depth (single metrics). Clarity on surface-level answers.
+**Reasoning**: Basic summaries (scores 2/6). Good at explaining what it shows, but shallow depth (single metrics). Clarity on surface-level answers only. Cannot pass "boss test".
 
-**Total Understanding**: 6/20
+**Missing for higher scores**:
+- ❌ No actionable recommendations
+- ❌ No causal explanations
+- ❌ Surface-level, not executive-ready
+- ❌ Single metrics, not business insights
+
+**Total Understanding**: 4/20 (Investigation: 2/8, ML: 0/6, Explanation: 2/6)
 
 ---
 

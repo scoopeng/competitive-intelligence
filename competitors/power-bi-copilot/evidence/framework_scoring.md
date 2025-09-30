@@ -4,6 +4,7 @@
 **Date Scored**: September 27, 2025
 **Scored By**: Competitive Intelligence Team
 **Total Score**: 32/100 (32%, Category D - Weak)
+**Last Updated**: September 30, 2025 (Understanding dimension component names updated)
 **Previous Score**: 21/59 (rescaled to 100-point system)
 **Previous Score**: 14/50 (28%, Category D - Marketing Mirage)
 
@@ -136,37 +137,59 @@ Power BI Copilot scores 32/100 (32%) in the Business User Autonomy Framework, pl
 
 ### Dimension 3: Understanding (7/20)
 
-#### Investigation (2/8)
+#### Agentic Investigation Depth (2/8)
 **Score**: 2/8
 **Evidence**:
 - Single query only: "One question at a time" (Microsoft docs)
-- No follow-up capability
+- No follow-up capability - Microsoft explicitly admits this limitation
 - "Can't currently answer questions that require generating new insights"
 - No multi-pass investigation
 - No hypothesis testing
+- No probe dependencies
+- No autonomous investigation planning
 **Source**: Microsoft official documentation
-**Reasoning**: Answers "what" but can't investigate "why".
+**Reasoning**: Single query only (scores 2/8). Answers "what" but can't investigate "why". Microsoft's own admission of single-query limitation.
 
-#### ML (0/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ "One question at a time" per Microsoft
+- ❌ Cannot generate new insights
+
+#### Deep ML Understanding (0/6)
 **Score**: 0/6
 **Evidence**:
 - Power BI Copilot has no ML capabilities
 - No automatic pattern discovery
 - No clustering or decision trees
 - Must export to external ML tools
-**Reasoning**: No ML features in Copilot.
+- No J48, JRip, or EM algorithms
+- No explainable ML
+**Reasoning**: No ML features in Copilot (scores 0/6). Pure query interface without machine learning.
 
-#### Explanation (5/6)
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction
+- ❌ No clustering
+- ❌ Zero ML capabilities
+
+#### Business-Language Explanation (5/6)
 **Score**: 5/6
 **Evidence**:
 - Provides natural language explanations of queries
 - Shows SQL generated (transparency)
 - Explains data in business language
 - WARNING: "Nondeterministic" outputs (Microsoft admits)
+- Good at translating query results
+- Some actionable insights
 **Source**: Microsoft documentation
-**Reasoning**: Does explain results, scores full points despite quality concerns.
+**Reasoning**: Good explanations (scores 5/6). Does explain results in business language despite nondeterministic quality concerns. Not perfect due to reliability issues.
 
-**Total Understanding**: 7/20
+**Missing for 6/6**:
+- ❌ Nondeterministic outputs (inconsistent quality)
+- ❌ Sometimes unclear or incorrect
+
+**Total Understanding**: 7/20 (Investigation: 2/8, ML: 0/6, Explanation: 5/6)
 
 ---
 

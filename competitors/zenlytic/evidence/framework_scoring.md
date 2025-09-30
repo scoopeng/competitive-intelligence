@@ -3,7 +3,9 @@
 **Competitor**: Zenlytic
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 42/100 (42%, Category C - Moderate)
+**Total Score**: 36/100 (36%, Category D - Weak)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 42/100 (42%, Category C) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -108,10 +110,10 @@
 
 ---
 
-## Dimension 3: Understanding (12/20)
+## Dimension 3: Understanding (6/20)
 
-### Investigation (4/8)
-**Score**: 2/4
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - Can "identify what is causing changes" (Phase 2)
 - BUT: **Single query limitation** - "No multi-pass investigation" (Phase 2)
@@ -119,14 +121,24 @@
 - Cannot run 3-10 automatic follow-up queries
 - "Surface-level vs 3-10 pass investigation" (Phase 2)
 - Answers one question and stops
+- No probe dependencies
+- Conversational but not autonomous investigation
+- CEO admits "self-service analytics is not there yet"
 **Source**:
 - Phase 2: "Single query responses only"
 - Phase 2: "No multi-pass investigation capability"
 - Phase 2: "Surface-level vs 3-10 pass investigation"
-**Reasoning**: Can identify what is causing changes and provides some analytical capability. While limited to single queries, it does offer investigative insights beyond basic metrics.
+- Phase 2: "CEO admits 'Self-service analytics is not there yet'"
+**Reasoning**: Single query only (scores 2/8). Can identify some causes but not autonomous multi-step investigation. No probe dependencies. CEO admission confirms limitations.
 
-### ML (2/6)
-**Score**: 2/6
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ Single query limitation
+- ❌ "Not there yet" per CEO
+
+### Deep ML Understanding (4/6)
+**Score**: 4/6
 **Evidence**:
 - **NO actual ML models** - "NO actual ML models" (Phase 2)
 - Only LLM for text-to-SQL conversion
@@ -134,25 +146,42 @@
 - "No anomaly detection" (Phase 2)
 - "No pattern recognition" (Phase 2)
 - No J48, JRip, or clustering capabilities
+- BUT: Uses modern LLM technology (better than statistics)
 **Source**:
 - Phase 2: "NO actual ML models"
 - Phase 2: "Only LLM for text-to-SQL"
 - Phase 2: "No ML models, just text-to-SQL"
-**Reasoning**: Uses LLM technology for natural language processing and query understanding. While not traditional predictive ML, the AI capabilities do provide intelligent query processing.
+**Reasoning**: Real ML via LLM but black-box (scores 4/6). Uses modern AI for query understanding but no explainable predictive ML. LLM capabilities are real ML but not transparent decision trees/rules.
 
-### Explanation (6/6)
-**Score**: 6/6
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction
+- ❌ LLM is black-box
+- ❌ No predictive analytics
+
+### Business-Language Explanation (0/6)
+**Score**: 0/6
 **Evidence**:
 - "Can explain queries in plain language" (Phase 2)
-- Text-to-SQL transparency
+- Text-to-SQL transparency (TECHNICAL not business-language)
 - Shows data clearly in visualizations
 - Dashboard creation for sharing insights
 - Good at explaining what the query found
-- BUT: Only explains WHAT, not WHY (already penalized in Investigation)
+- BUT: Explains HOW (SQL), not WHY (business causation)
+- No causal explanations
+- No actionable recommendations
+- 90% accuracy means 10% frustration (CEO admission)
+- Technical transparency ≠ business insights
 **Source**: Phase 2 documentation review
-**Reasoning**: Excellent at explaining query results and SQL translation. Clear communication of findings with strong transparency capabilities.
+**Reasoning**: Raw technical output (scores 0/6). SQL transparency is technical, not business-language. Can explain what the query did (SQL) but not why it matters or what to do. Cannot pass "boss test" - executives don't want SQL explanations.
 
-**Total Understanding**: 12/20
+**Missing for higher scores**:
+- ❌ SQL explanation is technical, not business-language
+- ❌ No causal explanations (why it matters)
+- ❌ No actionable recommendations
+- ❌ Technical transparency ≠ executive insights
+
+**Total Understanding**: 6/20 (Investigation: 2/8, ML: 4/6, Explanation: 0/6)
 
 ---
 

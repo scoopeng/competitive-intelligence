@@ -3,7 +3,9 @@
 **Competitor**: Sisense
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 28/100 (28%, Category C - Weak)
+**Total Score**: 16/100 (16%, Category F - Poor)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 20/100 (20%, Category F) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -104,9 +106,9 @@
 
 ---
 
-## Dimension 3: Understanding (8/20)
+## Dimension 3: Understanding (4/20)
 
-### Investigation (2/8)
+### Agentic Investigation Depth (2/8)
 **Score**: 2/8
 **Evidence**:
 - **Drill-down in dashboards** only (Phase 2)
@@ -114,13 +116,21 @@
 - "Cannot investigate, only navigate dashboards" (Phase 2)
 - No multi-pass investigation
 - No root cause analysis capability found
-- Single query limitation
+- Single query limitation - user-driven only
+- **No autonomous investigation** - user must click each level
+- Simply Ask NL being deprecated (quality issues)
 **Source**:
 - Phase 2: "Investigation & Root Cause ❌ DOESN'T EXIST"
 - Phase 2: "Not real investigation"
-**Reasoning**: Basic drill-down only, not true investigation. 1/4 for attempting but very limited capability.
+**Reasoning**: Single query/drill-down only (scores 2/8). User must drive all clicking. No AI-planned investigation, no probe dependencies. Basic embedded BI navigation only.
 
-### ML (0/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ User-driven clicking, not AI-driven
+- ❌ Pre-built hierarchies only
+
+### Deep ML Understanding (0/6)
 **Score**: 0/6
 **Evidence**:
 - **ARIMA forecasting** from 1970s (Phase 2)
@@ -129,24 +139,39 @@
 - No automatic ML capability
 - "Requires data science knowledge" (Phase 2)
 - Simply Ask deprecated suggests AI failures
+- No J48 decision trees, no JRip rules, no EM clustering
 **Source**:
 - Phase 2: "Machine Learning/AI 🔴 MARKETING MIRAGE"
 - Phase 2: "ARIMA from 1970s, not ML"
 - BATTLE_CARD: "ARIMA isn't AI - Statistical method from 1970s"
-**Reasoning**: Zero real ML. ARIMA is statistics, not machine learning. Marketing deception.
+**Reasoning**: Zero real ML (scores 0/6). ARIMA is 1970s statistics, not machine learning. Marketing deception. No explainable ML algorithms.
 
-### Explanation (6/6)
-**Score**: 6/6
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction
+- ❌ No clustering
+- ❌ 1970s statistics ≠ ML
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - Dashboard visualizations show data clearly
 - Tables and charts display results
 - Can explain what the data shows
-- Adequate at showing WHAT (not WHY, but that's Investigation)
-- Standard BI visualization explanations
+- BUT: Only shows WHAT, not WHY
+- Standard BI visualization - no business narratives
+- No causal explanations
+- No actionable recommendations
 **Source**: Product documentation on dashboard capabilities
-**Reasoning**: Good at explaining what dashboards show. Standard BI explanation capability.
+**Reasoning**: Basic summaries (scores 2/6). Good at showing dashboards but cannot explain business meaning or provide recommendations. Dashboard tooltips, not executive insights.
 
-**Total Understanding**: 8/20
+**Missing for higher scores**:
+- ❌ No actionable recommendations
+- ❌ No causal explanations
+- ❌ Dashboard tooltips, not business-language
+- ❌ Surface-level, not executive-ready
+
+**Total Understanding**: 4/20 (Investigation: 2/8, ML: 0/6, Explanation: 2/6)
 
 ---
 
@@ -245,11 +270,11 @@
 | Dimension | Score | Key Weakness |
 |-----------|-------|---------------|
 | Autonomy | 6/20 | 14+ weeks implementation, 30-80 hours training, ElastiCube requires SQL |
-| Flow | 4/20 | Excel export-only (no formulas), no PowerPoint, portal prison, mobile "afterthought" |
-| Understanding | 8/20 | Dashboard drill-down only (1/4 investigation), **ARIMA not ML** (0/3), good explanations (3/3) |
+| Flow | 2/20 | Excel export-only (no formulas), no PowerPoint, portal prison, mobile "afterthought" |
+| Understanding | 4/20 | **Drill-down only (2/8), ARIMA not ML (0/6), basic dashboards (2/6)** |
 | Presentation | 4/20 | Good dashboards (2/3), no automation, no brand intelligence |
 | Data | 8/20 | Good connectivity (2/2), **no schema evolution** (0/4), good prep (2/2) |
-| **TOTAL** | **30/100** | **Category C - IT Platform** |
+| **TOTAL** | **16/100** | **Category F - Poor** |
 
 ---
 

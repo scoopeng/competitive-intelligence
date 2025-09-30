@@ -3,7 +3,9 @@
 **Competitor**: DataChat
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 17/100 (17%, Category D - Poor)
+**Total Score**: 15/100 (15%, Category F - Poor)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 17/100 (17%, Category F) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -97,22 +99,30 @@
 
 ---
 
-## Dimension 3: Understanding (6/20)
+## Dimension 3: Understanding (4/20)
 
-### Investigation (0/8)
-**Score**: 0/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Single-query conversion only** (Phase 4)
 - "No multi-pass investigation capability" (Phase 4)
 - Claims root cause analysis but no multi-hypothesis testing documented (Phase 4)
 - SQL translator, not investigative engine (Phase 4)
 - No evidence of deep analytical capabilities (Phase 1/Phase 4)
+- Conversational but stateless
+- No probe dependencies
 **Source**:
 - Phase 4: "Single-query conversion only, no multi-pass investigation capability"
 - Phase 4: "DataChat is a SQL translator, not an investigative analytics engine"
-**Reasoning**: Cannot investigate WHY. Single query limitation. 0/8 for no investigation capability.
+**Reasoning**: Single query only (scores 2/8). Cannot investigate WHY. SQL translator, not autonomous investigation agent. No probe dependencies or multi-step reasoning.
 
-### ML (0/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ SQL translator, not investigator
+- ❌ Conversational but stateless
+
+### Deep ML Understanding (0/6)
 **Score**: 0/6
 **Evidence**:
 - **AutoML with black-box model selection** (Phase 2/Phase 4)
@@ -120,23 +130,39 @@
 - "Dozen built-in models" but auto-selects "best" model without transparency (Phase 2)
 - No automatic ML discovery (Phase 2)
 - Basic AutoML, not explainable ML
+- No decision trees, no rule mining, no clustering explanations
 **Source**:
 - Phase 2: "Auto-selects 'best' model (black box selection)"
 - Phase 4: "Basic AutoML with black-box model selection, no explanatory ML like J48/JRip"
-**Reasoning**: Black box ML. No explainability. Not automatic/transparent. 0/6 for opaque ML.
+**Reasoning**: Black box ML only (scores 0/6). No explainability. Not automatic/transparent. AutoML without business understanding.
 
-### Explanation (6/6)
-**Score**: 6/6
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction
+- ❌ Black-box model selection
+- ❌ Cannot explain predictions
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - GEL code is transparent and users can verify (Phase 2)
 - "Transparent GEL code users can verify" (Phase 2)
 - Shows intermediate representation
 - Can see what system interpreted
 - Basic visualization capabilities (Phase 4)
+- BUT: GEL is technical, not business-language
+- No causal explanations
+- No actionable recommendations
 **Source**: Phase 2: "Transparent GEL code users can verify"
-**Reasoning**: Good at showing what it interpreted through GEL transparency. 6/6 for explanation of process.
+**Reasoning**: Basic summaries (scores 2/6). Good at showing GEL intermediate representation but that's technical transparency, not business-language explanation. Cannot pass "boss test".
 
-**Total Understanding**: 6/20
+**Missing for higher scores**:
+- ❌ GEL is technical, not business-language
+- ❌ No actionable recommendations
+- ❌ No causal explanations
+- ❌ Technical transparency ≠ executive insights
+
+**Total Understanding**: 4/20 (Investigation: 2/8, ML: 0/6, Explanation: 2/6)
 
 ---
 

@@ -3,7 +3,9 @@
 **Competitor**: Snowflake Cortex
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 26/100 (26%, Category C - Weak)
+**Total Score**: 22/100 (22%, Category F - Poor)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 26/100 (26%, Category C) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -91,44 +93,67 @@
 
 ---
 
-## Dimension 3: Understanding (8/20)
+## Dimension 3: Understanding (4/20)
 
-### Investigation (0/8)
-**Score**: 0/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Complete failure on "why" questions**: "Why are customers churning?" failed with error
 - Single query limitation - cannot multi-step investigate
 - Stateless - no context retention between queries
 - "Cannot execute multi-step churn analysis" (Phase 2 testing)
 - Error: "Actual statement count 3 did not match the desired statement count 1"
+- **No probe dependencies** - cannot plan investigations
+- LLM wrapper generates single SQL query only
 **Source**:
 - Phase 2: Test evidence showing complete churn analysis failure
 - BATTLE_CARD: "Zero investigation capability"
-**Reasoning**: Cannot investigate WHY. Single queries only. Fundamental architectural limitation.
+**Reasoning**: Single query only (scores 2/8). No autonomous investigation, no probe dependencies, no multi-step reasoning. Cannot investigate WHY - fundamental architectural limitation.
 
-### ML (2/6)
-**Score**: 2/6
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ Single SQL query per request
+- ❌ Stateless (no investigation memory)
+
+### Deep ML Understanding (0/6)
+**Score**: 0/6
 **Evidence**:
 - **No automatic ML** - basic statistical functions only
 - Has CORR(), STDDEV(), PERCENTILE_CONT() - correlation not causation
-- No J48, JRip, or clustering algorithms
+- No J48 decision trees, no JRip rules, no EM clustering
 - "Why are customers churning?" query failed completely (no ML)
 - Can calculate statistics but cannot discover patterns
+- No explainable ML algorithms
 **Source**: Phase 2 ML capabilities analysis
-**Reasoning**: Has basic statistics but not real ML. No pattern discovery, no predictive models.
+**Reasoning**: Basic statistics only (scores 0/6). No real ML, no pattern discovery, no predictive models. Statistics ≠ machine learning.
 
-### Explanation (6/6)
-**Score**: 6/6
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No rule extraction (JRip)
+- ❌ No clustering (EM)
+- ❌ Just LLM + basic SQL stats
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - Returns SQL query used (transparency)
 - Shows data tables clearly
 - Numbers and aggregations are explained
 - BUT: Only explains WHAT, not WHY
 - 25% of queries strip critical context (values without labels)
+- No causal explanations
+- No actionable recommendations
 **Source**: Phase 2 technical analysis on context stripping
-**Reasoning**: Good at explaining what it did (SQL transparency), but shallow on business insights.
+**Reasoning**: Basic summaries (scores 2/6). Good at showing SQL and tables but cannot explain business meaning or provide recommendations. Cannot pass "boss test".
 
-**Total Understanding**: 8/20
+**Missing for higher scores**:
+- ❌ No actionable recommendations
+- ❌ No causal explanations
+- ❌ Technical output, not business-language
+- ❌ Surface-level, not executive-ready
+
+**Total Understanding**: 4/20 (Investigation: 2/8, ML: 0/6, Explanation: 2/6)
 
 ---
 
@@ -225,10 +250,10 @@
 |-----------|-------|--------------|
 | Autonomy | 4/20 | Requires weeks of IT semantic model setup, 35% question success rate |
 | Flow | 2/20 | Zero Excel/PowerPoint/Mobile, API-only, portal-dependent |
-| Understanding | 8/20 | **Cannot answer "why" questions** (complete investigation failure) |
+| Understanding | 4/20 | **Single query only (2/8), no ML (0/6), basic summaries (2/6)** |
 | Presentation | 2/20 | Manual screenshot workflow, no automation, no brand intelligence |
-| Data | 11/20 | Strong Snowflake connectivity but **semantic model breaks on schema changes** |
-| **TOTAL** | **27/100** | **Category D - Dashboard Tool** |
+| Data | 10/20 | Strong Snowflake connectivity but **semantic model breaks on schema changes** |
+| **TOTAL** | **22/100** | **Category F - Poor** |
 
 ---
 

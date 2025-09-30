@@ -3,7 +3,9 @@
 **Competitor**: Tellius
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 22/100 (22%, Category D - Poor)
+**Total Score**: 26/100 (26%, Category D - Weak)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 30/100 (30%, Category D) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -105,36 +107,53 @@
 
 ---
 
-## Dimension 3: Understanding (10/20)
+## Dimension 3: Understanding (6/20)
 
-### Investigation (6/8)
-**Score**: 6/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Tellius Strength: Strong root cause analysis** (Phase 2)
 - "Multi-dimensional analysis" (Phase 2)
 - "'Why' investigation capabilities" (Phase 2)
 - "Automated insights discovery" (Phase 2)
-- Multi-pass investigation capability exists
-- BUT: "Requires platform expertise, not accessible to business users" (Phase 2)
+- BUT: **Not agentic - requires platform expertise** (Phase 2)
+- User-guided multi-query, not autonomous AI-driven
+- No probe dependencies documented
+- "Requires platform expertise, not accessible to business users" (Phase 2)
+- NL "not adopted" - suggests investigation not autonomous
 **Source**:
 - Phase 2: "Tellius Strength: Strong root cause analysis"
-- Phase 2: "Investigation Capabilities - COMPETITIVE AREA"
-**Reasoning**: Strong investigation capability - one of Tellius's actual strengths. But limited by complexity. 3/4 for good technical capability with accessibility issues.
+- Phase 2: "Natural Language Search has not been adopted"
+**Reasoning**: Single query only (scores 2/8). Has investigation capability but user must guide it with platform expertise. No autonomous AI-driven investigation planning. No probe dependencies. Citizen data scientist tool, not autonomous agent.
 
-### ML (4/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ User-guided, not AI-driven
+- ❌ Requires platform expertise
+
+### Deep ML Understanding (4/6)
 **Score**: 4/6
 **Evidence**:
 - **Has actual ML**: "AutoML functionality, decision trees, clustering algorithms, predictive analytics" (Phase 2)
 - Real ML capabilities exist (not fake AI)
-- BUT: "Requires configuration, still requires ML understanding, complex setup for non-technical users" (Phase 2)
+- Has decision trees - better than most
+- BUT: "Explainability challenges remain" (Phase 2)
+- Black-box predictions without explanations
+- "Requires configuration, still requires ML understanding, complex setup" (Phase 2)
 - "Automatic ML without user awareness" not present (Phase 2)
-- "Explainability challenges remain" (Phase 2)
 **Source**:
 - Phase 2: "What They Have: AutoML functionality, decision trees, clustering, predictive analytics"
-- Phase 2: "What They Lack: Automatic ML without user awareness, explainability challenges"
-**Reasoning**: Real ML exists (better than many) but not automatic/transparent. Requires expertise. 2/3 for having ML but accessibility limited.
+- Phase 2: "What They Lack: Explainability challenges remain"
+**Reasoning**: Real ML but black-box (scores 4/6). Has decision trees but cannot explain predictions to business users. ML exists but not transparent/explainable.
 
-### Explanation (0/6)
+**Missing for 6/6**:
+- ❌ Explainability challenges
+- ❌ Black-box predictions
+- ❌ Cannot extract business rules
+- ❌ "Magic number" syndrome
+
+### Business-Language Explanation (0/6)
 **Score**: 0/6
 **Evidence**:
 - **Black Box ML Problem** documented (README)
@@ -143,12 +162,19 @@
 - "Business users don't trust it - 'Magic number' syndrome" (README)
 - "No actionable insights" (README)
 - "Explainability challenges remain" (Phase 2)
+- Cannot pass "boss test" - users don't trust predictions
 **Source**:
 - README: "The Black Box Problem" section
 - Phase 2: "Explainability challenges remain"
-**Reasoning**: Explicit black box problem. Cannot explain WHY predictions occur. Critical failure for business users.
+**Reasoning**: Raw technical output (scores 0/6). Explicit black box problem. Cannot explain WHY predictions occur. Critical failure for business users. "Magic numbers" not executive-ready insights.
 
-**Total Understanding**: 10/20
+**Missing for higher scores**:
+- ❌ No business-language explanations
+- ❌ No causal reasoning
+- ❌ "Magic numbers" not insights
+- ❌ Users don't trust it
+
+**Total Understanding**: 6/20 (Investigation: 2/8, ML: 4/6, Explanation: 0/6)
 
 ---
 
@@ -241,10 +267,10 @@
 |-----------|-------|---------------|
 | Autonomy | 4/20 | 6-week to 6-month implementation, NL "not adopted" (own admission), "hangs sometimes" |
 | Flow | 0/20 | **Zero Excel/Slack/PowerPoint** (forces Excel replacement), 100% portal prison, complex interface |
-| Understanding | 10/20 | Strong investigation (3/4), real ML (2/3), **BLACK BOX** - no explanations (0/3) |
+| Understanding | 6/20 | **User-guided only (2/8), black-box ML (4/6), no explanations (0/6)** |
 | Presentation | 2/20 | Manual exports, no automation, no brand intelligence |
 | Data | 6/20 | Good connectivity (2/2), **no schema evolution** (0/4), prep requires expertise (1/2) |
-| **TOTAL** | **22/100** | **Category D - Dashboard Tool** |
+| **TOTAL** | **26/100** | **Category D - Weak** |
 
 ---
 

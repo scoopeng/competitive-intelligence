@@ -4,6 +4,7 @@
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
 **Total Score**: 82/100 (82%, Category A - Strong)
+**Last Updated**: September 30, 2025 (Understanding dimension component names updated)
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -88,40 +89,61 @@
 
 ## Dimension 3: Understanding (18/20)
 
-### Investigation (8/8)
+### Agentic Investigation Depth (8/8)
 **Score**: 8/8
 **Evidence**:
-- **Automatic multi-pass investigation**: 3-10 queries with hypothesis testing
+- **Autonomous multi-pass investigation**: 3-10 interconnected queries with probe dependencies
+- **Probe dependencies**: Later queries extract values from earlier results (e.g., Probe 1 finds "month-to-month highest churn" → Probe 2 automatically analyzes that segment)
+- **Investigation strategies**: Drill-down, causal, temporal, comparative, pattern discovery
 - **Root cause discovery**: Finds WHY metrics changed without user guidance
-- **Cross-dimensional analysis**: Investigates time, geography, segments, products
+- **Cross-dimensional analysis**: Investigates time, geography, segments, products automatically
 - **Statistical validation**: Confidence intervals, significance testing
 - **Three-Layer AI**: Data prep → ML analysis → Business explanation
-**Source**: Investigation moat, Three-Layer AI architecture
-**Reasoning**: Perfect score - autonomous investigation without user prompting.
+- **ReasoningEngine**: Plans full investigation before execution, synthesizes findings
+**Source**: Investigation moat, ReasoningEngine architecture, ReasoningPrompts.txt, Three-Layer AI
+**Reasoning**: Perfect score (8/8) - fully autonomous investigation with probe dependencies. Only platform with true agentic analytical capabilities.
 
-### ML Pattern Discovery (6/6)
+**Why 8/8**:
+- ✅ Autonomous investigation planning
+- ✅ Probe dependencies (query N uses results from query N-1)
+- ✅ Multi-hypothesis testing
+- ✅ No user guidance required
+
+### Deep ML Understanding (6/6)
 **Score**: 6/6
 **Evidence**:
-- **J48 Decision Trees**: 800+ node trees for complex segmentation
-- **EM Clustering**: Automatic customer/product segmentation
-- **JRip Rule Mining**: Business rules extraction from patterns
+- **J48 Decision Trees**: 800+ node trees for complex segmentation with explainable paths
+- **EM Clustering**: Automatic customer/product segmentation with cluster profiles
+- **JRip Rule Mining**: Business rules extraction from patterns (IF X AND Y THEN Z)
 - **Explainable output**: Every ML insight comes with business reasoning
 - **Accessible ML**: No data scientist required, automatic execution
-**Source**: AI Data Scientist moat, ML engine capabilities
-**Reasoning**: Real ML with explainable output - rare in the market.
+- **ML probe types**: ML_RELATIONSHIP, ML_CLUSTER, ML_PERIOD, ML_GROUP
+**Source**: AI Data Scientist moat, ML engine capabilities, LLM Prompts.txt
+**Reasoning**: Perfect score (6/6) - explainable ML with business rules. Can show WHY patterns exist, not just THAT they exist.
 
-### Business Explanation (4/6)
+**Why 6/6**:
+- ✅ Explainable decision trees (J48)
+- ✅ Rule extraction (JRip - business rules)
+- ✅ Clustering with explanations (EM)
+- ✅ Transparent and actionable
+
+### Business-Language Explanation (4/6)
 **Score**: 4/6
 **Evidence**:
 - **Business language narratives**: Translates statistical findings to business impact
 - **Confidence scoring**: Shows how reliable insights are
 - **Actionable recommendations**: Suggests what to do about findings
 - **Executive summaries**: Board-ready explanations of complex analysis
+- **Three-layer translation**: Technical findings → Business context → Recommendations
 **Gap**: Actionability recommendations improving but not always specific enough
-**Source**: Narrative generation system, customer feedback
-**Reasoning**: Strong business translation but actionability could be more specific.
+**Source**: Narrative generation system, customer feedback, SynthesisEngine
+**Reasoning**: Good explanations (scores 4/6). Strong business translation. Can pass "boss test" but actionability recommendations could be more specific.
 
-**Total Understanding**: 18/20
+**Missing for 6/6**:
+- ❌ Actionability could be more specific
+- ❌ Recommendations improving but not always detailed enough
+
+**Total Understanding**: 18/20 (Investigation: 8/8, ML: 6/6, Explanation: 4/6)
 
 ---
 
