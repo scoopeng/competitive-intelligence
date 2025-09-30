@@ -6,3 +6,729 @@ Start time: Mon Sep 29 01:33:25 UTC 2025
 [1/55] Generating: datachat vs datagpt vs scoop
 Progress: 1%
 Time: 01:33:25
+✅ SUCCESS: datachat vs datagpt
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.3 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 1 successful, 0 failed, 54 remaining
+--------------------------------------------------
+
+[2/55] Generating: datachat vs domo vs scoop
+Progress: 3%
+Time: 01:39:14
+✅ SUCCESS: datachat vs domo
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+❌ FAQ: 12/14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.3 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 2 successful, 0 failed, 53 remaining
+--------------------------------------------------
+
+[3/55] Generating: datachat vs power-bi-copilot vs scoop
+Progress: 5%
+Time: 01:45:29
+✅ SUCCESS: datachat vs power-bi-copilot
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+❌ FAQ: 12/14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.2 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 3 successful, 0 failed, 52 remaining
+--------------------------------------------------
+
+[4/55] Generating: datachat vs qlik vs scoop
+Progress: 7%
+Time: 01:51:31
+✅ SUCCESS: datachat vs qlik
+  Output file created successfully
+❌ TL;DR: 46 words (target: 50-58)
+❌ FAQ: 12/14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.9 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 4 successful, 0 failed, 51 remaining
+--------------------------------------------------
+
+[5/55] Generating: datachat vs sisense vs scoop
+Progress: 9%
+Time: 01:57:39
+✅ SUCCESS: datachat vs sisense
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+❌ FAQ: 12/14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.1 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 5 successful, 0 failed, 50 remaining
+--------------------------------------------------
+
+[6/55] Generating: datachat vs snowflake-cortex vs scoop
+Progress: 10%
+Time: 02:03:28
+✅ SUCCESS: datachat vs snowflake-cortex
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.2 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 6 successful, 0 failed, 49 remaining
+--------------------------------------------------
+
+[7/55] Generating: datachat vs tableau-pulse vs scoop
+Progress: 12%
+Time: 02:09:20
+✅ SUCCESS: datachat vs tableau-pulse
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+❌ FAQ: 13/14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.8 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 7 successful, 0 failed, 48 remaining
+--------------------------------------------------
+
+[8/55] Generating: datachat vs tellius vs scoop
+Progress: 14%
+Time: 02:15:11
+✅ SUCCESS: datachat vs tellius
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.3 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 8 successful, 0 failed, 47 remaining
+--------------------------------------------------
+
+[9/55] Generating: datachat vs thoughtspot vs scoop
+Progress: 16%
+Time: 02:21:07
+✅ SUCCESS: datachat vs thoughtspot
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.6 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 9 successful, 0 failed, 46 remaining
+--------------------------------------------------
+
+[10/55] Generating: datachat vs zenlytic vs scoop
+Progress: 18%
+Time: 02:26:55
+✅ SUCCESS: datachat vs zenlytic
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.6 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 10 successful, 0 failed, 45 remaining
+--------------------------------------------------
+
+[11/55] Generating: datagpt vs domo vs scoop
+Progress: 20%
+Time: 02:32:47
+✅ SUCCESS: datagpt vs domo
+  Output file created successfully
+❌ TL;DR: 43 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.4 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 11 successful, 0 failed, 44 remaining
+--------------------------------------------------
+
+[12/55] Generating: datagpt vs power-bi-copilot vs scoop
+Progress: 21%
+Time: 02:38:47
+✅ SUCCESS: datagpt vs power-bi-copilot
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.4 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 12 successful, 0 failed, 43 remaining
+--------------------------------------------------
+
+[13/55] Generating: datagpt vs qlik vs scoop
+Progress: 23%
+Time: 02:44:54
+✅ SUCCESS: datagpt vs qlik
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.9 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 13 successful, 0 failed, 42 remaining
+--------------------------------------------------
+
+[14/55] Generating: datagpt vs sisense vs scoop
+Progress: 25%
+Time: 02:50:55
+✅ SUCCESS: datagpt vs sisense
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.6 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 14 successful, 0 failed, 41 remaining
+--------------------------------------------------
+
+[15/55] Generating: datagpt vs snowflake-cortex vs scoop
+Progress: 27%
+Time: 02:57:05
+✅ SUCCESS: datagpt vs snowflake-cortex
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.6 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 15 successful, 0 failed, 40 remaining
+--------------------------------------------------
+
+[16/55] Generating: datagpt vs tableau-pulse vs scoop
+Progress: 29%
+Time: 03:03:02
+✅ SUCCESS: datagpt vs tableau-pulse
+  Output file created successfully
+❌ TL;DR: 44 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.9 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 16 successful, 0 failed, 39 remaining
+--------------------------------------------------
+
+[17/55] Generating: datagpt vs tellius vs scoop
+Progress: 30%
+Time: 03:09:06
+✅ SUCCESS: datagpt vs tellius
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.5 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 17 successful, 0 failed, 38 remaining
+--------------------------------------------------
+
+[18/55] Generating: datagpt vs thoughtspot vs scoop
+Progress: 32%
+Time: 03:14:57
+✅ SUCCESS: datagpt vs thoughtspot
+  Output file created successfully
+❌ TL;DR: 42 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.0 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 18 successful, 0 failed, 37 remaining
+--------------------------------------------------
+
+[19/55] Generating: datagpt vs zenlytic vs scoop
+Progress: 34%
+Time: 03:21:00
+✅ SUCCESS: datagpt vs zenlytic
+  Output file created successfully
+❌ TL;DR: 45 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.8 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 19 successful, 0 failed, 36 remaining
+--------------------------------------------------
+
+[20/55] Generating: domo vs power-bi-copilot vs scoop
+Progress: 36%
+Time: 03:26:51
+✅ SUCCESS: domo vs power-bi-copilot
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.5 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 20 successful, 0 failed, 35 remaining
+--------------------------------------------------
+
+[21/55] Generating: domo vs qlik vs scoop
+Progress: 38%
+Time: 03:32:54
+✅ SUCCESS: domo vs qlik
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+❌ FAQ: 13/14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.9 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 21 successful, 0 failed, 34 remaining
+--------------------------------------------------
+
+[22/55] Generating: domo vs sisense vs scoop
+Progress: 40%
+Time: 03:38:55
+✅ SUCCESS: domo vs sisense
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.7 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 22 successful, 0 failed, 33 remaining
+--------------------------------------------------
+
+[23/55] Generating: domo vs snowflake-cortex vs scoop
+Progress: 41%
+Time: 03:45:00
+✅ SUCCESS: domo vs snowflake-cortex
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.5 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 23 successful, 0 failed, 32 remaining
+--------------------------------------------------
+
+[24/55] Generating: domo vs tableau-pulse vs scoop
+Progress: 43%
+Time: 03:51:02
+✅ SUCCESS: domo vs tableau-pulse
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.9 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 24 successful, 0 failed, 31 remaining
+--------------------------------------------------
+
+[25/55] Generating: domo vs tellius vs scoop
+Progress: 45%
+Time: 03:57:06
+✅ SUCCESS: domo vs tellius
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.3 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 25 successful, 0 failed, 30 remaining
+--------------------------------------------------
+
+[26/55] Generating: domo vs thoughtspot vs scoop
+Progress: 47%
+Time: 04:03:07
+✅ SUCCESS: domo vs thoughtspot
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+❌ FAQ: 13/14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.4 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 26 successful, 0 failed, 29 remaining
+--------------------------------------------------
+
+[27/55] Generating: domo vs zenlytic vs scoop
+Progress: 49%
+Time: 04:09:14
+✅ SUCCESS: domo vs zenlytic
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.8 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 27 successful, 0 failed, 28 remaining
+--------------------------------------------------
+
+[28/55] Generating: power-bi-copilot vs qlik vs scoop
+Progress: 50%
+Time: 04:15:16
+✅ SUCCESS: power-bi-copilot vs qlik
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.2 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 28 successful, 0 failed, 27 remaining
+--------------------------------------------------
+
+[29/55] Generating: power-bi-copilot vs sisense vs scoop
+Progress: 52%
+Time: 04:21:11
+✅ SUCCESS: power-bi-copilot vs sisense
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.5 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 29 successful, 0 failed, 26 remaining
+--------------------------------------------------
+
+[30/55] Generating: power-bi-copilot vs snowflake-cortex vs scoop
+Progress: 54%
+Time: 04:27:08
+✅ SUCCESS: power-bi-copilot vs snowflake-cortex
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.5 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 30 successful, 0 failed, 25 remaining
+--------------------------------------------------
+
+[31/55] Generating: power-bi-copilot vs tableau-pulse vs scoop
+Progress: 56%
+Time: 04:33:00
+✅ SUCCESS: power-bi-copilot vs tableau-pulse
+  Output file created successfully
+✅ TL;DR: 53 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.1 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 31 successful, 0 failed, 24 remaining
+--------------------------------------------------
+
+[32/55] Generating: power-bi-copilot vs tellius vs scoop
+Progress: 58%
+Time: 04:38:52
+✅ SUCCESS: power-bi-copilot vs tellius
+  Output file created successfully
+✅ TL;DR: 53 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.8 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 32 successful, 0 failed, 23 remaining
+--------------------------------------------------
+
+[33/55] Generating: power-bi-copilot vs thoughtspot vs scoop
+Progress: 60%
+Time: 04:44:45
+✅ SUCCESS: power-bi-copilot vs thoughtspot
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.8 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 33 successful, 0 failed, 22 remaining
+--------------------------------------------------
+
+[34/55] Generating: power-bi-copilot vs zenlytic vs scoop
+Progress: 61%
+Time: 04:50:44
+✅ SUCCESS: power-bi-copilot vs zenlytic
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.1 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 34 successful, 0 failed, 21 remaining
+--------------------------------------------------
+
+[35/55] Generating: qlik vs sisense vs scoop
+Progress: 63%
+Time: 04:56:39
+✅ SUCCESS: qlik vs sisense
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.7 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 35 successful, 0 failed, 20 remaining
+--------------------------------------------------
+
+[36/55] Generating: qlik vs snowflake-cortex vs scoop
+Progress: 65%
+Time: 05:02:42
+✅ SUCCESS: qlik vs snowflake-cortex
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.7 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 36 successful, 0 failed, 19 remaining
+--------------------------------------------------
+
+[37/55] Generating: qlik vs tableau-pulse vs scoop
+Progress: 67%
+Time: 05:08:46
+✅ SUCCESS: qlik vs tableau-pulse
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.0 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 37 successful, 0 failed, 18 remaining
+--------------------------------------------------
+
+[38/55] Generating: qlik vs tellius vs scoop
+Progress: 69%
+Time: 05:15:05
+✅ SUCCESS: qlik vs tellius
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.6 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 38 successful, 0 failed, 17 remaining
+--------------------------------------------------
+
+[39/55] Generating: qlik vs thoughtspot vs scoop
+Progress: 70%
+Time: 05:22:06
+✅ SUCCESS: qlik vs thoughtspot
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.9 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 39 successful, 0 failed, 16 remaining
+--------------------------------------------------
+
+[40/55] Generating: qlik vs zenlytic vs scoop
+Progress: 72%
+Time: 05:28:17
+✅ SUCCESS: qlik vs zenlytic
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.7 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 40 successful, 0 failed, 15 remaining
+--------------------------------------------------
+
+[41/55] Generating: sisense vs snowflake-cortex vs scoop
+Progress: 74%
+Time: 05:34:38
+✅ SUCCESS: sisense vs snowflake-cortex
+  Output file created successfully
+❌ TL;DR: 49 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.0 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 41 successful, 0 failed, 14 remaining
+--------------------------------------------------
+
+[42/55] Generating: sisense vs tableau-pulse vs scoop
+Progress: 76%
+Time: 05:40:56
+✅ SUCCESS: sisense vs tableau-pulse
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.6 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 42 successful, 0 failed, 13 remaining
+--------------------------------------------------
+
+[43/55] Generating: sisense vs tellius vs scoop
+Progress: 78%
+Time: 05:47:09
+✅ SUCCESS: sisense vs tellius
+  Output file created successfully
+❌ TL;DR: 47 words (target: 50-58)
+❌ FAQ: 13/14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.7 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 43 successful, 0 failed, 12 remaining
+--------------------------------------------------
+
+[44/55] Generating: sisense vs thoughtspot vs scoop
+Progress: 80%
+Time: 05:53:16
+✅ SUCCESS: sisense vs thoughtspot
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.4 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 2/14 are real user queries
+Status: 44 successful, 0 failed, 11 remaining
+--------------------------------------------------
+
+[45/55] Generating: sisense vs zenlytic vs scoop
+Progress: 81%
+Time: 05:59:27
+✅ SUCCESS: sisense vs zenlytic
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.1 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 45 successful, 0 failed, 10 remaining
+--------------------------------------------------
+
+[46/55] Generating: snowflake-cortex vs tableau-pulse vs scoop
+Progress: 83%
+Time: 06:05:36
+✅ SUCCESS: snowflake-cortex vs tableau-pulse
+  Output file created successfully
+✅ TL;DR: 52 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 19.0 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 46 successful, 0 failed, 9 remaining
+--------------------------------------------------
+
+[47/55] Generating: snowflake-cortex vs tellius vs scoop
+Progress: 85%
+Time: 06:11:47
+✅ SUCCESS: snowflake-cortex vs tellius
+  Output file created successfully
+❌ TL;DR: 48 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.7 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 47 successful, 0 failed, 8 remaining
+--------------------------------------------------
+
+[48/55] Generating: snowflake-cortex vs thoughtspot vs scoop
+Progress: 87%
+Time: 06:18:17
+✅ SUCCESS: snowflake-cortex vs thoughtspot
+  Output file created successfully
+❌ TL;DR: 46 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.6 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 48 successful, 0 failed, 7 remaining
+--------------------------------------------------
+
+[49/55] Generating: snowflake-cortex vs zenlytic vs scoop
+Progress: 89%
+Time: 06:24:27
+✅ SUCCESS: snowflake-cortex vs zenlytic
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 16.3 words (target: <20)
+⚠️ Extractable summaries: 3/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 49 successful, 0 failed, 6 remaining
+--------------------------------------------------
+
+[50/55] Generating: tableau-pulse vs tellius vs scoop
+Progress: 90%
+Time: 06:30:23
+✅ SUCCESS: tableau-pulse vs tellius
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.8 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 50 successful, 0 failed, 5 remaining
+--------------------------------------------------
+
+[51/55] Generating: tableau-pulse vs thoughtspot vs scoop
+Progress: 92%
+Time: 06:36:27
+✅ SUCCESS: tableau-pulse vs thoughtspot
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.3 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 51 successful, 0 failed, 4 remaining
+--------------------------------------------------
+
+[52/55] Generating: tableau-pulse vs zenlytic vs scoop
+Progress: 94%
+Time: 06:42:31
+✅ SUCCESS: tableau-pulse vs zenlytic
+  Output file created successfully
+✅ TL;DR: 51 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.0 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 52 successful, 0 failed, 3 remaining
+--------------------------------------------------
+
+[53/55] Generating: tellius vs thoughtspot vs scoop
+Progress: 96%
+Time: 06:48:46
+✅ SUCCESS: tellius vs thoughtspot
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 18.9 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 53 successful, 0 failed, 2 remaining
+--------------------------------------------------
+
+[54/55] Generating: tellius vs zenlytic vs scoop
+Progress: 98%
+Time: 06:54:51
+✅ SUCCESS: tellius vs zenlytic
+  Output file created successfully
+✅ TL;DR: 50 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.2 words (target: <20)
+✅ Extractable summaries: All 5 are 40-60 words
+⚠️ Questions: Only 4/14 are real user queries
+Status: 54 successful, 0 failed, 1 remaining
+--------------------------------------------------
+
+[55/55] Generating: thoughtspot vs zenlytic vs scoop
+Progress: 100%
+Time: 07:00:46
+✅ SUCCESS: thoughtspot vs zenlytic
+  Output file created successfully
+❌ TL;DR: 45 words (target: 50-58)
+✅ FAQ: All 14 answers are 40-60 words
+✅ Readability: Avg sentence length 17.2 words (target: <20)
+⚠️ Extractable summaries: 4/5 are 40-60 words
+⚠️ Questions: Only 3/14 are real user queries
+Status: 55 successful, 0 failed, 0 remaining
+--------------------------------------------------
+
+==================================================
+BATCH GENERATION COMPLETE
+End time: Mon Sep 29 07:07:15 UTC 2025
+==================================================
+Total attempted: 55
+Successful: 55
+Failed: 0
+
+Creating summary report...
+
+Report saved to generation_report.md
+Logs saved in logs/ directory
+
+All comparisons complete! Enjoy your dinner! 🍽️

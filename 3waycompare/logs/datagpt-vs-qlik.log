@@ -1,0 +1,276 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :run
+=== AI-Powered Three-Way Comparison Generator ===
+Using Claude/GPT-4 for intelligent content generation
+
+Comparing: datagpt vs qlik vs Scoop
+
+DEBUG: ciPath = /home/ubuntu/dev/competitive-intelligence
+DEBUG: competitiveIntelligencePath = /home/ubuntu/dev/competitive-intelligence
+=== App Configuration ===
+Current Dir: /home/ubuntu/dev/competitive-intelligence/3waycompare
+Competitive Intelligence: /home/ubuntu/dev/competitive-intelligence
+Webflow Output: /home/ubuntu/dev/webflow-competitive-intelligence
+Scoop Path: /home/ubuntu/dev/scoop
+Output Path: /home/ubuntu/dev/competitive-intelligence/3waycompare/output
+========================
+
+Loading competitor data...
+02:44:55.360 [main] INFO com.scoop.competitive.loader.CompetitorLoader -- Loading competitor: datagpt
+02:44:55.362 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Competitor path: /home/ubuntu/dev/competitive-intelligence/competitors/datagpt
+02:44:55.362 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Path exists: true
+02:44:55.365 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Found total score: 22
+02:44:55.365 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Found total score: 22
+02:44:55.366 [main] INFO com.scoop.competitive.loader.CompetitorLoader -- Loaded competitor: datagpt - DataGPT (BUA: 22)
+02:44:55.366 [main] INFO com.scoop.competitive.loader.CompetitorLoader -- Loading competitor: qlik
+02:44:55.366 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Competitor path: /home/ubuntu/dev/competitive-intelligence/competitors/qlik
+02:44:55.366 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Path exists: true
+02:44:55.368 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Found total score: 47
+02:44:55.368 [main] DEBUG com.scoop.competitive.loader.CompetitorLoader -- Found total score: 47
+02:44:55.368 [main] INFO com.scoop.competitive.loader.CompetitorLoader -- Loaded competitor: qlik - Qlik Sense (BUA: 47)
+Loaded: DataGPT (BUA: 22/100)
+Loaded: Qlik Sense (BUA: 47/100)
+
+Initializing AI generator...
+
+NOTE: This will attempt to create ScoopContext.
+It may fail if Scoop is not properly configured.
+
+Setting up ScoopMetadata with prod configuration...
+02:44:55.376 [main] INFO org.cfg4j.provider.ConfigurationProviderBuilder -- Initializing ConfigurationProvider with org.cfg4j.source.files.FilesConfigurationSource source, org.cfg4j.source.reload.strategy.ImmediateReloadStrategy reload strategy and org.cfg4j.source.context.environment.ImmutableEnvironment environment
+02:44:55.376 [main] DEBUG org.cfg4j.source.reload.strategy.ImmediateReloadStrategy -- Registering resource FilesConfigurationSource{configFilesProvider=com.scoop.competitive.AIComparisonApp$$Lambda/0x00007fb09c024000@3c756e4d}
+Creating ScoopMetadata...
+02:44:55.392 [main] INFO scoop.metadata.ScoopMetadata -- Creating new ScoopMetadata [3WayComparison]
+02:44:55.399 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating configuration bean of type interface scoop.metadata.AWSCredentialInfo
+02:44:55.399 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: accessKeyId
+02:44:55.407 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: secretKey
+02:44:55.417 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating configuration bean of type interface scoop.metadata.DatabaseConnectionInfo
+02:44:55.417 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: schema
+02:44:55.417 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: serverURL
+02:44:55.418 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: driverClass
+02:44:55.418 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: username
+02:44:55.418 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: password
+02:44:55.419 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: columnar
+02:44:55.424 [main] INFO scoop.metadata.ScoopMetadata -- Connecting to database: admin@jdbc:mariadb://ec2-34-222-14-115.us-west-2.compute.amazonaws.com?allowLocalInfile=true
+02:44:55.511 [main] DEBUG scoop.metadata.ScoopMetadata -- Creating connection to url: jdbc:mariadb://ec2-34-222-14-115.us-west-2.compute.amazonaws.com?allowLocalInfile=true
+02:44:55.512 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating configuration bean of type interface scoop.metadata.DatabaseConnectionInfo
+02:44:55.512 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: schema
+02:44:55.512 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: serverURL
+02:44:55.512 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: driverClass
+02:44:55.512 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: username
+02:44:55.513 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: password
+02:44:55.513 [main] DEBUG org.cfg4j.validator.BindingValidator -- Validating method: columnar
+02:44:55.514 [main] INFO scoop.metadata.ScoopMetadata -- Connecting to database: admin@jdbc:mariadb://scoop-prod.csdfll2hii4z.us-west-2.rds.amazonaws.com
+02:44:55.521 [main] DEBUG scoop.metadata.ScoopMetadata -- Creating connection to url: jdbc:mariadb://scoop-prod.csdfll2hii4z.us-west-2.rds.amazonaws.com
+02:44:55.678 [main] DEBUG software.amazon.awssdk.core.internal.http.loader.ClasspathSdkHttpServiceProvider -- The HTTP implementation loaded is software.amazon.awssdk.http.apache.ApacheSdkHttpService@d278d2b
+02:44:55.846 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket -- Database change: is 'scoop'
+02:44:55.855 [main] INFO scoop.metadata.ScoopMetadata -- System timezone: UTC/Coordinated Universal Time
+Creating ScoopContext...
+
+🎆 Attempting REAL AI generation with Claude/GPT-4...
+02:44:55.859 [main] INFO scoop.ai.health.AIProviderHealth -- AIProviderHealth configured: threshold=3, blacklist=60000ms
+02:44:55.860 [main] INFO scoop.ai.health.AIProviderHealth -- Scheduled blacklist cleanup every 300000 ms
+02:44:55.946 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: system_prompt.md (2543 chars)
+02:44:55.947 [main] INFO com.scoop.competitive.ai.AIComparisonGenerator -- Initialized AIComparisonGenerator with cached system prompt
+
+Generating AI-powered comparison...
+This will make multiple calls to Claude/GPT-4 and may take 30-60 seconds.
+02:44:55.947 [main] INFO com.scoop.competitive.ai.AIComparisonGenerator -- Generating AI-powered comparison: DataGPT vs Qlik Sense vs Scoop
+02:44:55.949 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: executive_summary.md (3557 chars)
+02:44:55.950 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "tldrVerdict": "[THREE sentences totaling 50-58 words. First sentence: scores + differentiator (15-20 words). Second: weakness exploitation (15-20 words). Third: recommendation (15-18 words)]",
+    "whatIsScoop": "[50-58 words, MUST start 'Scoop is an AI data analyst you chat with'. Use short, clear sentences. Active voice only.]",
+    "chooseScoopIf": "[3-4 bullet points, each 15-25 words]",
+    "considerAIf": "[2-3 bullet points for {competitorA
+02:44:55.951 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: vendor
+02:45:09.898 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:45:09.899 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: bua_dimension_analysis.md (3978 chars)
+02:45:09.899 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
+    "componentTable": [
+      {
+        "component": "[Component Name]",
+        "weight": "[X points]",
+        "competitorA": "[Score/8 + brief explanation]",
+        "competitorB": "[Score/8 + brief explanation]",
+        "scoop": "[Score/8 + brief explanation]",
+        "winner": "[Platform name or 'Tie']"
+      
+02:45:32.523 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:45:32.524 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: bua_dimension_analysis.md (3978 chars)
+02:45:32.524 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
+    "componentTable": [
+      {
+        "component": "[Component Name]",
+        "weight": "[X points]",
+        "competitorA": "[Score/8 + brief explanation]",
+        "competitorB": "[Score/8 + brief explanation]",
+        "scoop": "[Score/8 + brief explanation]",
+        "winner": "[Platform name or 'Tie']"
+      
+02:45:55.188 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:45:55.188 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: bua_dimension_analysis.md (3978 chars)
+02:45:55.189 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
+    "componentTable": [
+      {
+        "component": "[Component Name]",
+        "weight": "[X points]",
+        "competitorA": "[Score/8 + brief explanation]",
+        "competitorB": "[Score/8 + brief explanation]",
+        "scoop": "[Score/8 + brief explanation]",
+        "winner": "[Platform name or 'Tie']"
+      
+02:45:55.801 [idle-connection-reaper] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Closing connections idle longer than 60000 MILLISECONDS
+02:46:21.724 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:46:21.725 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: bua_dimension_analysis.md (3978 chars)
+02:46:21.725 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
+    "componentTable": [
+      {
+        "component": "[Component Name]",
+        "weight": "[X points]",
+        "competitorA": "[Score/8 + brief explanation]",
+        "competitorB": "[Score/8 + brief explanation]",
+        "scoop": "[Score/8 + brief explanation]",
+        "winner": "[Platform name or 'Tie']"
+      
+02:46:46.974 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:46:46.974 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: bua_dimension_analysis.md (3978 chars)
+02:46:46.974 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "dimensionNarrative": "[150-200 words explaining why this dimension matters. Short sentences. Active voice. Flesch 80+]",
+    "componentTable": [
+      {
+        "component": "[Component Name]",
+        "weight": "[X points]",
+        "competitorA": "[Score/8 + brief explanation]",
+        "competitorB": "[Score/8 + brief explanation]",
+        "scoop": "[Score/8 + brief explanation]",
+        "winner": "[Platform name or 'Tie']"
+      
+02:46:55.802 [idle-connection-reaper] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Closing connections idle longer than 60000 MILLISECONDS
+02:47:14.162 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:47:14.163 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: capability_comparison.md (4925 chars)
+02:47:14.164 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "sectionTitle": "[Capability Name]",
+    "openingNarrative": "[100-150 words setting business context]",
+    "capabilityTable": [
+      {
+        "feature": "[Feature/Capability]",
+        "competitorA": "[Status/Implementation]",
+        "competitorB": "[Status/Implementation]",
+        "scoop": "[Status/Implementation]",
+        "businessImpact": "[Why this matters]"
+      
+02:47:48.481 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:47:48.481 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: capability_comparison.md (4925 chars)
+02:47:48.482 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "sectionTitle": "[Capability Name]",
+    "openingNarrative": "[100-150 words setting business context]",
+    "capabilityTable": [
+      {
+        "feature": "[Feature/Capability]",
+        "competitorA": "[Status/Implementation]",
+        "competitorB": "[Status/Implementation]",
+        "scoop": "[Status/Implementation]",
+        "businessImpact": "[Why this matters]"
+      
+02:47:55.803 [idle-connection-reaper] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Closing connections idle longer than 60000 MILLISECONDS
+02:48:23.588 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:48:23.589 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: capability_comparison.md (4925 chars)
+02:48:23.589 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "sectionTitle": "[Capability Name]",
+    "openingNarrative": "[100-150 words setting business context]",
+    "capabilityTable": [
+      {
+        "feature": "[Feature/Capability]",
+        "competitorA": "[Status/Implementation]",
+        "competitorB": "[Status/Implementation]",
+        "scoop": "[Status/Implementation]",
+        "businessImpact": "[Why this matters]"
+      
+02:48:55.803 [idle-connection-reaper] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Closing connections idle longer than 60000 MILLISECONDS
+02:49:00.304 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:49:00.305 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: capability_comparison.md (4925 chars)
+02:49:00.305 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "sectionTitle": "[Capability Name]",
+    "openingNarrative": "[100-150 words setting business context]",
+    "capabilityTable": [
+      {
+        "feature": "[Feature/Capability]",
+        "competitorA": "[Status/Implementation]",
+        "competitorB": "[Status/Implementation]",
+        "scoop": "[Status/Implementation]",
+        "businessImpact": "[Why this matters]"
+      
+02:49:37.564 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+02:49:37.564 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: capability_comparison.md (4925 chars)
+02:49:37.565 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "sectionTitle": "[Capability Name]",
+    "openingNarrative": "[100-150 words setting business context]",
+    "capabilityTable": [
+      {
+        "feature": "[Feature/Capability]",
+        "competitorA": "[Status/Implementation]",
+        "competitorB": "[Status/Implementation]",
+        "scoop": "[Status/Implementation]",
+        "businessImpact": "[Why this matters]"
+      
+02:49:55.803 [idle-connection-reaper] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Closing connections idle longer than 60000 MILLISECONDS
+02:50:14.003 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+Generating FAQs for DataGPT vs Qlik Sense
+02:50:14.004 [main] DEBUG com.scoop.competitive.ai.PromptTemplateLoader -- Loaded template: faq_generation.md (6091 chars)
+02:50:14.004 [main] WARN com.scoop.competitive.ai.PromptTemplateLoader -- Variable not found in context: 
+  "markdown": {
+    "faqs": [
+      {
+        "question": "[Exact question text]",
+        "answer": "[EXACTLY 40-60 words]",
+        "answerType": "[paragraph|list|comparison]",
+        "evidence": "[Evidence: source]"
+      
+Invoking AI for FAQ generation...
+02:50:55.448 [main] DEBUG scoop.ai.aiconnector.EnhancedJsonParser -- Successfully parsed JSON from code block
+FAQ JSON response structure: {"markdown":{"faqs":[{"question":"What is Scoop?","answer":"Scoop is an AI data analyst you chat with, not another dashboard. Ask questions in plain English, get answers with charts. Works natively in
+Found 14 FAQ questions
+Generated 14 FAQ questions
+02:50:55.456 [main] INFO com.scoop.competitive.ai.AIComparisonGenerator -- Successfully generated AI comparison
+
+Writing AI-generated comparison to: /home/ubuntu/dev/competitive-intelligence/3waycompare/output/datagpt-vs-qlik-vs-scoop-ai.md
+EvidenceLoader initialized successfully
+Writing 14 FAQ questions
+Enriching content with real evidence citations...
+Generating schema markup for SEO...
+
+✅ AI-powered comparison generated successfully!
+Output: /home/ubuntu/dev/competitive-intelligence/3waycompare/output/datagpt-vs-qlik-vs-scoop-ai.md
+
+=== AI Generation Statistics ===
+TL;DR word count: 49 (target: 50-58)
+FAQ questions generated: 14
+AEO-compliant FAQ answers: 13/14
+
+Key features of AI generation:
+- Nuanced understanding of competitor weaknesses
+- Natural language variation (not template-y)
+- Evidence integration from BUA scores
+- AEO optimization built into prompts
+- Consistent tone and positioning
+
+BUILD SUCCESSFUL in 6m
+3 actionable tasks: 1 executed, 2 up-to-date
