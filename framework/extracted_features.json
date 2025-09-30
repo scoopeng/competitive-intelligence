@@ -1,0 +1,338 @@
+{
+  "datachat": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": false,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "datagpt": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": false,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": true
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "domo": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": false,
+      "autoWhy": false,
+      "rootCause": true
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": true,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "power-bi-copilot": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": false,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": false
+    }
+  },
+  "qlik": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "scoop": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": true
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": true,
+      "noPortal": true
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": true,
+      "rootCause": true
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": true,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": false
+    }
+  },
+  "sisense": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "snowflake-cortex": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": true
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "tableau-pulse": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "tellius": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "thoughtspot": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  },
+  "zenlytic": {
+    "autonomy": {
+      "quickSetup": false,
+      "noIT": false,
+      "naturalLanguage": false
+    },
+    "flow": {
+      "excelNative": false,
+      "slackNative": false,
+      "noPortal": false
+    },
+    "understanding": {
+      "multiPass": true,
+      "autoWhy": false,
+      "rootCause": false
+    },
+    "presentation": {
+      "powerpoint": false,
+      "boardReady": false,
+      "autoFormat": false
+    },
+    "data": {
+      "noModel": false,
+      "csvUpload": false,
+      "autoJoin": false,
+      "schemaFree": true
+    }
+  }
+}

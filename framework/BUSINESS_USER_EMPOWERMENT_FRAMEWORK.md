@@ -271,76 +271,177 @@ Each dimension measures a specific dependency removal:
 
 **What It Measures**: Can business users get deep insights (root cause WHY) without data analyst?
 
+**Core Concept**: "Understanding" means using deep ML to understand relationships and root causes - it's deeper than just poking at a problem. This includes broader agentic investigation with the ability to plan new rounds of probes (queries or ML).
+
 ### Detailed Scoring Rubric
 
-#### Component A: Investigation Depth (0-8 points)
-*How deep can users go to find WHY?*
+#### Component A: Agentic Investigation Depth (0-8 points)
+*Does the system autonomously investigate root causes through multiple rounds of interconnected analysis?*
 
 | Points | Capability |
 |--------|------------|
 | **0** | Static dashboards only (shows WHAT happened, no investigation) |
-| **2** | Single-query answers with basic drill-downs |
-| **4** | User can ask follow-up questions but must know what to ask next |
-| **6** | Multi-pass investigation but user must guide it (3-5 queries) |
-| **8** | Automatic multi-pass investigation (3-10 queries), finds root cause autonomously |
+| **2** | Single-query answers with basic drill-downs (user cannot investigate further) |
+| **4** | User-guided multi-query (user CAN ask follow-ups but must know what to ask next) |
+| **6** | Semi-autonomous investigation (system suggests next questions, user must approve each step) |
+| **8** | Fully autonomous agentic investigation (automatic multi-round investigation with probe dependencies) |
+
+**For 8 points, system must have**:
+- **Automatic multi-round investigation** - 2-8+ interconnected probes without user prompting
+- **Investigation planning** - System generates investigation strategy (drill-down, causal, temporal, comparative)
+- **Probe dependencies** - Later probes extract values from earlier probe results
+  - Example: Probe 1 finds "highest churn in month-to-month contracts"
+  - Probe 2 automatically analyzes month-to-month segment deeper using value from Probe 1
+  - Probe 3 compares to other contract types using findings from Probes 1 & 2
+- **Multiple probe types** - Can plan mix of DATASET queries, ML_RELATIONSHIP, ML_GROUP, ML_PERIOD
+- **Hypothesis testing** - Tests theories automatically without user guidance
+- **Statistical validation** - Confidence intervals, significance testing
+- **Synthesis** - Combines findings from all probes into coherent narrative
+
+**Key distinction**: Does the AI autonomously investigate (planning ahead, probe dependencies), or does it just let users click around?
 
 **What to evaluate**:
-- Query depth (one shot vs multi-pass)
-- Context retention (remembers conversation vs starts over)
-- Hypothesis testing (tests theories automatically vs user must ask)
-- Root cause discovery (finds WHY vs just shows WHAT)
-- Investigation examples: "Sales dropped 15% in Q3" → automatic investigation of segments, timing, causes
+- Does system plan investigation strategy before executing?
+- Can later queries use extracted values from earlier query results? (probe dependencies)
+- Does system decide which probe type (query vs ML) based on investigation needs?
+- Does system run multiple rounds if first round doesn't fully answer?
+- Or does user drive every step manually?
 
-#### Component B: ML Pattern Discovery (0-6 points)
-*Can users discover patterns they wouldn't find themselves?*
+#### Component B: Deep ML Understanding (0-6 points)
+*Can the system discover patterns using ML and explain WHY patterns exist (not just predict)?*
 
 | Points | Capability |
 |--------|------------|
 | **0** | No ML capabilities, manual analysis only |
 | **2** | Basic statistics (correlations, trends) marketed as "AI" |
-| **4** | Real ML but black-box predictions (can't explain why) |
-| **6** | Explainable ML with pattern discovery (J48 trees, EM clustering, rule mining) |
+| **4** | Real ML but black-box predictions (cannot explain WHY) |
+| **6** | Explainable ML with deep understanding (shows decision paths, business rules, segment definitions) |
+
+**For 6 points, system must have**:
+- **Real ML models with explainability**:
+  - Decision Trees (showing decision paths, e.g., J48 with 800+ nodes)
+  - Rule Mining (business logic extraction, e.g., JRip rules)
+  - Clustering (segment definitions, e.g., EM clustering)
+- **Pattern discovery** - Finds hidden segments, drivers, relationships users wouldn't find
+- **Causal understanding** - Shows WHAT drives WHAT (not just correlation)
+- **Business rules extraction** - "If X and Y, then Z with 85% confidence"
+- **Accessible to business users** - Automatic execution, no data scientist required
+- **Multiple ML types available**:
+  - ML_RELATIONSHIP - What predicts/influences outcome
+  - ML_CLUSTER - Natural groupings in data
+  - ML_PERIOD - What changed between time periods (using ML)
+  - ML_GROUP - How groups differ (using ML to explain differences)
+
+**Key distinction**: Must explain WHY (decision paths, rules, segment definitions), not just make predictions.
 
 **What to evaluate**:
-- ML sophistication (none vs real models: decision trees, clustering, rule mining)
-- Pattern discovery (finds hidden segments, drivers, relationships)
-- Accessibility (automatic vs requires data scientist)
-- Examples: Customer segmentation, churn drivers, product affinity
+- Can it show decision trees or rules (not just "prediction: 85% likely to churn")?
+- Can business users understand WHY without data scientist?
+- Uses real ML algorithms (decision trees, clustering) vs just regression/correlation?
+- Can extract business-understandable rules from patterns?
 
 #### Component C: Business-Language Explanation (0-6 points)
-*Can users understand and explain insights to others?*
+*Can users understand complex findings and explain them to executives?*
 
 | Points | Capability |
 |--------|------------|
-| **0** | Raw data dumps, technical output, no explanation |
-| **2** | Basic summaries but still technical (statistical jargon) |
-| **4** | Good explanations but some technical knowledge helpful |
-| **6** | Complete business-language translation, narratives with context, actionable recommendations |
+| **0** | Raw technical output (SQL results, data dumps, statistical notation) |
+| **2** | Basic summaries with technical jargon (p-values, R-squared, standard deviations) |
+| **4** | Good explanations, some technical knowledge helpful (mostly business language) |
+| **6** | Complete business-language translation (zero jargon, executive-ready narratives) |
+
+**For 6 points, explanations must have**:
+- **Zero technical jargon** - Pure business language, no statistical terms
+- **Narratives with context** - Tells a story, not just numbers
+- **Actionable recommendations** - Suggests what to do, with reasoning
+- **Confidence explained** - "We know this because..." (not just "we found this")
+- **Executive-ready** - User can present findings to C-level without help
+- **Synthesizes across findings** - Combines multiple probe results into coherent story
+- **Example transformation**:
+  - Technical: "J48 tree node: if tenure < 12 AND contract = month-to-month then churn"
+  - Business: "New customers on flexible contracts are at highest risk - they haven't invested enough time to commit long-term"
+
+**Key distinction**: Boss test - Can user explain to their boss without any technical help?
 
 **What to evaluate**:
-- Explanation quality (technical vs business language)
-- Narrative generation (just numbers vs story with context)
-- Actionability (insights only vs recommendations with reasoning)
-- Confidence/validation (explains how we know, not just what)
-- User can explain to their boss without help
+- Does it use business language or statistical jargon?
+- Does it explain WHY this matters, not just WHAT was found?
+- Does it suggest what to DO about findings?
+- Can a marketing manager present this to the CEO?
 
 **Total Understanding Score**: Sum of A + B + C (max 20 points)
+
+### The Agentic Investigation Test
+
+**Question**: "Why did sales drop 15% in Q3?"
+
+**Low Score (2-4 points)**:
+- Tool returns: "Sales were $850K in Q3 vs $1M in Q2"
+- User must then ask: "Which regions dropped?"
+- User must then ask: "Why did West region drop?"
+- User must then ask: "Which products in West region?"
+- **Tool never drives the investigation**
+
+**Medium Score (6 points)**:
+- Tool suggests: "Would you like to see by region?"
+- User clicks "Yes"
+- Tool suggests: "West region dropped most. Drill into West?"
+- User clicks "Yes"
+- **Tool suggests but user must approve each step**
+
+**High Score (8 points)**:
+- Tool automatically executes investigation plan:
+  - **Probe 1**: Identify regions with largest drops → finds "West: -40%"
+  - **Probe 2**: Analyze West region (value extracted from Probe 1) by product
+  - **Probe 3**: Compare West to other regions using ML_GROUP
+  - **Probe 4**: Analyze timing - when did drop start in West?
+  - **Probe 5**: ML_RELATIONSHIP - what factors predict drops in West?
+  - **Synthesis**: "West region sales dropped 40% starting July 15th when your top sales rep left. The drop was concentrated in enterprise accounts (>$50K). ML analysis shows 'days since last contact' is now 3x higher in West than other regions. Recommend immediate territory reassignment."
+- **System planned and executed entire investigation autonomously**
 
 ### Business Impact
 - **High score (18-20)**: User finds root causes themselves, no analyst ticket required
 - **Low score (0-8)**: User sees problem but needs analyst to investigate why
 
-### Technical Depth (What Powers Score 9-10)
-- **Multi-pass investigation**: 3-10 queries with context retention
-- **Three-Layer AI Data Scientist**:
-  - Layer 1: Automatic data prep (cleaning, binning, feature engineering)
-  - Layer 2: Real ML execution (J48 decision trees 800+ nodes, EM clustering, JRip rules)
-  - Layer 3: AI explanation engine (translates model output to business language)
+### Technical Depth (What Powers High Scores)
+
+**For Investigation (8/8)**:
+- Multi-round probe planning with dependencies
+- Investigation strategies: drill-down, causal, temporal, comparative, pattern discovery
+- Mix of probe types: DATASET, ML_RELATIONSHIP, ML_GROUP, ML_PERIOD, ML_CLUSTER
+- Automatic hypothesis testing and synthesis
+- Statistical validation across probes
+
+**For ML Understanding (6/6)**:
+- J48 Decision Trees (800+ node trees showing decision paths)
+- EM Clustering (automatic segmentation with definitions)
+- JRip Rule Mining (business rules extraction)
+- Three-Layer AI: data prep → ML execution → business translation
+- Multiple ML analysis types available
+
+**For Business Explanation (6/6)**:
+- Narrative generation from complex ML results
+- Context and causal reasoning
+- Actionable recommendations with confidence
+- Executive-level synthesis
 
 ### Competitive Examples
-- **Power BI Copilot**: 4/20 (single query only, no investigation, nondeterministic)
-- **ThoughtSpot**: 8/20 (single query, no ML, user must know what to drill into)
-- **Scoop**: 18/20 (multi-pass investigation + Three-Layer AI + business explanations)
+- **Scoop**: 18/20 (Investigation: 8/8, ML: 6/6, Explanation: 4/6)
+  - Full agentic investigation with probe dependencies
+  - Explainable ML (J48, EM, JRip)
+  - Business narratives (improving actionability)
+- **Power BI Copilot**: 7/20 (Investigation: 2/8, ML: 0/6, Explanation: 5/6)
+  - Single query only ("one question at a time" - Microsoft docs)
+  - No ML capabilities
+  - Basic summaries, nondeterministic
+- **ThoughtSpot**: 8/20 (Investigation: 2/8, ML: 4/6, Explanation: 2/6)
+  - Single query responses, user-driven
+  - SpotIQ has real ML but black-box (can't explain WHY)
+  - Shows correlations but not causal understanding
+- **Qlik**: 6/20 (Investigation: 4/8, ML: 0/6, Explanation: 2/6)
+  - Associative model = user manually clicks relationships
+  - Qlik Predict exists but requires data scientist
+  - No autonomous investigation or probe dependencies
 
 ---
 

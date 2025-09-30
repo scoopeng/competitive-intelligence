@@ -2,9 +2,11 @@
 
 **Competitor**: Domo
 **Date Scored**: September 27, 2025
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 62/100 (62%, Category B - Good)
-**Previous Score**: 25/50 (50%, Category C - IT Platform)
+**Total Score**: 52/100 (52%, Category C - Moderate)
+**Previous Score**: 62/100 (62%, Category B) - Before Understanding dimension revision
+**Framework Version**: Business User Autonomy Framework v2.0 (100-point system)
 
 ---
 
@@ -105,49 +107,83 @@
 
 ---
 
-## Dimension 3: Understanding (18/20)
+## Dimension 3: Understanding (8/20)
 
-### Investigation (8/8)
-**Score**: 8/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
-- AutoML automatically investigates drivers and feature importance
-- "Powered by Domo's AI and ML engine" with automatic investigation
-- Strong drill-down and exploration capabilities
-- Automatic feature importance, drill-down
-- No multi-hypothesis testing
-- No automatic root cause analysis
-- Single query paradigm, not multi-pass investigation
-- "Can't investigate WHY metrics changed across business" per BATTLE_CARD
-**Source**: Phase 2 functionality analysis
-**Reasoning**: Better than static dashboards but not true investigation. Dashboard narration, not root cause discovery.
+- AutoML investigates drivers and feature importance when user initiates
+- "Powered by Domo's AI and ML engine" but user-triggered, not autonomous
+- Strong drill-down and exploration capabilities within dashboards
+- **BUT: Not true agentic investigation**:
+  - No multi-hypothesis testing
+  - No automatic root cause analysis
+  - **Single query paradigm, not multi-pass investigation**
+  - No probe dependencies (later analysis using earlier results)
+  - No investigation planning or multi-round execution
+  - **"Can't investigate WHY metrics changed across business"** per BATTLE_CARD
+  - User must manually explore and drill-down
+**Source**:
+- Phase 2 functionality analysis
+- BATTLE_CARD competitive assessment
+**Reasoning**: Single-query answers with drill-down capability (scores 2/8). Better than static dashboards but not autonomous investigation. Dashboard narration, not root cause discovery. User must drive exploration - no automatic multi-round probe planning with dependencies.
 
-### ML (6/6)
-**Score**: 6/6
+**Key missing capabilities for higher scores**:
+- ❌ No multi-round investigation planning
+- ❌ No probe dependencies (queries using earlier results)
+- ❌ No autonomous hypothesis testing
+- ❌ User must manually drill-down, not AI-driven
+- ❌ Dashboard-focused, not investigation-focused
+
+### Deep ML Understanding (4/6)
+**Score**: 4/6
 **Evidence**:
 - **AutoML exists**: "Applies hundreds of models automatically"
 - K-Means clustering supported
-- Real ML capabilities (not fake AI)
-- BUT: Black box approach (not explainable like J48/JRip)
+- Real ML capabilities (not fake AI or basic statistics)
+- User can initiate ML analysis when needed
+- **BUT: Black box approach** - not explainable like Scoop's J48/JRip
+- No decision tree visualization showing decision paths
+- No business rule extraction ("If X and Y, then Z")
 - User must initiate ML, not automatic on "why" questions
 - No J48 decision trees or JRip rule mining documented
+- Cannot show "why" in business-understandable rules
 **Source**:
 - https://www.domo.com/learn/video/automatic-insights-with-automl
 - Phase 2 functionality analysis
-**Reasoning**: Has real ML (rare among competitors), scores well despite black box limitation.
+- Domo AutoML documentation
+**Reasoning**: Has real ML (scores 4/6 for real ML models), rare among competitors. However, black-box approach prevents 6/6 score. Missing explainability - can predict but cannot show decision paths or extract business rules that explain WHY.
 
-### Explanation (4/6)
-**Score**: 4/6
+**What's missing for 6/6**:
+- ❌ No explainable decision trees (J48 equivalent)
+- ❌ No rule mining (JRip equivalent)
+- ❌ No "If X and Y, then Z" business rules
+- ❌ Predictions without causal understanding
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - AI Chat explains insights in natural language
 - Provides context for dashboard changes
-- Shows SQL queries (transparency)
-- BUT: Limited to surface-level explanations
-- No confidence scoring
-- Cannot explain complex multi-variate relationships
-**Source**: Domo AI Chat documentation and reviews
-**Reasoning**: Better than most at explaining, but shallow depth.
+- Shows SQL queries for transparency (good for technical users)
+- **BUT: Limited to surface-level explanations**
+  - No confidence scoring visible
+  - Cannot explain complex multi-variate relationships
+  - No actionable recommendations with reasoning
+  - SQL transparency helps technical users, not business users
+  - Dashboard narratives describe what happened, not why it matters
+**Source**:
+- Domo AI Chat documentation
+- Product reviews of Domo's explanation capabilities
+**Reasoning**: Basic summaries with some natural language (scores 2/6). Better than raw data dumps but not true business-language translation. Shows SQL (technical), provides dashboard narration, but shallow on causal reasoning and actionability. Cannot pass "boss test" - marketing manager would struggle to explain insights to CEO without additional interpretation.
 
-**Total Understanding**: 18/20
+**What's missing for higher scores**:
+- ❌ No narratives with business context and causation
+- ❌ No actionable recommendations with reasoning
+- ❌ SQL transparency helps technical users, not non-technical business users
+- ❌ Not executive-ready without interpretation
+
+**Total Understanding**: 8/20 (Investigation: 2/8, ML: 4/6, Explanation: 2/6)
 
 ---
 

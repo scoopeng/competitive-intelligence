@@ -2,9 +2,10 @@
 
 **Competitor**: ThoughtSpot
 **Date Scored**: September 27, 2025
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 57/100 (57%, Category B - Good)
-**Framework Version**: Business User Autonomy Framework (100-point system)
+**Total Score**: 45/100 (45%, Category C - Moderate)
+**Framework Version**: Business User Autonomy Framework v2.0 (100-point system)
 
 ---
 
@@ -89,50 +90,80 @@
 
 ---
 
-## Dimension 3: Understanding (20/20)
+## Dimension 3: Understanding (8/20)
 
-### Investigation (8/8)
-**Score**: 8/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
 - **Marketing claim**: "Multi-dimensional analysis"
-- **Reality**: Single query responses, not true investigation
-- "Change Analysis" shows what changed, not why
+- **Reality**: Single query responses, NOT true agentic investigation
+- "Change Analysis" shows WHAT changed, not WHY
+- No probe dependencies - each query is independent
+- No investigation planning or multi-round execution
 - No hypothesis testing across multiple queries
 - No context retention between searches
-- Can't investigate root causes - only describe changes
+- User must manually run separate searches for follow-up
+- Can't autonomously investigate root causes - only describe changes
 **Source**:
-- Phase 2: "True 3-10 query investigations vs single 'deep' query"
-- "Can't investigate 'why' - only 'what'"
-**Reasoning**: Better than basic dashboards but not true multi-pass investigation. Describes changes, doesn't investigate causes.
+- ThoughtSpot product documentation
+- Phase 2 analysis: "True 3-10 query investigations vs single 'deep' query"
+- BATTLE_CARD: "Can't investigate 'why' - only 'what'"
+**Reasoning**: Single-query answers with basic drill-downs. Better than static dashboards (0 points) but far from autonomous agentic investigation. User must know what to ask next - no probe dependencies, no investigation planning. Scores 2/8 for single query capability.
 
-### ML (6/6)
-**Score**: 6/6
+**Key missing capabilities for higher scores**:
+- ❌ No multi-round investigation planning
+- ❌ No probe dependencies (later queries using earlier results)
+- ❌ No automatic hypothesis testing
+- ❌ No synthesis across multiple probe results
+- ❌ User drives every step - not AI-driven
+
+### Deep ML Understanding (4/6)
+**Score**: 4/6
 **Evidence**:
-- SpotIQ provides real ML predictions (not fake AI)
-- Automated pattern discovery
-- BUT: Black box - no explanations of WHY patterns exist
-- No decision tree visibility (no J48/JRip)
-- Can't show business rules
-- Prediction-only, not explanatory
+- SpotIQ provides real ML predictions (not fake AI or basic statistics)
+- Automated pattern discovery using machine learning
+- **BUT: Black box** - no explanations of WHY patterns exist
+- No decision tree visibility (no J48/JRip equivalent)
+- Can't show business rules or decision paths
+- Cannot extract "If X and Y, then Z" rules
+- Prediction-only approach, not explanatory
+- 33.3% accuracy per Stanford HAI benchmark on complex queries
+- Users see "Customer likely to churn" but not WHY
 **Source**:
-- Phase 2: "Black box predictions without explanations"
-- "Can't explain WHY patterns exist"
-- BATTLE_CARD: "33.3% accuracy" per Stanford HAI benchmark
-**Reasoning**: Has real ML (rare in competitors) but lacks explainability. Scores well for having ML at all, but penalized for black box.
+- Phase 2 analysis: "Black box predictions without explanations"
+- BATTLE_CARD: "Can't explain WHY patterns exist"
+- Stanford HAI benchmark: 33.3% accuracy
+**Reasoning**: Has real ML (scores 4/6 for real ML models), rare among competitors. However, black-box predictions cannot score 6/6 which requires explainability. Missing decision trees, rule mining, and business rule extraction that would enable business users to understand WHY.
 
-### Explanation (6/6)
-**Score**: 6/6
+**What's missing for 6/6**:
+- ❌ No decision tree visualization (showing decision paths)
+- ❌ No rule extraction ("If tenure <12 AND contract=monthly, then churn")
+- ❌ No business-understandable explanations of WHY patterns exist
+- ❌ Just predictions without causal understanding
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
 - Provides insights in natural language
 - Shows patterns and trends detected
-- BUT can't explain underlying relationships
-- No confidence scoring visible
+- BUT: Cannot explain underlying relationships or causation
+- No confidence scoring visible to users
 - No "why this pattern exists" explanations
-- Just shows correlations, not causation
-**Source**: Multiple reviews of SpotIQ limitations
-**Reasoning**: Better than most at explaining what it found, but shallow on why.
+- Shows correlations, not causation
+- Summaries are descriptive (what happened) not explanatory (why it happened)
+- Technical users can interpret, but non-technical users struggle
+**Source**:
+- Multiple SpotIQ product reviews
+- ThoughtSpot documentation on SpotIQ outputs
+**Reasoning**: Basic summaries with some natural language (scores 2/6). Better than raw SQL output (0 points) but not true business-language translation. Missing narratives with context, actionable recommendations, and causal reasoning. Cannot pass "boss test" - user would struggle to explain WHY findings matter to executives without additional analysis.
 
-**Total Understanding**: 20/20
+**What's missing for higher scores**:
+- ❌ No narratives with business context
+- ❌ No actionable recommendations with reasoning
+- ❌ No causal explanations (why patterns exist)
+- ❌ Not executive-ready without additional interpretation
+
+**Total Understanding**: 8/20 (Investigation: 2/8, ML: 4/6, Explanation: 2/6)
 
 ---
 
