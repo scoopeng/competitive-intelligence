@@ -211,16 +211,21 @@ Each dimension measures a specific dependency removal:
 |--------|------------|
 | **0** | Separate portal only, must login and navigate BI tool |
 | **2** | Portal-based with basic embedding (iframes, limited functionality) |
-| **4** | One native integration (Slack notifications OR basic Excel export) |
-| **6** | Native in one tool with full functionality (Slack OR Excel with analysis) |
-| **8** | Native in multiple tools (Slack + Excel/Sheets + Mobile + PowerPoint) |
+| **4** | Basic integration in one tool (Slack notifications OR static Excel export) |
+| **6** | Full-featured integration in one tool (complete analysis in Slack threads OR live Excel formulas with refresh) |
+| **8** | Multiple native full-featured integrations (Slack threads + Excel/Sheets formulas + Mobile native + PowerPoint automation) |
+
+**Key distinction**: Quality matters more than quantity
+- **Basic integration** (4 pts): Notifications, static exports, read-only access
+- **Full-featured integration** (6 pts): Complete analysis capability, bi-directional, live updates
+- **Multiple full-featured** (8 pts): All core workflows covered natively
 
 **What to evaluate**:
-- Slack: Notifications only vs full analysis in threads
-- Excel/Sheets: Export only vs live plugin with refresh
-- Mobile: Responsive web vs native mobile experience
-- PowerPoint: Manual copy/paste vs automated generation
-- Setup time (weeks of custom dev vs 30 seconds)
+- Slack: Notifications only (4 pts) vs full analysis in threads (6 pts)
+- Excel/Sheets: Static export only (4 pts) vs live formulas with refresh (6 pts)
+- Mobile: Responsive web (4 pts) vs native app with full functionality (6 pts)
+- PowerPoint: Manual copy/paste (0 pts) vs automated generation (6 pts)
+- Multiple tools: One full-featured (6 pts) vs multiple full-featured (8 pts)
 
 #### Component B: No Portal Prison (0-6 points)
 *Can users avoid logging into separate BI tool?*
@@ -473,16 +478,23 @@ Each dimension measures a specific dependency removal:
 | Points | Capability |
 |--------|------------|
 | **0** | No branding, generic output only |
-| **2** | Manual brand color/logo application required |
-| **4** | Template-based branding (user uploads, system applies) |
-| **6** | Automatic brand detection from uploaded files (extracts colors) |
-| **8** | AI-powered brand detection + semantic color application + live data overlay on branded templates |
+| **2** | Manual brand color/logo application required every time |
+| **4** | Template-based branding (user uploads template once, system applies to new content) |
+| **6** | Automatic brand extraction (system extracts colors/fonts from uploaded files, applies consistently) |
+| **8** | Intelligent brand system (automatic extraction + semantic color mapping + live branded templates with data refresh) |
+
+**Key distinction**: Outcome vs implementation
+- **Manual** (2 pts): User applies branding to each output individually
+- **Template-based** (4 pts): Upload once, system remembers and applies
+- **Automatic extraction** (6 pts): System extracts brand elements from existing files (no manual color picking)
+- **Intelligent system** (8 pts): Extraction + smart color usage (brand colors mapped semantically to data) + live updates
 
 **What to evaluate**:
-- Brand detection (manual vs automatic from PowerPoint)
-- Color consistency (user manages vs auto-applied throughout)
-- Logo/template handling (separate upload vs integrated)
-- Corporate compliance (hit-or-miss vs guaranteed)
+- **Setup burden**: Manual every time vs upload once vs automatic detection
+- **Color extraction**: User picks colors manually vs system extracts from PowerPoint/PDF
+- **Semantic mapping**: Random color assignment vs meaningful (e.g., brand red for negative metrics)
+- **Live updates**: Static branded output vs templates that refresh with new data
+- **Consistency**: User manages brand compliance vs guaranteed corporate standards
 
 #### Component C: Speed & Formats (0-6 points)
 *How fast can users create shareable outputs?*
