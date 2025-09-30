@@ -2,9 +2,11 @@
 
 **Competitor**: Qlik (Qlik Sense with Insight Advisor)
 **Date Scored**: September 27, 2025
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 47/100 (47%, Category C - Moderate)
-**Framework Version**: Business User Autonomy Framework (100-point system)
+**Total Score**: 38/100 (38%, Category D - Weak)
+**Previous Score**: 47/100 (47%, Category C) - Before Understanding dimension revision
+**Framework Version**: Business User Autonomy Framework v2.0 (100-point system)
 
 ---
 
@@ -102,47 +104,84 @@
 
 ---
 
-## Dimension 3: Understanding (15/20)
+## Dimension 3: Understanding (6/20)
 
-### Investigation (8/8)
-**Score**: 8/8
+### Agentic Investigation Depth (4/8)
+**Score**: 4/8
 **Evidence**:
-- **Associative data model** - unique strength (Phase 2)
-- "Explore data in unrestricted manner" (Phase 2)
-- Can follow relationships and associations
-- "Click through associations in data" (Phase 2)
-- BUT: "User must manually explore relationships" (Phase 2)
-- "No automatic investigation or hypothesis testing" (Phase 2)
-- "Single-query responses, no multi-pass reasoning" (Phase 2)
+- **Associative data model** - unique strength allowing exploration
+- "Explore data in unrestricted manner" through visual associations
+- Can follow relationships and click through associations in data
+- **BUT: This is user-guided multi-query, NOT agentic investigation**:
+  - **"User must manually explore relationships"** (Phase 2)
+  - **"No automatic investigation or hypothesis testing"** (Phase 2)
+  - **"Single-query responses, no multi-pass reasoning"** (Phase 2)
+  - No probe dependencies - user clicks, system doesn't plan
+  - No investigation planning or multi-round execution
+  - No autonomous hypothesis testing
+  - User drives every click - system never takes initiative
 **Source**:
 - Phase 2: "Root Cause Analysis" section
-- Associative model is documented competitive advantage
-**Reasoning**: Strong investigation capability through associative model (unique to Qlik). Manual exploration vs automatic, but the associative model enables powerful investigation. 4/4 for unique competitive strength in data exploration.
+- Associative model documentation
+- Qlik product reviews
+**Reasoning**: User-guided multi-query capability (scores 4/8). The associative model is like an interactive map - user can explore, but they must manually navigate. Better than single query (2 points) or static dashboards (0 points), but far from autonomous agentic investigation. User must know where to click next - no AI planning ahead.
 
-### ML (0/6)
+**Key distinction**: Associative model = powerful manual exploration tool, NOT autonomous investigation. Like GPS showing you all roads vs self-driving car that investigates the route for you.
+
+**What's missing for higher scores**:
+- ❌ No investigation planning (system doesn't decide what to explore)
+- ❌ No probe dependencies (no extraction of values to inform next query)
+- ❌ No autonomous hypothesis testing
+- ❌ User clicks through data, AI doesn't investigate autonomously
+
+### Deep ML Understanding (0/6)
 **Score**: 0/6
 **Evidence**:
-- **Qlik Predict and AutoML** exist (Phase 2)
-- BUT: "No-code but requires understanding of ML concepts" (Phase 2)
-- "Still requires data science understanding" (Phase 2)
-- "Models need manual training and deployment" (Phase 2)
-- "Not automatic - user must initiate and configure" (Phase 2)
-- "Requires data preparation and feature engineering" (Phase 2)
-**Source**: Phase 2: "Machine Learning/AI" comprehensive assessment
-**Reasoning**: Has ML tools but not automatic. Requires data science knowledge. Not accessible to business users. 0/3 for not being automatic/transparent.
+- **Qlik Predict and AutoML** exist
+- **BUT: Not accessible to business users**:
+  - "No-code but requires understanding of ML concepts" (Phase 2)
+  - **"Still requires data science understanding"** (Phase 2)
+  - "Models need manual training and deployment" (Phase 2)
+  - "Not automatic - user must initiate and configure" (Phase 2)
+  - "Requires data preparation and feature engineering" (Phase 2)
+  - Not accessible to non-technical business users
+  - No automatic ML on "why" questions
+**Source**:
+- Phase 2: "Machine Learning/AI" comprehensive assessment
+- Qlik AutoML documentation
+**Reasoning**: Has ML tools but scores 0/6 because not accessible to business users. Framework measures business user autonomy - if you need a data scientist, it doesn't count. Qlik AutoML is for technical users, not marketing managers. Would need to be automatic and explainable for points.
 
-### Explanation (7/6) → Capped at 6/6
-**Score**: 6/6
+**What's missing for any points**:
+- ❌ Not accessible (requires data science knowledge)
+- ❌ Not automatic (user must configure)
+- ❌ Not on-demand (separate tool, not integrated into investigation)
+
+### Business-Language Explanation (2/6)
+**Score**: 2/6
 **Evidence**:
-- Associative model shows data relationships clearly
-- Dashboard visualizations explain data
-- Can see what data influenced results
+- Associative model shows data relationships visually
+- Dashboard visualizations show what data influenced results
+- Can see associations between data points
 - Standard BI explanation capabilities
-- Better than average due to associative model transparency
-**Source**: Phase 2 documentation on associative engine
-**Reasoning**: Good at explaining what data shows. Associative model provides transparency. 3/3 for strong explanation capability.
+- **BUT: Visual relationships ≠ business-language explanations**:
+  - Shows WHAT data is related, not WHY it matters
+  - No narratives with context
+  - No actionable recommendations
+  - No causal reasoning (correlation vs causation)
+  - Visual exploration requires user interpretation
+  - Not executive-ready without significant user analysis
+**Source**:
+- Phase 2 documentation on associative engine
+- Qlik dashboard capabilities
+**Reasoning**: Basic visual explanations (scores 2/6). Associative model provides transparency about data relationships, better than raw SQL dumps (0 points). However, showing visual associations is not the same as business-language narratives. User must interpret what the associations mean and why they matter. Cannot pass "boss test" - user would need to do significant analysis to explain findings to executives.
 
-**Total Understanding**: 15/20
+**What's missing for higher scores**:
+- ❌ No business-language narratives (just visual relationships)
+- ❌ No actionable recommendations
+- ❌ No causal explanations (shows correlation, not why)
+- ❌ Requires user interpretation, not executive-ready
+
+**Total Understanding**: 6/20 (Investigation: 4/8, ML: 0/6, Explanation: 2/6)
 
 ---
 
