@@ -3,7 +3,9 @@
 **Competitor**: Tableau Pulse
 **Date Scored**: September 27, 2025
 **Scored By**: AI Competitive Intelligence System
-**Total Score**: 37/100 (37%, Category C - Weak)
+**Total Score**: 35/100 (35%, Category D - Weak)
+**Last Updated**: September 30, 2025 (Understanding dimension rescored)
+**Previous Score**: 37/100 (37%, Category D) - Before Understanding dimension revision
 **Framework Version**: Business User Autonomy Framework (100-point system)
 
 ---
@@ -93,49 +95,72 @@
 
 ---
 
-## Dimension 3: Understanding (10/20)
+## Dimension 3: Understanding (8/20)
 
-### Investigation (4/8)
-**Score**: 4/8
+### Agentic Investigation Depth (2/8)
+**Score**: 2/8
 **Evidence**:
-- "Progressive Q&A" provides guided insights
-- "Provides context to help figure out why changes happened"
-- "Beyond 'what' to get to 'why'" - marketing claim
-- BUT: Single-path exploration, not multi-hypothesis testing
-- Cannot investigate like an analyst - only follow guided narrative
-- "Accelerating root cause analysis" BUT not true multi-pass investigation
+- "Progressive Q&A" provides guided single-path insights
+- "Provides context to help figure out why changes happened" - marketing claim
+- **BUT: Not agentic investigation**:
+  - Single-path exploration, not multi-hypothesis testing
+  - No probe dependencies - follows predetermined narrative
+  - Cannot investigate like an analyst would
+  - Only follows guided narrative path, user cannot deviate
+  - "Accelerating root cause analysis" BUT not autonomous multi-pass investigation
+  - No investigation planning or multi-round execution
 **Source**:
-- Phase 2 functionality analysis: "Progressive but not true multi-pass investigation"
-- BATTLE_CARD: "Progressive Q&A" - no multi-pass investigation
-**Reasoning**: Progressive Q&A provides guided investigation with some "why" context. While limited compared to full investigation, it does provide contextual insights beyond basic metrics.
+- Phase 2: "Progressive but not true multi-pass investigation"
+- BATTLE_CARD: "Progressive Q&A" with no autonomous investigation
+**Reasoning**: Single-query with basic guided follow-ups (scores 2/8). Better than static dashboards but "progressive" doesn't mean agentic. System guides user through predetermined path, not AI planning investigation based on findings. No probe dependencies.
 
-### ML (4/6)
+**Missing for higher scores**:
+- ❌ No autonomous investigation planning
+- ❌ No probe dependencies
+- ❌ Guided path, not AI-driven exploration
+
+### Deep ML Understanding (4/6)
 **Score**: 4/6
 **Evidence**:
 - "Automatically detect hidden drivers, trends, contributors"
 - Uses "in-house AI/ML mathematical models"
-- BUT: Detection only, not predictive ML models
-- No J48, JRip, EM clustering or similar algorithms
-- Exploring Einstein Discovery for future (not current)
-- Embedding models (2018 tech), not LLMs
+- Automatic pattern detection capabilities
+- **BUT: Detection only, not explainable predictive ML**:
+  - No decision trees (J48), rule mining (JRip), or clustering (EM)
+  - Detection ≠ prediction with business rules
+  - Embedding models (2018 tech), not modern explainable ML
+  - Exploring Einstein Discovery for future (not current capability)
+  - Cannot extract "If X and Y, then Z" business rules
 **Source**:
-- Phase 2: "Detection but not automatic ML models like J48/JRip"
+- Phase 2: "Detection but not predictive ML models like J48/JRip"
 - BATTLE_CARD: "ML Models: Detection only"
-**Reasoning**: Has automatic detection capabilities with mathematical models. While not full predictive ML, does provide pattern detection and driver analysis automatically.
+**Reasoning**: Has real ML for detection (scores 4/6), better than basic statistics. However, detection without explainable predictions/rules cannot score 6/6. Missing decision trees and rule extraction.
 
-### Explanation (2/6)
+**Missing for 6/6**:
+- ❌ No explainable decision trees
+- ❌ No business rule extraction
+- ❌ Detection only, not predictive with explanations
+
+### Business-Language Explanation (2/6)
 **Score**: 2/6
 **Evidence**:
 - Provides natural language summaries of insights
 - "Statistical grounding for insights"
 - Explains trends and outliers detected
-- BUT limited to surface-level explanations
-- No confidence scoring
-- No multi-variate analysis explanations
-**Source**: Multiple consultant reviews
-**Reasoning**: Explains what it detects, but shallow depth. No ML confidence scores or complex relationship explanations.
+- **BUT: Limited to surface-level explanations**:
+  - No confidence scoring visible to users
+  - No multi-variate relationship explanations
+  - No actionable recommendations with reasoning
+  - Descriptive (what happened) not explanatory (why it matters)
+**Source**: Multiple Tableau Pulse reviews
+**Reasoning**: Basic summaries (scores 2/6). Better than raw data but not business-language translation with context and recommendations. Cannot pass "boss test".
 
-**Total Understanding**: 10/20
+**Missing for higher scores**:
+- ❌ No actionable recommendations
+- ❌ No causal explanations
+- ❌ Surface-level, not executive-ready
+
+**Total Understanding**: 8/20 (Investigation: 2/8, ML: 4/6, Explanation: 2/6)
 
 ---
 
