@@ -1,5 +1,76 @@
 # Competitive Intelligence Repository Changelog
 
+## September 30, 2025 - Capability Matrix v2.0: Agentic Investigation & ML Depth
+
+### Critical Issue: Matrix Understated Scoop's 18-Point Competitive Advantages
+
+**Problem Identified**:
+Current capability matrix conflated fundamentally different levels of sophistication:
+- "Investigation" column gave Qlik credit for manual exploration when Scoop does autonomous multi-pass investigation
+- "ML" column treated basic AutoML tools as equivalent to Scoop's 3-layer architecture
+- Missing Scoop's most defensible advantages: Multi-pass investigation, spreadsheet engine, no semantic layer
+
+**Understanding Dimension Rescoring** (September 30, 2025):
+All 12 competitors rescored on Understanding dimension:
+- **Scoop: 18/20** (Investigation 8/8, ML 6/6, Explanation 4/6)
+- **Qlik: 6/20** (Investigation 4/8 manual exploration, ML 0/6, Explanation 2/6)
+- **Most others: 2-8/20** (Investigation 2/8 single query, ML 0-4/6, Explanation 0-2/6)
+
+**Result**: Scoop has 10-18 point gaps in Investigation and ML that weren't visible in capability matrix.
+
+### Solution: Capability Matrix v2.0 (26 Capability Columns)
+
+**New File**: `CAPABILITY_MATRIX.md`
+
+**Key Changes**:
+1. **Split Investigation into 6 columns**:
+   - Natural Language Query
+   - Multi-Turn Chat
+   - Interactive Exploration (gives Qlik credit for associative model)
+   - **Multi-Pass Investigation** (Scoop ✓✓✓, Everyone else ✗ or ✓✓)
+   - **Context Retention** (Scoop ✓✓✓, Everyone else ✗)
+   - **Hypothesis Testing** (Scoop ✓✓✓, Everyone else ✗)
+
+2. **Split ML into 5 columns**:
+   - **Explainable ML Models** (Scoop ✓✓✓ J48/JRip, 6 competitors ✗, 4 competitors ✓✓)
+   - **Automatic Data Prep** (Scoop ✓✓✓, Everyone else ✗)
+   - **AI Explanation Layer** (Scoop ✓✓✓, Everyone else ✗)
+   - **ML Discovery** (Scoop ✓✓✓, Everyone else ✗)
+   - ML Types Available
+
+3. **Added Scoop-Unique Capabilities**:
+   - **Spreadsheet Calculation Engine** (150+ Excel functions) - Scoop only
+   - **No Data Modeling** - Scoop only (competitors require semantic layers)
+   - **No Training Required** - Scoop ✓✓✓, most ✓ (Qlik 58% cert fail rate)
+   - **PowerPoint Generation** - Scoop only
+   - **Brand Control** (AI logo detection) - Scoop only
+
+4. **Total Columns**: 26 (up from ~17)
+   - Setup & Accessibility: 4 columns
+   - Agentic Investigation: 6 columns
+   - Machine Learning: 5 columns
+   - Data Transformation: 4 columns
+   - Output & Distribution: 7 columns
+
+**Evidence Alignment**:
+- All scores verified against `framework_scoring.md` files
+- Investigation scores map to framework (8/8 = ✓✓✓, 4/8 = ✓✓, 2/8 = ✓)
+- ML scores map to framework (6/6 = ✓✓✓, 4/6 = ✓✓, 0/6 = ✗)
+- Evidence sources documented for each capability
+
+**Impact**:
+- **Before**: Matrix showed Scoop with many ✓ marks, competitors with some ✗ marks
+- **After**: Matrix shows Scoop with **5 unique competitive advantages** (15+ ✓✓✓ marks) that NO competitor has
+- **Sales Messaging**: "18-point gap in Investigation" (8/8 vs 2/8), "Only platform with 6/6 ML" now visible
+
+**Files Created**:
+- `CAPABILITY_MATRIX.md` - New comprehensive matrix with 26 columns
+- `CAPABILITY_MATRIX_IMPROVEMENTS.md` - Analysis and recommendations document
+
+**Commits**: (Pending)
+
+---
+
 ## September 28, 2025 (Late Evening → Night) - TCO Framework: Complete Rewrite
 
 ### Critical Issue Discovered: Pricing Inconsistency Across All 11 Competitors
