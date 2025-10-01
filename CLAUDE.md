@@ -59,22 +59,23 @@ This is a **competitive intelligence documentation repository** for Scoop Analyt
 
 ## Project Structure
 
-### Root Documents (13 Essential Files)
+### Root Documents (14 Essential Files)
 ```
 /competitive-intelligence/
-├── README.md                          # Navigation & overview
-├── START_HERE.md                      # Quick context for sessions
+├── START_HERE.md                      # ⭐ Quick context for new sessions (START HERE!)
+├── README.md                          # Complete navigation & overview
 ├── CLAUDE.md                          # THIS FILE - AI assistant guidance
-├── CHANGELOG.md                       # Update tracking
+├── QUICK_START.md                     # 2-minute sales prep
 ├── COMPETITIVE_SUMMARY.md             # Executive synthesis
 ├── POSITIONING_GUIDE.md               # Sales messaging
-├── QUICK_START.md                     # 2-minute sales prep
 ├── SCOOP_CAPABILITIES.md              # Technical differentiators
+├── CAPABILITY_MATRIX.md               # 26-capability platform comparison
 ├── EVIDENCE_VAULT.md                  # All source URLs
 ├── METHODOLOGY.md                     # How we work + BUA integration
 ├── COMPETITIVE_STRATEGY_FRAMEWORK.md  # Strategy file system
 ├── QUALITY_STANDARDS.md               # Quality assurance (consolidated)
-└── RESEARCH_ROADMAP.md                # Priorities + incremental plan
+├── RESEARCH_ROADMAP.md                # Priorities + incremental plan
+└── CHANGELOG.md                       # Update tracking
 ```
 
 ### Competitor Structure (Current State)
