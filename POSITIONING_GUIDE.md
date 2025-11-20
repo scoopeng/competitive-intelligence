@@ -1,180 +1,59 @@
-# Strategic Positioning Guide - When to Use Which Message
-
-**Purpose**: Clear guidance on which positioning to emphasize based on competitor type  
-**Core Rule**: Always lead with "Scoop is your AI Data Analyst" - everything else supports this  
-**Created**: January 2025
+# Strategic Positioning Guide: The Domain Intelligence Era
+**Primary Directive**: Shift the conversation from "Better BI" to "Encoded Expertise."
+**Last Updated**: November 18, 2025
 
 ---
 
-## Core Message (Always Lead With This)
+## 1. The Core Narrative Shift
 
-**"Scoop is your AI Data Analyst"**
-- Multi-pass investigation (3-10 queries to find root cause)
-- Explanatory ML (ML_GROUP/ML_PERIOD with J48/M5 Rules)
-- Automatic schema evolution (no breaking on changes)
-- 30-second setup (vs 3-4 months)
-
-This is what gets them in the door. Never compromise this message.
-
----
-
-## The Business User Liberation Message
-
-*Essential narrative for explaining the broader problem Scoop solves*
-
-### The Problem: Business Users Are Trapped
-- **3-week wait** for simple report changes
-- **6 IT tickets** to investigate one data anomaly  
-- **$140K dashboards** that answer yesterday's questions
-- **"That's not possible"** when you need something new
-
-**You're held hostage by**:
-1. IT's backlog (387 requests ahead of yours)
-2. Dashboard prisons (leave Excel to check anything)
-3. SQL requirements (learn to code or wait)
-4. Vendor lock-in (all analysis in their portal)
-
-### The Current "Solutions" Make It Worse
-What IT bought you makes you more dependent, not less:
-- **Power BI**: "We'll build you dashboards" (3 months later...)
-- **Tableau**: "Just log into our portal" (for everything)
-- **Snowflake**: "Learn our query language" (SQL required)
-
-### Scoop's Liberation Promise
-**"Your AI Data Analyst in YOUR Tools"**
-- **Spreadsheet Engine**: In-memory calculation with 150+ Excel functions for data prep
-- **PowerPoint**: Presentations ready in 30 seconds
-- **Slack**: Full investigation in conversation
-- **No Training**: Zero learning curve, immediate productivity
+| **Old Narrative (Legacy)** | **New Narrative (Domain Intelligence)** |
+| :--- | :--- |
+| **"We are an AI Analyst"** | **"We are a Domain Intelligence Platform"** |
+| **Hero**: Speed & Convenience | **Hero**: Autonomous Investigation & Context |
+| **Enemy**: "Portal Prison" (Login Fatigue) | **Enemy**: "Generic AI" (Hallucinations) & "Passive BI" (Manual Work) |
+| **Hook**: "30 seconds in Slack" | **Hook**: "Wake up to completed investigations" |
+| **Secret**: Spreadsheet Engine | **Secret**: Investigation Coordinator & Hierarchical JSON |
 
 ---
 
-## "Your Tools" Emphasis - Strategic Application
+## 2. Primary Value Proposition
+**"Encode your best executive's expertise once, and scale it infinitely across your organization."**
 
-### 🎯 HAMMER This Message Against These Competitors
-
-#### Snowflake Cortex
-**Primary Attack**: "They query your warehouse. We analyze in your Excel."
-**Why Devastating**: They're trapped in SQL and Snowflake console
-**Specific Pain**: Users must learn their query interface, export to CSV, import to Excel, clean data, create charts, screenshot to PowerPoint
-**Time Comparison**: Their path = 3-4 hours. Our path = 30 seconds.
-**Proof Point**: "Let me show you how our spreadsheet engine transforms data using Excel formulas you already know"
-
-#### Zenlytic
-**Primary Attack**: "They need YAML files. We need 30 seconds in Slack."
-**Why Devastating**: YAML configuration is the opposite of business user empowerment
-**Specific Pain**: Every new metric requires YAML editing by technical team
-**Configuration Hell**: Show their YAML requirements vs our natural language
-**Proof Point**: "Your team is already in Slack. Why make them learn another tool?"
-
-#### DataGPT
-**Primary Attack**: "They show metrics in their portal. We deliver answers in YOUR PowerPoint."
-**Why Devastating**: Fast metrics are useless if you spend 3 hours getting them presentation-ready
-**Specific Pain**: Screenshot → Paste → Annotate → Format → Repeat
-**Speed Paradox**: "What's the point of 1-second queries if you need 3 hours for PowerPoint?"
-**Proof Point**: Live demo of PowerPoint generation with brand colors
-
-#### Sisense
-**Primary Attack**: "Another portal to learn. We work in your Office suite."
-**Why Devastating**: Portal fatigue is real - users already have 20+ logins
-**Specific Pain**: Training costs, adoption friction, context switching
-**Reality Check**: "How many portals do your users actually check daily?"
-**Proof Point**: "Scoop works where they already are - Excel, PowerPoint, Slack"
-
-### ⚡ Use as SUPPORTING Point Against These Competitors
-
-#### Tableau & Power BI
-**Lead With**: Investigation capabilities and ML analysis
-**Then Add**: "Plus, no more screenshot-paste marathons for PowerPoint"
-**Why Secondary**: They have strong visualization, so attack their weakness (no investigation)
-**Supporting Message**: "Even if they could investigate (they can't), you'd still waste hours on PowerPoint"
-
-#### Thoughtspot
-**Lead With**: True business user independence (no search syntax to learn)
-**Then Add**: "And it works in your Excel, not just their portal"
-**Why Secondary**: They claim business user focus, so differentiate on depth
-**Supporting Message**: "Search is nice, but investigation in YOUR tools is better"
-
-#### Domo
-**Lead With**: Investigation depth (they do single queries only)
-**Then Add**: "Without being trapped in the Domo portal"
-**Why Secondary**: They have decent self-service claims
-**Supporting Message**: "Business users shouldn't need to leave Excel to get answers"
+*   **The Problem**: Your COO knows exactly how to spot a failing store, but they can't review 1,000 locations every morning.
+*   **The Solution**: We capture their mental model (patterns, thresholds, logic) in a 4-hour "Encoding Session" and load it into Scoop.
+*   **The Result**: Scoop acts as a deterministic, autonomous clone of your best operator, investigating every single location, every single day.
 
 ---
 
-## The Math That Matters
+## 3. Attack Vectors by Competitor Category
 
-### Time Savings by Competitor Type
+### A. Against "Generic AI" (Snowflake Cortex, Copilots, ChatGPT)
+*   **The Attack**: "They have a PhD in English, but they know nothing about your business."
+*   **The Gap**: Generic models rely on probability. They hallucinate. They guess. They don't know that "High Churn" in *your* business means >5% only for *new* customers.
+*   **Our Win**: **Bounded Context**. We don't guess. We use your defined JSON schema.
+*   **Key Line**: "Do you want a chatbot that guesses, or an investigation engine that follows your specific business rules?"
 
-**NL-SQL Tools** (Snowflake, Zenlytic, DataGPT):
-- Their path: Query → Export → Excel → Clean → Chart → PowerPoint = 3-4 hours
-- Scoop path: Ask → Get answer in your tool = 30 seconds
-- **Weekly savings**: 17.5 hours per user
+### B. Against "Passive BI" (PowerBI, Tableau, Looker)
+*   **The Attack**: "Dashboards show you WHAT happened. You still have to do the work to find out WHY."
+*   **The Gap**: A dashboard is a "monitored state." It waits for you to look at it. It waits for you to filter. It waits for you to find the insight.
+*   **Our Win**: **Autonomy**. Scoop wakes you up with the answer. "Store 523 is down because of inventory paralysis in Category X."
+*   **Key Line**: "Stop investigating dashboards. Let Domain Intelligence investigate for you."
 
-**Enterprise BI** (Tableau, Power BI):
-- Their path: Dashboard → Screenshot → PowerPoint → Format = 2-3 hours  
-- Scoop path: Ask → Auto-generate presentation = 30 seconds
-- **Weekly savings**: 12.5 hours per user
-
-**Portal-Based** (Domo, Sisense, Thoughtspot):
-- Their path: Login → Navigate → Export → Excel → PowerPoint = 2-3 hours
-- Scoop path: Ask in Slack/Excel → Done = 30 seconds
-- **Weekly savings**: 12.5 hours per user
-
----
-
-## Key Phrases by Competitor
-
-### Snowflake Cortex
-"Why query in their console when you can analyze in your Excel?"
-
-### Zenlytic
-"YAML files or 30 seconds in Slack - which sounds more business-friendly?"
-
-### DataGPT  
-"Metrics in their portal or answers in your PowerPoint?"
-
-### Tableau/Power BI
-"They visualize what happened. We investigate why - in your tools."
-
-### Domo
-"Portal prison or Excel freedom?"
-
-### Thoughtspot
-"Search their portal or investigate in your Excel?"
-
-### Sisense
-"Another login to remember or analytics where you already work?"
+### C. Against "Natural Language Query" (ThoughtSpot, Zenlytic)
+*   **The Attack**: "Answering a question is not the same as conducting an investigation."
+*   **The Gap**: These tools answer "What was revenue?" (Tier 1). They cannot do "Why did revenue drop, what factors drove it, and is it a pattern?" (Tier 2 & 3).
+*   **Our Win**: **The Investigation Coordinator**. We don't just run SQL. We spawn child investigations, drill down into segments, and synthesize findings.
+*   **Key Line**: "Text-to-SQL is a commodity. Learned Business Intelligence is an asset."
 
 ---
 
-## Objection Handling
+## 4. The "Kill Shot": TCO is now the Closer, not the Opener
+*   **Previously**: We led with "We save you money."
+*   **Now**: We lead with "We give you superpowers (Encoded Expertise)."
+*   **Then**: We close with "...and by the way, because we don't use 'per-seat' pricing and we eliminate the need for 5 other tools, your TCO drops by 90%."
 
-### "We already have Excel exports"
-**Response**: "Exports die on arrival. Our spreadsheet engine processes live data with formulas you already know. Show me any BI tool that can do that."
+## 5. Objection Handling
 
-### "Our users can learn a new portal"
-**Response**: "They can, but will they? 87% of BI projects fail due to adoption. We work where they already are."
-
-### "We need advanced visualizations"
-**Response**: "Scoop has pixel-perfect visualizations PLUS live PowerPoint generation with your brand colors. But more importantly, we investigate WHY things happen, not just show pretty charts."
-
----
-
-## The Universal Truth
-
-**Every competitor** = Another portal/interface to learn  
-**Scoop** = Your AI analyst in tools you already know
-
-This isn't about features. It's about meeting business users where they actually work.
-
----
-
-## Remember
-
-- Against NL-SQL: "Your tools" is the PRIMARY attack
-- Against Enterprise BI: "Your tools" SUPPORTS investigation/ML message
-- Always demonstrate, don't just describe
-- Time savings math closes deals
-- Business users hate learning new tools - use this
+*   **"We already have Copilot."** -> "Great for writing emails. But would you trust it to run your operations? Scoop is deterministic. It follows your rules, not a black box's probability."
+*   **"We have 500 dashboards."** -> "And how many do you actually look at? Scoop watches all of them for you and only tells you when something matters, explaining *why*."
+*   **"Is this just another chatbot?"** -> "No. A chatbot waits for you to type. Scoop runs 24/7 on a schedule, proactively investigating your business based on the rules we configure together."

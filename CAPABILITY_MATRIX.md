@@ -95,7 +95,7 @@ Measures the platform's ability to autonomously investigate "why" questions thro
   - ✗: User must manually test hypotheses
 
 **Evidence**:
-- **Scoop Multi-Pass**: ReasoningPrompts.txt - "Generate multi-step investigation plan using 2-8 probes", probe dependencies with `depends_on` and `extraction_rules`. Framework score: 8/8 Investigation (ONLY platform with full score)
+- **Scoop Multi-Pass**: Powered by **Investigation Coordinator** (15-module state machine). Executes deterministic "Display-Diagnose-Decide" workflow. Framework score: 8/8 Investigation (ONLY platform with full score)
 - **Qlik Interactive Exploration**: Associative model ✓✓✓ for user-guided clicks, but Multi-Pass Investigation = ✗ because "User must manually explore" (framework_scoring.md: 4/8 Investigation from manual exploration, NOT autonomous investigation)
 - **Power BI Copilot**: Microsoft docs: "One question at a time", "Can't currently answer questions that require generating new insights" (framework_scoring.md: 2/8 Investigation)
 - **Snowflake Cortex**: Error "Actual statement count 3 did not match desired statement count 1" - cannot multi-step (framework_scoring.md: 2/8 Investigation)
@@ -150,7 +150,7 @@ Measures explainable ML capabilities accessible to business users without data s
   - ✗: No ML or only statistics
 
 **Evidence**:
-- **Scoop**: SCOOP_CAPABILITIES.md "Three-Layer Architecture: Auto data prep + Explainable models (J48, JRip, EM) + AI explanation"
+- **Scoop**: **Encoded Expertise Engine**. Schema v2.8 captures domain logic (e.g., `definitions.json`) which Layer 2 (J48/JRip) uses to explain anomalies.
 - **Scoop**: framework_scoring.md - 6/6 Deep ML Understanding (only platform with full score)
 - **Domo/ThoughtSpot/Tableau/Zenlytic/Tellius**: framework_scoring.md - 4/6 ML scores (have ML but not fully accessible)
 - **Qlik**: "No-code but requires understanding of ML concepts", "Still requires data science understanding" (framework_scoring.md: 0/6)
@@ -301,34 +301,36 @@ Measures data connectivity, schema flexibility, and performance.
 
 ---
 
-## Summary: Unique Capabilities
+## Summary: The Domain Intelligence Advantage
 
-**Scoop-Only Capabilities (No Competitor Has These)**:
+**The Category Shift: Domain Intelligence Platform**
+Traditional vendors are either **Platforms** (Snowflake/PowerBI - generic, unopinionated) or **Applications** (Point solutions - rigid, narrow). Scoop is the first **Domain Intelligence Platform**—an analytical application platform that encodes expert logic into a flexible schema.
 
-1. **Multi-Pass Investigation** (8/8 Investigation score)
-   - Autonomous 3-10 query investigation with probe dependencies
-   - Context retention across queries
-   - Automatic hypothesis testing
+**Scoop-Only Capabilities (Architectural Moats)**:
 
-2. **3-Layer ML Architecture** (6/6 ML score)
-   - Automatic data prep + Explainable models (J48, JRip, EM) + AI explanation layer
-   - ML discovery (runs automatically on "why" questions)
-   - Business-language output (no data science required)
+1.  **Domain Intelligence Engine** (8/8 Investigation score)
+    *   **Architecture**: 15-module recursive state machine (Investigation Coordinator)
+    *   **Mechanism**: Deterministic "Display-Diagnose-Decide" workflow
+    *   **Result**: Autonomous 3-10 query investigation with context retention
 
-3. **Spreadsheet Calculation Engine** (150+ Excel functions)
-   - Runtime formula execution on query results
-   - VLOOKUP, SUMIFS, FILTER, UNIQUE, etc.
-   - Zero retraining (use existing Excel knowledge)
+2.  **Encoded Expertise Schema** (6/6 ML score)
+    *   **Architecture**: Schema v2.8 (Hierarchical JSON)
+    *   **Mechanism**: Virtual Metric Layer (`definitions.json`) that adapts to schema changes
+    *   **Result**: Business logic survives data changes (Schema Evolution)
 
-4. **No Semantic Layer Requirement**
-   - Works on raw data immediately
-   - No YAML, no metric definitions, no IT setup
-   - Schema changes don't break analysis
+3.  **Spreadsheet Calculation Engine** (150+ Excel functions)
+    *   **Architecture**: In-memory formula execution on live query results
+    *   **Mechanism**: Native support for VLOOKUP, SUMIFS, FILTER
+    *   **Result**: Zero retraining for business users
 
-5. **AI Presentation Generation**
-   - Automatic PowerPoint creation with brand intelligence
-   - Logo detection and application
-   - Executive-ready output in minutes
+4.  **3-Layer AI Data Scientist**
+    *   **Layer 1**: Automatic Data Prep (Cleaning/Binning)
+    *   **Layer 2**: Real ML Execution (J48 Trees, JRip Rules, EM Clustering)
+    *   **Layer 3**: Business Translation (Narrative Generation)
+
+5.  **Visual Intelligence System**
+    *   **Mechanism**: Brand detection & semantic color mapping
+    *   **Output**: Executive-ready PowerPoint in 30 seconds
 
 **Competitor Unique Strengths**:
 
@@ -349,11 +351,11 @@ All BUA scores sourced from `competitors/*/evidence/framework_scoring.md`:
 - Evidence quotes from product documentation and testing
 
 ### Scoop Capabilities
-Primary source: `SCOOP_CAPABILITIES.md`
+Primary source: `SCOOP_CAPABILITIES.md` and `framework/DOMAIN_INTELLIGENCE_FRAMEWORK.md`
 - Spreadsheet engine: Lines 20-71 (150+ Excel functions)
 - AI Data Scientist engine: Lines 74-153 (3-layer architecture)
-- Multi-pass investigation: Lines 156-200
-- Deep reasoning: `/home/ubuntu/dev/scoop/app/src/main/resources/ReasoningPrompts.txt`
+- Investigation Coordinator: `scoop/development/domain-intelligence/investigation-coordinator/`
+- Schema v2.8: `scoop/development/domain-intelligence/SCHEMA.md`
 
 ### Competitor Documentation
 - Official vendor documentation
@@ -362,13 +364,18 @@ Primary source: `SCOOP_CAPABILITIES.md`
 - Vendor-published limitations (Power BI "one question at a time")
 
 ### Last Verification Date
-- Matrix structure: September 30, 2025
+- Matrix structure: November 18, 2025 (Domain Intelligence Update)
 - Competitor scores: September 30, 2025 (Understanding dimension rescoring)
-- Evidence links: September 30, 2025
+- Evidence links: November 18, 2025
 
 ---
 
 ## Version History
+
+**v2.1** - November 18, 2025
+- **Strategic Pivot**: Updated definitions to reflect "Domain Intelligence Platform" positioning.
+- **Technical Specificity**: Added references to Investigation Coordinator and Schema v2.8.
+- **Category Definition**: Defined "Analytical Application Platform" layer.
 
 **v2.0** - September 30, 2025
 - Complete restructure based on Understanding dimension rescoring

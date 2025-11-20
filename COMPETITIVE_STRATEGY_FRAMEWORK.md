@@ -1,8 +1,9 @@
 # Competitive Strategy Framework
 
 **Created**: September 27, 2025
+**Updated**: November 18, 2025 (Aligned with Domain Intelligence)
 **Status**: Implemented for Snowflake Cortex and Power BI Copilot
-**Purpose**: Enable competitor-specific customization while maintaining consistency
+**Purpose**: Enable competitor-specific customization using Domain Intelligence positioning
 
 ---
 
@@ -10,14 +11,14 @@
 
 **Before**: Generic template applied to all competitors
 - Same emphasis for everyone (Excel 20%, ML 15%, Cost 20%, UI 10%)
-- Missed competitor-specific weaknesses
-- Snowflake Cortex (NO UI) got same 10% UI emphasis as Power BI (has Teams)
+- Missed competitor-specific weaknesses (e.g., Hallucination risk in GenAI tools)
+- Failed to differentiate "Generic AI" from "Domain Intelligence"
 - No structured way to capture human strategic insight
 
 **After**: Competitor-specific strategy + generic template
-- Human writes `COMPETITIVE_STRATEGY.md` with emphasis levels
+- Human writes `COMPETITIVE_STRATEGY.md` with emphasis levels based on BUA scores
 - Machine reads strategy + framework scoring to generate customized content
-- Snowflake gets 30% UI emphasis (critical gap), Power BI gets 25% cost emphasis ($67K F64 tax)
+- Snowflake Cortex gets 30% "Context Blindness" emphasis (Generic AI), Power BI gets 25% "Passive Dashboard" emphasis
 - Single source of truth per competitor for positioning decisions
 
 ---
@@ -26,9 +27,9 @@
 
 ```
 competitors/[name]/
-├── COMPETITIVE_STRATEGY.md          # NEW - Human writes this
+├── COMPETITIVE_STRATEGY.md          # NEW - Human writes this (Domain Intelligence Focus)
 ├── evidence/
-│   └── framework_scoring.md         # Machine-generated (BUA scores)
+│   └── framework_scoring.md         # Machine-generated (BUA scores - The Evidence)
 ├── BATTLE_CARD.md                   # Machine reads both files above
 └── outputs/
     └── web_comparison.md            # Machine reads both files above
@@ -36,11 +37,11 @@ competitors/[name]/
 
 **Information Flow**:
 ```
-Human writes → COMPETITIVE_STRATEGY.md (strategic decisions)
+Human writes → COMPETITIVE_STRATEGY.md (Strategic Decisions: "Attack their Context Blindness")
                      ↓
-Machine reads → framework_scoring.md (BUA data) + COMPETITIVE_STRATEGY.md (strategy)
+Machine reads → framework_scoring.md (BUA Data: "Investigation Score 2/8")
                      ↓
-Machine generates → web_comparison.md + BATTLE_CARD.md (customized)
+Machine generates → web_comparison.md (Result: "Unlike Cortex which guesses, Scoop Investigates...")
 ```
 
 ---
@@ -48,76 +49,77 @@ Machine generates → web_comparison.md + BATTLE_CARD.md (customized)
 ## File Structure: COMPETITIVE_STRATEGY.md
 
 ### 1. PRIMARY WEAKNESSES (Rank Top 3)
-- Identify 3 most exploitable weaknesses
-- Cite BUA scores as evidence
+- Identify 3 most exploitable weaknesses using the Domain Intelligence lens:
+    - **Context Blindness** (Generic AI)
+    - **Passive/Reactive** (Traditional BI)
+    - **Portal Prison** (Legacy BI)
+- Cite BUA scores as evidence (e.g., Understanding Dimension)
 - Assign severity (Critical/High/Medium)
-- Define emphasis level (XX% of web comparison)
 
 **Example**:
 ```markdown
-**#1: No User Interface** (Severity: Critical)
-- Evidence: BUA Flow 2/20 (0/8 Native Integration, 0/6 Portal Prison)
-- Why It Matters: Business users forced into SQL console, no mobile
-- Our Advantage: Slack-native, mobile-ready, auto PowerPoint
+**#1: Context Blindness (Generic AI)** (Severity: Critical)
+- Evidence: BUA Understanding 2/20 (0/8 Agentic Investigation, 0/6 Explainable ML)
+- Why It Matters: Cortex guesses SQL based on schema names, ignoring business logic.
+- Our Advantage: Domain Intelligence (Schema v2.8) encodes expert rules.
 - Emphasis Level: 30% of web comparison
 ```
 
 ### 2. KEY SCENARIOS (Stories that expose weaknesses)
-- 2-4 real-world scenarios
-- Specific, relatable, measurable
-- Shows competitor's weakness dramatically
+- Real-world "Day in the Life" contrasts
+- Focus on "Investigation" vs "Querying"
 
 **Example**:
 ```markdown
-**Scenario 1: Mobile Executive Question**
-- When to Use: Against competitors with no mobile access
-- Story: "CEO texts at 9 PM: 'What's our cash?' Cortex needs desktop+VPN.
-  Scoop answers in 30 sec from Slack mobile."
-- Expected Impact: Shows Cortex built for data engineers, not executives
+**Scenario 1: The "Why" Question**
+- When to Use: Against Text-to-SQL tools (Cortex, ThoughtSpot)
+- Story: "VP asks 'Why did margin drop?' Cortex gives you a SQL query for current margin.
+  Scoop runs a multi-step investigation: checks mix, pricing, and inventory."
+- Expected Impact: Exposes the "Intelligence Ceiling" of generic tools.
 ```
 
 ### 3. TALKING POINTS (Emphasis hierarchy)
 - Order by importance
 - Top 3 should address primary weaknesses
-- "De-emphasize" section prevents wasting words
+- **Lead with Domain Intelligence**: Autonomy, Encoded Expertise, Investigation.
 
 **Example**:
 ```markdown
 **Lead With**:
-1. "Where you work" (Slack vs console) - Because they have NO UI
-2. "What you get" (PowerPoint vs SQL) - Because no presentation tools
-3. "Investigation vs generation" - Because 0/8 Investigation score
+1. "Encoded Expertise vs Generic Guessing" (Context Blindness)
+2. "Active Investigation vs Passive Monitoring" (Autonomy)
+3. "Your Tools vs Their Portal" (Flow)
 
 **De-Emphasize**:
-- Cost (comparable pricing, not differentiator)
+- Cost (TCO is the closer, not the opener)
 ```
 
 ### 4. CONTENT DISTRIBUTION (Word allocation)
 - Allocate 7,500 words based on competitor weaknesses
-- Increase/decrease sections strategically
-- Include rationale
+- **New Categories**:
+    - **Investigation/Context**: (Primary differentiator)
+    - **Autonomy/Flow**: (BUA impact)
+    - **Data/Schema**: (Technical moat)
 
 **Example**:
 ```markdown
 **Recommended Mix**:
-- UI/Workflow: 30% (~2,250 words) ⬆️ MAJOR INCREASE
-- Investigation: 25% (~1,875 words)
-- Excel: 15% (~1,125 words) ⬇️ reduced
-- Cost: 15% (~1,125 words) ⬇️ reduced
+- Investigation/Context: 35% (vs 20% default) ⬆️ Attack Generic AI
+- Autonomy/Flow: 25% (vs 20% default)
+- Data/Schema: 20% (vs 15% default)
+- Cost: 20% (vs 25% default) ⬇️ reduced
 
-**Rationale**: Snowflake has literally NO UI (0/8 Native Integration).
-Leading with "where you work" is essential.
+**Rationale**: Cortex is a "Smart Guesser." We must prove it doesn't understand the business.
 ```
 
 ### 5. PROOF POINTS (Evidence to cite)
-- Link to framework_scoring.md
-- Pull specific quotes from research
+- Link to BUA scores in `framework_scoring.md`
+- Pull specific quotes from research (e.g., "Hallucinations")
 - Include official documentation
 
 ### 6. WIN CONDITIONS (When we win/lose)
-- Be honest about when Scoop wins
-- Acknowledge when competitor is better fit
-- Prevents wasted sales cycles
+- Be honest about when Scoop wins (Operational/Executive/Investigation)
+- Acknowledge when competitor is better fit (Strict Reporting/Pixel-Perfect Dashboards)
 
 ### 7. COMPETITIVE POSITIONING
 - One-sentence position
@@ -127,15 +129,12 @@ Leading with "where you work" is essential.
 ### 8. AVOID OVER-CLAIMING (Credibility guardrails)
 - List things NOT to say
 - Provide evidence-based alternatives
-- Prevents credibility damage
 
 ### 9. CUSTOM CONTENT BLOCKS
 - 2-3 competitor-specific examples
-- Copy-paste ready for web comparison
-- Highly specific, dramatic contrasts
 
 ### 10. SALES GUIDANCE
-- Discovery questions to ask
+- Discovery questions to ask ("Does it know your business rules?")
 - Objection handling
 - Demo focus areas
 
@@ -143,41 +142,41 @@ Leading with "where you work" is essential.
 
 ## Examples: Snowflake Cortex vs Power BI Copilot
 
-### Snowflake Cortex Strategy
+### Snowflake Cortex Strategy (Generic AI)
 
 **Primary Weaknesses**:
-1. **No UI** (30% emphasis) - 0/8 Native Integration, 0/6 Portal Prison
-2. **Investigation Failure** (25% emphasis) - 0/8 Investigation score
-3. **IT Dependency** (20% emphasis) - 0/8 Setup score
+1. **Context Blindness** (30% emphasis) - It guesses SQL, doesn't know business rules.
+2. **No Autonomy** (25% emphasis) - Reactive only.
+3. **No UI** (20% emphasis) - Must build your own app.
 
 **Content Distribution**:
-- UI/Workflow: 30% (vs 10% default) ⬆️ Critical gap
-- Investigation: 25% (vs 15% default) ⬆️ Core failure
-- Cost: 15% (vs 20% default) ⬇️ Comparable pricing
-- ML: 10% (vs 15% default) ⬇️ They have basic stats
+- Investigation/Context: 35% ⬆️ Critical gap
+- Autonomy: 25% ⬆️ Core failure
+- UI/Flow: 20%
+- Cost: 20%
 
-**Key Scenario**: "CEO texts at 9 PM: 'What's our cash position?' Cortex: desktop+VPN required. Scoop: Slack mobile, 30 seconds."
+**Key Scenario**: "VP asks 'Why?'. Cortex returns a number. Scoop returns a root cause analysis."
 
-**One-Sentence Position**: "Snowflake Cortex is a SQL generation tool for data engineers working in Snowflake console, Scoop is a business analytics platform for Excel users working in Slack"
+**One-Sentence Position**: "Snowflake Cortex is a generic LLM wrapper that guesses SQL; Scoop is a Domain Intelligence Platform that investigates using your encoded expertise."
 
 ---
 
-### Power BI Copilot Strategy
+### Power BI Copilot Strategy (Passive BI)
 
 **Primary Weaknesses**:
-1. **$67K Infrastructure Tax** (25% emphasis) - F64 capacity mandatory
-2. **Nondeterministic** (25% emphasis) - 3% satisfaction (Gartner)
-3. **Single-Query** (20% emphasis) - No follow-ups
+1. **Passive/Reactive** (25% emphasis) - Still just a dashboard helper.
+2. **Context Limited** (25% emphasis) - Trapped in semantic model limits.
+3. **Portal Prison** (20% emphasis) - Must log in to Power BI.
 
 **Content Distribution**:
-- Cost/Infrastructure: 25% (vs 15% default) ⬆️ Major pain
-- Reliability: 20% (vs 10% default) ⬆️ Nondeterminism
-- Investigation: 20% (vs 15% default) ⬆️ Limitation
-- UI: 8% (vs 15% default) ⬇️ Teams integration ok
+- Investigation/Autonomy: 30% ⬆️ Attack "Passive" nature
+- Flow: 25% ⬆️ Attack "Portal"
+- Cost: 25% ⬆️ Attack F64 pricing
+- Context: 20%
 
-**Key Scenario**: "You pay $67K/year for F64. Ask 'What caused Q3 revenue drop?' twice. Get two different answers. Which do you trust for board presentation?"
+**Key Scenario**: "Dashboards show you *what* happened. You still have to click 50 times to find *why*. Scoop does that clicking for you."
 
-**One-Sentence Position**: "Power BI Copilot is a nondeterministic Q&A add-on requiring $67K/year infrastructure, Scoop is a deterministic investigation platform with zero infrastructure costs"
+**One-Sentence Position**: "Power BI Copilot is a chat interface for passive dashboards; Scoop is an autonomous investigator that proactively finds answers."
 
 ---
 

@@ -2,6 +2,19 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 🚨 CRITICAL CONTEXT: Domain Intelligence Pivot (Nov 2025)
+
+We have shifted from "AI Analyst" to **"Domain Intelligence Platform"**.
+*   **The Product**: Domain Intelligence (Schema v2.8, Investigation Coordinator).
+*   **The Value**: Business User Empowerment (BUA Score 100/100).
+*   **The Strategy**: Attack competitors on "Context Blindness" (Generic AI) and "Passivity" (Traditional BI).
+
+**Before generating any content, consult:**
+1.  **`framework/DOMAIN_INTELLIGENCE_FRAMEWORK.md`** (The Truth)
+2.  **`POSITIONING_GUIDE.md`** (The Narrative)
+
+---
+
 ## 🚨 CURRENT PROJECT: Deep Competitor Research - Manual Execution
 
 ### The Strategy
@@ -48,34 +61,31 @@ Manual Research → Consolidated Template → 41+ Searches → Rich Research Out
 
 ## Repository Overview
 
-This is a **competitive intelligence documentation repository** for Scoop Analytics, focused on analyzing competitors in the business analytics/BI space through the lens of **business user empowerment**.
+This is a **competitive intelligence documentation repository** for Scoop Analytics, focused on analyzing competitors in the business analytics/BI space through the lens of **Domain Intelligence** and **Business User Empowerment**.
 
 ### Core Philosophy
-- **Business User Autonomy Framework**: Business User Power Assessment - evaluates what users can actually do alone
-- **Evidence-Based**: Every claim must have verifiable proof
-- **Quality First**: All research must pass QUALITY_STANDARDS.md before publishing
-- **Preservation-Focused**: Never delete research, only archive if proven wrong
-- **Incremental Growth**: Small, methodical improvements over time
+- **Business User Autonomy Framework**: The Measurement Standard (BUA Score).
+- **Domain Intelligence**: The Mechanism that achieves High BUA scores.
+- **Evidence-Based**: Every claim must have verifiable proof.
+- **Quality First**: All research must pass QUALITY_STANDARDS.md before publishing.
 
 ## Project Structure
 
-### Root Documents (14 Essential Files)
+### Root Documents (Essential Files)
 ```
 /competitive-intelligence/
 ├── START_HERE.md                      # ⭐ Quick context for new sessions (START HERE!)
 ├── README.md                          # Complete navigation & overview
 ├── CLAUDE.md                          # THIS FILE - AI assistant guidance
-├── QUICK_START.md                     # 2-minute sales prep
-├── COMPETITIVE_SUMMARY.md             # Executive synthesis
-├── POSITIONING_GUIDE.md               # Sales messaging
-├── SCOOP_CAPABILITIES.md              # Technical differentiators
-├── CAPABILITY_MATRIX.md               # 26-capability platform comparison
-├── EVIDENCE_VAULT.md                  # All source URLs
-├── METHODOLOGY.md                     # How we work + BUA integration
+├── POSITIONING_GUIDE.md               # 🆕 Sales messaging (Generic AI vs Domain Intelligence)
+├── COMPETITIVE_SUMMARY.md             # 🆕 Executive synthesis (3-Tier Market)
+├── framework/                         
+│   ├── DOMAIN_INTELLIGENCE_FRAMEWORK.md # 🆕 Technical Foundation
+│   └── BUSINESS_USER_EMPOWERMENT_FRAMEWORK.md # BUA Methodology
 ├── COMPETITIVE_STRATEGY_FRAMEWORK.md  # Strategy file system
-├── QUALITY_STANDARDS.md               # Quality assurance (consolidated)
-├── RESEARCH_ROADMAP.md                # Priorities + incremental plan
-└── CHANGELOG.md                       # Update tracking
+├── QUICK_START.md                     # 2-minute sales prep
+├── EVIDENCE_VAULT.md                  # All source URLs
+└── METHODOLOGY.md                     # How we work + BUA integration
 ```
 
 ### Competitor Structure (Current State)
@@ -97,12 +107,12 @@ competitors/[name]/
 
 **Key Innovation**: `COMPETITIVE_STRATEGY.md` allows human strategic decisions (emphasis levels, scenarios, positioning) that machine generation reads to customize output per competitor weakness.
 
-## Competitive Strategy Framework (🆕 September 2025)
+## Competitive Strategy Framework (🆕 November 2025)
 
 ### The Enhancement
-**Problem**: Generic template missed competitor-specific weaknesses. Snowflake Cortex (NO UI) got same 10% UI emphasis as Power BI (has Teams).
+**Problem**: Previous templates didn't differentiate between "Generic AI" (Cortex) and "Passive BI" (Power BI).
 
-**Solution**: Human-editable `COMPETITIVE_STRATEGY.md` per competitor that machine generation reads.
+**Solution**: Human-editable `COMPETITIVE_STRATEGY.md` using Domain Intelligence positioning.
 
 ### Architecture
 ```
@@ -115,10 +125,10 @@ Machine generates: web_comparison.md (customized output)
 ```
 
 ### 10-Section Strategy File Structure
-1. **Primary Weaknesses** - Rank top 3 with emphasis levels (e.g., "UI: 30%")
-2. **Key Scenarios** - Stories that expose weaknesses
-3. **Talking Points** - What to emphasize/de-emphasize
-4. **Content Distribution** - Word count allocation (7,500 words)
+1. **Primary Weaknesses** - Rank top 3 with emphasis levels (e.g., "Context Blindness: 30%")
+2. **Key Scenarios** - Stories that expose weaknesses (e.g., "The 'Why' Question")
+3. **Talking Points** - Lead with Encoded Expertise
+4. **Content Distribution** - Word count allocation (Investigation/Context vs Autonomy)
 5. **Proof Points** - Evidence from BUA scores + research
 6. **Win Conditions** - When we win/lose (be honest)
 7. **Positioning** - One-sentence + elevator pitch
@@ -128,29 +138,20 @@ Machine generates: web_comparison.md (customized output)
 
 ### Example: Content Shift Based on Competitor Weakness
 
-**DEFAULT** (Generic template):
-- UI/Workflow: 10% | Excel: 20% | ML: 15% | Cost: 20%
+**SNOWFLAKE CORTEX** (Generic AI):
+- Investigation/Context: 35% ⬆️ (Attack Context Blindness)
+- Autonomy: 25% ⬆️ (Attack Reactive nature)
+- Flow: 20%
 
-**SNOWFLAKE CORTEX** (No UI):
-- UI/Workflow: 30% ⬆️ (0/8 Native Integration)
-- Investigation: 25% ⬆️ (0/8 Investigation)
-- Cost: 15% ⬇️ (comparable pricing)
-
-**POWER BI COPILOT** (Cost + Reliability):
-- Cost: 25% ⬆️ ($67K F64 tax)
-- Reliability: 20% ⬆️ (nondeterminism, 3% satisfaction)
-- UI: 8% ⬇️ (Teams integration ok)
+**POWER BI COPILOT** (Passive BI):
+- Autonomy: 30% ⬆️ (Attack Passive nature)
+- Flow: 25% ⬆️ (Attack Portal Prison)
+- Cost: 25% ⬆️ (Attack F64 tax)
 
 ### Key Files
 - **`competitors/SHARED/COMPETITIVE_STRATEGY_TEMPLATE.md`** - Master template with examples
 - **`competitors/[name]/COMPETITIVE_STRATEGY.md`** - Per-competitor strategy (human-editable)
 - **`COMPETITIVE_STRATEGY_FRAMEWORK.md`** - Complete documentation
-
-### Status
-✅ Template created
-✅ Snowflake Cortex example (30% UI emphasis)
-✅ Power BI Copilot example (25% cost emphasis)
-🔄 Rollout to remaining 9 competitors planned
 
 ---
 

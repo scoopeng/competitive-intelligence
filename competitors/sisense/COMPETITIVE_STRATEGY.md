@@ -1,6 +1,6 @@
 # Competitive Strategy: Sisense
 
-**Last Updated**: September 28, 2025
+**Last Updated**: November 18, 2025
 **Maintained By**: Human (strategic positioning decisions)
 **Used By**: web_comparison generation, battle card generation, sales enablement
 
@@ -17,25 +17,25 @@
 - **Temporal**: May improve with better models/updates (acknowledge but don't over-emphasize)
 - **Strategic**: Competitor could fix but chooses not to (moderate emphasis)
 
-**#1: Embedded Analytics Focus (Not Business Empowerment)** (Severity: Critical | Defensibility: Architectural)
+**#1: Architectural Mismatch: Embedded Focus vs. Domain Intelligence** (Severity: Critical | Defensibility: Architectural)
 - **Evidence**: BUA Score 28/100 (Category C), Built for ISV embedding not self-service, 14+ weeks implementation, 30-80 hours training required, ElastiCube requires SQL despite "no code" claims
-- **Why It Matters**: Sisense is architected for software vendors embedding analytics in their products, not for business users doing self-service analysis. This is a fundamental market mismatch for enterprise buyers
-- **Our Advantage**: Scoop is architected specifically for business user autonomy - natural language chat, Excel skills leverage, 30-second setup
-- **Defensibility**: Architectural - changing from embedded analytics platform to business empowerment would require complete product rewrite and abandoning their core ISV customer base
+- **Why It Matters**: Sisense is architected for software vendors embedding analytics in their products, not for business users needing **Domain Intelligence**. This architectural focus creates barriers to self-service investigation and operationalizing expertise within an enterprise.
+- **Our Advantage**: Scoop is a **Domain Intelligence Platform** architected for business user autonomy and **Autonomous Investigation**. We offer natural language investigation, leverage **Encoded Expertise** (Schema v2.8), and deploy in minutes, not months.
+- **Defensibility**: Architectural - changing from an embedded analytics platform to a **Domain Intelligence** platform would require a complete product rewrite and abandoning their core ISV customer base.
 - **Emphasis Level**: 35% of web comparison
 
-**#2: ARIMA Marketing Mirage (Fake AI)** (Severity: Critical | Defensibility: Architectural)
+**#2: Intelligence Ceiling: Legacy Statistics vs. Encoded Expertise** (Severity: Critical | Defensibility: Architectural)
 - **Evidence**: Uses ARIMA from 1970s and markets as "AI", Simply Ask deprecated (actual AI attempt failed), no real ML capability (0/6 BUA ML score)
-- **Why It Matters**: Companies implementing "AI" analytics expect modern machine learning, not 50-year-old statistics rebranded as AI. This is deceptive marketing that leads to buyer disappointment
-- **Our Advantage**: Scoop uses real ML (J48, JRip, EM clustering) with explainable outputs - actual AI data science
-- **Defensibility**: Architectural - ARIMA limitation suggests they lack ML engineering capabilities. Simply Ask deprecation shows failed AI attempts
+- **Why It Matters**: Sisense relies on legacy statistical methods (ARIMA) and markets them as AI, creating an **Intelligence Ceiling**. It cannot encode complex business rules or perform AI-driven pattern discovery. Companies expecting modern machine learning get 50-year-old math.
+- **Our Advantage**: Scoop leverages **Encoded Expertise** and real ML (J48, JRip, EM clustering) to explain anomalies based on your specific business logic. We operationalize expertise, we don't just project trends.
+- **Defensibility**: Architectural - The reliance on legacy statistics and the failure of "Simply Ask" suggests a fundamental inability to pivot to modern **Encoded Expertise** and AI.
 - **Emphasis Level**: 25% of web comparison
 
-**#3: Excel Export-Only (Portal Prison)** (Severity: High | Defensibility: Architectural)
+**#3: Workflow Disruption: Portal Prison vs. True Workflow Integration** (Severity: High | Defensibility: Architectural)
 - **Evidence**: Excel export-only with 1.5M cell limit, no formulas with live data, no PowerPoint support, no scheduled emails (0/8 Native Integration, 0/6 Portal Prison BUA scores)
-- **Why It Matters**: Business users need to work in Excel with live data, not static exports. Portal prison forces workflow abandonment and reduces adoption
-- **Our Advantage**: Scoop native Excel formulas (150+ functions), PowerPoint generation, Slack integration - works in existing tools
-- **Defensibility**: Architectural - embedded analytics platforms prioritize embedding over native tool integration by design
+- **Why It Matters**: Sisense forces business users into a "Portal Prison," breaking workflows. Users need to work in Excel with live data and generate presentations automatically. The lack of integration causes **Workflow Disruption** and tool abandonment.
+- **Our Advantage**: Scoop offers **True Workflow Integration**. Native in Slack, Excel (150+ formulas with live data via **Spreadsheet Calculation Engine**), and **Automated Presentation Generation**.
+- **Defensibility**: Architectural - embedded analytics platforms prioritize embedding in third-party apps over native office tool integration by design.
 - **Emphasis Level**: 20% of web comparison
 
 ---
@@ -44,25 +44,25 @@
 
 **Instructions**: Choose 2-4 real-world scenarios that make the competitor's weaknesses obvious. Good scenarios are specific, relatable, and measurable (time/cost differences).
 
-**Scenario 1: Marketing Executive Needs Quick Customer Segmentation Analysis**
-- **When to Use**: Exposes ARIMA fake AI and investigation limitations
-- **Story**: CMO asks: "Why are our customer acquisition costs rising?" Sisense shows charts but can't investigate root cause or discover hidden customer segments. ARIMA can't do real customer clustering or pattern discovery
-- **Expected Impact**: Shows how fake AI fails when executives need real insights beyond dashboards
+**Scenario 1: Intelligence Ceiling: Legacy Statistics vs. Autonomous Investigation**
+- **When to Use**: Exposes ARIMA "fake AI" and the lack of true investigation capabilities.
+- **Story**: "A CMO asks: 'Why are our customer acquisition costs rising?' Sisense, relying on legacy ARIMA statistics, shows charts and trend lines but hits an **Intelligence Ceiling**. It cannot investigate root causes or discover hidden segments. Scoop's **Investigation Coordinator** autonomously tests hypotheses (e.g., ad spend shift, channel saturation) leveraging **Encoded Expertise**, identifying the specific driver and recommending action."
+- **Expected Impact**: Shows how legacy statistics fail to deliver the actionable intelligence that executives demand, contrasting with Scoop's **Autonomous Investigation**.
 
-**Scenario 2: Finance Analyst Updating Budget Models in Excel**
-- **When to Use**: Exposes portal prison and Excel export limitations
-- **Story**: Finance analyst has complex FP&A model in Excel with VLOOKUP, SUMIFS, variance analysis. Sisense exports static data (no formulas), analyst must copy/paste and rebuild all calculations manually, loses live data connection
-- **Expected Impact**: Demonstrates workflow abandonment cost and productivity loss from static exports
+**Scenario 2: Workflow Disruption: Static Export vs. Spreadsheet Calculation Engine**
+- **When to Use**: Exposes portal prison and Excel export limitations.
+- **Story**: "A finance analyst manages a complex FP&A model in Excel. Sisense offers only a static export (no formulas), forcing the analyst to manually rebuild VLOOKUPs and SUMIFS, breaking the workflow. This is **Workflow Disruption**. Scoop's **Spreadsheet Calculation Engine** allows the analyst to use live data with 150+ native Excel functions directly in their model. No manual rebuilding, no broken links—**True Workflow Integration**."
+- **Expected Impact**: Demonstrates the productivity loss from static exports and the value of operationalizing expertise in native tools.
 
-**Scenario 3: Rapid Business Change Requiring Data Adaptation**
-- **When to Use**: Exposes implementation complexity and SQL requirements
-- **Story**: Company launches new product line, needs immediate analysis. Sisense requires IT to rebuild ElastiCube with SQL, 14+ weeks for changes, business moves faster than analytics can adapt
-- **Expected Impact**: Shows cost of IT dependency when business needs agility
+**Scenario 3: Architectural Mismatch: Rigid Implementation vs. Agile Domain Intelligence**
+- **When to Use**: Exposes implementation complexity and SQL requirements.
+- **Story**: "A company launches a new product line and needs immediate analysis. Sisense requires IT to rebuild the ElastiCube with SQL, a 14+ week process that lags behind business needs. This is an **Architectural Mismatch** for agile intelligence. Scoop's **Schema Evolution** automatically adapts to the new data, allowing business users to ask questions immediately. Zero downtime, zero IT bottleneck."
+- **Expected Impact**: Shows the high cost of IT dependency when agility is critical.
 
-**Scenario 4: SMB Team Needing Cost-Effective Analytics**
-- **When to Use**: Exposes total cost and implementation burden
-- **Story**: 50-person company wants analytics, discovers Sisense requires $200K+ implementation, 14+ weeks timeline, dedicated IT resources they don't have. Perfect for embedding analytics but wrong tool for business empowerment
-- **Expected Impact**: Highlights market mismatch between embedded analytics and self-service needs
+**Scenario 4: TCO Trap: Embedded Platform Costs for Business Needs**
+- **When to Use**: Exposes total cost and implementation burden.
+- **Story**: "A 50-person company needing internal analytics discovers Sisense requires a $200K+ implementation and dedicated IT resources. They are buying an embedded platform for software vendors, not a business tool. Scoop offers a flat, predictable cost and deploys in minutes. We eliminate the labor categories Sisense mandates."
+- **Expected Impact**: Highlights the market mismatch and **TCO Trap** of using an embedded platform for internal business intelligence.
 
 ---
 
@@ -71,20 +71,21 @@
 **Instructions**: Order these by importance. Top 3 should directly address primary weaknesses from Section 1.
 
 **Lead With** (Most important - use these in first 1000 words):
-1. Sisense built for ISV embedding, not business empowerment - *Because 14+ weeks implementation and SQL requirements prove it's an IT platform*
-2. ARIMA from 1970s is statistics, not AI - Simply Ask deprecated proves real AI failed - *Because fake AI is deceptive marketing*
-3. Excel export-only breaks business workflows - no formulas, no live data - *Because portal prison forces tool abandonment*
+1.  **"Embedded Platform vs. Domain Intelligence (Architectural Mismatch)"** - *Sisense is built for ISVs; Scoop is built for business user autonomy and Encoded Expertise.*
+2.  **"Legacy Statistics vs. Autonomous Investigation (Intelligence Ceiling)"** - *ARIMA is 1970s math; Scoop's **Investigation Coordinator** is modern AI investigation.*
+3.  **"Portal Prison vs. True Workflow Integration"** - *Static exports break workflows; Scoop's **Spreadsheet Calculation Engine** enables live analysis in Excel.*
 
 **Always Mention** (Standard Scoop advantages):
-4. 30-second setup vs 14+ weeks implementation timeline
-5. Natural language investigation vs dashboard navigation only
-6. Real ML (J48, EM clustering) with business explanations vs statistical methods
-7. 400% renewal price increases vs flat pricing
+4.  **Investigation Coordinator** (Multi-step autonomous reasoning vs. dashboard navigation).
+5.  **Spreadsheet Calculation Engine** (150+ native Excel formulas vs. static export).
+6.  **Schema v2.8 with Encoded Expertise** (Operationalizing business rules vs. IT-defined ElastiCubes).
+7.  **30-Second Setup** (vs. 14+ weeks implementation and training).
+8.  **Eliminated Labor Categories** (No IT maintenance vs. SQL-required ElastiCube management).
 
 **De-Emphasize** (Don't lead with these, minor mentions only):
-- Mobile experience (both tools adequate for mobile)
-- Dashboard quality (Sisense actually has decent embedded dashboards)
-- Data connectivity (Sisense has adequate connectors)
+- **Mobile experience** (Both have adequate mobile capabilities, though Sisense is dashboard-focused).
+- **Dashboard quality** (Sisense has strong embedded dashboards; focus on the lack of investigation).
+- **Data connectivity** (Sisense has connectors; focus on the setup burden).
 
 ---
 
@@ -93,31 +94,24 @@
 **Instructions**: Allocate percentages based on competitor weaknesses and defensibility. Emphasize architectural limitations (competitor cannot easily fix), de-emphasize temporal limitations (may improve).
 
 **Emphasis Adjustment Philosophy**:
-- ⬆️ INCREASE emphasis on architectural limitations (competitor cannot easily fix)
-- ⬇️ DECREASE emphasis on temporal limitations (may improve with better models/updates)
-- ⬆️ INCREASE where competitor gap is widest (BUA dimension <5/20)
-- ⬆️ INCREASE where differentiation is clearest and most measurable
-- ⬇️ DECREASE where competitor is adequate or gap is narrow
+- ⬆️ INCREASE on **Architectural Mismatch** (Embedded vs. Business User focus).
+- ⬆️ INCREASE on **Intelligence Ceiling** (Legacy Statistics vs. AI Investigation).
+- ⬆️ INCREASE on **Workflow Disruption** (Portal Prison vs. True Integration).
 
 **Recommended Mix**:
 - **Section 1 (Executive Summary)**: 15% (~1,125 words)
 - **Section 2 (Capabilities)**: 55% (~4,125 words)
-  - Investigation & Analysis: 15% (investigation gap, ARIMA vs real ML)
-  - Spreadsheet Engine: 12% (Excel export vs formula support)
-  - ML & Pattern Discovery: 15% (ARIMA fake AI vs real ML - biggest differentiation)
-  - Setup & Implementation: 8% (14+ weeks vs 30 seconds)
-  - Schema Evolution: 5% (standard BI limitation)
-- **Section 3 (Cost/TCO)**: 12% (~900 words)
+  - **Architectural Mismatch & Embedded Focus**: 20% (Highlighting ISV design vs. Business User autonomy).
+  - **Intelligence Ceiling & Legacy AI**: 15% (Contrasting ARIMA/deprecated features with **Investigation Coordinator**).
+  - **Workflow Disruption & Integration**: 12% (Static export vs. **Spreadsheet Calculation Engine**).
+  - **Setup & Implementation**: 8% (14+ weeks vs. 30 seconds).
+  - **Schema Evolution**: 5% (Standard BI limitation).
+- **Section 3 (Cost/TCO)**: 12% (~900 words) - Focusing on **TCO Trap** and high implementation costs.
 - **Section 4 (Use Cases)**: 10% (~750 words)
 - **Section 5-7 (FAQ/Evidence/Next Steps)**: 8% (~600 words)
 
 **Rationale**:
-ML section gets highest allocation because ARIMA fake AI is most defensible attack - they can't easily fix fundamental lack of ML capabilities. Excel limitations and embedded analytics focus are also architectural. De-emphasize schema evolution since it's universal BI limitation.
-
-**Comparison to Default**:
-- ⬆️ Increased: ML section (normally 8%, now 15%) - Because ARIMA fake AI is most defensible architectural limitation
-- ⬆️ Increased: Investigation section (normally 8%, now 15%) - Because investigation gap exposes embedded analytics focus
-- ⬇️ Decreased: Schema Evolution (normally 8%, now 5%) - Because Sisense isn't worse than other BI tools here
+The most critical differentiators are the fundamental **Architectural Mismatch** (Sisense isn't built for business users) and the **Intelligence Ceiling** (fake AI). These are defensible, architectural weaknesses. Workflow disruption is a key practical pain point.
 
 ---
 
@@ -127,24 +121,24 @@ ML section gets highest allocation because ARIMA fake AI is most defensible atta
 
 **From Framework Scoring** (`evidence/framework_scoring.md`):
 - **BUA Total**: 28/100 (Category C - Weak)
-- **Lowest Dimension**: Flow (4/20) - Portal prison and export-only limitations
+- **Lowest Dimension**: Flow (4/20) - Evidence of **Workflow Disruption**.
 - **Critical Sub-Scores**:
-  - Setup: 0/8 (14+ weeks implementation, 30-80 hours training, SQL required)
-  - Native Integration: 0/8 (Excel export-only, no formulas, no PowerPoint)
-  - Portal Prison: 0/6 (Must log into portal, no scheduled emails)
-  - ML: 0/6 (ARIMA not ML, Simply Ask deprecated)
+  - **Setup**: 0/8 (14+ weeks implementation, 30-80 hours training - Evidence of **Architectural Mismatch**).
+  - **Native Integration**: 0/8 (Excel export-only, no formulas - Evidence of **Workflow Disruption**).
+  - **Portal Prison**: 0/6 (Must log into portal - Further **Workflow Disruption**).
+  - **ML**: 0/6 (ARIMA not ML, Simply Ask deprecated - Evidence of **Intelligence Ceiling**).
 
 **From Research** (`evidence/research_library.md` or other sources):
-- "14+ week implementation typical" - Phase 2 research
-- "30-80 hours of training needed" - Sisense Academy documentation
-- "ARIMA forecasting, regression analysis" - Phase 2, statistical methods from 1970s
-- "Simply Ask (DEPRECATED) - Natural language failed, being replaced" - Phase 2
-- "400% price increase at renewal time" - Customer reports with URLs
+- "14+ week implementation typical" - Supports **Architectural Mismatch**.
+- "30-80 hours of training needed" - Supports **Architectural Mismatch** and lack of business empowerment.
+- "ARIMA forecasting, regression analysis" - Supports **Intelligence Ceiling** (legacy statistics).
+- "Simply Ask (DEPRECATED)" - Proves failure of AI attempts, reinforcing **Intelligence Ceiling**.
+- "400% price increase at renewal time" - Evidence of **TCO Trap**.
 
 **From Public Documentation**:
-- ElastiCube requires SQL despite "no code" claims - Phase 2 research
-- Export to Excel static only, no live formulas - Phase 2 limitations analysis
-- No PowerPoint capability found - Phase 2 comprehensive review
+- ElastiCube requires SQL despite "no code" claims - Supports **Architectural Mismatch** for business users.
+- Export to Excel static only, no live formulas - Supports **Workflow Disruption**.
+- No PowerPoint capability found - Supports **Workflow Disruption**.
 
 ---
 
@@ -153,19 +147,19 @@ ML section gets highest allocation because ARIMA fake AI is most defensible atta
 **Instructions**: Be specific about when Scoop wins vs loses. Honesty here prevents wasted sales cycles.
 
 **We Win When**:
-1. Business users need self-service analytics without IT gatekeeping - *Because Sisense requires 14+ weeks IT implementation*
-2. Team has Excel skills and wants to leverage them - *Because Sisense export-only breaks Excel workflows*
-3. Need real AI investigation, not just dashboards - *Because ARIMA isn't AI and can't investigate "why" questions*
-4. Budget constraints or need quick ROI - *Because Sisense costs 56x more with $200K+ implementation*
-5. Want to work in existing tools (Excel, Slack, PowerPoint) - *Because Sisense is portal-based platform*
+1.  **Business User Autonomy is Critical**: When the goal is self-service without IT gatekeeping, avoiding Sisense's **Architectural Mismatch** (14+ weeks implementation).
+2.  **True Workflow Integration is Required**: When users need to work natively in Excel with formulas (leveraging our **Spreadsheet Calculation Engine**) rather than dealing with Sisense's static exports and **Workflow Disruption**.
+3.  **Real AI Investigation is Demanded**: When the customer needs **Autonomous Investigation** and root cause analysis, not 1970s ARIMA statistics (**Intelligence Ceiling**).
+4.  **Agility and Time-to-Value Matter**: When 30-second setup beats 14+ weeks, and predictable costs beat the **TCO Trap** of implementation fees and renewal hikes.
+5.  **Native Tool Access is Key**: When users want to stay in Slack and PowerPoint, avoiding the "Portal Prison."
 
 **We Lose When** (Be honest):
-- Need analytics embedded in software product for end customers (ISV use case where Sisense excels)
-- Already invested heavily in Sisense and switching cost exceeds benefit
-- Regulatory requirement for specific BI platform governance features
+- Need analytics embedded in software product for end customers (ISV use case where Sisense excels).
+- Already invested heavily in Sisense and switching cost exceeds benefit.
+- Regulatory requirement for specific BI platform governance features that Sisense provides for on-prem/cloud hybrid deployments.
 
 **Neutral** (Could go either way):
-- Pure dashboard creation needs (both tools can create dashboards, question is self-service vs IT-built)
+- Pure dashboard creation needs (both tools can create dashboards, but Scoop offers **Domain Intelligence** on top).
 
 ---
 
@@ -174,26 +168,27 @@ ML section gets highest allocation because ARIMA fake AI is most defensible atta
 **Instructions**: Craft the core positioning message. Start with product type classification to set the frame, then build specific positioning.
 
 **Product Type Classification**:
-- **What They Really Are**: Embedded analytics platform for ISV software vendors
-- **What We Really Are**: AI data analyst for business users
-- **Their Primary Audience**: Software vendors building embedded analytics, IT teams implementing BI
-- **Our Primary Audience**: Business users with Excel skills needing self-service analytics
-- **Key Architectural Difference**: Sisense optimizes for white-label embedding in software products, Scoop optimizes for business user autonomy
+- **What They Really Are**: Embedded Analytics Platform for ISVs (Legacy Architecture)
+- **What We Really Are**: **Cloud-Native Domain Intelligence Platform** (for Business User Autonomy)
+- **Their Primary Audience**: Software vendors and IT teams building embedded analytics
+- **Our Primary Audience**: Business users needing immediate insights and **True Workflow Integration**
+- **Key Architectural Difference**: 14+ weeks implementation (IT-driven) vs. 30-second setup (**Encoded Expertise**).
 
 **One-Sentence Position**:
-"Sisense is an embedded analytics platform for software vendors, Scoop is an AI data analyst for business users"
+"Sisense is an embedded analytics platform for software vendors that relies on legacy statistics and IT-heavy implementation; Scoop is a **Domain Intelligence Platform** that operationalizes **Encoded Expertise** for autonomous investigation and instant business user value."
 
 **Elevator Pitch** (30 seconds, ~60 words):
-Sisense markets 1970s ARIMA statistics as "AI" while requiring 14+ weeks of IT implementation for what they call "no code" analytics. They're built for software vendors embedding analytics, not business empowerment. Scoop provides real AI investigation with 30-second setup - actual machine learning for actual business users.
+"Sisense markets 1970s ARIMA statistics as 'AI' while requiring 14+ weeks of IT implementation. It is architecturally built for software vendors to embed dashboards, not for business empowerment. Scoop provides a **Domain Intelligence Platform** with **Autonomous Investigation**, **True Workflow Integration** (native Excel/Slack), and 30-second setup. We deliver real AI and operationalized expertise, not just statistical trends."
 
 **Key Contrast**:
 | Dimension | Sisense | Scoop |
 |-----------|---------|-------|
-| **Product Type** | Embedded analytics platform for ISVs | AI data analyst / Business analytics platform |
-| **Built For** | Software vendors, IT implementations | Business users with Excel skills |
-| **Primary Interface** | Portal with embedded dashboards | Slack + Excel + PowerPoint |
-| **Deliverable** | White-label BI for software products | Branded presentations with insights |
-| **Setup Time** | 14+ weeks with IT implementation | 30 seconds |
+| **Product Type** | Embedded Analytics for ISVs | **Domain Intelligence Platform** |
+| **Core Mechanism** | Legacy Statistics (ARIMA) | **Investigation Coordinator (AI)** |
+| **Workflow** | Portal Prison / Static Export | **True Workflow Integration** |
+| **Investigation** | Manual / Statistical Trending | **Autonomous Root Cause Analysis** |
+| **Setup Time** | 14+ Weeks (IT Heavy) | **30 Seconds (Zero Config)** |
+| **Costs** | High Implementation + Renewal Hikes | **Flat / Predictable (Eliminated Labor)** |
 
 ---
 
@@ -202,16 +197,16 @@ Sisense markets 1970s ARIMA statistics as "AI" while requiring 14+ weeks of IT i
 **Instructions**: List things we should NOT say because they're inaccurate or unprovable. Prevents credibility damage.
 
 **Don't Say** (Risks credibility):
-- "Sisense has no AI capabilities" - *Because they do have ARIMA and attempted Simply Ask*
-- "Sisense dashboards are bad" - *Because their embedded dashboard quality is actually decent*
-- "Sisense can't connect to data sources" - *Because they have adequate connector library*
-- "Sisense has no legitimate use cases" - *Because ISV embedding is a valid use case*
+- "Sisense has no AI capabilities" - *They use ARIMA and attempted Simply Ask; focus on the **Intelligence Ceiling**.*
+- "Sisense dashboards are bad" - *Their embedded dashboard quality is strong for ISVs; focus on the **Architectural Mismatch** for business users.*
+- "Sisense can't connect to data sources" - *They have adequate connectors; focus on the setup burden and IT dependency.*
+- "Sisense has no legitimate use cases" - *ISV embedding is a valid use case; highlight it's not **Domain Intelligence** for business users.*
 
 **Instead Say** (Evidence-based alternatives):
-- "Sisense uses ARIMA from 1970s, not modern ML - Simply Ask deprecated" - *Supported by technical documentation*
-- "Sisense dashboards require 14+ weeks IT implementation" - *Supported by customer reports*
-- "Sisense requires SQL expertise despite 'no code' claims" - *Supported by ElastiCube documentation*
-- "Sisense built for ISV embedding, not business user empowerment" - *Supported by architecture and customer profile*
+- "Sisense relies on 1970s ARIMA statistics and failed 'Simply Ask' attempts, creating an **Intelligence Ceiling**." - *Supported by technical documentation.*
+- "Sisense's dashboard focus leads to **Workflow Disruption** for business users who need native Excel and Slack integration." - *Supported by lack of formula support.*
+- "Sisense requires significant SQL expertise and IT implementation (14+ weeks), representing an **Architectural Mismatch** for agile business needs." - *Supported by ElastiCube documentation.*
+- "Sisense is optimized for ISV embedding, while Scoop is built for **Autonomous Investigation** and operationalizing enterprise expertise." - *Supported by architecture and customer profile.*
 
 ---
 
@@ -365,24 +360,48 @@ RESULT: Self-service AI analytics with zero IT burden
 
 ## MAINTENANCE SCHEDULE
 
+
+
 **Quarterly Review** (Every 3 months):
-- [ ] Check if competitor has launched new features
-- [ ] Review if BUA scores have changed (re-run framework scoring)
-- [ ] Update proof points if research has new findings
-- [ ] Verify pricing information is current
-- [ ] Check if win/lose conditions have shifted
+
+- [ ] Check if Sisense has addressed the **Intelligence Ceiling** (e.g., new AI features beyond ARIMA).
+
+- [ ] Verify if **Workflow Disruption** has been mitigated (e.g., native Excel/PowerPoint integration).
+
+- [ ] Review if BUA scores have changed (re-run framework scoring).
+
+- [ ] Update proof points regarding **Architectural Mismatch** (e.g., implementation times).
+
+- [ ] Check if win/lose conditions have shifted.
+
+
 
 **Triggered Updates** (Update immediately when):
-- Competitor announces major product changes
-- Win/loss analysis reveals new patterns
-- Sales team reports different objections than expected
-- BUA dimension scores change by >3 points
+
+- Competitor announces major product changes (e.g., new AI engine).
+
+- Win/loss analysis reveals new patterns.
+
+- Sales team reports different objections than expected.
+
+- BUA dimension scores change by >3 points.
+
+
 
 **Version History**:
+
+- 2025-11-18: Strategic update to align with "Domain Intelligence Platform" positioning. Reframed weaknesses as architectural flaws (Architectural Mismatch, Intelligence Ceiling, Workflow Disruption). Integrated references to Encoded Expertise, Investigation Coordinator, Spreadsheet Calculation Engine, Automated Presentation Generation. Updated sales guidance and demo focus areas.
+
 - September 28, 2025: Initial strategy based on BUA 28/100 scoring and comprehensive Phase 2/3 research
+
+
 
 ---
 
+
+
 **Template Version**: 1.1
+
 **Created**: September 28, 2025
+
 **Last Updated**: September 28, 2025

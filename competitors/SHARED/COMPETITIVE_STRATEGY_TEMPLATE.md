@@ -12,6 +12,10 @@
 
 **Instructions**: Identify the 3 most exploitable weaknesses. Use BUA framework scores as evidence. Assign severity, defensibility, and emphasis level.
 
+**Strategic Lens (Domain Intelligence)**:
+- **Against Generic AI (Cortex, Copilots)**: Look for **"Context Blindness"** (guesses SQL without business logic), **"Hallucination Risk"**, and **"Statelessness"** (single-query only).
+- **Against Passive BI (PowerBI, Tableau)**: Look for **"Passive/Reactive"** (dashboard waiting for clicks), **"Manual Labor"** (analyst must filter/slice), and **"Portal Prison"**.
+
 **Defensibility Guide**:
 - **Architectural**: Fundamental to competitor's design, hard/impossible to fix (emphasize heavily)
 - **Temporal**: May improve with better models/updates (acknowledge but don't over-emphasize)
@@ -164,7 +168,7 @@
 
 **Product Type Classification**:
 - **What They Really Are**: [Text-to-query interface | SQL generation tool | BI tool with AI | Dashboard platform | etc.]
-- **What We Really Are**: [AI data analyst | Business analytics platform]
+- **What We Really Are**: [Domain Intelligence Platform | AI data analyst | Business analytics platform]
 - **Their Primary Audience**: [Data engineers | Analysts | Dashboard creators | Technical users]
 - **Our Primary Audience**: Business users with Excel skills
 - **Key Architectural Difference**: [Their fundamental approach vs our approach]
@@ -173,7 +177,7 @@
 "[Competitor] is a {PRODUCT_TYPE} for {AUDIENCE}, Scoop is a {PRODUCT_TYPE} for {AUDIENCE}"
 
 **Example Patterns**:
-- "[Competitor] is a text-to-query interface for IT-built semantic models, Scoop is an AI data analyst for any data"
+- "[Competitor] is a text-to-query interface for IT-built semantic models, Scoop is a Domain Intelligence Platform that investigates autonomously"
 - "[Competitor] is a SQL generation tool for data engineers, Scoop is a business analytics platform for Excel users"
 - "[Competitor] is a BI tool with AI features, Scoop is an AI-first analytics platform"
 
@@ -183,10 +187,10 @@
 **Key Contrast**:
 | Dimension | [Competitor] | Scoop |
 |-----------|-------------|-------|
-| **Product Type** | [Their type] | AI data analyst / Business analytics platform |
+| **Product Type** | [Their type] | Domain Intelligence Platform |
 | **Built For** | [Their user] | Business users with Excel skills |
 | **Primary Interface** | [Their interface] | Slack + Excel + PowerPoint |
-| **Deliverable** | [What they give you] | Branded presentations with insights |
+| **Deliverable** | [What they give you] | Autonomous Investigations (Branded Decks) |
 | **Setup Time** | [Their time] | 30 seconds |
 
 ---
@@ -213,7 +217,33 @@
 
 **Instructions**: Write 2-3 specific examples or comparisons that are unique to this competitor. These should be copy-paste ready for web comparison.
 
-### Example 1: [Title]
+### Example 1: The Investigation vs. Query Gap (Critical for Domain Intelligence)
+
+**Setup**: [A scenario where the user asks "Why did X happen?"]
+
+**[Competitor] Response (The Query)**:
+```
+[Show what they return - likely a single number or SQL query]
+Query: SELECT SUM(revenue) FROM sales WHERE...
+Result: $1.2M (No explanation, no context)
+Action Required: User must think of the next question manually.
+```
+
+**Scoop Response (The Investigation)**:
+```
+[Show the multi-step investigation Scoop performs]
+1. Checked Revenue vs Forecast (Found -10% gap)
+2. Drilled by Region (West is down)
+3. Drilled by Product in West (Widget A is down)
+4. Checked Inventory for Widget A (Stockout detected)
+Result: "Revenue is down 10% primarily driven by Widget A stockouts in the West region."
+```
+
+**Business Impact**: [Why this matters - e.g., "One gives you data, the other gives you answers."]
+
+---
+
+### Example 2: [Title]
 
 **Setup**: [1 sentence describing the scenario]
 
@@ -238,12 +268,6 @@ RESULT: [What you end up with]
 ```
 
 **Business Impact**: [Why this matters]
-
----
-
-### Example 2: [Title]
-
-[Same structure as Example 1]
 
 ---
 
