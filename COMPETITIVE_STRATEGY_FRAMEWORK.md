@@ -1,7 +1,7 @@
 # Competitive Strategy Framework
 
 **Created**: September 27, 2025
-**Updated**: November 18, 2025 (Aligned with Domain Intelligence)
+**Updated**: November 19, 2025 (Aligned with Intelligence Layer Strategy)
 **Status**: Implemented for Snowflake Cortex and Power BI Copilot
 **Purpose**: Enable competitor-specific customization using Domain Intelligence positioning
 
@@ -9,89 +9,80 @@
 
 ## The Problem We Solved
 
-**Before**: Generic template applied to all competitors
-- Same emphasis for everyone (Excel 20%, ML 15%, Cost 20%, UI 10%)
-- Missed competitor-specific weaknesses (e.g., Hallucination risk in GenAI tools)
-- Failed to differentiate "Generic AI" from "Domain Intelligence"
-- No structured way to capture human strategic insight
+**Before**: Generic "Kill Shot" attacks
+- "Your tool is bad because X"
+- created friction with partners (Snowflake/Microsoft)
+- missed the "Enhancement" opportunity
 
-**After**: Competitor-specific strategy + generic template
-- Human writes `COMPETITIVE_STRATEGY.md` with emphasis levels based on BUA scores
-- Machine reads strategy + framework scoring to generate customized content
-- Snowflake Cortex gets 30% "Context Blindness" emphasis (Generic AI), Power BI gets 25% "Passive Dashboard" emphasis
-- Single source of truth per competitor for positioning decisions
+**After**: "The Capability Ladder" positioning
+- "Your tool is excellent at Level 1/2; we add Level 4"
+- Positions Scoop as the *inevitable* next layer
+- Validates customer's existing investments while proving the need for Scoop
 
 ---
 
-## Architecture
+## The Capability Ladder (Strategic Framework)
 
-```
-competitors/[name]/
-├── COMPETITIVE_STRATEGY.md          # NEW - Human writes this (Domain Intelligence Focus)
-├── evidence/
-│   └── framework_scoring.md         # Machine-generated (BUA scores - The Evidence)
-├── BATTLE_CARD.md                   # Machine reads both files above
-└── outputs/
-    └── web_comparison.md            # Machine reads both files above
-```
+We frame the market as a stack, not a zero-sum war.
 
-**Information Flow**:
-```
-Human writes → COMPETITIVE_STRATEGY.md (Strategic Decisions: "Attack their Context Blindness")
-                     ↓
-Machine reads → framework_scoring.md (BUA Data: "Investigation Score 2/8")
-                     ↓
-Machine generates → web_comparison.md (Result: "Unlike Cortex which guesses, Scoop Investigates...")
-```
+*   **Level 1: Data Infrastructure** (Snowflake, Databricks)
+    *   *Role*: Store and process data at scale.
+    *   *Scoop Position*: "We are the Intelligence Layer that makes your data speak business."
+*   **Level 2: Visualization** (Tableau, Power BI)
+    *   *Role*: Show *what* happened.
+    *   *Scoop Position*: "You show the chart; we explain *why* it changed."
+*   **Level 3: Translation** (Text-to-SQL, Copilots)
+    *   *Role*: Turn text into queries (Semantic Aware).
+    *   *Scoop Position*: "You translate language; we investigate logic."
+*   **Level 4: Domain Intelligence** (Scoop)
+    *   *Role*: Operationalize expert reasoning (Outcome Aware).
 
 ---
 
 ## File Structure: COMPETITIVE_STRATEGY.md
 
 ### 1. PRIMARY WEAKNESSES (Rank Top 3)
-- Identify 3 most exploitable weaknesses using the Domain Intelligence lens:
-    - **Context Blindness** (Generic AI)
-    - **Passive/Reactive** (Traditional BI)
-    - **Portal Prison** (Legacy BI)
-- Cite BUA scores as evidence (e.g., Understanding Dimension)
-- Assign severity (Critical/High/Medium)
+- Identify 3 most exploitable gaps using the **Context Maturity Model**:
+    - **Stuck at Level 2 (Semantic Aware)**: Generic AI knows definitions but not logic, *leading to confidently wrong answers and eroding trust*.
+    - **The Searchlight Problem (Passive)**: Great tools, but requires manual looking, *leading to 95% of operational issues going unaddressed*.
+    - **The Scarcity Trap (Manual)**: Experts can't review everything, *resulting in millions of dollars in missed revenue opportunities*.
+- Cite BUA scores as evidence.
 
 **Example**:
 ```markdown
-**#1: Context Blindness (Generic AI)** (Severity: Critical)
-- Evidence: BUA Understanding 2/20 (0/8 Agentic Investigation, 0/6 Explainable ML)
-- Why It Matters: Cortex guesses SQL based on schema names, ignoring business logic.
-- Our Advantage: Domain Intelligence (Schema v2.8) encodes expert rules.
+**#1: Stuck at Level 2 (Semantic Context)** (Severity: Critical)
+- Evidence: BUA Understanding 2/20. Knows "Revenue" = "Sales" but not "Revenue" != "Trials".
+- Why It Matters: Generic AI guesses at logic, resulting in "confidently wrong" answers and eroding business trust.
+- Our Advantage: Encoded Expertise (Level 4 Context) delivers deterministic, outcome-aware intelligence.
 - Emphasis Level: 30% of web comparison
 ```
 
 ### 2. KEY SCENARIOS (Stories that expose weaknesses)
 - Real-world "Day in the Life" contrasts
-- Focus on "Investigation" vs "Querying"
+- Focus on "Scaling/Coverage" vs "Manual Hunting"
 
 **Example**:
 ```markdown
-**Scenario 1: The "Why" Question**
-- When to Use: Against Text-to-SQL tools (Cortex, ThoughtSpot)
-- Story: "VP asks 'Why did margin drop?' Cortex gives you a SQL query for current margin.
-  Scoop runs a multi-step investigation: checks mix, pricing, and inventory."
-- Expected Impact: Exposes the "Intelligence Ceiling" of generic tools.
+**Scenario 1: The "Monday Morning" Test**
+- When to Use: Against Legacy BI (Power BI, Tableau)
+- Story: "You have 500 stores. Monday morning, can you review all 500?
+  Scoop reviews 100% of them before you wake up."
+- Expected Impact: Exposes the hidden cost of manual analysis limitations (The Scarcity Trap).
 ```
 
 ### 3. TALKING POINTS (Emphasis hierarchy)
 - Order by importance
-- Top 3 should address primary weaknesses
-- **Lead with Domain Intelligence**: Autonomy, Encoded Expertise, Investigation.
+- **Lead with Enhancement**: "We complete your stack."
 
 **Example**:
 ```markdown
 **Lead With**:
-1. "Encoded Expertise vs Generic Guessing" (Context Blindness)
-2. "Active Investigation vs Passive Monitoring" (Autonomy)
-3. "Your Tools vs Their Portal" (Flow)
+1. "The Intelligence Layer" (Partnership Narrative)
+2. "The Digital Detective" (Active Investigation)
+3. "Omnipresent Intelligence" (Coverage)
 
 **De-Emphasize**:
-- Cost (TCO is the closer, not the opener)
+- "Cheaper" (TCO is the enabler, not the lead)
 ```
 
 ### 4. CONTENT DISTRIBUTION (Word allocation)
@@ -109,7 +100,7 @@ Machine generates → web_comparison.md (Result: "Unlike Cortex which guesses, S
 - Data/Schema: 20% (vs 15% default)
 - Cost: 20% (vs 25% default) ⬇️ reduced
 
-**Rationale**: Cortex is a "Smart Guesser." We must prove it doesn't understand the business.
+**Rationale**: Cortex is a "Search Engine." We are a "Detective."
 ```
 
 ### 5. PROOF POINTS (Evidence to cite)
@@ -145,9 +136,9 @@ Machine generates → web_comparison.md (Result: "Unlike Cortex which guesses, S
 ### Snowflake Cortex Strategy (Generic AI)
 
 **Primary Weaknesses**:
-1. **Context Blindness** (30% emphasis) - It guesses SQL, doesn't know business rules.
-2. **No Autonomy** (25% emphasis) - Reactive only.
-3. **No UI** (20% emphasis) - Must build your own app.
+1. **Stuck at Level 2 (Semantic Context)** (30% emphasis) - Guesses SQL, *leading to confidently wrong answers and eroding business trust*.
+2. **The Search Engine Problem** (25% emphasis) - Reactive only, *requires humans to proactively hunt for insights*.
+3. **No UI** (20% emphasis) - Must build your own app, *creating IT dependency and slow time-to-value*.
 
 **Content Distribution**:
 - Investigation/Context: 35% ⬆️ Critical gap
@@ -155,28 +146,28 @@ Machine generates → web_comparison.md (Result: "Unlike Cortex which guesses, S
 - UI/Flow: 20%
 - Cost: 20%
 
-**Key Scenario**: "VP asks 'Why?'. Cortex returns a number. Scoop returns a root cause analysis."
+**Key Scenario**: "VP asks 'Why?'. Cortex returns a number (maybe wrong). Scoop returns a root cause based on your rules."
 
-**One-Sentence Position**: "Snowflake Cortex is a generic LLM wrapper that guesses SQL; Scoop is a Domain Intelligence Platform that investigates using your encoded expertise."
+**One-Sentence Position**: "Snowflake provides the powerful Data Layer; Scoop provides the Intelligence Layer that makes it speak business."
 
 ---
 
 ### Power BI Copilot Strategy (Passive BI)
 
 **Primary Weaknesses**:
-1. **Passive/Reactive** (25% emphasis) - Still just a dashboard helper.
-2. **Context Limited** (25% emphasis) - Trapped in semantic model limits.
-3. **Portal Prison** (20% emphasis) - Must log in to Power BI.
+1. **The Scarcity Trap (Passive/Manual)** (25% emphasis) - Dashboards require manual analysis, *leading to 95% of operational issues going unaddressed due to limited expert bandwidth*.
+2. **Context Limited** (25% emphasis) - Trapped in semantic model limits, *cannot understand complex business logic beyond simple definitions*.
+3. **Portal Prison** (20% emphasis) - Must log in to Power BI, *creating workflow friction and limiting real-time impact*.
 
 **Content Distribution**:
-- Investigation/Autonomy: 30% ⬆️ Attack "Passive" nature
+- Investigation/Autonomy: 30% ⬆️ Attack "Passive/Scarcity" nature
 - Flow: 25% ⬆️ Attack "Portal"
 - Cost: 25% ⬆️ Attack F64 pricing
 - Context: 20%
 
-**Key Scenario**: "Dashboards show you *what* happened. You still have to click 50 times to find *why*. Scoop does that clicking for you."
+**Key Scenario**: "Dashboards show you *what* happened. Scoop investigates *why* and tells you in Slack."
 
-**One-Sentence Position**: "Power BI Copilot is a chat interface for passive dashboards; Scoop is an autonomous investigator that proactively finds answers."
+**One-Sentence Position**: "Power BI visualizes the data; Scoop investigates the why, scaling expert reasoning to every decision."
 
 ---
 
@@ -381,5 +372,5 @@ A: Sections 1, 5 could be partially auto-generated from BUA scores. But human ju
 ---
 
 **Created**: September 27, 2025
-**Last Updated**: September 27, 2025
+**Last Updated**: November 19, 2025
 **Status**: Framework Complete, Rollout Beginning
